@@ -1,5 +1,7 @@
-/* All three ML-KEM parameter sets in one compilation unit, following
- * mlkem-native's examples/monolithic_build_multilevel. */
+/* Variant "ref": mlkem-native exactly as upstream ships it (portable C,
+ * its own Keccak), all three parameter sets in one compilation unit as in
+ * its examples/monolithic_build_multilevel. Symbols: mlkem512_*, mlkem768_*,
+ * mlkem1024_*. */
 #include "mlkem_all.h"
 
 #define MLK_CONFIG_MULTILEVEL_WITH_SHARED

@@ -35,3 +35,14 @@ All dates 2026-11-11 unless noted.
      into conditional branches on secret operands, in upstream code too.
    - The heap of a RAM image is split into regions of at most 128 KB, which
      caps a single task stack at about 115 KB.
+7. **FN-DSA and HQC accepted.** Both suites were rerun independently after
+   the linking fix; known-answer tests pass and all output fingerprints equal
+   the host build.
+8. **The Keccak, ML-KEM and ML-DSA line stopped early.** The session running
+   it ended before it delivered its report and its experiment log. Its suites
+   (`keccak`, `mlkem`, `mldsa`, `mldsa87`, `mldsa_lowram`), their notes and
+   the results of its own last runs were on disk and are committed as they
+   were: every job passes, and the fingerprints of those runs equal the host
+   build. They have not been rerun independently, and there is no
+   `experiments/*.jsonl` for them; the prose record is in each suite's
+   `NOTES.md`.

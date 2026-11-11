@@ -1,0 +1,117 @@
+{
+ "results": {
+  "mldsa87/ref/kat": {
+   "iters": 1,
+   "avg_us": 459,
+   "min_us": 459,
+   "max_us": 459,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87/ref/keygen": {
+   "iters": 5,
+   "avg_us": 89,
+   "min_us": 76,
+   "max_us": 136,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87/ref/sign": {
+   "iters": 20,
+   "avg_us": 288,
+   "min_us": 125,
+   "max_us": 698,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87/ref/verify": {
+   "iters": 5,
+   "avg_us": 108,
+   "min_us": 108,
+   "max_us": 111,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87/opt/kat": {
+   "iters": 1,
+   "avg_us": 583,
+   "min_us": 583,
+   "max_us": 583,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87/opt/keygen": {
+   "iters": 5,
+   "avg_us": 100,
+   "min_us": 100,
+   "max_us": 102,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87/opt/sign": {
+   "iters": 20,
+   "avg_us": 283,
+   "min_us": 126,
+   "max_us": 650,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87/opt/verify": {
+   "iters": 5,
+   "avg_us": 108,
+   "min_us": 107,
+   "max_us": 112,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mldsa87/ref/pk": {
+   "sha256_16": "8439b62cb776684b663cfc2ae125e05c",
+   "len": 2592
+  },
+  "mldsa87/ref/sk": {
+   "sha256_16": "c4d3a4e4a677e9250f69a3dddfd16821",
+   "len": 4896
+  },
+  "mldsa87/ref/sig": {
+   "sha256_16": "c52e2f8110264d64d078c0a7997a8594",
+   "len": 4627
+  },
+  "mldsa87/opt/pk": {
+   "sha256_16": "8439b62cb776684b663cfc2ae125e05c",
+   "len": 2592
+  },
+  "mldsa87/opt/sk": {
+   "sha256_16": "c4d3a4e4a677e9250f69a3dddfd16821",
+   "len": 4896
+  },
+  "mldsa87/opt/sig": {
+   "sha256_16": "c52e2f8110264d64d078c0a7997a8594",
+   "len": 4627
+  }
+ },
+ "checks": {
+  "mldsa87/ref/kat": "PASS",
+  "mldsa87/opt/kat": "PASS"
+ },
+ "info": {
+  "mldsa87": "pk=2592 sk=4896 sig=4627",
+  "mldsa87/perms/keygen": "325 Keccak permutations",
+  "mldsa87/perms/sign": "453 Keccak permutations",
+  "mldsa87/perms/verify": "311 Keccak permutations"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

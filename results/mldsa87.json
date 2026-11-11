@@ -1,0 +1,114 @@
+{
+ "results": {
+  "mldsa87/ref/kat": {
+   "iters": 1,
+   "avg_us": 268441,
+   "min_us": 268441,
+   "max_us": 268441,
+   "stack": 6212,
+   "heap": 111936,
+   "rc": 0
+  },
+  "mldsa87/ref/keygen": {
+   "iters": 5,
+   "avg_us": 56004,
+   "min_us": 55573,
+   "max_us": 56115,
+   "stack": 5428,
+   "heap": 69380,
+   "rc": 0
+  },
+  "mldsa87/ref/sign": {
+   "iters": 20,
+   "avg_us": 128307,
+   "min_us": 74228,
+   "max_us": 274817,
+   "stack": 5476,
+   "heap": 112368,
+   "rc": 0
+  },
+  "mldsa87/ref/verify": {
+   "iters": 5,
+   "avg_us": 56332,
+   "min_us": 56330,
+   "max_us": 56334,
+   "stack": 5844,
+   "heap": 71456,
+   "rc": 0
+  },
+  "mldsa87/opt/kat": {
+   "iters": 1,
+   "avg_us": 142728,
+   "min_us": 142728,
+   "max_us": 142728,
+   "stack": 3108,
+   "heap": 111936,
+   "rc": 0
+  },
+  "mldsa87/opt/keygen": {
+   "iters": 5,
+   "avg_us": 31570,
+   "min_us": 31474,
+   "max_us": 31794,
+   "stack": 2116,
+   "heap": 69380,
+   "rc": 0
+  },
+  "mldsa87/opt/sign": {
+   "iters": 20,
+   "avg_us": 62287,
+   "min_us": 37680,
+   "max_us": 128177,
+   "stack": 2100,
+   "heap": 112368,
+   "rc": 0
+  },
+  "mldsa87/opt/verify": {
+   "iters": 5,
+   "avg_us": 31318,
+   "min_us": 31318,
+   "max_us": 31319,
+   "stack": 2740,
+   "heap": 71456,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mldsa87/ref/pk": {
+   "sha256_16": "8439b62cb776684b663cfc2ae125e05c",
+   "len": 2592
+  },
+  "mldsa87/ref/sk": {
+   "sha256_16": "c4d3a4e4a677e9250f69a3dddfd16821",
+   "len": 4896
+  },
+  "mldsa87/ref/sig": {
+   "sha256_16": "c52e2f8110264d64d078c0a7997a8594",
+   "len": 4627
+  },
+  "mldsa87/opt/pk": {
+   "sha256_16": "8439b62cb776684b663cfc2ae125e05c",
+   "len": 2592
+  },
+  "mldsa87/opt/sk": {
+   "sha256_16": "c4d3a4e4a677e9250f69a3dddfd16821",
+   "len": 4896
+  },
+  "mldsa87/opt/sig": {
+   "sha256_16": "c52e2f8110264d64d078c0a7997a8594",
+   "len": 4627
+  }
+ },
+ "checks": {
+  "mldsa87/ref/kat": "PASS",
+  "mldsa87/opt/kat": "PASS"
+ },
+ "info": {
+  "mldsa87": "pk=2592 sk=4896 sig=4627"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 202032,
+ "heap_free_min": 39460
+}
