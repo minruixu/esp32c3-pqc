@@ -1,0 +1,152 @@
+{
+ "results": {
+  "gmssl-sphincstest/ref/quick": {
+   "iters": 1,
+   "avg_us": 949,
+   "min_us": 949,
+   "max_us": 949,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-sphincstest/ref/hostfull": {
+   "iters": 1,
+   "avg_us": 1541928,
+   "min_us": 1541928,
+   "max_us": 1541928,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-sphincstest/opt/quick": {
+   "iters": 1,
+   "avg_us": 842,
+   "min_us": 842,
+   "max_us": 842,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-sphincstest/opt/hostfull": {
+   "iters": 1,
+   "avg_us": 2088025,
+   "min_us": 2088025,
+   "max_us": 2088025,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-sphincs-sm3-128s/ref/keygen": {
+   "iters": 1,
+   "avg_us": 73222,
+   "min_us": 73222,
+   "max_us": 73222,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-sphincs-sm3-128s/ref/sign": {
+   "iters": 1,
+   "avg_us": 579147,
+   "min_us": 579147,
+   "max_us": 579147,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-sphincs-sm3-128s/ref/verify": {
+   "iters": 3,
+   "avg_us": 480,
+   "min_us": 471,
+   "max_us": 490,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-sphincs-sm3-128s/ref/reject": {
+   "iters": 1,
+   "avg_us": 518,
+   "min_us": 518,
+   "max_us": 518,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-sphincs-sm3-128s/opt/keygen": {
+   "iters": 1,
+   "avg_us": 99124,
+   "min_us": 99124,
+   "max_us": 99124,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-sphincs-sm3-128s/opt/sign": {
+   "iters": 1,
+   "avg_us": 797021,
+   "min_us": 797021,
+   "max_us": 797021,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-sphincs-sm3-128s/opt/verify": {
+   "iters": 3,
+   "avg_us": 645,
+   "min_us": 642,
+   "max_us": 648,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-sphincs-sm3-128s/opt/reject": {
+   "iters": 1,
+   "avg_us": 705,
+   "min_us": 705,
+   "max_us": 705,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "gmssl-sphincs-sm3-128s/ref/pk": {
+   "sha256_16": "12a63a60107da8408b667a4fe830dcc7",
+   "len": 32
+  },
+  "gmssl-sphincs-sm3-128s/ref/sig": {
+   "sha256_16": "7b0b8b0ffa1137452e0bf908b9f4e8fc",
+   "len": 7856
+  },
+  "gmssl-sphincs-sm3-128s/opt/pk": {
+   "sha256_16": "12a63a60107da8408b667a4fe830dcc7",
+   "len": 32
+  },
+  "gmssl-sphincs-sm3-128s/opt/sig": {
+   "sha256_16": "7b0b8b0ffa1137452e0bf908b9f4e8fc",
+   "len": 7856
+  }
+ },
+ "checks": {
+  "gmssl-sphincstest/ref/quick": "PASS",
+  "gmssl-sphincstest/ref/hostfull": "PASS",
+  "gmssl-sphincstest/opt/quick": "PASS",
+  "gmssl-sphincstest/opt/hostfull": "PASS",
+  "gmssl-sphincs-sm3-128s/ref/verify": "PASS",
+  "gmssl-sphincs-sm3-128s/ref/reject": "PASS",
+  "gmssl-sphincs-sm3-128s/opt/verify": "PASS",
+  "gmssl-sphincs-sm3-128s/opt/reject": "PASS"
+ },
+ "info": {
+  "gmssl-sphincs-sm3-128s/ref/skipped": "run with -f gmssl-sphincs-sm3-128s/ref",
+  "gmssl-sphincs-sm3-128s/opt/skipped": "run with -f gmssl-sphincs-sm3-128s/opt",
+  "gmssl-sphincs-sm3-128s": "pk=32 sig=7856",
+  "gmssl-sphincs-sm3-128s/ref/stack": "0 bytes on the static stack",
+  "gmssl-sphincs-sm3-128s/opt/stack": "0 bytes on the static stack"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

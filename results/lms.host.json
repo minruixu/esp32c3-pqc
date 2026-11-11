@@ -1,0 +1,1207 @@
+{
+ "results": {
+  "kat-rfc8554_tc1/ref/verify": {
+   "iters": 1,
+   "avg_us": 6320,
+   "min_us": 6320,
+   "max_us": 6320,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc8554_tc2/ref/verify": {
+   "iters": 1,
+   "avg_us": 1360,
+   "min_us": 1360,
+   "max_us": 1360,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc8554_tc2/ref/keygen+sign": {
+   "iters": 1,
+   "avg_us": 188407,
+   "min_us": 188407,
+   "max_us": 188407,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc1/ref/verify": {
+   "iters": 1,
+   "avg_us": 1282,
+   "min_us": 1282,
+   "max_us": 1282,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc1/ref/keygen+sign": {
+   "iters": 1,
+   "avg_us": 27193,
+   "min_us": 27193,
+   "max_us": 27193,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc2/ref/verify": {
+   "iters": 1,
+   "avg_us": 1417,
+   "min_us": 1417,
+   "max_us": 1417,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc3/ref/verify": {
+   "iters": 1,
+   "avg_us": 1961,
+   "min_us": 1961,
+   "max_us": 1961,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc4/ref/verify": {
+   "iters": 1,
+   "avg_us": 184,
+   "min_us": 184,
+   "max_us": 184,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc4/ref/keygen+sign": {
+   "iters": 1,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-gmssl_sm3_hss/ref/verify": {
+   "iters": 1,
+   "avg_us": 2395,
+   "min_us": 2395,
+   "max_us": 2395,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 34557,
+   "min_us": 34557,
+   "max_us": 34557,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w8/ref/sign": {
+   "iters": 32,
+   "avg_us": 512,
+   "min_us": 409,
+   "max_us": 627,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w8/ref/verify": {
+   "iters": 10,
+   "avg_us": 667,
+   "min_us": 655,
+   "max_us": 689,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/ref/keygen": {
+   "iters": 1,
+   "avg_us": 4396,
+   "min_us": 4396,
+   "max_us": 4396,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/ref/sign": {
+   "iters": 32,
+   "avg_us": 68,
+   "min_us": 56,
+   "max_us": 83,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/ref/verify": {
+   "iters": 10,
+   "avg_us": 75,
+   "min_us": 73,
+   "max_us": 82,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/ref/selftest": {
+   "iters": 1,
+   "avg_us": 15653,
+   "min_us": 15653,
+   "max_us": 15653,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w2/ref/keygen": {
+   "iters": 1,
+   "avg_us": 2340,
+   "min_us": 2340,
+   "max_us": 2340,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w2/ref/sign": {
+   "iters": 32,
+   "avg_us": 41,
+   "min_us": 36,
+   "max_us": 52,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w2/ref/verify": {
+   "iters": 10,
+   "avg_us": 36,
+   "min_us": 36,
+   "max_us": 37,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w1/ref/keygen": {
+   "iters": 1,
+   "avg_us": 2610,
+   "min_us": 2610,
+   "max_us": 2610,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w1/ref/sign": {
+   "iters": 32,
+   "avg_us": 50,
+   "min_us": 46,
+   "max_us": 56,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w1/ref/verify": {
+   "iters": 10,
+   "avg_us": 37,
+   "min_us": 34,
+   "max_us": 41,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/ref/keygen": {
+   "iters": 1,
+   "avg_us": 141277,
+   "min_us": 141277,
+   "max_us": 141277,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/ref/sign": {
+   "iters": 70,
+   "avg_us": 147,
+   "min_us": 60,
+   "max_us": 247,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/ref/verify": {
+   "iters": 10,
+   "avg_us": 68,
+   "min_us": 65,
+   "max_us": 79,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h5-w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 26405,
+   "min_us": 26405,
+   "max_us": 26405,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h5-w8/ref/sign": {
+   "iters": 32,
+   "avg_us": 401,
+   "min_us": 315,
+   "max_us": 488,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h5-w8/ref/verify": {
+   "iters": 10,
+   "avg_us": 453,
+   "min_us": 437,
+   "max_us": 480,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h10-w4/ref/keygen": {
+   "iters": 1,
+   "avg_us": 107514,
+   "min_us": 107514,
+   "max_us": 107514,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h10-w4/ref/sign": {
+   "iters": 70,
+   "avg_us": 116,
+   "min_us": 46,
+   "max_us": 178,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h10-w4/ref/verify": {
+   "iters": 10,
+   "avg_us": 56,
+   "min_us": 56,
+   "max_us": 57,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m32-h5-w4/ref/keygen": {
+   "iters": 1,
+   "avg_us": 5443,
+   "min_us": 5443,
+   "max_us": 5443,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m32-h5-w4/ref/sign": {
+   "iters": 32,
+   "avg_us": 89,
+   "min_us": 76,
+   "max_us": 98,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m32-h5-w4/ref/verify": {
+   "iters": 10,
+   "avg_us": 83,
+   "min_us": 82,
+   "max_us": 87,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m24-h5-w4/ref/keygen": {
+   "iters": 1,
+   "avg_us": 4122,
+   "min_us": 4122,
+   "max_us": 4122,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m24-h5-w4/ref/sign": {
+   "iters": 32,
+   "avg_us": 67,
+   "min_us": 59,
+   "max_us": 76,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m24-h5-w4/ref/verify": {
+   "iters": 10,
+   "avg_us": 60,
+   "min_us": 59,
+   "max_us": 63,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 48581,
+   "min_us": 48581,
+   "max_us": 48581,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/ref/sign": {
+   "iters": 32,
+   "avg_us": 729,
+   "min_us": 573,
+   "max_us": 918,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/ref/verify": {
+   "iters": 10,
+   "avg_us": 789,
+   "min_us": 767,
+   "max_us": 819,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hss-sha256-h5w8-h5w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 69647,
+   "min_us": 69647,
+   "max_us": 69647,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hss-sha256-h5w8-h5w8/ref/sign": {
+   "iters": 40,
+   "avg_us": 1407,
+   "min_us": 418,
+   "max_us": 35591,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hss-sha256-h5w8-h5w8/ref/verify": {
+   "iters": 5,
+   "avg_us": 1200,
+   "min_us": 1195,
+   "max_us": 1211,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc8554_tc1/opt/verify": {
+   "iters": 1,
+   "avg_us": 2715,
+   "min_us": 2715,
+   "max_us": 2715,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc8554_tc2/opt/verify": {
+   "iters": 1,
+   "avg_us": 1126,
+   "min_us": 1126,
+   "max_us": 1126,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc8554_tc2/opt/keygen+sign": {
+   "iters": 1,
+   "avg_us": 145201,
+   "min_us": 145201,
+   "max_us": 145201,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc1/opt/verify": {
+   "iters": 1,
+   "avg_us": 1007,
+   "min_us": 1007,
+   "max_us": 1007,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc1/opt/keygen+sign": {
+   "iters": 1,
+   "avg_us": 22665,
+   "min_us": 22665,
+   "max_us": 22665,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc2/opt/verify": {
+   "iters": 1,
+   "avg_us": 1498,
+   "min_us": 1498,
+   "max_us": 1498,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc2/opt/keygen+sign": {
+   "iters": 1,
+   "avg_us": 29959,
+   "min_us": 29959,
+   "max_us": 29959,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc3/opt/verify": {
+   "iters": 1,
+   "avg_us": 1949,
+   "min_us": 1949,
+   "max_us": 1949,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc3/opt/keygen+sign": {
+   "iters": 1,
+   "avg_us": 39104,
+   "min_us": 39104,
+   "max_us": 39104,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc4/opt/verify": {
+   "iters": 1,
+   "avg_us": 159,
+   "min_us": 159,
+   "max_us": 159,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc4/opt/keygen+sign": {
+   "iters": 1,
+   "avg_us": 1,
+   "min_us": 1,
+   "max_us": 1,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-gmssl_sm3_hss/opt/verify": {
+   "iters": 1,
+   "avg_us": 2418,
+   "min_us": 2418,
+   "max_us": 2418,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w8/opt/keygen": {
+   "iters": 1,
+   "avg_us": 28560,
+   "min_us": 28560,
+   "max_us": 28560,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w8/opt/sign": {
+   "iters": 32,
+   "avg_us": 416,
+   "min_us": 331,
+   "max_us": 485,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w8/opt/verify": {
+   "iters": 10,
+   "avg_us": 545,
+   "min_us": 532,
+   "max_us": 580,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/opt/keygen": {
+   "iters": 1,
+   "avg_us": 3571,
+   "min_us": 3571,
+   "max_us": 3571,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/opt/sign": {
+   "iters": 32,
+   "avg_us": 56,
+   "min_us": 46,
+   "max_us": 65,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/opt/verify": {
+   "iters": 10,
+   "avg_us": 60,
+   "min_us": 60,
+   "max_us": 61,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/opt/selftest": {
+   "iters": 1,
+   "avg_us": 12823,
+   "min_us": 12823,
+   "max_us": 12823,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w2/opt/keygen": {
+   "iters": 1,
+   "avg_us": 1959,
+   "min_us": 1959,
+   "max_us": 1959,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w2/opt/sign": {
+   "iters": 32,
+   "avg_us": 35,
+   "min_us": 30,
+   "max_us": 41,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w2/opt/verify": {
+   "iters": 10,
+   "avg_us": 30,
+   "min_us": 30,
+   "max_us": 31,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w1/opt/keygen": {
+   "iters": 1,
+   "avg_us": 2247,
+   "min_us": 2247,
+   "max_us": 2247,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w1/opt/sign": {
+   "iters": 32,
+   "avg_us": 43,
+   "min_us": 40,
+   "max_us": 50,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w1/opt/verify": {
+   "iters": 10,
+   "avg_us": 32,
+   "min_us": 31,
+   "max_us": 38,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/opt/keygen": {
+   "iters": 1,
+   "avg_us": 116375,
+   "min_us": 116375,
+   "max_us": 116375,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/opt/sign": {
+   "iters": 70,
+   "avg_us": 123,
+   "min_us": 50,
+   "max_us": 217,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/opt/verify": {
+   "iters": 10,
+   "avg_us": 55,
+   "min_us": 55,
+   "max_us": 56,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/opt/selftest": {
+   "iters": 1,
+   "avg_us": 125478,
+   "min_us": 125478,
+   "max_us": 125478,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/opt/keygen": {
+   "iters": 1,
+   "avg_us": 906385,
+   "min_us": 906385,
+   "max_us": 906385,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/opt/sign": {
+   "iters": 40,
+   "avg_us": 611,
+   "min_us": 344,
+   "max_us": 1411,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/opt/verify": {
+   "iters": 10,
+   "avg_us": 523,
+   "min_us": 488,
+   "max_us": 550,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h5-w8/opt/keygen": {
+   "iters": 1,
+   "avg_us": 21540,
+   "min_us": 21540,
+   "max_us": 21540,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h5-w8/opt/sign": {
+   "iters": 32,
+   "avg_us": 327,
+   "min_us": 255,
+   "max_us": 395,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h5-w8/opt/verify": {
+   "iters": 10,
+   "avg_us": 369,
+   "min_us": 357,
+   "max_us": 406,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h10-w4/opt/keygen": {
+   "iters": 1,
+   "avg_us": 87154,
+   "min_us": 87154,
+   "max_us": 87154,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h10-w4/opt/sign": {
+   "iters": 70,
+   "avg_us": 91,
+   "min_us": 36,
+   "max_us": 149,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h10-w4/opt/verify": {
+   "iters": 10,
+   "avg_us": 43,
+   "min_us": 43,
+   "max_us": 44,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m32-h5-w4/opt/keygen": {
+   "iters": 1,
+   "avg_us": 4812,
+   "min_us": 4812,
+   "max_us": 4812,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m32-h5-w4/opt/sign": {
+   "iters": 32,
+   "avg_us": 82,
+   "min_us": 66,
+   "max_us": 97,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m32-h5-w4/opt/verify": {
+   "iters": 10,
+   "avg_us": 78,
+   "min_us": 77,
+   "max_us": 82,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m24-h5-w4/opt/keygen": {
+   "iters": 1,
+   "avg_us": 3705,
+   "min_us": 3705,
+   "max_us": 3705,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m24-h5-w4/opt/sign": {
+   "iters": 32,
+   "avg_us": 59,
+   "min_us": 52,
+   "max_us": 67,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m24-h5-w4/opt/verify": {
+   "iters": 10,
+   "avg_us": 52,
+   "min_us": 51,
+   "max_us": 59,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/opt/keygen": {
+   "iters": 1,
+   "avg_us": 53323,
+   "min_us": 53323,
+   "max_us": 53323,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/opt/sign": {
+   "iters": 32,
+   "avg_us": 850,
+   "min_us": 624,
+   "max_us": 1073,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/opt/verify": {
+   "iters": 10,
+   "avg_us": 797,
+   "min_us": 762,
+   "max_us": 839,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hss-sha256-h5w8-h5w8/opt/keygen": {
+   "iters": 1,
+   "avg_us": 60211,
+   "min_us": 60211,
+   "max_us": 60211,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hss-sha256-h5w8-h5w8/opt/sign": {
+   "iters": 40,
+   "avg_us": 1226,
+   "min_us": 372,
+   "max_us": 30867,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hss-sha256-h5w8-h5w8/opt/verify": {
+   "iters": 5,
+   "avg_us": 1049,
+   "min_us": 979,
+   "max_us": 1083,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 1123198,
+   "min_us": 1123198,
+   "max_us": 1123198,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/ref/sign": {
+   "iters": 40,
+   "avg_us": 721,
+   "min_us": 409,
+   "max_us": 1657,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/ref/verify": {
+   "iters": 10,
+   "avg_us": 584,
+   "min_us": 583,
+   "max_us": 585,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 1565353,
+   "min_us": 1565353,
+   "max_us": 1565353,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/ref/sign": {
+   "iters": 40,
+   "avg_us": 1074,
+   "min_us": 572,
+   "max_us": 2540,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/ref/verify": {
+   "iters": 10,
+   "avg_us": 889,
+   "min_us": 863,
+   "max_us": 983,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/opt/keygen": {
+   "iters": 1,
+   "avg_us": 1546909,
+   "min_us": 1546909,
+   "max_us": 1546909,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/opt/sign": {
+   "iters": 40,
+   "avg_us": 1013,
+   "min_us": 558,
+   "max_us": 2393,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/opt/verify": {
+   "iters": 10,
+   "avg_us": 972,
+   "min_us": 945,
+   "max_us": 1041,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "lms-sha256-m32-h5-w8/ref/pk": {
+   "sha256_16": "1484a3c811ff9990c7cf5e160de8497a",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w8/ref/sig": {
+   "sha256_16": "c7cde4b7d4af6593393c5f11c04f1535",
+   "len": 1292
+  },
+  "lms-sha256-m32-h5-w4/ref/pk": {
+   "sha256_16": "89cc51b9bf97d5c98f10734e39ef6006",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w4/ref/sig": {
+   "sha256_16": "4216f55e084fff3add503407558925cd",
+   "len": 2348
+  },
+  "lms-sha256-m32-h5-w2/ref/pk": {
+   "sha256_16": "347617828398869c7214c0090f88328a",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w2/ref/sig": {
+   "sha256_16": "184b110860464d99e8bc90ce49c8682d",
+   "len": 4460
+  },
+  "lms-sha256-m32-h5-w1/ref/pk": {
+   "sha256_16": "48c6117c935c6a6d149592922b4e8288",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w1/ref/sig": {
+   "sha256_16": "2ec970029cfedb5602696ed5165f28ac",
+   "len": 8684
+  },
+  "lms-sha256-m32-h10-w4/ref/pk": {
+   "sha256_16": "479ef3b581325ddea846d175b4234f91",
+   "len": 56
+  },
+  "lms-sha256-m32-h10-w4/ref/sig": {
+   "sha256_16": "0d94f6326bbf67916062636867825572",
+   "len": 2508
+  },
+  "lms-sha256-m24-h5-w8/ref/pk": {
+   "sha256_16": "b7428e0d3acc26b8fc9f3eb2821ddf18",
+   "len": 48
+  },
+  "lms-sha256-m24-h5-w8/ref/sig": {
+   "sha256_16": "b388e50cdeb5bfb7ba0844360935a173",
+   "len": 780
+  },
+  "lms-sha256-m24-h10-w4/ref/pk": {
+   "sha256_16": "ee064eb94505f736815e5c942b551942",
+   "len": 48
+  },
+  "lms-sha256-m24-h10-w4/ref/sig": {
+   "sha256_16": "7366ef8fd533bc8a6ea169456defa75e",
+   "len": 1500
+  },
+  "lms-shake-m32-h5-w4/ref/pk": {
+   "sha256_16": "a7d59e7ad63043932b82e7770f139bba",
+   "len": 56
+  },
+  "lms-shake-m32-h5-w4/ref/sig": {
+   "sha256_16": "b4eec274653453e26f1f89c232ff8f6d",
+   "len": 2348
+  },
+  "lms-shake-m24-h5-w4/ref/pk": {
+   "sha256_16": "2ecb2585f4ddba2cce48d13e97686c69",
+   "len": 48
+  },
+  "lms-shake-m24-h5-w4/ref/sig": {
+   "sha256_16": "03b03127e1c049a93973db69ab191cd4",
+   "len": 1380
+  },
+  "lms-sm3-m32-h5-w8/ref/pk": {
+   "sha256_16": "577044a012005382ea102e71511b6a67",
+   "len": 56
+  },
+  "lms-sm3-m32-h5-w8/ref/sig": {
+   "sha256_16": "8e00ddb96f4791ca5a406621b995ca62",
+   "len": 1292
+  },
+  "hss-sha256-h5w8-h5w8/ref/pk": {
+   "sha256_16": "a90f0f9cc0d778603db4d70604d3a14d",
+   "len": 60
+  },
+  "hss-sha256-h5w8-h5w8/ref/sig": {
+   "sha256_16": "f7c23cb52a5f174672c33eb79fd4dddf",
+   "len": 2644
+  },
+  "lms-sha256-m32-h5-w8/opt/pk": {
+   "sha256_16": "1484a3c811ff9990c7cf5e160de8497a",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w8/opt/sig": {
+   "sha256_16": "c7cde4b7d4af6593393c5f11c04f1535",
+   "len": 1292
+  },
+  "lms-sha256-m32-h5-w4/opt/pk": {
+   "sha256_16": "89cc51b9bf97d5c98f10734e39ef6006",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w4/opt/sig": {
+   "sha256_16": "4216f55e084fff3add503407558925cd",
+   "len": 2348
+  },
+  "lms-sha256-m32-h5-w2/opt/pk": {
+   "sha256_16": "347617828398869c7214c0090f88328a",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w2/opt/sig": {
+   "sha256_16": "184b110860464d99e8bc90ce49c8682d",
+   "len": 4460
+  },
+  "lms-sha256-m32-h5-w1/opt/pk": {
+   "sha256_16": "48c6117c935c6a6d149592922b4e8288",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w1/opt/sig": {
+   "sha256_16": "2ec970029cfedb5602696ed5165f28ac",
+   "len": 8684
+  },
+  "lms-sha256-m32-h10-w4/opt/pk": {
+   "sha256_16": "479ef3b581325ddea846d175b4234f91",
+   "len": 56
+  },
+  "lms-sha256-m32-h10-w4/opt/sig": {
+   "sha256_16": "0d94f6326bbf67916062636867825572",
+   "len": 2508
+  },
+  "lms-sha256-m32-h10-w4/opt/sig100": {
+   "sha256_16": "aac3663d5195df41dc2a401d3702e3a9",
+   "len": 2508
+  },
+  "lms-sha256-m32-h10-w8/opt/pk": {
+   "sha256_16": "457790dd462c8b89bda43164e30585d0",
+   "len": 56
+  },
+  "lms-sha256-m32-h10-w8/opt/sig": {
+   "sha256_16": "3d30aefaca444236c532f638243d9190",
+   "len": 1452
+  },
+  "lms-sha256-m24-h5-w8/opt/pk": {
+   "sha256_16": "b7428e0d3acc26b8fc9f3eb2821ddf18",
+   "len": 48
+  },
+  "lms-sha256-m24-h5-w8/opt/sig": {
+   "sha256_16": "b388e50cdeb5bfb7ba0844360935a173",
+   "len": 780
+  },
+  "lms-sha256-m24-h10-w4/opt/pk": {
+   "sha256_16": "ee064eb94505f736815e5c942b551942",
+   "len": 48
+  },
+  "lms-sha256-m24-h10-w4/opt/sig": {
+   "sha256_16": "7366ef8fd533bc8a6ea169456defa75e",
+   "len": 1500
+  },
+  "lms-shake-m32-h5-w4/opt/pk": {
+   "sha256_16": "a7d59e7ad63043932b82e7770f139bba",
+   "len": 56
+  },
+  "lms-shake-m32-h5-w4/opt/sig": {
+   "sha256_16": "b4eec274653453e26f1f89c232ff8f6d",
+   "len": 2348
+  },
+  "lms-shake-m24-h5-w4/opt/pk": {
+   "sha256_16": "2ecb2585f4ddba2cce48d13e97686c69",
+   "len": 48
+  },
+  "lms-shake-m24-h5-w4/opt/sig": {
+   "sha256_16": "03b03127e1c049a93973db69ab191cd4",
+   "len": 1380
+  },
+  "lms-sm3-m32-h5-w8/opt/pk": {
+   "sha256_16": "577044a012005382ea102e71511b6a67",
+   "len": 56
+  },
+  "lms-sm3-m32-h5-w8/opt/sig": {
+   "sha256_16": "8e00ddb96f4791ca5a406621b995ca62",
+   "len": 1292
+  },
+  "hss-sha256-h5w8-h5w8/opt/pk": {
+   "sha256_16": "a90f0f9cc0d778603db4d70604d3a14d",
+   "len": 60
+  },
+  "hss-sha256-h5w8-h5w8/opt/sig": {
+   "sha256_16": "f7c23cb52a5f174672c33eb79fd4dddf",
+   "len": 2644
+  },
+  "lms-sha256-m32-h10-w8/ref/pk": {
+   "sha256_16": "457790dd462c8b89bda43164e30585d0",
+   "len": 56
+  },
+  "lms-sha256-m32-h10-w8/ref/sig": {
+   "sha256_16": "3d30aefaca444236c532f638243d9190",
+   "len": 1452
+  },
+  "lms-sm3-m32-h10-w8/ref/pk": {
+   "sha256_16": "9cc46cd714007b3629f0bfa855c03721",
+   "len": 56
+  },
+  "lms-sm3-m32-h10-w8/ref/sig": {
+   "sha256_16": "4ba7725423de0d17a6d29667ed76b02d",
+   "len": 1452
+  },
+  "lms-sm3-m32-h10-w8/opt/pk": {
+   "sha256_16": "9cc46cd714007b3629f0bfa855c03721",
+   "len": 56
+  },
+  "lms-sm3-m32-h10-w8/opt/sig": {
+   "sha256_16": "4ba7725423de0d17a6d29667ed76b02d",
+   "len": 1452
+  }
+ },
+ "checks": {
+  "kat-rfc8554_tc1/ref/verify": "PASS",
+  "kat-rfc8554_tc2/ref/verify": "PASS",
+  "kat-rfc8554_tc2/ref/keygen+sign": "PASS",
+  "kat-rfc9858_tc1/ref/verify": "PASS",
+  "kat-rfc9858_tc1/ref/keygen+sign": "PASS",
+  "kat-rfc9858_tc2/ref/verify": "PASS",
+  "kat-rfc9858_tc3/ref/verify": "PASS",
+  "kat-rfc9858_tc4/ref/verify": "PASS",
+  "kat-rfc9858_tc4/ref/keygen+sign": "PASS",
+  "kat-gmssl_sm3_hss/ref/verify": "PASS",
+  "lms-sha256-m32-h5-w4/ref/selftest": "PASS",
+  "hss-sha256-h5w8-h5w8/ref/verify": "PASS",
+  "kat-rfc8554_tc1/opt/verify": "PASS",
+  "kat-rfc8554_tc2/opt/verify": "PASS",
+  "kat-rfc8554_tc2/opt/keygen+sign": "PASS",
+  "kat-rfc9858_tc1/opt/verify": "PASS",
+  "kat-rfc9858_tc1/opt/keygen+sign": "PASS",
+  "kat-rfc9858_tc2/opt/verify": "PASS",
+  "kat-rfc9858_tc2/opt/keygen+sign": "PASS",
+  "kat-rfc9858_tc3/opt/verify": "PASS",
+  "kat-rfc9858_tc3/opt/keygen+sign": "PASS",
+  "kat-rfc9858_tc4/opt/verify": "PASS",
+  "kat-rfc9858_tc4/opt/keygen+sign": "PASS",
+  "kat-gmssl_sm3_hss/opt/verify": "PASS",
+  "lms-sha256-m32-h5-w4/opt/selftest": "PASS",
+  "lms-sha256-m32-h10-w4/opt/selftest": "PASS",
+  "hss-sha256-h5w8-h5w8/opt/verify": "PASS"
+ },
+ "info": {
+  "kat-rfc8554_tc2/ref/steps": "3",
+  "kat-rfc9858_tc1/ref/steps": "2",
+  "kat-rfc9858_tc2/ref/keygen+sign": "only run in the opt variant",
+  "kat-rfc9858_tc3/ref/keygen+sign": "only run in the opt variant",
+  "kat-rfc9858_tc4/ref/steps": "0",
+  "lms-sha256-m32-h5-w8": "pk=56 sig=1292 signatures=32 n=32 w=8 p=34",
+  "lms-sha256-m32-h5-w4": "pk=56 sig=2348 signatures=32 n=32 w=4 p=67",
+  "lms-sha256-m32-h5-w2": "pk=56 sig=4460 signatures=32 n=32 w=2 p=133",
+  "lms-sha256-m32-h5-w1": "pk=56 sig=8684 signatures=32 n=32 w=1 p=265",
+  "lms-sha256-m32-h10-w4": "pk=56 sig=2508 signatures=1024 n=32 w=4 p=67",
+  "lms-sha256-m32-h10-w8/ref/skipped": "run with -f lms-sha256-m32-h10-w8/ref",
+  "lms-sha256-m24-h5-w8": "pk=48 sig=780 signatures=32 n=24 w=8 p=26",
+  "lms-sha256-m24-h10-w4": "pk=48 sig=1500 signatures=1024 n=24 w=4 p=51",
+  "lms-shake-m32-h5-w4": "pk=56 sig=2348 signatures=32 n=32 w=4 p=67",
+  "lms-shake-m24-h5-w4": "pk=48 sig=1380 signatures=32 n=24 w=4 p=51",
+  "lms-sm3-m32-h5-w8": "pk=56 sig=1292 signatures=32 n=32 w=8 p=34",
+  "lms-sm3-m32-h10-w8/ref/skipped": "run with -f lms-sm3-m32-h10-w8/ref",
+  "hss-sha256-h5w8-h5w8": "pk=60 sig=2644 signatures=1024",
+  "kat-rfc8554_tc2/opt/steps": "3",
+  "kat-rfc9858_tc1/opt/steps": "2",
+  "kat-rfc9858_tc2/opt/steps": "2",
+  "kat-rfc9858_tc3/opt/steps": "2",
+  "kat-rfc9858_tc4/opt/steps": "0",
+  "lms-sha256-m32-h10-w8": "pk=56 sig=1452 signatures=1024 n=32 w=8 p=34",
+  "lms-sm3-m32-h10-w8/opt/skipped": "run with -f lms-sm3-m32-h10-w8/opt",
+  "lms-sm3-m32-h10-w8": "pk=56 sig=1452 signatures=1024 n=32 w=8 p=34"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

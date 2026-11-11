@@ -1,0 +1,128 @@
+{
+ "results": {
+  "gmssl-kybertest/ref/quick": {
+   "iters": 1,
+   "avg_us": 844,
+   "min_us": 844,
+   "max_us": 844,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-kybertest/ref/hostfull": {
+   "iters": 1,
+   "avg_us": 697,
+   "min_us": 697,
+   "max_us": 697,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-kyber768/ref/keygen": {
+   "iters": 10,
+   "avg_us": 40,
+   "min_us": 40,
+   "max_us": 42,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-kyber768/ref/encaps": {
+   "iters": 10,
+   "avg_us": 40,
+   "min_us": 39,
+   "max_us": 41,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-kyber768/ref/decaps": {
+   "iters": 10,
+   "avg_us": 41,
+   "min_us": 41,
+   "max_us": 43,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-kybertest/opt/quick": {
+   "iters": 1,
+   "avg_us": 706,
+   "min_us": 706,
+   "max_us": 706,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-kybertest/opt/hostfull": {
+   "iters": 1,
+   "avg_us": 665,
+   "min_us": 665,
+   "max_us": 665,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-kyber768/opt/keygen": {
+   "iters": 10,
+   "avg_us": 35,
+   "min_us": 34,
+   "max_us": 36,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-kyber768/opt/encaps": {
+   "iters": 10,
+   "avg_us": 32,
+   "min_us": 30,
+   "max_us": 34,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-kyber768/opt/decaps": {
+   "iters": 10,
+   "avg_us": 31,
+   "min_us": 31,
+   "max_us": 32,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "gmssl-kyber768/ref/pk+sk+ct": {
+   "sha256_16": "aa29470ffb06706c6159ba6725354d72",
+   "len": 4672
+  },
+  "gmssl-kyber768/ref/ss": {
+   "sha256_16": "582ca75999abe1e7d75e6595088c1470",
+   "len": 32
+  },
+  "gmssl-kyber768/opt/pk+sk+ct": {
+   "sha256_16": "aa29470ffb06706c6159ba6725354d72",
+   "len": 4672
+  },
+  "gmssl-kyber768/opt/ss": {
+   "sha256_16": "582ca75999abe1e7d75e6595088c1470",
+   "len": 32
+  }
+ },
+ "checks": {
+  "gmssl-kybertest/ref/quick": "PASS",
+  "gmssl-kybertest/ref/hostfull": "PASS",
+  "gmssl-kyber768/ref/decaps": "PASS",
+  "gmssl-kybertest/opt/quick": "PASS",
+  "gmssl-kybertest/opt/hostfull": "PASS",
+  "gmssl-kyber768/opt/decaps": "PASS"
+ },
+ "info": {
+  "gmssl-kyber768": "pk+sk+ct=4672 bytes"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

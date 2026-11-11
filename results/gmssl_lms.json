@@ -1,0 +1,224 @@
+{
+ "results": {
+  "gmssl-lmstest/ref/quick": {
+   "iters": 1,
+   "avg_us": 841564,
+   "min_us": 841564,
+   "max_us": 841564,
+   "stack": 40764,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/ref/keygen": {
+   "iters": 1,
+   "avg_us": 8806566,
+   "min_us": 8806566,
+   "max_us": 8806566,
+   "stack": 3404,
+   "heap": 2048,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/ref/sign": {
+   "iters": 16,
+   "avg_us": 136421,
+   "min_us": 121841,
+   "max_us": 145976,
+   "stack": 1004,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/ref/verify": {
+   "iters": 3,
+   "avg_us": 145745,
+   "min_us": 145743,
+   "max_us": 145748,
+   "stack": 2300,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/ref/reject": {
+   "iters": 1,
+   "avg_us": 145949,
+   "min_us": 145949,
+   "max_us": 145949,
+   "stack": 2316,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/ref/keygen": {
+   "iters": 1,
+   "avg_us": 17751140,
+   "min_us": 17751140,
+   "max_us": 17751140,
+   "stack": 7596,
+   "heap": 4096,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/ref/sign": {
+   "iters": 16,
+   "avg_us": 134994,
+   "min_us": 105836,
+   "max_us": 154102,
+   "stack": 10908,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/ref/verify": {
+   "iters": 3,
+   "avg_us": 283471,
+   "min_us": 283470,
+   "max_us": 283474,
+   "stack": 12332,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/ref/reject": {
+   "iters": 1,
+   "avg_us": 130407,
+   "min_us": 130407,
+   "max_us": 130407,
+   "stack": 12348,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lmstest/opt/quick": {
+   "iters": 1,
+   "avg_us": 845886,
+   "min_us": 845886,
+   "max_us": 845886,
+   "stack": 40780,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/opt/keygen": {
+   "iters": 1,
+   "avg_us": 8851891,
+   "min_us": 8851891,
+   "max_us": 8851891,
+   "stack": 3404,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/opt/sign": {
+   "iters": 16,
+   "avg_us": 137123,
+   "min_us": 122472,
+   "max_us": 146728,
+   "stack": 1004,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/opt/verify": {
+   "iters": 3,
+   "avg_us": 146493,
+   "min_us": 146491,
+   "max_us": 146496,
+   "stack": 2300,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/opt/reject": {
+   "iters": 1,
+   "avg_us": 146697,
+   "min_us": 146697,
+   "max_us": 146697,
+   "stack": 2316,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/opt/keygen": {
+   "iters": 1,
+   "avg_us": 17842503,
+   "min_us": 17842503,
+   "max_us": 17842503,
+   "stack": 7596,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/opt/sign": {
+   "iters": 16,
+   "avg_us": 135689,
+   "min_us": 106380,
+   "max_us": 154894,
+   "stack": 10908,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/opt/verify": {
+   "iters": 3,
+   "avg_us": 284925,
+   "min_us": 284924,
+   "max_us": 284928,
+   "stack": 12332,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/opt/reject": {
+   "iters": 1,
+   "avg_us": 131039,
+   "min_us": 131039,
+   "max_us": 131039,
+   "stack": 12348,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "gmssl-lms-sm3-h5/ref/pk": {
+   "sha256_16": "577044a012005382ea102e71511b6a67",
+   "len": 56
+  },
+  "gmssl-lms-sm3-h5/ref/sig": {
+   "sha256_16": "16bd3d0d43947e709caf49634fbbad9e",
+   "len": 1292
+  },
+  "gmssl-hss-sm3-h5-h5/ref/pk": {
+   "sha256_16": "08990a0b4b140d302a1b9708e5c4f0fb",
+   "len": 60
+  },
+  "gmssl-hss-sm3-h5-h5/ref/sig": {
+   "sha256_16": "8666c9968bbfc891a28f04b455295655",
+   "len": 2644
+  },
+  "gmssl-lms-sm3-h5/opt/pk": {
+   "sha256_16": "577044a012005382ea102e71511b6a67",
+   "len": 56
+  },
+  "gmssl-lms-sm3-h5/opt/sig": {
+   "sha256_16": "16bd3d0d43947e709caf49634fbbad9e",
+   "len": 1292
+  },
+  "gmssl-hss-sm3-h5-h5/opt/pk": {
+   "sha256_16": "08990a0b4b140d302a1b9708e5c4f0fb",
+   "len": 60
+  },
+  "gmssl-hss-sm3-h5-h5/opt/sig": {
+   "sha256_16": "8666c9968bbfc891a28f04b455295655",
+   "len": 2644
+  }
+ },
+ "checks": {
+  "gmssl-lmstest/ref/quick": "PASS",
+  "gmssl-lms-sm3-h5/ref/verify": "PASS",
+  "gmssl-lms-sm3-h5/ref/reject": "PASS",
+  "gmssl-hss-sm3-h5-h5/ref/verify": "PASS",
+  "gmssl-hss-sm3-h5-h5/ref/reject": "PASS",
+  "gmssl-lmstest/opt/quick": "PASS",
+  "gmssl-lms-sm3-h5/opt/verify": "PASS",
+  "gmssl-lms-sm3-h5/opt/reject": "PASS",
+  "gmssl-hss-sm3-h5-h5/opt/verify": "PASS",
+  "gmssl-hss-sm3-h5-h5/opt/reject": "PASS"
+ },
+ "info": {
+  "gmssl-lms-sm3-h5": "pk=56 sig=1292",
+  "gmssl-hss-sm3-h5-h5": "pk=60 sig=2644",
+  "gmssl-lms-sm3-h10/ref/skipped": "run with -f gmssl-lms-sm3-h10/ref",
+  "gmssl-sm3-compress/opt": "256 blocks: prims backend 6514 us, GmSSL 6191 us; fast mode uses GmSSL",
+  "gmssl-lms-sm3-h10/opt/skipped": "run with -f gmssl-lms-sm3-h10/opt"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 187968,
+ "heap_free_min": 107740
+}
