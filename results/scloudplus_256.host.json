@@ -1,293 +1,187 @@
 {
  "results": {
-  "scloudplus-256-sm3/ref/kat": {
-   "iters": 1,
-   "avg_us": 53853,
-   "min_us": 53853,
-   "max_us": 53853,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
   "scloudplus-256-shake/ref/kat": {
    "iters": 1,
-   "avg_us": 7446,
-   "min_us": 7446,
-   "max_us": 7446,
+   "avg_us": 15193,
+   "min_us": 15193,
+   "max_us": 15193,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-aes/ref/kat": {
    "iters": 1,
-   "avg_us": 21219,
-   "min_us": 21219,
-   "max_us": 21219,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "scloudplus-256-sm3/opt/kat": {
-   "iters": 1,
-   "avg_us": 38421,
-   "min_us": 38421,
-   "max_us": 38421,
+   "avg_us": 30134,
+   "min_us": 30134,
+   "max_us": 30134,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-shake/opt/kat": {
    "iters": 1,
-   "avg_us": 8500,
-   "min_us": 8500,
-   "max_us": 8500,
+   "avg_us": 10440,
+   "min_us": 10440,
+   "max_us": 10440,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-aes/opt/kat": {
    "iters": 1,
-   "avg_us": 21966,
-   "min_us": 21966,
-   "max_us": 21966,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "scloudplus-256-sm3/ref/keygen": {
-   "iters": 3,
-   "avg_us": 10568,
-   "min_us": 10500,
-   "max_us": 10661,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "scloudplus-256-sm3/ref/encaps": {
-   "iters": 3,
-   "avg_us": 10535,
-   "min_us": 10436,
-   "max_us": 10705,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "scloudplus-256-sm3/ref/decaps": {
-   "iters": 3,
-   "avg_us": 10754,
-   "min_us": 10524,
-   "max_us": 11177,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "scloudplus-256-sm3/ref/tamper": {
-   "iters": 1,
-   "avg_us": 11238,
-   "min_us": 11238,
-   "max_us": 11238,
+   "avg_us": 24086,
+   "min_us": 24086,
+   "max_us": 24086,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-shake/ref/keygen": {
    "iters": 3,
-   "avg_us": 3357,
-   "min_us": 3353,
-   "max_us": 3360,
+   "avg_us": 2505,
+   "min_us": 2463,
+   "max_us": 2527,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-shake/ref/encaps": {
    "iters": 3,
-   "avg_us": 2487,
-   "min_us": 2484,
-   "max_us": 2489,
+   "avg_us": 2479,
+   "min_us": 2462,
+   "max_us": 2491,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-shake/ref/decaps": {
    "iters": 3,
-   "avg_us": 2477,
-   "min_us": 2468,
-   "max_us": 2489,
+   "avg_us": 2459,
+   "min_us": 2447,
+   "max_us": 2475,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-shake/ref/tamper": {
    "iters": 1,
-   "avg_us": 2493,
-   "min_us": 2493,
-   "max_us": 2493,
+   "avg_us": 2454,
+   "min_us": 2454,
+   "max_us": 2454,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-aes/ref/keygen": {
    "iters": 3,
-   "avg_us": 6967,
-   "min_us": 6950,
-   "max_us": 6981,
+   "avg_us": 6662,
+   "min_us": 6601,
+   "max_us": 6746,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-aes/ref/encaps": {
    "iters": 3,
-   "avg_us": 7111,
-   "min_us": 7076,
-   "max_us": 7182,
+   "avg_us": 8295,
+   "min_us": 6845,
+   "max_us": 11187,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-aes/ref/decaps": {
    "iters": 3,
-   "avg_us": 7149,
-   "min_us": 7133,
-   "max_us": 7164,
+   "avg_us": 8805,
+   "min_us": 7339,
+   "max_us": 10569,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-aes/ref/tamper": {
    "iters": 1,
-   "avg_us": 7165,
-   "min_us": 7165,
-   "max_us": 7165,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "scloudplus-256-sm3/opt/keygen": {
-   "iters": 3,
-   "avg_us": 10700,
-   "min_us": 10459,
-   "max_us": 11170,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "scloudplus-256-sm3/opt/encaps": {
-   "iters": 3,
-   "avg_us": 9784,
-   "min_us": 9769,
-   "max_us": 9813,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "scloudplus-256-sm3/opt/decaps": {
-   "iters": 3,
-   "avg_us": 10302,
-   "min_us": 10039,
-   "max_us": 10639,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "scloudplus-256-sm3/opt/tamper": {
-   "iters": 1,
-   "avg_us": 9684,
-   "min_us": 9684,
-   "max_us": 9684,
+   "avg_us": 7404,
+   "min_us": 7404,
+   "max_us": 7404,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-shake/opt/keygen": {
    "iters": 3,
-   "avg_us": 3308,
-   "min_us": 3299,
-   "max_us": 3321,
+   "avg_us": 3420,
+   "min_us": 3347,
+   "max_us": 3471,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-shake/opt/encaps": {
    "iters": 3,
-   "avg_us": 2540,
-   "min_us": 2537,
-   "max_us": 2545,
+   "avg_us": 2632,
+   "min_us": 2557,
+   "max_us": 2673,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-shake/opt/decaps": {
    "iters": 3,
-   "avg_us": 2543,
-   "min_us": 2533,
-   "max_us": 2557,
+   "avg_us": 2488,
+   "min_us": 2437,
+   "max_us": 2584,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-shake/opt/tamper": {
    "iters": 1,
-   "avg_us": 2533,
-   "min_us": 2533,
-   "max_us": 2533,
+   "avg_us": 2541,
+   "min_us": 2541,
+   "max_us": 2541,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-aes/opt/keygen": {
    "iters": 3,
-   "avg_us": 7803,
-   "min_us": 7789,
-   "max_us": 7816,
+   "avg_us": 7677,
+   "min_us": 7651,
+   "max_us": 7694,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-aes/opt/encaps": {
    "iters": 3,
-   "avg_us": 7042,
-   "min_us": 7037,
-   "max_us": 7046,
+   "avg_us": 6936,
+   "min_us": 6757,
+   "max_us": 7089,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-aes/opt/decaps": {
    "iters": 3,
-   "avg_us": 7041,
-   "min_us": 7021,
-   "max_us": 7081,
+   "avg_us": 7097,
+   "min_us": 7031,
+   "max_us": 7183,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "scloudplus-256-aes/opt/tamper": {
    "iters": 1,
-   "avg_us": 7391,
-   "min_us": 7391,
-   "max_us": 7391,
+   "avg_us": 6974,
+   "min_us": 6974,
+   "max_us": 6974,
    "stack": 0,
    "heap": 0,
    "rc": 0
   }
  },
  "digests": {
-  "scloudplus-256-sm3/ref/pk": {
-   "sha256_16": "0c70ddd93bdf4fb4c66ca9cda71aaf30",
-   "len": 16296
-  },
-  "scloudplus-256-sm3/ref/sk": {
-   "sha256_16": "70f80b38cf7c63942c114128e52078b4",
-   "len": 19680
-  },
-  "scloudplus-256-sm3/ref/ct": {
-   "sha256_16": "882a0d3c65f23412d65ef14f3a969c98",
-   "len": 17925
-  },
-  "scloudplus-256-sm3/ref/ss": {
-   "sha256_16": "94c4b7c2152ab9ab261bf683de33c85c",
-   "len": 32
-  },
   "scloudplus-256-shake/ref/pk": {
    "sha256_16": "4bfe5af304f991b6b9e5ec0dc37632b1",
    "len": 16296
@@ -318,22 +212,6 @@
   },
   "scloudplus-256-aes/ref/ss": {
    "sha256_16": "65d4fd3bf98a5bd3e392068dd3df9107",
-   "len": 32
-  },
-  "scloudplus-256-sm3/opt/pk": {
-   "sha256_16": "0c70ddd93bdf4fb4c66ca9cda71aaf30",
-   "len": 16296
-  },
-  "scloudplus-256-sm3/opt/sk": {
-   "sha256_16": "70f80b38cf7c63942c114128e52078b4",
-   "len": 19680
-  },
-  "scloudplus-256-sm3/opt/ct": {
-   "sha256_16": "882a0d3c65f23412d65ef14f3a969c98",
-   "len": 17925
-  },
-  "scloudplus-256-sm3/opt/ss": {
-   "sha256_16": "94c4b7c2152ab9ab261bf683de33c85c",
    "len": 32
   },
   "scloudplus-256-shake/opt/pk": {
@@ -370,21 +248,16 @@
   }
  },
  "checks": {
-  "scloudplus-256-sm3/ref/kat": "PASS",
   "scloudplus-256-shake/ref/kat": "PASS",
   "scloudplus-256-aes/ref/kat": "PASS",
-  "scloudplus-256-sm3/opt/kat": "PASS",
   "scloudplus-256-shake/opt/kat": "PASS",
   "scloudplus-256-aes/opt/kat": "PASS",
-  "scloudplus-256-sm3/ref/tamper": "PASS",
   "scloudplus-256-shake/ref/tamper": "PASS",
   "scloudplus-256-aes/ref/tamper": "PASS",
-  "scloudplus-256-sm3/opt/tamper": "PASS",
   "scloudplus-256-shake/opt/tamper": "PASS",
   "scloudplus-256-aes/opt/tamper": "PASS"
  },
  "info": {
-  "scloudplus-256-sm3": "kem pk=16296 sk=19680 ct=17925 ss=32",
   "scloudplus-256-shake": "kem pk=16296 sk=19680 ct=17925 ss=32",
   "scloudplus-256-aes": "kem pk=16296 sk=19680 ct=17925 ss=32"
  },

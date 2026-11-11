@@ -124,3 +124,14 @@ All dates 2026-11-11 unless noted.
     OpenSSL), and 3 fail their self-test. Routing SM3 through the shared
     primitive speeds up the candidates that hash with the organisers' helper
     by 1.0x to 1.6x.
+15. **Rerun of the PQMagic, SCloud+ and LAC suites (2026-11-12).** Their
+    optimized numbers predated the linking fix. Rerun from the current code,
+    13 of 16 passed at once with all fingerprints equal to the host; the SM3
+    instantiations now gain 1.2x to 1.5x from the fast SM3. Three images had
+    run out of RAM because of the 14 KB the optimized primitives add: NEV-AKE
+    could not get its job stack, PQMagic's ML-DSA-87 no longer linked, and
+    SCloud+-256 kept failing in its SM3 family. Fixed with a per-suite switch
+    that leaves unused backends out (`prims_off.txt`), a smaller stack request,
+    a smaller reserved region, and an image of its own for SCloud+-256 with
+    SM3, which then passed the submission's vectors on the chip for the first
+    time. All 17 suites of this line now pass.

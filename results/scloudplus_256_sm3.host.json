@@ -1,0 +1,142 @@
+{
+ "results": {
+  "scloudplus-256-sm3/ref/kat": {
+   "iters": 1,
+   "avg_us": 34281,
+   "min_us": 34281,
+   "max_us": 34281,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-sm3/opt/kat": {
+   "iters": 1,
+   "avg_us": 31915,
+   "min_us": 31915,
+   "max_us": 31915,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-sm3/ref/keygen": {
+   "iters": 3,
+   "avg_us": 10822,
+   "min_us": 10765,
+   "max_us": 10868,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-sm3/ref/encaps": {
+   "iters": 3,
+   "avg_us": 11103,
+   "min_us": 10983,
+   "max_us": 11230,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-sm3/ref/decaps": {
+   "iters": 3,
+   "avg_us": 11103,
+   "min_us": 10911,
+   "max_us": 11306,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-sm3/ref/tamper": {
+   "iters": 1,
+   "avg_us": 11982,
+   "min_us": 11982,
+   "max_us": 11982,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-sm3/opt/keygen": {
+   "iters": 3,
+   "avg_us": 11473,
+   "min_us": 11088,
+   "max_us": 11827,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-sm3/opt/encaps": {
+   "iters": 3,
+   "avg_us": 10730,
+   "min_us": 10356,
+   "max_us": 11096,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-sm3/opt/decaps": {
+   "iters": 3,
+   "avg_us": 10291,
+   "min_us": 10268,
+   "max_us": 10308,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-sm3/opt/tamper": {
+   "iters": 1,
+   "avg_us": 10305,
+   "min_us": 10305,
+   "max_us": 10305,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "scloudplus-256-sm3/ref/pk": {
+   "sha256_16": "0c70ddd93bdf4fb4c66ca9cda71aaf30",
+   "len": 16296
+  },
+  "scloudplus-256-sm3/ref/sk": {
+   "sha256_16": "70f80b38cf7c63942c114128e52078b4",
+   "len": 19680
+  },
+  "scloudplus-256-sm3/ref/ct": {
+   "sha256_16": "882a0d3c65f23412d65ef14f3a969c98",
+   "len": 17925
+  },
+  "scloudplus-256-sm3/ref/ss": {
+   "sha256_16": "94c4b7c2152ab9ab261bf683de33c85c",
+   "len": 32
+  },
+  "scloudplus-256-sm3/opt/pk": {
+   "sha256_16": "0c70ddd93bdf4fb4c66ca9cda71aaf30",
+   "len": 16296
+  },
+  "scloudplus-256-sm3/opt/sk": {
+   "sha256_16": "70f80b38cf7c63942c114128e52078b4",
+   "len": 19680
+  },
+  "scloudplus-256-sm3/opt/ct": {
+   "sha256_16": "882a0d3c65f23412d65ef14f3a969c98",
+   "len": 17925
+  },
+  "scloudplus-256-sm3/opt/ss": {
+   "sha256_16": "94c4b7c2152ab9ab261bf683de33c85c",
+   "len": 32
+  }
+ },
+ "checks": {
+  "scloudplus-256-sm3/ref/kat": "PASS",
+  "scloudplus-256-sm3/opt/kat": "PASS",
+  "scloudplus-256-sm3/ref/tamper": "PASS",
+  "scloudplus-256-sm3/opt/tamper": "PASS"
+ },
+ "info": {
+  "scloudplus-256-sm3": "kem pk=16296 sk=19680 ct=17925 ss=32"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

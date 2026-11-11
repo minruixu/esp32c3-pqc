@@ -267,4 +267,6 @@ and signatures held by the caller come on top. Full tables: [RESULTS.md](RESULTS
 | scloudplus-192-aes | 2752 ms → 406 ms (6.8×) | 2735 ms → 351 ms (7.8×) | 2730 ms → 355 ms (7.7×) | 59.7 KB |
 | scloudplus-192-shake | 1506 ms → 922 ms (1.6×) | 1529 ms → 870 ms (1.8×) | 1524 ms → 873 ms (1.7×) | 60.0 KB |
 | scloudplus-192-sm3 | 1977 ms → 1146 ms (1.7×) | 2007 ms → 1084 ms (1.9×) | 2009 ms → 1091 ms (1.8×) | 95.9 KB |
+| scloudplus-256-aes | 5518 ms → 838 ms (6.6×) | 5571 ms → 712 ms (7.8×) | 5560 ms → 714 ms (7.8×) | 83.3 KB |
+| scloudplus-256-shake | 3189 ms → 1786 ms (1.8×) | 3356 ms → 1689 ms (2.0×) | 3344 ms → 1690 ms (2.0×) | 83.6 KB |
 

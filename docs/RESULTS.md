@@ -186,7 +186,7 @@ Output fingerprints, device against host build: 4 equal, 0 different, 0 without 
 <details><summary>Parameters and sizes</summary>
 
 - `gmssl-kyber768`: pk+sk+ct=4672 bytes
-- `gmssl-sm3-compress/opt`: 256 blocks: prims backend 6515 us, GmSSL 6191 us; fast mode uses GmSSL
+- `gmssl-sm3-compress/opt`: 256 blocks: prims backend 6514 us, GmSSL 6191 us; fast mode uses GmSSL
 
 </details>
 
@@ -197,7 +197,7 @@ Output fingerprints, device against host build: 4 equal, 0 different, 0 without 
 | gmssl-hss-sm3-h5-h5 | keygen | 17.8 s | 17.8 s | 0.99× | 7.4 KB | 7.4 KB | 4.0 KB | 0 |
 | gmssl-hss-sm3-h5-h5 | sign | 135 ms | 136 ms | 0.99× | 10.7 KB | 10.7 KB | 0 | 0 |
 | gmssl-hss-sm3-h5-h5 | verify | 283 ms | 285 ms | 0.99× | 12.0 KB | 12.0 KB | 0 | 0 |
-| gmssl-hss-sm3-h5-h5 | reject | 130 ms | 131 ms | 0.99× | 12.1 KB | 12.1 KB | 0 | 0 |
+| gmssl-hss-sm3-h5-h5 | reject | 130 ms | 131 ms | 1.00× | 12.1 KB | 12.1 KB | 0 | 0 |
 | gmssl-lms-sm3-h5 | keygen | 8807 ms | 8852 ms | 0.99× | 3.3 KB | 3.3 KB | 2.0 KB | 0 |
 | gmssl-lms-sm3-h5 | sign | 136 ms | 137 ms | 0.99× | 1.0 KB | 1.0 KB | 0 | 0 |
 | gmssl-lms-sm3-h5 | verify | 146 ms | 146 ms | 0.99× | 2.2 KB | 2.2 KB | 0 | 0 |
@@ -262,7 +262,7 @@ Output fingerprints, device against host build: 4 equal, 0 different, 0 without 
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | hashes | equal-to-ref-3000-random |  | 1158 ms |  |  |  |  | 1.2 KB |  |  |
 | keccak | x200 | 26.9 ms | 15.8 ms | 23.7 ms |  | 1.71× | 0.5 KB | 0.5 KB | 0.5 KB |  |
-| sha256 | 16blocks-x64 | 25.0 ms | 1.39 ms |  |  | 17.97× | 0.5 KB | 0.2 KB |  |  |
+| sha256 | 16blocks-x64 | 25.0 ms | 1.39 ms |  |  | 17.96× | 0.5 KB | 0.2 KB |  |  |
 | sha256 | 1block-read16-x1000 |  |  |  | 2.28 ms |  |  |  |  | 0.3 KB |
 | sha256 | 1block-read32-x1000 |  |  |  | 2.46 ms |  |  |  |  | 0.3 KB |
 | sha256 | 1block-x1000 | 27.6 ms | 3.94 ms | 26.2 ms |  | 7.02× | 0.5 KB | 0.3 KB | 0.6 KB |  |
@@ -1235,6 +1235,52 @@ Output fingerprints, device against host build: 48 equal, 0 different, 0 without
 - `scloudplus-192-sm3`: kem pk=11456 sk=13872 ct=12645 ss=24
 - `scloudplus-192-shake`: kem pk=11456 sk=13872 ct=12645 ss=24
 - `scloudplus-192-aes`: kem pk=11456 sk=13872 ct=12645 ss=24
+
+</details>
+
+## scloudplus_256
+
+| Algorithm | Operation | ref time | opt time | speedup | ref stack | opt stack | ref heap | opt heap |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| scloudplus-256-aes | kat | 16.7 s | 2267 ms | 7.35× | 79.2 KB | 83.4 KB | 0.1 KB | 0.1 KB |
+| scloudplus-256-aes | keygen | 5518 ms | 838 ms | 6.58× | 55.5 KB | 83.3 KB | 0 | 0 |
+| scloudplus-256-aes | encaps | 5571 ms | 712 ms | 7.83× | 78.3 KB | 80.6 KB | 0 | 0 |
+| scloudplus-256-aes | decaps | 5560 ms | 714 ms | 7.79× | 79.2 KB | 80.7 KB | 0 | 0 |
+| scloudplus-256-aes | tamper | 5560 ms | 714 ms | 7.79× | 79.1 KB | 80.7 KB | 0 | 0 |
+| scloudplus-256-shake | kat | 9912 ms | 5167 ms | 1.92× | 79.2 KB | 83.7 KB | 0.1 KB | 0.1 KB |
+| scloudplus-256-shake | keygen | 3189 ms | 1786 ms | 1.79× | 55.9 KB | 83.6 KB | 0 | 0 |
+| scloudplus-256-shake | encaps | 3356 ms | 1689 ms | 1.99× | 78.7 KB | 80.9 KB | 0 | 0 |
+| scloudplus-256-shake | decaps | 3344 ms | 1690 ms | 1.98× | 79.1 KB | 81.0 KB | 0 | 0 |
+| scloudplus-256-shake | tamper | 3344 ms | 1690 ms | 1.98× | 79.1 KB | 81.0 KB | 0 | 0 |
+
+Self-tests on the device: 8 passed, 0 failed.
+Output fingerprints, device against host build: 16 equal, 0 different, 0 without a host value.
+
+<details><summary>Parameters and sizes</summary>
+
+- `heap`: free=176116 largest_block=114688
+- `scloudplus-256-shake`: kem pk=16296 sk=19680 ct=17925 ss=32
+- `scloudplus-256-aes`: kem pk=16296 sk=19680 ct=17925 ss=32
+
+</details>
+
+## scloudplus_256_sm3
+
+| Algorithm | Operation | ref time | opt time | speedup | ref stack | opt stack | ref heap | opt heap |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| scloudplus-256-sm3 | kat | 12.1 s | 6799 ms | 1.79× | 79.4 KB | 84.3 KB | 48.0 KB | 48.0 KB |
+| scloudplus-256-sm3 | keygen | 3938 ms | 2338 ms | 1.68× | 56.5 KB | 84.2 KB | 48.0 KB | 48.0 KB |
+| scloudplus-256-sm3 | encaps | 4090 ms | 2217 ms | 1.85× | 79.3 KB | 81.6 KB | 48.0 KB | 48.0 KB |
+| scloudplus-256-sm3 | decaps | 4089 ms | 2223 ms | 1.84× | 79.3 KB | 81.6 KB | 36.0 KB | 36.0 KB |
+| scloudplus-256-sm3 | tamper | 4089 ms | 2223 ms | 1.84× | 79.3 KB | 81.6 KB | 36.0 KB | 36.0 KB |
+
+Self-tests on the device: 4 passed, 0 failed.
+Output fingerprints, device against host build: 8 equal, 0 different, 0 without a host value.
+
+<details><summary>Parameters and sizes</summary>
+
+- `heap`: free=189424 largest_block=114688
+- `scloudplus-256-sm3`: kem pk=16296 sk=19680 ct=17925 ss=32
 
 </details>
 
