@@ -2,9 +2,9 @@
  "results": {
   "mldsa-prim/ref/ntt_x100": {
    "iters": 3,
-   "avg_us": 29018,
+   "avg_us": 29017,
    "min_us": 29015,
-   "max_us": 29020,
+   "max_us": 29019,
    "stack": 2352,
    "heap": 0,
    "rc": 0
@@ -20,8 +20,8 @@
   },
   "mldsa-prim/ref/pointwise_x100": {
    "iters": 3,
-   "avg_us": 6335,
-   "min_us": 6334,
+   "avg_us": 6336,
+   "min_us": 6335,
    "max_us": 6339,
    "stack": 2304,
    "heap": 0,
@@ -29,72 +29,72 @@
   },
   "mldsa-prim/up/ntt_x100": {
    "iters": 3,
-   "avg_us": 9319,
-   "min_us": 9316,
-   "max_us": 9321,
+   "avg_us": 9601,
+   "min_us": 9599,
+   "max_us": 9603,
    "stack": 2336,
    "heap": 0,
    "rc": 0
   },
   "mldsa-prim/up/invntt_x100": {
    "iters": 3,
-   "avg_us": 12048,
-   "min_us": 12048,
-   "max_us": 12048,
+   "avg_us": 12337,
+   "min_us": 12337,
+   "max_us": 12337,
    "stack": 2336,
    "heap": 0,
    "rc": 0
   },
   "mldsa-prim/up/pointwise_x100": {
    "iters": 3,
-   "avg_us": 4101,
-   "min_us": 4100,
-   "max_us": 4105,
+   "avg_us": 4181,
+   "min_us": 4180,
+   "max_us": 4185,
    "stack": 2320,
    "heap": 0,
    "rc": 0
   },
   "mldsa-prim/opt/ntt_x100": {
    "iters": 3,
-   "avg_us": 8328,
-   "min_us": 8324,
-   "max_us": 8330,
+   "avg_us": 8436,
+   "min_us": 8433,
+   "max_us": 8438,
    "stack": 2352,
    "heap": 0,
    "rc": 0
   },
   "mldsa-prim/opt/invntt_x100": {
    "iters": 3,
-   "avg_us": 9468,
-   "min_us": 9466,
-   "max_us": 9470,
+   "avg_us": 9559,
+   "min_us": 9556,
+   "max_us": 9561,
    "stack": 2352,
    "heap": 0,
    "rc": 0
   },
   "mldsa-prim/opt/pointwise_x100": {
    "iters": 3,
-   "avg_us": 3381,
-   "min_us": 3379,
-   "max_us": 3384,
-   "stack": 2320,
+   "avg_us": 3501,
+   "min_us": 3499,
+   "max_us": 3504,
+   "stack": 2304,
    "heap": 0,
    "rc": 0
   },
   "mldsa44/ref/kat": {
    "iters": 1,
-   "avg_us": 98807,
-   "min_us": 98807,
-   "max_us": 98807,
+   "avg_us": 98802,
+   "min_us": 98802,
+   "max_us": 98802,
    "stack": 49868,
    "heap": 0,
    "rc": 0
   },
   "mldsa44/ref/keygen": {
    "iters": 5,
-   "avg_us": 19244,
-   "min_us": 19241,
-   "max_us": 19247,
+   "avg_us": 19245,
+   "min_us": 19242,
+   "max_us": 19246,
    "stack": 28252,
    "heap": 0,
    "rc": 0
@@ -102,7 +102,7 @@
   "mldsa44/ref/sign": {
    "iters": 20,
    "avg_us": 66968,
-   "min_us": 29210,
+   "min_us": 29211,
    "max_us": 164220,
    "stack": 49964,
    "heap": 0,
@@ -119,9 +119,9 @@
   },
   "mldsa65/ref/kat": {
    "iters": 1,
-   "avg_us": 236064,
-   "min_us": 236064,
-   "max_us": 236064,
+   "avg_us": 236063,
+   "min_us": 236063,
+   "max_us": 236063,
    "stack": 73452,
    "heap": 0,
    "rc": 0
@@ -129,7 +129,7 @@
   "mldsa65/ref/keygen": {
    "iters": 5,
    "avg_us": 33109,
-   "min_us": 33107,
+   "min_us": 33108,
    "max_us": 33114,
    "stack": 43660,
    "heap": 0,
@@ -139,7 +139,7 @@
    "iters": 20,
    "avg_us": 94430,
    "min_us": 45793,
-   "max_us": 226790,
+   "max_us": 226789,
    "stack": 73548,
    "heap": 0,
    "rc": 0
@@ -155,27 +155,27 @@
   },
   "mldsa44/opt/kat": {
    "iters": 1,
-   "avg_us": 51287,
-   "min_us": 51287,
-   "max_us": 51287,
+   "avg_us": 51289,
+   "min_us": 51289,
+   "max_us": 51289,
    "stack": 46508,
    "heap": 0,
    "rc": 0
   },
   "mldsa44/opt/keygen": {
    "iters": 5,
-   "avg_us": 10544,
-   "min_us": 10432,
-   "max_us": 10674,
+   "avg_us": 10545,
+   "min_us": 10433,
+   "max_us": 10675,
    "stack": 24956,
    "heap": 0,
    "rc": 0
   },
   "mldsa44/opt/sign": {
    "iters": 20,
-   "avg_us": 32159,
-   "min_us": 14276,
-   "max_us": 77738,
+   "avg_us": 32161,
+   "min_us": 14277,
+   "max_us": 77741,
    "stack": 46604,
    "heap": 0,
    "rc": 0
@@ -184,16 +184,16 @@
    "iters": 5,
    "avg_us": 10729,
    "min_us": 10729,
-   "max_us": 10729,
+   "max_us": 10730,
    "stack": 27116,
    "heap": 0,
    "rc": 0
   },
   "mldsa65/opt/kat": {
    "iters": 1,
-   "avg_us": 120211,
-   "min_us": 120211,
-   "max_us": 120211,
+   "avg_us": 120215,
+   "min_us": 120215,
+   "max_us": 120215,
    "stack": 69948,
    "heap": 0,
    "rc": 0
@@ -201,7 +201,7 @@
   "mldsa65/opt/keygen": {
    "iters": 5,
    "avg_us": 18627,
-   "min_us": 18625,
+   "min_us": 18624,
    "max_us": 18630,
    "stack": 40332,
    "heap": 0,
@@ -209,16 +209,16 @@
   },
   "mldsa65/opt/sign": {
    "iters": 20,
-   "avg_us": 45229,
+   "avg_us": 45231,
    "min_us": 22755,
-   "max_us": 106069,
+   "max_us": 106074,
    "stack": 70172,
    "heap": 0,
    "rc": 0
   },
   "mldsa65/opt/verify": {
    "iters": 5,
-   "avg_us": 18154,
+   "avg_us": 18155,
    "min_us": 18151,
    "max_us": 18156,
    "stack": 42524,
@@ -313,6 +313,6 @@
  "complete": true,
  "fails": 0,
  "cpu_mhz": 160,
- "heap_free_start": 174420,
- "heap_free_min": 79864
+ "heap_free_start": 163668,
+ "heap_free_min": 69112
 }

@@ -5,34 +5,34 @@
    "avg_us": 63067,
    "min_us": 63067,
    "max_us": 63067,
-   "stack": 11972,
+   "stack": 11984,
    "heap": 0,
    "rc": 0
   },
   "mldsa44/lowram/keygen": {
    "iters": 5,
    "avg_us": 10836,
-   "min_us": 10723,
+   "min_us": 10724,
    "max_us": 10966,
-   "stack": 9444,
+   "stack": 9456,
    "heap": 0,
    "rc": 0
   },
   "mldsa44/lowram/sign": {
    "iters": 20,
    "avg_us": 66623,
-   "min_us": 16106,
+   "min_us": 16107,
    "max_us": 195144,
-   "stack": 11748,
+   "stack": 11760,
    "heap": 0,
    "rc": 0
   },
   "mldsa44/lowram/verify": {
    "iters": 5,
-   "avg_us": 11016,
-   "min_us": 11016,
+   "avg_us": 11017,
+   "min_us": 11017,
    "max_us": 11017,
-   "stack": 11604,
+   "stack": 11616,
    "heap": 0,
    "rc": 0
   },
@@ -41,7 +41,7 @@
    "avg_us": 228907,
    "min_us": 228907,
    "max_us": 228907,
-   "stack": 13732,
+   "stack": 13744,
    "heap": 0,
    "rc": 0
   },
@@ -50,7 +50,7 @@
    "avg_us": 19160,
    "min_us": 19157,
    "max_us": 19163,
-   "stack": 10484,
+   "stack": 10496,
    "heap": 0,
    "rc": 0
   },
@@ -59,16 +59,16 @@
    "avg_us": 102544,
    "min_us": 25210,
    "max_us": 310036,
-   "stack": 13828,
+   "stack": 13840,
    "heap": 0,
    "rc": 0
   },
   "mldsa65/lowram/verify": {
    "iters": 5,
    "avg_us": 18701,
-   "min_us": 18697,
+   "min_us": 18698,
    "max_us": 18702,
-   "stack": 12676,
+   "stack": 12688,
    "heap": 0,
    "rc": 0
   },
@@ -77,7 +77,7 @@
    "avg_us": 178664,
    "min_us": 178664,
    "max_us": 178664,
-   "stack": 16052,
+   "stack": 16064,
    "heap": 0,
    "rc": 0
   },
@@ -86,16 +86,16 @@
    "avg_us": 32525,
    "min_us": 32429,
    "max_us": 32748,
-   "stack": 12516,
+   "stack": 12528,
    "heap": 0,
    "rc": 0
   },
   "mldsa87/lowram/sign": {
    "iters": 20,
    "avg_us": 143421,
-   "min_us": 41290,
-   "max_us": 412243,
-   "stack": 16148,
+   "min_us": 41291,
+   "max_us": 412244,
+   "stack": 16160,
    "heap": 0,
    "rc": 0
   },
@@ -104,7 +104,7 @@
    "avg_us": 32271,
    "min_us": 32271,
    "max_us": 32275,
-   "stack": 14996,
+   "stack": 15008,
    "heap": 0,
    "rc": 0
   }
@@ -160,6 +160,6 @@
  "complete": true,
  "fails": 0,
  "cpu_mhz": 160,
- "heap_free_start": 196096,
- "heap_free_min": 171176
+ "heap_free_start": 185924,
+ "heap_free_min": 161004
 }
