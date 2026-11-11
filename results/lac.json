@@ -1,0 +1,444 @@
+{
+ "results": {
+  "lac-light/ref/keygen": {
+   "iters": 10,
+   "avg_us": 4907,
+   "min_us": 4886,
+   "max_us": 4925,
+   "stack": 7956,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-light/ref/encaps": {
+   "iters": 10,
+   "avg_us": 6966,
+   "min_us": 6951,
+   "max_us": 6974,
+   "stack": 12252,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-light/ref/decaps": {
+   "iters": 10,
+   "avg_us": 8124,
+   "min_us": 8121,
+   "max_us": 8126,
+   "stack": 13684,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-light/ref/tamper": {
+   "iters": 1,
+   "avg_us": 8529,
+   "min_us": 8529,
+   "max_us": 8529,
+   "stack": 13548,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-128/ref/keygen": {
+   "iters": 10,
+   "avg_us": 8778,
+   "min_us": 8761,
+   "max_us": 8790,
+   "stack": 8884,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-128/ref/encaps": {
+   "iters": 10,
+   "avg_us": 13716,
+   "min_us": 13686,
+   "max_us": 13745,
+   "stack": 12404,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-128/ref/decaps": {
+   "iters": 10,
+   "avg_us": 17016,
+   "min_us": 17013,
+   "max_us": 17018,
+   "stack": 13812,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 17542,
+   "min_us": 17542,
+   "max_us": 17542,
+   "stack": 13676,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-192/ref/keygen": {
+   "iters": 10,
+   "avg_us": 12921,
+   "min_us": 12882,
+   "max_us": 12962,
+   "stack": 14852,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-192/ref/encaps": {
+   "iters": 10,
+   "avg_us": 19806,
+   "min_us": 19714,
+   "max_us": 19871,
+   "stack": 24212,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-192/ref/decaps": {
+   "iters": 10,
+   "avg_us": 25474,
+   "min_us": 25472,
+   "max_us": 25477,
+   "stack": 26932,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-192/ref/tamper": {
+   "iters": 1,
+   "avg_us": 26238,
+   "min_us": 26238,
+   "max_us": 26238,
+   "stack": 26796,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-256/ref/keygen": {
+   "iters": 10,
+   "avg_us": 18540,
+   "min_us": 18491,
+   "max_us": 18570,
+   "stack": 15828,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-256/ref/encaps": {
+   "iters": 10,
+   "avg_us": 31422,
+   "min_us": 31326,
+   "max_us": 31517,
+   "stack": 24228,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-256/ref/decaps": {
+   "iters": 10,
+   "avg_us": 43095,
+   "min_us": 43093,
+   "max_us": 43098,
+   "stack": 27172,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 44004,
+   "min_us": 44004,
+   "max_us": 44004,
+   "stack": 27172,
+   "heap": 960,
+   "rc": 0
+  },
+  "lac-light/opt/keygen": {
+   "iters": 10,
+   "avg_us": 2255,
+   "min_us": 2235,
+   "max_us": 2270,
+   "stack": 7588,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-light/opt/encaps": {
+   "iters": 10,
+   "avg_us": 3480,
+   "min_us": 3464,
+   "max_us": 3490,
+   "stack": 12388,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-light/opt/decaps": {
+   "iters": 10,
+   "avg_us": 4638,
+   "min_us": 4636,
+   "max_us": 4642,
+   "stack": 13548,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-light/opt/tamper": {
+   "iters": 1,
+   "avg_us": 4673,
+   "min_us": 4673,
+   "max_us": 4673,
+   "stack": 13548,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-128/opt/keygen": {
+   "iters": 10,
+   "avg_us": 4401,
+   "min_us": 4389,
+   "max_us": 4414,
+   "stack": 8265,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-128/opt/encaps": {
+   "iters": 10,
+   "avg_us": 7642,
+   "min_us": 7610,
+   "max_us": 7669,
+   "stack": 12404,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-128/opt/decaps": {
+   "iters": 10,
+   "avg_us": 10942,
+   "min_us": 10942,
+   "max_us": 10943,
+   "stack": 13812,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 10983,
+   "min_us": 10983,
+   "max_us": 10983,
+   "stack": 13812,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-192/opt/keygen": {
+   "iters": 10,
+   "avg_us": 8386,
+   "min_us": 8349,
+   "max_us": 8430,
+   "stack": 14740,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-192/opt/encaps": {
+   "iters": 10,
+   "avg_us": 13789,
+   "min_us": 13700,
+   "max_us": 13858,
+   "stack": 24212,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-192/opt/decaps": {
+   "iters": 10,
+   "avg_us": 19457,
+   "min_us": 19454,
+   "max_us": 19459,
+   "stack": 26932,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-192/opt/tamper": {
+   "iters": 1,
+   "avg_us": 19501,
+   "min_us": 19501,
+   "max_us": 19501,
+   "stack": 26796,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-256/opt/keygen": {
+   "iters": 10,
+   "avg_us": 12438,
+   "min_us": 12389,
+   "max_us": 12471,
+   "stack": 15129,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-256/opt/encaps": {
+   "iters": 10,
+   "avg_us": 23055,
+   "min_us": 22958,
+   "max_us": 23149,
+   "stack": 24228,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-256/opt/decaps": {
+   "iters": 10,
+   "avg_us": 34727,
+   "min_us": 34725,
+   "max_us": 34731,
+   "stack": 27172,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 34779,
+   "min_us": 34779,
+   "max_us": 34779,
+   "stack": 27172,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "lac-light/ref/pk": {
+   "sha256_16": "55f8c53a9c4e01bef2f1016c7c33c8da",
+   "len": 544
+  },
+  "lac-light/ref/sk": {
+   "sha256_16": "a509466994b765040db715e6a59194cd",
+   "len": 800
+  },
+  "lac-light/ref/ct": {
+   "sha256_16": "d24584318d623445cc5087bf47ce7ced",
+   "len": 648
+  },
+  "lac-light/ref/ss": {
+   "sha256_16": "6e9ebe898939d0373653707fff5968ca",
+   "len": 16
+  },
+  "lac-128/ref/pk": {
+   "sha256_16": "5d4767e7829941ac2faeec8968725497",
+   "len": 544
+  },
+  "lac-128/ref/sk": {
+   "sha256_16": "924bf03e95a60c2d4263c557d34fb37a",
+   "len": 1056
+  },
+  "lac-128/ref/ct": {
+   "sha256_16": "f41627d5905eb56fd13e1e2bde786aa6",
+   "len": 704
+  },
+  "lac-128/ref/ss": {
+   "sha256_16": "6e9ebe898939d0373653707fff5968ca",
+   "len": 16
+  },
+  "lac-192/ref/pk": {
+   "sha256_16": "03264439ccb67fa4627b61935b9f0820",
+   "len": 1056
+  },
+  "lac-192/ref/sk": {
+   "sha256_16": "bccf33b2f1dfc323d46de5ef33a1ef1e",
+   "len": 1568
+  },
+  "lac-192/ref/ct": {
+   "sha256_16": "aa05d4a10fc950a692eb63ce1b8c8740",
+   "len": 1352
+  },
+  "lac-192/ref/ss": {
+   "sha256_16": "a9a80342f12c099f67cf7d03512a8180",
+   "len": 32
+  },
+  "lac-256/ref/pk": {
+   "sha256_16": "0ae8411cc66fa9e27b33e8b845d95324",
+   "len": 1056
+  },
+  "lac-256/ref/sk": {
+   "sha256_16": "bc66d7f05f3ca46d1f3d312edd6e7ef0",
+   "len": 1824
+  },
+  "lac-256/ref/ct": {
+   "sha256_16": "a26248b24dbd869eb17b9ca44d97c7f5",
+   "len": 1464
+  },
+  "lac-256/ref/ss": {
+   "sha256_16": "a9a80342f12c099f67cf7d03512a8180",
+   "len": 32
+  },
+  "lac-light/opt/pk": {
+   "sha256_16": "55f8c53a9c4e01bef2f1016c7c33c8da",
+   "len": 544
+  },
+  "lac-light/opt/sk": {
+   "sha256_16": "a509466994b765040db715e6a59194cd",
+   "len": 800
+  },
+  "lac-light/opt/ct": {
+   "sha256_16": "d24584318d623445cc5087bf47ce7ced",
+   "len": 648
+  },
+  "lac-light/opt/ss": {
+   "sha256_16": "6e9ebe898939d0373653707fff5968ca",
+   "len": 16
+  },
+  "lac-128/opt/pk": {
+   "sha256_16": "5d4767e7829941ac2faeec8968725497",
+   "len": 544
+  },
+  "lac-128/opt/sk": {
+   "sha256_16": "924bf03e95a60c2d4263c557d34fb37a",
+   "len": 1056
+  },
+  "lac-128/opt/ct": {
+   "sha256_16": "f41627d5905eb56fd13e1e2bde786aa6",
+   "len": 704
+  },
+  "lac-128/opt/ss": {
+   "sha256_16": "6e9ebe898939d0373653707fff5968ca",
+   "len": 16
+  },
+  "lac-192/opt/pk": {
+   "sha256_16": "03264439ccb67fa4627b61935b9f0820",
+   "len": 1056
+  },
+  "lac-192/opt/sk": {
+   "sha256_16": "bccf33b2f1dfc323d46de5ef33a1ef1e",
+   "len": 1568
+  },
+  "lac-192/opt/ct": {
+   "sha256_16": "aa05d4a10fc950a692eb63ce1b8c8740",
+   "len": 1352
+  },
+  "lac-192/opt/ss": {
+   "sha256_16": "a9a80342f12c099f67cf7d03512a8180",
+   "len": 32
+  },
+  "lac-256/opt/pk": {
+   "sha256_16": "0ae8411cc66fa9e27b33e8b845d95324",
+   "len": 1056
+  },
+  "lac-256/opt/sk": {
+   "sha256_16": "bc66d7f05f3ca46d1f3d312edd6e7ef0",
+   "len": 1824
+  },
+  "lac-256/opt/ct": {
+   "sha256_16": "a26248b24dbd869eb17b9ca44d97c7f5",
+   "len": 1464
+  },
+  "lac-256/opt/ss": {
+   "sha256_16": "a9a80342f12c099f67cf7d03512a8180",
+   "len": 32
+  }
+ },
+ "checks": {
+  "lac-light/ref/tamper": "PASS",
+  "lac-128/ref/tamper": "PASS",
+  "lac-192/ref/tamper": "PASS",
+  "lac-256/ref/tamper": "PASS",
+  "lac-light/opt/tamper": "PASS",
+  "lac-128/opt/tamper": "PASS",
+  "lac-192/opt/tamper": "PASS",
+  "lac-256/opt/tamper": "PASS"
+ },
+ "info": {
+  "heap": "free=209824 largest_block=114688",
+  "lac-light": "kem pk=544 sk=800 ct=648 ss=16",
+  "lac-128": "kem pk=544 sk=1056 ct=704 ss=16",
+  "lac-192": "kem pk=1056 sk=1568 ct=1352 ss=32",
+  "lac-256": "kem pk=1056 sk=1824 ct=1464 ss=32"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 209824,
+ "heap_free_min": 142980
+}

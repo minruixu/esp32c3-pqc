@@ -1,0 +1,269 @@
+{
+ "results": {
+  "scloudplus-256-shake/ref/kat": {
+   "iters": 1,
+   "avg_us": 15193,
+   "min_us": 15193,
+   "max_us": 15193,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-aes/ref/kat": {
+   "iters": 1,
+   "avg_us": 30134,
+   "min_us": 30134,
+   "max_us": 30134,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-shake/opt/kat": {
+   "iters": 1,
+   "avg_us": 10440,
+   "min_us": 10440,
+   "max_us": 10440,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-aes/opt/kat": {
+   "iters": 1,
+   "avg_us": 24086,
+   "min_us": 24086,
+   "max_us": 24086,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-shake/ref/keygen": {
+   "iters": 3,
+   "avg_us": 2505,
+   "min_us": 2463,
+   "max_us": 2527,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-shake/ref/encaps": {
+   "iters": 3,
+   "avg_us": 2479,
+   "min_us": 2462,
+   "max_us": 2491,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-shake/ref/decaps": {
+   "iters": 3,
+   "avg_us": 2459,
+   "min_us": 2447,
+   "max_us": 2475,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-shake/ref/tamper": {
+   "iters": 1,
+   "avg_us": 2454,
+   "min_us": 2454,
+   "max_us": 2454,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-aes/ref/keygen": {
+   "iters": 3,
+   "avg_us": 6662,
+   "min_us": 6601,
+   "max_us": 6746,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-aes/ref/encaps": {
+   "iters": 3,
+   "avg_us": 8295,
+   "min_us": 6845,
+   "max_us": 11187,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-aes/ref/decaps": {
+   "iters": 3,
+   "avg_us": 8805,
+   "min_us": 7339,
+   "max_us": 10569,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-aes/ref/tamper": {
+   "iters": 1,
+   "avg_us": 7404,
+   "min_us": 7404,
+   "max_us": 7404,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-shake/opt/keygen": {
+   "iters": 3,
+   "avg_us": 3420,
+   "min_us": 3347,
+   "max_us": 3471,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-shake/opt/encaps": {
+   "iters": 3,
+   "avg_us": 2632,
+   "min_us": 2557,
+   "max_us": 2673,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-shake/opt/decaps": {
+   "iters": 3,
+   "avg_us": 2488,
+   "min_us": 2437,
+   "max_us": 2584,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-shake/opt/tamper": {
+   "iters": 1,
+   "avg_us": 2541,
+   "min_us": 2541,
+   "max_us": 2541,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-aes/opt/keygen": {
+   "iters": 3,
+   "avg_us": 7677,
+   "min_us": 7651,
+   "max_us": 7694,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-aes/opt/encaps": {
+   "iters": 3,
+   "avg_us": 6936,
+   "min_us": 6757,
+   "max_us": 7089,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-aes/opt/decaps": {
+   "iters": 3,
+   "avg_us": 7097,
+   "min_us": 7031,
+   "max_us": 7183,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scloudplus-256-aes/opt/tamper": {
+   "iters": 1,
+   "avg_us": 6974,
+   "min_us": 6974,
+   "max_us": 6974,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "scloudplus-256-shake/ref/pk": {
+   "sha256_16": "4bfe5af304f991b6b9e5ec0dc37632b1",
+   "len": 16296
+  },
+  "scloudplus-256-shake/ref/sk": {
+   "sha256_16": "419fd13b1ed8f9b41529a24b98c30b6f",
+   "len": 19680
+  },
+  "scloudplus-256-shake/ref/ct": {
+   "sha256_16": "fb2cb53ace43e726c756f03ef6d51113",
+   "len": 17925
+  },
+  "scloudplus-256-shake/ref/ss": {
+   "sha256_16": "ac339b7259f79a89245fb1d930bf2ef4",
+   "len": 32
+  },
+  "scloudplus-256-aes/ref/pk": {
+   "sha256_16": "852738a184e6cf5e2ebb99f7ad3be776",
+   "len": 16296
+  },
+  "scloudplus-256-aes/ref/sk": {
+   "sha256_16": "c0dbc4d696db68d561859b32cff36ed9",
+   "len": 19680
+  },
+  "scloudplus-256-aes/ref/ct": {
+   "sha256_16": "ad2883c29b710917d5dfeba6faeccb2a",
+   "len": 17925
+  },
+  "scloudplus-256-aes/ref/ss": {
+   "sha256_16": "65d4fd3bf98a5bd3e392068dd3df9107",
+   "len": 32
+  },
+  "scloudplus-256-shake/opt/pk": {
+   "sha256_16": "4bfe5af304f991b6b9e5ec0dc37632b1",
+   "len": 16296
+  },
+  "scloudplus-256-shake/opt/sk": {
+   "sha256_16": "419fd13b1ed8f9b41529a24b98c30b6f",
+   "len": 19680
+  },
+  "scloudplus-256-shake/opt/ct": {
+   "sha256_16": "fb2cb53ace43e726c756f03ef6d51113",
+   "len": 17925
+  },
+  "scloudplus-256-shake/opt/ss": {
+   "sha256_16": "ac339b7259f79a89245fb1d930bf2ef4",
+   "len": 32
+  },
+  "scloudplus-256-aes/opt/pk": {
+   "sha256_16": "852738a184e6cf5e2ebb99f7ad3be776",
+   "len": 16296
+  },
+  "scloudplus-256-aes/opt/sk": {
+   "sha256_16": "c0dbc4d696db68d561859b32cff36ed9",
+   "len": 19680
+  },
+  "scloudplus-256-aes/opt/ct": {
+   "sha256_16": "ad2883c29b710917d5dfeba6faeccb2a",
+   "len": 17925
+  },
+  "scloudplus-256-aes/opt/ss": {
+   "sha256_16": "65d4fd3bf98a5bd3e392068dd3df9107",
+   "len": 32
+  }
+ },
+ "checks": {
+  "scloudplus-256-shake/ref/kat": "PASS",
+  "scloudplus-256-aes/ref/kat": "PASS",
+  "scloudplus-256-shake/opt/kat": "PASS",
+  "scloudplus-256-aes/opt/kat": "PASS",
+  "scloudplus-256-shake/ref/tamper": "PASS",
+  "scloudplus-256-aes/ref/tamper": "PASS",
+  "scloudplus-256-shake/opt/tamper": "PASS",
+  "scloudplus-256-aes/opt/tamper": "PASS"
+ },
+ "info": {
+  "scloudplus-256-shake": "kem pk=16296 sk=19680 ct=17925 ss=32",
+  "scloudplus-256-aes": "kem pk=16296 sk=19680 ct=17925 ss=32"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

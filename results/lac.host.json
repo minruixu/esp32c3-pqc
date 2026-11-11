@@ -1,0 +1,443 @@
+{
+ "results": {
+  "lac-light/ref/keygen": {
+   "iters": 10,
+   "avg_us": 19,
+   "min_us": 11,
+   "max_us": 90,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-light/ref/encaps": {
+   "iters": 10,
+   "avg_us": 25,
+   "min_us": 15,
+   "max_us": 114,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-light/ref/decaps": {
+   "iters": 10,
+   "avg_us": 17,
+   "min_us": 17,
+   "max_us": 18,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-light/ref/tamper": {
+   "iters": 1,
+   "avg_us": 19,
+   "min_us": 19,
+   "max_us": 19,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-128/ref/keygen": {
+   "iters": 10,
+   "avg_us": 35,
+   "min_us": 20,
+   "max_us": 169,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-128/ref/encaps": {
+   "iters": 10,
+   "avg_us": 30,
+   "min_us": 30,
+   "max_us": 32,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-128/ref/decaps": {
+   "iters": 10,
+   "avg_us": 36,
+   "min_us": 36,
+   "max_us": 37,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 39,
+   "min_us": 39,
+   "max_us": 39,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-192/ref/keygen": {
+   "iters": 10,
+   "avg_us": 40,
+   "min_us": 24,
+   "max_us": 176,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-192/ref/encaps": {
+   "iters": 10,
+   "avg_us": 33,
+   "min_us": 33,
+   "max_us": 35,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-192/ref/decaps": {
+   "iters": 10,
+   "avg_us": 40,
+   "min_us": 40,
+   "max_us": 42,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-192/ref/tamper": {
+   "iters": 1,
+   "avg_us": 45,
+   "min_us": 45,
+   "max_us": 45,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-256/ref/keygen": {
+   "iters": 10,
+   "avg_us": 34,
+   "min_us": 34,
+   "max_us": 37,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-256/ref/encaps": {
+   "iters": 10,
+   "avg_us": 51,
+   "min_us": 50,
+   "max_us": 52,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-256/ref/decaps": {
+   "iters": 10,
+   "avg_us": 66,
+   "min_us": 65,
+   "max_us": 69,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 70,
+   "min_us": 70,
+   "max_us": 70,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-light/opt/keygen": {
+   "iters": 10,
+   "avg_us": 11,
+   "min_us": 11,
+   "max_us": 12,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-light/opt/encaps": {
+   "iters": 10,
+   "avg_us": 15,
+   "min_us": 15,
+   "max_us": 16,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-light/opt/decaps": {
+   "iters": 10,
+   "avg_us": 17,
+   "min_us": 17,
+   "max_us": 18,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-light/opt/tamper": {
+   "iters": 1,
+   "avg_us": 18,
+   "min_us": 18,
+   "max_us": 18,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-128/opt/keygen": {
+   "iters": 10,
+   "avg_us": 19,
+   "min_us": 19,
+   "max_us": 20,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-128/opt/encaps": {
+   "iters": 10,
+   "avg_us": 29,
+   "min_us": 29,
+   "max_us": 30,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-128/opt/decaps": {
+   "iters": 10,
+   "avg_us": 34,
+   "min_us": 34,
+   "max_us": 35,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 37,
+   "min_us": 37,
+   "max_us": 37,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-192/opt/keygen": {
+   "iters": 10,
+   "avg_us": 25,
+   "min_us": 23,
+   "max_us": 31,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-192/opt/encaps": {
+   "iters": 10,
+   "avg_us": 34,
+   "min_us": 33,
+   "max_us": 35,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-192/opt/decaps": {
+   "iters": 10,
+   "avg_us": 41,
+   "min_us": 40,
+   "max_us": 47,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-192/opt/tamper": {
+   "iters": 1,
+   "avg_us": 49,
+   "min_us": 49,
+   "max_us": 49,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-256/opt/keygen": {
+   "iters": 10,
+   "avg_us": 34,
+   "min_us": 33,
+   "max_us": 35,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-256/opt/encaps": {
+   "iters": 10,
+   "avg_us": 50,
+   "min_us": 49,
+   "max_us": 52,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-256/opt/decaps": {
+   "iters": 10,
+   "avg_us": 65,
+   "min_us": 63,
+   "max_us": 69,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lac-256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 68,
+   "min_us": 68,
+   "max_us": 68,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "lac-light/ref/pk": {
+   "sha256_16": "55f8c53a9c4e01bef2f1016c7c33c8da",
+   "len": 544
+  },
+  "lac-light/ref/sk": {
+   "sha256_16": "a509466994b765040db715e6a59194cd",
+   "len": 800
+  },
+  "lac-light/ref/ct": {
+   "sha256_16": "d24584318d623445cc5087bf47ce7ced",
+   "len": 648
+  },
+  "lac-light/ref/ss": {
+   "sha256_16": "6e9ebe898939d0373653707fff5968ca",
+   "len": 16
+  },
+  "lac-128/ref/pk": {
+   "sha256_16": "5d4767e7829941ac2faeec8968725497",
+   "len": 544
+  },
+  "lac-128/ref/sk": {
+   "sha256_16": "924bf03e95a60c2d4263c557d34fb37a",
+   "len": 1056
+  },
+  "lac-128/ref/ct": {
+   "sha256_16": "f41627d5905eb56fd13e1e2bde786aa6",
+   "len": 704
+  },
+  "lac-128/ref/ss": {
+   "sha256_16": "6e9ebe898939d0373653707fff5968ca",
+   "len": 16
+  },
+  "lac-192/ref/pk": {
+   "sha256_16": "03264439ccb67fa4627b61935b9f0820",
+   "len": 1056
+  },
+  "lac-192/ref/sk": {
+   "sha256_16": "bccf33b2f1dfc323d46de5ef33a1ef1e",
+   "len": 1568
+  },
+  "lac-192/ref/ct": {
+   "sha256_16": "aa05d4a10fc950a692eb63ce1b8c8740",
+   "len": 1352
+  },
+  "lac-192/ref/ss": {
+   "sha256_16": "a9a80342f12c099f67cf7d03512a8180",
+   "len": 32
+  },
+  "lac-256/ref/pk": {
+   "sha256_16": "0ae8411cc66fa9e27b33e8b845d95324",
+   "len": 1056
+  },
+  "lac-256/ref/sk": {
+   "sha256_16": "bc66d7f05f3ca46d1f3d312edd6e7ef0",
+   "len": 1824
+  },
+  "lac-256/ref/ct": {
+   "sha256_16": "a26248b24dbd869eb17b9ca44d97c7f5",
+   "len": 1464
+  },
+  "lac-256/ref/ss": {
+   "sha256_16": "a9a80342f12c099f67cf7d03512a8180",
+   "len": 32
+  },
+  "lac-light/opt/pk": {
+   "sha256_16": "55f8c53a9c4e01bef2f1016c7c33c8da",
+   "len": 544
+  },
+  "lac-light/opt/sk": {
+   "sha256_16": "a509466994b765040db715e6a59194cd",
+   "len": 800
+  },
+  "lac-light/opt/ct": {
+   "sha256_16": "d24584318d623445cc5087bf47ce7ced",
+   "len": 648
+  },
+  "lac-light/opt/ss": {
+   "sha256_16": "6e9ebe898939d0373653707fff5968ca",
+   "len": 16
+  },
+  "lac-128/opt/pk": {
+   "sha256_16": "5d4767e7829941ac2faeec8968725497",
+   "len": 544
+  },
+  "lac-128/opt/sk": {
+   "sha256_16": "924bf03e95a60c2d4263c557d34fb37a",
+   "len": 1056
+  },
+  "lac-128/opt/ct": {
+   "sha256_16": "f41627d5905eb56fd13e1e2bde786aa6",
+   "len": 704
+  },
+  "lac-128/opt/ss": {
+   "sha256_16": "6e9ebe898939d0373653707fff5968ca",
+   "len": 16
+  },
+  "lac-192/opt/pk": {
+   "sha256_16": "03264439ccb67fa4627b61935b9f0820",
+   "len": 1056
+  },
+  "lac-192/opt/sk": {
+   "sha256_16": "bccf33b2f1dfc323d46de5ef33a1ef1e",
+   "len": 1568
+  },
+  "lac-192/opt/ct": {
+   "sha256_16": "aa05d4a10fc950a692eb63ce1b8c8740",
+   "len": 1352
+  },
+  "lac-192/opt/ss": {
+   "sha256_16": "a9a80342f12c099f67cf7d03512a8180",
+   "len": 32
+  },
+  "lac-256/opt/pk": {
+   "sha256_16": "0ae8411cc66fa9e27b33e8b845d95324",
+   "len": 1056
+  },
+  "lac-256/opt/sk": {
+   "sha256_16": "bc66d7f05f3ca46d1f3d312edd6e7ef0",
+   "len": 1824
+  },
+  "lac-256/opt/ct": {
+   "sha256_16": "a26248b24dbd869eb17b9ca44d97c7f5",
+   "len": 1464
+  },
+  "lac-256/opt/ss": {
+   "sha256_16": "a9a80342f12c099f67cf7d03512a8180",
+   "len": 32
+  }
+ },
+ "checks": {
+  "lac-light/ref/tamper": "PASS",
+  "lac-128/ref/tamper": "PASS",
+  "lac-192/ref/tamper": "PASS",
+  "lac-256/ref/tamper": "PASS",
+  "lac-light/opt/tamper": "PASS",
+  "lac-128/opt/tamper": "PASS",
+  "lac-192/opt/tamper": "PASS",
+  "lac-256/opt/tamper": "PASS"
+ },
+ "info": {
+  "lac-light": "kem pk=544 sk=800 ct=648 ss=16",
+  "lac-128": "kem pk=544 sk=1056 ct=704 ss=16",
+  "lac-192": "kem pk=1056 sk=1568 ct=1352 ss=32",
+  "lac-256": "kem pk=1056 sk=1824 ct=1464 ss=32"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}
