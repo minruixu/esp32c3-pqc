@@ -135,3 +135,29 @@ All dates 2026-11-11 unless noted.
     a smaller reserved region, and an image of its own for SCloud+-256 with
     SM3, which then passed the submission's vectors on the chip for the first
     time. All 17 suites of this line now pass.
+16. **Final rerun and cross-check of the documents (2026-11-12).** The hash
+    primitives, the four GmSSL suites, LMS, XMSS and all 12 SLH-DSA sets were
+    rerun from the final code in one batch, so that every result file in the
+    repository comes from the same state of the shared primitives. All pass;
+    fingerprints equal the host build everywhere (SLH-DSA 72, LMS 53, XMSS
+    42). The jobs that take minutes are skipped in a plain run, so the batch
+    had dropped them from the result files; they were run again with their
+    filters and merged (XMSS reference key generation up to 589 s, LMS H10/W8
+    up to 383 s). LMS came out faster than in the line's own runs
+    (LMS-SHA256 H10/W4 key generation 3.38 s to 2.81 s).
+    Checking every claim in the documents against the final result files
+    turned up statements that were no longer true:
+    - HQC was quoted as 40 to 66 times faster; with the assembly Keccak
+      linked it is 51 to 82 times.
+    - SPHINCS-alpha 128s was described as host-only, but the rerun of entry
+      15 had run it on the board with all fingerprints equal.
+    - `pqmagic_sphincsa_192f` was the one suite that did not run. Its table,
+      the two rows used to build it and a 20 KB job stack did not fit the
+      heap together. With a 10 KB stack (7.3 KB used) and the unused SM3
+      backend left out it runs: 16 jobs pass, 12 fingerprints equal the host.
+    - GmSSL's SPHINCS+ key generation had no reference-variant measurement;
+      it has one now, with the same public-key fingerprint as the host.
+    State after this entry: 34 suites, 1306 jobs, 447 known-answer and
+    self-test checks, 1004 fingerprints; no failed job, no failed check, and
+    every fingerprint equals the host build. The NGCC generic port is counted
+    separately: its per-candidate outcomes are in `docs/ngcc/status.md`.

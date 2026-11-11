@@ -7,7 +7,7 @@ set(SUITE_SRCS
     ${SUITE_DIR}/lms.c)
 set(SUITE_INCS ${SUITE_DIR})
 set(SUITE_DEFS)
-# For the measurements in journal/experiments/lms.jsonl:
+# For the measurements in journal/experiments/lms.jsonl (optimization-journal branch):
 #   -D LMS_HW_CHAIN=off   chains through the general SHA-256 backend
 #   -D LMS_HW_CHAIN=loop  the hardware chain as a loop over n/4 words
 if(LMS_HW_CHAIN STREQUAL "off")

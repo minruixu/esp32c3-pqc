@@ -4,7 +4,8 @@ This suite times each hash primitive the project uses, checks the optimized
 versions against the reference ones, and probes how the ESP32-C3 SHA
 accelerator behaves. The numbers are from the board (ESP32-C3 revision v1.1,
 160 MHz, ESP-IDF v5.5.3, `-O2`, code in RAM). The attempts behind them,
-including the rejected ones, are in `journal/experiments/hashes.jsonl`.
+including the rejected ones, are in `journal/experiments/hashes.jsonl` on the
+`optimization-journal` branch.
 
 ## Sources
 

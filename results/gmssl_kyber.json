@@ -2,9 +2,9 @@
  "results": {
   "gmssl-kybertest/ref/quick": {
    "iters": 1,
-   "avg_us": 312188,
-   "min_us": 312188,
-   "max_us": 312188,
+   "avg_us": 312167,
+   "min_us": 312167,
+   "max_us": 312167,
    "stack": 43508,
    "heap": 0,
    "rc": 0
@@ -20,8 +20,8 @@
   },
   "gmssl-kyber768/ref/encaps": {
    "iters": 10,
-   "avg_us": 25712,
-   "min_us": 25710,
+   "avg_us": 25713,
+   "min_us": 25711,
    "max_us": 25717,
    "stack": 13828,
    "heap": 0,
@@ -30,7 +30,7 @@
   "gmssl-kyber768/ref/decaps": {
    "iters": 10,
    "avg_us": 29345,
-   "min_us": 29341,
+   "min_us": 29342,
    "max_us": 29347,
    "stack": 16004,
    "heap": 0,
@@ -38,9 +38,9 @@
   },
   "gmssl-kybertest/opt/quick": {
    "iters": 1,
-   "avg_us": 151800,
-   "min_us": 151800,
-   "max_us": 151800,
+   "avg_us": 151805,
+   "min_us": 151805,
+   "max_us": 151805,
    "stack": 43348,
    "heap": 0,
    "rc": 0
@@ -48,8 +48,8 @@
   "gmssl-kyber768/opt/keygen": {
    "iters": 10,
    "avg_us": 9701,
-   "min_us": 9671,
-   "max_us": 9759,
+   "min_us": 9672,
+   "max_us": 9760,
    "stack": 11172,
    "heap": 0,
    "rc": 0
@@ -57,7 +57,7 @@
   "gmssl-kyber768/opt/encaps": {
    "iters": 10,
    "avg_us": 11474,
-   "min_us": 11471,
+   "min_us": 11472,
    "max_us": 11478,
    "stack": 13764,
    "heap": 0,
@@ -67,7 +67,7 @@
    "iters": 10,
    "avg_us": 15103,
    "min_us": 15101,
-   "max_us": 15106,
+   "max_us": 15105,
    "stack": 15892,
    "heap": 0,
    "rc": 0
@@ -99,7 +99,7 @@
  },
  "info": {
   "gmssl-kyber768": "pk+sk+ct=4672 bytes",
-  "gmssl-sm3-compress/opt": "256 blocks: prims backend 6515 us, GmSSL 6191 us; fast mode uses GmSSL"
+  "gmssl-sm3-compress/opt": "256 blocks: prims backend 6514 us, GmSSL 6191 us; fast mode uses GmSSL"
  },
  "complete": true,
  "fails": 0,

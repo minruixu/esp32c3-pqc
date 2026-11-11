@@ -29,3 +29,21 @@ replaced. `results/*.json` at each commit are the measurements of that state.
 `partial` (kept in part) or `superseded` (replaced by a later attempt).
 `checked` says how correctness was established for the changed code.
 `before` and `after` are measured on the ESP32-C3 unless `note` says otherwise.
+
+## Lines of work
+
+The project was done as six lines of work running in parallel on the suites
+they owned, plus an integration pass at the end (reruns, RAM fixes, documents).
+
+| Line | Suites | Report | Experiment log | State |
+|---|---|---|---|---|
+| A | `keccak`, `mlkem`, `mldsa`, `mldsa87`, `mldsa_lowram` | none | none | Stopped before writing its report and log. Code, notes (`suites/*/NOTES.md`) and results are complete; every job passes and the fingerprints equal the host. `results/mlkem_O3`, `mlkem_Os`, `mlkem_prof`, `mldsa_O3` and `mldsa_prof` are its compiler-flag and profiling runs |
+| B | `slhdsa`, `hashes`, the SHA-256, SHA-512 and SM3 backends | `reports/B-slhdsa-hashes.md` | `slhdsa`, `hashes` | Delivered; rerun in the final batch |
+| C | `fndsa`, `hqc`, `hqc3ref` | `reports/C-fndsa-hqc.md` | `fndsa`, `hqc` | Delivered; rerun independently |
+| D | `lms`, `xmss`, `gmssl_*` | `reports/D-lms-xmss-gmssl.md` | `lms`, `xmss`, `gmssl` | Delivered; rerun in the final batch |
+| E | `aigis_*`, `pqmagic_*`, `scloudplus*`, `lac` | `reports/E-china-open-source.md` | `aigis`, `pqmagic`, `scloudplus`, `lac` | Delivered; rerun, with three RAM fixes and the 192f fix by the integration pass |
+| F | `ngcc` | `reports/F-ngcc-round1.md` | in the report and `docs/ngcc/status.md` | Delivered; results are from its own runs |
+
+Reports are kept as delivered. Where a later rerun changed a number, the
+result files, `docs/` and the timeline hold the current value.
+

@@ -190,7 +190,7 @@ One hash costs about 4200 cycles in slhdsa-c's C, 364 on the accelerator
 used plainly (load 8 words, write 16, run, read 4), about 280 with only the
 changed words written, and about 195 with two chains in flight. The
 intermediate rows are from the builds of those moments; all attempts are in
-`journal/experiments/slhdsa.jsonl`.
+`journal/experiments/slhdsa.jsonl` on the `optimization-journal` branch.
 
 ## The optimized variant, SHAKE sets
 

@@ -1,51 +1,68 @@
 {
- "checks": {
-  "gmssl-sphincstest/opt/quick": "PASS",
-  "gmssl-sphincstest/ref/quick": "PASS"
- },
- "complete": true,
- "cpu_mhz": 160,
- "digests": {
-  "gmssl-sphincs-sm3-128s/opt/pk": {
-   "len": 32,
-   "sha256_16": "12a63a60107da8408b667a4fe830dcc7"
-  }
- },
- "fails": 0,
- "heap_free_min": 175164,
- "heap_free_start": 208672,
- "info": {
-  "gmssl-sm3-compress/opt": "256 blocks: prims backend 6514 us, GmSSL 6167 us; fast mode uses GmSSL",
-  "gmssl-sphincs-sm3-128s": "pk=0 sig=0",
-  "gmssl-sphincs-sm3-128s/opt/skipped": "run with -f gmssl-sphincs-sm3-128s/opt"
- },
  "results": {
-  "gmssl-sphincs-sm3-128s/opt/keygen": {
-   "avg_us": 16046868,
-   "heap": 0,
+  "gmssl-sphincstest/ref/quick": {
    "iters": 1,
-   "max_us": 16046868,
-   "min_us": 16046868,
-   "rc": 0,
-   "stack": 312
+   "avg_us": 122226,
+   "min_us": 122226,
+   "max_us": 122226,
+   "stack": 3692,
+   "heap": 16,
+   "rc": 0
   },
   "gmssl-sphincstest/opt/quick": {
-   "avg_us": 123399,
-   "heap": 16,
    "iters": 1,
-   "max_us": 123399,
-   "min_us": 123399,
-   "rc": 0,
-   "stack": 3684
+   "avg_us": 122455,
+   "min_us": 122455,
+   "max_us": 122455,
+   "stack": 3692,
+   "heap": 16,
+   "rc": 0
   },
-  "gmssl-sphincstest/ref/quick": {
-   "avg_us": 121851,
-   "heap": 16,
+  "gmssl-sphincs-sm3-128s/ref/keygen": {
    "iters": 1,
-   "max_us": 121851,
-   "min_us": 121851,
-   "rc": 0,
-   "stack": 3684
+   "avg_us": 16019784,
+   "min_us": 16019784,
+   "max_us": 16019784,
+   "stack": 312,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-sphincs-sm3-128s/opt/keygen": {
+   "iters": 1,
+   "avg_us": 16046202,
+   "min_us": 16046202,
+   "max_us": 16046202,
+   "stack": 312,
+   "heap": 0,
+   "rc": 0
   }
- }
+ },
+ "digests": {
+  "gmssl-sphincs-sm3-128s/ref/pk": {
+   "sha256_16": "12a63a60107da8408b667a4fe830dcc7",
+   "len": 32
+  },
+  "gmssl-sphincs-sm3-128s/opt/pk": {
+   "sha256_16": "12a63a60107da8408b667a4fe830dcc7",
+   "len": 32
+  }
+ },
+ "checks": {
+  "gmssl-sphincstest/ref/quick": "PASS",
+  "gmssl-sphincstest/opt/quick": "PASS"
+ },
+ "info": {
+  "gmssl-sphincs-sm3-128s/ref/skipped": "run with -f gmssl-sphincs-sm3-128s/ref",
+  "gmssl-sm3-compress/opt": "256 blocks: prims backend 6515 us, GmSSL 6167 us; fast mode uses GmSSL",
+  "gmssl-sphincs-sm3-128s/opt/skipped": "run with -f gmssl-sphincs-sm3-128s/opt",
+  "gmssl-sphincs-sm3-128s/ref/sign": "not run on the device: needs more stack than the chip has",
+  "gmssl-sphincs-sm3-128s/ref/stack": "18252 bytes on the static stack",
+  "gmssl-sphincs-sm3-128s/opt/sign": "not run on the device: needs more stack than the chip has",
+  "gmssl-sphincs-sm3-128s/opt/stack": "18252 bytes on the static stack"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 94332,
+ "heap_free_min": 77176
 }

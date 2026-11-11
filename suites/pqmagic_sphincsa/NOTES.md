@@ -30,22 +30,33 @@ matter of milliseconds.
 So 128f and 128s are within reach of the device, 192f is at the limit, and
 192s, 256f and 256s do not fit in RAM in either form.
 
-**State on the device.** `pqmagic_sphincsa_192f` does not run yet: its
-first job stopped at the `assert` after `sphincsa_dp_select()` failed to
-allocate. That image has 162 KB of free heap, and the 128 KB table, the two
-build rows (15 KB) and the 20 KB job stack add up to 163 KB. A smaller job
-stack (the scheme uses about 4 KB) or building the table with narrower
-temporary rows should make it fit; neither was tried.
-`pqmagic_sphincsa` runs on the device for 128f in all three hash families:
-18 of 18 fingerprints equal the host's, the reference and the optimized
-variant agree, and the table shows as 66 KB of heap in the first job. With
-the shared optimized primitives (milliseconds, reference to optimized):
-SM3 key generation 192 to 128, signing 4889 to 3455, verification 259 to
-186; SHA-2 160 to 50, 4110 to 1307, 220 to 77 (hardware SHA-256); SHAKE
-633 to 406, 16280 to 10441, 835 to 540. The 128s sets (102 KB table,
-signatures that take minutes) were not run on the device; they are verified
-on the host only. In a flash-based firmware the table would be a constant
-in flash and all sets would be possible; that was not tested.
+**State on the device.** All sets that fit run on the device, in both
+variants, and every fingerprint equals the host's: 36 of 36 for
+`pqmagic_sphincsa` (128f and 128s in the three hash families) and 12 of 12
+for `pqmagic_sphincsa_192f`. Milliseconds, reference to optimized:
+
+| Set | Key generation | Signing | Verification | Table on the heap |
+|---|---:|---:|---:|---:|
+| SM3 128f | 193 to 140 | 4891 to 3448 | 259 to 186 | 66 KB |
+| SHA-2 128f | 173 to 64 | 4138 to 1336 | 222 to 79 | 66 KB |
+| SHAKE 128f | 643 to 416 | 16217 to 10379 | 832 to 537 | 66 KB |
+| SM3 128s | 9092 to 6436 | 98067 to 69106 | 348 to 250 | 106 KB |
+| SHA-2 128s | 8088 to 2606 | 83757 to 26591 | 304 to 107 | 106 KB |
+| SHAKE 128s | 31909 to 20435 | 332210 to 212528 | 1157 to 746 | 106 KB |
+| SHA-2 192f | 375 to 129 | 7263 to 3183 | 211 to 112 | 146 KB |
+| SHAKE 192f | 1348 to 865 | 26002 to 16695 | 682 to 442 | 146 KB |
+
+The heap column is the peak while the table is built (the table plus the two
+full-width rows used to build it). The SHA-2 sets gain most because of the
+hardware SHA-256; 192f uses SHA-512 for part of its hashing and gains less.
+
+192f needed two changes to fit: its jobs get a 10 KB stack instead of the
+default 20 KB (7.3 KB is used), and the image leaves out the fast SM3 backend
+it never calls (`prims_off.txt`). With 172 KB of free heap, the 146 KB peak
+then fits; with the 20 KB stack the table could not be allocated.
+192s, 256f and 256s do not fit in RAM. In a flash-based firmware the table
+would be a constant in flash and all sets would be possible; that was not
+tested.
 
 The compact table is used for both variants (`ref` and `opt`): there is no
 other way to run the scheme here. The change is one `#ifdef PQC_COMPACT_DP`
@@ -62,7 +73,7 @@ parameter set.
 
 - `pqmagic_sphincsa`: 128f and 128s for SM3, SHA-2 and SHAKE.
 - `pqmagic_sphincsa_192f`: 192f for SHA-2 and SHAKE (the 128 KB table needs
-  the heap of the image to itself). Host only for now, see above.
+  the heap of the image to itself).
 
 SHA-256 goes through `pqc_sha256_compress()` (one `#ifdef PQC_PRIMS_SHA256`
 block in the vendored `sha2.c`), SM3 and Keccak through the PQMagic port

@@ -2,10 +2,11 @@
 
 [中文说明](README.zh-CN.md)
 
-Every post-quantum algorithm from NIST and from China that has a public
-implementation, ported to an ESP32-C3 (RV32IMC, 160 MHz, about 385 KB of RAM,
-no FPU), checked against known answers, measured, and then made faster for
-this particular chip.
+The post-quantum algorithms that NIST has standardized or selected, and the
+Chinese ones that have a public implementation, ported to an ESP32-C3
+(RV32IMC, 160 MHz, about 385 KB of RAM, no FPU), checked against known
+answers, measured, and then made faster for this particular chip. The ones
+that do not fit the chip are listed with the reason.
 
 - **NIST:** ML-KEM, ML-DSA, SLH-DSA (all 12 parameter sets), FN-DSA (Falcon),
   HQC, and the stateful hash-based signatures LMS/HSS and XMSS/XMSS^MT.
@@ -27,11 +28,11 @@ and every measured job in [docs/RESULTS.md](docs/RESULTS.md).
 |---|---:|---:|---:|---:|
 | ML-KEM-768 | 8.21 ms → 4.48 ms (1.8×) | 9.03 ms → 4.85 ms (1.9×) | 11.0 ms → 5.90 ms (1.9×) | 15.7 KB |
 | ML-DSA-65 | 33.1 ms → 18.6 ms (1.8×) | 94.4 ms → 45.2 ms (2.1×) | 33.4 ms → 18.2 ms (1.8×) | 68.5 KB |
-| SLH-DSA-SHA2-128f | 130 ms → 5.64 ms (23.1×) | 3057 ms → 143 ms (21.4×) | 177 ms → 9.79 ms (18.1×) | 4.2 KB |
+| SLH-DSA-SHA2-128f | 130 ms → 5.64 ms (23.0×) | 3046 ms → 143 ms (21.3×) | 176 ms → 9.79 ms (18.0×) | 4.3 KB |
 | SLH-DSA-SHA2-128s | 8298 ms → 360 ms (23.0×) | 63.5 s → 2890 ms (22.0×) | 60.6 ms → 3.57 ms (17.0×) | 4.3 KB |
 | FN-DSA-512 (Falcon) | 522 ms | 289 ms → 219 ms (1.3×) | 4.10 ms → 3.21 ms (1.3×) | 2.2 KB |
 | HQC-1 | 281 ms → 4.29 ms (65.4×) | 561 ms → 9.11 ms (61.5×) | 1132 ms → 22.3 ms (50.8×) | 19.8 KB |
-| LMS-SHA256 H10/W4 | 44.0 s → 3376 ms (13.0×) | 45.5 ms → 3.75 ms (12.2×) | 20.7 ms → 1.85 ms (11.2×) | 2.4 KB |
+| LMS-SHA256 H10/W4 | 44.0 s → 2807 ms (15.7×) | 45.5 ms → 3.18 ms (14.3×) | 20.6 ms → 1.59 ms (13.0×) | 2.4 KB |
 | XMSS-SHA2_10_256 | 235.9 s → 13.0 s (18.1×) | 511 ms → 25.7 ms (19.9×) | 130 ms → 7.10 ms (18.2×) | 4.1 KB |
 | Aigis-enc-2 (SM3) | 9.79 ms → 7.38 ms (1.3×) | 12.8 ms → 9.65 ms (1.3×) | 13.3 ms → 10.4 ms (1.3×) | 15.3 KB |
 | Aigis-sig-2 (SM3) | 37.3 ms → 25.4 ms (1.5×) | 66.8 ms → 51.0 ms (1.3×) | 37.2 ms → 26.1 ms (1.4×) | 85.6 KB |

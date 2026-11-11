@@ -2,72 +2,72 @@
  "results": {
   "kat-rfc8554_tc1/ref/verify": {
    "iters": 1,
-   "avg_us": 1048258,
-   "min_us": 1048258,
-   "max_us": 1048258,
+   "avg_us": 1047922,
+   "min_us": 1047922,
+   "max_us": 1047922,
    "stack": 1920,
    "heap": 0,
    "rc": 0
   },
   "kat-rfc8554_tc2/ref/verify": {
    "iters": 1,
-   "avg_us": 419283,
-   "min_us": 419283,
-   "max_us": 419283,
+   "avg_us": 419150,
+   "min_us": 419150,
+   "max_us": 419150,
    "stack": 1920,
    "heap": 0,
    "rc": 0
   },
   "kat-rfc8554_tc2/ref/keygen+sign": {
    "iters": 1,
-   "avg_us": 55022553,
-   "min_us": 55022553,
-   "max_us": 55022553,
+   "avg_us": 55005218,
+   "min_us": 55005218,
+   "max_us": 55005218,
    "stack": 3152,
    "heap": 0,
    "rc": 0
   },
   "kat-rfc9858_tc1/ref/verify": {
    "iters": 1,
-   "avg_us": 386236,
-   "min_us": 386236,
-   "max_us": 386236,
+   "avg_us": 386112,
+   "min_us": 386112,
+   "max_us": 386112,
    "stack": 1824,
    "heap": 0,
    "rc": 0
   },
   "kat-rfc9858_tc1/ref/keygen+sign": {
    "iters": 1,
-   "avg_us": 8372665,
-   "min_us": 8372665,
-   "max_us": 8372665,
+   "avg_us": 8369952,
+   "min_us": 8369952,
+   "max_us": 8369952,
    "stack": 2592,
    "heap": 0,
    "rc": 0
   },
   "kat-rfc9858_tc2/ref/verify": {
    "iters": 1,
-   "avg_us": 1659374,
-   "min_us": 1659374,
-   "max_us": 1659374,
+   "avg_us": 1659373,
+   "min_us": 1659373,
+   "max_us": 1659373,
    "stack": 1680,
    "heap": 0,
    "rc": 0
   },
   "kat-rfc9858_tc3/ref/verify": {
    "iters": 1,
-   "avg_us": 2261920,
-   "min_us": 2261920,
-   "max_us": 2261920,
+   "avg_us": 2261919,
+   "min_us": 2261919,
+   "max_us": 2261919,
    "stack": 1680,
    "heap": 0,
    "rc": 0
   },
   "kat-rfc9858_tc4/ref/verify": {
    "iters": 1,
-   "avg_us": 56229,
-   "min_us": 56229,
-   "max_us": 56229,
+   "avg_us": 56212,
+   "min_us": 56212,
+   "max_us": 56212,
    "stack": 1824,
    "heap": 0,
    "rc": 0
@@ -81,209 +81,218 @@
    "heap": 0,
    "rc": 0
   },
+  "kat-gmssl_sm3_hss/ref/verify": {
+   "iters": 1,
+   "avg_us": 616552,
+   "min_us": 616552,
+   "max_us": 616552,
+   "stack": 1600,
+   "heap": 0,
+   "rc": 0
+  },
   "lms-sha256-m32-h5-w8/ref/keygen": {
    "iters": 1,
-   "avg_us": 10858663,
-   "min_us": 10858663,
-   "max_us": 10858663,
+   "avg_us": 10855173,
+   "min_us": 10855173,
+   "max_us": 10855173,
    "stack": 2512,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w8/ref/sign": {
    "iters": 32,
-   "avg_us": 161152,
-   "min_us": 130459,
-   "max_us": 180064,
+   "avg_us": 161100,
+   "min_us": 130417,
+   "max_us": 180006,
    "stack": 1728,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w8/ref/verify": {
    "iters": 10,
-   "avg_us": 209413,
-   "min_us": 209410,
-   "max_us": 209415,
+   "avg_us": 209346,
+   "min_us": 209342,
+   "max_us": 209347,
    "stack": 1792,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w4/ref/keygen": {
    "iters": 1,
-   "avg_us": 1374102,
-   "min_us": 1374102,
-   "max_us": 1374102,
+   "avg_us": 1373672,
+   "min_us": 1373672,
+   "max_us": 1373672,
    "stack": 2512,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w4/ref/sign": {
    "iters": 32,
-   "avg_us": 21643,
-   "min_us": 17994,
-   "max_us": 24418,
+   "avg_us": 21636,
+   "min_us": 17988,
+   "max_us": 24410,
    "stack": 1728,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w4/ref/verify": {
    "iters": 10,
-   "avg_us": 23240,
-   "min_us": 23239,
-   "max_us": 23244,
+   "avg_us": 23233,
+   "min_us": 23232,
+   "max_us": 23237,
    "stack": 1792,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w4/ref/selftest": {
    "iters": 1,
-   "avg_us": 4864451,
-   "min_us": 4864451,
-   "max_us": 4864451,
+   "avg_us": 4862940,
+   "min_us": 4862940,
+   "max_us": 4862940,
    "stack": 2544,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w2/ref/keygen": {
    "iters": 1,
-   "avg_us": 736851,
-   "min_us": 736851,
-   "max_us": 736851,
+   "avg_us": 736637,
+   "min_us": 736637,
+   "max_us": 736637,
    "stack": 2512,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w2/ref/sign": {
    "iters": 32,
-   "avg_us": 13043,
-   "min_us": 11535,
-   "max_us": 14001,
+   "avg_us": 13039,
+   "min_us": 11531,
+   "max_us": 13997,
    "stack": 1728,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w2/ref/verify": {
    "iters": 10,
-   "avg_us": 11326,
-   "min_us": 11326,
-   "max_us": 11331,
+   "avg_us": 11323,
+   "min_us": 11323,
+   "max_us": 11328,
    "stack": 1792,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w1/ref/keygen": {
    "iters": 1,
-   "avg_us": 804434,
-   "min_us": 804434,
-   "max_us": 804434,
+   "avg_us": 804221,
+   "min_us": 804221,
+   "max_us": 804221,
    "stack": 2512,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w1/ref/sign": {
    "iters": 32,
-   "avg_us": 15756,
-   "min_us": 14557,
-   "max_us": 16491,
+   "avg_us": 15751,
+   "min_us": 14553,
+   "max_us": 16486,
    "stack": 1728,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w1/ref/verify": {
    "iters": 10,
-   "avg_us": 10777,
-   "min_us": 10777,
-   "max_us": 10778,
+   "avg_us": 10776,
+   "min_us": 10776,
+   "max_us": 10776,
    "stack": 1792,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h10-w4/ref/keygen": {
    "iters": 1,
-   "avg_us": 43972204,
-   "min_us": 43972204,
-   "max_us": 43972204,
+   "avg_us": 43958424,
+   "min_us": 43958424,
+   "max_us": 43958424,
    "stack": 3072,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h10-w4/ref/sign": {
    "iters": 70,
-   "avg_us": 45548,
-   "min_us": 17998,
-   "max_us": 69629,
+   "avg_us": 45534,
+   "min_us": 17992,
+   "max_us": 69607,
    "stack": 2112,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h10-w4/ref/verify": {
    "iters": 10,
-   "avg_us": 20652,
-   "min_us": 20652,
-   "max_us": 20652,
+   "avg_us": 20646,
+   "min_us": 20646,
+   "max_us": 20646,
    "stack": 1792,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m24-h5-w8/ref/keygen": {
    "iters": 1,
-   "avg_us": 8233785,
-   "min_us": 8233785,
-   "max_us": 8233785,
+   "avg_us": 8231117,
+   "min_us": 8231117,
+   "max_us": 8231117,
    "stack": 2512,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m24-h5-w8/ref/sign": {
    "iters": 32,
-   "avg_us": 125378,
-   "min_us": 99550,
-   "max_us": 148748,
+   "avg_us": 125337,
+   "min_us": 99518,
+   "max_us": 148700,
    "stack": 1728,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m24-h5-w8/ref/verify": {
    "iters": 10,
-   "avg_us": 138585,
-   "min_us": 138582,
-   "max_us": 138587,
+   "avg_us": 138540,
+   "min_us": 138537,
+   "max_us": 138542,
    "stack": 1792,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m24-h10-w4/ref/keygen": {
    "iters": 1,
-   "avg_us": 33045040,
-   "min_us": 33045040,
-   "max_us": 33045040,
+   "avg_us": 33034544,
+   "min_us": 33034544,
+   "max_us": 33034544,
    "stack": 3072,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m24-h10-w4/ref/sign": {
    "iters": 70,
-   "avg_us": 34283,
-   "min_us": 13734,
-   "max_us": 52609,
+   "avg_us": 34272,
+   "min_us": 13729,
+   "max_us": 52592,
    "stack": 2112,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m24-h10-w4/ref/verify": {
    "iters": 10,
-   "avg_us": 16541,
-   "min_us": 16539,
-   "max_us": 16544,
+   "avg_us": 16536,
+   "min_us": 16533,
+   "max_us": 16539,
    "stack": 1792,
    "heap": 0,
    "rc": 0
   },
   "lms-shake-m32-h5-w4/ref/keygen": {
    "iters": 1,
-   "avg_us": 5815513,
-   "min_us": 5815513,
-   "max_us": 5815513,
+   "avg_us": 5815509,
+   "min_us": 5815509,
+   "max_us": 5815509,
    "stack": 2368,
    "heap": 0,
    "rc": 0
@@ -299,7 +308,7 @@
   },
   "lms-shake-m32-h5-w4/ref/verify": {
    "iters": 10,
-   "avg_us": 86435,
+   "avg_us": 86436,
    "min_us": 86433,
    "max_us": 86438,
    "stack": 1648,
@@ -308,9 +317,9 @@
   },
   "lms-shake-m24-h5-w4/ref/keygen": {
    "iters": 1,
-   "avg_us": 4403959,
-   "min_us": 4403959,
-   "max_us": 4403959,
+   "avg_us": 4403957,
+   "min_us": 4403957,
+   "max_us": 4403957,
    "stack": 2368,
    "heap": 0,
    "rc": 0
@@ -333,57 +342,84 @@
    "heap": 0,
    "rc": 0
   },
+  "lms-sm3-m32-h5-w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 11971849,
+   "min_us": 11971849,
+   "max_us": 11971849,
+   "stack": 2208,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/ref/sign": {
+   "iters": 32,
+   "avg_us": 181708,
+   "min_us": 143782,
+   "max_us": 220318,
+   "stack": 1424,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/ref/verify": {
+   "iters": 10,
+   "avg_us": 198198,
+   "min_us": 198195,
+   "max_us": 198199,
+   "stack": 1488,
+   "heap": 0,
+   "rc": 0
+  },
   "hss-sha256-h5w8-h5w8/ref/keygen": {
    "iters": 1,
-   "avg_us": 21907392,
-   "min_us": 21907392,
-   "max_us": 21907392,
+   "avg_us": 21900353,
+   "min_us": 21900353,
+   "max_us": 21900353,
    "stack": 2704,
    "heap": 0,
    "rc": 0
   },
   "hss-sha256-h5w8-h5w8/ref/sign": {
    "iters": 40,
-   "avg_us": 441406,
-   "min_us": 130465,
-   "max_us": 11159353,
+   "avg_us": 441264,
+   "min_us": 130424,
+   "max_us": 11155767,
    "stack": 2736,
    "heap": 0,
    "rc": 0
   },
   "hss-sha256-h5w8-h5w8/ref/verify": {
    "iters": 5,
-   "avg_us": 379144,
-   "min_us": 379141,
-   "max_us": 379145,
+   "avg_us": 379022,
+   "min_us": 379019,
+   "max_us": 379024,
    "stack": 1888,
    "heap": 0,
    "rc": 0
   },
   "kat-rfc8554_tc1/opt/verify": {
    "iters": 1,
-   "avg_us": 61862,
-   "min_us": 61862,
-   "max_us": 61862,
-   "stack": 1296,
+   "avg_us": 46526,
+   "min_us": 46526,
+   "max_us": 46526,
+   "stack": 1344,
    "heap": 0,
    "rc": 0
   },
   "kat-rfc8554_tc2/opt/verify": {
    "iters": 1,
-   "avg_us": 21395,
-   "min_us": 21395,
-   "max_us": 21395,
-   "stack": 1248,
+   "avg_us": 21394,
+   "min_us": 21394,
+   "max_us": 21394,
+   "stack": 1344,
    "heap": 0,
    "rc": 0
   },
   "kat-rfc8554_tc2/opt/keygen+sign": {
    "iters": 1,
-   "avg_us": 3289447,
-   "min_us": 3289447,
-   "max_us": 3289447,
-   "stack": 2592,
+   "avg_us": 3289444,
+   "min_us": 3289444,
+   "max_us": 3289444,
+   "stack": 2576,
    "heap": 0,
    "rc": 0
   },
@@ -392,7 +428,7 @@
    "avg_us": 14392,
    "min_us": 14392,
    "max_us": 14392,
-   "stack": 1248,
+   "stack": 1128,
    "heap": 0,
    "rc": 0
   },
@@ -434,28 +470,37 @@
   },
   "kat-rfc9858_tc3/opt/keygen+sign": {
    "iters": 1,
-   "avg_us": 23187318,
-   "min_us": 23187318,
-   "max_us": 23187318,
-   "stack": 2080,
+   "avg_us": 23187319,
+   "min_us": 23187319,
+   "max_us": 23187319,
+   "stack": 2016,
    "heap": 0,
    "rc": 0
   },
   "kat-rfc9858_tc4/opt/verify": {
    "iters": 1,
-   "avg_us": 4397,
-   "min_us": 4397,
-   "max_us": 4397,
-   "stack": 1080,
+   "avg_us": 3841,
+   "min_us": 3841,
+   "max_us": 3841,
+   "stack": 1128,
    "heap": 0,
    "rc": 0
   },
   "kat-rfc9858_tc4/opt/keygen+sign": {
    "iters": 1,
-   "avg_us": 1,
-   "min_us": 1,
-   "max_us": 1,
+   "avg_us": 2,
+   "min_us": 2,
+   "max_us": 2,
    "stack": 176,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-gmssl_sm3_hss/opt/verify": {
+   "iters": 1,
+   "avg_us": 390234,
+   "min_us": 390234,
+   "max_us": 390234,
+   "stack": 1536,
    "heap": 0,
    "rc": 0
   },
@@ -488,17 +533,17 @@
   },
   "lms-sha256-m32-h5-w4/opt/keygen": {
    "iters": 1,
-   "avg_us": 87753,
-   "min_us": 87753,
-   "max_us": 87753,
+   "avg_us": 87754,
+   "min_us": 87754,
+   "max_us": 87754,
    "stack": 1936,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w4/opt/sign": {
    "iters": 32,
-   "avg_us": 1661,
-   "min_us": 1482,
+   "avg_us": 1662,
+   "min_us": 1481,
    "max_us": 1782,
    "stack": 1152,
    "heap": 0,
@@ -508,115 +553,142 @@
    "iters": 10,
    "avg_us": 1678,
    "min_us": 1677,
-   "max_us": 1682,
+   "max_us": 1683,
    "stack": 1216,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w4/opt/selftest": {
    "iters": 1,
-   "avg_us": 333628,
-   "min_us": 333628,
-   "max_us": 333628,
+   "avg_us": 333626,
+   "min_us": 333626,
+   "max_us": 333626,
    "stack": 1968,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w2/opt/keygen": {
    "iters": 1,
-   "avg_us": 95688,
-   "min_us": 95688,
-   "max_us": 95688,
-   "stack": 1888,
+   "avg_us": 89783,
+   "min_us": 89783,
+   "max_us": 89783,
+   "stack": 1936,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w2/opt/sign": {
    "iters": 32,
-   "avg_us": 1962,
-   "min_us": 1790,
-   "max_us": 2047,
-   "stack": 1104,
+   "avg_us": 1884,
+   "min_us": 1731,
+   "max_us": 1956,
+   "stack": 1152,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w2/opt/verify": {
    "iters": 10,
-   "avg_us": 1766,
-   "min_us": 1765,
-   "max_us": 1770,
-   "stack": 1048,
+   "avg_us": 1675,
+   "min_us": 1674,
+   "max_us": 1679,
+   "stack": 1216,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w1/opt/keygen": {
    "iters": 1,
-   "avg_us": 152361,
-   "min_us": 152361,
-   "max_us": 152361,
-   "stack": 1888,
+   "avg_us": 150346,
+   "min_us": 150346,
+   "max_us": 150346,
+   "stack": 1936,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w1/opt/sign": {
    "iters": 32,
-   "avg_us": 2995,
-   "min_us": 2783,
-   "max_us": 3123,
-   "stack": 1104,
+   "avg_us": 2965,
+   "min_us": 2760,
+   "max_us": 3088,
+   "stack": 1152,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h5-w1/opt/verify": {
    "iters": 10,
-   "avg_us": 2502,
-   "min_us": 2501,
-   "max_us": 2506,
-   "stack": 1168,
+   "avg_us": 2468,
+   "min_us": 2467,
+   "max_us": 2472,
+   "stack": 1096,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h10-w4/opt/keygen": {
    "iters": 1,
-   "avg_us": 3376259,
-   "min_us": 3376259,
-   "max_us": 3376259,
-   "stack": 2448,
+   "avg_us": 2807406,
+   "min_us": 2807406,
+   "max_us": 2807406,
+   "stack": 2496,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h10-w4/opt/sign": {
    "iters": 70,
-   "avg_us": 3748,
-   "min_us": 1695,
-   "max_us": 5692,
-   "stack": 1488,
+   "avg_us": 3181,
+   "min_us": 1485,
+   "max_us": 4845,
+   "stack": 1536,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h10-w4/opt/verify": {
    "iters": 10,
-   "avg_us": 1848,
-   "min_us": 1847,
-   "max_us": 1852,
-   "stack": 1168,
+   "avg_us": 1593,
+   "min_us": 1592,
+   "max_us": 1597,
+   "stack": 1216,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m32-h10-w4/opt/selftest": {
    "iters": 1,
-   "avg_us": 3651826,
-   "min_us": 3651826,
-   "max_us": 3651826,
-   "stack": 2480,
+   "avg_us": 3041541,
+   "min_us": 3041541,
+   "max_us": 3041541,
+   "stack": 2528,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/opt/keygen": {
+   "iters": 1,
+   "avg_us": 15127556,
+   "min_us": 15127556,
+   "max_us": 15127556,
+   "stack": 2496,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/opt/sign": {
+   "iters": 40,
+   "avg_us": 10149,
+   "min_us": 5900,
+   "max_us": 23170,
+   "stack": 1536,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/opt/verify": {
+   "iters": 10,
+   "avg_us": 8429,
+   "min_us": 8425,
+   "max_us": 8431,
+   "stack": 1216,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m24-h5-w8/opt/keygen": {
    "iters": 1,
-   "avg_us": 299452,
-   "min_us": 299452,
-   "max_us": 299452,
+   "avg_us": 299457,
+   "min_us": 299457,
+   "max_us": 299457,
    "stack": 1936,
    "heap": 0,
    "rc": 0
@@ -641,36 +713,36 @@
   },
   "lms-sha256-m24-h10-w4/opt/keygen": {
    "iters": 1,
-   "avg_us": 2189464,
-   "min_us": 2189464,
-   "max_us": 2189464,
-   "stack": 2464,
+   "avg_us": 1840721,
+   "min_us": 1840721,
+   "max_us": 1840721,
+   "stack": 2496,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m24-h10-w4/opt/sign": {
    "iters": 70,
-   "avg_us": 2476,
-   "min_us": 1160,
-   "max_us": 3846,
-   "stack": 1488,
+   "avg_us": 2129,
+   "min_us": 1033,
+   "max_us": 3325,
+   "stack": 1536,
    "heap": 0,
    "rc": 0
   },
   "lms-sha256-m24-h10-w4/opt/verify": {
    "iters": 10,
-   "avg_us": 1273,
-   "min_us": 1272,
-   "max_us": 1277,
-   "stack": 1168,
+   "avg_us": 1105,
+   "min_us": 1104,
+   "max_us": 1110,
+   "stack": 1216,
    "heap": 0,
    "rc": 0
   },
   "lms-shake-m32-h5-w4/opt/keygen": {
    "iters": 1,
-   "avg_us": 2872583,
-   "min_us": 2872583,
-   "max_us": 2872583,
+   "avg_us": 2872582,
+   "min_us": 2872582,
+   "max_us": 2872582,
    "stack": 1936,
    "heap": 0,
    "rc": 0
@@ -687,7 +759,7 @@
   "lms-shake-m32-h5-w4/opt/verify": {
    "iters": 10,
    "avg_us": 42990,
-   "min_us": 42988,
+   "min_us": 42989,
    "max_us": 42994,
    "stack": 1312,
    "heap": 0,
@@ -695,9 +767,9 @@
   },
   "lms-shake-m24-h5-w4/opt/keygen": {
    "iters": 1,
-   "avg_us": 2168662,
-   "min_us": 2168662,
-   "max_us": 2168662,
+   "avg_us": 2168663,
+   "min_us": 2168663,
+   "max_us": 2168663,
    "stack": 1936,
    "heap": 0,
    "rc": 0
@@ -706,7 +778,7 @@
    "iters": 32,
    "avg_us": 35752,
    "min_us": 31357,
-   "max_us": 41138,
+   "max_us": 41139,
    "stack": 1152,
    "heap": 0,
    "rc": 0
@@ -717,42 +789,6 @@
    "min_us": 31082,
    "max_us": 31087,
    "stack": 1216,
-   "heap": 0,
-   "rc": 0
-  },
-  "hss-sha256-h5w8-h5w8/opt/keygen": {
-   "iters": 1,
-   "avg_us": 1275181,
-   "min_us": 1275181,
-   "max_us": 1275181,
-   "stack": 2080,
-   "heap": 0,
-   "rc": 0
-  },
-  "hss-sha256-h5w8-h5w8/opt/sign": {
-   "iters": 40,
-   "avg_us": 25855,
-   "min_us": 7797,
-   "max_us": 649862,
-   "stack": 2112,
-   "heap": 0,
-   "rc": 0
-  },
-  "hss-sha256-h5w8-h5w8/opt/verify": {
-   "iters": 5,
-   "avg_us": 22300,
-   "min_us": 22299,
-   "max_us": 22304,
-   "stack": 1264,
-   "heap": 0,
-   "rc": 0
-  },
-  "kat-gmssl_sm3_hss/opt/verify": {
-   "iters": 1,
-   "avg_us": 390233,
-   "min_us": 390233,
-   "max_us": 390233,
-   "stack": 1536,
    "heap": 0,
    "rc": 0
   },
@@ -783,66 +819,84 @@
    "heap": 0,
    "rc": 0
   },
-  "kat-gmssl_sm3_hss/ref/verify": {
+  "hss-sha256-h5w8-h5w8/opt/keygen": {
    "iters": 1,
-   "avg_us": 616552,
-   "min_us": 616552,
-   "max_us": 616552,
-   "stack": 1600,
+   "avg_us": 953941,
+   "min_us": 953941,
+   "max_us": 953941,
+   "stack": 2128,
    "heap": 0,
    "rc": 0
   },
-  "lms-sm3-m32-h5-w8/ref/keygen": {
-   "iters": 1,
-   "avg_us": 11971856,
-   "min_us": 11971856,
-   "max_us": 11971856,
-   "stack": 2208,
-   "heap": 0,
-   "rc": 0
-  },
-  "lms-sm3-m32-h5-w8/ref/sign": {
-   "iters": 32,
-   "avg_us": 181708,
-   "min_us": 143782,
-   "max_us": 220317,
-   "stack": 1424,
-   "heap": 0,
-   "rc": 0
-  },
-  "lms-sm3-m32-h5-w8/ref/verify": {
-   "iters": 10,
-   "avg_us": 198198,
-   "min_us": 198194,
-   "max_us": 198200,
-   "stack": 1488,
-   "heap": 0,
-   "rc": 0
-  },
-  "lms-sha256-m32-h10-w8/opt/keygen": {
-   "iters": 1,
-   "avg_us": 20223029,
-   "min_us": 20223029,
-   "max_us": 20223029,
-   "stack": 2448,
-   "heap": 0,
-   "rc": 0
-  },
-  "lms-sha256-m32-h10-w8/opt/sign": {
+  "hss-sha256-h5w8-h5w8/opt/sign": {
    "iters": 40,
-   "avg_us": 13495,
-   "min_us": 7795,
-   "max_us": 30923,
-   "stack": 1488,
+   "avg_us": 19395,
+   "min_us": 5902,
+   "max_us": 486250,
+   "stack": 2160,
    "heap": 0,
    "rc": 0
   },
-  "lms-sha256-m32-h10-w8/opt/verify": {
+  "hss-sha256-h5w8-h5w8/opt/verify": {
+   "iters": 5,
+   "avg_us": 16747,
+   "min_us": 16745,
+   "max_us": 16750,
+   "stack": 1312,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 347366511,
+   "min_us": 347366511,
+   "max_us": 347366511,
+   "stack": 3072,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/ref/sign": {
+   "iters": 40,
+   "avg_us": 228998,
+   "min_us": 130421,
+   "max_us": 529087,
+   "stack": 2112,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/ref/verify": {
    "iters": 10,
-   "avg_us": 11204,
-   "min_us": 11204,
-   "max_us": 11209,
-   "stack": 1168,
+   "avg_us": 189842,
+   "min_us": 189839,
+   "max_us": 189843,
+   "stack": 1792,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 383100646,
+   "min_us": 383100646,
+   "max_us": 383100646,
+   "stack": 2768,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/ref/sign": {
+   "iters": 40,
+   "avg_us": 254402,
+   "min_us": 143786,
+   "max_us": 561558,
+   "stack": 1808,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/ref/verify": {
+   "iters": 10,
+   "avg_us": 220487,
+   "min_us": 220487,
+   "max_us": 220488,
+   "stack": 1488,
    "heap": 0,
    "rc": 0
   },
@@ -867,7 +921,7 @@
   "lms-sm3-m32-h10-w8/opt/verify": {
    "iters": 10,
    "avg_us": 139556,
-   "min_us": 139552,
+   "min_us": 139553,
    "max_us": 139557,
    "stack": 1424,
    "heap": 0,
@@ -947,6 +1001,14 @@
    "sha256_16": "03b03127e1c049a93973db69ab191cd4",
    "len": 1380
   },
+  "lms-sm3-m32-h5-w8/ref/pk": {
+   "sha256_16": "577044a012005382ea102e71511b6a67",
+   "len": 56
+  },
+  "lms-sm3-m32-h5-w8/ref/sig": {
+   "sha256_16": "8e00ddb96f4791ca5a406621b995ca62",
+   "len": 1292
+  },
   "hss-sha256-h5w8-h5w8/ref/pk": {
    "sha256_16": "a90f0f9cc0d778603db4d70604d3a14d",
    "len": 60
@@ -999,6 +1061,14 @@
    "sha256_16": "aac3663d5195df41dc2a401d3702e3a9",
    "len": 2508
   },
+  "lms-sha256-m32-h10-w8/opt/pk": {
+   "sha256_16": "457790dd462c8b89bda43164e30585d0",
+   "len": 56
+  },
+  "lms-sha256-m32-h10-w8/opt/sig": {
+   "sha256_16": "3d30aefaca444236c532f638243d9190",
+   "len": 1452
+  },
   "lms-sha256-m24-h5-w8/opt/pk": {
    "sha256_16": "b7428e0d3acc26b8fc9f3eb2821ddf18",
    "len": 48
@@ -1031,14 +1101,6 @@
    "sha256_16": "03b03127e1c049a93973db69ab191cd4",
    "len": 1380
   },
-  "hss-sha256-h5w8-h5w8/opt/pk": {
-   "sha256_16": "a90f0f9cc0d778603db4d70604d3a14d",
-   "len": 60
-  },
-  "hss-sha256-h5w8-h5w8/opt/sig": {
-   "sha256_16": "f7c23cb52a5f174672c33eb79fd4dddf",
-   "len": 2644
-  },
   "lms-sm3-m32-h5-w8/opt/pk": {
    "sha256_16": "577044a012005382ea102e71511b6a67",
    "len": 56
@@ -1047,20 +1109,28 @@
    "sha256_16": "8e00ddb96f4791ca5a406621b995ca62",
    "len": 1292
   },
-  "lms-sm3-m32-h5-w8/ref/pk": {
-   "sha256_16": "577044a012005382ea102e71511b6a67",
-   "len": 56
+  "hss-sha256-h5w8-h5w8/opt/pk": {
+   "sha256_16": "a90f0f9cc0d778603db4d70604d3a14d",
+   "len": 60
   },
-  "lms-sm3-m32-h5-w8/ref/sig": {
-   "sha256_16": "8e00ddb96f4791ca5a406621b995ca62",
-   "len": 1292
+  "hss-sha256-h5w8-h5w8/opt/sig": {
+   "sha256_16": "f7c23cb52a5f174672c33eb79fd4dddf",
+   "len": 2644
   },
-  "lms-sha256-m32-h10-w8/opt/pk": {
+  "lms-sha256-m32-h10-w8/ref/pk": {
    "sha256_16": "457790dd462c8b89bda43164e30585d0",
    "len": 56
   },
-  "lms-sha256-m32-h10-w8/opt/sig": {
+  "lms-sha256-m32-h10-w8/ref/sig": {
    "sha256_16": "3d30aefaca444236c532f638243d9190",
+   "len": 1452
+  },
+  "lms-sm3-m32-h10-w8/ref/pk": {
+   "sha256_16": "9cc46cd714007b3629f0bfa855c03721",
+   "len": 56
+  },
+  "lms-sm3-m32-h10-w8/ref/sig": {
+   "sha256_16": "4ba7725423de0d17a6d29667ed76b02d",
    "len": 1452
   },
   "lms-sm3-m32-h10-w8/opt/pk": {
@@ -1082,6 +1152,7 @@
   "kat-rfc9858_tc3/ref/verify": "PASS",
   "kat-rfc9858_tc4/ref/verify": "PASS",
   "kat-rfc9858_tc4/ref/keygen+sign": "PASS",
+  "kat-gmssl_sm3_hss/ref/verify": "PASS",
   "lms-sha256-m32-h5-w4/ref/selftest": "PASS",
   "hss-sha256-h5w8-h5w8/ref/verify": "PASS",
   "kat-rfc8554_tc1/opt/verify": "PASS",
@@ -1095,11 +1166,10 @@
   "kat-rfc9858_tc3/opt/keygen+sign": "PASS",
   "kat-rfc9858_tc4/opt/verify": "PASS",
   "kat-rfc9858_tc4/opt/keygen+sign": "PASS",
+  "kat-gmssl_sm3_hss/opt/verify": "PASS",
   "lms-sha256-m32-h5-w4/opt/selftest": "PASS",
   "lms-sha256-m32-h10-w4/opt/selftest": "PASS",
-  "hss-sha256-h5w8-h5w8/opt/verify": "PASS",
-  "kat-gmssl_sm3_hss/opt/verify": "PASS",
-  "kat-gmssl_sm3_hss/ref/verify": "PASS"
+  "hss-sha256-h5w8-h5w8/opt/verify": "PASS"
  },
  "info": {
   "kat-rfc8554_tc2/ref/steps": "3",
@@ -1117,15 +1187,14 @@
   "lms-sha256-m24-h10-w4": "pk=48 sig=1500 signatures=1024 n=24 w=4 p=51",
   "lms-shake-m32-h5-w4": "pk=56 sig=2348 signatures=32 n=32 w=4 p=67",
   "lms-shake-m24-h5-w4": "pk=48 sig=1380 signatures=32 n=24 w=4 p=51",
+  "lms-sm3-m32-h5-w8": "pk=56 sig=1292 signatures=32 n=32 w=8 p=34",
+  "lms-sm3-m32-h10-w8/ref/skipped": "run with -f lms-sm3-m32-h10-w8/ref",
   "hss-sha256-h5w8-h5w8": "pk=60 sig=2644 signatures=1024",
   "kat-rfc8554_tc2/opt/steps": "3",
   "kat-rfc9858_tc1/opt/steps": "2",
   "kat-rfc9858_tc2/opt/steps": "2",
   "kat-rfc9858_tc3/opt/steps": "2",
   "kat-rfc9858_tc4/opt/steps": "0",
-  "lms-sha256-m32-h10-w8/opt/skipped": "run with -f lms-sha256-m32-h10-w8/opt",
-  "lms-sm3-m32-h5-w8": "pk=56 sig=1292 signatures=32 n=32 w=8 p=34",
-  "lms-sm3-m32-h10-w8/ref/skipped": "run with -f lms-sm3-m32-h10-w8/ref",
   "lms-sha256-m32-h10-w8": "pk=56 sig=1452 signatures=1024 n=32 w=8 p=34",
   "lms-sm3-m32-h10-w8/opt/skipped": "run with -f lms-sm3-m32-h10-w8/opt",
   "lms-sm3-m32-h10-w8": "pk=56 sig=1452 signatures=1024 n=32 w=8 p=34"
@@ -1133,6 +1202,6 @@
  "complete": true,
  "fails": 0,
  "cpu_mhz": 160,
- "heap_free_start": 205536,
- "heap_free_min": 192904
+ "heap_free_start": 182836,
+ "heap_free_min": 174300
 }

@@ -6,4 +6,6 @@
 #define PQM_NAME "sphincs-a-sha2-192f"
 #define PQM_ITERS_KEYGEN 3
 #define PQM_ITERS_SIGN 2
+/* The 128 KB table leaves no room for the default 20 KB job stack. */
+#define PQM_STACK (10 * 1024)
 #include "sphincsa_unity.inc"

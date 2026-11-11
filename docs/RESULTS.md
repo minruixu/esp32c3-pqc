@@ -221,17 +221,21 @@ Output fingerprints, device against host build: 8 equal, 0 different, 0 without 
 
 | Algorithm | Operation | ref time | opt time | speedup | ref stack | opt stack | ref heap | opt heap |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| gmssl-sphincs-sm3-128s | keygen |  | 16.0 s |  |  | 0.3 KB |  | 0 |
-| gmssl-sphincstest | quick | 122 ms | 123 ms | 0.99× | 3.6 KB | 3.6 KB | 0.0 KB | 0.0 KB |
+| gmssl-sphincs-sm3-128s | keygen | 16.0 s | 16.0 s | 1.00× | 0.3 KB | 0.3 KB | 0 | 0 |
+| gmssl-sphincstest | quick | 122 ms | 122 ms | 1.00× | 3.6 KB | 3.6 KB | 0.0 KB | 0.0 KB |
 
 Self-tests on the device: 2 passed, 0 failed.
-Output fingerprints, device against host build: 1 equal, 0 different, 0 without a host value.
+Output fingerprints, device against host build: 2 equal, 0 different, 0 without a host value.
 
 <details><summary>Parameters and sizes</summary>
 
-- `gmssl-sm3-compress/opt`: 256 blocks: prims backend 6514 us, GmSSL 6167 us; fast mode uses GmSSL
-- `gmssl-sphincs-sm3-128s`: pk=0 sig=0
+- `gmssl-sphincs-sm3-128s/ref/skipped`: run with -f gmssl-sphincs-sm3-128s/ref
+- `gmssl-sm3-compress/opt`: 256 blocks: prims backend 6515 us, GmSSL 6167 us; fast mode uses GmSSL
 - `gmssl-sphincs-sm3-128s/opt/skipped`: run with -f gmssl-sphincs-sm3-128s/opt
+- `gmssl-sphincs-sm3-128s/ref/sign`: not run on the device: needs more stack than the chip has
+- `gmssl-sphincs-sm3-128s/ref/stack`: 18252 bytes on the static stack
+- `gmssl-sphincs-sm3-128s/opt/sign`: not run on the device: needs more stack than the chip has
+- `gmssl-sphincs-sm3-128s/opt/stack`: 18252 bytes on the static stack
 
 </details>
 
@@ -243,16 +247,17 @@ Output fingerprints, device against host build: 1 equal, 0 different, 0 without 
 | gmssl-xmssmt-sm3-20_4 | sign | 89.2 ms | 89.4 ms | 1.00× | 28.5 KB | 28.5 KB | 0 | 0 |
 | gmssl-xmssmt-sm3-20_4 | verify | 387 ms | 388 ms | 1.00× | 5.5 KB | 5.5 KB | 0 | 0 |
 | gmssl-xmssmt-sm3-20_4 | reject | 410 ms | 411 ms | 1.00× | 5.5 KB | 5.5 KB | 0 | 0 |
-| gmssl-xmsstest | quick | 3053 ms | 3059 ms | 1.00× | 6.7 KB | 6.7 KB | 0 | 0 |
+| gmssl-xmsstest | quick | 3053 ms | 3060 ms | 1.00× | 6.7 KB | 6.7 KB | 0 | 0 |
 
 Self-tests on the device: 6 passed, 0 failed.
 Output fingerprints, device against host build: 4 equal, 0 different, 0 without a host value.
 
 <details><summary>Parameters and sizes</summary>
 
-- `gmssl-sm3-compress/opt`: 256 blocks: prims backend 6514 us, GmSSL 6167 us; fast mode uses GmSSL
-- `gmssl-xmss-sm3-10`: pk=0 sig=0
 - `gmssl-xmssmt-sm3-20_4`: pk=68 sig=9251
+- `gmssl-xmss-sm3-10/ref/skipped`: run with -f gmssl-xmss-sm3-10/ref
+- `gmssl-sm3-compress/opt`: 256 blocks: prims backend 6514 us, GmSSL 6167 us; fast mode uses GmSSL
+- `gmssl-xmss-sm3-10/opt/skipped`: run with -f gmssl-xmss-sm3-10/opt
 
 </details>
 
@@ -522,47 +527,47 @@ Output fingerprints, device against host build: 32 equal, 0 different, 0 without
 
 | Algorithm | Operation | ref time | opt time | speedup | ref stack | opt stack |
 |---|---|---:|---:|---:|---:|---:|
-| hss-sha256-h5w8-h5w8 | keygen | 21.9 s | 1275 ms | 17.18× | 2.6 KB | 2.0 KB |
-| hss-sha256-h5w8-h5w8 | sign | 441 ms | 25.9 ms | 17.07× | 2.7 KB | 2.1 KB |
-| hss-sha256-h5w8-h5w8 | verify | 379 ms | 22.3 ms | 17.00× | 1.8 KB | 1.2 KB |
+| hss-sha256-h5w8-h5w8 | keygen | 21.9 s | 954 ms | 22.96× | 2.6 KB | 2.1 KB |
+| hss-sha256-h5w8-h5w8 | sign | 441 ms | 19.4 ms | 22.75× | 2.7 KB | 2.1 KB |
+| hss-sha256-h5w8-h5w8 | verify | 379 ms | 16.7 ms | 22.63× | 1.8 KB | 1.3 KB |
 | kat-gmssl_sm3_hss | verify | 617 ms | 390 ms | 1.58× | 1.6 KB | 1.5 KB |
-| kat-rfc8554_tc1 | verify | 1048 ms | 61.9 ms | 16.95× | 1.9 KB | 1.3 KB |
-| kat-rfc8554_tc2 | verify | 419 ms | 21.4 ms | 19.60× | 1.9 KB | 1.2 KB |
-| kat-rfc8554_tc2 | keygen+sign | 55.0 s | 3289 ms | 16.73× | 3.1 KB | 2.5 KB |
-| kat-rfc9858_tc1 | verify | 386 ms | 14.4 ms | 26.84× | 1.8 KB | 1.2 KB |
-| kat-rfc9858_tc1 | keygen+sign | 8373 ms | 305 ms | 27.49× | 2.5 KB | 2.0 KB |
+| kat-rfc8554_tc1 | verify | 1048 ms | 46.5 ms | 22.52× | 1.9 KB | 1.3 KB |
+| kat-rfc8554_tc2 | verify | 419 ms | 21.4 ms | 19.59× | 1.9 KB | 1.3 KB |
+| kat-rfc8554_tc2 | keygen+sign | 55.0 s | 3289 ms | 16.72× | 3.1 KB | 2.5 KB |
+| kat-rfc9858_tc1 | verify | 386 ms | 14.4 ms | 26.83× | 1.8 KB | 1.1 KB |
+| kat-rfc9858_tc1 | keygen+sign | 8370 ms | 305 ms | 27.48× | 2.5 KB | 2.0 KB |
 | kat-rfc9858_tc2 | verify | 1659 ms | 814 ms | 2.04× | 1.6 KB | 1.2 KB |
 | kat-rfc9858_tc2 | keygen+sign |  | 17.7 s |  |  | 2.0 KB |
 | kat-rfc9858_tc3 | verify | 2262 ms | 1112 ms | 2.03× | 1.6 KB | 1.2 KB |
 | kat-rfc9858_tc3 | keygen+sign |  | 23.2 s |  |  | 2.0 KB |
-| kat-rfc9858_tc4 | verify | 56.2 ms | 4.40 ms | 12.79× | 1.8 KB | 1.1 KB |
-| kat-rfc9858_tc4 | keygen+sign | 2 µs | 1 µs | 2.00× | 0.2 KB | 0.2 KB |
-| lms-sha256-m24-h5-w8 | keygen | 8234 ms | 299 ms | 27.50× | 2.5 KB | 1.9 KB |
-| lms-sha256-m24-h5-w8 | sign | 125 ms | 4.69 ms | 26.71× | 1.7 KB | 1.1 KB |
-| lms-sha256-m24-h5-w8 | verify | 139 ms | 5.14 ms | 26.94× | 1.8 KB | 1.2 KB |
-| lms-sha256-m24-h10-w4 | keygen | 33.0 s | 2189 ms | 15.09× | 3.0 KB | 2.4 KB |
-| lms-sha256-m24-h10-w4 | sign | 34.3 ms | 2.48 ms | 13.85× | 2.1 KB | 1.5 KB |
-| lms-sha256-m24-h10-w4 | verify | 16.5 ms | 1.27 ms | 12.99× | 1.8 KB | 1.1 KB |
-| lms-sha256-m32-h5-w1 | keygen | 804 ms | 152 ms | 5.28× | 2.5 KB | 1.8 KB |
-| lms-sha256-m32-h5-w1 | sign | 15.8 ms | 3.00 ms | 5.26× | 1.7 KB | 1.1 KB |
-| lms-sha256-m32-h5-w1 | verify | 10.8 ms | 2.50 ms | 4.31× | 1.8 KB | 1.1 KB |
-| lms-sha256-m32-h5-w2 | keygen | 737 ms | 95.7 ms | 7.70× | 2.5 KB | 1.8 KB |
-| lms-sha256-m32-h5-w2 | sign | 13.0 ms | 1.96 ms | 6.65× | 1.7 KB | 1.1 KB |
-| lms-sha256-m32-h5-w2 | verify | 11.3 ms | 1.77 ms | 6.41× | 1.8 KB | 1.0 KB |
-| lms-sha256-m32-h5-w4 | keygen | 1374 ms | 87.8 ms | 15.66× | 2.5 KB | 1.9 KB |
-| lms-sha256-m32-h5-w4 | sign | 21.6 ms | 1.66 ms | 13.03× | 1.7 KB | 1.1 KB |
+| kat-rfc9858_tc4 | verify | 56.2 ms | 3.84 ms | 14.63× | 1.8 KB | 1.1 KB |
+| kat-rfc9858_tc4 | keygen+sign | 2 µs | 2 µs | 1.00× | 0.2 KB | 0.2 KB |
+| lms-sha256-m24-h5-w8 | keygen | 8231 ms | 299 ms | 27.49× | 2.5 KB | 1.9 KB |
+| lms-sha256-m24-h5-w8 | sign | 125 ms | 4.69 ms | 26.70× | 1.7 KB | 1.1 KB |
+| lms-sha256-m24-h5-w8 | verify | 139 ms | 5.14 ms | 26.93× | 1.8 KB | 1.2 KB |
+| lms-sha256-m24-h10-w4 | keygen | 33.0 s | 1841 ms | 17.95× | 3.0 KB | 2.4 KB |
+| lms-sha256-m24-h10-w4 | sign | 34.3 ms | 2.13 ms | 16.10× | 2.1 KB | 1.5 KB |
+| lms-sha256-m24-h10-w4 | verify | 16.5 ms | 1.10 ms | 14.96× | 1.8 KB | 1.2 KB |
+| lms-sha256-m32-h5-w1 | keygen | 804 ms | 150 ms | 5.35× | 2.5 KB | 1.9 KB |
+| lms-sha256-m32-h5-w1 | sign | 15.8 ms | 2.96 ms | 5.31× | 1.7 KB | 1.1 KB |
+| lms-sha256-m32-h5-w1 | verify | 10.8 ms | 2.47 ms | 4.37× | 1.8 KB | 1.1 KB |
+| lms-sha256-m32-h5-w2 | keygen | 737 ms | 89.8 ms | 8.20× | 2.5 KB | 1.9 KB |
+| lms-sha256-m32-h5-w2 | sign | 13.0 ms | 1.88 ms | 6.92× | 1.7 KB | 1.1 KB |
+| lms-sha256-m32-h5-w2 | verify | 11.3 ms | 1.68 ms | 6.76× | 1.8 KB | 1.2 KB |
+| lms-sha256-m32-h5-w4 | keygen | 1374 ms | 87.8 ms | 15.65× | 2.5 KB | 1.9 KB |
+| lms-sha256-m32-h5-w4 | sign | 21.6 ms | 1.66 ms | 13.02× | 1.7 KB | 1.1 KB |
 | lms-sha256-m32-h5-w4 | verify | 23.2 ms | 1.68 ms | 13.85× | 1.8 KB | 1.2 KB |
-| lms-sha256-m32-h5-w4 | selftest | 4864 ms | 334 ms | 14.58× | 2.5 KB | 1.9 KB |
-| lms-sha256-m32-h5-w8 | keygen | 10.9 s | 473 ms | 22.97× | 2.5 KB | 1.9 KB |
+| lms-sha256-m32-h5-w4 | selftest | 4863 ms | 334 ms | 14.58× | 2.5 KB | 1.9 KB |
+| lms-sha256-m32-h5-w8 | keygen | 10.9 s | 473 ms | 22.96× | 2.5 KB | 1.9 KB |
 | lms-sha256-m32-h5-w8 | sign | 161 ms | 7.19 ms | 22.41× | 1.7 KB | 1.1 KB |
-| lms-sha256-m32-h5-w8 | verify | 209 ms | 9.21 ms | 22.74× | 1.8 KB | 1.2 KB |
-| lms-sha256-m32-h10-w4 | keygen | 44.0 s | 3376 ms | 13.02× | 3.0 KB | 2.4 KB |
-| lms-sha256-m32-h10-w4 | sign | 45.5 ms | 3.75 ms | 12.15× | 2.1 KB | 1.5 KB |
-| lms-sha256-m32-h10-w4 | verify | 20.7 ms | 1.85 ms | 11.18× | 1.8 KB | 1.1 KB |
-| lms-sha256-m32-h10-w4 | selftest |  | 3652 ms |  |  | 2.4 KB |
-| lms-sha256-m32-h10-w8 | keygen |  | 20.2 s |  |  | 2.4 KB |
-| lms-sha256-m32-h10-w8 | sign |  | 13.5 ms |  |  | 1.5 KB |
-| lms-sha256-m32-h10-w8 | verify |  | 11.2 ms |  |  | 1.1 KB |
+| lms-sha256-m32-h5-w8 | verify | 209 ms | 9.21 ms | 22.73× | 1.8 KB | 1.2 KB |
+| lms-sha256-m32-h10-w4 | keygen | 44.0 s | 2807 ms | 15.66× | 3.0 KB | 2.4 KB |
+| lms-sha256-m32-h10-w4 | sign | 45.5 ms | 3.18 ms | 14.31× | 2.1 KB | 1.5 KB |
+| lms-sha256-m32-h10-w4 | verify | 20.6 ms | 1.59 ms | 12.96× | 1.8 KB | 1.2 KB |
+| lms-sha256-m32-h10-w4 | selftest |  | 3042 ms |  |  | 2.5 KB |
+| lms-sha256-m32-h10-w8 | keygen | 347.4 s | 15.1 s | 22.96× | 3.0 KB | 2.4 KB |
+| lms-sha256-m32-h10-w8 | sign | 229 ms | 10.1 ms | 22.56× | 2.1 KB | 1.5 KB |
+| lms-sha256-m32-h10-w8 | verify | 190 ms | 8.43 ms | 22.52× | 1.8 KB | 1.2 KB |
 | lms-shake-m24-h5-w4 | keygen | 4404 ms | 2169 ms | 2.03× | 2.3 KB | 1.9 KB |
 | lms-shake-m24-h5-w4 | sign | 72.7 ms | 35.8 ms | 2.03× | 1.5 KB | 1.1 KB |
 | lms-shake-m24-h5-w4 | verify | 62.7 ms | 31.1 ms | 2.02× | 1.6 KB | 1.2 KB |
@@ -572,12 +577,12 @@ Output fingerprints, device against host build: 32 equal, 0 different, 0 without
 | lms-sm3-m32-h5-w8 | keygen | 12.0 s | 7573 ms | 1.58× | 2.2 KB | 2.1 KB |
 | lms-sm3-m32-h5-w8 | sign | 182 ms | 115 ms | 1.58× | 1.4 KB | 1.3 KB |
 | lms-sm3-m32-h5-w8 | verify | 198 ms | 125 ms | 1.58× | 1.5 KB | 1.4 KB |
-| lms-sm3-m32-h10-w8 | keygen |  | 242.3 s |  |  | 2.7 KB |
-| lms-sm3-m32-h10-w8 | sign |  | 161 ms |  |  | 1.7 KB |
-| lms-sm3-m32-h10-w8 | verify |  | 140 ms |  |  | 1.4 KB |
+| lms-sm3-m32-h10-w8 | keygen | 383.1 s | 242.3 s | 1.58× | 2.7 KB | 2.7 KB |
+| lms-sm3-m32-h10-w8 | sign | 254 ms | 161 ms | 1.58× | 1.8 KB | 1.7 KB |
+| lms-sm3-m32-h10-w8 | verify | 220 ms | 140 ms | 1.58× | 1.5 KB | 1.4 KB |
 
 Self-tests on the device: 27 passed, 0 failed.
-Output fingerprints, device against host build: 49 equal, 0 different, 0 without a host value.
+Output fingerprints, device against host build: 53 equal, 0 different, 0 without a host value.
 
 <details><summary>Parameters and sizes</summary>
 
@@ -596,15 +601,14 @@ Output fingerprints, device against host build: 49 equal, 0 different, 0 without
 - `lms-sha256-m24-h10-w4`: pk=48 sig=1500 signatures=1024 n=24 w=4 p=51
 - `lms-shake-m32-h5-w4`: pk=56 sig=2348 signatures=32 n=32 w=4 p=67
 - `lms-shake-m24-h5-w4`: pk=48 sig=1380 signatures=32 n=24 w=4 p=51
+- `lms-sm3-m32-h5-w8`: pk=56 sig=1292 signatures=32 n=32 w=8 p=34
+- `lms-sm3-m32-h10-w8/ref/skipped`: run with -f lms-sm3-m32-h10-w8/ref
 - `hss-sha256-h5w8-h5w8`: pk=60 sig=2644 signatures=1024
 - `kat-rfc8554_tc2/opt/steps`: 3
 - `kat-rfc9858_tc1/opt/steps`: 2
 - `kat-rfc9858_tc2/opt/steps`: 2
 - `kat-rfc9858_tc3/opt/steps`: 2
 - `kat-rfc9858_tc4/opt/steps`: 0
-- `lms-sha256-m32-h10-w8/opt/skipped`: run with -f lms-sha256-m32-h10-w8/opt
-- `lms-sm3-m32-h5-w8`: pk=56 sig=1292 signatures=32 n=32 w=8 p=34
-- `lms-sm3-m32-h10-w8/ref/skipped`: run with -f lms-sm3-m32-h10-w8/ref
 - `lms-sha256-m32-h10-w8`: pk=56 sig=1452 signatures=1024 n=32 w=8 p=34
 - `lms-sm3-m32-h10-w8/opt/skipped`: run with -f lms-sm3-m32-h10-w8/opt
 - `lms-sm3-m32-h10-w8`: pk=56 sig=1452 signatures=1024 n=32 w=8 p=34
@@ -1186,7 +1190,27 @@ Output fingerprints, device against host build: 36 equal, 0 different, 0 without
 
 ## pqmagic_sphincsa_192f
 
-No results.
+| Algorithm | Operation | ref time | opt time | speedup | ref stack | opt stack | ref heap | opt heap |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| sphincs-a-sha2-192f | keygen | 375 ms | 129 ms | 2.91× | 7.2 KB | 7.2 KB | 142.7 KB | 0 |
+| sphincs-a-sha2-192f | sign | 7263 ms | 3183 ms | 2.28× | 5.6 KB | 5.6 KB | 0 | 0 |
+| sphincs-a-sha2-192f | verify | 211 ms | 112 ms | 1.88× | 5.5 KB | 5.4 KB | 0 | 0 |
+| sphincs-a-sha2-192f | tamper | 421 ms | 224 ms | 1.88× | 5.5 KB | 5.4 KB | 0 | 0 |
+| sphincs-a-shake-192f | keygen | 1348 ms | 865 ms | 1.56× | 6.8 KB | 6.8 KB | 0 | 0 |
+| sphincs-a-shake-192f | sign | 26.0 s | 16.7 s | 1.56× | 5.4 KB | 5.3 KB | 0 | 0 |
+| sphincs-a-shake-192f | verify | 682 ms | 442 ms | 1.54× | 4.8 KB | 4.8 KB | 0 | 0 |
+| sphincs-a-shake-192f | tamper | 1364 ms | 884 ms | 1.54× | 4.9 KB | 4.8 KB | 0 | 0 |
+
+Self-tests on the device: 4 passed, 0 failed.
+Output fingerprints, device against host build: 12 equal, 0 different, 0 without a host value.
+
+<details><summary>Parameters and sizes</summary>
+
+- `heap`: free=171844 largest_block=114688
+- `sphincs-a-sha2-192f`: sig pk=48 sk=96 sig=34896 (max 34896)
+- `sphincs-a-shake-192f`: sig pk=48 sk=96 sig=34896 (max 34896)
+
+</details>
 
 ## scloudplus
 
@@ -1288,11 +1312,11 @@ Output fingerprints, device against host build: 8 equal, 0 different, 0 without 
 
 | Algorithm | Operation | ref time | opt time | speedup | ref stack | opt stack |
 |---|---|---:|---:|---:|---:|---:|
-| slhdsa-sha2-128f | keygen | 130 ms | 5.64 ms | 23.07× | 4.0 KB | 4.0 KB |
-| slhdsa-sha2-128f | sign | 3057 ms | 143 ms | 21.42× | 4.2 KB | 4.2 KB |
-| slhdsa-sha2-128f | verify | 177 ms | 9.79 ms | 18.05× | 4.2 KB | 3.7 KB |
-| slhdsa-sha2-128f | reject-x7 | 1275 ms | 70.3 ms | 18.14× | 4.2 KB | 3.7 KB |
-| slhdsa-sha2-128f | sign-hedged | 3238 ms | 153 ms | 21.22× | 4.2 KB | 4.4 KB |
+| slhdsa-sha2-128f | keygen | 130 ms | 5.64 ms | 22.99× | 4.0 KB | 4.0 KB |
+| slhdsa-sha2-128f | sign | 3046 ms | 143 ms | 21.34× | 4.2 KB | 4.3 KB |
+| slhdsa-sha2-128f | verify | 176 ms | 9.79 ms | 17.98× | 4.2 KB | 3.7 KB |
+| slhdsa-sha2-128f | reject-x7 | 1270 ms | 70.3 ms | 18.07× | 4.2 KB | 3.7 KB |
+| slhdsa-sha2-128f | sign-hedged | 3227 ms | 153 ms | 21.14× | 4.2 KB | 4.2 KB |
 | slhdsa-sha2-128s | keygen | 8298 ms | 360 ms | 23.04× | 4.0 KB | 4.1 KB |
 | slhdsa-sha2-128s | sign | 63.5 s | 2890 ms | 21.97× | 4.2 KB | 4.3 KB |
 | slhdsa-sha2-128s | verify | 60.6 ms | 3.57 ms | 16.99× | 4.2 KB | 3.7 KB |
@@ -1328,40 +1352,40 @@ Output fingerprints, device against host build: 8 equal, 0 different, 0 without 
 | slhdsa-shake-128s | verify-acvp-invalid | 254 ms | 169 ms | 1.50× | 4.0 KB | 4.0 KB |
 | slhdsa-shake-192f | keygen | 801 ms | 531 ms | 1.51× | 3.9 KB | 3.9 KB |
 | slhdsa-shake-192f | sign | 20.7 s | 13.7 s | 1.51× | 4.1 KB | 4.1 KB |
-| slhdsa-shake-192f | verify | 1112 ms | 739 ms | 1.51× | 4.0 KB | 4.0 KB |
-| slhdsa-shake-192f | reject-x7 | 7825 ms | 5197 ms | 1.51× | 4.1 KB | 4.1 KB |
+| slhdsa-shake-192f | verify | 1112 ms | 738 ms | 1.51× | 4.0 KB | 4.0 KB |
+| slhdsa-shake-192f | reject-x7 | 7825 ms | 5195 ms | 1.51× | 4.1 KB | 4.1 KB |
 | slhdsa-shake-192f | sign-hedged | 21.9 s | 14.5 s | 1.51× | 4.1 KB | 4.1 KB |
 | slhdsa-shake-192s | keygen | 51.3 s | 34.0 s | 1.51× | 3.9 KB | 3.9 KB |
 | slhdsa-shake-192s | sign | 463.1 s | 306.2 s | 1.51× | 4.1 KB | 4.1 KB |
 | slhdsa-shake-192s | verify | 380 ms | 252 ms | 1.51× | 4.0 KB | 4.0 KB |
 | slhdsa-shake-192s | reject-x7 | 2643 ms | 1753 ms | 1.51× | 4.1 KB | 4.1 KB |
-| slhdsa-shake-256f | keygen | 2124 ms | 1402 ms | 1.51× | 3.9 KB | 3.9 KB |
+| slhdsa-shake-256f | keygen | 2124 ms | 1402 ms | 1.52× | 3.9 KB | 3.9 KB |
 | slhdsa-shake-256f | sign | 42.8 s | 28.2 s | 1.52× | 4.1 KB | 4.1 KB |
 | slhdsa-shake-256f | verify | 1113 ms | 736 ms | 1.51× | 4.0 KB | 4.0 KB |
-| slhdsa-shake-256f | reject-x7 | 7912 ms | 5230 ms | 1.51× | 4.1 KB | 4.1 KB |
+| slhdsa-shake-256f | reject-x7 | 7912 ms | 5227 ms | 1.51× | 4.1 KB | 4.1 KB |
 | slhdsa-shake-256f | sign-hedged | 43.9 s | 28.9 s | 1.52× | 4.1 KB | 4.1 KB |
-| slhdsa-shake-256s | keygen | 34.0 s | 22.4 s | 1.51× | 3.9 KB | 3.9 KB |
+| slhdsa-shake-256s | keygen | 34.0 s | 22.4 s | 1.52× | 3.9 KB | 3.9 KB |
 | slhdsa-shake-256s | sign | 408.3 s | 267.9 s | 1.52× | 4.1 KB | 4.1 KB |
-| slhdsa-shake-256s | verify | 561 ms | 370 ms | 1.51× | 4.0 KB | 4.0 KB |
-| slhdsa-shake-256s | reject-x7 | 3915 ms | 2585 ms | 1.51× | 4.1 KB | 4.1 KB |
+| slhdsa-shake-256s | verify | 561 ms | 370 ms | 1.52× | 4.0 KB | 4.0 KB |
+| slhdsa-shake-256s | reject-x7 | 3915 ms | 2584 ms | 1.52× | 4.1 KB | 4.1 KB |
 
 Self-tests on the device: 88 passed, 0 failed.
 Output fingerprints, device against host build: 72 equal, 0 different, 0 without a host value.
 
 <details><summary>Parameters and sizes</summary>
 
-- `slhdsa-sha2-128f`: pk=32 sk=64 sig=17088 (SLH-DSA-SHA2-128f)
 - `slhdsa-sha2-128s`: pk=32 sk=64 sig=7856 (SLH-DSA-SHA2-128s)
-- `slhdsa-sha2-192f`: pk=48 sk=96 sig=35664 (SLH-DSA-SHA2-192f)
+- `slhdsa-sha2-128f`: pk=32 sk=64 sig=17088 (SLH-DSA-SHA2-128f)
 - `slhdsa-sha2-192s`: pk=48 sk=96 sig=16224 (SLH-DSA-SHA2-192s)
-- `slhdsa-sha2-256f`: pk=64 sk=128 sig=49856 (SLH-DSA-SHA2-256f)
+- `slhdsa-sha2-192f`: pk=48 sk=96 sig=35664 (SLH-DSA-SHA2-192f)
 - `slhdsa-sha2-256s`: pk=64 sk=128 sig=29792 (SLH-DSA-SHA2-256s)
-- `slhdsa-shake-128f`: pk=32 sk=64 sig=17088 (SLH-DSA-SHAKE-128f)
+- `slhdsa-sha2-256f`: pk=64 sk=128 sig=49856 (SLH-DSA-SHA2-256f)
 - `slhdsa-shake-128s`: pk=32 sk=64 sig=7856 (SLH-DSA-SHAKE-128s)
-- `slhdsa-shake-192f`: pk=48 sk=96 sig=35664 (SLH-DSA-SHAKE-192f)
+- `slhdsa-shake-128f`: pk=32 sk=64 sig=17088 (SLH-DSA-SHAKE-128f)
 - `slhdsa-shake-192s`: pk=48 sk=96 sig=16224 (SLH-DSA-SHAKE-192s)
-- `slhdsa-shake-256f`: pk=64 sk=128 sig=49856 (SLH-DSA-SHAKE-256f)
+- `slhdsa-shake-192f`: pk=48 sk=96 sig=35664 (SLH-DSA-SHAKE-192f)
 - `slhdsa-shake-256s`: pk=64 sk=128 sig=29792 (SLH-DSA-SHAKE-256s)
+- `slhdsa-shake-256f`: pk=64 sk=128 sig=49856 (SLH-DSA-SHAKE-256f)
 
 </details>
 
@@ -1369,7 +1393,7 @@ Output fingerprints, device against host build: 72 equal, 0 different, 0 without
 
 | Algorithm | Operation | ref time | opt time | speedup | ref stack | opt stack |
 |---|---|---:|---:|---:|---:|---:|
-| kat-wots-oid01 | vector | 518 ms | 31.3 ms | 16.57× | 3.8 KB | 3.6 KB |
+| kat-wots-oid01 | vector | 518 ms | 31.3 ms | 16.56× | 3.8 KB | 3.7 KB |
 | kat-wots-oid04 | vector | 2685 ms | 2718 ms | 0.99× | 10.7 KB | 11.0 KB |
 | kat-wots-oid07 | vector | 1333 ms | 643 ms | 2.07× | 4.0 KB | 4.0 KB |
 | kat-wots-oid10 | vector | 4932 ms | 3270 ms | 1.51× | 10.5 KB | 10.8 KB |
@@ -1382,17 +1406,17 @@ Output fingerprints, device against host build: 72 equal, 0 different, 0 without
 | xmss-sha2_10_192 | reject | 78.3 ms | 5.56 ms | 14.08× | 2.8 KB | 2.5 KB |
 | xmss-sha2_10_256 | keygen | 235.9 s | 13.0 s | 18.11× | 4.2 KB | 4.1 KB |
 | xmss-sha2_10_256 | sign | 511 ms | 25.7 ms | 19.86× | 4.1 KB | 3.9 KB |
-| xmss-sha2_10_256 | verify | 130 ms | 7.10 ms | 18.24× | 3.8 KB | 3.5 KB |
-| xmss-sha2_10_256 | reject | 130 ms | 7.10 ms | 18.24× | 3.8 KB | 3.4 KB |
-| xmss-shake256_10_256 | keygen |  | 293.5 s |  |  | 4.5 KB |
-| xmss-shake256_10_256 | sign |  | 571 ms |  |  | 4.4 KB |
-| xmss-shake256_10_256 | verify |  | 150 ms |  |  | 4.0 KB |
-| xmss-shake256_10_256 | reject |  | 150 ms |  |  | 4.0 KB |
+| xmss-sha2_10_256 | verify | 130 ms | 7.10 ms | 18.24× | 3.8 KB | 3.6 KB |
+| xmss-sha2_10_256 | reject | 130 ms | 7.10 ms | 18.25× | 3.8 KB | 3.4 KB |
+| xmss-shake256_10_256 | keygen | 588.5 s | 293.5 s | 2.01× | 4.4 KB | 4.5 KB |
+| xmss-shake256_10_256 | sign | 1146 ms | 571 ms | 2.00× | 4.3 KB | 4.4 KB |
+| xmss-shake256_10_256 | verify | 300 ms | 150 ms | 2.00× | 4.0 KB | 4.0 KB |
+| xmss-shake256_10_256 | reject | 300 ms | 150 ms | 2.00× | 4.0 KB | 4.0 KB |
 | xmssmt-sha2_20-4_192 | keygen | 19.3 s | 1406 ms | 13.72× | 3.7 KB | 3.3 KB |
 | xmssmt-sha2_20-4_192 | sign | 592 ms | 33.0 ms | 17.97× | 3.8 KB | 3.4 KB |
 | xmssmt-sha2_20-4_192 | verify | 336 ms | 24.0 ms | 13.99× | 2.8 KB | 2.6 KB |
 | xmssmt-sha2_20-4_192 | reject | 336 ms | 24.0 ms | 13.99× | 2.8 KB | 2.6 KB |
-| xmssmt-sha2_20-4_256 | keygen | 29.8 s | 1658 ms | 17.99× | 4.7 KB | 4.3 KB |
+| xmssmt-sha2_20-4_256 | keygen | 29.8 s | 1658 ms | 17.99× | 4.7 KB | 4.2 KB |
 | xmssmt-sha2_20-4_256 | sign | 918 ms | 39.9 ms | 22.99× | 4.8 KB | 4.3 KB |
 | xmssmt-sha2_20-4_256 | verify | 476 ms | 26.3 ms | 18.08× | 3.8 KB | 3.5 KB |
 | xmssmt-sha2_20-4_256 | reject | 488 ms | 27.0 ms | 18.09× | 3.8 KB | 3.5 KB |
@@ -1405,33 +1429,29 @@ Output fingerprints, device against host build: 72 equal, 0 different, 0 without
 | xmssmt-shake256_20-4_256 | verify | 1185 ms | 591 ms | 2.00× | 4.0 KB | 4.0 KB |
 | xmssmt-shake256_20-4_256 | reject | 1208 ms | 603 ms | 2.00× | 4.0 KB | 4.0 KB |
 
-Self-tests on the device: 53 passed, 0 failed.
-Output fingerprints, device against host build: 39 equal, 0 different, 0 without a host value.
+Self-tests on the device: 56 passed, 0 failed.
+Output fingerprints, device against host build: 42 equal, 0 different, 0 without a host value.
 
 <details><summary>Parameters and sizes</summary>
 
-- `xmssmt-sha2_20-4_256`: pk=64 sk_with_state=10938 sig=9251 signatures=2^20 n=32 w=16
-- `xmssmt-sha2_20-4_192`: pk=48 sk_with_state=7138 sig=5403 signatures=2^20 n=24 w=16
-- `xmssmt-shake256_20-4_256`: pk=64 sk_with_state=10938 sig=9251 signatures=2^20 n=32 w=16
-- `xmss-sha2_10_256/ref/skipped`: run with -f xmss-sha2_10_256/ref
-- `xmss-sha2_10_192/ref/skipped`: run with -f xmss-sha2_10_192/ref
-- `xmss-shake256_10_256/ref/skipped`: run with -f xmss-shake256_10_256/ref
-- `xmss-sha2_10_256`: pk=64 sk_with_state=1373 sig=2500 signatures=2^10 n=32 w=16
-- `xmss-sha2_10_192`: pk=48 sk_with_state=1053 sig=1492 signatures=2^10 n=24 w=16
-- `xmss-shake256_10_256/opt/skipped`: run with -f xmss-shake256_10_256/opt
-- `xmssmt-sha2_20-4_256/opt/sizes`: pk=64 sk_with_state=11015 sig=9251 signatures=2^20 n=32 w=16 bds_k=3
-- `xmssmt-sha2_20-4_192/opt/sizes`: pk=48 sk_with_state=7159 sig=5403 signatures=2^20 n=24 w=16 bds_k=3
-- `xmssmt-shake256_20-4_256/opt/sizes`: pk=64 sk_with_state=11015 sig=9251 signatures=2^20 n=32 w=16 bds_k=3
 - `xmssmt-sha2_20-4_256/ref/sizes`: pk=64 sk_with_state=10938 sig=9251 signatures=2^20 n=32 w=16 bds_k=0
 - `xmssmt-sha2_20-4_192/ref/sizes`: pk=48 sk_with_state=7138 sig=5403 signatures=2^20 n=24 w=16 bds_k=0
 - `xmssmt-shake256_20-4_256/ref/sizes`: pk=64 sk_with_state=10938 sig=9251 signatures=2^20 n=32 w=16 bds_k=0
 - `xmssmt-shake256_20-4_192/ref/skipped`: run with -f xmssmt-shake256_20-4_192/ref
+- `xmss-sha2_10_256/ref/skipped`: run with -f xmss-sha2_10_256/ref
+- `xmss-sha2_10_192/ref/skipped`: run with -f xmss-sha2_10_192/ref
+- `xmss-shake256_10_256/ref/skipped`: run with -f xmss-shake256_10_256/ref
+- `xmssmt-sha2_20-4_256/opt/sizes`: pk=64 sk_with_state=11015 sig=9251 signatures=2^20 n=32 w=16 bds_k=3
+- `xmssmt-sha2_20-4_192/opt/sizes`: pk=48 sk_with_state=7159 sig=5403 signatures=2^20 n=24 w=16 bds_k=3
+- `xmssmt-shake256_20-4_256/opt/sizes`: pk=64 sk_with_state=11015 sig=9251 signatures=2^20 n=32 w=16 bds_k=3
 - `xmssmt-shake256_20-4_192/opt/sizes`: pk=48 sk_with_state=7159 sig=5403 signatures=2^20 n=24 w=16 bds_k=3
 - `xmss-sha2_10_256/opt/sizes`: pk=64 sk_with_state=1569 sig=2500 signatures=2^10 n=32 w=16 bds_k=4
 - `xmss-sha2_10_192/opt/sizes`: pk=48 sk_with_state=1193 sig=1492 signatures=2^10 n=24 w=16 bds_k=4
-- `xmss-sha2_10_256/ref/sizes`: pk=64 sk_with_state=1373 sig=2500 signatures=2^10 n=32 w=16 bds_k=0
+- `xmss-shake256_10_256/opt/skipped`: run with -f xmss-shake256_10_256/opt
 - `xmssmt-shake256_20-4_192/ref/sizes`: pk=48 sk_with_state=7138 sig=5403 signatures=2^20 n=24 w=16 bds_k=0
+- `xmss-sha2_10_256/ref/sizes`: pk=64 sk_with_state=1373 sig=2500 signatures=2^10 n=32 w=16 bds_k=0
 - `xmss-sha2_10_192/ref/sizes`: pk=48 sk_with_state=1053 sig=1492 signatures=2^10 n=24 w=16 bds_k=0
+- `xmss-shake256_10_256/ref/sizes`: pk=64 sk_with_state=1373 sig=2500 signatures=2^10 n=32 w=16 bds_k=0
 - `xmss-shake256_10_256/opt/sizes`: pk=64 sk_with_state=1569 sig=2500 signatures=2^10 n=32 w=16 bds_k=4
 
 </details>

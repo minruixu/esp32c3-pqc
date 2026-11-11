@@ -154,7 +154,7 @@ SECTIONS = [
         ("ML-KEM with SM3 (PQMagic)", ["pqmagic_mlkem"]),
         ("ML-DSA with SM3 (PQMagic)", ["pqmagic_mldsa", "pqmagic_mldsa87"]),
         ("SLH-DSA with SM3 (PQMagic)", ["pqmagic_slhdsa_sm3"]),
-        ("SPHINCS-alpha (PQMagic)", ["pqmagic_sphincsa"]),
+        ("SPHINCS-alpha (PQMagic)", ["pqmagic_sphincsa", "pqmagic_sphincsa_192f"]),
         ("GmSSL: Kyber and SM3-based hash signatures", ["gmssl_kyber", "gmssl_lms", "gmssl_xmss", "gmssl_sphincs"]),
         ("LAC", ["lac"]),
     ]),
@@ -163,7 +163,7 @@ SECTIONS = [
         ("Aigis-Sig+ (PQMagic)", ["pqmagic_aigis_sig_plus"]),
         ("NEV (PQMagic)", ["pqmagic_nev", "pqmagic_nev_sm3"]),
         ("NEV-AKE (PQMagic)", ["pqmagic_nev_ake"]),
-        ("SCloud+", ["scloudplus", "scloudplus_256"]),
+        ("SCloud+", ["scloudplus", "scloudplus_256", "scloudplus_256_sm3"]),
     ]),
 ]
 COLS = [("Key generation", ["keygen"]),
@@ -206,7 +206,9 @@ def summary():
                     if a not in algs:
                         algs.append(a)
             main_ops = [o for _c, ops in COLS for o in ops]
-            algs = [a for a in algs if any((a2 == a and o in main_ops) for (a2, _v, o) in table)]
+            # test-vector jobs ("kat-...") are in RESULTS.md, not in the per-algorithm summary
+            algs = [a for a in algs if not a.startswith("kat-")
+                    and any((a2 == a and o in main_ops) for (a2, _v, o) in table)]
             if not algs:
                 continue
             algs.sort(key=natural)

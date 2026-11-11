@@ -35,7 +35,7 @@ and signatures held by the caller come on top. Full tables: [RESULTS.md](RESULTS
 
 | Algorithm | Key generation | Encapsulation / signing | Decapsulation / verification | Peak stack + heap |
 |---|---:|---:|---:|---:|
-| slhdsa-sha2-128f | 130 ms → 5.64 ms (23.1×) | 3057 ms → 143 ms (21.4×) | 177 ms → 9.79 ms (18.1×) | 4.2 KB |
+| slhdsa-sha2-128f | 130 ms → 5.64 ms (23.0×) | 3046 ms → 143 ms (21.3×) | 176 ms → 9.79 ms (18.0×) | 4.3 KB |
 | slhdsa-sha2-128s | 8298 ms → 360 ms (23.0×) | 63.5 s → 2890 ms (22.0×) | 60.6 ms → 3.57 ms (17.0×) | 4.3 KB |
 | slhdsa-sha2-192f | 195 ms → 16.0 ms (12.2×) | 5587 ms → 1013 ms (5.5×) | 309 ms → 56.5 ms (5.5×) | 5.4 KB |
 | slhdsa-sha2-192s | 12.5 s → 1022 ms (12.2×) | 130.5 s → 28.9 s (4.5×) | 112 ms → 32.8 ms (3.4×) | 5.4 KB |
@@ -43,7 +43,7 @@ and signatures held by the caller come on top. Full tables: [RESULTS.md](RESULTS
 | slhdsa-sha2-256s | 8373 ms → 828 ms (10.1×) | 123.2 s → 35.2 s (3.5×) | 173 ms → 47.7 ms (3.6×) | 6.4 KB |
 | slhdsa-shake-128f | 546 ms → 363 ms (1.5×) | 12.8 s → 8482 ms (1.5×) | 760 ms → 506 ms (1.5×) | 4.1 KB |
 | slhdsa-shake-128s | 34.9 s → 23.3 s (1.5×) | 265.8 s → 176.7 s (1.5×) | 272 ms → 181 ms (1.5×) | 4.1 KB |
-| slhdsa-shake-192f | 801 ms → 531 ms (1.5×) | 20.7 s → 13.7 s (1.5×) | 1112 ms → 739 ms (1.5×) | 4.1 KB |
+| slhdsa-shake-192f | 801 ms → 531 ms (1.5×) | 20.7 s → 13.7 s (1.5×) | 1112 ms → 738 ms (1.5×) | 4.1 KB |
 | slhdsa-shake-192s | 51.3 s → 34.0 s (1.5×) | 463.1 s → 306.2 s (1.5×) | 380 ms → 252 ms (1.5×) | 4.1 KB |
 | slhdsa-shake-256f | 2124 ms → 1402 ms (1.5×) | 42.8 s → 28.2 s (1.5×) | 1113 ms → 736 ms (1.5×) | 4.1 KB |
 | slhdsa-shake-256s | 34.0 s → 22.4 s (1.5×) | 408.3 s → 267.9 s (1.5×) | 561 ms → 370 ms (1.5×) | 4.1 KB |
@@ -67,26 +67,19 @@ and signatures held by the caller come on top. Full tables: [RESULTS.md](RESULTS
 
 | Algorithm | Key generation | Encapsulation / signing | Decapsulation / verification | Peak stack + heap |
 |---|---:|---:|---:|---:|
-| hss-sha256-h5w8-h5w8 | 21.9 s → 1275 ms (17.2×) | 441 ms → 25.9 ms (17.1×) | 379 ms → 22.3 ms (17.0×) | 2.1 KB |
-| kat-gmssl_sm3_hss |  |  | 617 ms → 390 ms (1.6×) | 1.5 KB |
-| kat-rfc8554_tc1 |  |  | 1048 ms → 61.9 ms (16.9×) | 1.3 KB |
-| kat-rfc8554_tc2 |  |  | 419 ms → 21.4 ms (19.6×) | 1.2 KB |
-| kat-rfc9858_tc1 |  |  | 386 ms → 14.4 ms (26.8×) | 1.2 KB |
-| kat-rfc9858_tc2 |  |  | 1659 ms → 814 ms (2.0×) | 1.2 KB |
-| kat-rfc9858_tc3 |  |  | 2262 ms → 1112 ms (2.0×) | 1.2 KB |
-| kat-rfc9858_tc4 |  |  | 56.2 ms → 4.40 ms (12.8×) | 1.1 KB |
-| lms-sha256-m24-h5-w8 | 8234 ms → 299 ms (27.5×) | 125 ms → 4.69 ms (26.7×) | 139 ms → 5.14 ms (26.9×) | 1.9 KB |
-| lms-sha256-m24-h10-w4 | 33.0 s → 2189 ms (15.1×) | 34.3 ms → 2.48 ms (13.8×) | 16.5 ms → 1.27 ms (13.0×) | 2.4 KB |
-| lms-sha256-m32-h5-w1 | 804 ms → 152 ms (5.3×) | 15.8 ms → 3.00 ms (5.3×) | 10.8 ms → 2.50 ms (4.3×) | 1.8 KB |
-| lms-sha256-m32-h5-w2 | 737 ms → 95.7 ms (7.7×) | 13.0 ms → 1.96 ms (6.6×) | 11.3 ms → 1.77 ms (6.4×) | 1.8 KB |
+| hss-sha256-h5w8-h5w8 | 21.9 s → 954 ms (23.0×) | 441 ms → 19.4 ms (22.8×) | 379 ms → 16.7 ms (22.6×) | 2.1 KB |
+| lms-sha256-m24-h5-w8 | 8231 ms → 299 ms (27.5×) | 125 ms → 4.69 ms (26.7×) | 139 ms → 5.14 ms (26.9×) | 1.9 KB |
+| lms-sha256-m24-h10-w4 | 33.0 s → 1841 ms (17.9×) | 34.3 ms → 2.13 ms (16.1×) | 16.5 ms → 1.10 ms (15.0×) | 2.4 KB |
+| lms-sha256-m32-h5-w1 | 804 ms → 150 ms (5.3×) | 15.8 ms → 2.96 ms (5.3×) | 10.8 ms → 2.47 ms (4.4×) | 1.9 KB |
+| lms-sha256-m32-h5-w2 | 737 ms → 89.8 ms (8.2×) | 13.0 ms → 1.88 ms (6.9×) | 11.3 ms → 1.68 ms (6.8×) | 1.9 KB |
 | lms-sha256-m32-h5-w4 | 1374 ms → 87.8 ms (15.7×) | 21.6 ms → 1.66 ms (13.0×) | 23.2 ms → 1.68 ms (13.8×) | 1.9 KB |
 | lms-sha256-m32-h5-w8 | 10.9 s → 473 ms (23.0×) | 161 ms → 7.19 ms (22.4×) | 209 ms → 9.21 ms (22.7×) | 1.9 KB |
-| lms-sha256-m32-h10-w4 | 44.0 s → 3376 ms (13.0×) | 45.5 ms → 3.75 ms (12.2×) | 20.7 ms → 1.85 ms (11.2×) | 2.4 KB |
-| lms-sha256-m32-h10-w8 | 20.2 s | 13.5 ms | 11.2 ms | 2.4 KB |
+| lms-sha256-m32-h10-w4 | 44.0 s → 2807 ms (15.7×) | 45.5 ms → 3.18 ms (14.3×) | 20.6 ms → 1.59 ms (13.0×) | 2.4 KB |
+| lms-sha256-m32-h10-w8 | 347.4 s → 15.1 s (23.0×) | 229 ms → 10.1 ms (22.6×) | 190 ms → 8.43 ms (22.5×) | 2.4 KB |
 | lms-shake-m24-h5-w4 | 4404 ms → 2169 ms (2.0×) | 72.7 ms → 35.8 ms (2.0×) | 62.7 ms → 31.1 ms (2.0×) | 1.9 KB |
 | lms-shake-m32-h5-w4 | 5816 ms → 2873 ms (2.0×) | 95.6 ms → 47.1 ms (2.0×) | 86.4 ms → 43.0 ms (2.0×) | 1.9 KB |
 | lms-sm3-m32-h5-w8 | 12.0 s → 7573 ms (1.6×) | 182 ms → 115 ms (1.6×) | 198 ms → 125 ms (1.6×) | 2.1 KB |
-| lms-sm3-m32-h10-w8 | 242.3 s | 161 ms | 140 ms | 2.7 KB |
+| lms-sm3-m32-h10-w8 | 383.1 s → 242.3 s (1.6×) | 254 ms → 161 ms (1.6×) | 220 ms → 140 ms (1.6×) | 2.7 KB |
 
 **XMSS and XMSS^MT (SP 800-208)**
 
@@ -94,7 +87,7 @@ and signatures held by the caller come on top. Full tables: [RESULTS.md](RESULTS
 |---|---:|---:|---:|---:|
 | xmss-sha2_10_192 | 152.6 s → 11.1 s (13.8×) | 328 ms → 21.3 ms (15.4×) | 78.3 ms → 5.56 ms (14.1×) | 3.1 KB |
 | xmss-sha2_10_256 | 235.9 s → 13.0 s (18.1×) | 511 ms → 25.7 ms (19.9×) | 130 ms → 7.10 ms (18.2×) | 4.1 KB |
-| xmss-shake256_10_256 | 293.5 s | 571 ms | 150 ms | 4.5 KB |
+| xmss-shake256_10_256 | 588.5 s → 293.5 s (2.0×) | 1146 ms → 571 ms (2.0×) | 300 ms → 150 ms (2.0×) | 4.5 KB |
 | xmssmt-sha2_20-4_192 | 19.3 s → 1406 ms (13.7×) | 592 ms → 33.0 ms (18.0×) | 336 ms → 24.0 ms (14.0×) | 3.4 KB |
 | xmssmt-sha2_20-4_256 | 29.8 s → 1658 ms (18.0×) | 918 ms → 39.9 ms (23.0×) | 476 ms → 26.3 ms (18.1×) | 4.3 KB |
 | xmssmt-shake256_20-4_192 | 55.9 s → 27.5 s (2.0×) | 1701 ms → 626 ms (2.7×) | 950 ms → 468 ms (2.0×) | 3.9 KB |
@@ -174,8 +167,10 @@ and signatures held by the caller come on top. Full tables: [RESULTS.md](RESULTS
 |---|---:|---:|---:|---:|
 | sphincs-a-sha2-128f | 173 ms → 63.7 ms (2.7×) | 4138 ms → 1336 ms (3.1×) | 222 ms → 78.8 ms (2.8×) | 2.9 KB |
 | sphincs-a-sha2-128s | 8088 ms → 2606 ms (3.1×) | 83.8 s → 26.6 s (3.1×) | 304 ms → 107 ms (2.8×) | 105.6 KB |
+| sphincs-a-sha2-192f | 375 ms → 129 ms (2.9×) | 7263 ms → 3183 ms (2.3×) | 211 ms → 112 ms (1.9×) | 7.2 KB |
 | sphincs-a-shake-128f | 643 ms → 416 ms (1.5×) | 16.2 s → 10.4 s (1.6×) | 832 ms → 537 ms (1.6×) | 3.5 KB |
 | sphincs-a-shake-128s | 31.9 s → 20.4 s (1.6×) | 332.2 s → 212.5 s (1.6×) | 1157 ms → 746 ms (1.6×) | 106.0 KB |
+| sphincs-a-shake-192f | 1348 ms → 865 ms (1.6×) | 26.0 s → 16.7 s (1.6×) | 682 ms → 442 ms (1.5×) | 6.8 KB |
 | sphincs-a-sm3-128f | 193 ms → 140 ms (1.4×) | 4891 ms → 3448 ms (1.4×) | 259 ms → 186 ms (1.4×) | 3.4 KB |
 | sphincs-a-sm3-128s | 9092 ms → 6436 ms (1.4×) | 98.1 s → 69.1 s (1.4×) | 348 ms → 250 ms (1.4×) | 106.0 KB |
 
@@ -269,4 +264,5 @@ and signatures held by the caller come on top. Full tables: [RESULTS.md](RESULTS
 | scloudplus-192-sm3 | 1977 ms → 1146 ms (1.7×) | 2007 ms → 1084 ms (1.9×) | 2009 ms → 1091 ms (1.8×) | 95.9 KB |
 | scloudplus-256-aes | 5518 ms → 838 ms (6.6×) | 5571 ms → 712 ms (7.8×) | 5560 ms → 714 ms (7.8×) | 83.3 KB |
 | scloudplus-256-shake | 3189 ms → 1786 ms (1.8×) | 3356 ms → 1689 ms (2.0×) | 3344 ms → 1690 ms (2.0×) | 83.6 KB |
+| scloudplus-256-sm3 | 3938 ms → 2338 ms (1.7×) | 4090 ms → 2217 ms (1.8×) | 4089 ms → 2223 ms (1.8×) | 132.2 KB |
 

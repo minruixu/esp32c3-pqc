@@ -2,19 +2,19 @@
  "results": {
   "gmssl-lmstest/ref/quick": {
    "iters": 1,
-   "avg_us": 841591,
-   "min_us": 841591,
-   "max_us": 841591,
+   "avg_us": 841564,
+   "min_us": 841564,
+   "max_us": 841564,
    "stack": 40764,
    "heap": 0,
    "rc": 0
   },
   "gmssl-lms-sm3-h5/ref/keygen": {
    "iters": 1,
-   "avg_us": 8806565,
-   "min_us": 8806565,
-   "max_us": 8806565,
-   "stack": 3420,
+   "avg_us": 8806566,
+   "min_us": 8806566,
+   "max_us": 8806566,
+   "stack": 3404,
    "heap": 2048,
    "rc": 0
   },
@@ -29,9 +29,9 @@
   },
   "gmssl-lms-sm3-h5/ref/verify": {
    "iters": 3,
-   "avg_us": 145744,
+   "avg_us": 145745,
    "min_us": 145743,
-   "max_us": 145747,
+   "max_us": 145748,
    "stack": 2300,
    "heap": 0,
    "rc": 0
@@ -74,9 +74,9 @@
   },
   "gmssl-hss-sm3-h5-h5/ref/reject": {
    "iters": 1,
-   "avg_us": 130374,
-   "min_us": 130374,
-   "max_us": 130374,
+   "avg_us": 130407,
+   "min_us": 130407,
+   "max_us": 130407,
    "stack": 12348,
    "heap": 0,
    "rc": 0
@@ -92,17 +92,17 @@
   },
   "gmssl-lms-sm3-h5/opt/keygen": {
    "iters": 1,
-   "avg_us": 8851890,
-   "min_us": 8851890,
-   "max_us": 8851890,
-   "stack": 3420,
+   "avg_us": 8851891,
+   "min_us": 8851891,
+   "max_us": 8851891,
+   "stack": 3404,
    "heap": 0,
    "rc": 0
   },
   "gmssl-lms-sm3-h5/opt/sign": {
    "iters": 16,
    "avg_us": 137123,
-   "min_us": 122473,
+   "min_us": 122472,
    "max_us": 146728,
    "stack": 1004,
    "heap": 0,
@@ -148,16 +148,16 @@
    "iters": 3,
    "avg_us": 284925,
    "min_us": 284924,
-   "max_us": 284929,
+   "max_us": 284928,
    "stack": 12332,
    "heap": 0,
    "rc": 0
   },
   "gmssl-hss-sm3-h5-h5/opt/reject": {
    "iters": 1,
-   "avg_us": 131115,
-   "min_us": 131115,
-   "max_us": 131115,
+   "avg_us": 131039,
+   "min_us": 131039,
+   "max_us": 131039,
    "stack": 12348,
    "heap": 0,
    "rc": 0

@@ -2,36 +2,36 @@
  "results": {
   "kat-wots-oid01/ref/vector": {
    "iters": 1,
-   "avg_us": 517888,
-   "min_us": 517888,
-   "max_us": 517888,
+   "avg_us": 517814,
+   "min_us": 517814,
+   "max_us": 517814,
    "stack": 3900,
    "heap": 0,
    "rc": 0
   },
   "kat-wots-oid04/ref/vector": {
    "iters": 1,
-   "avg_us": 2685132,
-   "min_us": 2685132,
-   "max_us": 2685132,
+   "avg_us": 2684826,
+   "min_us": 2684826,
+   "max_us": 2684826,
    "stack": 10924,
    "heap": 0,
    "rc": 0
   },
   "kat-wots-oid07/ref/vector": {
    "iters": 1,
-   "avg_us": 1333211,
-   "min_us": 1333211,
-   "max_us": 1333211,
+   "avg_us": 1333212,
+   "min_us": 1333212,
+   "max_us": 1333212,
    "stack": 4076,
    "heap": 0,
    "rc": 0
   },
   "kat-wots-oid10/ref/vector": {
    "iters": 1,
-   "avg_us": 4931991,
-   "min_us": 4931991,
-   "max_us": 4931991,
+   "avg_us": 4931990,
+   "min_us": 4931990,
+   "max_us": 4931990,
    "stack": 10796,
    "heap": 0,
    "rc": 0
@@ -41,15 +41,15 @@
    "avg_us": 331695,
    "min_us": 331695,
    "max_us": 331695,
-   "stack": 2892,
+   "stack": 2860,
    "heap": 0,
    "rc": 0
   },
   "kat-wots-oid16/ref/vector": {
    "iters": 1,
-   "avg_us": 1288091,
-   "min_us": 1288091,
-   "max_us": 1288091,
+   "avg_us": 1288092,
+   "min_us": 1288092,
+   "max_us": 1288092,
    "stack": 4044,
    "heap": 0,
    "rc": 0
@@ -65,25 +65,25 @@
   },
   "xmssmt-sha2_20-4_256/ref/keygen": {
    "iters": 1,
-   "avg_us": 29830177,
-   "min_us": 29830177,
-   "max_us": 29830177,
+   "avg_us": 29830102,
+   "min_us": 29830102,
+   "max_us": 29830102,
    "stack": 4796,
    "heap": 0,
    "rc": 0
   },
   "xmssmt-sha2_20-4_256/ref/sign": {
    "iters": 40,
-   "avg_us": 918245,
-   "min_us": 783135,
-   "max_us": 1040936,
+   "avg_us": 918216,
+   "min_us": 783111,
+   "max_us": 1040906,
    "stack": 4924,
    "heap": 0,
    "rc": 0
   },
   "xmssmt-sha2_20-4_256/ref/verify": {
    "iters": 5,
-   "avg_us": 475534,
+   "avg_us": 475535,
    "min_us": 475533,
    "max_us": 475538,
    "stack": 3932,
@@ -101,18 +101,18 @@
   },
   "xmssmt-sha2_20-4_192/ref/keygen": {
    "iters": 1,
-   "avg_us": 19290366,
-   "min_us": 19290366,
-   "max_us": 19290366,
+   "avg_us": 19290368,
+   "min_us": 19290368,
+   "max_us": 19290368,
    "stack": 3740,
    "heap": 0,
    "rc": 0
   },
   "xmssmt-sha2_20-4_192/ref/sign": {
    "iters": 40,
-   "avg_us": 592259,
-   "min_us": 506348,
-   "max_us": 677194,
+   "avg_us": 592260,
+   "min_us": 506349,
+   "max_us": 677195,
    "stack": 3900,
    "heap": 0,
    "rc": 0
@@ -128,18 +128,18 @@
   },
   "xmssmt-sha2_20-4_192/ref/reject": {
    "iters": 1,
-   "avg_us": 336156,
-   "min_us": 336156,
-   "max_us": 336156,
+   "avg_us": 336155,
+   "min_us": 336155,
+   "max_us": 336155,
    "stack": 2892,
    "heap": 0,
    "rc": 0
   },
   "xmssmt-shake256_20-4_256/ref/keygen": {
    "iters": 1,
-   "avg_us": 74427938,
-   "min_us": 74427938,
-   "max_us": 74427938,
+   "avg_us": 74427940,
+   "min_us": 74427940,
+   "max_us": 74427940,
    "stack": 4940,
    "heap": 0,
    "rc": 0
@@ -147,7 +147,7 @@
   "xmssmt-shake256_20-4_256/ref/sign": {
    "iters": 8,
    "avg_us": 2270555,
-   "min_us": 1968664,
+   "min_us": 1968665,
    "max_us": 2595473,
    "stack": 5068,
    "heap": 0,
@@ -173,10 +173,10 @@
   },
   "kat-wots-oid01/opt/vector": {
    "iters": 1,
-   "avg_us": 31257,
-   "min_us": 31257,
-   "max_us": 31257,
-   "stack": 3676,
+   "avg_us": 31262,
+   "min_us": 31262,
+   "max_us": 31262,
+   "stack": 3756,
    "heap": 0,
    "rc": 0
   },
@@ -200,9 +200,9 @@
   },
   "kat-wots-oid10/opt/vector": {
    "iters": 1,
-   "avg_us": 3269795,
-   "min_us": 3269795,
-   "max_us": 3269795,
+   "avg_us": 3269796,
+   "min_us": 3269796,
+   "max_us": 3269796,
    "stack": 11100,
    "heap": 0,
    "rc": 0
@@ -239,7 +239,7 @@
    "avg_us": 1658445,
    "min_us": 1658445,
    "max_us": 1658445,
-   "stack": 4364,
+   "stack": 4316,
    "heap": 0,
    "rc": 0
   },
@@ -263,10 +263,10 @@
   },
   "xmssmt-sha2_20-4_256/opt/reject": {
    "iters": 1,
-   "avg_us": 26967,
-   "min_us": 26967,
-   "max_us": 26967,
-   "stack": 3612,
+   "avg_us": 26968,
+   "min_us": 26968,
+   "max_us": 26968,
+   "stack": 3628,
    "heap": 0,
    "rc": 0
   },
@@ -292,16 +292,16 @@
    "iters": 5,
    "avg_us": 24033,
    "min_us": 24032,
-   "max_us": 24037,
+   "max_us": 24036,
    "stack": 2668,
    "heap": 0,
    "rc": 0
   },
   "xmssmt-sha2_20-4_192/opt/reject": {
    "iters": 1,
-   "avg_us": 24028,
-   "min_us": 24028,
-   "max_us": 24028,
+   "avg_us": 24027,
+   "min_us": 24027,
+   "max_us": 24027,
    "stack": 2636,
    "heap": 0,
    "rc": 0
@@ -317,7 +317,7 @@
   },
   "xmssmt-shake256_20-4_256/opt/sign": {
    "iters": 8,
-   "avg_us": 846159,
+   "avg_us": 846160,
    "min_us": 695418,
    "max_us": 1008401,
    "stack": 4908,
@@ -335,18 +335,54 @@
   },
   "xmssmt-shake256_20-4_256/opt/reject": {
    "iters": 1,
-   "avg_us": 602688,
-   "min_us": 602688,
-   "max_us": 602688,
+   "avg_us": 602687,
+   "min_us": 602687,
+   "max_us": 602687,
    "stack": 4140,
+   "heap": 0,
+   "rc": 0
+  },
+  "xmssmt-shake256_20-4_192/opt/keygen": {
+   "iters": 1,
+   "avg_us": 27546530,
+   "min_us": 27546530,
+   "max_us": 27546530,
+   "stack": 3820,
+   "heap": 0,
+   "rc": 0
+  },
+  "xmssmt-shake256_20-4_192/opt/sign": {
+   "iters": 8,
+   "avg_us": 626230,
+   "min_us": 509989,
+   "max_us": 740240,
+   "stack": 3980,
+   "heap": 0,
+   "rc": 0
+  },
+  "xmssmt-shake256_20-4_192/opt/verify": {
+   "iters": 5,
+   "avg_us": 468452,
+   "min_us": 468448,
+   "max_us": 468454,
+   "stack": 3164,
+   "heap": 0,
+   "rc": 0
+  },
+  "xmssmt-shake256_20-4_192/opt/reject": {
+   "iters": 1,
+   "avg_us": 494720,
+   "min_us": 494720,
+   "max_us": 494720,
+   "stack": 3164,
    "heap": 0,
    "rc": 0
   },
   "xmss-sha2_10_256/opt/keygen": {
    "iters": 1,
-   "avg_us": 13024133,
-   "min_us": 13024133,
-   "max_us": 13024133,
+   "avg_us": 13024136,
+   "min_us": 13024136,
+   "max_us": 13024136,
    "stack": 4188,
    "heap": 0,
    "rc": 0
@@ -365,7 +401,7 @@
    "avg_us": 7104,
    "min_us": 7101,
    "max_us": 7106,
-   "stack": 3612,
+   "stack": 3660,
    "heap": 0,
    "rc": 0
   },
@@ -380,10 +416,10 @@
   },
   "xmss-sha2_10_192/opt/keygen": {
    "iters": 1,
-   "avg_us": 11069044,
-   "min_us": 11069044,
-   "max_us": 11069044,
-   "stack": 3164,
+   "avg_us": 11069041,
+   "min_us": 11069041,
+   "max_us": 11069041,
+   "stack": 3148,
    "heap": 0,
    "rc": 0
   },
@@ -414,78 +450,6 @@
    "heap": 0,
    "rc": 0
   },
-  "xmssmt-shake256_20-4_192/opt/keygen": {
-   "iters": 1,
-   "avg_us": 27546530,
-   "min_us": 27546530,
-   "max_us": 27546530,
-   "stack": 3820,
-   "heap": 0,
-   "rc": 0
-  },
-  "xmssmt-shake256_20-4_192/opt/sign": {
-   "iters": 8,
-   "avg_us": 626230,
-   "min_us": 509990,
-   "max_us": 740241,
-   "stack": 3980,
-   "heap": 0,
-   "rc": 0
-  },
-  "xmssmt-shake256_20-4_192/opt/verify": {
-   "iters": 5,
-   "avg_us": 468452,
-   "min_us": 468449,
-   "max_us": 468454,
-   "stack": 3164,
-   "heap": 0,
-   "rc": 0
-  },
-  "xmssmt-shake256_20-4_192/opt/reject": {
-   "iters": 1,
-   "avg_us": 494721,
-   "min_us": 494721,
-   "max_us": 494721,
-   "stack": 3164,
-   "heap": 0,
-   "rc": 0
-  },
-  "xmss-sha2_10_256/ref/keygen": {
-   "iters": 1,
-   "avg_us": 235872081,
-   "min_us": 235872081,
-   "max_us": 235872081,
-   "stack": 4348,
-   "heap": 0,
-   "rc": 0
-  },
-  "xmss-sha2_10_256/ref/sign": {
-   "iters": 8,
-   "avg_us": 510946,
-   "min_us": 327850,
-   "max_us": 1255049,
-   "stack": 4220,
-   "heap": 0,
-   "rc": 0
-  },
-  "xmss-sha2_10_256/ref/verify": {
-   "iters": 5,
-   "avg_us": 129544,
-   "min_us": 129541,
-   "max_us": 129546,
-   "stack": 3932,
-   "heap": 0,
-   "rc": 0
-  },
-  "xmss-sha2_10_256/ref/reject": {
-   "iters": 1,
-   "avg_us": 129539,
-   "min_us": 129539,
-   "max_us": 129539,
-   "stack": 3932,
-   "heap": 0,
-   "rc": 0
-  },
   "xmssmt-shake256_20-4_192/ref/keygen": {
    "iters": 1,
    "avg_us": 55872347,
@@ -499,7 +463,7 @@
    "iters": 8,
    "avg_us": 1701274,
    "min_us": 1465152,
-   "max_us": 1932190,
+   "max_us": 1932191,
    "stack": 4044,
    "heap": 0,
    "rc": 0
@@ -507,26 +471,62 @@
   "xmssmt-shake256_20-4_192/ref/verify": {
    "iters": 5,
    "avg_us": 949768,
-   "min_us": 949765,
-   "max_us": 949769,
+   "min_us": 949764,
+   "max_us": 949770,
    "stack": 3036,
    "heap": 0,
    "rc": 0
   },
   "xmssmt-shake256_20-4_192/ref/reject": {
    "iters": 1,
-   "avg_us": 1003079,
-   "min_us": 1003079,
-   "max_us": 1003079,
+   "avg_us": 1003078,
+   "min_us": 1003078,
+   "max_us": 1003078,
    "stack": 3036,
+   "heap": 0,
+   "rc": 0
+  },
+  "xmss-sha2_10_256/ref/keygen": {
+   "iters": 1,
+   "avg_us": 235872082,
+   "min_us": 235872082,
+   "max_us": 235872082,
+   "stack": 4348,
+   "heap": 0,
+   "rc": 0
+  },
+  "xmss-sha2_10_256/ref/sign": {
+   "iters": 8,
+   "avg_us": 510946,
+   "min_us": 327851,
+   "max_us": 1255048,
+   "stack": 4220,
+   "heap": 0,
+   "rc": 0
+  },
+  "xmss-sha2_10_256/ref/verify": {
+   "iters": 5,
+   "avg_us": 129545,
+   "min_us": 129542,
+   "max_us": 129546,
+   "stack": 3932,
+   "heap": 0,
+   "rc": 0
+  },
+  "xmss-sha2_10_256/ref/reject": {
+   "iters": 1,
+   "avg_us": 129540,
+   "min_us": 129540,
+   "max_us": 129540,
+   "stack": 3932,
    "heap": 0,
    "rc": 0
   },
   "xmss-sha2_10_192/ref/keygen": {
    "iters": 1,
-   "avg_us": 152607767,
-   "min_us": 152607767,
-   "max_us": 152607767,
+   "avg_us": 152607766,
+   "min_us": 152607766,
+   "max_us": 152607766,
    "stack": 3260,
    "heap": 0,
    "rc": 0
@@ -534,8 +534,8 @@
   "xmss-sha2_10_192/ref/sign": {
    "iters": 8,
    "avg_us": 328241,
-   "min_us": 209303,
-   "max_us": 818140,
+   "min_us": 209304,
+   "max_us": 818139,
    "stack": 3196,
    "heap": 0,
    "rc": 0
@@ -555,6 +555,42 @@
    "min_us": 78270,
    "max_us": 78270,
    "stack": 2892,
+   "heap": 0,
+   "rc": 0
+  },
+  "xmss-shake256_10_256/ref/keygen": {
+   "iters": 1,
+   "avg_us": 588540780,
+   "min_us": 588540780,
+   "max_us": 588540780,
+   "stack": 4492,
+   "heap": 0,
+   "rc": 0
+  },
+  "xmss-shake256_10_256/ref/sign": {
+   "iters": 4,
+   "avg_us": 1145681,
+   "min_us": 849178,
+   "max_us": 2005713,
+   "stack": 4364,
+   "heap": 0,
+   "rc": 0
+  },
+  "xmss-shake256_10_256/ref/verify": {
+   "iters": 5,
+   "avg_us": 299745,
+   "min_us": 299741,
+   "max_us": 299747,
+   "stack": 4076,
+   "heap": 0,
+   "rc": 0
+  },
+  "xmss-shake256_10_256/ref/reject": {
+   "iters": 1,
+   "avg_us": 299745,
+   "min_us": 299745,
+   "max_us": 299745,
+   "stack": 4076,
    "heap": 0,
    "rc": 0
   },
@@ -668,6 +704,18 @@
    "sha256_16": "446ef5621f9bf8c6b6875f9c9a1d8273",
    "len": 11015
   },
+  "xmssmt-shake256_20-4_192/opt/pk": {
+   "sha256_16": "ff730e41d7172c917d6489ef6e480569",
+   "len": 48
+  },
+  "xmssmt-shake256_20-4_192/opt/sig": {
+   "sha256_16": "c7c14bd05e3e2caedd6efc7c2fb8271f",
+   "len": 5403
+  },
+  "xmssmt-shake256_20-4_192/opt/sk": {
+   "sha256_16": "8348a16db787f4bdeeb0e9bebc9b75d3",
+   "len": 7159
+  },
   "xmss-sha2_10_256/opt/pk": {
    "sha256_16": "11934839971739c68bab104055c68f04",
    "len": 64
@@ -692,17 +740,17 @@
    "sha256_16": "b5763f4d72f1d51433e5fec9b8b4eb97",
    "len": 1193
   },
-  "xmssmt-shake256_20-4_192/opt/pk": {
+  "xmssmt-shake256_20-4_192/ref/pk": {
    "sha256_16": "ff730e41d7172c917d6489ef6e480569",
    "len": 48
   },
-  "xmssmt-shake256_20-4_192/opt/sig": {
+  "xmssmt-shake256_20-4_192/ref/sig": {
    "sha256_16": "c7c14bd05e3e2caedd6efc7c2fb8271f",
    "len": 5403
   },
-  "xmssmt-shake256_20-4_192/opt/sk": {
-   "sha256_16": "8348a16db787f4bdeeb0e9bebc9b75d3",
-   "len": 7159
+  "xmssmt-shake256_20-4_192/ref/sk": {
+   "sha256_16": "720a148abbc7932b97520c9d8787436f",
+   "len": 7138
   },
   "xmss-sha2_10_256/ref/pk": {
    "sha256_16": "11934839971739c68bab104055c68f04",
@@ -716,18 +764,6 @@
    "sha256_16": "bc991850e518444a679f779e897d8e1e",
    "len": 1373
   },
-  "xmssmt-shake256_20-4_192/ref/pk": {
-   "sha256_16": "ff730e41d7172c917d6489ef6e480569",
-   "len": 48
-  },
-  "xmssmt-shake256_20-4_192/ref/sig": {
-   "sha256_16": "c7c14bd05e3e2caedd6efc7c2fb8271f",
-   "len": 5403
-  },
-  "xmssmt-shake256_20-4_192/ref/sk": {
-   "sha256_16": "720a148abbc7932b97520c9d8787436f",
-   "len": 7138
-  },
   "xmss-sha2_10_192/ref/pk": {
    "sha256_16": "34232b7fe24f90df86db73a3522542db",
    "len": 48
@@ -739,6 +775,18 @@
   "xmss-sha2_10_192/ref/sk": {
    "sha256_16": "d7ffa4dbef671328029200b8325eadff",
    "len": 1053
+  },
+  "xmss-shake256_10_256/ref/pk": {
+   "sha256_16": "c1b1afb7c5356bc72642d4f33ef6e02c",
+   "len": 64
+  },
+  "xmss-shake256_10_256/ref/sig": {
+   "sha256_16": "9f260809256252356f47782009df0343",
+   "len": 2500
+  },
+  "xmss-shake256_10_256/ref/sk": {
+   "sha256_16": "7c29d1859a05c6f8ddf93d11677c7f87",
+   "len": 1373
   },
   "xmss-shake256_10_256/opt/pk": {
    "sha256_16": "c1b1afb7c5356bc72642d4f33ef6e02c",
@@ -786,56 +834,55 @@
   "xmssmt-shake256_20-4_256/opt/pk-vector": "PASS",
   "xmssmt-shake256_20-4_256/opt/verify": "PASS",
   "xmssmt-shake256_20-4_256/opt/reject": "PASS",
+  "xmssmt-shake256_20-4_192/opt/pk-vector": "PASS",
+  "xmssmt-shake256_20-4_192/opt/verify": "PASS",
+  "xmssmt-shake256_20-4_192/opt/reject": "PASS",
   "xmss-sha2_10_256/opt/pk-vector": "PASS",
   "xmss-sha2_10_256/opt/verify": "PASS",
   "xmss-sha2_10_256/opt/reject": "PASS",
   "xmss-sha2_10_192/opt/pk-vector": "PASS",
   "xmss-sha2_10_192/opt/verify": "PASS",
   "xmss-sha2_10_192/opt/reject": "PASS",
-  "xmssmt-shake256_20-4_192/opt/pk-vector": "PASS",
-  "xmssmt-shake256_20-4_192/opt/verify": "PASS",
-  "xmssmt-shake256_20-4_192/opt/reject": "PASS",
-  "xmss-sha2_10_256/ref/pk-vector": "PASS",
-  "xmss-sha2_10_256/ref/verify": "PASS",
-  "xmss-sha2_10_256/ref/reject": "PASS",
   "xmssmt-shake256_20-4_192/ref/pk-vector": "PASS",
   "xmssmt-shake256_20-4_192/ref/verify": "PASS",
   "xmssmt-shake256_20-4_192/ref/reject": "PASS",
+  "xmss-sha2_10_256/ref/pk-vector": "PASS",
+  "xmss-sha2_10_256/ref/verify": "PASS",
+  "xmss-sha2_10_256/ref/reject": "PASS",
   "xmss-sha2_10_192/ref/pk-vector": "PASS",
   "xmss-sha2_10_192/ref/verify": "PASS",
   "xmss-sha2_10_192/ref/reject": "PASS",
+  "xmss-shake256_10_256/ref/pk-vector": "PASS",
+  "xmss-shake256_10_256/ref/verify": "PASS",
+  "xmss-shake256_10_256/ref/reject": "PASS",
   "xmss-shake256_10_256/opt/pk-vector": "PASS",
   "xmss-shake256_10_256/opt/verify": "PASS",
   "xmss-shake256_10_256/opt/reject": "PASS"
  },
  "info": {
-  "xmssmt-sha2_20-4_256": "pk=64 sk_with_state=10938 sig=9251 signatures=2^20 n=32 w=16",
-  "xmssmt-sha2_20-4_192": "pk=48 sk_with_state=7138 sig=5403 signatures=2^20 n=24 w=16",
-  "xmssmt-shake256_20-4_256": "pk=64 sk_with_state=10938 sig=9251 signatures=2^20 n=32 w=16",
-  "xmss-sha2_10_256/ref/skipped": "run with -f xmss-sha2_10_256/ref",
-  "xmss-sha2_10_192/ref/skipped": "run with -f xmss-sha2_10_192/ref",
-  "xmss-shake256_10_256/ref/skipped": "run with -f xmss-shake256_10_256/ref",
-  "xmss-sha2_10_256": "pk=64 sk_with_state=1373 sig=2500 signatures=2^10 n=32 w=16",
-  "xmss-sha2_10_192": "pk=48 sk_with_state=1053 sig=1492 signatures=2^10 n=24 w=16",
-  "xmss-shake256_10_256/opt/skipped": "run with -f xmss-shake256_10_256/opt",
-  "xmssmt-sha2_20-4_256/opt/sizes": "pk=64 sk_with_state=11015 sig=9251 signatures=2^20 n=32 w=16 bds_k=3",
-  "xmssmt-sha2_20-4_192/opt/sizes": "pk=48 sk_with_state=7159 sig=5403 signatures=2^20 n=24 w=16 bds_k=3",
-  "xmssmt-shake256_20-4_256/opt/sizes": "pk=64 sk_with_state=11015 sig=9251 signatures=2^20 n=32 w=16 bds_k=3",
   "xmssmt-sha2_20-4_256/ref/sizes": "pk=64 sk_with_state=10938 sig=9251 signatures=2^20 n=32 w=16 bds_k=0",
   "xmssmt-sha2_20-4_192/ref/sizes": "pk=48 sk_with_state=7138 sig=5403 signatures=2^20 n=24 w=16 bds_k=0",
   "xmssmt-shake256_20-4_256/ref/sizes": "pk=64 sk_with_state=10938 sig=9251 signatures=2^20 n=32 w=16 bds_k=0",
   "xmssmt-shake256_20-4_192/ref/skipped": "run with -f xmssmt-shake256_20-4_192/ref",
+  "xmss-sha2_10_256/ref/skipped": "run with -f xmss-sha2_10_256/ref",
+  "xmss-sha2_10_192/ref/skipped": "run with -f xmss-sha2_10_192/ref",
+  "xmss-shake256_10_256/ref/skipped": "run with -f xmss-shake256_10_256/ref",
+  "xmssmt-sha2_20-4_256/opt/sizes": "pk=64 sk_with_state=11015 sig=9251 signatures=2^20 n=32 w=16 bds_k=3",
+  "xmssmt-sha2_20-4_192/opt/sizes": "pk=48 sk_with_state=7159 sig=5403 signatures=2^20 n=24 w=16 bds_k=3",
+  "xmssmt-shake256_20-4_256/opt/sizes": "pk=64 sk_with_state=11015 sig=9251 signatures=2^20 n=32 w=16 bds_k=3",
   "xmssmt-shake256_20-4_192/opt/sizes": "pk=48 sk_with_state=7159 sig=5403 signatures=2^20 n=24 w=16 bds_k=3",
   "xmss-sha2_10_256/opt/sizes": "pk=64 sk_with_state=1569 sig=2500 signatures=2^10 n=32 w=16 bds_k=4",
   "xmss-sha2_10_192/opt/sizes": "pk=48 sk_with_state=1193 sig=1492 signatures=2^10 n=24 w=16 bds_k=4",
-  "xmss-sha2_10_256/ref/sizes": "pk=64 sk_with_state=1373 sig=2500 signatures=2^10 n=32 w=16 bds_k=0",
+  "xmss-shake256_10_256/opt/skipped": "run with -f xmss-shake256_10_256/opt",
   "xmssmt-shake256_20-4_192/ref/sizes": "pk=48 sk_with_state=7138 sig=5403 signatures=2^20 n=24 w=16 bds_k=0",
+  "xmss-sha2_10_256/ref/sizes": "pk=64 sk_with_state=1373 sig=2500 signatures=2^10 n=32 w=16 bds_k=0",
   "xmss-sha2_10_192/ref/sizes": "pk=48 sk_with_state=1053 sig=1492 signatures=2^10 n=24 w=16 bds_k=0",
+  "xmss-shake256_10_256/ref/sizes": "pk=64 sk_with_state=1373 sig=2500 signatures=2^10 n=32 w=16 bds_k=0",
   "xmss-shake256_10_256/opt/sizes": "pk=64 sk_with_state=1569 sig=2500 signatures=2^10 n=32 w=16 bds_k=4"
  },
  "complete": true,
  "fails": 0,
  "cpu_mhz": 160,
- "heap_free_start": 153256,
- "heap_free_min": 132432
+ "heap_free_start": 134156,
+ "heap_free_min": 113316
 }

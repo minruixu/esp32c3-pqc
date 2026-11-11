@@ -12,7 +12,7 @@ memory are in [SUMMARY.md](SUMMARY.md) and [RESULTS.md](RESULTS.md).
 |---|---|---|---|---|---|
 | ML-KEM | FIPS 203, final (2024) | 512, 768, 1024 | mlkem-native (Apache-2.0 OR ISC OR MIT); RV32IM arithmetic from PQRV (MIT) | `mlkem` | Verified, all three |
 | ML-DSA | FIPS 204, final (2024) | 44, 65, 87 | mldsa-native (Apache-2.0 OR ISC OR MIT); RV32IM arithmetic from PQRV (MIT) | `mldsa`, `mldsa87`, `mldsa_lowram` | Verified, all three, plus the low-RAM build |
-| SLH-DSA | FIPS 205, final (2024) | all 12 (SHA2 and SHAKE; 128, 192, 256; s and f) | slhdsa-c (see its LICENSE) | `slhdsa` | Verified, all 12 |
+| SLH-DSA | FIPS 205, final (2024) | all 12 (SHA2 and SHAKE; 128, 192, 256; s and f) | slhdsa-c (Apache-2.0 OR ISC OR MIT) | `slhdsa` | Verified, all 12 |
 | FN-DSA (Falcon) | FIPS 206 not final yet | 512, 1024 | c-fn-dsa by Thomas Pornin (Unlicense) | `fndsa` | Verified, both; floating point is emulated |
 | HQC | Selected in 2025; standard not final yet | HQC-1, HQC-3, HQC-5 | HQC reference v5.1.0 (public domain) | `hqc`, `hqc3ref` | Optimized variant verified for all three. Reference variant verified for HQC-1 and HQC-3; the HQC-5 reference needs about 211 KB of stack and is verified on the host only |
 | LMS, HSS | SP 800-208 (RFC 8554) | SHA-256 and SHA-256/192 with heights 5 and 10, Winternitz 1 to 8; SHAKE256; HSS with two levels | Written for this project | `lms` | Verified; RFC 8554 and RFC 9858 test cases pass |
@@ -30,7 +30,7 @@ standards), and the candidates of NIST's additional signature round.
 | ML-KEM with SM3 | FIPS 203 with SM3 in place of SHAKE/SHA-3; not a standard | 512, 768, 1024 | PQMagic | `pqmagic_mlkem` | Verified; the SHAKE build of the same code passes the FIPS 203 vectors |
 | ML-DSA with SM3 | FIPS 204 with SM3; not a standard | 44, 65, 87 | PQMagic | `pqmagic_mldsa`, `pqmagic_mldsa87` | Verified; the SHAKE build passes the FIPS 204 vectors |
 | SLH-DSA with SM3 | SPHINCS+ with SM3; not a standard | 128f, 128s, simple and robust | PQMagic | `pqmagic_slhdsa_sm3` | Verified |
-| SPHINCS-alpha | Hash-based signature (CRYPTO 2023) | 128f with SM3, SHA-2, SHAKE | PQMagic | `pqmagic_sphincsa` | 128f verified. 128s runs on the host only. 192 and 256 need tables of 128 KB to 769 KB and do not fit |
+| SPHINCS-alpha | Hash-based signature (CRYPTO 2023) | 128f and 128s with SM3, SHA-2, SHAKE; 192f with SHA-2, SHAKE | PQMagic | `pqmagic_sphincsa`, `pqmagic_sphincsa_192f` | Verified. The scheme's encoding table is stored in a compact form written for this project (66 KB to 146 KB of heap). 192s and 256 need 332 KB to 769 KB even so and do not fit |
 | Kyber-768 | GmSSL's Kyber | 768 | GmSSL (Apache-2.0) | `gmssl_kyber` | Verified |
 | LMS-SM3, HSS-SM3 | LMS with SM3 | height 5; HSS 5/5 | GmSSL | `gmssl_lms` | Verified. Height 10 needs one 65 KB allocation and was not run |
 | XMSS^MT-SM3 | XMSS^MT with SM3 | 20/4 | GmSSL | `gmssl_xmss` | Verified. XMSS-SM3 with height 10 fails to allocate 65 KB |

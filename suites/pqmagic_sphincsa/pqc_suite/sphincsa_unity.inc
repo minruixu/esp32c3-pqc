@@ -35,7 +35,12 @@
 #include "sig/sphincs-a/std/api.h"
 #include "kemsig.h"
 
+/* Task stack of each job. The scheme itself uses 3 to 4 KB. */
+#ifndef PQM_STACK
+#define PQM_STACK (20 * 1024)
+#endif
+
 const sig_alg PQM_CAT(PQM_NS, _alg) = {
     PQM_NAME, CRYPTO_PUBLICKEYBYTES, CRYPTO_SECRETKEYBYTES, CRYPTO_BYTES,
-    {crypto_sign_keypair, crypto_sign_signature, crypto_sign_verify}, 0, 20 * 1024,
+    {crypto_sign_keypair, crypto_sign_signature, crypto_sign_verify}, 0, PQM_STACK,
     PQM_ITERS_KEYGEN, PQM_ITERS_SIGN, 3};

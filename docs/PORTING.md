@@ -39,6 +39,10 @@ for task stacks and buffers.
 - `NOTES.md` records where the code came from (URL, commit, license), what
   was changed, which optimizations were tried and what they gained, and what
   does not work.
+- `prims_off.txt` (optional) names optimized backends to leave out of this
+  image, one per line: `keccak`, `sha256`, `sm3`. All backends are linked
+  into every image (about 14 KB); a suite that is short of RAM drops the ones
+  its algorithms never call.
 
 `suites/mlkem` is the model to copy.
 
@@ -71,9 +75,18 @@ tools/pqc run <suite>            build, load into RAM, run, save results/<suite>
 tools/pqc run <suite> -f TEXT    only jobs whose name contains TEXT (comma-separated list)
 tools/pqc run <suite> --check    also run on the host and compare fingerprints
 tools/pqc host <suite>           host build and run only
+tools/pqc run <suite> --merge    add to the saved results instead of replacing them
 tools/pqc check <suite>          compare saved device and host results
 tools/pqc size <suite>           flash and RAM footprint per library
+tools/pqc md5                    checksum of the whole flash, to confirm nothing wrote to it
+tools/pqc reset                  reset the board back into its own firmware
+python3 tools/runall.py a b c    run several suites with --check and write a summary
 ```
+
+Jobs that take minutes (reference key generation of the tall hash-based
+trees, for example) are skipped in a plain run and say so in the results:
+`"<job>/skipped": "run with -f <job>"`. Run them with that filter and
+`--merge`.
 
 The board is shared through a lock file, so several runs queue up instead of
 colliding. A stack overflow or a crash is reported as "RUN DID NOT FINISH"

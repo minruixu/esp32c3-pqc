@@ -2,36 +2,36 @@
  "results": {
   "keccakf1600/ref/x1000": {
    "iters": 5,
-   "avg_us": 200,
-   "min_us": 200,
-   "max_us": 201,
+   "avg_us": 174,
+   "min_us": 168,
+   "max_us": 183,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "keccakf1600/mlkn/x1000": {
    "iters": 5,
-   "avg_us": 200,
-   "min_us": 200,
-   "max_us": 202,
+   "avg_us": 170,
+   "min_us": 167,
+   "max_us": 173,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "keccakf1600/opt/x1000": {
    "iters": 5,
-   "avg_us": 200,
-   "min_us": 200,
-   "max_us": 201,
+   "avg_us": 174,
+   "min_us": 172,
+   "max_us": 181,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "keccakf1600/opt/verify": {
    "iters": 1,
-   "avg_us": 1820,
-   "min_us": 1820,
-   "max_us": 1820,
+   "avg_us": 1571,
+   "min_us": 1571,
+   "max_us": 1571,
    "stack": 0,
    "heap": 0,
    "rc": 0

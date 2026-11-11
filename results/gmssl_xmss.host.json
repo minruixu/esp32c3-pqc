@@ -2,180 +2,108 @@
  "results": {
   "gmssl-xmsstest/ref/quick": {
    "iters": 1,
-   "avg_us": 16669,
-   "min_us": 16669,
-   "max_us": 16669,
+   "avg_us": 25207,
+   "min_us": 25207,
+   "max_us": 25207,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "gmssl-xmsstest/ref/hostfull": {
    "iters": 1,
-   "avg_us": 2196116,
-   "min_us": 2196116,
-   "max_us": 2196116,
+   "avg_us": 2201385,
+   "min_us": 2201385,
+   "max_us": 2201385,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "gmssl-xmssmt-sm3-20_4/ref/keygen": {
    "iters": 1,
-   "avg_us": 108964,
-   "min_us": 108964,
-   "max_us": 108964,
+   "avg_us": 108921,
+   "min_us": 108921,
+   "max_us": 108921,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "gmssl-xmssmt-sm3-20_4/ref/sign": {
    "iters": 8,
-   "avg_us": 392,
-   "min_us": 331,
-   "max_us": 453,
+   "avg_us": 420,
+   "min_us": 383,
+   "max_us": 468,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "gmssl-xmssmt-sm3-20_4/ref/verify": {
    "iters": 3,
-   "avg_us": 1688,
-   "min_us": 1677,
-   "max_us": 1711,
+   "avg_us": 1773,
+   "min_us": 1724,
+   "max_us": 1818,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "gmssl-xmssmt-sm3-20_4/ref/reject": {
    "iters": 1,
-   "avg_us": 1787,
-   "min_us": 1787,
-   "max_us": 1787,
+   "avg_us": 1890,
+   "min_us": 1890,
+   "max_us": 1890,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "gmssl-xmsstest/opt/quick": {
    "iters": 1,
-   "avg_us": 19273,
-   "min_us": 19273,
-   "max_us": 19273,
+   "avg_us": 19364,
+   "min_us": 19364,
+   "max_us": 19364,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "gmssl-xmsstest/opt/hostfull": {
    "iters": 1,
-   "avg_us": 3093663,
-   "min_us": 3093663,
-   "max_us": 3093663,
+   "avg_us": 3105284,
+   "min_us": 3105284,
+   "max_us": 3105284,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "gmssl-xmssmt-sm3-20_4/opt/keygen": {
    "iters": 1,
-   "avg_us": 154108,
-   "min_us": 154108,
-   "max_us": 154108,
+   "avg_us": 160620,
+   "min_us": 160620,
+   "max_us": 160620,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "gmssl-xmssmt-sm3-20_4/opt/sign": {
    "iters": 8,
-   "avg_us": 545,
-   "min_us": 457,
-   "max_us": 596,
+   "avg_us": 532,
+   "min_us": 464,
+   "max_us": 575,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "gmssl-xmssmt-sm3-20_4/opt/verify": {
    "iters": 3,
-   "avg_us": 2319,
-   "min_us": 2284,
-   "max_us": 2381,
+   "avg_us": 2295,
+   "min_us": 2276,
+   "max_us": 2308,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "gmssl-xmssmt-sm3-20_4/opt/reject": {
    "iters": 1,
-   "avg_us": 2488,
-   "min_us": 2488,
-   "max_us": 2488,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "gmssl-xmss-sm3-10/ref/keygen": {
-   "iters": 1,
-   "avg_us": 891138,
-   "min_us": 891138,
-   "max_us": 891138,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "gmssl-xmss-sm3-10/ref/sign": {
-   "iters": 4,
-   "avg_us": 367,
-   "min_us": 325,
-   "max_us": 396,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "gmssl-xmss-sm3-10/ref/verify": {
-   "iters": 3,
-   "avg_us": 451,
-   "min_us": 448,
-   "max_us": 455,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "gmssl-xmss-sm3-10/ref/reject": {
-   "iters": 1,
-   "avg_us": 455,
-   "min_us": 455,
-   "max_us": 455,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "gmssl-xmss-sm3-10/opt/keygen": {
-   "iters": 1,
-   "avg_us": 1185424,
-   "min_us": 1185424,
-   "max_us": 1185424,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "gmssl-xmss-sm3-10/opt/sign": {
-   "iters": 4,
-   "avg_us": 524,
-   "min_us": 480,
-   "max_us": 550,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "gmssl-xmss-sm3-10/opt/verify": {
-   "iters": 3,
-   "avg_us": 620,
-   "min_us": 607,
-   "max_us": 639,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "gmssl-xmss-sm3-10/opt/reject": {
-   "iters": 1,
-   "avg_us": 618,
-   "min_us": 618,
-   "max_us": 618,
+   "avg_us": 2442,
+   "min_us": 2442,
+   "max_us": 2442,
    "stack": 0,
    "heap": 0,
    "rc": 0
@@ -197,22 +125,6 @@
   "gmssl-xmssmt-sm3-20_4/opt/sig": {
    "sha256_16": "b801798c98ae4da0c77923bce8e797fc",
    "len": 9251
-  },
-  "gmssl-xmss-sm3-10/ref/pk": {
-   "sha256_16": "8c5e11d4de138fd0fd0cdad6488f42c9",
-   "len": 68
-  },
-  "gmssl-xmss-sm3-10/ref/sig": {
-   "sha256_16": "f703c63125e12ef4fbb67c4bbe2faf37",
-   "len": 2500
-  },
-  "gmssl-xmss-sm3-10/opt/pk": {
-   "sha256_16": "8c5e11d4de138fd0fd0cdad6488f42c9",
-   "len": 68
-  },
-  "gmssl-xmss-sm3-10/opt/sig": {
-   "sha256_16": "f703c63125e12ef4fbb67c4bbe2faf37",
-   "len": 2500
   }
  },
  "checks": {
@@ -223,17 +135,12 @@
   "gmssl-xmsstest/opt/quick": "PASS",
   "gmssl-xmsstest/opt/hostfull": "PASS",
   "gmssl-xmssmt-sm3-20_4/opt/verify": "PASS",
-  "gmssl-xmssmt-sm3-20_4/opt/reject": "PASS",
-  "gmssl-xmss-sm3-10/ref/verify": "PASS",
-  "gmssl-xmss-sm3-10/ref/reject": "PASS",
-  "gmssl-xmss-sm3-10/opt/verify": "PASS",
-  "gmssl-xmss-sm3-10/opt/reject": "PASS"
+  "gmssl-xmssmt-sm3-20_4/opt/reject": "PASS"
  },
  "info": {
   "gmssl-xmssmt-sm3-20_4": "pk=68 sig=9251",
   "gmssl-xmss-sm3-10/ref/skipped": "run with -f gmssl-xmss-sm3-10/ref",
-  "gmssl-xmss-sm3-10/opt/skipped": "run with -f gmssl-xmss-sm3-10/opt",
-  "gmssl-xmss-sm3-10": "pk=68 sig=2500"
+  "gmssl-xmss-sm3-10/opt/skipped": "run with -f gmssl-xmss-sm3-10/opt"
  },
  "complete": true,
  "fails": 0,

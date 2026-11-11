@@ -12,8 +12,8 @@ found is in the `optimization-journal` branch.
   in portable C and 630 through the accelerator; with the state kept in the
   peripheral, only the changed message words written and two hashes in
   flight, SLH-DSA spends about 195 to 280 cycles per hash. SLH-DSA-SHA2-128
-  got 17 to 23 times faster, and LMS and XMSS with SHA-256 between 5 and 23
-  times depending on the parameters.
+  got 17 to 23 times faster, XMSS with SHA-256 14 to 23 times, and LMS with
+  SHA-256 4 to 27 times depending on the Winternitz parameter.
   What was learned about the peripheral: a register access costs 8 to 9
   cycles, starting and waiting 88; it copies the block when started, so the
   next block can be written while the previous one is compressed; it accepts
@@ -22,17 +22,18 @@ found is in the `optimization-journal` branch.
 - **Keccak-f[1600] in RV32IMC assembly.** 135 µs per permutation in C, 79 µs
   in assembly. Everything built on SHAKE or SHA-3 gains from it: ML-KEM and
   ML-DSA most (together with assembly polynomial arithmetic, 1.8 to 2.1
-  times), SLH-DSA-SHAKE 1.5 times, HQC and FN-DSA verification about 1.25
-  times.
+  times), the SHAKE variants of LMS and XMSS 2 times, SLH-DSA-SHAKE 1.5
+  times, HQC and FN-DSA verification about 1.25 times.
 - **Choosing a different algorithm for the same result.** HQC's reference
   multiplies two dense polynomials with Karatsuba on 64-bit words; one operand
-  is always sparse, and a shift-and-XOR product is 40 to 66 times faster on
-  this core and needs a ninth of the memory. See the caveat below.
+  is always sparse, and with a shift-and-XOR product the operations of HQC-1
+  and HQC-3 are 51 to 82 times faster on this core and need a third of the
+  stack. See the caveat below.
 - **Arithmetic that fits the core.** FN-DSA has no FPU to use; redoing the
   emulated double-precision addition and multiplication on 32-bit halves made
-  signing 1.26 times faster. The hardware AES accelerator, together with
-  packed matrix products, made the AES family of SCloud+ about 8 times
-  faster, and LAC 1.2 to 2.2 times.
+  signing 1.26 times faster (1.32 together with the assembly Keccak). The
+  hardware AES accelerator, together with packed matrix products, made the
+  AES family of SCloud+ 6.6 to 9.4 times faster, and LAC 1.2 to 2.2 times.
 - **SHA-512 stays slow.** SLH-DSA at the 192 and 256 levels uses SHA-512 for
   part of its hashing. Assembly brought it from 81 to 69 µs per block; there
   is no hardware for it, so those sets gain 3.4 to 12 times instead of 20.
@@ -61,9 +62,9 @@ Recorded with numbers in the journal branch; the ones worth knowing:
   from PQMagic, HQC-3) run on a static region or in an image of their own.
 - An image that leaves only about 10 KB of the main RAM segment free can
   crash at boot without any output; 20 KB was enough.
-- Not feasible in RAM at all: SCloud+ 384 and 512, SPHINCS-alpha above 128,
-  ReSolveD-alpha, the HQC-5 reference code, GmSSL's SPHINCS+ signing, and the
-  NGCC candidates with keys of hundreds of kilobytes.
+- Not feasible in RAM at all: SCloud+ 384 and 512, SPHINCS-alpha 192s and
+  256, ReSolveD-alpha, the HQC-5 reference code, GmSSL's SPHINCS+ signing,
+  and the NGCC candidates with keys of hundreds of kilobytes.
 - Slow to the point of being verification-only: SLH-DSA-SHAKE signing with
   the "s" sets takes three to five minutes even optimized.
 

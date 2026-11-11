@@ -17,7 +17,7 @@ set(SUITE_SRCS
     ${XMSS_REF}/utils.c)
 set(SUITE_INCS ${SUITE_DIR} ${SUITE_DIR}/shim ${XMSS_REF})
 set(SUITE_DEFS)
-# For the measurements in journal/experiments/xmss.jsonl:
+# For the measurements in journal/experiments/xmss.jsonl (optimization-journal branch):
 #   -D XMSS_HW_HASH=off   PRF, F and H through the general SHA-256 backend
 if(XMSS_HW_HASH STREQUAL "off")
     set(SUITE_DEFS XMSS_HW_HASH_OFF=1)
