@@ -1,0 +1,83 @@
+{
+ "results": {
+  "hqc3/ref/kat": {
+   "iters": 1,
+   "avg_us": 9358577,
+   "min_us": 9358577,
+   "max_us": 9358577,
+   "stack": 132372,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc3/ref/keygen": {
+   "iters": 3,
+   "avg_us": 848527,
+   "min_us": 848522,
+   "max_us": 848532,
+   "stack": 105412,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc3/ref/encaps": {
+   "iters": 3,
+   "avg_us": 1694805,
+   "min_us": 1694803,
+   "max_us": 1694808,
+   "stack": 118436,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc3/ref/decaps": {
+   "iters": 3,
+   "avg_us": 3405041,
+   "min_us": 3405040,
+   "max_us": 3405044,
+   "stack": 132260,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc3/ref/reject": {
+   "iters": 3,
+   "avg_us": 3405040,
+   "min_us": 3405039,
+   "max_us": 3405044,
+   "stack": 132260,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "hqc3/ref/ss_reject": {
+   "sha256_16": "2a7c941415f69ed89d2872b2317cd24b",
+   "len": 32
+  },
+  "hqc3/ref/pk": {
+   "sha256_16": "8ed4cf3c7f4f7fbf74d00b4f9d53a7ef",
+   "len": 4514
+  },
+  "hqc3/ref/sk": {
+   "sha256_16": "d5ad731fa597c72e311bea11ba64c378",
+   "len": 32
+  },
+  "hqc3/ref/ct": {
+   "sha256_16": "2b4edde58e029c00522aed771a3cad1e",
+   "len": 8978
+  },
+  "hqc3/ref/ss": {
+   "sha256_16": "cf48ee07dfd161fe1eb8a77d2e34b618",
+   "len": 32
+  }
+ },
+ "checks": {
+  "hqc3/ref/kat": "PASS"
+ },
+ "info": {
+  "heap": "free=88892 largest_block=69632",
+  "hqc3": "pk=4514 sk=32 ct=8978 ss=32"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 88892,
+ "heap_free_min": 88876
+}

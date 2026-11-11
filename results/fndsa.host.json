@@ -1,0 +1,213 @@
+{
+ "results": {
+  "fndsa512/ref/kat": {
+   "iters": 1,
+   "avg_us": 24148,
+   "min_us": 24148,
+   "max_us": 24148,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/ref/keygen": {
+   "iters": 4,
+   "avg_us": 2362,
+   "min_us": 1910,
+   "max_us": 2887,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/ref/sign": {
+   "iters": 10,
+   "avg_us": 98,
+   "min_us": 95,
+   "max_us": 113,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/ref/verify": {
+   "iters": 10,
+   "avg_us": 7,
+   "min_us": 6,
+   "max_us": 8,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/ref/kat": {
+   "iters": 1,
+   "avg_us": 111281,
+   "min_us": 111281,
+   "max_us": 111281,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/ref/keygen": {
+   "iters": 2,
+   "avg_us": 8429,
+   "min_us": 6289,
+   "max_us": 10569,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/ref/sign": {
+   "iters": 10,
+   "avg_us": 189,
+   "min_us": 187,
+   "max_us": 193,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/ref/verify": {
+   "iters": 10,
+   "avg_us": 13,
+   "min_us": 13,
+   "max_us": 15,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/opt/kat": {
+   "iters": 1,
+   "avg_us": 22501,
+   "min_us": 22501,
+   "max_us": 22501,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/opt/keygen": {
+   "iters": 4,
+   "avg_us": 2306,
+   "min_us": 1836,
+   "max_us": 2859,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/opt/sign": {
+   "iters": 10,
+   "avg_us": 97,
+   "min_us": 96,
+   "max_us": 99,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/opt/verify": {
+   "iters": 10,
+   "avg_us": 7,
+   "min_us": 7,
+   "max_us": 8,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/opt/kat": {
+   "iters": 1,
+   "avg_us": 109057,
+   "min_us": 109057,
+   "max_us": 109057,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/opt/keygen": {
+   "iters": 2,
+   "avg_us": 8805,
+   "min_us": 6441,
+   "max_us": 11169,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/opt/sign": {
+   "iters": 10,
+   "avg_us": 191,
+   "min_us": 186,
+   "max_us": 209,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/opt/verify": {
+   "iters": 10,
+   "avg_us": 13,
+   "min_us": 13,
+   "max_us": 15,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "fndsa512/ref/sk": {
+   "sha256_16": "aafc9473c7c827b88b992b13785599d9",
+   "len": 1345
+  },
+  "fndsa512/ref/vk": {
+   "sha256_16": "e842cb3ab4a6ccfdc48ac0cedfaa45c0",
+   "len": 897
+  },
+  "fndsa512/ref/sig": {
+   "sha256_16": "3ae2d7b8646e8bca33170e6a8cce814f",
+   "len": 666
+  },
+  "fndsa1024/ref/sk": {
+   "sha256_16": "0136e77eb42454493e32ae833e1d738b",
+   "len": 2369
+  },
+  "fndsa1024/ref/vk": {
+   "sha256_16": "21e030bbb2951e0b204323762df9f353",
+   "len": 1793
+  },
+  "fndsa1024/ref/sig": {
+   "sha256_16": "4cb1f90d8e6175b9df3f007284501f12",
+   "len": 1280
+  },
+  "fndsa512/opt/sk": {
+   "sha256_16": "aafc9473c7c827b88b992b13785599d9",
+   "len": 1345
+  },
+  "fndsa512/opt/vk": {
+   "sha256_16": "e842cb3ab4a6ccfdc48ac0cedfaa45c0",
+   "len": 897
+  },
+  "fndsa512/opt/sig": {
+   "sha256_16": "3ae2d7b8646e8bca33170e6a8cce814f",
+   "len": 666
+  },
+  "fndsa1024/opt/sk": {
+   "sha256_16": "0136e77eb42454493e32ae833e1d738b",
+   "len": 2369
+  },
+  "fndsa1024/opt/vk": {
+   "sha256_16": "21e030bbb2951e0b204323762df9f353",
+   "len": 1793
+  },
+  "fndsa1024/opt/sig": {
+   "sha256_16": "4cb1f90d8e6175b9df3f007284501f12",
+   "len": 1280
+  }
+ },
+ "checks": {
+  "fndsa512/ref/kat": "PASS",
+  "fndsa1024/ref/kat": "PASS",
+  "fndsa512/opt/kat": "PASS",
+  "fndsa1024/opt/kat": "PASS"
+ },
+ "info": {
+  "fndsa512": "sk=1345 vk=897 sig=666 tmp_keygen=11295 tmp_sign=30239 tmp_verify=2079",
+  "fndsa1024": "sk=2369 vk=1793 sig=1280 tmp_keygen=22559 tmp_sign=60447 tmp_verify=4127"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}
