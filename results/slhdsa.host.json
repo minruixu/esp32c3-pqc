@@ -1,0 +1,1451 @@
+{
+ "results": {
+  "slhdsa-sha2-128s/ref/keygen": {
+   "iters": 1,
+   "avg_us": 30840,
+   "min_us": 30840,
+   "max_us": 30840,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128s/ref/sign": {
+   "iters": 1,
+   "avg_us": 235061,
+   "min_us": 235061,
+   "max_us": 235061,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128s/ref/verify": {
+   "iters": 5,
+   "avg_us": 224,
+   "min_us": 224,
+   "max_us": 227,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128s/ref/reject-x7": {
+   "iters": 1,
+   "avg_us": 1639,
+   "min_us": 1639,
+   "max_us": 1639,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128s/ref/verify-acvp-valid": {
+   "iters": 1,
+   "avg_us": 228,
+   "min_us": 228,
+   "max_us": 228,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128s/ref/verify-acvp-invalid": {
+   "iters": 1,
+   "avg_us": 247,
+   "min_us": 247,
+   "max_us": 247,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 478,
+   "min_us": 477,
+   "max_us": 479,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128f/ref/sign": {
+   "iters": 2,
+   "avg_us": 11262,
+   "min_us": 11233,
+   "max_us": 11292,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128f/ref/verify": {
+   "iters": 5,
+   "avg_us": 647,
+   "min_us": 647,
+   "max_us": 648,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128f/ref/reject-x7": {
+   "iters": 1,
+   "avg_us": 4680,
+   "min_us": 4680,
+   "max_us": 4680,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128f/ref/sign-hedged": {
+   "iters": 1,
+   "avg_us": 11904,
+   "min_us": 11904,
+   "max_us": 11904,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192s/ref/keygen": {
+   "iters": 1,
+   "avg_us": 44469,
+   "min_us": 44469,
+   "max_us": 44469,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192s/ref/sign": {
+   "iters": 1,
+   "avg_us": 875768,
+   "min_us": 875768,
+   "max_us": 875768,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192s/ref/verify": {
+   "iters": 5,
+   "avg_us": 495,
+   "min_us": 492,
+   "max_us": 504,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192s/ref/reject-x7": {
+   "iters": 1,
+   "avg_us": 8532,
+   "min_us": 8532,
+   "max_us": 8532,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 1267,
+   "min_us": 1101,
+   "max_us": 1485,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192f/ref/sign": {
+   "iters": 2,
+   "avg_us": 66484,
+   "min_us": 61048,
+   "max_us": 71920,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192f/ref/verify": {
+   "iters": 5,
+   "avg_us": 1496,
+   "min_us": 1494,
+   "max_us": 1499,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192f/ref/reject-x7": {
+   "iters": 1,
+   "avg_us": 49033,
+   "min_us": 49033,
+   "max_us": 49033,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192f/ref/sign-hedged": {
+   "iters": 1,
+   "avg_us": 35814,
+   "min_us": 35814,
+   "max_us": 35814,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256s/ref/keygen": {
+   "iters": 1,
+   "avg_us": 128782,
+   "min_us": 128782,
+   "max_us": 128782,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256s/ref/sign": {
+   "iters": 1,
+   "avg_us": 1451102,
+   "min_us": 1451102,
+   "max_us": 1451102,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256s/ref/verify": {
+   "iters": 5,
+   "avg_us": 776,
+   "min_us": 769,
+   "max_us": 785,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256s/ref/reject-x7": {
+   "iters": 1,
+   "avg_us": 5264,
+   "min_us": 5264,
+   "max_us": 5264,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 2731,
+   "min_us": 2682,
+   "max_us": 2799,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256f/ref/sign": {
+   "iters": 2,
+   "avg_us": 44793,
+   "min_us": 40885,
+   "max_us": 48701,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256f/ref/verify": {
+   "iters": 5,
+   "avg_us": 1043,
+   "min_us": 1041,
+   "max_us": 1047,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256f/ref/reject-x7": {
+   "iters": 1,
+   "avg_us": 7420,
+   "min_us": 7420,
+   "max_us": 7420,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256f/ref/sign-hedged": {
+   "iters": 1,
+   "avg_us": 41835,
+   "min_us": 41835,
+   "max_us": 41835,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128s/ref/keygen": {
+   "iters": 1,
+   "avg_us": 46791,
+   "min_us": 46791,
+   "max_us": 46791,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128s/ref/sign": {
+   "iters": 1,
+   "avg_us": 358721,
+   "min_us": 358721,
+   "max_us": 358721,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128s/ref/verify": {
+   "iters": 5,
+   "avg_us": 358,
+   "min_us": 356,
+   "max_us": 367,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128s/ref/reject-x7": {
+   "iters": 1,
+   "avg_us": 2410,
+   "min_us": 2410,
+   "max_us": 2410,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128s/ref/verify-acvp-valid": {
+   "iters": 1,
+   "avg_us": 347,
+   "min_us": 347,
+   "max_us": 347,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128s/ref/verify-acvp-invalid": {
+   "iters": 1,
+   "avg_us": 335,
+   "min_us": 335,
+   "max_us": 335,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 754,
+   "min_us": 722,
+   "max_us": 779,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128f/ref/sign": {
+   "iters": 2,
+   "avg_us": 17309,
+   "min_us": 17165,
+   "max_us": 17453,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128f/ref/verify": {
+   "iters": 5,
+   "avg_us": 1008,
+   "min_us": 1003,
+   "max_us": 1012,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128f/ref/reject-x7": {
+   "iters": 1,
+   "avg_us": 6929,
+   "min_us": 6929,
+   "max_us": 6929,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128f/ref/sign-hedged": {
+   "iters": 1,
+   "avg_us": 17827,
+   "min_us": 17827,
+   "max_us": 17827,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192s/ref/keygen": {
+   "iters": 1,
+   "avg_us": 68970,
+   "min_us": 68970,
+   "max_us": 68970,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192s/ref/sign": {
+   "iters": 1,
+   "avg_us": 760839,
+   "min_us": 760839,
+   "max_us": 760839,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192s/ref/verify": {
+   "iters": 5,
+   "avg_us": 547,
+   "min_us": 541,
+   "max_us": 553,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192s/ref/reject-x7": {
+   "iters": 1,
+   "avg_us": 3828,
+   "min_us": 3828,
+   "max_us": 3828,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 1136,
+   "min_us": 1102,
+   "max_us": 1154,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192f/ref/sign": {
+   "iters": 2,
+   "avg_us": 28489,
+   "min_us": 28163,
+   "max_us": 28815,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192f/ref/verify": {
+   "iters": 5,
+   "avg_us": 1554,
+   "min_us": 1513,
+   "max_us": 1577,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192f/ref/reject-x7": {
+   "iters": 1,
+   "avg_us": 10944,
+   "min_us": 10944,
+   "max_us": 10944,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192f/ref/sign-hedged": {
+   "iters": 1,
+   "avg_us": 29577,
+   "min_us": 29577,
+   "max_us": 29577,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256s/ref/keygen": {
+   "iters": 1,
+   "avg_us": 44385,
+   "min_us": 44385,
+   "max_us": 44385,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256s/ref/sign": {
+   "iters": 1,
+   "avg_us": 564076,
+   "min_us": 564076,
+   "max_us": 564076,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256s/ref/verify": {
+   "iters": 5,
+   "avg_us": 749,
+   "min_us": 747,
+   "max_us": 760,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256s/ref/reject-x7": {
+   "iters": 1,
+   "avg_us": 5361,
+   "min_us": 5361,
+   "max_us": 5361,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 2953,
+   "min_us": 2902,
+   "max_us": 3038,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256f/ref/sign": {
+   "iters": 2,
+   "avg_us": 58471,
+   "min_us": 58183,
+   "max_us": 58760,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256f/ref/verify": {
+   "iters": 5,
+   "avg_us": 1515,
+   "min_us": 1488,
+   "max_us": 1552,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256f/ref/reject-x7": {
+   "iters": 1,
+   "avg_us": 10964,
+   "min_us": 10964,
+   "max_us": 10964,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256f/ref/sign-hedged": {
+   "iters": 1,
+   "avg_us": 72496,
+   "min_us": 72496,
+   "max_us": 72496,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128s/opt/keygen": {
+   "iters": 1,
+   "avg_us": 44048,
+   "min_us": 44048,
+   "max_us": 44048,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128s/opt/sign": {
+   "iters": 1,
+   "avg_us": 327717,
+   "min_us": 327717,
+   "max_us": 327717,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128s/opt/verify": {
+   "iters": 5,
+   "avg_us": 246,
+   "min_us": 246,
+   "max_us": 247,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128s/opt/reject-x7": {
+   "iters": 1,
+   "avg_us": 1805,
+   "min_us": 1805,
+   "max_us": 1805,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128s/opt/verify-acvp-valid": {
+   "iters": 1,
+   "avg_us": 250,
+   "min_us": 250,
+   "max_us": 250,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128s/opt/verify-acvp-invalid": {
+   "iters": 1,
+   "avg_us": 253,
+   "min_us": 253,
+   "max_us": 253,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 698,
+   "min_us": 665,
+   "max_us": 720,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128f/opt/sign": {
+   "iters": 2,
+   "avg_us": 15052,
+   "min_us": 13830,
+   "max_us": 16274,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128f/opt/verify": {
+   "iters": 5,
+   "avg_us": 761,
+   "min_us": 694,
+   "max_us": 839,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128f/opt/reject-x7": {
+   "iters": 1,
+   "avg_us": 5611,
+   "min_us": 5611,
+   "max_us": 5611,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-128f/opt/sign-hedged": {
+   "iters": 1,
+   "avg_us": 16812,
+   "min_us": 16812,
+   "max_us": 16812,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192s/opt/keygen": {
+   "iters": 1,
+   "avg_us": 52860,
+   "min_us": 52860,
+   "max_us": 52860,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192s/opt/sign": {
+   "iters": 1,
+   "avg_us": 797340,
+   "min_us": 797340,
+   "max_us": 797340,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192s/opt/verify": {
+   "iters": 5,
+   "avg_us": 498,
+   "min_us": 492,
+   "max_us": 516,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192s/opt/reject-x7": {
+   "iters": 1,
+   "avg_us": 3185,
+   "min_us": 3185,
+   "max_us": 3185,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 894,
+   "min_us": 807,
+   "max_us": 1040,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192f/opt/sign": {
+   "iters": 2,
+   "avg_us": 25172,
+   "min_us": 25029,
+   "max_us": 25315,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192f/opt/verify": {
+   "iters": 5,
+   "avg_us": 1441,
+   "min_us": 1238,
+   "max_us": 1496,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192f/opt/reject-x7": {
+   "iters": 1,
+   "avg_us": 8839,
+   "min_us": 8839,
+   "max_us": 8839,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-192f/opt/sign-hedged": {
+   "iters": 1,
+   "avg_us": 25233,
+   "min_us": 25233,
+   "max_us": 25233,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256s/opt/keygen": {
+   "iters": 1,
+   "avg_us": 40828,
+   "min_us": 40828,
+   "max_us": 40828,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256s/opt/sign": {
+   "iters": 1,
+   "avg_us": 552666,
+   "min_us": 552666,
+   "max_us": 552666,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256s/opt/verify": {
+   "iters": 5,
+   "avg_us": 585,
+   "min_us": 563,
+   "max_us": 616,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256s/opt/reject-x7": {
+   "iters": 1,
+   "avg_us": 5179,
+   "min_us": 5179,
+   "max_us": 5179,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 2728,
+   "min_us": 2711,
+   "max_us": 2749,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256f/opt/sign": {
+   "iters": 2,
+   "avg_us": 126829,
+   "min_us": 55770,
+   "max_us": 197889,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256f/opt/verify": {
+   "iters": 5,
+   "avg_us": 5664,
+   "min_us": 1244,
+   "max_us": 19472,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256f/opt/reject-x7": {
+   "iters": 1,
+   "avg_us": 44294,
+   "min_us": 44294,
+   "max_us": 44294,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-sha2-256f/opt/sign-hedged": {
+   "iters": 1,
+   "avg_us": 99824,
+   "min_us": 99824,
+   "max_us": 99824,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128s/opt/keygen": {
+   "iters": 1,
+   "avg_us": 100719,
+   "min_us": 100719,
+   "max_us": 100719,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128s/opt/sign": {
+   "iters": 1,
+   "avg_us": 1798357,
+   "min_us": 1798357,
+   "max_us": 1798357,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128s/opt/verify": {
+   "iters": 5,
+   "avg_us": 6085,
+   "min_us": 476,
+   "max_us": 28514,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128s/opt/reject-x7": {
+   "iters": 1,
+   "avg_us": 3213,
+   "min_us": 3213,
+   "max_us": 3213,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128s/opt/verify-acvp-valid": {
+   "iters": 1,
+   "avg_us": 464,
+   "min_us": 464,
+   "max_us": 464,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128s/opt/verify-acvp-invalid": {
+   "iters": 1,
+   "avg_us": 448,
+   "min_us": 448,
+   "max_us": 448,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 957,
+   "min_us": 956,
+   "max_us": 959,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128f/opt/sign": {
+   "iters": 2,
+   "avg_us": 86305,
+   "min_us": 22325,
+   "max_us": 150285,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128f/opt/verify": {
+   "iters": 5,
+   "avg_us": 1330,
+   "min_us": 1327,
+   "max_us": 1336,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128f/opt/reject-x7": {
+   "iters": 1,
+   "avg_us": 23643,
+   "min_us": 23643,
+   "max_us": 23643,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-128f/opt/sign-hedged": {
+   "iters": 1,
+   "avg_us": 174932,
+   "min_us": 174932,
+   "max_us": 174932,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192s/opt/keygen": {
+   "iters": 1,
+   "avg_us": 404916,
+   "min_us": 404916,
+   "max_us": 404916,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192s/opt/sign": {
+   "iters": 1,
+   "avg_us": 2130040,
+   "min_us": 2130040,
+   "max_us": 2130040,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192s/opt/verify": {
+   "iters": 5,
+   "avg_us": 637,
+   "min_us": 490,
+   "max_us": 796,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192s/opt/reject-x7": {
+   "iters": 1,
+   "avg_us": 4139,
+   "min_us": 4139,
+   "max_us": 4139,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 1314,
+   "min_us": 1025,
+   "max_us": 1740,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192f/opt/sign": {
+   "iters": 2,
+   "avg_us": 37422,
+   "min_us": 36455,
+   "max_us": 38390,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192f/opt/verify": {
+   "iters": 5,
+   "avg_us": 2161,
+   "min_us": 2007,
+   "max_us": 2428,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192f/opt/reject-x7": {
+   "iters": 1,
+   "avg_us": 13995,
+   "min_us": 13995,
+   "max_us": 13995,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-192f/opt/sign-hedged": {
+   "iters": 1,
+   "avg_us": 42444,
+   "min_us": 42444,
+   "max_us": 42444,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256s/opt/keygen": {
+   "iters": 1,
+   "avg_us": 61179,
+   "min_us": 61179,
+   "max_us": 61179,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256s/opt/sign": {
+   "iters": 1,
+   "avg_us": 1122644,
+   "min_us": 1122644,
+   "max_us": 1122644,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256s/opt/verify": {
+   "iters": 5,
+   "avg_us": 1014,
+   "min_us": 944,
+   "max_us": 1033,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256s/opt/reject-x7": {
+   "iters": 1,
+   "avg_us": 7195,
+   "min_us": 7195,
+   "max_us": 7195,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 3934,
+   "min_us": 3822,
+   "max_us": 4072,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256f/opt/sign": {
+   "iters": 2,
+   "avg_us": 71976,
+   "min_us": 71574,
+   "max_us": 72379,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256f/opt/verify": {
+   "iters": 5,
+   "avg_us": 1806,
+   "min_us": 1663,
+   "max_us": 2048,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256f/opt/reject-x7": {
+   "iters": 1,
+   "avg_us": 13699,
+   "min_us": 13699,
+   "max_us": 13699,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "slhdsa-shake-256f/opt/sign-hedged": {
+   "iters": 1,
+   "avg_us": 71406,
+   "min_us": 71406,
+   "max_us": 71406,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "slhdsa-sha2-128s/ref/pk": {
+   "sha256_16": "e7484e41b32f205939f202c3a29a72a1",
+   "len": 32
+  },
+  "slhdsa-sha2-128s/ref/sk": {
+   "sha256_16": "9087eb86d94a35bb52afc858b1e95d03",
+   "len": 64
+  },
+  "slhdsa-sha2-128s/ref/sig": {
+   "sha256_16": "8ceee1f1b9feeb53f65e63a54c2ef252",
+   "len": 7856
+  },
+  "slhdsa-sha2-128f/ref/pk": {
+   "sha256_16": "f588f376e9f44d86021b382d7fa07ebf",
+   "len": 32
+  },
+  "slhdsa-sha2-128f/ref/sk": {
+   "sha256_16": "adff9b5440c5b229436e33b4fb4eea1c",
+   "len": 64
+  },
+  "slhdsa-sha2-128f/ref/sig": {
+   "sha256_16": "152646f0a930621eb0717f29cdd74be0",
+   "len": 17088
+  },
+  "slhdsa-sha2-192s/ref/pk": {
+   "sha256_16": "498ec4eab28a1b253b5a8a293b16cc8e",
+   "len": 48
+  },
+  "slhdsa-sha2-192s/ref/sk": {
+   "sha256_16": "113db7c2e1d0cc8f11d2a447698a1736",
+   "len": 96
+  },
+  "slhdsa-sha2-192s/ref/sig": {
+   "sha256_16": "b2272fee6a51ecf62d753456e4257c65",
+   "len": 16224
+  },
+  "slhdsa-sha2-192f/ref/pk": {
+   "sha256_16": "aa4c793154ef9545179d3a5186279961",
+   "len": 48
+  },
+  "slhdsa-sha2-192f/ref/sk": {
+   "sha256_16": "a034c8138b9e52583381a4ce84fe9c59",
+   "len": 96
+  },
+  "slhdsa-sha2-192f/ref/sig": {
+   "sha256_16": "f4a4d0fa5ee8b05a9cffe3ba0b94fcdf",
+   "len": 35664
+  },
+  "slhdsa-sha2-256s/ref/pk": {
+   "sha256_16": "8dc17bc9c27953af4d7b5eafa534f2e0",
+   "len": 64
+  },
+  "slhdsa-sha2-256s/ref/sk": {
+   "sha256_16": "664ef5fa151c6212b06336553adcc1b0",
+   "len": 128
+  },
+  "slhdsa-sha2-256s/ref/sig": {
+   "sha256_16": "3ddb61612a99bbb67f9e0c445463c0be",
+   "len": 29792
+  },
+  "slhdsa-sha2-256f/ref/pk": {
+   "sha256_16": "437f7d433ea72359d569ca5508d7ffed",
+   "len": 64
+  },
+  "slhdsa-sha2-256f/ref/sk": {
+   "sha256_16": "0b811ade3bec0de9334623eb5033211b",
+   "len": 128
+  },
+  "slhdsa-sha2-256f/ref/sig": {
+   "sha256_16": "24d4bc0af1adc54d91e8da579486b7ea",
+   "len": 49856
+  },
+  "slhdsa-shake-128s/ref/pk": {
+   "sha256_16": "25ee9c66d71febbe37e3886dbede0bb4",
+   "len": 32
+  },
+  "slhdsa-shake-128s/ref/sk": {
+   "sha256_16": "6662e9cf7208c5641b2b96e5918a23aa",
+   "len": 64
+  },
+  "slhdsa-shake-128s/ref/sig": {
+   "sha256_16": "68d362e6315b464a341e0eb45aa1c00a",
+   "len": 7856
+  },
+  "slhdsa-shake-128f/ref/pk": {
+   "sha256_16": "5107ab7cd0834360d91f144e2447c177",
+   "len": 32
+  },
+  "slhdsa-shake-128f/ref/sk": {
+   "sha256_16": "ca36947ceddfa6e6728ab7ca5d311471",
+   "len": 64
+  },
+  "slhdsa-shake-128f/ref/sig": {
+   "sha256_16": "9e5173f13b72f4b3cf93b46c8ef599f8",
+   "len": 17088
+  },
+  "slhdsa-shake-192s/ref/pk": {
+   "sha256_16": "5a2b44b7b015601dfb0392a5bebb3f5e",
+   "len": 48
+  },
+  "slhdsa-shake-192s/ref/sk": {
+   "sha256_16": "f3d10c6c87839472b50b489b36bd94f6",
+   "len": 96
+  },
+  "slhdsa-shake-192s/ref/sig": {
+   "sha256_16": "db042f4ba1f708552bcad22ea65eb5f9",
+   "len": 16224
+  },
+  "slhdsa-shake-192f/ref/pk": {
+   "sha256_16": "19e63a15a01a9d882ab679b4d56c627e",
+   "len": 48
+  },
+  "slhdsa-shake-192f/ref/sk": {
+   "sha256_16": "c0c8d9e1c1587c65de2aa86193b4124c",
+   "len": 96
+  },
+  "slhdsa-shake-192f/ref/sig": {
+   "sha256_16": "e886147db53b510a8d1506047fb6041e",
+   "len": 35664
+  },
+  "slhdsa-shake-256s/ref/pk": {
+   "sha256_16": "49a30ef4ed23a45399324c774fab8572",
+   "len": 64
+  },
+  "slhdsa-shake-256s/ref/sk": {
+   "sha256_16": "3411ecdfeac0db9c1bba94f9d3384e8e",
+   "len": 128
+  },
+  "slhdsa-shake-256s/ref/sig": {
+   "sha256_16": "4ebaa359a6461609afb55513f35b29a3",
+   "len": 29792
+  },
+  "slhdsa-shake-256f/ref/pk": {
+   "sha256_16": "8cdec44cfd91c2b990cc535cf5951475",
+   "len": 64
+  },
+  "slhdsa-shake-256f/ref/sk": {
+   "sha256_16": "950afffde864c4283a8ac5b89d55f3a0",
+   "len": 128
+  },
+  "slhdsa-shake-256f/ref/sig": {
+   "sha256_16": "186e393b630f745ec4022452b4496eea",
+   "len": 49856
+  },
+  "slhdsa-sha2-128s/opt/pk": {
+   "sha256_16": "e7484e41b32f205939f202c3a29a72a1",
+   "len": 32
+  },
+  "slhdsa-sha2-128s/opt/sk": {
+   "sha256_16": "9087eb86d94a35bb52afc858b1e95d03",
+   "len": 64
+  },
+  "slhdsa-sha2-128s/opt/sig": {
+   "sha256_16": "8ceee1f1b9feeb53f65e63a54c2ef252",
+   "len": 7856
+  },
+  "slhdsa-sha2-128f/opt/pk": {
+   "sha256_16": "f588f376e9f44d86021b382d7fa07ebf",
+   "len": 32
+  },
+  "slhdsa-sha2-128f/opt/sk": {
+   "sha256_16": "adff9b5440c5b229436e33b4fb4eea1c",
+   "len": 64
+  },
+  "slhdsa-sha2-128f/opt/sig": {
+   "sha256_16": "152646f0a930621eb0717f29cdd74be0",
+   "len": 17088
+  },
+  "slhdsa-sha2-192s/opt/pk": {
+   "sha256_16": "498ec4eab28a1b253b5a8a293b16cc8e",
+   "len": 48
+  },
+  "slhdsa-sha2-192s/opt/sk": {
+   "sha256_16": "113db7c2e1d0cc8f11d2a447698a1736",
+   "len": 96
+  },
+  "slhdsa-sha2-192s/opt/sig": {
+   "sha256_16": "b2272fee6a51ecf62d753456e4257c65",
+   "len": 16224
+  },
+  "slhdsa-sha2-192f/opt/pk": {
+   "sha256_16": "aa4c793154ef9545179d3a5186279961",
+   "len": 48
+  },
+  "slhdsa-sha2-192f/opt/sk": {
+   "sha256_16": "a034c8138b9e52583381a4ce84fe9c59",
+   "len": 96
+  },
+  "slhdsa-sha2-192f/opt/sig": {
+   "sha256_16": "f4a4d0fa5ee8b05a9cffe3ba0b94fcdf",
+   "len": 35664
+  },
+  "slhdsa-sha2-256s/opt/pk": {
+   "sha256_16": "8dc17bc9c27953af4d7b5eafa534f2e0",
+   "len": 64
+  },
+  "slhdsa-sha2-256s/opt/sk": {
+   "sha256_16": "664ef5fa151c6212b06336553adcc1b0",
+   "len": 128
+  },
+  "slhdsa-sha2-256s/opt/sig": {
+   "sha256_16": "3ddb61612a99bbb67f9e0c445463c0be",
+   "len": 29792
+  },
+  "slhdsa-sha2-256f/opt/pk": {
+   "sha256_16": "437f7d433ea72359d569ca5508d7ffed",
+   "len": 64
+  },
+  "slhdsa-sha2-256f/opt/sk": {
+   "sha256_16": "0b811ade3bec0de9334623eb5033211b",
+   "len": 128
+  },
+  "slhdsa-sha2-256f/opt/sig": {
+   "sha256_16": "24d4bc0af1adc54d91e8da579486b7ea",
+   "len": 49856
+  },
+  "slhdsa-shake-128s/opt/pk": {
+   "sha256_16": "25ee9c66d71febbe37e3886dbede0bb4",
+   "len": 32
+  },
+  "slhdsa-shake-128s/opt/sk": {
+   "sha256_16": "6662e9cf7208c5641b2b96e5918a23aa",
+   "len": 64
+  },
+  "slhdsa-shake-128s/opt/sig": {
+   "sha256_16": "68d362e6315b464a341e0eb45aa1c00a",
+   "len": 7856
+  },
+  "slhdsa-shake-128f/opt/pk": {
+   "sha256_16": "5107ab7cd0834360d91f144e2447c177",
+   "len": 32
+  },
+  "slhdsa-shake-128f/opt/sk": {
+   "sha256_16": "ca36947ceddfa6e6728ab7ca5d311471",
+   "len": 64
+  },
+  "slhdsa-shake-128f/opt/sig": {
+   "sha256_16": "9e5173f13b72f4b3cf93b46c8ef599f8",
+   "len": 17088
+  },
+  "slhdsa-shake-192s/opt/pk": {
+   "sha256_16": "5a2b44b7b015601dfb0392a5bebb3f5e",
+   "len": 48
+  },
+  "slhdsa-shake-192s/opt/sk": {
+   "sha256_16": "f3d10c6c87839472b50b489b36bd94f6",
+   "len": 96
+  },
+  "slhdsa-shake-192s/opt/sig": {
+   "sha256_16": "db042f4ba1f708552bcad22ea65eb5f9",
+   "len": 16224
+  },
+  "slhdsa-shake-192f/opt/pk": {
+   "sha256_16": "19e63a15a01a9d882ab679b4d56c627e",
+   "len": 48
+  },
+  "slhdsa-shake-192f/opt/sk": {
+   "sha256_16": "c0c8d9e1c1587c65de2aa86193b4124c",
+   "len": 96
+  },
+  "slhdsa-shake-192f/opt/sig": {
+   "sha256_16": "e886147db53b510a8d1506047fb6041e",
+   "len": 35664
+  },
+  "slhdsa-shake-256s/opt/pk": {
+   "sha256_16": "49a30ef4ed23a45399324c774fab8572",
+   "len": 64
+  },
+  "slhdsa-shake-256s/opt/sk": {
+   "sha256_16": "3411ecdfeac0db9c1bba94f9d3384e8e",
+   "len": 128
+  },
+  "slhdsa-shake-256s/opt/sig": {
+   "sha256_16": "4ebaa359a6461609afb55513f35b29a3",
+   "len": 29792
+  },
+  "slhdsa-shake-256f/opt/pk": {
+   "sha256_16": "8cdec44cfd91c2b990cc535cf5951475",
+   "len": 64
+  },
+  "slhdsa-shake-256f/opt/sk": {
+   "sha256_16": "950afffde864c4283a8ac5b89d55f3a0",
+   "len": 128
+  },
+  "slhdsa-shake-256f/opt/sig": {
+   "sha256_16": "186e393b630f745ec4022452b4496eea",
+   "len": 49856
+  }
+ },
+ "checks": {
+  "slhdsa-sha2-128s/ref/acvp-keygen-tc1": "PASS",
+  "slhdsa-sha2-128s/ref/acvp-siggen-tc161": "PASS",
+  "slhdsa-sha2-128s/ref/rejects-changed-signature": "PASS",
+  "slhdsa-sha2-128s/ref/acvp-sigver-tc266-accept": "PASS",
+  "slhdsa-sha2-128s/ref/acvp-sigver-tc423-reject": "PASS",
+  "slhdsa-sha2-128f/ref/acvp-keygen-tc21": "PASS",
+  "slhdsa-sha2-128f/ref/acvp-siggen-tc2": "PASS",
+  "slhdsa-sha2-128f/ref/rejects-changed-signature": "PASS",
+  "slhdsa-sha2-128f/ref/acvp-siggen-hedged-tc433": "PASS",
+  "slhdsa-sha2-192s/ref/acvp-keygen-tc41": "PASS",
+  "slhdsa-sha2-192s/ref/acvp-siggen-tc179": "PASS",
+  "slhdsa-sha2-192s/ref/rejects-changed-signature": "PASS",
+  "slhdsa-sha2-192f/ref/acvp-keygen-tc61": "PASS",
+  "slhdsa-sha2-192f/ref/acvp-siggen-tc22": "PASS",
+  "slhdsa-sha2-192f/ref/rejects-changed-signature": "PASS",
+  "slhdsa-sha2-192f/ref/acvp-siggen-hedged-tc437": "PASS",
+  "slhdsa-sha2-256s/ref/acvp-keygen-tc81": "PASS",
+  "slhdsa-sha2-256s/ref/acvp-siggen-tc196": "PASS",
+  "slhdsa-sha2-256s/ref/rejects-changed-signature": "PASS",
+  "slhdsa-sha2-256f/ref/acvp-keygen-tc101": "PASS",
+  "slhdsa-sha2-256f/ref/acvp-siggen-tc43": "PASS",
+  "slhdsa-sha2-256f/ref/rejects-changed-signature": "PASS",
+  "slhdsa-sha2-256f/ref/acvp-siggen-hedged-tc443": "PASS",
+  "slhdsa-shake-128s/ref/acvp-keygen-tc11": "PASS",
+  "slhdsa-shake-128s/ref/acvp-siggen-tc216": "PASS",
+  "slhdsa-shake-128s/ref/rejects-changed-signature": "PASS",
+  "slhdsa-shake-128s/ref/acvp-sigver-tc343-accept": "PASS",
+  "slhdsa-shake-128s/ref/acvp-sigver-tc475-reject": "PASS",
+  "slhdsa-shake-128f/ref/acvp-keygen-tc31": "PASS",
+  "slhdsa-shake-128f/ref/acvp-siggen-tc61": "PASS",
+  "slhdsa-shake-128f/ref/rejects-changed-signature": "PASS",
+  "slhdsa-shake-128f/ref/acvp-siggen-hedged-tc448": "PASS",
+  "slhdsa-shake-192s/ref/acvp-keygen-tc51": "PASS",
+  "slhdsa-shake-192s/ref/acvp-siggen-tc235": "PASS",
+  "slhdsa-shake-192s/ref/rejects-changed-signature": "PASS",
+  "slhdsa-shake-192f/ref/acvp-keygen-tc71": "PASS",
+  "slhdsa-shake-192f/ref/acvp-siggen-tc82": "PASS",
+  "slhdsa-shake-192f/ref/rejects-changed-signature": "PASS",
+  "slhdsa-shake-192f/ref/acvp-siggen-hedged-tc461": "PASS",
+  "slhdsa-shake-256s/ref/acvp-keygen-tc91": "PASS",
+  "slhdsa-shake-256s/ref/acvp-siggen-tc258": "PASS",
+  "slhdsa-shake-256s/ref/rejects-changed-signature": "PASS",
+  "slhdsa-shake-256f/ref/acvp-keygen-tc111": "PASS",
+  "slhdsa-shake-256f/ref/acvp-siggen-tc100": "PASS",
+  "slhdsa-shake-256f/ref/rejects-changed-signature": "PASS",
+  "slhdsa-shake-256f/ref/acvp-siggen-hedged-tc462": "PASS",
+  "slhdsa-sha2-128s/opt/acvp-keygen-tc1": "PASS",
+  "slhdsa-sha2-128s/opt/acvp-siggen-tc161": "PASS",
+  "slhdsa-sha2-128s/opt/rejects-changed-signature": "PASS",
+  "slhdsa-sha2-128s/opt/acvp-sigver-tc266-accept": "PASS",
+  "slhdsa-sha2-128s/opt/acvp-sigver-tc423-reject": "PASS",
+  "slhdsa-sha2-128f/opt/acvp-keygen-tc21": "PASS",
+  "slhdsa-sha2-128f/opt/acvp-siggen-tc2": "PASS",
+  "slhdsa-sha2-128f/opt/rejects-changed-signature": "PASS",
+  "slhdsa-sha2-128f/opt/acvp-siggen-hedged-tc433": "PASS",
+  "slhdsa-sha2-192s/opt/acvp-keygen-tc41": "PASS",
+  "slhdsa-sha2-192s/opt/acvp-siggen-tc179": "PASS",
+  "slhdsa-sha2-192s/opt/rejects-changed-signature": "PASS",
+  "slhdsa-sha2-192f/opt/acvp-keygen-tc61": "PASS",
+  "slhdsa-sha2-192f/opt/acvp-siggen-tc22": "PASS",
+  "slhdsa-sha2-192f/opt/rejects-changed-signature": "PASS",
+  "slhdsa-sha2-192f/opt/acvp-siggen-hedged-tc437": "PASS",
+  "slhdsa-sha2-256s/opt/acvp-keygen-tc81": "PASS",
+  "slhdsa-sha2-256s/opt/acvp-siggen-tc196": "PASS",
+  "slhdsa-sha2-256s/opt/rejects-changed-signature": "PASS",
+  "slhdsa-sha2-256f/opt/acvp-keygen-tc101": "PASS",
+  "slhdsa-sha2-256f/opt/acvp-siggen-tc43": "PASS",
+  "slhdsa-sha2-256f/opt/rejects-changed-signature": "PASS",
+  "slhdsa-sha2-256f/opt/acvp-siggen-hedged-tc443": "PASS",
+  "slhdsa-shake-128s/opt/acvp-keygen-tc11": "PASS",
+  "slhdsa-shake-128s/opt/acvp-siggen-tc216": "PASS",
+  "slhdsa-shake-128s/opt/rejects-changed-signature": "PASS",
+  "slhdsa-shake-128s/opt/acvp-sigver-tc343-accept": "PASS",
+  "slhdsa-shake-128s/opt/acvp-sigver-tc475-reject": "PASS",
+  "slhdsa-shake-128f/opt/acvp-keygen-tc31": "PASS",
+  "slhdsa-shake-128f/opt/acvp-siggen-tc61": "PASS",
+  "slhdsa-shake-128f/opt/rejects-changed-signature": "PASS",
+  "slhdsa-shake-128f/opt/acvp-siggen-hedged-tc448": "PASS",
+  "slhdsa-shake-192s/opt/acvp-keygen-tc51": "PASS",
+  "slhdsa-shake-192s/opt/acvp-siggen-tc235": "PASS",
+  "slhdsa-shake-192s/opt/rejects-changed-signature": "PASS",
+  "slhdsa-shake-192f/opt/acvp-keygen-tc71": "PASS",
+  "slhdsa-shake-192f/opt/acvp-siggen-tc82": "PASS",
+  "slhdsa-shake-192f/opt/rejects-changed-signature": "PASS",
+  "slhdsa-shake-192f/opt/acvp-siggen-hedged-tc461": "PASS",
+  "slhdsa-shake-256s/opt/acvp-keygen-tc91": "PASS",
+  "slhdsa-shake-256s/opt/acvp-siggen-tc258": "PASS",
+  "slhdsa-shake-256s/opt/rejects-changed-signature": "PASS",
+  "slhdsa-shake-256f/opt/acvp-keygen-tc111": "PASS",
+  "slhdsa-shake-256f/opt/acvp-siggen-tc100": "PASS",
+  "slhdsa-shake-256f/opt/rejects-changed-signature": "PASS",
+  "slhdsa-shake-256f/opt/acvp-siggen-hedged-tc462": "PASS"
+ },
+ "info": {
+  "slhdsa-sha2-128s": "pk=32 sk=64 sig=7856 (SLH-DSA-SHA2-128s)",
+  "slhdsa-sha2-128f": "pk=32 sk=64 sig=17088 (SLH-DSA-SHA2-128f)",
+  "slhdsa-sha2-192s": "pk=48 sk=96 sig=16224 (SLH-DSA-SHA2-192s)",
+  "slhdsa-sha2-192f": "pk=48 sk=96 sig=35664 (SLH-DSA-SHA2-192f)",
+  "slhdsa-sha2-256s": "pk=64 sk=128 sig=29792 (SLH-DSA-SHA2-256s)",
+  "slhdsa-sha2-256f": "pk=64 sk=128 sig=49856 (SLH-DSA-SHA2-256f)",
+  "slhdsa-shake-128s": "pk=32 sk=64 sig=7856 (SLH-DSA-SHAKE-128s)",
+  "slhdsa-shake-128f": "pk=32 sk=64 sig=17088 (SLH-DSA-SHAKE-128f)",
+  "slhdsa-shake-192s": "pk=48 sk=96 sig=16224 (SLH-DSA-SHAKE-192s)",
+  "slhdsa-shake-192f": "pk=48 sk=96 sig=35664 (SLH-DSA-SHAKE-192f)",
+  "slhdsa-shake-256s": "pk=64 sk=128 sig=29792 (SLH-DSA-SHAKE-256s)",
+  "slhdsa-shake-256f": "pk=64 sk=128 sig=49856 (SLH-DSA-SHAKE-256f)"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

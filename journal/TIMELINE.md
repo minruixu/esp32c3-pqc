@@ -71,3 +71,14 @@ All dates 2026-11-11 unless noted.
     decapsulation is 22.3 ms instead of 27.9 ms. Lesson: read a run's own
     summary line before recording it as done, not the files it is expected
     to have written.
+11. **The SLH-DSA and hash-primitive line stopped early (2026-11-12).** Like
+    the Keccak line, the session running it ended before its final report.
+    On disk and committed as they were: the `slhdsa` suite (all 12 FIPS 205
+    parameter sets from slhdsa-c) and the `hashes` micro-benchmarks with
+    their notes and experiment logs, the hardware SHA-256 driver, the SHA-512
+    assembly and the fast SM3. Its result files are from its own runs and are
+    not one consistent data set: `results/slhdsa.json` holds the reference
+    variant for 11 sets and the optimized one for 3, `results/slhdsa_dev.json`
+    holds an optimized run of all 12 sets, and `slhdsa_v3`/`slhdsa_v4` are
+    later partial runs of newer builds. Every job in them passes; they have
+    not been rerun independently.
