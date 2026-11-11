@@ -1,0 +1,609 @@
+{
+ "results": {
+  "sphincs-a-sm3-128f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 1158,
+   "min_us": 714,
+   "max_us": 1567,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/ref/sign": {
+   "iters": 2,
+   "avg_us": 21471,
+   "min_us": 20666,
+   "max_us": 22276,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/ref/verify": {
+   "iters": 3,
+   "avg_us": 1440,
+   "min_us": 1424,
+   "max_us": 1453,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 2830,
+   "min_us": 2830,
+   "max_us": 2830,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128s/ref/keygen": {
+   "iters": 1,
+   "avg_us": 40396,
+   "min_us": 40396,
+   "max_us": 40396,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128s/ref/sign": {
+   "iters": 1,
+   "avg_us": 394328,
+   "min_us": 394328,
+   "max_us": 394328,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128s/ref/verify": {
+   "iters": 3,
+   "avg_us": 1434,
+   "min_us": 1421,
+   "max_us": 1444,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128s/ref/tamper": {
+   "iters": 1,
+   "avg_us": 2899,
+   "min_us": 2899,
+   "max_us": 2899,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 542,
+   "min_us": 511,
+   "max_us": 581,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/ref/sign": {
+   "iters": 2,
+   "avg_us": 13068,
+   "min_us": 13014,
+   "max_us": 13122,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/ref/verify": {
+   "iters": 3,
+   "avg_us": 691,
+   "min_us": 686,
+   "max_us": 700,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1404,
+   "min_us": 1404,
+   "max_us": 1404,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128s/ref/keygen": {
+   "iters": 1,
+   "avg_us": 25392,
+   "min_us": 25392,
+   "max_us": 25392,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128s/ref/sign": {
+   "iters": 1,
+   "avg_us": 264415,
+   "min_us": 264415,
+   "max_us": 264415,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128s/ref/verify": {
+   "iters": 3,
+   "avg_us": 954,
+   "min_us": 950,
+   "max_us": 960,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128s/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1874,
+   "min_us": 1874,
+   "max_us": 1874,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 614,
+   "min_us": 594,
+   "max_us": 646,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/ref/sign": {
+   "iters": 2,
+   "avg_us": 15451,
+   "min_us": 15187,
+   "max_us": 15715,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/ref/verify": {
+   "iters": 3,
+   "avg_us": 842,
+   "min_us": 837,
+   "max_us": 848,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1694,
+   "min_us": 1694,
+   "max_us": 1694,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128s/ref/keygen": {
+   "iters": 1,
+   "avg_us": 30162,
+   "min_us": 30162,
+   "max_us": 30162,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128s/ref/sign": {
+   "iters": 1,
+   "avg_us": 314535,
+   "min_us": 314535,
+   "max_us": 314535,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128s/ref/verify": {
+   "iters": 3,
+   "avg_us": 1105,
+   "min_us": 1099,
+   "max_us": 1111,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128s/ref/tamper": {
+   "iters": 1,
+   "avg_us": 2261,
+   "min_us": 2261,
+   "max_us": 2261,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 726,
+   "min_us": 692,
+   "max_us": 780,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/opt/sign": {
+   "iters": 2,
+   "avg_us": 19051,
+   "min_us": 18976,
+   "max_us": 19127,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/opt/verify": {
+   "iters": 3,
+   "avg_us": 1005,
+   "min_us": 986,
+   "max_us": 1023,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1980,
+   "min_us": 1980,
+   "max_us": 1980,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128s/opt/keygen": {
+   "iters": 1,
+   "avg_us": 35472,
+   "min_us": 35472,
+   "max_us": 35472,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128s/opt/sign": {
+   "iters": 1,
+   "avg_us": 391305,
+   "min_us": 391305,
+   "max_us": 391305,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128s/opt/verify": {
+   "iters": 3,
+   "avg_us": 1374,
+   "min_us": 1332,
+   "max_us": 1409,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128s/opt/tamper": {
+   "iters": 1,
+   "avg_us": 2642,
+   "min_us": 2642,
+   "max_us": 2642,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 525,
+   "min_us": 504,
+   "max_us": 566,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/opt/sign": {
+   "iters": 2,
+   "avg_us": 13131,
+   "min_us": 13014,
+   "max_us": 13248,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/opt/verify": {
+   "iters": 3,
+   "avg_us": 728,
+   "min_us": 683,
+   "max_us": 790,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1401,
+   "min_us": 1401,
+   "max_us": 1401,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128s/opt/keygen": {
+   "iters": 1,
+   "avg_us": 25240,
+   "min_us": 25240,
+   "max_us": 25240,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128s/opt/sign": {
+   "iters": 1,
+   "avg_us": 266981,
+   "min_us": 266981,
+   "max_us": 266981,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128s/opt/verify": {
+   "iters": 3,
+   "avg_us": 956,
+   "min_us": 944,
+   "max_us": 972,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128s/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1987,
+   "min_us": 1987,
+   "max_us": 1987,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 626,
+   "min_us": 590,
+   "max_us": 689,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/opt/sign": {
+   "iters": 2,
+   "avg_us": 15650,
+   "min_us": 15571,
+   "max_us": 15730,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/opt/verify": {
+   "iters": 3,
+   "avg_us": 825,
+   "min_us": 818,
+   "max_us": 837,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1649,
+   "min_us": 1649,
+   "max_us": 1649,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128s/opt/keygen": {
+   "iters": 1,
+   "avg_us": 30741,
+   "min_us": 30741,
+   "max_us": 30741,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128s/opt/sign": {
+   "iters": 1,
+   "avg_us": 318199,
+   "min_us": 318199,
+   "max_us": 318199,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128s/opt/verify": {
+   "iters": 3,
+   "avg_us": 1121,
+   "min_us": 1087,
+   "max_us": 1142,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128s/opt/tamper": {
+   "iters": 1,
+   "avg_us": 2157,
+   "min_us": 2157,
+   "max_us": 2157,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "sphincs-a-sm3-128f/ref/pk": {
+   "sha256_16": "1b572cd48b344e0ba59f5ae1efd762a3",
+   "len": 32
+  },
+  "sphincs-a-sm3-128f/ref/sk": {
+   "sha256_16": "8b99a3e7f477576d7f586d20541cc9e7",
+   "len": 64
+  },
+  "sphincs-a-sm3-128f/ref/sig": {
+   "sha256_16": "b744ed83874544dc666eaf8cb84b09ed",
+   "len": 16720
+  },
+  "sphincs-a-sm3-128s/ref/pk": {
+   "sha256_16": "efd059cfde2714ca108e7d0e2d7923c4",
+   "len": 32
+  },
+  "sphincs-a-sm3-128s/ref/sk": {
+   "sha256_16": "ce58b0440ece23f1c951ce3f53814406",
+   "len": 64
+  },
+  "sphincs-a-sm3-128s/ref/sig": {
+   "sha256_16": "d81fd8fd49bb9451844bb93053e2a07b",
+   "len": 6880
+  },
+  "sphincs-a-sha2-128f/ref/pk": {
+   "sha256_16": "b2552ad0a4896ccb9a813b76338da069",
+   "len": 32
+  },
+  "sphincs-a-sha2-128f/ref/sk": {
+   "sha256_16": "c6a841a3cca377b0ff633347a5bc91e2",
+   "len": 64
+  },
+  "sphincs-a-sha2-128f/ref/sig": {
+   "sha256_16": "cef874ace79ff236edf829aa1b79d476",
+   "len": 16720
+  },
+  "sphincs-a-sha2-128s/ref/pk": {
+   "sha256_16": "fe2dc4872b2221075cdb4473de606429",
+   "len": 32
+  },
+  "sphincs-a-sha2-128s/ref/sk": {
+   "sha256_16": "d43ff59cf81df4da490ebc3c946f99ae",
+   "len": 64
+  },
+  "sphincs-a-sha2-128s/ref/sig": {
+   "sha256_16": "6119695ee14aae361291857496bfad68",
+   "len": 6880
+  },
+  "sphincs-a-shake-128f/ref/pk": {
+   "sha256_16": "090f5c988a151ff2d3b6d0143203a558",
+   "len": 32
+  },
+  "sphincs-a-shake-128f/ref/sk": {
+   "sha256_16": "71528203c92522a5aced40a5ab559ee0",
+   "len": 64
+  },
+  "sphincs-a-shake-128f/ref/sig": {
+   "sha256_16": "66b4b34f70adc284d829246d110bd479",
+   "len": 16720
+  },
+  "sphincs-a-shake-128s/ref/pk": {
+   "sha256_16": "2b8b95cc48b7203fb9fa5b41d376f6a8",
+   "len": 32
+  },
+  "sphincs-a-shake-128s/ref/sk": {
+   "sha256_16": "dac98e9ebd2e10b0659c5ff944e5ba13",
+   "len": 64
+  },
+  "sphincs-a-shake-128s/ref/sig": {
+   "sha256_16": "08c7fef61353b4a25b64dab9a0c37c95",
+   "len": 6880
+  },
+  "sphincs-a-sm3-128f/opt/pk": {
+   "sha256_16": "1b572cd48b344e0ba59f5ae1efd762a3",
+   "len": 32
+  },
+  "sphincs-a-sm3-128f/opt/sk": {
+   "sha256_16": "8b99a3e7f477576d7f586d20541cc9e7",
+   "len": 64
+  },
+  "sphincs-a-sm3-128f/opt/sig": {
+   "sha256_16": "b744ed83874544dc666eaf8cb84b09ed",
+   "len": 16720
+  },
+  "sphincs-a-sm3-128s/opt/pk": {
+   "sha256_16": "efd059cfde2714ca108e7d0e2d7923c4",
+   "len": 32
+  },
+  "sphincs-a-sm3-128s/opt/sk": {
+   "sha256_16": "ce58b0440ece23f1c951ce3f53814406",
+   "len": 64
+  },
+  "sphincs-a-sm3-128s/opt/sig": {
+   "sha256_16": "d81fd8fd49bb9451844bb93053e2a07b",
+   "len": 6880
+  },
+  "sphincs-a-sha2-128f/opt/pk": {
+   "sha256_16": "b2552ad0a4896ccb9a813b76338da069",
+   "len": 32
+  },
+  "sphincs-a-sha2-128f/opt/sk": {
+   "sha256_16": "c6a841a3cca377b0ff633347a5bc91e2",
+   "len": 64
+  },
+  "sphincs-a-sha2-128f/opt/sig": {
+   "sha256_16": "cef874ace79ff236edf829aa1b79d476",
+   "len": 16720
+  },
+  "sphincs-a-sha2-128s/opt/pk": {
+   "sha256_16": "fe2dc4872b2221075cdb4473de606429",
+   "len": 32
+  },
+  "sphincs-a-sha2-128s/opt/sk": {
+   "sha256_16": "d43ff59cf81df4da490ebc3c946f99ae",
+   "len": 64
+  },
+  "sphincs-a-sha2-128s/opt/sig": {
+   "sha256_16": "6119695ee14aae361291857496bfad68",
+   "len": 6880
+  },
+  "sphincs-a-shake-128f/opt/pk": {
+   "sha256_16": "090f5c988a151ff2d3b6d0143203a558",
+   "len": 32
+  },
+  "sphincs-a-shake-128f/opt/sk": {
+   "sha256_16": "71528203c92522a5aced40a5ab559ee0",
+   "len": 64
+  },
+  "sphincs-a-shake-128f/opt/sig": {
+   "sha256_16": "66b4b34f70adc284d829246d110bd479",
+   "len": 16720
+  },
+  "sphincs-a-shake-128s/opt/pk": {
+   "sha256_16": "2b8b95cc48b7203fb9fa5b41d376f6a8",
+   "len": 32
+  },
+  "sphincs-a-shake-128s/opt/sk": {
+   "sha256_16": "dac98e9ebd2e10b0659c5ff944e5ba13",
+   "len": 64
+  },
+  "sphincs-a-shake-128s/opt/sig": {
+   "sha256_16": "08c7fef61353b4a25b64dab9a0c37c95",
+   "len": 6880
+  }
+ },
+ "checks": {
+  "sphincs-a-sm3-128f/ref/tamper": "PASS",
+  "sphincs-a-sm3-128s/ref/tamper": "PASS",
+  "sphincs-a-sha2-128f/ref/tamper": "PASS",
+  "sphincs-a-sha2-128s/ref/tamper": "PASS",
+  "sphincs-a-shake-128f/ref/tamper": "PASS",
+  "sphincs-a-shake-128s/ref/tamper": "PASS",
+  "sphincs-a-sm3-128f/opt/tamper": "PASS",
+  "sphincs-a-sm3-128s/opt/tamper": "PASS",
+  "sphincs-a-sha2-128f/opt/tamper": "PASS",
+  "sphincs-a-sha2-128s/opt/tamper": "PASS",
+  "sphincs-a-shake-128f/opt/tamper": "PASS",
+  "sphincs-a-shake-128s/opt/tamper": "PASS"
+ },
+ "info": {
+  "sphincs-a-sm3-128f": "sig pk=32 sk=64 sig=16720 (max 16720)",
+  "sphincs-a-sm3-128s": "sig pk=32 sk=64 sig=6880 (max 6880)",
+  "sphincs-a-sha2-128f": "sig pk=32 sk=64 sig=16720 (max 16720)",
+  "sphincs-a-sha2-128s": "sig pk=32 sk=64 sig=6880 (max 6880)",
+  "sphincs-a-shake-128f": "sig pk=32 sk=64 sig=16720 (max 16720)",
+  "sphincs-a-shake-128s": "sig pk=32 sk=64 sig=6880 (max 6880)"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

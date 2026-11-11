@@ -1,0 +1,234 @@
+{
+ "results": {
+  "mldsa87-shake-pqmagic/ref/kat-fips204": {
+   "iters": 1,
+   "avg_us": 222460,
+   "min_us": 222460,
+   "max_us": 222460,
+   "stack": 124112,
+   "heap": 80,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/opt/kat-fips204": {
+   "iters": 1,
+   "avg_us": 222460,
+   "min_us": 222460,
+   "max_us": 222460,
+   "stack": 124112,
+   "heap": 80,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/ref/keygen": {
+   "iters": 5,
+   "avg_us": 89252,
+   "min_us": 88179,
+   "max_us": 90241,
+   "stack": 98272,
+   "heap": 36,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/ref/sign": {
+   "iters": 10,
+   "avg_us": 109249,
+   "min_us": 109246,
+   "max_us": 109250,
+   "stack": 124864,
+   "heap": 136,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/ref/verify": {
+   "iters": 5,
+   "avg_us": 84966,
+   "min_us": 84964,
+   "max_us": 84970,
+   "stack": 94304,
+   "heap": 136,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/ref/tamper": {
+   "iters": 1,
+   "avg_us": 169927,
+   "min_us": 169927,
+   "max_us": 169927,
+   "stack": 94336,
+   "heap": 136,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/ref/keygen": {
+   "iters": 5,
+   "avg_us": 59836,
+   "min_us": 59665,
+   "max_us": 60237,
+   "stack": 98192,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/ref/sign": {
+   "iters": 10,
+   "avg_us": 78049,
+   "min_us": 78046,
+   "max_us": 78051,
+   "stack": 124048,
+   "heap": 36,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/ref/verify": {
+   "iters": 5,
+   "avg_us": 60964,
+   "min_us": 60964,
+   "max_us": 60964,
+   "stack": 93328,
+   "heap": 36,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/ref/tamper": {
+   "iters": 1,
+   "avg_us": 121921,
+   "min_us": 121921,
+   "max_us": 121921,
+   "stack": 93360,
+   "heap": 36,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/opt/keygen": {
+   "iters": 5,
+   "avg_us": 61799,
+   "min_us": 61069,
+   "max_us": 62471,
+   "stack": 98368,
+   "heap": 36,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/opt/sign": {
+   "iters": 10,
+   "avg_us": 81118,
+   "min_us": 81118,
+   "max_us": 81123,
+   "stack": 124960,
+   "heap": 136,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/opt/verify": {
+   "iters": 5,
+   "avg_us": 59871,
+   "min_us": 59868,
+   "max_us": 59872,
+   "stack": 94400,
+   "heap": 136,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/opt/tamper": {
+   "iters": 1,
+   "avg_us": 119738,
+   "min_us": 119738,
+   "max_us": 119738,
+   "stack": 94432,
+   "heap": 136,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/opt/keygen": {
+   "iters": 5,
+   "avg_us": 59836,
+   "min_us": 59665,
+   "max_us": 60236,
+   "stack": 98192,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/opt/sign": {
+   "iters": 10,
+   "avg_us": 78049,
+   "min_us": 78045,
+   "max_us": 78051,
+   "stack": 124048,
+   "heap": 36,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/opt/verify": {
+   "iters": 5,
+   "avg_us": 60964,
+   "min_us": 60964,
+   "max_us": 60964,
+   "stack": 93328,
+   "heap": 36,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/opt/tamper": {
+   "iters": 1,
+   "avg_us": 121921,
+   "min_us": 121921,
+   "max_us": 121921,
+   "stack": 93360,
+   "heap": 36,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mldsa87-sm3-pqmagic/ref/pk": {
+   "sha256_16": "bf9510890e8eeb1f71cdf0913221498f",
+   "len": 2592
+  },
+  "mldsa87-sm3-pqmagic/ref/sk": {
+   "sha256_16": "37d743fc4128aee8de779d51fe0c791c",
+   "len": 4896
+  },
+  "mldsa87-sm3-pqmagic/ref/sig": {
+   "sha256_16": "bd23fe730e0c812ec6e9985ccba8d794",
+   "len": 4627
+  },
+  "mldsa87-shake-pqmagic/ref/pk": {
+   "sha256_16": "8439b62cb776684b663cfc2ae125e05c",
+   "len": 2592
+  },
+  "mldsa87-shake-pqmagic/ref/sk": {
+   "sha256_16": "c4d3a4e4a677e9250f69a3dddfd16821",
+   "len": 4896
+  },
+  "mldsa87-shake-pqmagic/ref/sig": {
+   "sha256_16": "a75b9fb8447b30e71ef303cbede2afeb",
+   "len": 4627
+  },
+  "mldsa87-sm3-pqmagic/opt/pk": {
+   "sha256_16": "bf9510890e8eeb1f71cdf0913221498f",
+   "len": 2592
+  },
+  "mldsa87-sm3-pqmagic/opt/sk": {
+   "sha256_16": "37d743fc4128aee8de779d51fe0c791c",
+   "len": 4896
+  },
+  "mldsa87-sm3-pqmagic/opt/sig": {
+   "sha256_16": "bd23fe730e0c812ec6e9985ccba8d794",
+   "len": 4627
+  },
+  "mldsa87-shake-pqmagic/opt/pk": {
+   "sha256_16": "8439b62cb776684b663cfc2ae125e05c",
+   "len": 2592
+  },
+  "mldsa87-shake-pqmagic/opt/sk": {
+   "sha256_16": "c4d3a4e4a677e9250f69a3dddfd16821",
+   "len": 4896
+  },
+  "mldsa87-shake-pqmagic/opt/sig": {
+   "sha256_16": "a75b9fb8447b30e71ef303cbede2afeb",
+   "len": 4627
+  }
+ },
+ "checks": {
+  "mldsa87-shake-pqmagic/ref/kat-fips204": "PASS",
+  "mldsa87-shake-pqmagic/opt/kat-fips204": "PASS",
+  "mldsa87-sm3-pqmagic/ref/tamper": "PASS",
+  "mldsa87-shake-pqmagic/ref/tamper": "PASS",
+  "mldsa87-sm3-pqmagic/opt/tamper": "PASS",
+  "mldsa87-shake-pqmagic/opt/tamper": "PASS"
+ },
+ "info": {
+  "heap": "free=198316 largest_block=131072",
+  "mldsa87-sm3-pqmagic": "sig pk=2592 sk=4896 sig=4627 (max 4627)",
+  "mldsa87-shake-pqmagic": "sig pk=2592 sk=4896 sig=4627 (max 4627)"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 66176,
+ "heap_free_min": 66740
+}

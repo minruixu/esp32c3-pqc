@@ -1,0 +1,214 @@
+{
+ "results": {
+  "sphincs-a-sha2-192f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 374616,
+   "min_us": 352572,
+   "max_us": 418684,
+   "stack": 7328,
+   "heap": 146108,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/ref/sign": {
+   "iters": 2,
+   "avg_us": 7262546,
+   "min_us": 7262485,
+   "max_us": 7262608,
+   "stack": 5712,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/ref/verify": {
+   "iters": 3,
+   "avg_us": 210586,
+   "min_us": 210586,
+   "max_us": 210587,
+   "stack": 5632,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 421423,
+   "min_us": 421423,
+   "max_us": 421423,
+   "stack": 5664,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 1347719,
+   "min_us": 1347472,
+   "max_us": 1347867,
+   "stack": 6976,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/ref/sign": {
+   "iters": 2,
+   "avg_us": 26002086,
+   "min_us": 26002066,
+   "max_us": 26002107,
+   "stack": 5520,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/ref/verify": {
+   "iters": 3,
+   "avg_us": 681931,
+   "min_us": 681931,
+   "max_us": 681932,
+   "stack": 4960,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1363736,
+   "min_us": 1363736,
+   "max_us": 1363736,
+   "stack": 4992,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 128831,
+   "min_us": 128579,
+   "max_us": 128966,
+   "stack": 7328,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/opt/sign": {
+   "iters": 2,
+   "avg_us": 3182560,
+   "min_us": 3182500,
+   "max_us": 3182621,
+   "stack": 5712,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/opt/verify": {
+   "iters": 3,
+   "avg_us": 111773,
+   "min_us": 111773,
+   "max_us": 111773,
+   "stack": 5504,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/opt/tamper": {
+   "iters": 1,
+   "avg_us": 223796,
+   "min_us": 223796,
+   "max_us": 223796,
+   "stack": 5536,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 864955,
+   "min_us": 864705,
+   "max_us": 865105,
+   "stack": 6928,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/opt/sign": {
+   "iters": 2,
+   "avg_us": 16695291,
+   "min_us": 16695268,
+   "max_us": 16695314,
+   "stack": 5472,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/opt/verify": {
+   "iters": 3,
+   "avg_us": 442025,
+   "min_us": 442025,
+   "max_us": 442025,
+   "stack": 4912,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/opt/tamper": {
+   "iters": 1,
+   "avg_us": 883924,
+   "min_us": 883924,
+   "max_us": 883924,
+   "stack": 4944,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "sphincs-a-sha2-192f/ref/pk": {
+   "sha256_16": "58017e00409824ea52a89ab102710d3b",
+   "len": 48
+  },
+  "sphincs-a-sha2-192f/ref/sk": {
+   "sha256_16": "be83e828a3ed5e7553564223b2b8103e",
+   "len": 96
+  },
+  "sphincs-a-sha2-192f/ref/sig": {
+   "sha256_16": "ec46da1782a47cb5f240c3b90c579b59",
+   "len": 34896
+  },
+  "sphincs-a-shake-192f/ref/pk": {
+   "sha256_16": "19d8bc42a96fa3cae3bad62ec34fde02",
+   "len": 48
+  },
+  "sphincs-a-shake-192f/ref/sk": {
+   "sha256_16": "8dd1ef8d6fbdd18573fe616703a51dcb",
+   "len": 96
+  },
+  "sphincs-a-shake-192f/ref/sig": {
+   "sha256_16": "a7406579f02f90ecbcf9f5fbf858bdf5",
+   "len": 34896
+  },
+  "sphincs-a-sha2-192f/opt/pk": {
+   "sha256_16": "58017e00409824ea52a89ab102710d3b",
+   "len": 48
+  },
+  "sphincs-a-sha2-192f/opt/sk": {
+   "sha256_16": "be83e828a3ed5e7553564223b2b8103e",
+   "len": 96
+  },
+  "sphincs-a-sha2-192f/opt/sig": {
+   "sha256_16": "ec46da1782a47cb5f240c3b90c579b59",
+   "len": 34896
+  },
+  "sphincs-a-shake-192f/opt/pk": {
+   "sha256_16": "19d8bc42a96fa3cae3bad62ec34fde02",
+   "len": 48
+  },
+  "sphincs-a-shake-192f/opt/sk": {
+   "sha256_16": "8dd1ef8d6fbdd18573fe616703a51dcb",
+   "len": 96
+  },
+  "sphincs-a-shake-192f/opt/sig": {
+   "sha256_16": "a7406579f02f90ecbcf9f5fbf858bdf5",
+   "len": 34896
+  }
+ },
+ "checks": {
+  "sphincs-a-sha2-192f/ref/tamper": "PASS",
+  "sphincs-a-shake-192f/ref/tamper": "PASS",
+  "sphincs-a-sha2-192f/opt/tamper": "PASS",
+  "sphincs-a-shake-192f/opt/tamper": "PASS"
+ },
+ "info": {
+  "heap": "free=171844 largest_block=114688",
+  "sphincs-a-sha2-192f": "sig pk=48 sk=96 sig=34896 (max 34896)",
+  "sphincs-a-shake-192f": "sig pk=48 sk=96 sig=34896 (max 34896)"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 171844,
+ "heap_free_min": 14876
+}
