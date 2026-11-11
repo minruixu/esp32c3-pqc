@@ -1,0 +1,59 @@
+{
+ "results": {
+  "keccakf1600/ref/x1000": {
+   "iters": 5,
+   "avg_us": 174,
+   "min_us": 168,
+   "max_us": 183,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "keccakf1600/mlkn/x1000": {
+   "iters": 5,
+   "avg_us": 170,
+   "min_us": 167,
+   "max_us": 173,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "keccakf1600/opt/x1000": {
+   "iters": 5,
+   "avg_us": 174,
+   "min_us": 172,
+   "max_us": 181,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "keccakf1600/opt/verify": {
+   "iters": 1,
+   "avg_us": 1571,
+   "min_us": 1571,
+   "max_us": 1571,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "keccakf1600/all/state_after_5000": {
+   "sha256_16": "68a28627b684043501ea55dcadc005f3",
+   "len": 200
+  }
+ },
+ "checks": {
+  "keccakf1600/opt/equals_ref": "PASS"
+ },
+ "info": {
+  "keccakf1600/ref": "0 cycles per permutation",
+  "keccakf1600/mlkn": "0 cycles per permutation",
+  "keccakf1600/opt": "0 cycles per permutation"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}
