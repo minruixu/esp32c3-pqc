@@ -1,0 +1,312 @@
+{
+ "results": {
+  "aigis-sig-plus-1/ref/keygen": {
+   "iters": 5,
+   "avg_us": 54,
+   "min_us": 20,
+   "max_us": 193,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/ref/sign": {
+   "iters": 10,
+   "avg_us": 90,
+   "min_us": 69,
+   "max_us": 269,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/ref/verify": {
+   "iters": 5,
+   "avg_us": 17,
+   "min_us": 17,
+   "max_us": 19,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/ref/tamper": {
+   "iters": 1,
+   "avg_us": 33,
+   "min_us": 33,
+   "max_us": 33,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-2/ref/keygen": {
+   "iters": 5,
+   "avg_us": 108,
+   "min_us": 50,
+   "max_us": 341,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-2/ref/sign": {
+   "iters": 10,
+   "avg_us": 101,
+   "min_us": 84,
+   "max_us": 239,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-2/ref/verify": {
+   "iters": 5,
+   "avg_us": 47,
+   "min_us": 46,
+   "max_us": 49,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-2/ref/tamper": {
+   "iters": 1,
+   "avg_us": 92,
+   "min_us": 92,
+   "max_us": 92,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-3/ref/keygen": {
+   "iters": 5,
+   "avg_us": 199,
+   "min_us": 142,
+   "max_us": 419,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-3/ref/sign": {
+   "iters": 10,
+   "avg_us": 327,
+   "min_us": 300,
+   "max_us": 480,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-3/ref/verify": {
+   "iters": 5,
+   "avg_us": 165,
+   "min_us": 160,
+   "max_us": 171,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-3/ref/tamper": {
+   "iters": 1,
+   "avg_us": 310,
+   "min_us": 310,
+   "max_us": 310,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/opt/keygen": {
+   "iters": 5,
+   "avg_us": 20,
+   "min_us": 19,
+   "max_us": 25,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/opt/sign": {
+   "iters": 10,
+   "avg_us": 73,
+   "min_us": 70,
+   "max_us": 81,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/opt/verify": {
+   "iters": 5,
+   "avg_us": 18,
+   "min_us": 17,
+   "max_us": 22,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/opt/tamper": {
+   "iters": 1,
+   "avg_us": 33,
+   "min_us": 33,
+   "max_us": 33,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-2/opt/keygen": {
+   "iters": 5,
+   "avg_us": 50,
+   "min_us": 49,
+   "max_us": 53,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-2/opt/sign": {
+   "iters": 10,
+   "avg_us": 89,
+   "min_us": 86,
+   "max_us": 95,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-2/opt/verify": {
+   "iters": 5,
+   "avg_us": 49,
+   "min_us": 48,
+   "max_us": 51,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-2/opt/tamper": {
+   "iters": 1,
+   "avg_us": 95,
+   "min_us": 95,
+   "max_us": 95,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-3/opt/keygen": {
+   "iters": 5,
+   "avg_us": 151,
+   "min_us": 145,
+   "max_us": 156,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-3/opt/sign": {
+   "iters": 10,
+   "avg_us": 306,
+   "min_us": 303,
+   "max_us": 312,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-3/opt/verify": {
+   "iters": 5,
+   "avg_us": 152,
+   "min_us": 151,
+   "max_us": 153,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-3/opt/tamper": {
+   "iters": 1,
+   "avg_us": 303,
+   "min_us": 303,
+   "max_us": 303,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "aigis-sig-plus-1/ref/pk": {
+   "sha256_16": "849e1a6fc9020777eaa15e5eac73cb38",
+   "len": 928
+  },
+  "aigis-sig-plus-1/ref/sk": {
+   "sha256_16": "2e39253e06f06f7310976ced3e0b51d2",
+   "len": 2800
+  },
+  "aigis-sig-plus-1/ref/sig": {
+   "sha256_16": "8f4acdd4c680e4054fe484a3bf4fec4d",
+   "len": 2001
+  },
+  "aigis-sig-plus-2/ref/pk": {
+   "sha256_16": "fa9ea191ee016c2ec51bd26b6c3b320c",
+   "len": 1824
+  },
+  "aigis-sig-plus-2/ref/sk": {
+   "sha256_16": "84f507a6369f6a3507d7975583d326ad",
+   "len": 4976
+  },
+  "aigis-sig-plus-2/ref/sig": {
+   "sha256_16": "2c285b67aa66d18121979a854b61dd57",
+   "len": 4521
+  },
+  "aigis-sig-plus-3/ref/pk": {
+   "sha256_16": "375e3d33aeab2d58055d62d3fbf282bf",
+   "len": 4672
+  },
+  "aigis-sig-plus-3/ref/sk": {
+   "sha256_16": "ac69df61262e058034a0538925830ec1",
+   "len": 8800
+  },
+  "aigis-sig-plus-3/ref/sig": {
+   "sha256_16": "b4850e617983474a11c557a86203c980",
+   "len": 9112
+  },
+  "aigis-sig-plus-1/opt/pk": {
+   "sha256_16": "849e1a6fc9020777eaa15e5eac73cb38",
+   "len": 928
+  },
+  "aigis-sig-plus-1/opt/sk": {
+   "sha256_16": "2e39253e06f06f7310976ced3e0b51d2",
+   "len": 2800
+  },
+  "aigis-sig-plus-1/opt/sig": {
+   "sha256_16": "8f4acdd4c680e4054fe484a3bf4fec4d",
+   "len": 2001
+  },
+  "aigis-sig-plus-2/opt/pk": {
+   "sha256_16": "fa9ea191ee016c2ec51bd26b6c3b320c",
+   "len": 1824
+  },
+  "aigis-sig-plus-2/opt/sk": {
+   "sha256_16": "84f507a6369f6a3507d7975583d326ad",
+   "len": 4976
+  },
+  "aigis-sig-plus-2/opt/sig": {
+   "sha256_16": "2c285b67aa66d18121979a854b61dd57",
+   "len": 4521
+  },
+  "aigis-sig-plus-3/opt/pk": {
+   "sha256_16": "375e3d33aeab2d58055d62d3fbf282bf",
+   "len": 4672
+  },
+  "aigis-sig-plus-3/opt/sk": {
+   "sha256_16": "ac69df61262e058034a0538925830ec1",
+   "len": 8800
+  },
+  "aigis-sig-plus-3/opt/sig": {
+   "sha256_16": "b4850e617983474a11c557a86203c980",
+   "len": 9112
+  }
+ },
+ "checks": {
+  "aigis-sig-plus-1/ref/tamper": "PASS",
+  "aigis-sig-plus-2/ref/tamper": "PASS",
+  "aigis-sig-plus-3/ref/tamper": "PASS",
+  "aigis-sig-plus-1/opt/tamper": "PASS",
+  "aigis-sig-plus-2/opt/tamper": "PASS",
+  "aigis-sig-plus-3/opt/tamper": "PASS"
+ },
+ "info": {
+  "aigis-sig-plus-1": "sig pk=928 sk=2800 sig=2001 (max 2015)",
+  "aigis-sig-plus-2": "sig pk=1824 sk=4976 sig=4521 (max 4533)",
+  "aigis-sig-plus-3": "sig pk=4672 sk=8800 sig=9112 (max 9134)"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

@@ -200,6 +200,11 @@ def save_results(name, kind, parsed, lines, merge):
         for k in ("cpu_mhz",):
             if k in parsed:
                 old[k] = parsed[k]
+        # Recount for the merged set, so an old failure that a later run fixed
+        # does not linger.
+        old["fails"] = (sum(1 for r in old["results"].values() if r.get("rc"))
+                        + sum(1 for v in old["checks"].values() if v != "PASS"))
+        old["complete"] = bool(parsed.get("complete"))
         parsed = old
     with open(path, "w") as f:
         json.dump(parsed, f, indent=1)

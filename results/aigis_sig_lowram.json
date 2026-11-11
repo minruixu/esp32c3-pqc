@@ -1,0 +1,610 @@
+{
+ "results": {
+  "aigis-sig-1-sm3/ref/keygen": {
+   "iters": 5,
+   "avg_us": 23699,
+   "min_us": 23696,
+   "max_us": 23704,
+   "stack": 37308,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-1-sm3/ref/sign": {
+   "iters": 10,
+   "avg_us": 65636,
+   "min_us": 65634,
+   "max_us": 65639,
+   "stack": 65612,
+   "heap": 236,
+   "rc": 0
+  },
+  "aigis-sig-1-sm3/ref/verify": {
+   "iters": 5,
+   "avg_us": 23930,
+   "min_us": 23928,
+   "max_us": 23934,
+   "stack": 40972,
+   "heap": 168,
+   "rc": 0
+  },
+  "aigis-sig-1-sm3/ref/tamper": {
+   "iters": 1,
+   "avg_us": 47829,
+   "min_us": 47829,
+   "max_us": 47829,
+   "stack": 41004,
+   "heap": 168,
+   "rc": 0
+  },
+  "aigis-sig-2-sm3/ref/keygen": {
+   "iters": 5,
+   "avg_us": 37238,
+   "min_us": 37031,
+   "max_us": 37551,
+   "stack": 51836,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-2-sm3/ref/sign": {
+   "iters": 10,
+   "avg_us": 66446,
+   "min_us": 66444,
+   "max_us": 66449,
+   "stack": 87324,
+   "heap": 236,
+   "rc": 0
+  },
+  "aigis-sig-2-sm3/ref/verify": {
+   "iters": 5,
+   "avg_us": 37144,
+   "min_us": 37142,
+   "max_us": 37147,
+   "stack": 55500,
+   "heap": 168,
+   "rc": 0
+  },
+  "aigis-sig-2-sm3/ref/tamper": {
+   "iters": 1,
+   "avg_us": 74259,
+   "min_us": 74259,
+   "max_us": 74259,
+   "stack": 55532,
+   "heap": 168,
+   "rc": 0
+  },
+  "aigis-sig-3-sm3/ref/keygen": {
+   "iters": 5,
+   "avg_us": 53710,
+   "min_us": 53500,
+   "max_us": 54024,
+   "stack": 68220,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-3-sm3/ref/sign": {
+   "iters": 10,
+   "avg_us": 70183,
+   "min_us": 70183,
+   "max_us": 70184,
+   "stack": 110888,
+   "heap": 236,
+   "rc": 0
+  },
+  "aigis-sig-3-sm3/ref/verify": {
+   "iters": 5,
+   "avg_us": 53867,
+   "min_us": 53866,
+   "max_us": 53871,
+   "stack": 71896,
+   "heap": 168,
+   "rc": 0
+  },
+  "aigis-sig-3-sm3/ref/tamper": {
+   "iters": 1,
+   "avg_us": 107704,
+   "min_us": 107704,
+   "max_us": 107704,
+   "stack": 71928,
+   "heap": 168,
+   "rc": 0
+  },
+  "aigis-sig-1-shake/ref/keygen": {
+   "iters": 5,
+   "avg_us": 17333,
+   "min_us": 17329,
+   "max_us": 17335,
+   "stack": 37260,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-1-shake/ref/sign": {
+   "iters": 10,
+   "avg_us": 81689,
+   "min_us": 81689,
+   "max_us": 81694,
+   "stack": 65564,
+   "heap": 188,
+   "rc": 0
+  },
+  "aigis-sig-1-shake/ref/verify": {
+   "iters": 5,
+   "avg_us": 17290,
+   "min_us": 17288,
+   "max_us": 17293,
+   "stack": 40924,
+   "heap": 120,
+   "rc": 0
+  },
+  "aigis-sig-1-shake/ref/tamper": {
+   "iters": 1,
+   "avg_us": 34554,
+   "min_us": 34554,
+   "max_us": 34554,
+   "stack": 40956,
+   "heap": 120,
+   "rc": 0
+  },
+  "aigis-sig-2-shake/ref/keygen": {
+   "iters": 5,
+   "avg_us": 26881,
+   "min_us": 26763,
+   "max_us": 27050,
+   "stack": 51788,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-2-shake/ref/sign": {
+   "iters": 10,
+   "avg_us": 35583,
+   "min_us": 35581,
+   "max_us": 35586,
+   "stack": 87276,
+   "heap": 188,
+   "rc": 0
+  },
+  "aigis-sig-2-shake/ref/verify": {
+   "iters": 5,
+   "avg_us": 26545,
+   "min_us": 26543,
+   "max_us": 26547,
+   "stack": 55452,
+   "heap": 120,
+   "rc": 0
+  },
+  "aigis-sig-2-shake/ref/tamper": {
+   "iters": 1,
+   "avg_us": 53061,
+   "min_us": 53061,
+   "max_us": 53061,
+   "stack": 55484,
+   "heap": 120,
+   "rc": 0
+  },
+  "aigis-sig-3-shake/ref/keygen": {
+   "iters": 5,
+   "avg_us": 38277,
+   "min_us": 38042,
+   "max_us": 38480,
+   "stack": 68172,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-3-shake/ref/sign": {
+   "iters": 10,
+   "avg_us": 70627,
+   "min_us": 70627,
+   "max_us": 70628,
+   "stack": 110828,
+   "heap": 188,
+   "rc": 0
+  },
+  "aigis-sig-3-shake/ref/verify": {
+   "iters": 5,
+   "avg_us": 37659,
+   "min_us": 37656,
+   "max_us": 37661,
+   "stack": 71836,
+   "heap": 120,
+   "rc": 0
+  },
+  "aigis-sig-3-shake/ref/tamper": {
+   "iters": 1,
+   "avg_us": 75292,
+   "min_us": 75292,
+   "max_us": 75292,
+   "stack": 71868,
+   "heap": 120,
+   "rc": 0
+  },
+  "aigis-sig-1-sm3/opt/keygen": {
+   "iters": 5,
+   "avg_us": 22515,
+   "min_us": 22512,
+   "max_us": 22520,
+   "stack": 28076,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-1-sm3/opt/sign": {
+   "iters": 10,
+   "avg_us": 111695,
+   "min_us": 111695,
+   "max_us": 111700,
+   "stack": 56524,
+   "heap": 236,
+   "rc": 0
+  },
+  "aigis-sig-1-sm3/opt/verify": {
+   "iters": 5,
+   "avg_us": 22905,
+   "min_us": 22905,
+   "max_us": 22909,
+   "stack": 31736,
+   "heap": 168,
+   "rc": 0
+  },
+  "aigis-sig-1-sm3/opt/tamper": {
+   "iters": 1,
+   "avg_us": 45785,
+   "min_us": 45785,
+   "max_us": 45785,
+   "stack": 31768,
+   "heap": 168,
+   "rc": 0
+  },
+  "aigis-sig-2-sm3/opt/keygen": {
+   "iters": 5,
+   "avg_us": 35317,
+   "min_us": 35126,
+   "max_us": 35608,
+   "stack": 35436,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-2-sm3/opt/sign": {
+   "iters": 10,
+   "avg_us": 90858,
+   "min_us": 90858,
+   "max_us": 90859,
+   "stack": 70920,
+   "heap": 236,
+   "rc": 0
+  },
+  "aigis-sig-2-sm3/opt/verify": {
+   "iters": 5,
+   "avg_us": 35436,
+   "min_us": 35434,
+   "max_us": 35440,
+   "stack": 39096,
+   "heap": 168,
+   "rc": 0
+  },
+  "aigis-sig-2-sm3/opt/tamper": {
+   "iters": 1,
+   "avg_us": 70845,
+   "min_us": 70845,
+   "max_us": 70845,
+   "stack": 39128,
+   "heap": 168,
+   "rc": 0
+  },
+  "aigis-sig-3-sm3/opt/keygen": {
+   "iters": 5,
+   "avg_us": 50879,
+   "min_us": 50682,
+   "max_us": 51173,
+   "stack": 42604,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-3-sm3/opt/sign": {
+   "iters": 10,
+   "avg_us": 67517,
+   "min_us": 67514,
+   "max_us": 67519,
+   "stack": 85448,
+   "heap": 236,
+   "rc": 0
+  },
+  "aigis-sig-3-sm3/opt/verify": {
+   "iters": 5,
+   "avg_us": 51281,
+   "min_us": 51281,
+   "max_us": 51281,
+   "stack": 46456,
+   "heap": 168,
+   "rc": 0
+  },
+  "aigis-sig-3-sm3/opt/tamper": {
+   "iters": 1,
+   "avg_us": 102533,
+   "min_us": 102533,
+   "max_us": 102533,
+   "stack": 46488,
+   "heap": 168,
+   "rc": 0
+  },
+  "aigis-sig-1-shake/opt/keygen": {
+   "iters": 5,
+   "avg_us": 17356,
+   "min_us": 17351,
+   "max_us": 17359,
+   "stack": 28028,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-1-shake/opt/sign": {
+   "iters": 10,
+   "avg_us": 170287,
+   "min_us": 170287,
+   "max_us": 170288,
+   "stack": 56332,
+   "heap": 188,
+   "rc": 0
+  },
+  "aigis-sig-1-shake/opt/verify": {
+   "iters": 5,
+   "avg_us": 17314,
+   "min_us": 17312,
+   "max_us": 17317,
+   "stack": 31676,
+   "heap": 120,
+   "rc": 0
+  },
+  "aigis-sig-1-shake/opt/tamper": {
+   "iters": 1,
+   "avg_us": 34601,
+   "min_us": 34601,
+   "max_us": 34601,
+   "stack": 31708,
+   "heap": 120,
+   "rc": 0
+  },
+  "aigis-sig-2-shake/opt/keygen": {
+   "iters": 5,
+   "avg_us": 26884,
+   "min_us": 26766,
+   "max_us": 27053,
+   "stack": 35388,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-2-shake/opt/sign": {
+   "iters": 10,
+   "avg_us": 35569,
+   "min_us": 35567,
+   "max_us": 35572,
+   "stack": 70860,
+   "heap": 188,
+   "rc": 0
+  },
+  "aigis-sig-2-shake/opt/verify": {
+   "iters": 5,
+   "avg_us": 26543,
+   "min_us": 26540,
+   "max_us": 26545,
+   "stack": 39036,
+   "heap": 120,
+   "rc": 0
+  },
+  "aigis-sig-2-shake/opt/tamper": {
+   "iters": 1,
+   "avg_us": 53056,
+   "min_us": 53056,
+   "max_us": 53056,
+   "stack": 39068,
+   "heap": 120,
+   "rc": 0
+  },
+  "aigis-sig-3-shake/opt/keygen": {
+   "iters": 5,
+   "avg_us": 38282,
+   "min_us": 38047,
+   "max_us": 38485,
+   "stack": 42556,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-3-shake/opt/sign": {
+   "iters": 10,
+   "avg_us": 126378,
+   "min_us": 126375,
+   "max_us": 126380,
+   "stack": 85196,
+   "heap": 188,
+   "rc": 0
+  },
+  "aigis-sig-3-shake/opt/verify": {
+   "iters": 5,
+   "avg_us": 37657,
+   "min_us": 37655,
+   "max_us": 37660,
+   "stack": 46204,
+   "heap": 120,
+   "rc": 0
+  },
+  "aigis-sig-3-shake/opt/tamper": {
+   "iters": 1,
+   "avg_us": 75288,
+   "min_us": 75288,
+   "max_us": 75288,
+   "stack": 46236,
+   "heap": 120,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "aigis-sig-1-sm3/ref/pk": {
+   "sha256_16": "cd4cf50576085bb8d911c7a0427f0b9e",
+   "len": 1056
+  },
+  "aigis-sig-1-sm3/ref/sk": {
+   "sha256_16": "55a5c0ed93ba38efc4f933c5cdd25410",
+   "len": 2448
+  },
+  "aigis-sig-1-sm3/ref/sig": {
+   "sha256_16": "bd46e10e1edccb3a30d820c259b1b3fb",
+   "len": 1852
+  },
+  "aigis-sig-2-sm3/ref/pk": {
+   "sha256_16": "47b7c3410a9bc858b54ca54d2530539a",
+   "len": 1312
+  },
+  "aigis-sig-2-sm3/ref/sk": {
+   "sha256_16": "ef3f80089116ebf0072b74e95b4f7bfe",
+   "len": 3376
+  },
+  "aigis-sig-2-sm3/ref/sig": {
+   "sha256_16": "c5b61a0f6232b36c2b1329431ab87cb2",
+   "len": 2445
+  },
+  "aigis-sig-3-sm3/ref/pk": {
+   "sha256_16": "033fae8388a955995e17b47780fc5178",
+   "len": 1568
+  },
+  "aigis-sig-3-sm3/ref/sk": {
+   "sha256_16": "30a02bcc9540827d7d3825ace0f5f50b",
+   "len": 3888
+  },
+  "aigis-sig-3-sm3/ref/sig": {
+   "sha256_16": "2ae5425c0371df6cdc7c385b74712cb0",
+   "len": 3046
+  },
+  "aigis-sig-1-shake/ref/pk": {
+   "sha256_16": "04e1b59d326fcf052ea143bbbeecb5ca",
+   "len": 1056
+  },
+  "aigis-sig-1-shake/ref/sk": {
+   "sha256_16": "2f61940514dc09c08890204dcbc1b0aa",
+   "len": 2448
+  },
+  "aigis-sig-1-shake/ref/sig": {
+   "sha256_16": "0f02eeca02637282e6aa297836661c85",
+   "len": 1852
+  },
+  "aigis-sig-2-shake/ref/pk": {
+   "sha256_16": "3fc53720c7b611ebfe5535bcf4b4cce3",
+   "len": 1312
+  },
+  "aigis-sig-2-shake/ref/sk": {
+   "sha256_16": "1f181d3f938c306ac58d21fa17d479cd",
+   "len": 3376
+  },
+  "aigis-sig-2-shake/ref/sig": {
+   "sha256_16": "c2b4c8656c2633843594e603b29c2aaa",
+   "len": 2445
+  },
+  "aigis-sig-3-shake/ref/pk": {
+   "sha256_16": "2f1b52f487891a76cade1f20b65429f9",
+   "len": 1568
+  },
+  "aigis-sig-3-shake/ref/sk": {
+   "sha256_16": "671ab4c1c2a39c9de1595a8a66076bde",
+   "len": 3888
+  },
+  "aigis-sig-3-shake/ref/sig": {
+   "sha256_16": "9e6a2bc632cd70f7a4d0212e988db589",
+   "len": 3046
+  },
+  "aigis-sig-1-sm3/opt/pk": {
+   "sha256_16": "cd4cf50576085bb8d911c7a0427f0b9e",
+   "len": 1056
+  },
+  "aigis-sig-1-sm3/opt/sk": {
+   "sha256_16": "55a5c0ed93ba38efc4f933c5cdd25410",
+   "len": 2448
+  },
+  "aigis-sig-1-sm3/opt/sig": {
+   "sha256_16": "bd46e10e1edccb3a30d820c259b1b3fb",
+   "len": 1852
+  },
+  "aigis-sig-2-sm3/opt/pk": {
+   "sha256_16": "47b7c3410a9bc858b54ca54d2530539a",
+   "len": 1312
+  },
+  "aigis-sig-2-sm3/opt/sk": {
+   "sha256_16": "ef3f80089116ebf0072b74e95b4f7bfe",
+   "len": 3376
+  },
+  "aigis-sig-2-sm3/opt/sig": {
+   "sha256_16": "c5b61a0f6232b36c2b1329431ab87cb2",
+   "len": 2445
+  },
+  "aigis-sig-3-sm3/opt/pk": {
+   "sha256_16": "033fae8388a955995e17b47780fc5178",
+   "len": 1568
+  },
+  "aigis-sig-3-sm3/opt/sk": {
+   "sha256_16": "30a02bcc9540827d7d3825ace0f5f50b",
+   "len": 3888
+  },
+  "aigis-sig-3-sm3/opt/sig": {
+   "sha256_16": "2ae5425c0371df6cdc7c385b74712cb0",
+   "len": 3046
+  },
+  "aigis-sig-1-shake/opt/pk": {
+   "sha256_16": "04e1b59d326fcf052ea143bbbeecb5ca",
+   "len": 1056
+  },
+  "aigis-sig-1-shake/opt/sk": {
+   "sha256_16": "2f61940514dc09c08890204dcbc1b0aa",
+   "len": 2448
+  },
+  "aigis-sig-1-shake/opt/sig": {
+   "sha256_16": "0f02eeca02637282e6aa297836661c85",
+   "len": 1852
+  },
+  "aigis-sig-2-shake/opt/pk": {
+   "sha256_16": "3fc53720c7b611ebfe5535bcf4b4cce3",
+   "len": 1312
+  },
+  "aigis-sig-2-shake/opt/sk": {
+   "sha256_16": "1f181d3f938c306ac58d21fa17d479cd",
+   "len": 3376
+  },
+  "aigis-sig-2-shake/opt/sig": {
+   "sha256_16": "c2b4c8656c2633843594e603b29c2aaa",
+   "len": 2445
+  },
+  "aigis-sig-3-shake/opt/pk": {
+   "sha256_16": "2f1b52f487891a76cade1f20b65429f9",
+   "len": 1568
+  },
+  "aigis-sig-3-shake/opt/sk": {
+   "sha256_16": "671ab4c1c2a39c9de1595a8a66076bde",
+   "len": 3888
+  },
+  "aigis-sig-3-shake/opt/sig": {
+   "sha256_16": "9e6a2bc632cd70f7a4d0212e988db589",
+   "len": 3046
+  }
+ },
+ "checks": {
+  "aigis-sig-1-sm3/ref/tamper": "PASS",
+  "aigis-sig-2-sm3/ref/tamper": "PASS",
+  "aigis-sig-3-sm3/ref/tamper": "PASS",
+  "aigis-sig-1-shake/ref/tamper": "PASS",
+  "aigis-sig-2-shake/ref/tamper": "PASS",
+  "aigis-sig-3-shake/ref/tamper": "PASS",
+  "aigis-sig-1-sm3/opt/tamper": "PASS",
+  "aigis-sig-2-sm3/opt/tamper": "PASS",
+  "aigis-sig-3-sm3/opt/tamper": "PASS",
+  "aigis-sig-1-shake/opt/tamper": "PASS",
+  "aigis-sig-2-shake/opt/tamper": "PASS",
+  "aigis-sig-3-shake/opt/tamper": "PASS"
+ },
+ "info": {
+  "heap": "free=159444 largest_block=114688",
+  "aigis-sig-1-sm3": "sig pk=1056 sk=2448 sig=1852 (max 1852)",
+  "aigis-sig-2-sm3": "sig pk=1312 sk=3376 sig=2445 (max 2445)",
+  "aigis-sig-3-sm3": "sig pk=1568 sk=3888 sig=3046 (max 3046)",
+  "aigis-sig-1-shake": "sig pk=1056 sk=2448 sig=1852 (max 1852)",
+  "aigis-sig-2-shake": "sig pk=1312 sk=3376 sig=2445 (max 2445)",
+  "aigis-sig-3-shake": "sig pk=1568 sk=3888 sig=3046 (max 3046)"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 159444,
+ "heap_free_min": 44164
+}

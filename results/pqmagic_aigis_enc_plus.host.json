@@ -1,0 +1,335 @@
+{
+ "results": {
+  "aigis-enc-plus-512/ref/keygen": {
+   "iters": 10,
+   "avg_us": 15,
+   "min_us": 10,
+   "max_us": 62,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-512/ref/encaps": {
+   "iters": 10,
+   "avg_us": 15,
+   "min_us": 15,
+   "max_us": 16,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-512/ref/decaps": {
+   "iters": 10,
+   "avg_us": 16,
+   "min_us": 16,
+   "max_us": 17,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 17,
+   "min_us": 17,
+   "max_us": 17,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-1024/ref/keygen": {
+   "iters": 10,
+   "avg_us": 26,
+   "min_us": 20,
+   "max_us": 80,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-1024/ref/encaps": {
+   "iters": 10,
+   "avg_us": 28,
+   "min_us": 28,
+   "max_us": 30,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-1024/ref/decaps": {
+   "iters": 10,
+   "avg_us": 36,
+   "min_us": 36,
+   "max_us": 38,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-1024/ref/tamper": {
+   "iters": 1,
+   "avg_us": 37,
+   "min_us": 37,
+   "max_us": 37,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-2048/ref/keygen": {
+   "iters": 10,
+   "avg_us": 55,
+   "min_us": 49,
+   "max_us": 96,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-2048/ref/encaps": {
+   "iters": 10,
+   "avg_us": 69,
+   "min_us": 68,
+   "max_us": 72,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-2048/ref/decaps": {
+   "iters": 10,
+   "avg_us": 90,
+   "min_us": 89,
+   "max_us": 94,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-2048/ref/tamper": {
+   "iters": 1,
+   "avg_us": 89,
+   "min_us": 89,
+   "max_us": 89,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-512/opt/keygen": {
+   "iters": 10,
+   "avg_us": 9,
+   "min_us": 8,
+   "max_us": 10,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-512/opt/encaps": {
+   "iters": 10,
+   "avg_us": 13,
+   "min_us": 13,
+   "max_us": 14,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-512/opt/decaps": {
+   "iters": 10,
+   "avg_us": 15,
+   "min_us": 15,
+   "max_us": 15,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 15,
+   "min_us": 15,
+   "max_us": 15,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-1024/opt/keygen": {
+   "iters": 10,
+   "avg_us": 17,
+   "min_us": 17,
+   "max_us": 19,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-1024/opt/encaps": {
+   "iters": 10,
+   "avg_us": 25,
+   "min_us": 25,
+   "max_us": 27,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-1024/opt/decaps": {
+   "iters": 10,
+   "avg_us": 32,
+   "min_us": 32,
+   "max_us": 33,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-1024/opt/tamper": {
+   "iters": 1,
+   "avg_us": 33,
+   "min_us": 33,
+   "max_us": 33,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-2048/opt/keygen": {
+   "iters": 10,
+   "avg_us": 42,
+   "min_us": 42,
+   "max_us": 44,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-2048/opt/encaps": {
+   "iters": 10,
+   "avg_us": 60,
+   "min_us": 60,
+   "max_us": 61,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-2048/opt/decaps": {
+   "iters": 10,
+   "avg_us": 80,
+   "min_us": 79,
+   "max_us": 85,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-enc-plus-2048/opt/tamper": {
+   "iters": 1,
+   "avg_us": 93,
+   "min_us": 93,
+   "max_us": 93,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "aigis-enc-plus-512/ref/pk": {
+   "sha256_16": "93862158f981171c5679300c755b4637",
+   "len": 656
+  },
+  "aigis-enc-plus-512/ref/sk": {
+   "sha256_16": "54191b8f078ad6972f733304bb1114b4",
+   "len": 1456
+  },
+  "aigis-enc-plus-512/ref/ct": {
+   "sha256_16": "b3c68dc636dc48930f3c7d1fb39ba055",
+   "len": 896
+  },
+  "aigis-enc-plus-512/ref/ss": {
+   "sha256_16": "e38954b8f9c83b196699f6f97de0b6dc",
+   "len": 16
+  },
+  "aigis-enc-plus-1024/ref/pk": {
+   "sha256_16": "66bc4755b67c696b0ee15ab99ac825a3",
+   "len": 1312
+  },
+  "aigis-enc-plus-1024/ref/sk": {
+   "sha256_16": "fd34a625696836d53e3d4501cf4d04b5",
+   "len": 2912
+  },
+  "aigis-enc-plus-1024/ref/ct": {
+   "sha256_16": "51f22e81063cc5cd3b0afc35981fafb0",
+   "len": 1664
+  },
+  "aigis-enc-plus-1024/ref/ss": {
+   "sha256_16": "fb2aaa713dca797051127972f1b9924c",
+   "len": 32
+  },
+  "aigis-enc-plus-2048/ref/pk": {
+   "sha256_16": "7e0236c1c438533f2f06a1de0196dc6b",
+   "len": 2624
+  },
+  "aigis-enc-plus-2048/ref/sk": {
+   "sha256_16": "a307b91a36dfdf387e2ac8e3219bf937",
+   "len": 5824
+  },
+  "aigis-enc-plus-2048/ref/ct": {
+   "sha256_16": "7201c6ec45083113610d20b29f3a03d4",
+   "len": 3584
+  },
+  "aigis-enc-plus-2048/ref/ss": {
+   "sha256_16": "c9a5aa1293c095efff18d6425c440e37",
+   "len": 64
+  },
+  "aigis-enc-plus-512/opt/pk": {
+   "sha256_16": "93862158f981171c5679300c755b4637",
+   "len": 656
+  },
+  "aigis-enc-plus-512/opt/sk": {
+   "sha256_16": "54191b8f078ad6972f733304bb1114b4",
+   "len": 1456
+  },
+  "aigis-enc-plus-512/opt/ct": {
+   "sha256_16": "b3c68dc636dc48930f3c7d1fb39ba055",
+   "len": 896
+  },
+  "aigis-enc-plus-512/opt/ss": {
+   "sha256_16": "e38954b8f9c83b196699f6f97de0b6dc",
+   "len": 16
+  },
+  "aigis-enc-plus-1024/opt/pk": {
+   "sha256_16": "66bc4755b67c696b0ee15ab99ac825a3",
+   "len": 1312
+  },
+  "aigis-enc-plus-1024/opt/sk": {
+   "sha256_16": "fd34a625696836d53e3d4501cf4d04b5",
+   "len": 2912
+  },
+  "aigis-enc-plus-1024/opt/ct": {
+   "sha256_16": "51f22e81063cc5cd3b0afc35981fafb0",
+   "len": 1664
+  },
+  "aigis-enc-plus-1024/opt/ss": {
+   "sha256_16": "fb2aaa713dca797051127972f1b9924c",
+   "len": 32
+  },
+  "aigis-enc-plus-2048/opt/pk": {
+   "sha256_16": "7e0236c1c438533f2f06a1de0196dc6b",
+   "len": 2624
+  },
+  "aigis-enc-plus-2048/opt/sk": {
+   "sha256_16": "a307b91a36dfdf387e2ac8e3219bf937",
+   "len": 5824
+  },
+  "aigis-enc-plus-2048/opt/ct": {
+   "sha256_16": "7201c6ec45083113610d20b29f3a03d4",
+   "len": 3584
+  },
+  "aigis-enc-plus-2048/opt/ss": {
+   "sha256_16": "c9a5aa1293c095efff18d6425c440e37",
+   "len": 64
+  }
+ },
+ "checks": {},
+ "info": {
+  "aigis-enc-plus-512": "kem pk=656 sk=1456 ct=896 ss=16",
+  "aigis-enc-plus-512/ref/tamper": "modified ciphertext was ACCEPTED with the same key (upstream behaviour)",
+  "aigis-enc-plus-1024": "kem pk=1312 sk=2912 ct=1664 ss=32",
+  "aigis-enc-plus-1024/ref/tamper": "modified ciphertext gave a different key",
+  "aigis-enc-plus-2048": "kem pk=2624 sk=5824 ct=3584 ss=64",
+  "aigis-enc-plus-2048/ref/tamper": "modified ciphertext gave a different key",
+  "aigis-enc-plus-512/opt/tamper": "modified ciphertext was ACCEPTED with the same key (upstream behaviour)",
+  "aigis-enc-plus-1024/opt/tamper": "modified ciphertext gave a different key",
+  "aigis-enc-plus-2048/opt/tamper": "modified ciphertext gave a different key"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

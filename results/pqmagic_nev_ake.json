@@ -1,0 +1,1375 @@
+{
+ "results": {
+  "nev-ake-512-769-c/ref/keygen": {
+   "iters": 10,
+   "avg_us": 2260,
+   "min_us": 2259,
+   "max_us": 2264,
+   "stack": 6224,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 2260,
+   "min_us": 2260,
+   "max_us": 2260,
+   "stack": 6224,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/ref/init": {
+   "iters": 10,
+   "avg_us": 4093,
+   "min_us": 4091,
+   "max_us": 4096,
+   "stack": 6288,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/ref/response": {
+   "iters": 10,
+   "avg_us": 11807,
+   "min_us": 11806,
+   "max_us": 11812,
+   "stack": 6352,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/ref/finish": {
+   "iters": 10,
+   "avg_us": 9046,
+   "min_us": 9042,
+   "max_us": 9048,
+   "stack": 7068,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/ref/tamper": {
+   "iters": 1,
+   "avg_us": 18086,
+   "min_us": 18086,
+   "max_us": 18086,
+   "stack": 6960,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/ref/keygen": {
+   "iters": 10,
+   "avg_us": 5207,
+   "min_us": 5205,
+   "max_us": 5210,
+   "stack": 15236,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 5205,
+   "min_us": 5205,
+   "max_us": 5205,
+   "stack": 15236,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/ref/init": {
+   "iters": 10,
+   "avg_us": 9003,
+   "min_us": 8999,
+   "max_us": 9004,
+   "stack": 15372,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/ref/response": {
+   "iters": 10,
+   "avg_us": 26343,
+   "min_us": 26340,
+   "max_us": 26346,
+   "stack": 15068,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/ref/finish": {
+   "iters": 10,
+   "avg_us": 20871,
+   "min_us": 20871,
+   "max_us": 20872,
+   "stack": 16092,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/ref/tamper": {
+   "iters": 1,
+   "avg_us": 41737,
+   "min_us": 41737,
+   "max_us": 41737,
+   "stack": 16100,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/ref/keygen": {
+   "iters": 10,
+   "avg_us": 15738,
+   "min_us": 15736,
+   "max_us": 15741,
+   "stack": 39004,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 15736,
+   "min_us": 15736,
+   "max_us": 15736,
+   "stack": 38868,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/ref/init": {
+   "iters": 10,
+   "avg_us": 23832,
+   "min_us": 23831,
+   "max_us": 23836,
+   "stack": 39068,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/ref/response": {
+   "iters": 10,
+   "avg_us": 73348,
+   "min_us": 73347,
+   "max_us": 73352,
+   "stack": 33156,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/ref/finish": {
+   "iters": 10,
+   "avg_us": 62178,
+   "min_us": 62177,
+   "max_us": 62182,
+   "stack": 35612,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/ref/tamper": {
+   "iters": 1,
+   "avg_us": 124352,
+   "min_us": 124352,
+   "max_us": 124352,
+   "stack": 35508,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/ref/keygen": {
+   "iters": 10,
+   "avg_us": 3170,
+   "min_us": 3168,
+   "max_us": 3173,
+   "stack": 7796,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 3168,
+   "min_us": 3168,
+   "max_us": 3168,
+   "stack": 7796,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/ref/init": {
+   "iters": 10,
+   "avg_us": 5613,
+   "min_us": 5611,
+   "max_us": 5616,
+   "stack": 7900,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/ref/response": {
+   "iters": 10,
+   "avg_us": 14252,
+   "min_us": 14250,
+   "max_us": 14255,
+   "stack": 8308,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/ref/finish": {
+   "iters": 10,
+   "avg_us": 10458,
+   "min_us": 10458,
+   "max_us": 10459,
+   "stack": 9604,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/ref/tamper": {
+   "iters": 1,
+   "avg_us": 20916,
+   "min_us": 20916,
+   "max_us": 20916,
+   "stack": 9636,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/ref/keygen": {
+   "iters": 10,
+   "avg_us": 7150,
+   "min_us": 7148,
+   "max_us": 7153,
+   "stack": 19820,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 7148,
+   "min_us": 7148,
+   "max_us": 7148,
+   "stack": 19684,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/ref/init": {
+   "iters": 10,
+   "avg_us": 11507,
+   "min_us": 11507,
+   "max_us": 11512,
+   "stack": 19932,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/ref/response": {
+   "iters": 10,
+   "avg_us": 29662,
+   "min_us": 29658,
+   "max_us": 29663,
+   "stack": 18100,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/ref/finish": {
+   "iters": 10,
+   "avg_us": 23470,
+   "min_us": 23469,
+   "max_us": 23474,
+   "stack": 20844,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/ref/tamper": {
+   "iters": 1,
+   "avg_us": 46937,
+   "min_us": 46937,
+   "max_us": 46937,
+   "stack": 20876,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/ref/keygen": {
+   "iters": 10,
+   "avg_us": 18918,
+   "min_us": 18914,
+   "max_us": 18920,
+   "stack": 47372,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 18915,
+   "min_us": 18915,
+   "max_us": 18915,
+   "stack": 47236,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/ref/init": {
+   "iters": 10,
+   "avg_us": 29423,
+   "min_us": 29419,
+   "max_us": 29425,
+   "stack": 47548,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/ref/response": {
+   "iters": 10,
+   "avg_us": 88091,
+   "min_us": 88087,
+   "max_us": 88093,
+   "stack": 38076,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/ref/finish": {
+   "iters": 10,
+   "avg_us": 73042,
+   "min_us": 73041,
+   "max_us": 73046,
+   "stack": 43276,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/ref/tamper": {
+   "iters": 1,
+   "avg_us": 146080,
+   "min_us": 146080,
+   "max_us": 146080,
+   "stack": 43172,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/ref/keygen": {
+   "iters": 10,
+   "avg_us": 2235,
+   "min_us": 2233,
+   "max_us": 2239,
+   "stack": 6208,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 2233,
+   "min_us": 2233,
+   "max_us": 2233,
+   "stack": 6208,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/ref/init": {
+   "iters": 10,
+   "avg_us": 4293,
+   "min_us": 4291,
+   "max_us": 4296,
+   "stack": 6288,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/ref/response": {
+   "iters": 10,
+   "avg_us": 12579,
+   "min_us": 12578,
+   "max_us": 12584,
+   "stack": 7116,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/ref/finish": {
+   "iters": 10,
+   "avg_us": 9522,
+   "min_us": 9518,
+   "max_us": 9523,
+   "stack": 8160,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/ref/tamper": {
+   "iters": 1,
+   "avg_us": 19039,
+   "min_us": 19039,
+   "max_us": 19039,
+   "stack": 8192,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/ref/keygen": {
+   "iters": 10,
+   "avg_us": 5210,
+   "min_us": 5208,
+   "max_us": 5213,
+   "stack": 15236,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 5208,
+   "min_us": 5208,
+   "max_us": 5208,
+   "stack": 15236,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/ref/init": {
+   "iters": 10,
+   "avg_us": 9329,
+   "min_us": 9325,
+   "max_us": 9330,
+   "stack": 15468,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/ref/response": {
+   "iters": 10,
+   "avg_us": 27506,
+   "min_us": 27503,
+   "max_us": 27509,
+   "stack": 16164,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/ref/finish": {
+   "iters": 10,
+   "avg_us": 21822,
+   "min_us": 21822,
+   "max_us": 21826,
+   "stack": 18556,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/ref/tamper": {
+   "iters": 1,
+   "avg_us": 43638,
+   "min_us": 43638,
+   "max_us": 43638,
+   "stack": 18564,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/ref/keygen": {
+   "iters": 10,
+   "avg_us": 15722,
+   "min_us": 15719,
+   "max_us": 15724,
+   "stack": 39004,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 15719,
+   "min_us": 15719,
+   "max_us": 15719,
+   "stack": 38868,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/ref/init": {
+   "iters": 10,
+   "avg_us": 24647,
+   "min_us": 24645,
+   "max_us": 24651,
+   "stack": 39180,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/ref/response": {
+   "iters": 10,
+   "avg_us": 78282,
+   "min_us": 78280,
+   "max_us": 78284,
+   "stack": 35772,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/ref/finish": {
+   "iters": 10,
+   "avg_us": 66083,
+   "min_us": 66080,
+   "max_us": 66085,
+   "stack": 40524,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/ref/tamper": {
+   "iters": 1,
+   "avg_us": 132155,
+   "min_us": 132155,
+   "max_us": 132155,
+   "stack": 40420,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/opt/keygen": {
+   "iters": 10,
+   "avg_us": 2260,
+   "min_us": 2259,
+   "max_us": 2264,
+   "stack": 6224,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 2259,
+   "min_us": 2259,
+   "max_us": 2259,
+   "stack": 6224,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/opt/init": {
+   "iters": 10,
+   "avg_us": 4093,
+   "min_us": 4091,
+   "max_us": 4096,
+   "stack": 6288,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/opt/response": {
+   "iters": 10,
+   "avg_us": 11807,
+   "min_us": 11807,
+   "max_us": 11812,
+   "stack": 6352,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/opt/finish": {
+   "iters": 10,
+   "avg_us": 9046,
+   "min_us": 9043,
+   "max_us": 9048,
+   "stack": 7068,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/opt/tamper": {
+   "iters": 1,
+   "avg_us": 18087,
+   "min_us": 18087,
+   "max_us": 18087,
+   "stack": 6960,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/opt/keygen": {
+   "iters": 10,
+   "avg_us": 5207,
+   "min_us": 5205,
+   "max_us": 5209,
+   "stack": 15236,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 5205,
+   "min_us": 5205,
+   "max_us": 5205,
+   "stack": 15236,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/opt/init": {
+   "iters": 10,
+   "avg_us": 9003,
+   "min_us": 9000,
+   "max_us": 9004,
+   "stack": 15372,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/opt/response": {
+   "iters": 10,
+   "avg_us": 26344,
+   "min_us": 26341,
+   "max_us": 26347,
+   "stack": 15068,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/opt/finish": {
+   "iters": 10,
+   "avg_us": 20872,
+   "min_us": 20872,
+   "max_us": 20873,
+   "stack": 16092,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/opt/tamper": {
+   "iters": 1,
+   "avg_us": 41738,
+   "min_us": 41738,
+   "max_us": 41738,
+   "stack": 16100,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/opt/keygen": {
+   "iters": 10,
+   "avg_us": 15739,
+   "min_us": 15736,
+   "max_us": 15741,
+   "stack": 38892,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 15737,
+   "min_us": 15737,
+   "max_us": 15737,
+   "stack": 38868,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/opt/init": {
+   "iters": 10,
+   "avg_us": 23833,
+   "min_us": 23831,
+   "max_us": 23837,
+   "stack": 39068,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/opt/response": {
+   "iters": 10,
+   "avg_us": 73352,
+   "min_us": 73351,
+   "max_us": 73356,
+   "stack": 33156,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/opt/finish": {
+   "iters": 10,
+   "avg_us": 62181,
+   "min_us": 62181,
+   "max_us": 62186,
+   "stack": 35612,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/opt/tamper": {
+   "iters": 1,
+   "avg_us": 124360,
+   "min_us": 124360,
+   "max_us": 124360,
+   "stack": 35508,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/opt/keygen": {
+   "iters": 10,
+   "avg_us": 3169,
+   "min_us": 3168,
+   "max_us": 3173,
+   "stack": 7796,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 3168,
+   "min_us": 3168,
+   "max_us": 3168,
+   "stack": 7796,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/opt/init": {
+   "iters": 10,
+   "avg_us": 5613,
+   "min_us": 5611,
+   "max_us": 5616,
+   "stack": 7900,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/opt/response": {
+   "iters": 10,
+   "avg_us": 14253,
+   "min_us": 14251,
+   "max_us": 14256,
+   "stack": 8308,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/opt/finish": {
+   "iters": 10,
+   "avg_us": 10459,
+   "min_us": 10459,
+   "max_us": 10459,
+   "stack": 9604,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/opt/tamper": {
+   "iters": 1,
+   "avg_us": 20916,
+   "min_us": 20916,
+   "max_us": 20916,
+   "stack": 9636,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/opt/keygen": {
+   "iters": 10,
+   "avg_us": 7151,
+   "min_us": 7148,
+   "max_us": 7153,
+   "stack": 19684,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 7148,
+   "min_us": 7148,
+   "max_us": 7148,
+   "stack": 19684,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/opt/init": {
+   "iters": 10,
+   "avg_us": 11507,
+   "min_us": 11507,
+   "max_us": 11512,
+   "stack": 19932,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/opt/response": {
+   "iters": 10,
+   "avg_us": 29663,
+   "min_us": 29659,
+   "max_us": 29664,
+   "stack": 18100,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/opt/finish": {
+   "iters": 10,
+   "avg_us": 23472,
+   "min_us": 23470,
+   "max_us": 23476,
+   "stack": 20844,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/opt/tamper": {
+   "iters": 1,
+   "avg_us": 46940,
+   "min_us": 46940,
+   "max_us": 46940,
+   "stack": 20876,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/opt/keygen": {
+   "iters": 10,
+   "avg_us": 18918,
+   "min_us": 18914,
+   "max_us": 18919,
+   "stack": 47372,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 18914,
+   "min_us": 18914,
+   "max_us": 18914,
+   "stack": 47236,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/opt/init": {
+   "iters": 10,
+   "avg_us": 29423,
+   "min_us": 29420,
+   "max_us": 29425,
+   "stack": 47548,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/opt/response": {
+   "iters": 10,
+   "avg_us": 88096,
+   "min_us": 88092,
+   "max_us": 88099,
+   "stack": 38076,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/opt/finish": {
+   "iters": 10,
+   "avg_us": 73047,
+   "min_us": 73045,
+   "max_us": 73050,
+   "stack": 43276,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/opt/tamper": {
+   "iters": 1,
+   "avg_us": 146089,
+   "min_us": 146089,
+   "max_us": 146089,
+   "stack": 43172,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/opt/keygen": {
+   "iters": 10,
+   "avg_us": 2235,
+   "min_us": 2233,
+   "max_us": 2239,
+   "stack": 6348,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 2234,
+   "min_us": 2234,
+   "max_us": 2234,
+   "stack": 6208,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/opt/init": {
+   "iters": 10,
+   "avg_us": 4293,
+   "min_us": 4291,
+   "max_us": 4297,
+   "stack": 6288,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/opt/response": {
+   "iters": 10,
+   "avg_us": 12580,
+   "min_us": 12578,
+   "max_us": 12584,
+   "stack": 7116,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/opt/finish": {
+   "iters": 10,
+   "avg_us": 9523,
+   "min_us": 9519,
+   "max_us": 9524,
+   "stack": 8160,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/opt/tamper": {
+   "iters": 1,
+   "avg_us": 19040,
+   "min_us": 19040,
+   "max_us": 19040,
+   "stack": 8192,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/opt/keygen": {
+   "iters": 10,
+   "avg_us": 5210,
+   "min_us": 5208,
+   "max_us": 5213,
+   "stack": 15236,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 5208,
+   "min_us": 5208,
+   "max_us": 5208,
+   "stack": 15236,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/opt/init": {
+   "iters": 10,
+   "avg_us": 9329,
+   "min_us": 9325,
+   "max_us": 9331,
+   "stack": 15468,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/opt/response": {
+   "iters": 10,
+   "avg_us": 27508,
+   "min_us": 27505,
+   "max_us": 27510,
+   "stack": 16164,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/opt/finish": {
+   "iters": 10,
+   "avg_us": 21823,
+   "min_us": 21823,
+   "max_us": 21828,
+   "stack": 18556,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/opt/tamper": {
+   "iters": 1,
+   "avg_us": 43641,
+   "min_us": 43641,
+   "max_us": 43641,
+   "stack": 18564,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/opt/keygen": {
+   "iters": 10,
+   "avg_us": 15722,
+   "min_us": 15719,
+   "max_us": 15725,
+   "stack": 39004,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 15720,
+   "min_us": 15720,
+   "max_us": 15720,
+   "stack": 38868,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/opt/init": {
+   "iters": 10,
+   "avg_us": 24648,
+   "min_us": 24645,
+   "max_us": 24651,
+   "stack": 39180,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/opt/response": {
+   "iters": 10,
+   "avg_us": 78287,
+   "min_us": 78284,
+   "max_us": 78289,
+   "stack": 35772,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/opt/finish": {
+   "iters": 10,
+   "avg_us": 66087,
+   "min_us": 66084,
+   "max_us": 66090,
+   "stack": 40524,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/opt/tamper": {
+   "iters": 1,
+   "avg_us": 132163,
+   "min_us": 132163,
+   "max_us": 132163,
+   "stack": 40420,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "nev-ake-512-769-c/ref/pk": {
+   "sha256_16": "bdbed110f03378ee20edccecd8106b40",
+   "len": 615
+  },
+  "nev-ake-512-769-c/ref/sk": {
+   "sha256_16": "6afc7df888eed0f96a3efce9837d7bd7",
+   "len": 1246
+  },
+  "nev-ake-512-769-c/ref/msg1": {
+   "sha256_16": "89110c0edffbb2af58d3fee369149519",
+   "len": 1127
+  },
+  "nev-ake-512-769-c/ref/msg2": {
+   "sha256_16": "9c4afa60e7864cdd52b49574d6ccf7d9",
+   "len": 1127
+  },
+  "nev-ake-512-769-c/ref/key": {
+   "sha256_16": "5acb6dabc1e973bb9b78ccf446e1c6f2",
+   "len": 16
+  },
+  "nev-ake-1024-769-c/ref/pk": {
+   "sha256_16": "fa31bf508fd8f77f6c03fa9a13c060fe",
+   "len": 1229
+  },
+  "nev-ake-1024-769-c/ref/sk": {
+   "sha256_16": "16c7d1cb5f2bcdadfcb0978d1c402524",
+   "len": 2490
+  },
+  "nev-ake-1024-769-c/ref/msg1": {
+   "sha256_16": "b121ce99864d6f73de826ab9231bac19",
+   "len": 2253
+  },
+  "nev-ake-1024-769-c/ref/msg2": {
+   "sha256_16": "6a3367cab29a074536529e9808154be0",
+   "len": 2253
+  },
+  "nev-ake-1024-769-c/ref/key": {
+   "sha256_16": "da424119424e5a77a216868ebbb2b996",
+   "len": 32
+  },
+  "nev-ake-2048-769-c/ref/pk": {
+   "sha256_16": "f05ec8bf1c3123b1369652b9609d783b",
+   "len": 2458
+  },
+  "nev-ake-2048-769-c/ref/sk": {
+   "sha256_16": "8a0ef19f9c884d0ae056f3624779aaee",
+   "len": 4980
+  },
+  "nev-ake-2048-769-c/ref/msg1": {
+   "sha256_16": "04f4fa93f46809503df6512c9d31f743",
+   "len": 4506
+  },
+  "nev-ake-2048-769-c/ref/msg2": {
+   "sha256_16": "71dc25ad01140d0be195a5390b2cabbb",
+   "len": 4506
+  },
+  "nev-ake-2048-769-c/ref/key": {
+   "sha256_16": "514dd043f95307e22ad38da61ee8d21f",
+   "len": 64
+  },
+  "nev-ake-512-1409/ref/pk": {
+   "sha256_16": "5a848949f9d0c2b861d0bbdc7bf0efa4",
+   "len": 672
+  },
+  "nev-ake-512-1409/ref/sk": {
+   "sha256_16": "ab03511bc61a7dd7deebd986946d280e",
+   "len": 1360
+  },
+  "nev-ake-512-1409/ref/msg1": {
+   "sha256_16": "324efe65c0c838002859873fd6c73334",
+   "len": 1344
+  },
+  "nev-ake-512-1409/ref/msg2": {
+   "sha256_16": "c83761efa1f5e1153ffa8a5b4f4ad70b",
+   "len": 1344
+  },
+  "nev-ake-512-1409/ref/key": {
+   "sha256_16": "c4730bf9d0e514cfcab722c8e82f6837",
+   "len": 16
+  },
+  "nev-ake-1024-1409/ref/pk": {
+   "sha256_16": "893e3c976aa07d25eaf19ef600aa9a86",
+   "len": 1344
+  },
+  "nev-ake-1024-1409/ref/sk": {
+   "sha256_16": "634f5a0d24b2352f9f7ec9b97f621b38",
+   "len": 2720
+  },
+  "nev-ake-1024-1409/ref/msg1": {
+   "sha256_16": "5cf49ec9ba2158148af4752838e97dab",
+   "len": 2688
+  },
+  "nev-ake-1024-1409/ref/msg2": {
+   "sha256_16": "7814c083d7f51289d7b08f8b274412f0",
+   "len": 2688
+  },
+  "nev-ake-1024-1409/ref/key": {
+   "sha256_16": "f7fc913a0fea306c4fda7aa0147f55ff",
+   "len": 32
+  },
+  "nev-ake-2048-1409/ref/pk": {
+   "sha256_16": "434ead5e8005e3961a1c4a874b7ce68a",
+   "len": 2688
+  },
+  "nev-ake-2048-1409/ref/sk": {
+   "sha256_16": "79beb9a81743ff5b4b252729c29bbc16",
+   "len": 5440
+  },
+  "nev-ake-2048-1409/ref/msg1": {
+   "sha256_16": "1d6d8892beb28924618b5bdae37c7244",
+   "len": 5376
+  },
+  "nev-ake-2048-1409/ref/msg2": {
+   "sha256_16": "760790bdf8abd8577c49014837b63f7f",
+   "len": 5376
+  },
+  "nev-ake-2048-1409/ref/key": {
+   "sha256_16": "7c175d8bde8fa44ef0c0da441229467b",
+   "len": 64
+  },
+  "nev-ake-512-769/ref/pk": {
+   "sha256_16": "78982f2b2afa68dab0eb68e6de119def",
+   "len": 615
+  },
+  "nev-ake-512-769/ref/sk": {
+   "sha256_16": "c64e41da5503c96a26075ca186ef3051",
+   "len": 1246
+  },
+  "nev-ake-512-769/ref/msg1": {
+   "sha256_16": "ed9cebf83742726744f2c95538658d0e",
+   "len": 1230
+  },
+  "nev-ake-512-769/ref/msg2": {
+   "sha256_16": "67d544aedea97ace290836dd962b2a1f",
+   "len": 1230
+  },
+  "nev-ake-512-769/ref/key": {
+   "sha256_16": "04ccb98b6146deaf6aff208a88e11bc0",
+   "len": 16
+  },
+  "nev-ake-1024-769/ref/pk": {
+   "sha256_16": "c50d6a6dc97408e251cc9fb92d7df6f0",
+   "len": 1229
+  },
+  "nev-ake-1024-769/ref/sk": {
+   "sha256_16": "c88905e55deac77763e12b7657ed3594",
+   "len": 2490
+  },
+  "nev-ake-1024-769/ref/msg1": {
+   "sha256_16": "dede6e2c27abc9a92d5e7f29af4b8a34",
+   "len": 2458
+  },
+  "nev-ake-1024-769/ref/msg2": {
+   "sha256_16": "837fd67450b77a88cf2bd59cd7845d63",
+   "len": 2458
+  },
+  "nev-ake-1024-769/ref/key": {
+   "sha256_16": "38f128cb6f77e3d526a86172785baa59",
+   "len": 32
+  },
+  "nev-ake-2048-769/ref/pk": {
+   "sha256_16": "809cbf9a3c7936d116ce59dced455172",
+   "len": 2458
+  },
+  "nev-ake-2048-769/ref/sk": {
+   "sha256_16": "a56f1902245fca20b492d5bc0a9ae023",
+   "len": 4980
+  },
+  "nev-ake-2048-769/ref/msg1": {
+   "sha256_16": "249e4a643d5ee898db852aed2fb031e1",
+   "len": 4916
+  },
+  "nev-ake-2048-769/ref/msg2": {
+   "sha256_16": "0aab2512d308e10683ea1a70eca039e9",
+   "len": 4916
+  },
+  "nev-ake-2048-769/ref/key": {
+   "sha256_16": "d227b00ad35511ba0df828e40b7d068c",
+   "len": 64
+  },
+  "nev-ake-512-769-c/opt/pk": {
+   "sha256_16": "bdbed110f03378ee20edccecd8106b40",
+   "len": 615
+  },
+  "nev-ake-512-769-c/opt/sk": {
+   "sha256_16": "6afc7df888eed0f96a3efce9837d7bd7",
+   "len": 1246
+  },
+  "nev-ake-512-769-c/opt/msg1": {
+   "sha256_16": "89110c0edffbb2af58d3fee369149519",
+   "len": 1127
+  },
+  "nev-ake-512-769-c/opt/msg2": {
+   "sha256_16": "9c4afa60e7864cdd52b49574d6ccf7d9",
+   "len": 1127
+  },
+  "nev-ake-512-769-c/opt/key": {
+   "sha256_16": "5acb6dabc1e973bb9b78ccf446e1c6f2",
+   "len": 16
+  },
+  "nev-ake-1024-769-c/opt/pk": {
+   "sha256_16": "fa31bf508fd8f77f6c03fa9a13c060fe",
+   "len": 1229
+  },
+  "nev-ake-1024-769-c/opt/sk": {
+   "sha256_16": "16c7d1cb5f2bcdadfcb0978d1c402524",
+   "len": 2490
+  },
+  "nev-ake-1024-769-c/opt/msg1": {
+   "sha256_16": "b121ce99864d6f73de826ab9231bac19",
+   "len": 2253
+  },
+  "nev-ake-1024-769-c/opt/msg2": {
+   "sha256_16": "6a3367cab29a074536529e9808154be0",
+   "len": 2253
+  },
+  "nev-ake-1024-769-c/opt/key": {
+   "sha256_16": "da424119424e5a77a216868ebbb2b996",
+   "len": 32
+  },
+  "nev-ake-2048-769-c/opt/pk": {
+   "sha256_16": "f05ec8bf1c3123b1369652b9609d783b",
+   "len": 2458
+  },
+  "nev-ake-2048-769-c/opt/sk": {
+   "sha256_16": "8a0ef19f9c884d0ae056f3624779aaee",
+   "len": 4980
+  },
+  "nev-ake-2048-769-c/opt/msg1": {
+   "sha256_16": "04f4fa93f46809503df6512c9d31f743",
+   "len": 4506
+  },
+  "nev-ake-2048-769-c/opt/msg2": {
+   "sha256_16": "71dc25ad01140d0be195a5390b2cabbb",
+   "len": 4506
+  },
+  "nev-ake-2048-769-c/opt/key": {
+   "sha256_16": "514dd043f95307e22ad38da61ee8d21f",
+   "len": 64
+  },
+  "nev-ake-512-1409/opt/pk": {
+   "sha256_16": "5a848949f9d0c2b861d0bbdc7bf0efa4",
+   "len": 672
+  },
+  "nev-ake-512-1409/opt/sk": {
+   "sha256_16": "ab03511bc61a7dd7deebd986946d280e",
+   "len": 1360
+  },
+  "nev-ake-512-1409/opt/msg1": {
+   "sha256_16": "324efe65c0c838002859873fd6c73334",
+   "len": 1344
+  },
+  "nev-ake-512-1409/opt/msg2": {
+   "sha256_16": "c83761efa1f5e1153ffa8a5b4f4ad70b",
+   "len": 1344
+  },
+  "nev-ake-512-1409/opt/key": {
+   "sha256_16": "c4730bf9d0e514cfcab722c8e82f6837",
+   "len": 16
+  },
+  "nev-ake-1024-1409/opt/pk": {
+   "sha256_16": "893e3c976aa07d25eaf19ef600aa9a86",
+   "len": 1344
+  },
+  "nev-ake-1024-1409/opt/sk": {
+   "sha256_16": "634f5a0d24b2352f9f7ec9b97f621b38",
+   "len": 2720
+  },
+  "nev-ake-1024-1409/opt/msg1": {
+   "sha256_16": "5cf49ec9ba2158148af4752838e97dab",
+   "len": 2688
+  },
+  "nev-ake-1024-1409/opt/msg2": {
+   "sha256_16": "7814c083d7f51289d7b08f8b274412f0",
+   "len": 2688
+  },
+  "nev-ake-1024-1409/opt/key": {
+   "sha256_16": "f7fc913a0fea306c4fda7aa0147f55ff",
+   "len": 32
+  },
+  "nev-ake-2048-1409/opt/pk": {
+   "sha256_16": "434ead5e8005e3961a1c4a874b7ce68a",
+   "len": 2688
+  },
+  "nev-ake-2048-1409/opt/sk": {
+   "sha256_16": "79beb9a81743ff5b4b252729c29bbc16",
+   "len": 5440
+  },
+  "nev-ake-2048-1409/opt/msg1": {
+   "sha256_16": "1d6d8892beb28924618b5bdae37c7244",
+   "len": 5376
+  },
+  "nev-ake-2048-1409/opt/msg2": {
+   "sha256_16": "760790bdf8abd8577c49014837b63f7f",
+   "len": 5376
+  },
+  "nev-ake-2048-1409/opt/key": {
+   "sha256_16": "7c175d8bde8fa44ef0c0da441229467b",
+   "len": 64
+  },
+  "nev-ake-512-769/opt/pk": {
+   "sha256_16": "78982f2b2afa68dab0eb68e6de119def",
+   "len": 615
+  },
+  "nev-ake-512-769/opt/sk": {
+   "sha256_16": "c64e41da5503c96a26075ca186ef3051",
+   "len": 1246
+  },
+  "nev-ake-512-769/opt/msg1": {
+   "sha256_16": "ed9cebf83742726744f2c95538658d0e",
+   "len": 1230
+  },
+  "nev-ake-512-769/opt/msg2": {
+   "sha256_16": "67d544aedea97ace290836dd962b2a1f",
+   "len": 1230
+  },
+  "nev-ake-512-769/opt/key": {
+   "sha256_16": "04ccb98b6146deaf6aff208a88e11bc0",
+   "len": 16
+  },
+  "nev-ake-1024-769/opt/pk": {
+   "sha256_16": "c50d6a6dc97408e251cc9fb92d7df6f0",
+   "len": 1229
+  },
+  "nev-ake-1024-769/opt/sk": {
+   "sha256_16": "c88905e55deac77763e12b7657ed3594",
+   "len": 2490
+  },
+  "nev-ake-1024-769/opt/msg1": {
+   "sha256_16": "dede6e2c27abc9a92d5e7f29af4b8a34",
+   "len": 2458
+  },
+  "nev-ake-1024-769/opt/msg2": {
+   "sha256_16": "837fd67450b77a88cf2bd59cd7845d63",
+   "len": 2458
+  },
+  "nev-ake-1024-769/opt/key": {
+   "sha256_16": "38f128cb6f77e3d526a86172785baa59",
+   "len": 32
+  },
+  "nev-ake-2048-769/opt/pk": {
+   "sha256_16": "809cbf9a3c7936d116ce59dced455172",
+   "len": 2458
+  },
+  "nev-ake-2048-769/opt/sk": {
+   "sha256_16": "a56f1902245fca20b492d5bc0a9ae023",
+   "len": 4980
+  },
+  "nev-ake-2048-769/opt/msg1": {
+   "sha256_16": "249e4a643d5ee898db852aed2fb031e1",
+   "len": 4916
+  },
+  "nev-ake-2048-769/opt/msg2": {
+   "sha256_16": "0aab2512d308e10683ea1a70eca039e9",
+   "len": 4916
+  },
+  "nev-ake-2048-769/opt/key": {
+   "sha256_16": "d227b00ad35511ba0df828e40b7d068c",
+   "len": 64
+  }
+ },
+ "checks": {
+  "nev-ake-512-769-c/ref/tamper": "PASS",
+  "nev-ake-1024-769-c/ref/tamper": "PASS",
+  "nev-ake-2048-769-c/ref/tamper": "PASS",
+  "nev-ake-512-1409/ref/tamper": "PASS",
+  "nev-ake-1024-1409/ref/tamper": "PASS",
+  "nev-ake-2048-1409/ref/tamper": "PASS",
+  "nev-ake-512-769/ref/tamper": "PASS",
+  "nev-ake-1024-769/ref/tamper": "PASS",
+  "nev-ake-2048-769/ref/tamper": "PASS",
+  "nev-ake-512-769-c/opt/tamper": "PASS",
+  "nev-ake-1024-769-c/opt/tamper": "PASS",
+  "nev-ake-2048-769-c/opt/tamper": "PASS",
+  "nev-ake-512-1409/opt/tamper": "PASS",
+  "nev-ake-1024-1409/opt/tamper": "PASS",
+  "nev-ake-2048-1409/opt/tamper": "PASS",
+  "nev-ake-512-769/opt/tamper": "PASS",
+  "nev-ake-1024-769/opt/tamper": "PASS",
+  "nev-ake-2048-769/opt/tamper": "PASS"
+ },
+ "info": {
+  "heap": "free=102156 largest_block=81920",
+  "nev-ake-512-769-c": "ake pk=615 sk=1246 msg1=1127 msg2=1127 state=1758 key=16",
+  "nev-ake-1024-769-c": "ake pk=1229 sk=2490 msg1=2253 msg2=2253 state=3514 key=32",
+  "nev-ake-2048-769-c": "ake pk=2458 sk=4980 msg1=4506 msg2=4506 state=7028 key=64",
+  "nev-ake-512-1409": "ake pk=672 sk=1360 msg1=1344 msg2=1344 state=2032 key=16",
+  "nev-ake-1024-1409": "ake pk=1344 sk=2720 msg1=2688 msg2=2688 state=4064 key=32",
+  "nev-ake-2048-1409": "ake pk=2688 sk=5440 msg1=5376 msg2=5376 state=8128 key=64",
+  "nev-ake-512-769": "ake pk=615 sk=1246 msg1=1230 msg2=1230 state=1861 key=16",
+  "nev-ake-1024-769": "ake pk=1229 sk=2490 msg1=2458 msg2=2458 state=3719 key=32",
+  "nev-ake-2048-769": "ake pk=2458 sk=4980 msg1=4916 msg2=4916 state=7438 key=64"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 102156,
+ "heap_free_min": 28068
+}

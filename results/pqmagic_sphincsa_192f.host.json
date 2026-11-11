@@ -1,0 +1,213 @@
+{
+ "results": {
+  "sphincs-a-sha2-192f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 1610,
+   "min_us": 1505,
+   "max_us": 1680,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/ref/sign": {
+   "iters": 2,
+   "avg_us": 28562,
+   "min_us": 28351,
+   "max_us": 28774,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/ref/verify": {
+   "iters": 3,
+   "avg_us": 826,
+   "min_us": 821,
+   "max_us": 830,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1701,
+   "min_us": 1701,
+   "max_us": 1701,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 1555,
+   "min_us": 1494,
+   "max_us": 1668,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/ref/sign": {
+   "iters": 2,
+   "avg_us": 31428,
+   "min_us": 30860,
+   "max_us": 31996,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/ref/verify": {
+   "iters": 3,
+   "avg_us": 799,
+   "min_us": 786,
+   "max_us": 813,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1603,
+   "min_us": 1603,
+   "max_us": 1603,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 1287,
+   "min_us": 1276,
+   "max_us": 1307,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/opt/sign": {
+   "iters": 2,
+   "avg_us": 24144,
+   "min_us": 23268,
+   "max_us": 25021,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/opt/verify": {
+   "iters": 3,
+   "avg_us": 824,
+   "min_us": 760,
+   "max_us": 897,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-192f/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1922,
+   "min_us": 1922,
+   "max_us": 1922,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 1840,
+   "min_us": 1456,
+   "max_us": 2222,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/opt/sign": {
+   "iters": 2,
+   "avg_us": 29452,
+   "min_us": 29157,
+   "max_us": 29747,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/opt/verify": {
+   "iters": 3,
+   "avg_us": 844,
+   "min_us": 785,
+   "max_us": 927,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-192f/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1610,
+   "min_us": 1610,
+   "max_us": 1610,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "sphincs-a-sha2-192f/ref/pk": {
+   "sha256_16": "58017e00409824ea52a89ab102710d3b",
+   "len": 48
+  },
+  "sphincs-a-sha2-192f/ref/sk": {
+   "sha256_16": "be83e828a3ed5e7553564223b2b8103e",
+   "len": 96
+  },
+  "sphincs-a-sha2-192f/ref/sig": {
+   "sha256_16": "ec46da1782a47cb5f240c3b90c579b59",
+   "len": 34896
+  },
+  "sphincs-a-shake-192f/ref/pk": {
+   "sha256_16": "19d8bc42a96fa3cae3bad62ec34fde02",
+   "len": 48
+  },
+  "sphincs-a-shake-192f/ref/sk": {
+   "sha256_16": "8dd1ef8d6fbdd18573fe616703a51dcb",
+   "len": 96
+  },
+  "sphincs-a-shake-192f/ref/sig": {
+   "sha256_16": "a7406579f02f90ecbcf9f5fbf858bdf5",
+   "len": 34896
+  },
+  "sphincs-a-sha2-192f/opt/pk": {
+   "sha256_16": "58017e00409824ea52a89ab102710d3b",
+   "len": 48
+  },
+  "sphincs-a-sha2-192f/opt/sk": {
+   "sha256_16": "be83e828a3ed5e7553564223b2b8103e",
+   "len": 96
+  },
+  "sphincs-a-sha2-192f/opt/sig": {
+   "sha256_16": "ec46da1782a47cb5f240c3b90c579b59",
+   "len": 34896
+  },
+  "sphincs-a-shake-192f/opt/pk": {
+   "sha256_16": "19d8bc42a96fa3cae3bad62ec34fde02",
+   "len": 48
+  },
+  "sphincs-a-shake-192f/opt/sk": {
+   "sha256_16": "8dd1ef8d6fbdd18573fe616703a51dcb",
+   "len": 96
+  },
+  "sphincs-a-shake-192f/opt/sig": {
+   "sha256_16": "a7406579f02f90ecbcf9f5fbf858bdf5",
+   "len": 34896
+  }
+ },
+ "checks": {
+  "sphincs-a-sha2-192f/ref/tamper": "PASS",
+  "sphincs-a-shake-192f/ref/tamper": "PASS",
+  "sphincs-a-sha2-192f/opt/tamper": "PASS",
+  "sphincs-a-shake-192f/opt/tamper": "PASS"
+ },
+ "info": {
+  "sphincs-a-sha2-192f": "sig pk=48 sk=96 sig=34896 (max 34896)",
+  "sphincs-a-shake-192f": "sig pk=48 sk=96 sig=34896 (max 34896)"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

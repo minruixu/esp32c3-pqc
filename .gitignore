@@ -6,3 +6,5 @@ sdkconfig.old
 *.log
 __pycache__/
 .DS_Store
+# generated from fetched, unlicensed test vectors by suites/scloudplus/make_port.py
+suites/scloudplus/pqc_suite/kat_expected.h

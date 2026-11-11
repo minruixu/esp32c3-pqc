@@ -1,0 +1,12 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "heap": "free=162116 largest_block=114688"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 162116
+}

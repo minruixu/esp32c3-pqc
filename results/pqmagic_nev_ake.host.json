@@ -1,0 +1,1374 @@
+{
+ "results": {
+  "nev-ake-512-769-c/ref/keygen": {
+   "iters": 10,
+   "avg_us": 40,
+   "min_us": 4,
+   "max_us": 367,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 5,
+   "min_us": 5,
+   "max_us": 5,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/ref/init": {
+   "iters": 10,
+   "avg_us": 8,
+   "min_us": 7,
+   "max_us": 10,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/ref/response": {
+   "iters": 10,
+   "avg_us": 17,
+   "min_us": 16,
+   "max_us": 20,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/ref/finish": {
+   "iters": 10,
+   "avg_us": 12,
+   "min_us": 12,
+   "max_us": 13,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/ref/tamper": {
+   "iters": 1,
+   "avg_us": 25,
+   "min_us": 25,
+   "max_us": 25,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/ref/keygen": {
+   "iters": 10,
+   "avg_us": 48,
+   "min_us": 8,
+   "max_us": 410,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 9,
+   "min_us": 9,
+   "max_us": 9,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/ref/init": {
+   "iters": 10,
+   "avg_us": 15,
+   "min_us": 15,
+   "max_us": 18,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/ref/response": {
+   "iters": 10,
+   "avg_us": 37,
+   "min_us": 37,
+   "max_us": 40,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/ref/finish": {
+   "iters": 10,
+   "avg_us": 28,
+   "min_us": 28,
+   "max_us": 29,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/ref/tamper": {
+   "iters": 1,
+   "avg_us": 58,
+   "min_us": 58,
+   "max_us": 58,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/ref/keygen": {
+   "iters": 10,
+   "avg_us": 80,
+   "min_us": 22,
+   "max_us": 601,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 22,
+   "min_us": 22,
+   "max_us": 22,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/ref/init": {
+   "iters": 10,
+   "avg_us": 36,
+   "min_us": 36,
+   "max_us": 38,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/ref/response": {
+   "iters": 10,
+   "avg_us": 99,
+   "min_us": 98,
+   "max_us": 103,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/ref/finish": {
+   "iters": 10,
+   "avg_us": 82,
+   "min_us": 78,
+   "max_us": 101,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/ref/tamper": {
+   "iters": 1,
+   "avg_us": 174,
+   "min_us": 174,
+   "max_us": 174,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/ref/keygen": {
+   "iters": 10,
+   "avg_us": 28,
+   "min_us": 4,
+   "max_us": 242,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 5,
+   "min_us": 5,
+   "max_us": 5,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/ref/init": {
+   "iters": 10,
+   "avg_us": 8,
+   "min_us": 8,
+   "max_us": 10,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/ref/response": {
+   "iters": 10,
+   "avg_us": 17,
+   "min_us": 17,
+   "max_us": 19,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/ref/finish": {
+   "iters": 10,
+   "avg_us": 12,
+   "min_us": 12,
+   "max_us": 13,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/ref/tamper": {
+   "iters": 1,
+   "avg_us": 24,
+   "min_us": 24,
+   "max_us": 24,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/ref/keygen": {
+   "iters": 10,
+   "avg_us": 33,
+   "min_us": 10,
+   "max_us": 245,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 10,
+   "min_us": 10,
+   "max_us": 10,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/ref/init": {
+   "iters": 10,
+   "avg_us": 17,
+   "min_us": 17,
+   "max_us": 20,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/ref/response": {
+   "iters": 10,
+   "avg_us": 46,
+   "min_us": 37,
+   "max_us": 82,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/ref/finish": {
+   "iters": 10,
+   "avg_us": 28,
+   "min_us": 28,
+   "max_us": 29,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/ref/tamper": {
+   "iters": 1,
+   "avg_us": 56,
+   "min_us": 56,
+   "max_us": 56,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/ref/keygen": {
+   "iters": 10,
+   "avg_us": 57,
+   "min_us": 26,
+   "max_us": 338,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 27,
+   "min_us": 27,
+   "max_us": 27,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/ref/init": {
+   "iters": 10,
+   "avg_us": 43,
+   "min_us": 42,
+   "max_us": 45,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/ref/response": {
+   "iters": 10,
+   "avg_us": 112,
+   "min_us": 108,
+   "max_us": 121,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/ref/finish": {
+   "iters": 10,
+   "avg_us": 94,
+   "min_us": 90,
+   "max_us": 108,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/ref/tamper": {
+   "iters": 1,
+   "avg_us": 201,
+   "min_us": 201,
+   "max_us": 201,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/ref/keygen": {
+   "iters": 10,
+   "avg_us": 17,
+   "min_us": 4,
+   "max_us": 132,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 5,
+   "min_us": 5,
+   "max_us": 5,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/ref/init": {
+   "iters": 10,
+   "avg_us": 8,
+   "min_us": 8,
+   "max_us": 11,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/ref/response": {
+   "iters": 10,
+   "avg_us": 18,
+   "min_us": 18,
+   "max_us": 21,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/ref/finish": {
+   "iters": 10,
+   "avg_us": 13,
+   "min_us": 13,
+   "max_us": 14,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/ref/tamper": {
+   "iters": 1,
+   "avg_us": 26,
+   "min_us": 26,
+   "max_us": 26,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/ref/keygen": {
+   "iters": 10,
+   "avg_us": 28,
+   "min_us": 8,
+   "max_us": 206,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 9,
+   "min_us": 9,
+   "max_us": 9,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/ref/init": {
+   "iters": 10,
+   "avg_us": 16,
+   "min_us": 16,
+   "max_us": 19,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/ref/response": {
+   "iters": 10,
+   "avg_us": 40,
+   "min_us": 40,
+   "max_us": 42,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/ref/finish": {
+   "iters": 10,
+   "avg_us": 30,
+   "min_us": 30,
+   "max_us": 31,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/ref/tamper": {
+   "iters": 1,
+   "avg_us": 62,
+   "min_us": 62,
+   "max_us": 62,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/ref/keygen": {
+   "iters": 10,
+   "avg_us": 39,
+   "min_us": 22,
+   "max_us": 189,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/ref/keygen-peer": {
+   "iters": 1,
+   "avg_us": 23,
+   "min_us": 23,
+   "max_us": 23,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/ref/init": {
+   "iters": 10,
+   "avg_us": 39,
+   "min_us": 38,
+   "max_us": 51,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/ref/response": {
+   "iters": 10,
+   "avg_us": 109,
+   "min_us": 106,
+   "max_us": 119,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/ref/finish": {
+   "iters": 10,
+   "avg_us": 90,
+   "min_us": 85,
+   "max_us": 105,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/ref/tamper": {
+   "iters": 1,
+   "avg_us": 171,
+   "min_us": 171,
+   "max_us": 171,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/opt/keygen": {
+   "iters": 10,
+   "avg_us": 5,
+   "min_us": 4,
+   "max_us": 8,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 5,
+   "min_us": 5,
+   "max_us": 5,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/opt/init": {
+   "iters": 10,
+   "avg_us": 8,
+   "min_us": 7,
+   "max_us": 11,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/opt/response": {
+   "iters": 10,
+   "avg_us": 17,
+   "min_us": 16,
+   "max_us": 21,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/opt/finish": {
+   "iters": 10,
+   "avg_us": 12,
+   "min_us": 12,
+   "max_us": 13,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769-c/opt/tamper": {
+   "iters": 1,
+   "avg_us": 26,
+   "min_us": 26,
+   "max_us": 26,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/opt/keygen": {
+   "iters": 10,
+   "avg_us": 9,
+   "min_us": 8,
+   "max_us": 12,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 9,
+   "min_us": 9,
+   "max_us": 9,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/opt/init": {
+   "iters": 10,
+   "avg_us": 15,
+   "min_us": 15,
+   "max_us": 18,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/opt/response": {
+   "iters": 10,
+   "avg_us": 43,
+   "min_us": 37,
+   "max_us": 71,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/opt/finish": {
+   "iters": 10,
+   "avg_us": 28,
+   "min_us": 28,
+   "max_us": 29,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769-c/opt/tamper": {
+   "iters": 1,
+   "avg_us": 58,
+   "min_us": 58,
+   "max_us": 58,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/opt/keygen": {
+   "iters": 10,
+   "avg_us": 26,
+   "min_us": 22,
+   "max_us": 44,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 22,
+   "min_us": 22,
+   "max_us": 22,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/opt/init": {
+   "iters": 10,
+   "avg_us": 39,
+   "min_us": 36,
+   "max_us": 57,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/opt/response": {
+   "iters": 10,
+   "avg_us": 101,
+   "min_us": 98,
+   "max_us": 120,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/opt/finish": {
+   "iters": 10,
+   "avg_us": 80,
+   "min_us": 80,
+   "max_us": 82,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769-c/opt/tamper": {
+   "iters": 1,
+   "avg_us": 163,
+   "min_us": 163,
+   "max_us": 163,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/opt/keygen": {
+   "iters": 10,
+   "avg_us": 5,
+   "min_us": 4,
+   "max_us": 7,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 5,
+   "min_us": 5,
+   "max_us": 5,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/opt/init": {
+   "iters": 10,
+   "avg_us": 8,
+   "min_us": 8,
+   "max_us": 11,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/opt/response": {
+   "iters": 10,
+   "avg_us": 18,
+   "min_us": 18,
+   "max_us": 20,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/opt/finish": {
+   "iters": 10,
+   "avg_us": 14,
+   "min_us": 12,
+   "max_us": 33,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-1409/opt/tamper": {
+   "iters": 1,
+   "avg_us": 25,
+   "min_us": 25,
+   "max_us": 25,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/opt/keygen": {
+   "iters": 10,
+   "avg_us": 11,
+   "min_us": 10,
+   "max_us": 17,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 11,
+   "min_us": 11,
+   "max_us": 11,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/opt/init": {
+   "iters": 10,
+   "avg_us": 18,
+   "min_us": 18,
+   "max_us": 21,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/opt/response": {
+   "iters": 10,
+   "avg_us": 39,
+   "min_us": 38,
+   "max_us": 40,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/opt/finish": {
+   "iters": 10,
+   "avg_us": 31,
+   "min_us": 29,
+   "max_us": 50,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-1409/opt/tamper": {
+   "iters": 1,
+   "avg_us": 58,
+   "min_us": 58,
+   "max_us": 58,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/opt/keygen": {
+   "iters": 10,
+   "avg_us": 28,
+   "min_us": 27,
+   "max_us": 35,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 28,
+   "min_us": 28,
+   "max_us": 28,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/opt/init": {
+   "iters": 10,
+   "avg_us": 44,
+   "min_us": 44,
+   "max_us": 47,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/opt/response": {
+   "iters": 10,
+   "avg_us": 113,
+   "min_us": 112,
+   "max_us": 124,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/opt/finish": {
+   "iters": 10,
+   "avg_us": 93,
+   "min_us": 87,
+   "max_us": 130,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-1409/opt/tamper": {
+   "iters": 1,
+   "avg_us": 175,
+   "min_us": 175,
+   "max_us": 175,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/opt/keygen": {
+   "iters": 10,
+   "avg_us": 4,
+   "min_us": 4,
+   "max_us": 7,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 4,
+   "min_us": 4,
+   "max_us": 4,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/opt/init": {
+   "iters": 10,
+   "avg_us": 8,
+   "min_us": 8,
+   "max_us": 11,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/opt/response": {
+   "iters": 10,
+   "avg_us": 17,
+   "min_us": 17,
+   "max_us": 20,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/opt/finish": {
+   "iters": 10,
+   "avg_us": 12,
+   "min_us": 12,
+   "max_us": 13,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-512-769/opt/tamper": {
+   "iters": 1,
+   "avg_us": 25,
+   "min_us": 25,
+   "max_us": 25,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/opt/keygen": {
+   "iters": 10,
+   "avg_us": 8,
+   "min_us": 8,
+   "max_us": 12,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 8,
+   "min_us": 8,
+   "max_us": 8,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/opt/init": {
+   "iters": 10,
+   "avg_us": 15,
+   "min_us": 15,
+   "max_us": 19,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/opt/response": {
+   "iters": 10,
+   "avg_us": 38,
+   "min_us": 38,
+   "max_us": 40,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/opt/finish": {
+   "iters": 10,
+   "avg_us": 31,
+   "min_us": 29,
+   "max_us": 50,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-1024-769/opt/tamper": {
+   "iters": 1,
+   "avg_us": 59,
+   "min_us": 59,
+   "max_us": 59,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/opt/keygen": {
+   "iters": 10,
+   "avg_us": 22,
+   "min_us": 21,
+   "max_us": 26,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/opt/keygen-peer": {
+   "iters": 1,
+   "avg_us": 22,
+   "min_us": 22,
+   "max_us": 22,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/opt/init": {
+   "iters": 10,
+   "avg_us": 39,
+   "min_us": 36,
+   "max_us": 57,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/opt/response": {
+   "iters": 10,
+   "avg_us": 108,
+   "min_us": 101,
+   "max_us": 123,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/opt/finish": {
+   "iters": 10,
+   "avg_us": 84,
+   "min_us": 82,
+   "max_us": 103,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "nev-ake-2048-769/opt/tamper": {
+   "iters": 1,
+   "avg_us": 187,
+   "min_us": 187,
+   "max_us": 187,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "nev-ake-512-769-c/ref/pk": {
+   "sha256_16": "bdbed110f03378ee20edccecd8106b40",
+   "len": 615
+  },
+  "nev-ake-512-769-c/ref/sk": {
+   "sha256_16": "6afc7df888eed0f96a3efce9837d7bd7",
+   "len": 1246
+  },
+  "nev-ake-512-769-c/ref/msg1": {
+   "sha256_16": "89110c0edffbb2af58d3fee369149519",
+   "len": 1127
+  },
+  "nev-ake-512-769-c/ref/msg2": {
+   "sha256_16": "9c4afa60e7864cdd52b49574d6ccf7d9",
+   "len": 1127
+  },
+  "nev-ake-512-769-c/ref/key": {
+   "sha256_16": "5acb6dabc1e973bb9b78ccf446e1c6f2",
+   "len": 16
+  },
+  "nev-ake-1024-769-c/ref/pk": {
+   "sha256_16": "fa31bf508fd8f77f6c03fa9a13c060fe",
+   "len": 1229
+  },
+  "nev-ake-1024-769-c/ref/sk": {
+   "sha256_16": "16c7d1cb5f2bcdadfcb0978d1c402524",
+   "len": 2490
+  },
+  "nev-ake-1024-769-c/ref/msg1": {
+   "sha256_16": "b121ce99864d6f73de826ab9231bac19",
+   "len": 2253
+  },
+  "nev-ake-1024-769-c/ref/msg2": {
+   "sha256_16": "6a3367cab29a074536529e9808154be0",
+   "len": 2253
+  },
+  "nev-ake-1024-769-c/ref/key": {
+   "sha256_16": "da424119424e5a77a216868ebbb2b996",
+   "len": 32
+  },
+  "nev-ake-2048-769-c/ref/pk": {
+   "sha256_16": "f05ec8bf1c3123b1369652b9609d783b",
+   "len": 2458
+  },
+  "nev-ake-2048-769-c/ref/sk": {
+   "sha256_16": "8a0ef19f9c884d0ae056f3624779aaee",
+   "len": 4980
+  },
+  "nev-ake-2048-769-c/ref/msg1": {
+   "sha256_16": "04f4fa93f46809503df6512c9d31f743",
+   "len": 4506
+  },
+  "nev-ake-2048-769-c/ref/msg2": {
+   "sha256_16": "71dc25ad01140d0be195a5390b2cabbb",
+   "len": 4506
+  },
+  "nev-ake-2048-769-c/ref/key": {
+   "sha256_16": "514dd043f95307e22ad38da61ee8d21f",
+   "len": 64
+  },
+  "nev-ake-512-1409/ref/pk": {
+   "sha256_16": "5a848949f9d0c2b861d0bbdc7bf0efa4",
+   "len": 672
+  },
+  "nev-ake-512-1409/ref/sk": {
+   "sha256_16": "ab03511bc61a7dd7deebd986946d280e",
+   "len": 1360
+  },
+  "nev-ake-512-1409/ref/msg1": {
+   "sha256_16": "324efe65c0c838002859873fd6c73334",
+   "len": 1344
+  },
+  "nev-ake-512-1409/ref/msg2": {
+   "sha256_16": "c83761efa1f5e1153ffa8a5b4f4ad70b",
+   "len": 1344
+  },
+  "nev-ake-512-1409/ref/key": {
+   "sha256_16": "c4730bf9d0e514cfcab722c8e82f6837",
+   "len": 16
+  },
+  "nev-ake-1024-1409/ref/pk": {
+   "sha256_16": "893e3c976aa07d25eaf19ef600aa9a86",
+   "len": 1344
+  },
+  "nev-ake-1024-1409/ref/sk": {
+   "sha256_16": "634f5a0d24b2352f9f7ec9b97f621b38",
+   "len": 2720
+  },
+  "nev-ake-1024-1409/ref/msg1": {
+   "sha256_16": "5cf49ec9ba2158148af4752838e97dab",
+   "len": 2688
+  },
+  "nev-ake-1024-1409/ref/msg2": {
+   "sha256_16": "7814c083d7f51289d7b08f8b274412f0",
+   "len": 2688
+  },
+  "nev-ake-1024-1409/ref/key": {
+   "sha256_16": "f7fc913a0fea306c4fda7aa0147f55ff",
+   "len": 32
+  },
+  "nev-ake-2048-1409/ref/pk": {
+   "sha256_16": "434ead5e8005e3961a1c4a874b7ce68a",
+   "len": 2688
+  },
+  "nev-ake-2048-1409/ref/sk": {
+   "sha256_16": "79beb9a81743ff5b4b252729c29bbc16",
+   "len": 5440
+  },
+  "nev-ake-2048-1409/ref/msg1": {
+   "sha256_16": "1d6d8892beb28924618b5bdae37c7244",
+   "len": 5376
+  },
+  "nev-ake-2048-1409/ref/msg2": {
+   "sha256_16": "760790bdf8abd8577c49014837b63f7f",
+   "len": 5376
+  },
+  "nev-ake-2048-1409/ref/key": {
+   "sha256_16": "7c175d8bde8fa44ef0c0da441229467b",
+   "len": 64
+  },
+  "nev-ake-512-769/ref/pk": {
+   "sha256_16": "78982f2b2afa68dab0eb68e6de119def",
+   "len": 615
+  },
+  "nev-ake-512-769/ref/sk": {
+   "sha256_16": "c64e41da5503c96a26075ca186ef3051",
+   "len": 1246
+  },
+  "nev-ake-512-769/ref/msg1": {
+   "sha256_16": "ed9cebf83742726744f2c95538658d0e",
+   "len": 1230
+  },
+  "nev-ake-512-769/ref/msg2": {
+   "sha256_16": "67d544aedea97ace290836dd962b2a1f",
+   "len": 1230
+  },
+  "nev-ake-512-769/ref/key": {
+   "sha256_16": "04ccb98b6146deaf6aff208a88e11bc0",
+   "len": 16
+  },
+  "nev-ake-1024-769/ref/pk": {
+   "sha256_16": "c50d6a6dc97408e251cc9fb92d7df6f0",
+   "len": 1229
+  },
+  "nev-ake-1024-769/ref/sk": {
+   "sha256_16": "c88905e55deac77763e12b7657ed3594",
+   "len": 2490
+  },
+  "nev-ake-1024-769/ref/msg1": {
+   "sha256_16": "dede6e2c27abc9a92d5e7f29af4b8a34",
+   "len": 2458
+  },
+  "nev-ake-1024-769/ref/msg2": {
+   "sha256_16": "837fd67450b77a88cf2bd59cd7845d63",
+   "len": 2458
+  },
+  "nev-ake-1024-769/ref/key": {
+   "sha256_16": "38f128cb6f77e3d526a86172785baa59",
+   "len": 32
+  },
+  "nev-ake-2048-769/ref/pk": {
+   "sha256_16": "809cbf9a3c7936d116ce59dced455172",
+   "len": 2458
+  },
+  "nev-ake-2048-769/ref/sk": {
+   "sha256_16": "a56f1902245fca20b492d5bc0a9ae023",
+   "len": 4980
+  },
+  "nev-ake-2048-769/ref/msg1": {
+   "sha256_16": "249e4a643d5ee898db852aed2fb031e1",
+   "len": 4916
+  },
+  "nev-ake-2048-769/ref/msg2": {
+   "sha256_16": "0aab2512d308e10683ea1a70eca039e9",
+   "len": 4916
+  },
+  "nev-ake-2048-769/ref/key": {
+   "sha256_16": "d227b00ad35511ba0df828e40b7d068c",
+   "len": 64
+  },
+  "nev-ake-512-769-c/opt/pk": {
+   "sha256_16": "bdbed110f03378ee20edccecd8106b40",
+   "len": 615
+  },
+  "nev-ake-512-769-c/opt/sk": {
+   "sha256_16": "6afc7df888eed0f96a3efce9837d7bd7",
+   "len": 1246
+  },
+  "nev-ake-512-769-c/opt/msg1": {
+   "sha256_16": "89110c0edffbb2af58d3fee369149519",
+   "len": 1127
+  },
+  "nev-ake-512-769-c/opt/msg2": {
+   "sha256_16": "9c4afa60e7864cdd52b49574d6ccf7d9",
+   "len": 1127
+  },
+  "nev-ake-512-769-c/opt/key": {
+   "sha256_16": "5acb6dabc1e973bb9b78ccf446e1c6f2",
+   "len": 16
+  },
+  "nev-ake-1024-769-c/opt/pk": {
+   "sha256_16": "fa31bf508fd8f77f6c03fa9a13c060fe",
+   "len": 1229
+  },
+  "nev-ake-1024-769-c/opt/sk": {
+   "sha256_16": "16c7d1cb5f2bcdadfcb0978d1c402524",
+   "len": 2490
+  },
+  "nev-ake-1024-769-c/opt/msg1": {
+   "sha256_16": "b121ce99864d6f73de826ab9231bac19",
+   "len": 2253
+  },
+  "nev-ake-1024-769-c/opt/msg2": {
+   "sha256_16": "6a3367cab29a074536529e9808154be0",
+   "len": 2253
+  },
+  "nev-ake-1024-769-c/opt/key": {
+   "sha256_16": "da424119424e5a77a216868ebbb2b996",
+   "len": 32
+  },
+  "nev-ake-2048-769-c/opt/pk": {
+   "sha256_16": "f05ec8bf1c3123b1369652b9609d783b",
+   "len": 2458
+  },
+  "nev-ake-2048-769-c/opt/sk": {
+   "sha256_16": "8a0ef19f9c884d0ae056f3624779aaee",
+   "len": 4980
+  },
+  "nev-ake-2048-769-c/opt/msg1": {
+   "sha256_16": "04f4fa93f46809503df6512c9d31f743",
+   "len": 4506
+  },
+  "nev-ake-2048-769-c/opt/msg2": {
+   "sha256_16": "71dc25ad01140d0be195a5390b2cabbb",
+   "len": 4506
+  },
+  "nev-ake-2048-769-c/opt/key": {
+   "sha256_16": "514dd043f95307e22ad38da61ee8d21f",
+   "len": 64
+  },
+  "nev-ake-512-1409/opt/pk": {
+   "sha256_16": "5a848949f9d0c2b861d0bbdc7bf0efa4",
+   "len": 672
+  },
+  "nev-ake-512-1409/opt/sk": {
+   "sha256_16": "ab03511bc61a7dd7deebd986946d280e",
+   "len": 1360
+  },
+  "nev-ake-512-1409/opt/msg1": {
+   "sha256_16": "324efe65c0c838002859873fd6c73334",
+   "len": 1344
+  },
+  "nev-ake-512-1409/opt/msg2": {
+   "sha256_16": "c83761efa1f5e1153ffa8a5b4f4ad70b",
+   "len": 1344
+  },
+  "nev-ake-512-1409/opt/key": {
+   "sha256_16": "c4730bf9d0e514cfcab722c8e82f6837",
+   "len": 16
+  },
+  "nev-ake-1024-1409/opt/pk": {
+   "sha256_16": "893e3c976aa07d25eaf19ef600aa9a86",
+   "len": 1344
+  },
+  "nev-ake-1024-1409/opt/sk": {
+   "sha256_16": "634f5a0d24b2352f9f7ec9b97f621b38",
+   "len": 2720
+  },
+  "nev-ake-1024-1409/opt/msg1": {
+   "sha256_16": "5cf49ec9ba2158148af4752838e97dab",
+   "len": 2688
+  },
+  "nev-ake-1024-1409/opt/msg2": {
+   "sha256_16": "7814c083d7f51289d7b08f8b274412f0",
+   "len": 2688
+  },
+  "nev-ake-1024-1409/opt/key": {
+   "sha256_16": "f7fc913a0fea306c4fda7aa0147f55ff",
+   "len": 32
+  },
+  "nev-ake-2048-1409/opt/pk": {
+   "sha256_16": "434ead5e8005e3961a1c4a874b7ce68a",
+   "len": 2688
+  },
+  "nev-ake-2048-1409/opt/sk": {
+   "sha256_16": "79beb9a81743ff5b4b252729c29bbc16",
+   "len": 5440
+  },
+  "nev-ake-2048-1409/opt/msg1": {
+   "sha256_16": "1d6d8892beb28924618b5bdae37c7244",
+   "len": 5376
+  },
+  "nev-ake-2048-1409/opt/msg2": {
+   "sha256_16": "760790bdf8abd8577c49014837b63f7f",
+   "len": 5376
+  },
+  "nev-ake-2048-1409/opt/key": {
+   "sha256_16": "7c175d8bde8fa44ef0c0da441229467b",
+   "len": 64
+  },
+  "nev-ake-512-769/opt/pk": {
+   "sha256_16": "78982f2b2afa68dab0eb68e6de119def",
+   "len": 615
+  },
+  "nev-ake-512-769/opt/sk": {
+   "sha256_16": "c64e41da5503c96a26075ca186ef3051",
+   "len": 1246
+  },
+  "nev-ake-512-769/opt/msg1": {
+   "sha256_16": "ed9cebf83742726744f2c95538658d0e",
+   "len": 1230
+  },
+  "nev-ake-512-769/opt/msg2": {
+   "sha256_16": "67d544aedea97ace290836dd962b2a1f",
+   "len": 1230
+  },
+  "nev-ake-512-769/opt/key": {
+   "sha256_16": "04ccb98b6146deaf6aff208a88e11bc0",
+   "len": 16
+  },
+  "nev-ake-1024-769/opt/pk": {
+   "sha256_16": "c50d6a6dc97408e251cc9fb92d7df6f0",
+   "len": 1229
+  },
+  "nev-ake-1024-769/opt/sk": {
+   "sha256_16": "c88905e55deac77763e12b7657ed3594",
+   "len": 2490
+  },
+  "nev-ake-1024-769/opt/msg1": {
+   "sha256_16": "dede6e2c27abc9a92d5e7f29af4b8a34",
+   "len": 2458
+  },
+  "nev-ake-1024-769/opt/msg2": {
+   "sha256_16": "837fd67450b77a88cf2bd59cd7845d63",
+   "len": 2458
+  },
+  "nev-ake-1024-769/opt/key": {
+   "sha256_16": "38f128cb6f77e3d526a86172785baa59",
+   "len": 32
+  },
+  "nev-ake-2048-769/opt/pk": {
+   "sha256_16": "809cbf9a3c7936d116ce59dced455172",
+   "len": 2458
+  },
+  "nev-ake-2048-769/opt/sk": {
+   "sha256_16": "a56f1902245fca20b492d5bc0a9ae023",
+   "len": 4980
+  },
+  "nev-ake-2048-769/opt/msg1": {
+   "sha256_16": "249e4a643d5ee898db852aed2fb031e1",
+   "len": 4916
+  },
+  "nev-ake-2048-769/opt/msg2": {
+   "sha256_16": "0aab2512d308e10683ea1a70eca039e9",
+   "len": 4916
+  },
+  "nev-ake-2048-769/opt/key": {
+   "sha256_16": "d227b00ad35511ba0df828e40b7d068c",
+   "len": 64
+  }
+ },
+ "checks": {
+  "nev-ake-512-769-c/ref/tamper": "PASS",
+  "nev-ake-1024-769-c/ref/tamper": "PASS",
+  "nev-ake-2048-769-c/ref/tamper": "PASS",
+  "nev-ake-512-1409/ref/tamper": "PASS",
+  "nev-ake-1024-1409/ref/tamper": "PASS",
+  "nev-ake-2048-1409/ref/tamper": "PASS",
+  "nev-ake-512-769/ref/tamper": "PASS",
+  "nev-ake-1024-769/ref/tamper": "PASS",
+  "nev-ake-2048-769/ref/tamper": "PASS",
+  "nev-ake-512-769-c/opt/tamper": "PASS",
+  "nev-ake-1024-769-c/opt/tamper": "PASS",
+  "nev-ake-2048-769-c/opt/tamper": "PASS",
+  "nev-ake-512-1409/opt/tamper": "PASS",
+  "nev-ake-1024-1409/opt/tamper": "PASS",
+  "nev-ake-2048-1409/opt/tamper": "PASS",
+  "nev-ake-512-769/opt/tamper": "PASS",
+  "nev-ake-1024-769/opt/tamper": "PASS",
+  "nev-ake-2048-769/opt/tamper": "PASS"
+ },
+ "info": {
+  "nev-ake-512-769-c": "ake pk=615 sk=1246 msg1=1127 msg2=1127 state=1758 key=16",
+  "nev-ake-1024-769-c": "ake pk=1229 sk=2490 msg1=2253 msg2=2253 state=3514 key=32",
+  "nev-ake-2048-769-c": "ake pk=2458 sk=4980 msg1=4506 msg2=4506 state=7028 key=64",
+  "nev-ake-512-1409": "ake pk=672 sk=1360 msg1=1344 msg2=1344 state=2032 key=16",
+  "nev-ake-1024-1409": "ake pk=1344 sk=2720 msg1=2688 msg2=2688 state=4064 key=32",
+  "nev-ake-2048-1409": "ake pk=2688 sk=5440 msg1=5376 msg2=5376 state=8128 key=64",
+  "nev-ake-512-769": "ake pk=615 sk=1246 msg1=1230 msg2=1230 state=1861 key=16",
+  "nev-ake-1024-769": "ake pk=1229 sk=2490 msg1=2458 msg2=2458 state=3719 key=32",
+  "nev-ake-2048-769": "ake pk=2458 sk=4980 msg1=4916 msg2=4916 state=7438 key=64"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

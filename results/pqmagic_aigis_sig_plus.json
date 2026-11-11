@@ -1,0 +1,115 @@
+{
+ "results": {
+  "aigis-sig-plus-1/ref/keygen": {
+   "iters": 5,
+   "avg_us": 11285,
+   "min_us": 11283,
+   "max_us": 11287,
+   "stack": 35404,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/ref/sign": {
+   "iters": 10,
+   "avg_us": 46863,
+   "min_us": 46861,
+   "max_us": 46866,
+   "stack": 77228,
+   "heap": 112,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/ref/verify": {
+   "iters": 5,
+   "avg_us": 12373,
+   "min_us": 12372,
+   "max_us": 12377,
+   "stack": 47484,
+   "heap": 80,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/ref/tamper": {
+   "iters": 1,
+   "avg_us": 24260,
+   "min_us": 24260,
+   "max_us": 24260,
+   "stack": 47388,
+   "heap": 160,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/opt/keygen": {
+   "iters": 5,
+   "avg_us": 8279,
+   "min_us": 8276,
+   "max_us": 8283,
+   "stack": 35356,
+   "heap": 0,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/opt/sign": {
+   "iters": 10,
+   "avg_us": 38958,
+   "min_us": 38954,
+   "max_us": 38959,
+   "stack": 77228,
+   "heap": 112,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/opt/verify": {
+   "iters": 5,
+   "avg_us": 9644,
+   "min_us": 9641,
+   "max_us": 9646,
+   "stack": 47356,
+   "heap": 80,
+   "rc": 0
+  },
+  "aigis-sig-plus-1/opt/tamper": {
+   "iters": 1,
+   "avg_us": 18801,
+   "min_us": 18801,
+   "max_us": 18801,
+   "stack": 47388,
+   "heap": 160,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "aigis-sig-plus-1/ref/pk": {
+   "sha256_16": "849e1a6fc9020777eaa15e5eac73cb38",
+   "len": 928
+  },
+  "aigis-sig-plus-1/ref/sk": {
+   "sha256_16": "2e39253e06f06f7310976ced3e0b51d2",
+   "len": 2800
+  },
+  "aigis-sig-plus-1/ref/sig": {
+   "sha256_16": "8f4acdd4c680e4054fe484a3bf4fec4d",
+   "len": 2001
+  },
+  "aigis-sig-plus-1/opt/pk": {
+   "sha256_16": "849e1a6fc9020777eaa15e5eac73cb38",
+   "len": 928
+  },
+  "aigis-sig-plus-1/opt/sk": {
+   "sha256_16": "2e39253e06f06f7310976ced3e0b51d2",
+   "len": 2800
+  },
+  "aigis-sig-plus-1/opt/sig": {
+   "sha256_16": "8f4acdd4c680e4054fe484a3bf4fec4d",
+   "len": 2001
+  }
+ },
+ "checks": {
+  "aigis-sig-plus-1/ref/tamper": "PASS",
+  "aigis-sig-plus-1/opt/tamper": "PASS"
+ },
+ "info": {
+  "heap": "free=210336 largest_block=114688",
+  "aigis-sig-plus-1": "sig pk=928 sk=2800 sig=2001 (max 2015)"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 210336,
+ "heap_free_min": 119544
+}

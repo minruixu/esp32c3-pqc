@@ -1,0 +1,233 @@
+{
+ "results": {
+  "mldsa87-shake-pqmagic/ref/kat-fips204": {
+   "iters": 1,
+   "avg_us": 679,
+   "min_us": 679,
+   "max_us": 679,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/opt/kat-fips204": {
+   "iters": 1,
+   "avg_us": 573,
+   "min_us": 573,
+   "max_us": 573,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/ref/keygen": {
+   "iters": 5,
+   "avg_us": 634,
+   "min_us": 463,
+   "max_us": 781,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/ref/sign": {
+   "iters": 10,
+   "avg_us": 621,
+   "min_us": 450,
+   "max_us": 652,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/ref/verify": {
+   "iters": 5,
+   "avg_us": 431,
+   "min_us": 423,
+   "max_us": 445,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/ref/tamper": {
+   "iters": 1,
+   "avg_us": 972,
+   "min_us": 972,
+   "max_us": 972,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/ref/keygen": {
+   "iters": 5,
+   "avg_us": 116,
+   "min_us": 112,
+   "max_us": 125,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/ref/sign": {
+   "iters": 10,
+   "avg_us": 169,
+   "min_us": 166,
+   "max_us": 175,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/ref/verify": {
+   "iters": 5,
+   "avg_us": 118,
+   "min_us": 117,
+   "max_us": 120,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/ref/tamper": {
+   "iters": 1,
+   "avg_us": 233,
+   "min_us": 233,
+   "max_us": 233,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/opt/keygen": {
+   "iters": 5,
+   "avg_us": 492,
+   "min_us": 460,
+   "max_us": 517,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/opt/sign": {
+   "iters": 10,
+   "avg_us": 570,
+   "min_us": 532,
+   "max_us": 583,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/opt/verify": {
+   "iters": 5,
+   "avg_us": 473,
+   "min_us": 466,
+   "max_us": 481,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-sm3-pqmagic/opt/tamper": {
+   "iters": 1,
+   "avg_us": 911,
+   "min_us": 911,
+   "max_us": 911,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/opt/keygen": {
+   "iters": 5,
+   "avg_us": 98,
+   "min_us": 94,
+   "max_us": 105,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/opt/sign": {
+   "iters": 10,
+   "avg_us": 146,
+   "min_us": 140,
+   "max_us": 158,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/opt/verify": {
+   "iters": 5,
+   "avg_us": 99,
+   "min_us": 98,
+   "max_us": 102,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87-shake-pqmagic/opt/tamper": {
+   "iters": 1,
+   "avg_us": 202,
+   "min_us": 202,
+   "max_us": 202,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mldsa87-sm3-pqmagic/ref/pk": {
+   "sha256_16": "bf9510890e8eeb1f71cdf0913221498f",
+   "len": 2592
+  },
+  "mldsa87-sm3-pqmagic/ref/sk": {
+   "sha256_16": "37d743fc4128aee8de779d51fe0c791c",
+   "len": 4896
+  },
+  "mldsa87-sm3-pqmagic/ref/sig": {
+   "sha256_16": "bd23fe730e0c812ec6e9985ccba8d794",
+   "len": 4627
+  },
+  "mldsa87-shake-pqmagic/ref/pk": {
+   "sha256_16": "8439b62cb776684b663cfc2ae125e05c",
+   "len": 2592
+  },
+  "mldsa87-shake-pqmagic/ref/sk": {
+   "sha256_16": "c4d3a4e4a677e9250f69a3dddfd16821",
+   "len": 4896
+  },
+  "mldsa87-shake-pqmagic/ref/sig": {
+   "sha256_16": "a75b9fb8447b30e71ef303cbede2afeb",
+   "len": 4627
+  },
+  "mldsa87-sm3-pqmagic/opt/pk": {
+   "sha256_16": "bf9510890e8eeb1f71cdf0913221498f",
+   "len": 2592
+  },
+  "mldsa87-sm3-pqmagic/opt/sk": {
+   "sha256_16": "37d743fc4128aee8de779d51fe0c791c",
+   "len": 4896
+  },
+  "mldsa87-sm3-pqmagic/opt/sig": {
+   "sha256_16": "bd23fe730e0c812ec6e9985ccba8d794",
+   "len": 4627
+  },
+  "mldsa87-shake-pqmagic/opt/pk": {
+   "sha256_16": "8439b62cb776684b663cfc2ae125e05c",
+   "len": 2592
+  },
+  "mldsa87-shake-pqmagic/opt/sk": {
+   "sha256_16": "c4d3a4e4a677e9250f69a3dddfd16821",
+   "len": 4896
+  },
+  "mldsa87-shake-pqmagic/opt/sig": {
+   "sha256_16": "a75b9fb8447b30e71ef303cbede2afeb",
+   "len": 4627
+  }
+ },
+ "checks": {
+  "mldsa87-shake-pqmagic/ref/kat-fips204": "PASS",
+  "mldsa87-shake-pqmagic/opt/kat-fips204": "PASS",
+  "mldsa87-sm3-pqmagic/ref/tamper": "PASS",
+  "mldsa87-shake-pqmagic/ref/tamper": "PASS",
+  "mldsa87-sm3-pqmagic/opt/tamper": "PASS",
+  "mldsa87-shake-pqmagic/opt/tamper": "PASS"
+ },
+ "info": {
+  "mldsa87-sm3-pqmagic": "sig pk=2592 sk=4896 sig=4627 (max 4627)",
+  "mldsa87-shake-pqmagic": "sig pk=2592 sk=4896 sig=4627 (max 4627)"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

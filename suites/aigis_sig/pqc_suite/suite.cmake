@@ -1,0 +1,17 @@
+# Aigis-sig, parameter sets 1-3, with SM3 and with SHAKE (PQMagic).
+set(SUITE_DIR ${CMAKE_CURRENT_LIST_DIR})
+include(${SUITE_DIR}/../../pqmagic_common/pqmagic.cmake)
+
+set(SUITE_SRCS ${SUITE_DIR}/suite.c ${PQM_HASH_SRCS})
+foreach(mode 1 2 3)
+    foreach(hash sm3 shake)
+        list(APPEND SUITE_SRCS ${SUITE_DIR}/aigis_sig_${mode}_${hash}.c)
+    endforeach()
+endforeach()
+set(SUITE_INCS ${SUITE_DIR} ${PQM_INCS})
+set(SUITE_DEFS ${PQM_HASH_DEFS})
+if(AIGIS_SIG_LOWRAM)
+    list(APPEND SUITE_DEFS AIGIS_SIG_LOWRAM)
+endif()
+set(SUITE_COPTS)
+set(SUITE_DEVICE_SRCS)

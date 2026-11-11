@@ -1,0 +1,313 @@
+{
+ "results": {
+  "sphincs-a-sm3-128f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 192469,
+   "min_us": 180423,
+   "max_us": 216549,
+   "stack": 3332,
+   "heap": 65960,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/ref/sign": {
+   "iters": 2,
+   "avg_us": 4889350,
+   "min_us": 4889338,
+   "max_us": 4889363,
+   "stack": 2932,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/ref/verify": {
+   "iters": 3,
+   "avg_us": 258750,
+   "min_us": 258748,
+   "max_us": 258752,
+   "stack": 2624,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 517507,
+   "min_us": 517507,
+   "max_us": 517507,
+   "stack": 2656,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 159596,
+   "min_us": 159430,
+   "max_us": 159682,
+   "stack": 3228,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/ref/sign": {
+   "iters": 2,
+   "avg_us": 4110190,
+   "min_us": 4110160,
+   "max_us": 4110220,
+   "stack": 2684,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/ref/verify": {
+   "iters": 3,
+   "avg_us": 220499,
+   "min_us": 220499,
+   "max_us": 220499,
+   "stack": 2716,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 440991,
+   "min_us": 440991,
+   "max_us": 440991,
+   "stack": 2748,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 632896,
+   "min_us": 632729,
+   "max_us": 632995,
+   "stack": 3492,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/ref/sign": {
+   "iters": 2,
+   "avg_us": 16279785,
+   "min_us": 16279782,
+   "max_us": 16279789,
+   "stack": 3236,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/ref/verify": {
+   "iters": 3,
+   "avg_us": 835298,
+   "min_us": 835296,
+   "max_us": 835301,
+   "stack": 2852,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1670400,
+   "min_us": 1670400,
+   "max_us": 1670400,
+   "stack": 2884,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 127631,
+   "min_us": 127463,
+   "max_us": 127722,
+   "stack": 3476,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/opt/sign": {
+   "iters": 2,
+   "avg_us": 3454895,
+   "min_us": 3454883,
+   "max_us": 3454907,
+   "stack": 3076,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/opt/verify": {
+   "iters": 3,
+   "avg_us": 186010,
+   "min_us": 186008,
+   "max_us": 186013,
+   "stack": 2868,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sm3-128f/opt/tamper": {
+   "iters": 1,
+   "avg_us": 372029,
+   "min_us": 372029,
+   "max_us": 372029,
+   "stack": 2900,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 50409,
+   "min_us": 50243,
+   "max_us": 50495,
+   "stack": 3020,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/opt/sign": {
+   "iters": 2,
+   "avg_us": 1307275,
+   "min_us": 1307247,
+   "max_us": 1307303,
+   "stack": 2476,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/opt/verify": {
+   "iters": 3,
+   "avg_us": 77093,
+   "min_us": 77090,
+   "max_us": 77095,
+   "stack": 2508,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-sha2-128f/opt/tamper": {
+   "iters": 1,
+   "avg_us": 154178,
+   "min_us": 154178,
+   "max_us": 154178,
+   "stack": 2540,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 405795,
+   "min_us": 405627,
+   "max_us": 405892,
+   "stack": 3572,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/opt/sign": {
+   "iters": 2,
+   "avg_us": 10441363,
+   "min_us": 10441362,
+   "max_us": 10441365,
+   "stack": 3188,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/opt/verify": {
+   "iters": 3,
+   "avg_us": 539549,
+   "min_us": 539545,
+   "max_us": 539551,
+   "stack": 2804,
+   "heap": 0,
+   "rc": 0
+  },
+  "sphincs-a-shake-128f/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1078899,
+   "min_us": 1078899,
+   "max_us": 1078899,
+   "stack": 2836,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "sphincs-a-sm3-128f/ref/pk": {
+   "sha256_16": "1b572cd48b344e0ba59f5ae1efd762a3",
+   "len": 32
+  },
+  "sphincs-a-sm3-128f/ref/sk": {
+   "sha256_16": "8b99a3e7f477576d7f586d20541cc9e7",
+   "len": 64
+  },
+  "sphincs-a-sm3-128f/ref/sig": {
+   "sha256_16": "b744ed83874544dc666eaf8cb84b09ed",
+   "len": 16720
+  },
+  "sphincs-a-sha2-128f/ref/pk": {
+   "sha256_16": "b2552ad0a4896ccb9a813b76338da069",
+   "len": 32
+  },
+  "sphincs-a-sha2-128f/ref/sk": {
+   "sha256_16": "c6a841a3cca377b0ff633347a5bc91e2",
+   "len": 64
+  },
+  "sphincs-a-sha2-128f/ref/sig": {
+   "sha256_16": "cef874ace79ff236edf829aa1b79d476",
+   "len": 16720
+  },
+  "sphincs-a-shake-128f/ref/pk": {
+   "sha256_16": "090f5c988a151ff2d3b6d0143203a558",
+   "len": 32
+  },
+  "sphincs-a-shake-128f/ref/sk": {
+   "sha256_16": "71528203c92522a5aced40a5ab559ee0",
+   "len": 64
+  },
+  "sphincs-a-shake-128f/ref/sig": {
+   "sha256_16": "66b4b34f70adc284d829246d110bd479",
+   "len": 16720
+  },
+  "sphincs-a-sm3-128f/opt/pk": {
+   "sha256_16": "1b572cd48b344e0ba59f5ae1efd762a3",
+   "len": 32
+  },
+  "sphincs-a-sm3-128f/opt/sk": {
+   "sha256_16": "8b99a3e7f477576d7f586d20541cc9e7",
+   "len": 64
+  },
+  "sphincs-a-sm3-128f/opt/sig": {
+   "sha256_16": "b744ed83874544dc666eaf8cb84b09ed",
+   "len": 16720
+  },
+  "sphincs-a-sha2-128f/opt/pk": {
+   "sha256_16": "b2552ad0a4896ccb9a813b76338da069",
+   "len": 32
+  },
+  "sphincs-a-sha2-128f/opt/sk": {
+   "sha256_16": "c6a841a3cca377b0ff633347a5bc91e2",
+   "len": 64
+  },
+  "sphincs-a-sha2-128f/opt/sig": {
+   "sha256_16": "cef874ace79ff236edf829aa1b79d476",
+   "len": 16720
+  },
+  "sphincs-a-shake-128f/opt/pk": {
+   "sha256_16": "090f5c988a151ff2d3b6d0143203a558",
+   "len": 32
+  },
+  "sphincs-a-shake-128f/opt/sk": {
+   "sha256_16": "71528203c92522a5aced40a5ab559ee0",
+   "len": 64
+  },
+  "sphincs-a-shake-128f/opt/sig": {
+   "sha256_16": "66b4b34f70adc284d829246d110bd479",
+   "len": 16720
+  }
+ },
+ "checks": {
+  "sphincs-a-sm3-128f/ref/tamper": "PASS",
+  "sphincs-a-sha2-128f/ref/tamper": "PASS",
+  "sphincs-a-shake-128f/ref/tamper": "PASS",
+  "sphincs-a-sm3-128f/opt/tamper": "PASS",
+  "sphincs-a-sha2-128f/opt/tamper": "PASS",
+  "sphincs-a-shake-128f/opt/tamper": "PASS"
+ },
+ "info": {
+  "heap": "free=197648 largest_block=114688",
+  "sphincs-a-sm3-128f": "sig pk=32 sk=64 sig=16720 (max 16720)",
+  "sphincs-a-sha2-128f": "sig pk=32 sk=64 sig=16720 (max 16720)",
+  "sphincs-a-shake-128f": "sig pk=32 sk=64 sig=16720 (max 16720)"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 197648,
+ "heap_free_min": 110708
+}
