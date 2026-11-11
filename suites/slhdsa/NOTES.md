@@ -36,13 +36,13 @@ For every parameter set and for both variants:
   image fit: see the note on memory below.)
 
 The timed operations are these tests themselves. `tools/pqc check slhdsa`
-compares the fingerprints of all keys and signatures with a host run of the
-unmodified slhdsa-c code.
+compares the fingerprints of all keys and signatures with a host run in
+which both variants are slhdsa-c's own code path and C hash functions.
 
 `hosttest/run.sh` builds the suite for the build machine with the ESP32-C3
 code paths enabled and a register-level model of the SHA accelerator in
-place of the real one. It runs all the tests above in a few seconds, without
-the board. The model has the two properties the code relies on (registers
+place of the real one. It runs all the tests above in about a minute,
+without the board. The model has the two properties the code relies on (registers
 keep their contents; a start compresses the block as it is at that moment),
 and `suites/hashes` checks both on the real chip.
 
@@ -53,9 +53,68 @@ ESP32-C3 revision v1.1, 160 MHz, ESP-IDF v5.5.3, `-O2`, code in RAM.
 is described below. Times are milliseconds; stack is the peak of the task
 that ran the operation, in bytes. Nothing uses the heap.
 
-RESULTS_TABLE
+| Parameter set | pk / sk / sig bytes | Operation | ref ms | opt ms | Speedup | ref stack | opt stack |
+|---|---|---|---:|---:|---:|---:|---:|
+| SLH-DSA-SHA2-128s | 32 / 64 / 7856 | keygen | 8298 | 360 | 23.0x | 4092 | 4236 |
+|  |  | sign | 63481 | 2890 | 22.0x | 4300 | 4444 |
+|  |  | verify | 60.6 | 3.57 | 17.0x | 4268 | 3756 |
+| SLH-DSA-SHA2-128f | 32 / 64 / 17088 | keygen | 130 | 5.64 | 23.1x | 4092 | 4104 |
+|  |  | sign | 3057 | 143 | 21.4x | 4300 | 4312 |
+|  |  | verify | 177 | 9.79 | 18.1x | 4252 | 3756 |
+| SLH-DSA-SHA2-192s | 48 / 96 / 16224 | keygen | 12478 | 1022 | 12.2x | 4764 | 5356 |
+|  |  | sign | 130467 | 28863 | 4.5x | 4972 | 5564 |
+|  |  | verify | 112 | 32.8 | 3.4x | 4924 | 4124 |
+| SLH-DSA-SHA2-192f | 48 / 96 / 35664 | keygen | 195 | 16.0 | 12.2x | 4764 | 5356 |
+|  |  | sign | 5587 | 1013 | 5.5x | 4972 | 5564 |
+|  |  | verify | 309 | 56.5 | 5.5x | 4924 | 4124 |
+| SLH-DSA-SHA2-256s | 64 / 128 / 29792 | keygen | 8373 | 828 | 10.1x | 4764 | 6300 |
+|  |  | sign | 123245 | 35211 | 3.5x | 4972 | 6508 |
+|  |  | verify | 173 | 47.7 | 3.6x | 4924 | 4124 |
+| SLH-DSA-SHA2-256f | 64 / 128 / 49856 | keygen | 523 | 51.8 | 10.1x | 4764 | 6300 |
+|  |  | sign | 11679 | 2303 | 5.1x | 4972 | 6508 |
+|  |  | verify | 322 | 69.5 | 4.6x | 4924 | 4124 |
+| SLH-DSA-SHAKE-128s | 32 / 64 / 7856 | keygen | 34940 | 23255 | 1.5x | 3964 | 3980 |
+|  |  | sign | 265752 | 176747 | 1.5x | 4172 | 4188 |
+|  |  | verify | 272 | 181 | 1.5x | 4108 | 4140 |
+| SLH-DSA-SHAKE-128f | 32 / 64 / 17088 | keygen | 546 | 363 | 1.5x | 3964 | 3980 |
+|  |  | sign | 12751 | 8482 | 1.5x | 4172 | 4188 |
+|  |  | verify | 760 | 506 | 1.5x | 4108 | 4140 |
+| SLH-DSA-SHAKE-192s | 48 / 96 / 16224 | keygen | 51271 | 34008 | 1.5x | 3964 | 3980 |
+|  |  | sign | 463104 | 306182 | 1.5x | 4172 | 4188 |
+|  |  | verify | 380 | 252 | 1.5x | 4108 | 4140 |
+| SLH-DSA-SHAKE-192f | 48 / 96 / 35664 | keygen | 801 | 531 | 1.5x | 3964 | 3980 |
+|  |  | sign | 20739 | 13726 | 1.5x | 4172 | 4188 |
+|  |  | verify | 1112 | 739 | 1.5x | 4108 | 4140 |
+| SLH-DSA-SHAKE-256s | 64 / 128 / 29792 | keygen | 33985 | 22435 | 1.5x | 3964 | 3996 |
+|  |  | sign | 408292 | 267920 | 1.5x | 4172 | 4204 |
+|  |  | verify | 561 | 370 | 1.5x | 4108 | 4140 |
+| SLH-DSA-SHAKE-256f | 64 / 128 / 49856 | keygen | 2124 | 1402 | 1.5x | 3964 | 3996 |
+|  |  | sign | 42833 | 28196 | 1.5x | 4172 | 4204 |
+|  |  | verify | 1113 | 736 | 1.5x | 4108 | 4140 |
 
-RESULTS_REMARKS
+All 88 checks pass on the board, and all 72 fingerprints equal those of the
+host run (`tools/pqc check slhdsa`).
+
+- With SHA-2 at n = 16 everything is on the accelerator: 17 to 23 times
+  faster.
+- With SHA-2 at n = 24 and 32, key generation is 10 to 12 times faster, but
+  signing and verification only 3.4 to 5.5 times: what is left is SHA-512.
+  In a 256s signature, 360,000 FORS tree nodes are one SHA-512 compression
+  each; by that count, about 27 of the 35 seconds.
+- With SHAKE the gain is the Keccak permutation's, 1.5 times, the same for
+  every set and operation.
+- Signing with the "s" sets is one iteration. Three single operations took
+  longer than five minutes and were measured once each: signing with
+  SLH-DSA-SHAKE-192s (463 s ref, 306 s opt) and with SLH-DSA-SHAKE-256s ref
+  (408 s).
+
+How the numbers were collected: the `ref` rows, the SHAKE `opt` rows and the
+SHA-2 `opt` rows come from separate runs of images built at different
+points of the work. The code each of them exercises is the code in this
+tree (the reference code never changed; the SHAKE code did not change after
+its runs; the SHA-2 `opt` rows are from the final code). One full run of
+the final image was not done, because it holds the shared board for about
+an hour.
 
 ## The reference variant
 
@@ -111,7 +170,27 @@ parameter sets leave them unset.
 
 Measured steps, SLH-DSA-SHA2-128f on the board:
 
-STEPS_TABLE
+| Step | keygen ms | sign ms | verify ms |
+|---|---:|---:|---:|
+| slhdsa-c as it comes (`ref`) | 130.1 | 3057 | 176.7 |
+| Accelerator, one hash at a time, only changed words written | 8.05 | 193.3 | 11.95 |
+| Two hashes in flight | 5.64 | 143.4 | 10.62 |
+| Verification chains kept in registers | 5.64 | 142.7 | 9.79 |
+
+And SLH-DSA-SHA2-192f, where SHA-512 matters:
+
+| Step | keygen ms | sign ms | verify ms |
+|---|---:|---:|---:|
+| slhdsa-c as it comes (`ref`) | 195.0 | 5587 | 308.6 |
+| Accelerator for F and PRF, two hashes in flight, SHA-512 in C | 17.48 | 1194 | 67.2 |
+| SHA-512 in assembly, H and T_l from a native midstate | 15.91 | 1033 | 57.1 |
+| Block of H built from words, T_l blocks straight from the input | 16.00 | 1013 | 56.5 |
+
+One hash costs about 4200 cycles in slhdsa-c's C, 364 on the accelerator
+used plainly (load 8 words, write 16, run, read 4), about 280 with only the
+changed words written, and about 195 with two chains in flight. The
+intermediate rows are from the builds of those moments; all attempts are in
+`journal/experiments/slhdsa.jsonl`.
 
 ## The optimized variant, SHAKE sets
 
@@ -122,7 +201,10 @@ directly for F, PRF, H and the chain steps instead of going through
 slhdsa-c's incremental SHA-3 interface. Every one of these hashes is a
 single permutation.
 
-SHAKE_REMARKS
+A hash costs 80 microseconds with a permutation of 79, so there is little
+left around the permutation. How much of the 1.5 times comes from
+`slh_shake_fast.c` rather than from the permutation was not measured
+separately on the board; from the instruction counts it is a few percent.
 
 ## What did not work, or was left out
 
@@ -173,5 +255,5 @@ not looked at.
 - `slh_c3_wipe()` erases the words derived from SK.seed that
   `slh_sha2_c3.c` keeps between calls. Call it after signing.
 - The timings were taken with the code in RAM. In a flash build, put
-  `slh_sha2_c3.c` and `sha512_rv32.c` in RAM as well (IRAM) or expect cache
+  `slh_sha2_c3.c` and `sha512_rv32imc.S` in RAM as well (IRAM) or expect cache
   misses to add to them; this was not measured.

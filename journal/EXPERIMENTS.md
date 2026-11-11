@@ -470,7 +470,7 @@ Total: 47 kept, 4 partial, 9 rejected, 5 superseded.
 | xmss-03 | xmssmt-sha2_20-4_256/sign | avg_us | 520,694 | 391,058 | 1.33× | kept |
 | xmss-04 | */sk fingerprint | fingerprint | n/a | n/a |  | kept |
 | xmss-05 | xmssmt-shake256_20-4_256/keygen | avg_us | 61,263,783 | 37,124,842 | 1.65× | superseded |
-| xmss-06 | xmssmt-sha2_20-4_256/keygen | avg_us | 16,958,175 | 1,658,334 | 10× | kept |
+| xmss-06 | xmssmt-sha2_20-4_256/keygen | avg_us | 2,928,567 | 1,658,334 | 1.77× | kept |
 | xmss-07 | xmssmt-sha2_20-4_256/keygen | avg_us | 1,658,334 | 1,658,445 | 1.00× | kept |
 
 **xmss-01** (kept, 2026-11-11). All hash inputs are short and of fixed length. Build the padded blocks in place and call the compression function, instead of the one-shot hash API with its context and copies.
@@ -507,7 +507,7 @@ Total: 47 kept, 4 partial, 9 rejected, 5 superseded.
 
 - Change: suites/xmss/pqc_suite/hash_hw.c, hooked in through xmss_hw_prf, xmss_hw_thash_f, xmss_hw_thash_h
 - Checked by: WOTS+ vectors for OID 1 and 13 and public key vectors on the device + fingerprint + register model on the host
-- Note: before is the opt variant with the C SHA-256 (xmss-02, xmss-03). Sign 391058 -> 39937, verify 270042 -> 26296. n = 24 set: 16196414 -> 1405660. Height 10: xmss-sha2_10_256 keygen 235872081 (ref) -> 13022400. The same build with PRF, F and H going through the general hardware backend (-D XMSS_HW_HASH=off) was queued but not measured.
+- Note: before is the same build with PRF, F and H going through the general hardware backend pqc_sha256_compress_opt (-D XMSS_HW_HASH=off); with the C SHA-256 (xmss-02, xmss-03) it was 16958175. Sign 67532 -> 39937, verify 46856 -> 26296. n = 24 set: 2773284 -> 1405660. Height 10: xmss-sha2_10_256 keygen 235872081 (ref) -> 13022400.
 
 **xmss-07** (kept, 2026-11-11). components/prims is now linked with WHOLE_ARCHIVE; rebuild without the suite's own linker flags and measure again.
 

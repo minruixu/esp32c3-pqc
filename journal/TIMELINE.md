@@ -82,3 +82,20 @@ All dates 2026-11-11 unless noted.
     holds an optimized run of all 12 sets, and `slhdsa_v3`/`slhdsa_v4` are
     later partial runs of newer builds. Every job in them passes; they have
     not been rerun independently.
+12. **Correction to entry 11: the SLH-DSA and hash-primitive line finished.**
+    It resumed and delivered its report (`reports/B-slhdsa-hashes.md`). All 12
+    SLH-DSA parameter sets run on the board in both variants: 88 checks pass
+    (NIST ACVP keyGen and sigGen vectors, two sigVer vectors, tamper
+    rejection) and 72 fingerprints equal the host build. The SHA-2 sets gain
+    3.4x to 23x from the SHA-256 accelerator; at the 192 and 256 levels the
+    standard uses SHA-512 for part of the hashing, which the chip has no
+    hardware for, so those gain less. The SHAKE sets gain 1.5x. The rows were
+    collected from several runs, because one run of everything holds the board
+    for about an hour. The work-in-progress result files of entry 11 are
+    removed; `results/slhdsa.json` and `results/hashes.json` are the record.
+    Two things it found that concern every suite:
+    - An image that leaves only about 10 KB of the main RAM segment free
+      crashes at boot without any output; 20 KB is enough.
+    - A run started with `--no-build` loaded whatever binary was in the build
+      directory when it got the board, so a rebuild during the wait could hand
+      it a half-written image. `tools/pqc` now loads a private copy.

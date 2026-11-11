@@ -15,13 +15,16 @@ Nothing here writes to the board's flash: the program is loaded into RAM with
 `esptool load_ram`, and a reset brings the board's own firmware back.
 """
 import argparse
+import atexit
 import fcntl
 import glob
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
+import tempfile
 import time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -137,8 +140,14 @@ def device_run(binp, args):
     port = find_port()
     lines, raw = [], b""
     crash = None
+    # Load a private copy: while this run waits for the board, somebody else
+    # may rebuild the same build directory.
+    fd, image = tempfile.mkstemp(prefix="pqc_", suffix=".bin")
+    os.close(fd)
+    shutil.copyfile(binp, image)
+    atexit.register(lambda: os.path.exists(image) and os.unlink(image))
     with DeviceLock():
-        r = subprocess.run([sys.executable, "-m", "esptool", "-p", port, "--no-stub", "load_ram", binp],
+        r = subprocess.run([sys.executable, "-m", "esptool", "-p", port, "--no-stub", "load_ram", image],
                            capture_output=True, text=True)
         if r.returncode != 0:
             log(r.stdout[-1500:] + r.stderr[-1500:])
