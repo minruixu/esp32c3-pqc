@@ -3,4 +3,4 @@
 # block of the RAM image, so this image reserves its own memory for it.
 set(PQM_MLDSA_MODES 87)
 include(${CMAKE_CURRENT_LIST_DIR}/../../pqmagic_mldsa/pqc_suite/suite.cmake)
-list(APPEND SUITE_DEFS KEMSIG_EXTRA_HEAP=143360)
+list(APPEND SUITE_DEFS KEMSIG_EXTRA_HEAP=133120)

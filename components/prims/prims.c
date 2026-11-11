@@ -21,11 +21,29 @@ void (*pqc_sm3_compress_fn)(uint32_t *, const uint8_t *, size_t) = pqc_sm3_compr
 
 static int selected = PQC_PRIMS_REF;
 
+/* A suite can leave an optimized backend out of its image (prims_off.txt,
+ * see CMakeLists.txt); the linker then drops the unreferenced code. */
+#ifdef PQC_PRIMS_OFF_keccak
+#define KECCAK_OPT pqc_keccakf1600_ref
+#else
+#define KECCAK_OPT pqc_keccakf1600_opt
+#endif
+#ifdef PQC_PRIMS_OFF_sha256
+#define SHA256_OPT pqc_sha256_compress_ref
+#else
+#define SHA256_OPT pqc_sha256_compress_opt
+#endif
+#ifdef PQC_PRIMS_OFF_sm3
+#define SM3_OPT pqc_sm3_compress_ref
+#else
+#define SM3_OPT pqc_sm3_compress_opt
+#endif
+
 void pqc_prims_select_ex(int keccak, int sha256, int sm3)
 {
-    pqc_keccakf1600_fn = keccak ? pqc_keccakf1600_opt : pqc_keccakf1600_ref;
-    pqc_sha256_compress_fn = sha256 ? pqc_sha256_compress_opt : pqc_sha256_compress_ref;
-    pqc_sm3_compress_fn = sm3 ? pqc_sm3_compress_opt : pqc_sm3_compress_ref;
+    pqc_keccakf1600_fn = keccak ? KECCAK_OPT : pqc_keccakf1600_ref;
+    pqc_sha256_compress_fn = sha256 ? SHA256_OPT : pqc_sha256_compress_ref;
+    pqc_sm3_compress_fn = sm3 ? SM3_OPT : pqc_sm3_compress_ref;
 }
 
 void pqc_prims_select(int which)

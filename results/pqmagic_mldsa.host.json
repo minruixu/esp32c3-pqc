@@ -2,72 +2,72 @@
  "results": {
   "mldsa44-shake-pqmagic/ref/kat-fips204": {
    "iters": 1,
-   "avg_us": 178,
-   "min_us": 178,
-   "max_us": 178,
+   "avg_us": 623,
+   "min_us": 623,
+   "max_us": 623,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa65-shake-pqmagic/ref/kat-fips204": {
    "iters": 1,
-   "avg_us": 400,
-   "min_us": 400,
-   "max_us": 400,
+   "avg_us": 822,
+   "min_us": 822,
+   "max_us": 822,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa44-shake-pqmagic/opt/kat-fips204": {
    "iters": 1,
-   "avg_us": 129,
-   "min_us": 129,
-   "max_us": 129,
+   "avg_us": 136,
+   "min_us": 136,
+   "max_us": 136,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa65-shake-pqmagic/opt/kat-fips204": {
    "iters": 1,
-   "avg_us": 348,
-   "min_us": 348,
-   "max_us": 348,
+   "avg_us": 376,
+   "min_us": 376,
+   "max_us": 376,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa44-sm3-pqmagic/ref/keygen": {
    "iters": 5,
-   "avg_us": 131,
-   "min_us": 124,
-   "max_us": 146,
+   "avg_us": 176,
+   "min_us": 128,
+   "max_us": 346,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa44-sm3-pqmagic/ref/sign": {
    "iters": 10,
-   "avg_us": 296,
-   "min_us": 281,
-   "max_us": 337,
+   "avg_us": 321,
+   "min_us": 316,
+   "max_us": 331,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa44-sm3-pqmagic/ref/verify": {
    "iters": 5,
-   "avg_us": 101,
-   "min_us": 100,
-   "max_us": 103,
+   "avg_us": 114,
+   "min_us": 113,
+   "max_us": 119,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa44-sm3-pqmagic/ref/tamper": {
    "iters": 1,
-   "avg_us": 207,
-   "min_us": 207,
-   "max_us": 207,
+   "avg_us": 231,
+   "min_us": 231,
+   "max_us": 231,
    "stack": 0,
    "heap": 0,
    "rc": 0
@@ -75,7 +75,7 @@
   "mldsa44-shake-pqmagic/ref/keygen": {
    "iters": 5,
    "avg_us": 27,
-   "min_us": 26,
+   "min_us": 27,
    "max_us": 29,
    "stack": 0,
    "heap": 0,
@@ -83,23 +83,167 @@
   },
   "mldsa44-shake-pqmagic/ref/sign": {
    "iters": 10,
-   "avg_us": 48,
-   "min_us": 47,
-   "max_us": 54,
+   "avg_us": 49,
+   "min_us": 48,
+   "max_us": 51,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa44-shake-pqmagic/ref/verify": {
    "iters": 5,
-   "avg_us": 30,
-   "min_us": 29,
+   "avg_us": 31,
+   "min_us": 30,
    "max_us": 32,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa44-shake-pqmagic/ref/tamper": {
+   "iters": 1,
+   "avg_us": 62,
+   "min_us": 62,
+   "max_us": 62,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa65-sm3-pqmagic/ref/keygen": {
+   "iters": 5,
+   "avg_us": 309,
+   "min_us": 223,
+   "max_us": 655,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa65-sm3-pqmagic/ref/sign": {
+   "iters": 10,
+   "avg_us": 315,
+   "min_us": 307,
+   "max_us": 337,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa65-sm3-pqmagic/ref/verify": {
+   "iters": 5,
+   "avg_us": 188,
+   "min_us": 184,
+   "max_us": 199,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa65-sm3-pqmagic/ref/tamper": {
+   "iters": 1,
+   "avg_us": 374,
+   "min_us": 374,
+   "max_us": 374,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa65-shake-pqmagic/ref/keygen": {
+   "iters": 5,
+   "avg_us": 58,
+   "min_us": 57,
+   "max_us": 61,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa65-shake-pqmagic/ref/sign": {
+   "iters": 10,
+   "avg_us": 162,
+   "min_us": 151,
+   "max_us": 171,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa65-shake-pqmagic/ref/verify": {
+   "iters": 5,
+   "avg_us": 50,
+   "min_us": 49,
+   "max_us": 54,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa65-shake-pqmagic/ref/tamper": {
+   "iters": 1,
+   "avg_us": 104,
+   "min_us": 104,
+   "max_us": 104,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa44-sm3-pqmagic/opt/keygen": {
+   "iters": 5,
+   "avg_us": 122,
+   "min_us": 115,
+   "max_us": 127,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa44-sm3-pqmagic/opt/sign": {
+   "iters": 10,
+   "avg_us": 291,
+   "min_us": 288,
+   "max_us": 305,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa44-sm3-pqmagic/opt/verify": {
+   "iters": 5,
+   "avg_us": 100,
+   "min_us": 99,
+   "max_us": 101,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa44-sm3-pqmagic/opt/tamper": {
+   "iters": 1,
+   "avg_us": 209,
+   "min_us": 209,
+   "max_us": 209,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa44-shake-pqmagic/opt/keygen": {
+   "iters": 5,
+   "avg_us": 28,
+   "min_us": 25,
+   "max_us": 33,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa44-shake-pqmagic/opt/sign": {
+   "iters": 10,
+   "avg_us": 46,
+   "min_us": 45,
+   "max_us": 47,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa44-shake-pqmagic/opt/verify": {
+   "iters": 5,
+   "avg_us": 29,
+   "min_us": 29,
+   "max_us": 32,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa44-shake-pqmagic/opt/tamper": {
    "iters": 1,
    "avg_us": 59,
    "min_us": 59,
@@ -108,209 +252,65 @@
    "heap": 0,
    "rc": 0
   },
-  "mldsa65-sm3-pqmagic/ref/keygen": {
-   "iters": 5,
-   "avg_us": 240,
-   "min_us": 234,
-   "max_us": 264,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa65-sm3-pqmagic/ref/sign": {
-   "iters": 10,
-   "avg_us": 311,
-   "min_us": 296,
-   "max_us": 356,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa65-sm3-pqmagic/ref/verify": {
-   "iters": 5,
-   "avg_us": 180,
-   "min_us": 179,
-   "max_us": 183,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa65-sm3-pqmagic/ref/tamper": {
-   "iters": 1,
-   "avg_us": 359,
-   "min_us": 359,
-   "max_us": 359,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa65-shake-pqmagic/ref/keygen": {
-   "iters": 5,
-   "avg_us": 56,
-   "min_us": 55,
-   "max_us": 60,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa65-shake-pqmagic/ref/sign": {
-   "iters": 10,
-   "avg_us": 157,
-   "min_us": 155,
-   "max_us": 166,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa65-shake-pqmagic/ref/verify": {
-   "iters": 5,
-   "avg_us": 54,
-   "min_us": 47,
-   "max_us": 78,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa65-shake-pqmagic/ref/tamper": {
-   "iters": 1,
-   "avg_us": 95,
-   "min_us": 95,
-   "max_us": 95,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa44-sm3-pqmagic/opt/keygen": {
-   "iters": 5,
-   "avg_us": 111,
-   "min_us": 108,
-   "max_us": 115,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa44-sm3-pqmagic/opt/sign": {
-   "iters": 10,
-   "avg_us": 294,
-   "min_us": 274,
-   "max_us": 313,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa44-sm3-pqmagic/opt/verify": {
-   "iters": 5,
-   "avg_us": 95,
-   "min_us": 95,
-   "max_us": 97,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa44-sm3-pqmagic/opt/tamper": {
-   "iters": 1,
-   "avg_us": 190,
-   "min_us": 190,
-   "max_us": 190,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa44-shake-pqmagic/opt/keygen": {
-   "iters": 5,
-   "avg_us": 27,
-   "min_us": 26,
-   "max_us": 29,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa44-shake-pqmagic/opt/sign": {
-   "iters": 10,
-   "avg_us": 50,
-   "min_us": 47,
-   "max_us": 63,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa44-shake-pqmagic/opt/verify": {
-   "iters": 5,
-   "avg_us": 30,
-   "min_us": 30,
-   "max_us": 32,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
-  "mldsa44-shake-pqmagic/opt/tamper": {
-   "iters": 1,
-   "avg_us": 60,
-   "min_us": 60,
-   "max_us": 60,
-   "stack": 0,
-   "heap": 0,
-   "rc": 0
-  },
   "mldsa65-sm3-pqmagic/opt/keygen": {
    "iters": 5,
-   "avg_us": 221,
-   "min_us": 203,
-   "max_us": 235,
+   "avg_us": 198,
+   "min_us": 194,
+   "max_us": 203,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa65-sm3-pqmagic/opt/sign": {
    "iters": 10,
-   "avg_us": 288,
-   "min_us": 284,
-   "max_us": 304,
+   "avg_us": 285,
+   "min_us": 275,
+   "max_us": 302,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa65-sm3-pqmagic/opt/verify": {
    "iters": 5,
-   "avg_us": 185,
-   "min_us": 172,
-   "max_us": 197,
+   "avg_us": 183,
+   "min_us": 178,
+   "max_us": 188,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa65-sm3-pqmagic/opt/tamper": {
    "iters": 1,
-   "avg_us": 349,
-   "min_us": 349,
-   "max_us": 349,
+   "avg_us": 369,
+   "min_us": 369,
+   "max_us": 369,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa65-shake-pqmagic/opt/keygen": {
    "iters": 5,
-   "avg_us": 67,
-   "min_us": 55,
-   "max_us": 88,
+   "avg_us": 52,
+   "min_us": 51,
+   "max_us": 53,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa65-shake-pqmagic/opt/sign": {
    "iters": 10,
-   "avg_us": 174,
-   "min_us": 156,
-   "max_us": 206,
+   "avg_us": 157,
+   "min_us": 152,
+   "max_us": 161,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "mldsa65-shake-pqmagic/opt/verify": {
    "iters": 5,
-   "avg_us": 49,
-   "min_us": 47,
-   "max_us": 53,
+   "avg_us": 50,
+   "min_us": 49,
+   "max_us": 52,
    "stack": 0,
    "heap": 0,
    "rc": 0

@@ -4,7 +4,7 @@
    "iters": 10,
    "avg_us": 4907,
    "min_us": 4886,
-   "max_us": 4926,
+   "max_us": 4925,
    "stack": 7956,
    "heap": 960,
    "rc": 0
@@ -12,7 +12,7 @@
   "lac-light/ref/encaps": {
    "iters": 10,
    "avg_us": 6966,
-   "min_us": 6952,
+   "min_us": 6951,
    "max_us": 6974,
    "stack": 12252,
    "heap": 960,
@@ -38,8 +38,8 @@
   },
   "lac-128/ref/keygen": {
    "iters": 10,
-   "avg_us": 8779,
-   "min_us": 8762,
+   "avg_us": 8778,
+   "min_us": 8761,
    "max_us": 8790,
    "stack": 8884,
    "heap": 960,
@@ -49,7 +49,7 @@
    "iters": 10,
    "avg_us": 13716,
    "min_us": 13686,
-   "max_us": 13744,
+   "max_us": 13745,
    "stack": 12404,
    "heap": 960,
    "rc": 0
@@ -65,9 +65,9 @@
   },
   "lac-128/ref/tamper": {
    "iters": 1,
-   "avg_us": 17543,
-   "min_us": 17543,
-   "max_us": 17543,
+   "avg_us": 17542,
+   "min_us": 17542,
+   "max_us": 17542,
    "stack": 13676,
    "heap": 960,
    "rc": 0
@@ -111,16 +111,16 @@
   "lac-256/ref/keygen": {
    "iters": 10,
    "avg_us": 18540,
-   "min_us": 18492,
-   "max_us": 18571,
+   "min_us": 18491,
+   "max_us": 18570,
    "stack": 15828,
    "heap": 960,
    "rc": 0
   },
   "lac-256/ref/encaps": {
    "iters": 10,
-   "avg_us": 31423,
-   "min_us": 31327,
+   "avg_us": 31422,
+   "min_us": 31326,
    "max_us": 31517,
    "stack": 24228,
    "heap": 960,
@@ -129,17 +129,17 @@
   "lac-256/ref/decaps": {
    "iters": 10,
    "avg_us": 43095,
-   "min_us": 43094,
-   "max_us": 43099,
+   "min_us": 43093,
+   "max_us": 43098,
    "stack": 27172,
    "heap": 960,
    "rc": 0
   },
   "lac-256/ref/tamper": {
    "iters": 1,
-   "avg_us": 44005,
-   "min_us": 44005,
-   "max_us": 44005,
+   "avg_us": 44004,
+   "min_us": 44004,
+   "max_us": 44004,
    "stack": 27172,
    "heap": 960,
    "rc": 0
@@ -155,27 +155,27 @@
   },
   "lac-light/opt/encaps": {
    "iters": 10,
-   "avg_us": 3535,
-   "min_us": 3518,
-   "max_us": 3544,
+   "avg_us": 3480,
+   "min_us": 3464,
+   "max_us": 3490,
    "stack": 12388,
    "heap": 0,
    "rc": 0
   },
   "lac-light/opt/decaps": {
    "iters": 10,
-   "avg_us": 4693,
-   "min_us": 4691,
-   "max_us": 4696,
+   "avg_us": 4638,
+   "min_us": 4636,
+   "max_us": 4642,
    "stack": 13548,
    "heap": 0,
    "rc": 0
   },
   "lac-light/opt/tamper": {
    "iters": 1,
-   "avg_us": 5100,
-   "min_us": 5100,
-   "max_us": 5100,
+   "avg_us": 4673,
+   "min_us": 4673,
+   "max_us": 4673,
    "stack": 13548,
    "heap": 0,
    "rc": 0
@@ -191,27 +191,27 @@
   },
   "lac-128/opt/encaps": {
    "iters": 10,
-   "avg_us": 7696,
-   "min_us": 7665,
-   "max_us": 7724,
+   "avg_us": 7642,
+   "min_us": 7610,
+   "max_us": 7669,
    "stack": 12404,
    "heap": 0,
    "rc": 0
   },
   "lac-128/opt/decaps": {
    "iters": 10,
-   "avg_us": 10997,
-   "min_us": 10996,
-   "max_us": 11002,
+   "avg_us": 10942,
+   "min_us": 10942,
+   "max_us": 10943,
    "stack": 13812,
    "heap": 0,
    "rc": 0
   },
   "lac-128/opt/tamper": {
    "iters": 1,
-   "avg_us": 11525,
-   "min_us": 11525,
-   "max_us": 11525,
+   "avg_us": 10983,
+   "min_us": 10983,
+   "max_us": 10983,
    "stack": 13812,
    "heap": 0,
    "rc": 0
@@ -227,63 +227,63 @@
   },
   "lac-192/opt/encaps": {
    "iters": 10,
-   "avg_us": 13865,
-   "min_us": 13776,
-   "max_us": 13933,
+   "avg_us": 13789,
+   "min_us": 13700,
+   "max_us": 13858,
    "stack": 24212,
    "heap": 0,
    "rc": 0
   },
   "lac-192/opt/decaps": {
    "iters": 10,
-   "avg_us": 19533,
-   "min_us": 19529,
-   "max_us": 19534,
-   "stack": 26796,
+   "avg_us": 19457,
+   "min_us": 19454,
+   "max_us": 19459,
+   "stack": 26932,
    "heap": 0,
    "rc": 0
   },
   "lac-192/opt/tamper": {
    "iters": 1,
-   "avg_us": 20299,
-   "min_us": 20299,
-   "max_us": 20299,
+   "avg_us": 19501,
+   "min_us": 19501,
+   "max_us": 19501,
    "stack": 26796,
    "heap": 0,
    "rc": 0
   },
   "lac-256/opt/keygen": {
    "iters": 10,
-   "avg_us": 12439,
+   "avg_us": 12438,
    "min_us": 12389,
-   "max_us": 12472,
+   "max_us": 12471,
    "stack": 15129,
    "heap": 0,
    "rc": 0
   },
   "lac-256/opt/encaps": {
    "iters": 10,
-   "avg_us": 23131,
-   "min_us": 23035,
-   "max_us": 23224,
+   "avg_us": 23055,
+   "min_us": 22958,
+   "max_us": 23149,
    "stack": 24228,
    "heap": 0,
    "rc": 0
   },
   "lac-256/opt/decaps": {
    "iters": 10,
-   "avg_us": 34804,
-   "min_us": 34802,
-   "max_us": 34807,
+   "avg_us": 34727,
+   "min_us": 34725,
+   "max_us": 34731,
    "stack": 27172,
    "heap": 0,
    "rc": 0
   },
   "lac-256/opt/tamper": {
    "iters": 1,
-   "avg_us": 35712,
-   "min_us": 35712,
-   "max_us": 35712,
+   "avg_us": 34779,
+   "min_us": 34779,
+   "max_us": 34779,
    "stack": 27172,
    "heap": 0,
    "rc": 0
@@ -430,7 +430,7 @@
   "lac-256/opt/tamper": "PASS"
  },
  "info": {
-  "heap": "free=224368 largest_block=114688",
+  "heap": "free=209824 largest_block=114688",
   "lac-light": "kem pk=544 sk=800 ct=648 ss=16",
   "lac-128": "kem pk=544 sk=1056 ct=704 ss=16",
   "lac-192": "kem pk=1056 sk=1568 ct=1352 ss=32",
@@ -439,6 +439,6 @@
  "complete": true,
  "fails": 0,
  "cpu_mhz": 160,
- "heap_free_start": 224368,
- "heap_free_min": 157524
+ "heap_free_start": 209824,
+ "heap_free_min": 142980
 }

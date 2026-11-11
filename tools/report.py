@@ -178,7 +178,7 @@ def cell(table, alg, ops):
         opt = opt if opt and opt["rc"] == 0 else None
         if ref and opt:
             x = ref["avg_us"] / opt["avg_us"] if opt["avg_us"] else 0
-            if 0.98 < x < 1.02:
+            if 0.95 < x < 1.05:
                 return fmt_time(opt["avg_us"])
             return "%s → %s (%.1f×)" % (fmt_time(ref["avg_us"]), fmt_time(opt["avg_us"]), x)
         only = opt or ref
@@ -224,8 +224,75 @@ def summary():
     return out
 
 
+# ---------------------------------------------------------------------------
+# The table in the READMEs: one representative parameter set per family.
+
+HIGHLIGHTS = [
+    ("ML-KEM-768", ["mlkem"], "mlkem768"),
+    ("ML-DSA-65", ["mldsa"], "mldsa65"),
+    ("SLH-DSA-SHA2-128f", ["slhdsa"], "slhdsa-sha2-128f"),
+    ("SLH-DSA-SHA2-128s", ["slhdsa"], "slhdsa-sha2-128s"),
+    ("FN-DSA-512 (Falcon)", ["fndsa"], "fndsa512"),
+    ("HQC-1", ["hqc"], "hqc1"),
+    ("LMS-SHA256 H10/W4", ["lms"], "lms-sha256-m32-h10-w4"),
+    ("XMSS-SHA2_10_256", ["xmss"], "xmss-sha2_10_256"),
+    ("Aigis-enc-2 (SM3)", ["aigis_enc"], "aigis-enc-2-sm3"),
+    ("Aigis-sig-2 (SM3)", ["aigis_sig"], "aigis-sig-2-sm3"),
+    ("ML-KEM-768 with SM3", ["pqmagic_mlkem"], "mlkem768-sm3-pqmagic"),
+    ("ML-DSA-65 with SM3", ["pqmagic_mldsa"], "mldsa65-sm3-pqmagic"),
+    ("LAC-128", ["lac"], "lac-128"),
+    ("SCloud+-128 (AES)", ["scloudplus"], "scloudplus-128-aes"),
+    ("NEV-512", ["pqmagic_nev"], "nev-512-769-c"),
+    ("Aigis-Enc+-512", ["pqmagic_aigis_enc_plus"], "aigis-enc-plus-512"),
+]
+README_HEAD = {
+    "README.md": ["Algorithm", "Key generation", "Encapsulation / signing", "Decapsulation / verification",
+                  "Stack + heap"],
+    "README.zh-CN.md": ["算法", "密钥生成", "封装 / 签名", "解封装 / 验签", "栈 + 堆"],
+}
+
+
+def readme_rows():
+    rows = []
+    main_ops = [o for _c, ops in COLS for o in ops]
+    for label, suites, alg in HIGHLIGHTS:
+        table = {}
+        for s in suites:
+            path = os.path.join(RESULTS, s + ".json")
+            if os.path.exists(path):
+                for job, r in json.load(open(path)).get("results", {}).items():
+                    table.setdefault(split(job), r)
+        if not any(a == alg for (a, _v, _o) in table):
+            continue
+        cells = [cell(table, alg, ops) for _c, ops in COLS]
+        pref = [r for (a, v, o), r in table.items() if a == alg and o in main_ops and r["rc"] == 0 and v == "opt"]
+        anyv = pref or [r for (a, v, o), r in table.items() if a == alg and o in main_ops and r["rc"] == 0]
+        ram = max([r["stack"] + r.get("heap", 0) for r in anyv] or [0])
+        rows.append([label] + cells + [fmt_kb(ram)])
+    return rows
+
+
+def fill_readmes():
+    rows = readme_rows()
+    for name, head in README_HEAD.items():
+        path = os.path.join(ROOT, name)
+        if not os.path.exists(path):
+            continue
+        text = open(path).read()
+        a, b = "<!-- results:begin -->", "<!-- results:end -->"
+        if a not in text or b not in text:
+            continue
+        block = ["| " + " | ".join(head) + " |", "|---|---:|---:|---:|---:|"]
+        block += ["| " + " | ".join(r) + " |" for r in rows]
+        text = text[:text.index(a) + len(a)] + "\n" + "\n".join(block) + "\n" + text[text.index(b):]
+        with open(path, "w") as fh:
+            fh.write(text)
+    return len(rows)
+
+
 def main():
-    files = sorted(f for f in glob.glob(os.path.join(RESULTS, "*.json")) if not f.endswith(".host.json"))
+    files = sorted(f for f in glob.glob(os.path.join(RESULTS, "*.json")) if not f.endswith(".host.json")
+                   and os.path.isdir(os.path.join(ROOT, "suites", os.path.basename(f)[:-5])))
     out = ["# Results", "",
            "Measured on an ESP32-C3 (RV32IMC, 160 MHz) with every suite loaded into RAM.",
            "`ref` is the upstream portable code; `opt` adds this project's ESP32-C3 optimizations.",
@@ -250,6 +317,7 @@ def main():
     else:
         with open(os.path.join(ROOT, "docs", "SUMMARY.md"), "w") as fh:
             fh.write(stext)
+        print("README tables: %d rows" % fill_readmes())
         with open(os.path.join(ROOT, "docs", "RESULTS.md"), "w") as fh:
             fh.write(text)
         print("wrote docs/RESULTS.md (%d suites)" % len(files))

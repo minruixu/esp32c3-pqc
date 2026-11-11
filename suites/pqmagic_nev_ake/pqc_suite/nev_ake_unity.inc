@@ -32,4 +32,4 @@
 
 const ake_alg PQM_ALG = {
     PQM_NAME, KEM_PUBLICKEYBYTES, KEM_SECRETKEYBYTES, AKE_M1_BYTES, AKE_ST_BYTES, AKE_M2_BYTES,
-    SEED_BYTES, ake_party_keygen, ake_init, ake_der_response, ake_der_init, 72 * 1024, 10};
+    SEED_BYTES, ake_party_keygen, ake_init, ake_der_response, ake_der_init, 60 * 1024, 10};
