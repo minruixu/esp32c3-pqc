@@ -202,7 +202,7 @@ def save_results(name, kind, parsed, lines, merge):
                 old[k] = parsed[k]
         parsed = old
     with open(path, "w") as f:
-        json.dump(parsed, f, indent=1, sort_keys=True)
+        json.dump(parsed, f, indent=1)
         f.write("\n")
     return path
 
