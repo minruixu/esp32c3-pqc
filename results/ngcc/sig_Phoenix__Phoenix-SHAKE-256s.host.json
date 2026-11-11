@@ -1,0 +1,101 @@
+{
+ "results": {
+  "phoenix-shake-256s/ref/kat": {
+   "iters": 1,
+   "avg_us": 1114196,
+   "min_us": 1114196,
+   "max_us": 1114196,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "phoenix-shake-256s/ref/keygen": {
+   "iters": 3,
+   "avg_us": 73291,
+   "min_us": 69768,
+   "max_us": 80058,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "phoenix-shake-256s/ref/sign": {
+   "iters": 3,
+   "avg_us": 963968,
+   "min_us": 955317,
+   "max_us": 978545,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "phoenix-shake-256s/ref/verify": {
+   "iters": 3,
+   "avg_us": 6153,
+   "min_us": 5761,
+   "max_us": 6540,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "phoenix-shake-256s/ref/tamper": {
+   "iters": 1,
+   "avg_us": 2067,
+   "min_us": 2067,
+   "max_us": 2067,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "phoenix-shake-256s/ref/kat0-pk": {
+   "sha256_16": "6ce63fbd790448503deaa8271f0929ac",
+   "len": 64
+  },
+  "phoenix-shake-256s/ref/kat0-sk": {
+   "sha256_16": "aa576d919b8a6944425fcbe1fa7413b2",
+   "len": 128
+  },
+  "phoenix-shake-256s/ref/kat0-sig": {
+   "sha256_16": "8301bcc0cfee5e4bf074530f61056fe6",
+   "len": 24594
+  },
+  "phoenix-shake-256s/ref/pk": {
+   "sha256_16": "e6d3839169f0e1cb63ac3f10c714f510",
+   "len": 64
+  },
+  "phoenix-shake-256s/ref/sk": {
+   "sha256_16": "c9c2e0bb69702eb2fda7005476bcd8b6",
+   "len": 128
+  },
+  "phoenix-shake-256s/ref/sig": {
+   "sha256_16": "342058996726e3fce0b55ccbcd6bc19a",
+   "len": 24594
+  }
+ },
+ "checks": {
+  "phoenix-shake-256s/ref/kat-roundtrip": "PASS",
+  "phoenix-shake-256s/ref/tampered-rejected": "PASS"
+ },
+ "info": {
+  "phoenix-shake-256s": "kind=SIG pk=64 sk=128 sig=24618",
+  "job_stack": "0",
+  "kat0_sig_len": "24594",
+  "sig_len": "24594"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Phoenix__Phoenix-SHAKE-256s",
+ "pid": "sig_Phoenix",
+ "param": "Phoenix-SHAKE-256s",
+ "kind": "SIG",
+ "seconds": 5.5,
+ "kat": {
+  "result": "differs",
+  "detail": "no KAT file starts with this public key"
+ },
+ "verdict": "works",
+ "reason": ""
+}

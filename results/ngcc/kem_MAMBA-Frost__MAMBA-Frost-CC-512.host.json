@@ -1,0 +1,192 @@
+{
+ "results": {
+  "mamba-frost-cc-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 276155,
+   "min_us": 276155,
+   "max_us": 276155,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-cc-512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 98956,
+   "min_us": 96278,
+   "max_us": 101564,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-cc-512/ref/encaps": {
+   "iters": 3,
+   "avg_us": 128599,
+   "min_us": 91399,
+   "max_us": 169234,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-cc-512/ref/decaps": {
+   "iters": 3,
+   "avg_us": 151185,
+   "min_us": 117694,
+   "max_us": 192794,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-cc-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 101893,
+   "min_us": 101893,
+   "max_us": 101893,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-cc-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 347826,
+   "min_us": 347826,
+   "max_us": 347826,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-cc-512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 109868,
+   "min_us": 98776,
+   "max_us": 126756,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-cc-512/opt/encaps": {
+   "iters": 3,
+   "avg_us": 105481,
+   "min_us": 87039,
+   "max_us": 136452,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-cc-512/opt/decaps": {
+   "iters": 3,
+   "avg_us": 96726,
+   "min_us": 85614,
+   "max_us": 103725,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-cc-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 91004,
+   "min_us": 91004,
+   "max_us": 91004,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mamba-frost-cc-512/ref/kat0-pk": {
+   "sha256_16": "d8d8f92e858a78144dd75a56e3627668",
+   "len": 72832
+  },
+  "mamba-frost-cc-512/ref/kat0-sk": {
+   "sha256_16": "74a3d326dbceb30f8340d207292e0a79",
+   "len": 83328
+  },
+  "mamba-frost-cc-512/ref/kat0-ct": {
+   "sha256_16": "d4d4af3ae0f8ba6a7a67fd2ffedc5d72",
+   "len": 36544
+  },
+  "mamba-frost-cc-512/ref/kat0-ss": {
+   "sha256_16": "8874a7c03ec943c6ae4728f6faf843ac",
+   "len": 64
+  },
+  "mamba-frost-cc-512/ref/pk": {
+   "sha256_16": "f2a0cfcfa7c25bc0159f659e3109b1f7",
+   "len": 72832
+  },
+  "mamba-frost-cc-512/ref/sk": {
+   "sha256_16": "b60c00ea8190ff15f1e9abe1b91f203b",
+   "len": 83328
+  },
+  "mamba-frost-cc-512/ref/ct": {
+   "sha256_16": "60c6f87fcc78a73e7082b93e3e58f07a",
+   "len": 36544
+  },
+  "mamba-frost-cc-512/ref/ss": {
+   "sha256_16": "b0d940969a27b37b8af8e1bcf75fc58b",
+   "len": 64
+  },
+  "mamba-frost-cc-512/opt/kat0-pk": {
+   "sha256_16": "d8d8f92e858a78144dd75a56e3627668",
+   "len": 72832
+  },
+  "mamba-frost-cc-512/opt/kat0-sk": {
+   "sha256_16": "74a3d326dbceb30f8340d207292e0a79",
+   "len": 83328
+  },
+  "mamba-frost-cc-512/opt/kat0-ct": {
+   "sha256_16": "d4d4af3ae0f8ba6a7a67fd2ffedc5d72",
+   "len": 36544
+  },
+  "mamba-frost-cc-512/opt/kat0-ss": {
+   "sha256_16": "8874a7c03ec943c6ae4728f6faf843ac",
+   "len": 64
+  },
+  "mamba-frost-cc-512/opt/pk": {
+   "sha256_16": "f2a0cfcfa7c25bc0159f659e3109b1f7",
+   "len": 72832
+  },
+  "mamba-frost-cc-512/opt/sk": {
+   "sha256_16": "b60c00ea8190ff15f1e9abe1b91f203b",
+   "len": 83328
+  },
+  "mamba-frost-cc-512/opt/ct": {
+   "sha256_16": "60c6f87fcc78a73e7082b93e3e58f07a",
+   "len": 36544
+  },
+  "mamba-frost-cc-512/opt/ss": {
+   "sha256_16": "b0d940969a27b37b8af8e1bcf75fc58b",
+   "len": 64
+  }
+ },
+ "checks": {
+  "mamba-frost-cc-512/ref/kat-roundtrip": "PASS",
+  "mamba-frost-cc-512/ref/tampered-ct-rejected": "PASS",
+  "mamba-frost-cc-512/opt/kat-roundtrip": "PASS",
+  "mamba-frost-cc-512/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "mamba-frost-cc-512": "kind=KEM pk=72832 sk=83328 ct=36544 ss=64",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_MAMBA-Frost__MAMBA-Frost-CC-512",
+ "pid": "kem_MAMBA-Frost",
+ "param": "MAMBA-Frost-CC-512",
+ "kind": "KEM",
+ "seconds": 5.0,
+ "kat": {
+  "result": "match",
+  "file": "API_PKC/API_PKC/Test_Vectors/KAT_KEM_MAMBA-Frost-CC-512.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

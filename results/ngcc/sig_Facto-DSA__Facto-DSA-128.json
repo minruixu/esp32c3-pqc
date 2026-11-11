@@ -1,0 +1,193 @@
+{
+ "results": {
+  "facto-dsa-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 2079949,
+   "min_us": 2079949,
+   "max_us": 2079949,
+   "stack": 8944,
+   "heap": 88552,
+   "rc": 0
+  },
+  "facto-dsa-128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 1439065,
+   "min_us": 1439065,
+   "max_us": 1439066,
+   "stack": 1344,
+   "heap": 88552,
+   "rc": 0
+  },
+  "facto-dsa-128/ref/sign": {
+   "iters": 3,
+   "avg_us": 644064,
+   "min_us": 644063,
+   "max_us": 644068,
+   "stack": 8384,
+   "heap": 372,
+   "rc": 0
+  },
+  "facto-dsa-128/ref/verify": {
+   "iters": 3,
+   "avg_us": 50943,
+   "min_us": 50943,
+   "max_us": 50943,
+   "stack": 1460,
+   "heap": 372,
+   "rc": 0
+  },
+  "facto-dsa-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 101884,
+   "min_us": 101884,
+   "max_us": 101884,
+   "stack": 1476,
+   "heap": 372,
+   "rc": 0
+  },
+  "facto-dsa-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 2103606,
+   "min_us": 2103606,
+   "max_us": 2103606,
+   "stack": 8944,
+   "heap": 88552,
+   "rc": 0
+  },
+  "facto-dsa-128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 1427460,
+   "min_us": 1427457,
+   "max_us": 1427462,
+   "stack": 1168,
+   "heap": 88552,
+   "rc": 0
+  },
+  "facto-dsa-128/opt/sign": {
+   "iters": 3,
+   "avg_us": 643919,
+   "min_us": 643918,
+   "max_us": 643923,
+   "stack": 8384,
+   "heap": 372,
+   "rc": 0
+  },
+  "facto-dsa-128/opt/verify": {
+   "iters": 3,
+   "avg_us": 39191,
+   "min_us": 39189,
+   "max_us": 39193,
+   "stack": 1296,
+   "heap": 372,
+   "rc": 0
+  },
+  "facto-dsa-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 78385,
+   "min_us": 78385,
+   "max_us": 78385,
+   "stack": 1312,
+   "heap": 372,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "facto-dsa-128/ref/kat0-pk": {
+   "sha256_16": "f2f67c991920200097090aa50359a621",
+   "len": 40040
+  },
+  "facto-dsa-128/ref/kat0-sk": {
+   "sha256_16": "297ee927b2d4b894522b56db1a868fd8",
+   "len": 3094
+  },
+  "facto-dsa-128/ref/kat0-sig": {
+   "sha256_16": "92d8bd6abc8e924bc724d12a70dd2ad0",
+   "len": 40
+  },
+  "facto-dsa-128/ref/pk": {
+   "sha256_16": "8a0781d80b937d77f98ae7ac64a8fbe7",
+   "len": 40040
+  },
+  "facto-dsa-128/ref/sk": {
+   "sha256_16": "2bcf3ba19b50043bcead40c8a9aa4e72",
+   "len": 3094
+  },
+  "facto-dsa-128/ref/sig": {
+   "sha256_16": "d12a0fc484c6f832fc8f270eedfff5ff",
+   "len": 40
+  },
+  "facto-dsa-128/opt/kat0-pk": {
+   "sha256_16": "21d196c8f0c8cf0e35eb7a268ff3743d",
+   "len": 40040
+  },
+  "facto-dsa-128/opt/kat0-sk": {
+   "sha256_16": "f2d524f3250f21eaebecb33e4ad63a13",
+   "len": 3094
+  },
+  "facto-dsa-128/opt/kat0-sig": {
+   "sha256_16": "aa114d1f09dff1753c4f11d07850fa93",
+   "len": 40
+  },
+  "facto-dsa-128/opt/pk": {
+   "sha256_16": "8a0781d80b937d77f98ae7ac64a8fbe7",
+   "len": 40040
+  },
+  "facto-dsa-128/opt/sk": {
+   "sha256_16": "2bcf3ba19b50043bcead40c8a9aa4e72",
+   "len": 3094
+  },
+  "facto-dsa-128/opt/sig": {
+   "sha256_16": "d12a0fc484c6f832fc8f270eedfff5ff",
+   "len": 40
+  }
+ },
+ "checks": {
+  "facto-dsa-128/ref/kat-roundtrip": "PASS",
+  "facto-dsa-128/ref/tampered-rejected": "PASS",
+  "facto-dsa-128/opt/kat-roundtrip": "PASS",
+  "facto-dsa-128/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "facto-dsa-128": "kind=SIG pk=40040 sk=3094 sig=40",
+  "job_stack": "32768",
+  "kat0_sig_len": "40",
+  "sig_len": "40"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 231344,
+ "heap_free_min": 64900,
+ "unit": "sig_Facto-DSA__Facto-DSA-128",
+ "pid": "sig_Facto-DSA",
+ "param": "Facto-DSA-128",
+ "kind": "SIG",
+ "iters": 3,
+ "stack_pct": 30,
+ "stack_given": 0,
+ "image_bytes": 143920,
+ "attempts": [
+  {
+   "verdict": "self-test fails",
+   "reason": "failed: kat rc=-6, kat-roundtrip, keygen rc=-6, sign rc=-6, verify rc=-1",
+   "stack_pct": 60
+  }
+ ],
+ "seconds": 18.9,
+ "kat": {
+  "result": "differs",
+  "detail": "no KAT file starts with this public key"
+ },
+ "verdict": "differs from host",
+ "reason": "fingerprints differ: kat0-pk, kat0-sk, kat0-sig",
+ "host_check": {
+  "equal": 9,
+  "different": 3,
+  "missing": 0,
+  "different_labels": [
+   "kat0-pk",
+   "kat0-sk",
+   "kat0-sig"
+  ]
+ }
+}

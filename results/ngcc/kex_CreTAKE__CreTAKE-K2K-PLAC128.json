@@ -1,0 +1,19 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "kex_CreTAKE__CreTAKE-K2K-PLAC128",
+ "pid": "kex_CreTAKE",
+ "param": "CreTAKE-K2K-PLAC128",
+ "kind": "KEX",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 161216,
+ "attempts": [],
+ "verdict": "crashes",
+ "reason": "no output for 150 s (the run was stopped; not retried)"
+}

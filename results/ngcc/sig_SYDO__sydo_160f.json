@@ -1,0 +1,28 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "sig_SYDO__sydo_160f",
+ "pid": "sig_SYDO",
+ "param": "sydo_160f",
+ "kind": "SIG",
+ "iters": 1,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 173824,
+ "seconds": 151.5,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "no output for 150 s",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

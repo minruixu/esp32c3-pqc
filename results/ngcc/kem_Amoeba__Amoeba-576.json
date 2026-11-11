@@ -1,0 +1,202 @@
+{
+ "results": {
+  "amoeba-576/ref/kat": {
+   "iters": 1,
+   "avg_us": 53191,
+   "min_us": 53191,
+   "max_us": 53191,
+   "stack": 18492,
+   "heap": 1248,
+   "rc": 0
+  },
+  "amoeba-576/ref/keygen": {
+   "iters": 3,
+   "avg_us": 12518,
+   "min_us": 12516,
+   "max_us": 12521,
+   "stack": 9560,
+   "heap": 1152,
+   "rc": 0
+  },
+  "amoeba-576/ref/encaps": {
+   "iters": 3,
+   "avg_us": 18156,
+   "min_us": 18153,
+   "max_us": 18158,
+   "stack": 17544,
+   "heap": 1248,
+   "rc": 0
+  },
+  "amoeba-576/ref/decaps": {
+   "iters": 3,
+   "avg_us": 20862,
+   "min_us": 20862,
+   "max_us": 20863,
+   "stack": 18476,
+   "heap": 1248,
+   "rc": 0
+  },
+  "amoeba-576/ref/tamper": {
+   "iters": 1,
+   "avg_us": 2723,
+   "min_us": 2723,
+   "max_us": 2723,
+   "stack": 8320,
+   "heap": 1152,
+   "rc": 0
+  },
+  "amoeba-576/opt/kat": {
+   "iters": 1,
+   "avg_us": 39487,
+   "min_us": 39487,
+   "max_us": 39487,
+   "stack": 18328,
+   "heap": 1248,
+   "rc": 0
+  },
+  "amoeba-576/opt/keygen": {
+   "iters": 3,
+   "avg_us": 8825,
+   "min_us": 8822,
+   "max_us": 8827,
+   "stack": 9256,
+   "heap": 1152,
+   "rc": 0
+  },
+  "amoeba-576/opt/encaps": {
+   "iters": 3,
+   "avg_us": 13148,
+   "min_us": 13148,
+   "max_us": 13148,
+   "stack": 17368,
+   "heap": 1248,
+   "rc": 0
+  },
+  "amoeba-576/opt/decaps": {
+   "iters": 3,
+   "avg_us": 15854,
+   "min_us": 15853,
+   "max_us": 15857,
+   "stack": 18440,
+   "heap": 1248,
+   "rc": 0
+  },
+  "amoeba-576/opt/tamper": {
+   "iters": 1,
+   "avg_us": 2723,
+   "min_us": 2723,
+   "max_us": 2723,
+   "stack": 8320,
+   "heap": 1152,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "amoeba-576/ref/kat0-pk": {
+   "sha256_16": "272eca3768f717f99d4bfb2cc957498b",
+   "len": 784
+  },
+  "amoeba-576/ref/kat0-sk": {
+   "sha256_16": "491434fa3b77de0d048522d7d86c5aaf",
+   "len": 1712
+  },
+  "amoeba-576/ref/kat0-ct": {
+   "sha256_16": "3ca27f7a683ea7a5ae8b5bd25485be75",
+   "len": 1047
+  },
+  "amoeba-576/ref/kat0-ss": {
+   "sha256_16": "65bd714c605425877fbe5b112ad0d186",
+   "len": 64
+  },
+  "amoeba-576/ref/pk": {
+   "sha256_16": "2a06e6276492485e395114a49aecd11b",
+   "len": 784
+  },
+  "amoeba-576/ref/sk": {
+   "sha256_16": "f9be5c2960fd6d98ee2ea35be037ffb3",
+   "len": 1712
+  },
+  "amoeba-576/ref/ct": {
+   "sha256_16": "60e1829b960156a87b2a9d6bdfd8a9fb",
+   "len": 1047
+  },
+  "amoeba-576/ref/ss": {
+   "sha256_16": "2d846a5e0859c6aeb0cef662a6130523",
+   "len": 64
+  },
+  "amoeba-576/opt/kat0-pk": {
+   "sha256_16": "272eca3768f717f99d4bfb2cc957498b",
+   "len": 784
+  },
+  "amoeba-576/opt/kat0-sk": {
+   "sha256_16": "491434fa3b77de0d048522d7d86c5aaf",
+   "len": 1712
+  },
+  "amoeba-576/opt/kat0-ct": {
+   "sha256_16": "3ca27f7a683ea7a5ae8b5bd25485be75",
+   "len": 1047
+  },
+  "amoeba-576/opt/kat0-ss": {
+   "sha256_16": "65bd714c605425877fbe5b112ad0d186",
+   "len": 64
+  },
+  "amoeba-576/opt/pk": {
+   "sha256_16": "2a06e6276492485e395114a49aecd11b",
+   "len": 784
+  },
+  "amoeba-576/opt/sk": {
+   "sha256_16": "f9be5c2960fd6d98ee2ea35be037ffb3",
+   "len": 1712
+  },
+  "amoeba-576/opt/ct": {
+   "sha256_16": "60e1829b960156a87b2a9d6bdfd8a9fb",
+   "len": 1047
+  },
+  "amoeba-576/opt/ss": {
+   "sha256_16": "2d846a5e0859c6aeb0cef662a6130523",
+   "len": 64
+  }
+ },
+ "checks": {
+  "amoeba-576/ref/kat-roundtrip": "PASS",
+  "amoeba-576/ref/tampered-ct-rejected": "PASS",
+  "amoeba-576/opt/kat-roundtrip": "PASS",
+  "amoeba-576/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "amoeba-576": "kind=KEM pk=784 sk=1712 ct=1047 ss=64",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 224672,
+ "heap_free_min": 152460,
+ "unit": "kem_Amoeba__Amoeba-576",
+ "pid": "kem_Amoeba",
+ "param": "Amoeba-576",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 154736,
+ "seconds": 2.0,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_Amoeba128.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

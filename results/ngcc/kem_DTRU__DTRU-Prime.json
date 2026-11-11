@@ -1,0 +1,202 @@
+{
+ "results": {
+  "dtru-prime/ref/kat": {
+   "iters": 1,
+   "avg_us": 3170366,
+   "min_us": 3170366,
+   "max_us": 3170366,
+   "stack": 43528,
+   "heap": 2880,
+   "rc": 0
+  },
+  "dtru-prime/ref/keygen": {
+   "iters": 3,
+   "avg_us": 3125426,
+   "min_us": 3125425,
+   "max_us": 3125429,
+   "stack": 39704,
+   "heap": 0,
+   "rc": 0
+  },
+  "dtru-prime/ref/encaps": {
+   "iters": 3,
+   "avg_us": 13820,
+   "min_us": 13818,
+   "max_us": 13824,
+   "stack": 42008,
+   "heap": 900,
+   "rc": 0
+  },
+  "dtru-prime/ref/decaps": {
+   "iters": 3,
+   "avg_us": 28502,
+   "min_us": 28499,
+   "max_us": 28504,
+   "stack": 43528,
+   "heap": 2880,
+   "rc": 0
+  },
+  "dtru-prime/ref/tamper": {
+   "iters": 1,
+   "avg_us": 28502,
+   "min_us": 28502,
+   "max_us": 28502,
+   "stack": 43528,
+   "heap": 2880,
+   "rc": 0
+  },
+  "dtru-prime/opt/kat": {
+   "iters": 1,
+   "avg_us": 3168194,
+   "min_us": 3168194,
+   "max_us": 3168194,
+   "stack": 43528,
+   "heap": 2880,
+   "rc": 0
+  },
+  "dtru-prime/opt/keygen": {
+   "iters": 3,
+   "avg_us": 3125426,
+   "min_us": 3125425,
+   "max_us": 3125430,
+   "stack": 39704,
+   "heap": 0,
+   "rc": 0
+  },
+  "dtru-prime/opt/encaps": {
+   "iters": 3,
+   "avg_us": 13185,
+   "min_us": 13185,
+   "max_us": 13186,
+   "stack": 42008,
+   "heap": 900,
+   "rc": 0
+  },
+  "dtru-prime/opt/decaps": {
+   "iters": 3,
+   "avg_us": 26967,
+   "min_us": 26964,
+   "max_us": 26969,
+   "stack": 43512,
+   "heap": 2880,
+   "rc": 0
+  },
+  "dtru-prime/opt/tamper": {
+   "iters": 1,
+   "avg_us": 26968,
+   "min_us": 26968,
+   "max_us": 26968,
+   "stack": 43528,
+   "heap": 2880,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "dtru-prime/ref/kat0-pk": {
+   "sha256_16": "b64764c2913cf219cd4968dbc1528391",
+   "len": 1495
+  },
+  "dtru-prime/ref/kat0-sk": {
+   "sha256_16": "00f68b9bb7419afcd948b9398c804159",
+   "len": 1935
+  },
+  "dtru-prime/ref/kat0-ct": {
+   "sha256_16": "05c7c0088e49ce58709edec880bd0051",
+   "len": 1359
+  },
+  "dtru-prime/ref/kat0-ss": {
+   "sha256_16": "c7bf42c7fa2f7c4ce313309c32036b5d",
+   "len": 32
+  },
+  "dtru-prime/ref/pk": {
+   "sha256_16": "b44fb993f75bcb20e9fcea489b5fda1a",
+   "len": 1495
+  },
+  "dtru-prime/ref/sk": {
+   "sha256_16": "9a380149de20fbd737070158e7e3f935",
+   "len": 1935
+  },
+  "dtru-prime/ref/ct": {
+   "sha256_16": "ffdf228faebf2c107ae08e05ba7d5adf",
+   "len": 1359
+  },
+  "dtru-prime/ref/ss": {
+   "sha256_16": "324512af729062d6fd9440d1140ccef9",
+   "len": 32
+  },
+  "dtru-prime/opt/kat0-pk": {
+   "sha256_16": "b64764c2913cf219cd4968dbc1528391",
+   "len": 1495
+  },
+  "dtru-prime/opt/kat0-sk": {
+   "sha256_16": "00f68b9bb7419afcd948b9398c804159",
+   "len": 1935
+  },
+  "dtru-prime/opt/kat0-ct": {
+   "sha256_16": "05c7c0088e49ce58709edec880bd0051",
+   "len": 1359
+  },
+  "dtru-prime/opt/kat0-ss": {
+   "sha256_16": "c7bf42c7fa2f7c4ce313309c32036b5d",
+   "len": 32
+  },
+  "dtru-prime/opt/pk": {
+   "sha256_16": "b44fb993f75bcb20e9fcea489b5fda1a",
+   "len": 1495
+  },
+  "dtru-prime/opt/sk": {
+   "sha256_16": "9a380149de20fbd737070158e7e3f935",
+   "len": 1935
+  },
+  "dtru-prime/opt/ct": {
+   "sha256_16": "ffdf228faebf2c107ae08e05ba7d5adf",
+   "len": 1359
+  },
+  "dtru-prime/opt/ss": {
+   "sha256_16": "324512af729062d6fd9440d1140ccef9",
+   "len": 32
+  }
+ },
+ "checks": {
+  "dtru-prime/ref/kat-roundtrip": "PASS",
+  "dtru-prime/ref/tampered-ct-rejected": "PASS",
+  "dtru-prime/opt/kat-roundtrip": "PASS",
+  "dtru-prime/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "dtru-prime": "kind=KEM pk=1495 sk=1935 ct=1359 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 232416,
+ "heap_free_min": 157292,
+ "unit": "kem_DTRU__DTRU-Prime",
+ "pid": "kem_DTRU",
+ "param": "DTRU-Prime",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 146960,
+ "seconds": 27.2,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/KAT_KEM_DTRU-Prime.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

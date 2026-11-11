@@ -1,0 +1,189 @@
+{
+ "results": {
+  "triq-kex-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 363159,
+   "min_us": 363159,
+   "max_us": 363159,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-512/ref/init_a": {
+   "iters": 3,
+   "avg_us": 18603,
+   "min_us": 18118,
+   "max_us": 19393,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-512/ref/init_b": {
+   "iters": 3,
+   "avg_us": 19674,
+   "min_us": 18561,
+   "max_us": 21234,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-512/ref/full": {
+   "iters": 3,
+   "avg_us": 361974,
+   "min_us": 320960,
+   "max_us": 394825,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 300256,
+   "min_us": 300256,
+   "max_us": 300256,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-512/opt/init_a": {
+   "iters": 3,
+   "avg_us": 20498,
+   "min_us": 17335,
+   "max_us": 22714,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-512/opt/init_b": {
+   "iters": 3,
+   "avg_us": 29975,
+   "min_us": 20118,
+   "max_us": 45061,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-512/opt/full": {
+   "iters": 3,
+   "avg_us": 308805,
+   "min_us": 291636,
+   "max_us": 335642,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "triq-kex-512/ref/kat0-pka": {
+   "sha256_16": "759b99431eadfb7d61470f19c1546adf",
+   "len": 19768
+  },
+  "triq-kex-512/ref/kat0-pkb": {
+   "sha256_16": "35024711941fdbf903535e4729cefd36",
+   "len": 19768
+  },
+  "triq-kex-512/ref/kat0-m1": {
+   "sha256_16": "630a5fd6e543c060f3da393e34c4ab76",
+   "len": 59096
+  },
+  "triq-kex-512/ref/kat0-m2": {
+   "sha256_16": "a318f5127f20f63cfb8a4da974959c03",
+   "len": 78648
+  },
+  "triq-kex-512/ref/kat0-ss": {
+   "sha256_16": "d11ef7b4f8a775c2c46200c658d8f061",
+   "len": 64
+  },
+  "triq-kex-512/ref/pka": {
+   "sha256_16": "330a819f758fbcdefa586ee2a8d6c09d",
+   "len": 19768
+  },
+  "triq-kex-512/ref/pkb": {
+   "sha256_16": "73de9bdb48d4dc9b2a58fa88ef21f5c0",
+   "len": 19768
+  },
+  "triq-kex-512/ref/m1": {
+   "sha256_16": "1e735f5a79f9111101b33d827a706ed4",
+   "len": 59096
+  },
+  "triq-kex-512/ref/m2": {
+   "sha256_16": "39e57c083f4d277119e8de50aeb68f89",
+   "len": 78648
+  },
+  "triq-kex-512/ref/ss": {
+   "sha256_16": "d315b44d00f5098099a92183483245c6",
+   "len": 64
+  },
+  "triq-kex-512/opt/kat0-pka": {
+   "sha256_16": "759b99431eadfb7d61470f19c1546adf",
+   "len": 19768
+  },
+  "triq-kex-512/opt/kat0-pkb": {
+   "sha256_16": "35024711941fdbf903535e4729cefd36",
+   "len": 19768
+  },
+  "triq-kex-512/opt/kat0-m1": {
+   "sha256_16": "630a5fd6e543c060f3da393e34c4ab76",
+   "len": 59096
+  },
+  "triq-kex-512/opt/kat0-m2": {
+   "sha256_16": "a318f5127f20f63cfb8a4da974959c03",
+   "len": 78648
+  },
+  "triq-kex-512/opt/kat0-ss": {
+   "sha256_16": "d11ef7b4f8a775c2c46200c658d8f061",
+   "len": 64
+  },
+  "triq-kex-512/opt/pka": {
+   "sha256_16": "330a819f758fbcdefa586ee2a8d6c09d",
+   "len": 19768
+  },
+  "triq-kex-512/opt/pkb": {
+   "sha256_16": "73de9bdb48d4dc9b2a58fa88ef21f5c0",
+   "len": 19768
+  },
+  "triq-kex-512/opt/m1": {
+   "sha256_16": "1e735f5a79f9111101b33d827a706ed4",
+   "len": 59096
+  },
+  "triq-kex-512/opt/m2": {
+   "sha256_16": "39e57c083f4d277119e8de50aeb68f89",
+   "len": 78648
+  },
+  "triq-kex-512/opt/ss": {
+   "sha256_16": "d315b44d00f5098099a92183483245c6",
+   "len": 64
+  }
+ },
+ "checks": {
+  "triq-kex-512/ref/kat-roundtrip": "PASS",
+  "triq-kex-512/opt/kat-roundtrip": "PASS"
+ },
+ "info": {
+  "triq-kex-512": "kind=KEX passes=2 pk=19768 sk=20088 sta=79112 stb=78832 ss=64 msgs=137744",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kex_TriQ-KEX__TriQ-KEX-512",
+ "pid": "kex_TriQ-KEX",
+ "param": "TriQ-KEX-512",
+ "kind": "KEX",
+ "seconds": 5.5,
+ "kat": {
+  "result": "match",
+  "file": "TriQ-KEX/Test_Vectors/KAT_KEX_TriQ-KEX-512.txt",
+  "fields": [
+   "m1",
+   "m2",
+   "pka",
+   "pkb",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

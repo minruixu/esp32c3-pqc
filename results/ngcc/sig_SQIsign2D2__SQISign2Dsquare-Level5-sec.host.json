@@ -1,0 +1,25 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "sig_SQIsign2D2__SQISign2Dsquare-Level5-sec",
+ "pid": "sig_SQIsign2D2",
+ "param": "SQISign2Dsquare-Level5-sec",
+ "kind": "SIG",
+ "verdict": "does not build",
+ "reason": "undefined symbols: sig_get_pk_len_bytes, sig_get_sk_len_bytes, sig_get_sn_len_bytes, sig_keygen, sig_sign, sig_verify",
+ "build_errors": [
+  "Undefined symbols for architecture arm64:",
+  "\"_sig_get_pk_len_bytes\", referenced from:",
+  "\"_sig_get_sk_len_bytes\", referenced from:",
+  "\"_sig_get_sn_len_bytes\", referenced from:",
+  "\"_sig_keygen\", referenced from:",
+  "\"_sig_sign\", referenced from:",
+  "\"_sig_verify\", referenced from:",
+  "ld: symbol(s) not found for architecture arm64",
+  "cc: error: linker command failed with exit code 1 (use -v to see invocation)"
+ ]
+}

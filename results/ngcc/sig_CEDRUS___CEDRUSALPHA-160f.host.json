@@ -1,0 +1,177 @@
+{
+ "results": {
+  "cedrusalpha-160f/ref/kat": {
+   "iters": 1,
+   "avg_us": 94033,
+   "min_us": 94033,
+   "max_us": 94033,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusalpha-160f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 1896,
+   "min_us": 1882,
+   "max_us": 1908,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusalpha-160f/ref/sign": {
+   "iters": 3,
+   "avg_us": 63595,
+   "min_us": 63013,
+   "max_us": 64026,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusalpha-160f/ref/verify": {
+   "iters": 3,
+   "avg_us": 1983,
+   "min_us": 1965,
+   "max_us": 2013,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusalpha-160f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 4137,
+   "min_us": 4137,
+   "max_us": 4137,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusalpha-160f/opt/kat": {
+   "iters": 1,
+   "avg_us": 74683,
+   "min_us": 74683,
+   "max_us": 74683,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusalpha-160f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 2127,
+   "min_us": 2086,
+   "max_us": 2165,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusalpha-160f/opt/sign": {
+   "iters": 3,
+   "avg_us": 71037,
+   "min_us": 68656,
+   "max_us": 72411,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusalpha-160f/opt/verify": {
+   "iters": 3,
+   "avg_us": 2076,
+   "min_us": 2037,
+   "max_us": 2110,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusalpha-160f/opt/tamper": {
+   "iters": 1,
+   "avg_us": 4130,
+   "min_us": 4130,
+   "max_us": 4130,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "cedrusalpha-160f/ref/kat0-pk": {
+   "sha256_16": "bc610d79cd489ce53f546f3632cc28d6",
+   "len": 40
+  },
+  "cedrusalpha-160f/ref/kat0-sk": {
+   "sha256_16": "ae603499e1a04afb8f5af5dd79f2b1b1",
+   "len": 80
+  },
+  "cedrusalpha-160f/ref/kat0-sig": {
+   "sha256_16": "1e4cbd128feb8207ad2d7f85e739638e",
+   "len": 19420
+  },
+  "cedrusalpha-160f/ref/pk": {
+   "sha256_16": "92bdac0a6f5548daa0cde7393be3d216",
+   "len": 40
+  },
+  "cedrusalpha-160f/ref/sk": {
+   "sha256_16": "84eeee31ffffd3ad58b1d4562638d139",
+   "len": 80
+  },
+  "cedrusalpha-160f/ref/sig": {
+   "sha256_16": "2367f26d12b4d560663bceeb45cd8fbb",
+   "len": 19420
+  },
+  "cedrusalpha-160f/opt/kat0-pk": {
+   "sha256_16": "bc610d79cd489ce53f546f3632cc28d6",
+   "len": 40
+  },
+  "cedrusalpha-160f/opt/kat0-sk": {
+   "sha256_16": "ae603499e1a04afb8f5af5dd79f2b1b1",
+   "len": 80
+  },
+  "cedrusalpha-160f/opt/kat0-sig": {
+   "sha256_16": "1e4cbd128feb8207ad2d7f85e739638e",
+   "len": 19420
+  },
+  "cedrusalpha-160f/opt/pk": {
+   "sha256_16": "92bdac0a6f5548daa0cde7393be3d216",
+   "len": 40
+  },
+  "cedrusalpha-160f/opt/sk": {
+   "sha256_16": "84eeee31ffffd3ad58b1d4562638d139",
+   "len": 80
+  },
+  "cedrusalpha-160f/opt/sig": {
+   "sha256_16": "2367f26d12b4d560663bceeb45cd8fbb",
+   "len": 19420
+  }
+ },
+ "checks": {
+  "cedrusalpha-160f/ref/kat-roundtrip": "PASS",
+  "cedrusalpha-160f/ref/tampered-rejected": "PASS",
+  "cedrusalpha-160f/opt/kat-roundtrip": "PASS",
+  "cedrusalpha-160f/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "cedrusalpha-160f": "kind=SIG pk=40 sk=80 sig=19420",
+  "job_stack": "0",
+  "kat0_sig_len": "19420",
+  "sig_len": "19420"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_CEDRUS___CEDRUSALPHA-160f",
+ "pid": "sig_CEDRUS\u0251",
+ "param": "CEDRUSALPHA-160f",
+ "kind": "SIG",
+ "seconds": 1.9,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_CEDRUSALPHA-160f.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

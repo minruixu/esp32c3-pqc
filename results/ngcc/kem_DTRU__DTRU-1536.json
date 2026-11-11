@@ -1,0 +1,202 @@
+{
+ "results": {
+  "dtru-1536/ref/kat": {
+   "iters": 1,
+   "avg_us": 50255,
+   "min_us": 50255,
+   "max_us": 50255,
+   "stack": 45116,
+   "heap": 4224,
+   "rc": 0
+  },
+  "dtru-1536/ref/keygen": {
+   "iters": 3,
+   "avg_us": 8898,
+   "min_us": 8898,
+   "max_us": 8899,
+   "stack": 30344,
+   "heap": 0,
+   "rc": 0
+  },
+  "dtru-1536/ref/encaps": {
+   "iters": 3,
+   "avg_us": 13265,
+   "min_us": 13263,
+   "max_us": 13268,
+   "stack": 42972,
+   "heap": 1284,
+   "rc": 0
+  },
+  "dtru-1536/ref/decaps": {
+   "iters": 3,
+   "avg_us": 23862,
+   "min_us": 23860,
+   "max_us": 23865,
+   "stack": 45100,
+   "heap": 4224,
+   "rc": 0
+  },
+  "dtru-1536/ref/tamper": {
+   "iters": 1,
+   "avg_us": 23858,
+   "min_us": 23858,
+   "max_us": 23858,
+   "stack": 45116,
+   "heap": 4224,
+   "rc": 0
+  },
+  "dtru-1536/opt/kat": {
+   "iters": 1,
+   "avg_us": 45723,
+   "min_us": 45723,
+   "max_us": 45723,
+   "stack": 45116,
+   "heap": 4224,
+   "rc": 0
+  },
+  "dtru-1536/opt/keygen": {
+   "iters": 3,
+   "avg_us": 8898,
+   "min_us": 8898,
+   "max_us": 8899,
+   "stack": 30344,
+   "heap": 0,
+   "rc": 0
+  },
+  "dtru-1536/opt/encaps": {
+   "iters": 3,
+   "avg_us": 11635,
+   "min_us": 11635,
+   "max_us": 11635,
+   "stack": 42972,
+   "heap": 1284,
+   "rc": 0
+  },
+  "dtru-1536/opt/decaps": {
+   "iters": 3,
+   "avg_us": 20961,
+   "min_us": 20961,
+   "max_us": 20962,
+   "stack": 45100,
+   "heap": 4224,
+   "rc": 0
+  },
+  "dtru-1536/opt/tamper": {
+   "iters": 1,
+   "avg_us": 20959,
+   "min_us": 20959,
+   "max_us": 20959,
+   "stack": 45116,
+   "heap": 4224,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "dtru-1536/ref/kat0-pk": {
+   "sha256_16": "70af5d09a9690e4b34aa36ccb06d4918",
+   "len": 2259
+  },
+  "dtru-1536/ref/kat0-sk": {
+   "sha256_16": "0e001c5472e94f1b6a96f9472a292220",
+   "len": 3091
+  },
+  "dtru-1536/ref/kat0-ct": {
+   "sha256_16": "6bae47ed5475f74ebd0851c2c6125a02",
+   "len": 1920
+  },
+  "dtru-1536/ref/kat0-ss": {
+   "sha256_16": "40087c556266908f30f821deaa3b2441",
+   "len": 64
+  },
+  "dtru-1536/ref/pk": {
+   "sha256_16": "5f8d92597a69f3109555bfc2c05a28bb",
+   "len": 2259
+  },
+  "dtru-1536/ref/sk": {
+   "sha256_16": "37d6679206b59051922057937377933c",
+   "len": 3091
+  },
+  "dtru-1536/ref/ct": {
+   "sha256_16": "a60db399709703c8459e31b0cc65d64a",
+   "len": 1920
+  },
+  "dtru-1536/ref/ss": {
+   "sha256_16": "3c16f05cfdde3cb5c3570e368ae516ab",
+   "len": 64
+  },
+  "dtru-1536/opt/kat0-pk": {
+   "sha256_16": "70af5d09a9690e4b34aa36ccb06d4918",
+   "len": 2259
+  },
+  "dtru-1536/opt/kat0-sk": {
+   "sha256_16": "0e001c5472e94f1b6a96f9472a292220",
+   "len": 3091
+  },
+  "dtru-1536/opt/kat0-ct": {
+   "sha256_16": "6bae47ed5475f74ebd0851c2c6125a02",
+   "len": 1920
+  },
+  "dtru-1536/opt/kat0-ss": {
+   "sha256_16": "40087c556266908f30f821deaa3b2441",
+   "len": 64
+  },
+  "dtru-1536/opt/pk": {
+   "sha256_16": "5f8d92597a69f3109555bfc2c05a28bb",
+   "len": 2259
+  },
+  "dtru-1536/opt/sk": {
+   "sha256_16": "37d6679206b59051922057937377933c",
+   "len": 3091
+  },
+  "dtru-1536/opt/ct": {
+   "sha256_16": "a60db399709703c8459e31b0cc65d64a",
+   "len": 1920
+  },
+  "dtru-1536/opt/ss": {
+   "sha256_16": "3c16f05cfdde3cb5c3570e368ae516ab",
+   "len": 64
+  }
+ },
+ "checks": {
+  "dtru-1536/ref/kat-roundtrip": "PASS",
+  "dtru-1536/ref/tampered-ct-rejected": "PASS",
+  "dtru-1536/opt/kat-roundtrip": "PASS",
+  "dtru-1536/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "dtru-1536": "kind=KEM pk=2259 sk=3091 ct=1920 ss=64",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 238288,
+ "heap_free_min": 159324,
+ "unit": "kem_DTRU__DTRU-1536",
+ "pid": "kem_DTRU",
+ "param": "DTRU-1536",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 141200,
+ "seconds": 2.2,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors_PACK_PK/KAT_KEM_DTRU-1536.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {
+  "dove_pkc_skc_ref/ref/buffers": "FAIL",
+  "dove_pkc_skc_ref/opt/buffers": "FAIL"
+ },
+ "info": {
+  "dove_pkc_skc_ref": "kind=SIG pk=5062192 sk=72 sig=648",
+  "error": "cannot allocate a 5062192 byte buffer"
+ },
+ "complete": true,
+ "fails": 2,
+ "cpu_mhz": 160,
+ "heap_free_start": 242576,
+ "heap_free_min": 241304,
+ "unit": "sig_DOVE__DOVE_pkc_skc_ref",
+ "pid": "sig_DOVE",
+ "param": "DOVE_pkc_skc_ref",
+ "kind": "SIG",
+ "iters": 1,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 137040,
+ "seconds": 1.7,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "self-test fails",
+ "reason": "failed: buffers",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

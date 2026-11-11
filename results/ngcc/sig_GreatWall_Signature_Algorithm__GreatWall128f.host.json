@@ -1,0 +1,106 @@
+{
+ "results": {
+  "greatwall128f/ref/kat": {
+   "iters": 1,
+   "avg_us": 21965,
+   "min_us": 21965,
+   "max_us": 21965,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "greatwall128f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 526,
+   "min_us": 493,
+   "max_us": 561,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "greatwall128f/ref/sign": {
+   "iters": 3,
+   "avg_us": 11201,
+   "min_us": 10748,
+   "max_us": 11680,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "greatwall128f/ref/verify": {
+   "iters": 3,
+   "avg_us": 8825,
+   "min_us": 8699,
+   "max_us": 8906,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "greatwall128f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 17470,
+   "min_us": 17470,
+   "max_us": 17470,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "greatwall128f/ref/kat0-pk": {
+   "sha256_16": "987eae49ec3c40d26fa40ae89427788b",
+   "len": 36
+  },
+  "greatwall128f/ref/kat0-sk": {
+   "sha256_16": "74d49432e438cb6271d2a4feb813d703",
+   "len": 36
+  },
+  "greatwall128f/ref/kat0-sig": {
+   "sha256_16": "f7d79e43dbef272c67cbdb79ee787a64",
+   "len": 3396
+  },
+  "greatwall128f/ref/pk": {
+   "sha256_16": "d6883ae27eac750a73db6eb004a6d5be",
+   "len": 36
+  },
+  "greatwall128f/ref/sk": {
+   "sha256_16": "71c9c95dd92d271d567d7459f75dfcd8",
+   "len": 36
+  },
+  "greatwall128f/ref/sig": {
+   "sha256_16": "bb5c8707163942a08261eb2639844b53",
+   "len": 3396
+  }
+ },
+ "checks": {
+  "greatwall128f/ref/kat-roundtrip": "PASS",
+  "greatwall128f/ref/tampered-rejected": "PASS"
+ },
+ "info": {
+  "greatwall128f": "kind=SIG pk=36 sk=36 sig=3396",
+  "job_stack": "0",
+  "kat0_sig_len": "3396",
+  "sig_len": "3396"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_GreatWall_Signature_Algorithm__GreatWall128f",
+ "pid": "sig_GreatWall_Signature_Algorithm",
+ "param": "GreatWall128f",
+ "kind": "SIG",
+ "seconds": 2.5,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_GreatWall128f.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

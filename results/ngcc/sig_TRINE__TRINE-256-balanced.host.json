@@ -1,0 +1,55 @@
+{
+ "results": {
+  "trine-256-balanced/ref/kat": {
+   "iters": 1,
+   "avg_us": 132950274,
+   "min_us": 132950274,
+   "max_us": 132950274,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "trine-256-balanced/ref/kat0-pk": {
+   "sha256_16": "1714819af163f354e2298747ad07ecbd",
+   "len": 96064
+  },
+  "trine-256-balanced/ref/kat0-sk": {
+   "sha256_16": "c67129edee16eae8551a1288c38174a9",
+   "len": 64
+  },
+  "trine-256-balanced/ref/kat0-sig": {
+   "sha256_16": "02e5a1b776b013b77e163e4e5c22e41c",
+   "len": 11712
+  }
+ },
+ "checks": {
+  "trine-256-balanced/ref/kat-roundtrip": "PASS"
+ },
+ "info": {
+  "trine-256-balanced": "kind=SIG pk=96064 sk=64 sig=11712",
+  "job_stack": "0",
+  "kat0_sig_len": "11712"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "unit": "sig_TRINE__TRINE-256-balanced",
+ "pid": "sig_TRINE",
+ "param": "TRINE-256-balanced",
+ "kind": "SIG",
+ "seconds": 150.8,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_TRINE-256-Balanced.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "crashes",
+ "reason": "host run exceeded 150 s"
+}

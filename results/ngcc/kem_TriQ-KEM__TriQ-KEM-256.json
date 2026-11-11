@@ -1,0 +1,33 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "triq-kem-256": "kind=KEM pk=6328 sk=6424 ct=12472 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 228624,
+ "unit": "kem_TriQ-KEM__TriQ-KEM-256",
+ "pid": "kem_TriQ-KEM",
+ "param": "TriQ-KEM-256",
+ "kind": "KEM",
+ "iters": 1,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 149520,
+ "seconds": 61.6,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "no output for 60 s",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

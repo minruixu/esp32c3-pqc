@@ -1,0 +1,192 @@
+{
+ "results": {
+  "mamba-viper-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 1545,
+   "min_us": 1545,
+   "max_us": 1545,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 414,
+   "min_us": 332,
+   "max_us": 578,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-512/ref/encaps": {
+   "iters": 3,
+   "avg_us": 593,
+   "min_us": 383,
+   "max_us": 1004,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-512/ref/decaps": {
+   "iters": 3,
+   "avg_us": 484,
+   "min_us": 419,
+   "max_us": 612,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 427,
+   "min_us": 427,
+   "max_us": 427,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 1697,
+   "min_us": 1697,
+   "max_us": 1697,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 433,
+   "min_us": 375,
+   "max_us": 482,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-512/opt/encaps": {
+   "iters": 3,
+   "avg_us": 1121,
+   "min_us": 432,
+   "max_us": 2491,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-512/opt/decaps": {
+   "iters": 3,
+   "avg_us": 426,
+   "min_us": 404,
+   "max_us": 452,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 533,
+   "min_us": 533,
+   "max_us": 533,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mamba-viper-512/ref/kat0-pk": {
+   "sha256_16": "fb578f0a081aa052699ff80a6cd50085",
+   "len": 3200
+  },
+  "mamba-viper-512/ref/kat0-sk": {
+   "sha256_16": "1d10b9097f1324b1af6e8fcab08905a5",
+   "len": 7040
+  },
+  "mamba-viper-512/ref/kat0-ct": {
+   "sha256_16": "b54507f9bfdbdf6e6eac5134d94cad39",
+   "len": 3456
+  },
+  "mamba-viper-512/ref/kat0-ss": {
+   "sha256_16": "23820b53d0bb21f8fa3f1a7e0532f648",
+   "len": 64
+  },
+  "mamba-viper-512/ref/pk": {
+   "sha256_16": "7081e51a0e151f91b24e5d979898c45a",
+   "len": 3200
+  },
+  "mamba-viper-512/ref/sk": {
+   "sha256_16": "bfa580bb71f08fea5b2b7be8fc9ad076",
+   "len": 7040
+  },
+  "mamba-viper-512/ref/ct": {
+   "sha256_16": "582a481bca6cdc442d6bfaede89fd086",
+   "len": 3456
+  },
+  "mamba-viper-512/ref/ss": {
+   "sha256_16": "98fefe5d409d678d20ef0302fb6dbf36",
+   "len": 64
+  },
+  "mamba-viper-512/opt/kat0-pk": {
+   "sha256_16": "fb578f0a081aa052699ff80a6cd50085",
+   "len": 3200
+  },
+  "mamba-viper-512/opt/kat0-sk": {
+   "sha256_16": "1d10b9097f1324b1af6e8fcab08905a5",
+   "len": 7040
+  },
+  "mamba-viper-512/opt/kat0-ct": {
+   "sha256_16": "b54507f9bfdbdf6e6eac5134d94cad39",
+   "len": 3456
+  },
+  "mamba-viper-512/opt/kat0-ss": {
+   "sha256_16": "23820b53d0bb21f8fa3f1a7e0532f648",
+   "len": 64
+  },
+  "mamba-viper-512/opt/pk": {
+   "sha256_16": "7081e51a0e151f91b24e5d979898c45a",
+   "len": 3200
+  },
+  "mamba-viper-512/opt/sk": {
+   "sha256_16": "bfa580bb71f08fea5b2b7be8fc9ad076",
+   "len": 7040
+  },
+  "mamba-viper-512/opt/ct": {
+   "sha256_16": "582a481bca6cdc442d6bfaede89fd086",
+   "len": 3456
+  },
+  "mamba-viper-512/opt/ss": {
+   "sha256_16": "98fefe5d409d678d20ef0302fb6dbf36",
+   "len": 64
+  }
+ },
+ "checks": {
+  "mamba-viper-512/ref/kat-roundtrip": "PASS",
+  "mamba-viper-512/ref/tampered-ct-rejected": "PASS",
+  "mamba-viper-512/opt/kat-roundtrip": "PASS",
+  "mamba-viper-512/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "mamba-viper-512": "kind=KEM pk=3200 sk=7040 ct=3456 ss=64",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_MAMBA-Viper__MAMBA-Viper-512",
+ "pid": "kem_MAMBA-Viper",
+ "param": "MAMBA-Viper-512",
+ "kind": "KEM",
+ "seconds": 1.6,
+ "kat": {
+  "result": "match",
+  "file": "API_PKC/API_PKC/Test_Vectors/KAT_KEM_MAMBA-Viper-512.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

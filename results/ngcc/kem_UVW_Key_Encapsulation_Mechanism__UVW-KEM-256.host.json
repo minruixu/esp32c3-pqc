@@ -1,0 +1,192 @@
+{
+ "results": {
+  "uvw-kem-256/ref/kat": {
+   "iters": 1,
+   "avg_us": 7284895,
+   "min_us": 7284895,
+   "max_us": 7284895,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "uvw-kem-256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 2149667,
+   "min_us": 1283623,
+   "max_us": 3836989,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "uvw-kem-256/ref/encaps": {
+   "iters": 3,
+   "avg_us": 290,
+   "min_us": 286,
+   "max_us": 299,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "uvw-kem-256/ref/decaps": {
+   "iters": 3,
+   "avg_us": 5115048,
+   "min_us": 2831258,
+   "max_us": 8092903,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "uvw-kem-256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 4652978,
+   "min_us": 4652978,
+   "max_us": 4652978,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "uvw-kem-256/opt/kat": {
+   "iters": 1,
+   "avg_us": 4294836,
+   "min_us": 4294836,
+   "max_us": 4294836,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "uvw-kem-256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 1263037,
+   "min_us": 1141059,
+   "max_us": 1416791,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "uvw-kem-256/opt/encaps": {
+   "iters": 3,
+   "avg_us": 289,
+   "min_us": 275,
+   "max_us": 302,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "uvw-kem-256/opt/decaps": {
+   "iters": 3,
+   "avg_us": 3052532,
+   "min_us": 2177947,
+   "max_us": 3653120,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "uvw-kem-256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 3663313,
+   "min_us": 3663313,
+   "max_us": 3663313,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "uvw-kem-256/ref/kat0-pk": {
+   "sha256_16": "57dea59cc3539022fa281fd48c375d4b",
+   "len": 911645
+  },
+  "uvw-kem-256/ref/kat0-sk": {
+   "sha256_16": "29ed823467d9e7edee5c8dc2af5b1b89",
+   "len": 35
+  },
+  "uvw-kem-256/ref/kat0-ct": {
+   "sha256_16": "97350a1f083f2bbbc8ac41cb82b01afd",
+   "len": 2199
+  },
+  "uvw-kem-256/ref/kat0-ss": {
+   "sha256_16": "d61485199b47aeeff6fb72877dfc9ff6",
+   "len": 64
+  },
+  "uvw-kem-256/ref/pk": {
+   "sha256_16": "970aa682c64e008a91e37827ba053e46",
+   "len": 911645
+  },
+  "uvw-kem-256/ref/sk": {
+   "sha256_16": "d71534def1c5b23f43a70741ed35dd56",
+   "len": 35
+  },
+  "uvw-kem-256/ref/ct": {
+   "sha256_16": "b2179a7a78c16e245ffd764eaf47bf7c",
+   "len": 2199
+  },
+  "uvw-kem-256/ref/ss": {
+   "sha256_16": "c2be49cee8ab86bc26602ce4ed37d490",
+   "len": 64
+  },
+  "uvw-kem-256/opt/kat0-pk": {
+   "sha256_16": "57dea59cc3539022fa281fd48c375d4b",
+   "len": 911645
+  },
+  "uvw-kem-256/opt/kat0-sk": {
+   "sha256_16": "29ed823467d9e7edee5c8dc2af5b1b89",
+   "len": 35
+  },
+  "uvw-kem-256/opt/kat0-ct": {
+   "sha256_16": "97350a1f083f2bbbc8ac41cb82b01afd",
+   "len": 2199
+  },
+  "uvw-kem-256/opt/kat0-ss": {
+   "sha256_16": "d61485199b47aeeff6fb72877dfc9ff6",
+   "len": 64
+  },
+  "uvw-kem-256/opt/pk": {
+   "sha256_16": "970aa682c64e008a91e37827ba053e46",
+   "len": 911645
+  },
+  "uvw-kem-256/opt/sk": {
+   "sha256_16": "d71534def1c5b23f43a70741ed35dd56",
+   "len": 35
+  },
+  "uvw-kem-256/opt/ct": {
+   "sha256_16": "b2179a7a78c16e245ffd764eaf47bf7c",
+   "len": 2199
+  },
+  "uvw-kem-256/opt/ss": {
+   "sha256_16": "c2be49cee8ab86bc26602ce4ed37d490",
+   "len": 64
+  }
+ },
+ "checks": {
+  "uvw-kem-256/ref/kat-roundtrip": "PASS",
+  "uvw-kem-256/ref/tampered-ct-rejected": "PASS",
+  "uvw-kem-256/opt/kat-roundtrip": "PASS",
+  "uvw-kem-256/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "uvw-kem-256": "kind=KEM pk=911645 sk=35 ct=2199 ss=64",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_UVW_Key_Encapsulation_Mechanism__UVW-KEM-256",
+ "pid": "kem_UVW_Key_Encapsulation_Mechanism",
+ "param": "UVW-KEM-256",
+ "kind": "KEM",
+ "seconds": 57.5,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_UVW_KEM_256.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

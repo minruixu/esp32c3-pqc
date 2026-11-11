@@ -1,0 +1,28 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "sig_UVW_signature__UVW-256",
+ "pid": "sig_UVW_signature",
+ "param": "UVW-256",
+ "kind": "SIG",
+ "verdict": "does not build",
+ "reason": "undefined symbols: dp_alloc, dp_free, dp_random_non_zero, dp_right_product_matrix, dp_shuffle, gauss_jordan_elimination, mf3_alloc, mf3_copy, mf3_free, mf3_product_vector_matrix, mf3_random, mf3_set_to_identity",
+ "build_errors": [
+  "Undefined symbols for architecture arm64:",
+  "\"_dp_alloc\", referenced from:",
+  "\"_dp_free\", referenced from:",
+  "\"_dp_random_non_zero\", referenced from:",
+  "\"_dp_right_product_matrix\", referenced from:",
+  "\"_dp_shuffle\", referenced from:",
+  "\"_gauss_jordan_elimination\", referenced from:",
+  "\"_mf3_alloc\", referenced from:",
+  "\"_mf3_copy\", referenced from:",
+  "\"_mf3_free\", referenced from:",
+  "\"_mf3_product_vector_matrix\", referenced from:",
+  "\"_mf3_random\", referenced from:"
+ ]
+}

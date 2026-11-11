@@ -1,0 +1,202 @@
+{
+ "results": {
+  "dkem-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 24508,
+   "min_us": 24508,
+   "max_us": 24508,
+   "stack": 10312,
+   "heap": 164,
+   "rc": 0
+  },
+  "dkem-128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 6247,
+   "min_us": 6244,
+   "max_us": 6249,
+   "stack": 7048,
+   "heap": 132,
+   "rc": 0
+  },
+  "dkem-128/ref/encaps": {
+   "iters": 3,
+   "avg_us": 7719,
+   "min_us": 7717,
+   "max_us": 7721,
+   "stack": 9336,
+   "heap": 164,
+   "rc": 0
+  },
+  "dkem-128/ref/decaps": {
+   "iters": 3,
+   "avg_us": 9147,
+   "min_us": 9145,
+   "max_us": 9149,
+   "stack": 10156,
+   "heap": 164,
+   "rc": 0
+  },
+  "dkem-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 9149,
+   "min_us": 9149,
+   "max_us": 9149,
+   "stack": 10172,
+   "heap": 164,
+   "rc": 0
+  },
+  "dkem-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 19259,
+   "min_us": 19259,
+   "max_us": 19259,
+   "stack": 10008,
+   "heap": 164,
+   "rc": 0
+  },
+  "dkem-128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 4618,
+   "min_us": 4616,
+   "max_us": 4622,
+   "stack": 6744,
+   "heap": 132,
+   "rc": 0
+  },
+  "dkem-128/opt/encaps": {
+   "iters": 3,
+   "avg_us": 5927,
+   "min_us": 5926,
+   "max_us": 5931,
+   "stack": 9032,
+   "heap": 164,
+   "rc": 0
+  },
+  "dkem-128/opt/decaps": {
+   "iters": 3,
+   "avg_us": 7321,
+   "min_us": 7318,
+   "max_us": 7323,
+   "stack": 10120,
+   "heap": 164,
+   "rc": 0
+  },
+  "dkem-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 7318,
+   "min_us": 7318,
+   "max_us": 7318,
+   "stack": 10008,
+   "heap": 164,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "dkem-128/ref/kat0-pk": {
+   "sha256_16": "7d89591d06186f15f4fb720d7724f9a1",
+   "len": 800
+  },
+  "dkem-128/ref/kat0-sk": {
+   "sha256_16": "85cfd2de491b033fb00cd216d48dd2a1",
+   "len": 1600
+  },
+  "dkem-128/ref/kat0-ct": {
+   "sha256_16": "6976341cb5b586402e55fd57e99d0634",
+   "len": 800
+  },
+  "dkem-128/ref/kat0-ss": {
+   "sha256_16": "e2ff39812977cfc28f0386514450cba5",
+   "len": 32
+  },
+  "dkem-128/ref/pk": {
+   "sha256_16": "2f676c6c06f73f9db6d08ec4d7b51e9b",
+   "len": 800
+  },
+  "dkem-128/ref/sk": {
+   "sha256_16": "a784344618e04f053f784c97d9962b9e",
+   "len": 1600
+  },
+  "dkem-128/ref/ct": {
+   "sha256_16": "ec18f2c79522612f2e29dc7cf683f550",
+   "len": 800
+  },
+  "dkem-128/ref/ss": {
+   "sha256_16": "ed3d4c0949bb32cf260f85a75b87e013",
+   "len": 32
+  },
+  "dkem-128/opt/kat0-pk": {
+   "sha256_16": "7d89591d06186f15f4fb720d7724f9a1",
+   "len": 800
+  },
+  "dkem-128/opt/kat0-sk": {
+   "sha256_16": "85cfd2de491b033fb00cd216d48dd2a1",
+   "len": 1600
+  },
+  "dkem-128/opt/kat0-ct": {
+   "sha256_16": "6976341cb5b586402e55fd57e99d0634",
+   "len": 800
+  },
+  "dkem-128/opt/kat0-ss": {
+   "sha256_16": "e2ff39812977cfc28f0386514450cba5",
+   "len": 32
+  },
+  "dkem-128/opt/pk": {
+   "sha256_16": "2f676c6c06f73f9db6d08ec4d7b51e9b",
+   "len": 800
+  },
+  "dkem-128/opt/sk": {
+   "sha256_16": "a784344618e04f053f784c97d9962b9e",
+   "len": 1600
+  },
+  "dkem-128/opt/ct": {
+   "sha256_16": "ec18f2c79522612f2e29dc7cf683f550",
+   "len": 800
+  },
+  "dkem-128/opt/ss": {
+   "sha256_16": "ed3d4c0949bb32cf260f85a75b87e013",
+   "len": 32
+  }
+ },
+ "checks": {
+  "dkem-128/ref/kat-roundtrip": "PASS",
+  "dkem-128/ref/tampered-ct-rejected": "PASS",
+  "dkem-128/opt/kat-roundtrip": "PASS",
+  "dkem-128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "dkem-128": "kind=KEM pk=800 sk=1600 ct=800 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 245552,
+ "heap_free_min": 174872,
+ "unit": "kem_DKEM__Ding_Key_Encapsulation__DKEM-128",
+ "pid": "kem_DKEM__Ding_Key_Encapsulation",
+ "param": "DKEM-128",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 133984,
+ "seconds": 1.7,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_DKEM-128.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

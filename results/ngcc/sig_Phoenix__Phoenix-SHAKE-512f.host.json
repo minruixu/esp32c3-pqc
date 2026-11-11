@@ -1,0 +1,101 @@
+{
+ "results": {
+  "phoenix-shake-512f/ref/kat": {
+   "iters": 1,
+   "avg_us": 1085847,
+   "min_us": 1085847,
+   "max_us": 1085847,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "phoenix-shake-512f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 45336,
+   "min_us": 43455,
+   "max_us": 46833,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "phoenix-shake-512f/ref/sign": {
+   "iters": 3,
+   "avg_us": 982657,
+   "min_us": 968614,
+   "max_us": 1000820,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "phoenix-shake-512f/ref/verify": {
+   "iters": 3,
+   "avg_us": 24063,
+   "min_us": 22624,
+   "max_us": 25234,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "phoenix-shake-512f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 9026,
+   "min_us": 9026,
+   "max_us": 9026,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "phoenix-shake-512f/ref/kat0-pk": {
+   "sha256_16": "e6e92284bc126264b45c8287b0e2d00d",
+   "len": 128
+  },
+  "phoenix-shake-512f/ref/kat0-sk": {
+   "sha256_16": "e600ee2be45881b80f2527143d1e63bd",
+   "len": 256
+  },
+  "phoenix-shake-512f/ref/kat0-sig": {
+   "sha256_16": "1a1203ba38aaf031cb39c92d919c0712",
+   "len": 137930
+  },
+  "phoenix-shake-512f/ref/pk": {
+   "sha256_16": "bb9beff53208f9ba27a0246454f6e817",
+   "len": 128
+  },
+  "phoenix-shake-512f/ref/sk": {
+   "sha256_16": "7117bcbae0ecd2917753d8b3215a53f4",
+   "len": 256
+  },
+  "phoenix-shake-512f/ref/sig": {
+   "sha256_16": "b3d19f6b9088c8f4da536ffc2158cd4b",
+   "len": 138186
+  }
+ },
+ "checks": {
+  "phoenix-shake-512f/ref/kat-roundtrip": "PASS",
+  "phoenix-shake-512f/ref/tampered-rejected": "PASS"
+ },
+ "info": {
+  "phoenix-shake-512f": "kind=SIG pk=128 sk=256 sig=138454",
+  "job_stack": "0",
+  "kat0_sig_len": "137930",
+  "sig_len": "138186"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Phoenix__Phoenix-SHAKE-512f",
+ "pid": "sig_Phoenix",
+ "param": "Phoenix-SHAKE-512f",
+ "kind": "SIG",
+ "seconds": 5.4,
+ "kat": {
+  "result": "differs",
+  "detail": "no KAT file starts with this public key"
+ },
+ "verdict": "works",
+ "reason": ""
+}

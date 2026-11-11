@@ -1,0 +1,202 @@
+{
+ "results": {
+  "mithril-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 393316,
+   "min_us": 393316,
+   "max_us": 393316,
+   "stack": 35912,
+   "heap": 3808,
+   "rc": 0
+  },
+  "mithril-512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 108335,
+   "min_us": 108335,
+   "max_us": 108336,
+   "stack": 20024,
+   "heap": 3296,
+   "rc": 0
+  },
+  "mithril-512/ref/encaps": {
+   "iters": 3,
+   "avg_us": 130304,
+   "min_us": 130304,
+   "max_us": 130305,
+   "stack": 28600,
+   "heap": 3296,
+   "rc": 0
+  },
+  "mithril-512/ref/decaps": {
+   "iters": 3,
+   "avg_us": 152860,
+   "min_us": 152860,
+   "max_us": 152860,
+   "stack": 35896,
+   "heap": 3808,
+   "rc": 0
+  },
+  "mithril-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 152859,
+   "min_us": 152859,
+   "max_us": 152859,
+   "stack": 35912,
+   "heap": 3808,
+   "rc": 0
+  },
+  "mithril-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 372395,
+   "min_us": 372395,
+   "max_us": 372395,
+   "stack": 35912,
+   "heap": 3808,
+   "rc": 0
+  },
+  "mithril-512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 101605,
+   "min_us": 101604,
+   "max_us": 101609,
+   "stack": 20024,
+   "heap": 3296,
+   "rc": 0
+  },
+  "mithril-512/opt/encaps": {
+   "iters": 3,
+   "avg_us": 123356,
+   "min_us": 123354,
+   "max_us": 123359,
+   "stack": 28600,
+   "heap": 3296,
+   "rc": 0
+  },
+  "mithril-512/opt/decaps": {
+   "iters": 3,
+   "avg_us": 145616,
+   "min_us": 145615,
+   "max_us": 145620,
+   "stack": 35896,
+   "heap": 3808,
+   "rc": 0
+  },
+  "mithril-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 145619,
+   "min_us": 145619,
+   "max_us": 145619,
+   "stack": 35912,
+   "heap": 3808,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mithril-512/ref/kat0-pk": {
+   "sha256_16": "eff333575b610a5c6aaeee9cbd0d4a86",
+   "len": 3056
+  },
+  "mithril-512/ref/kat0-sk": {
+   "sha256_16": "dc12a0faf65131a9a7164178d44f60e5",
+   "len": 3728
+  },
+  "mithril-512/ref/kat0-ct": {
+   "sha256_16": "424da61f84dc1a2f9e3c240d45e7e8ee",
+   "len": 3504
+  },
+  "mithril-512/ref/kat0-ss": {
+   "sha256_16": "71fd783596a21e113241e41931669a7e",
+   "len": 64
+  },
+  "mithril-512/ref/pk": {
+   "sha256_16": "b716b3d392f8cb6b83b8a80e10b66584",
+   "len": 3056
+  },
+  "mithril-512/ref/sk": {
+   "sha256_16": "7f3b5ef8ad6ae1cfefa36853f73ea4f1",
+   "len": 3728
+  },
+  "mithril-512/ref/ct": {
+   "sha256_16": "8c2137236f9fc4f975ca67e1c07d87e6",
+   "len": 3504
+  },
+  "mithril-512/ref/ss": {
+   "sha256_16": "59a3388d4994c26b4536767966c9fe23",
+   "len": 64
+  },
+  "mithril-512/opt/kat0-pk": {
+   "sha256_16": "eff333575b610a5c6aaeee9cbd0d4a86",
+   "len": 3056
+  },
+  "mithril-512/opt/kat0-sk": {
+   "sha256_16": "dc12a0faf65131a9a7164178d44f60e5",
+   "len": 3728
+  },
+  "mithril-512/opt/kat0-ct": {
+   "sha256_16": "424da61f84dc1a2f9e3c240d45e7e8ee",
+   "len": 3504
+  },
+  "mithril-512/opt/kat0-ss": {
+   "sha256_16": "71fd783596a21e113241e41931669a7e",
+   "len": 64
+  },
+  "mithril-512/opt/pk": {
+   "sha256_16": "b716b3d392f8cb6b83b8a80e10b66584",
+   "len": 3056
+  },
+  "mithril-512/opt/sk": {
+   "sha256_16": "7f3b5ef8ad6ae1cfefa36853f73ea4f1",
+   "len": 3728
+  },
+  "mithril-512/opt/ct": {
+   "sha256_16": "8c2137236f9fc4f975ca67e1c07d87e6",
+   "len": 3504
+  },
+  "mithril-512/opt/ss": {
+   "sha256_16": "59a3388d4994c26b4536767966c9fe23",
+   "len": 64
+  }
+ },
+ "checks": {
+  "mithril-512/ref/kat-roundtrip": "PASS",
+  "mithril-512/ref/tampered-ct-rejected": "PASS",
+  "mithril-512/opt/kat-roundtrip": "PASS",
+  "mithril-512/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "mithril-512": "kind=KEM pk=3056 sk=3728 ct=3504 ss=64",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 244336,
+ "heap_free_min": 162716,
+ "unit": "kem_Mithril__Mithril-512",
+ "pid": "kem_Mithril",
+ "param": "Mithril-512",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 135040,
+ "seconds": 5.2,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_Mithril-512.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

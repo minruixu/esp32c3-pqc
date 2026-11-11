@@ -1,0 +1,192 @@
+{
+ "results": {
+  "weaverkem-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 1254,
+   "min_us": 1254,
+   "max_us": 1254,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "weaverkem-512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 377,
+   "min_us": 366,
+   "max_us": 387,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "weaverkem-512/ref/encaps": {
+   "iters": 3,
+   "avg_us": 432,
+   "min_us": 400,
+   "max_us": 480,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "weaverkem-512/ref/decaps": {
+   "iters": 3,
+   "avg_us": 440,
+   "min_us": 411,
+   "max_us": 458,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "weaverkem-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 415,
+   "min_us": 415,
+   "max_us": 415,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "weaverkem-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 1313,
+   "min_us": 1313,
+   "max_us": 1313,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "weaverkem-512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 389,
+   "min_us": 386,
+   "max_us": 396,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "weaverkem-512/opt/encaps": {
+   "iters": 3,
+   "avg_us": 433,
+   "min_us": 401,
+   "max_us": 458,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "weaverkem-512/opt/decaps": {
+   "iters": 3,
+   "avg_us": 511,
+   "min_us": 475,
+   "max_us": 578,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "weaverkem-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 538,
+   "min_us": 538,
+   "max_us": 538,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "weaverkem-512/ref/kat0-pk": {
+   "sha256_16": "5f46ddbd2b7b67b2bcd037ac65f0b989",
+   "len": 2880
+  },
+  "weaverkem-512/ref/kat0-sk": {
+   "sha256_16": "60770fd67823a9ea635edf3be2f38405",
+   "len": 6400
+  },
+  "weaverkem-512/ref/kat0-ct": {
+   "sha256_16": "8d843484e0d87c0f9a3e71abee6538dd",
+   "len": 3392
+  },
+  "weaverkem-512/ref/kat0-ss": {
+   "sha256_16": "27bdb7823d5857cc3550a260c47fb298",
+   "len": 64
+  },
+  "weaverkem-512/ref/pk": {
+   "sha256_16": "4a08ed790118688ad1bacd0989db7188",
+   "len": 2880
+  },
+  "weaverkem-512/ref/sk": {
+   "sha256_16": "d8f51e36e1b3731930263ab00540bd75",
+   "len": 6400
+  },
+  "weaverkem-512/ref/ct": {
+   "sha256_16": "80c2f18371247a672babeae00a3cdd49",
+   "len": 3392
+  },
+  "weaverkem-512/ref/ss": {
+   "sha256_16": "235908d7141d4f45acedba5e77038e94",
+   "len": 64
+  },
+  "weaverkem-512/opt/kat0-pk": {
+   "sha256_16": "5f46ddbd2b7b67b2bcd037ac65f0b989",
+   "len": 2880
+  },
+  "weaverkem-512/opt/kat0-sk": {
+   "sha256_16": "60770fd67823a9ea635edf3be2f38405",
+   "len": 6400
+  },
+  "weaverkem-512/opt/kat0-ct": {
+   "sha256_16": "8d843484e0d87c0f9a3e71abee6538dd",
+   "len": 3392
+  },
+  "weaverkem-512/opt/kat0-ss": {
+   "sha256_16": "27bdb7823d5857cc3550a260c47fb298",
+   "len": 64
+  },
+  "weaverkem-512/opt/pk": {
+   "sha256_16": "4a08ed790118688ad1bacd0989db7188",
+   "len": 2880
+  },
+  "weaverkem-512/opt/sk": {
+   "sha256_16": "d8f51e36e1b3731930263ab00540bd75",
+   "len": 6400
+  },
+  "weaverkem-512/opt/ct": {
+   "sha256_16": "80c2f18371247a672babeae00a3cdd49",
+   "len": 3392
+  },
+  "weaverkem-512/opt/ss": {
+   "sha256_16": "235908d7141d4f45acedba5e77038e94",
+   "len": 64
+  }
+ },
+ "checks": {
+  "weaverkem-512/ref/kat-roundtrip": "PASS",
+  "weaverkem-512/ref/tampered-ct-rejected": "PASS",
+  "weaverkem-512/opt/kat-roundtrip": "PASS",
+  "weaverkem-512/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "weaverkem-512": "kind=KEM pk=2880 sk=6400 ct=3392 ss=64",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_Weaver__WeaverKEM-512",
+ "pid": "kem_Weaver",
+ "param": "WeaverKEM-512",
+ "kind": "KEM",
+ "seconds": 3.0,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_WeaverKEM-512.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

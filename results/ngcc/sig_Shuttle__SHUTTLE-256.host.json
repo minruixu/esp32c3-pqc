@@ -1,0 +1,177 @@
+{
+ "results": {
+  "shuttle-256/ref/kat": {
+   "iters": 1,
+   "avg_us": 2830,
+   "min_us": 2830,
+   "max_us": 2830,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 628,
+   "min_us": 586,
+   "max_us": 657,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-256/ref/sign": {
+   "iters": 3,
+   "avg_us": 926,
+   "min_us": 878,
+   "max_us": 970,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-256/ref/verify": {
+   "iters": 3,
+   "avg_us": 224,
+   "min_us": 221,
+   "max_us": 227,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 430,
+   "min_us": 430,
+   "max_us": 430,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-256/opt/kat": {
+   "iters": 1,
+   "avg_us": 3205,
+   "min_us": 3205,
+   "max_us": 3205,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 648,
+   "min_us": 598,
+   "max_us": 674,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-256/opt/sign": {
+   "iters": 3,
+   "avg_us": 832,
+   "min_us": 805,
+   "max_us": 886,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-256/opt/verify": {
+   "iters": 3,
+   "avg_us": 197,
+   "min_us": 187,
+   "max_us": 210,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 342,
+   "min_us": 342,
+   "max_us": 342,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "shuttle-256/ref/kat0-pk": {
+   "sha256_16": "66744dc6c6698859c686899a83807cd4",
+   "len": 1952
+  },
+  "shuttle-256/ref/kat0-sk": {
+   "sha256_16": "06ad15323c7abbd4ac02ab943a1b88b0",
+   "len": 3680
+  },
+  "shuttle-256/ref/kat0-sig": {
+   "sha256_16": "fb9aa69c107aac6c1f56ad23210c9ea0",
+   "len": 2417
+  },
+  "shuttle-256/ref/pk": {
+   "sha256_16": "f27c68a44b9b87dac25bdd18d6538101",
+   "len": 1952
+  },
+  "shuttle-256/ref/sk": {
+   "sha256_16": "38d883b6099cabf69eb22834f333dc8a",
+   "len": 3680
+  },
+  "shuttle-256/ref/sig": {
+   "sha256_16": "a2ce7c41f1b06a4107ee5a663ba65869",
+   "len": 2417
+  },
+  "shuttle-256/opt/kat0-pk": {
+   "sha256_16": "66744dc6c6698859c686899a83807cd4",
+   "len": 1952
+  },
+  "shuttle-256/opt/kat0-sk": {
+   "sha256_16": "06ad15323c7abbd4ac02ab943a1b88b0",
+   "len": 3680
+  },
+  "shuttle-256/opt/kat0-sig": {
+   "sha256_16": "fb9aa69c107aac6c1f56ad23210c9ea0",
+   "len": 2417
+  },
+  "shuttle-256/opt/pk": {
+   "sha256_16": "f27c68a44b9b87dac25bdd18d6538101",
+   "len": 1952
+  },
+  "shuttle-256/opt/sk": {
+   "sha256_16": "38d883b6099cabf69eb22834f333dc8a",
+   "len": 3680
+  },
+  "shuttle-256/opt/sig": {
+   "sha256_16": "a2ce7c41f1b06a4107ee5a663ba65869",
+   "len": 2417
+  }
+ },
+ "checks": {
+  "shuttle-256/ref/kat-roundtrip": "PASS",
+  "shuttle-256/ref/tampered-rejected": "PASS",
+  "shuttle-256/opt/kat-roundtrip": "PASS",
+  "shuttle-256/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "shuttle-256": "kind=SIG pk=1952 sk=3680 sig=2417",
+  "job_stack": "0",
+  "kat0_sig_len": "2417",
+  "sig_len": "2417"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Shuttle__SHUTTLE-256",
+ "pid": "sig_Shuttle",
+ "param": "SHUTTLE-256",
+ "kind": "SIG",
+ "seconds": 1.9,
+ "kat": {
+  "result": "match",
+  "file": "Implementation codes and test vectors/Shuttle \u7b97\u6cd5\u5b9e\u73b0\u6e90\u4ee3\u7801\u53ca\u6d4b\u8bd5\u5411\u91cf/Test_Vectors/KAT_SIG_SHUTTLE-256.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

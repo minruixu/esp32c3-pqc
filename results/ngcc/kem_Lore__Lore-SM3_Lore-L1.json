@@ -1,0 +1,202 @@
+{
+ "results": {
+  "lore-sm3_lore-l1/ref/kat": {
+   "iters": 1,
+   "avg_us": 54512,
+   "min_us": 54512,
+   "max_us": 54512,
+   "stack": 18216,
+   "heap": 2508,
+   "rc": 0
+  },
+  "lore-sm3_lore-l1/ref/keygen": {
+   "iters": 3,
+   "avg_us": 11014,
+   "min_us": 11014,
+   "max_us": 11015,
+   "stack": 13032,
+   "heap": 2508,
+   "rc": 0
+  },
+  "lore-sm3_lore-l1/ref/encaps": {
+   "iters": 3,
+   "avg_us": 18427,
+   "min_us": 18424,
+   "max_us": 18429,
+   "stack": 17384,
+   "heap": 2508,
+   "rc": 0
+  },
+  "lore-sm3_lore-l1/ref/decaps": {
+   "iters": 3,
+   "avg_us": 23677,
+   "min_us": 23676,
+   "max_us": 23681,
+   "stack": 18200,
+   "heap": 2508,
+   "rc": 0
+  },
+  "lore-sm3_lore-l1/ref/tamper": {
+   "iters": 1,
+   "avg_us": 23676,
+   "min_us": 23676,
+   "max_us": 23676,
+   "stack": 18216,
+   "heap": 2508,
+   "rc": 0
+  },
+  "lore-sm3_lore-l1/opt/kat": {
+   "iters": 1,
+   "avg_us": 46191,
+   "min_us": 46191,
+   "max_us": 46191,
+   "stack": 18088,
+   "heap": 2508,
+   "rc": 0
+  },
+  "lore-sm3_lore-l1/opt/keygen": {
+   "iters": 3,
+   "avg_us": 8858,
+   "min_us": 8855,
+   "max_us": 8860,
+   "stack": 13032,
+   "heap": 2508,
+   "rc": 0
+  },
+  "lore-sm3_lore-l1/opt/encaps": {
+   "iters": 3,
+   "avg_us": 15381,
+   "min_us": 15380,
+   "max_us": 15384,
+   "stack": 17384,
+   "heap": 2508,
+   "rc": 0
+  },
+  "lore-sm3_lore-l1/opt/decaps": {
+   "iters": 3,
+   "avg_us": 20558,
+   "min_us": 20558,
+   "max_us": 20559,
+   "stack": 18200,
+   "heap": 2508,
+   "rc": 0
+  },
+  "lore-sm3_lore-l1/opt/tamper": {
+   "iters": 1,
+   "avg_us": 20559,
+   "min_us": 20559,
+   "max_us": 20559,
+   "stack": 18216,
+   "heap": 2508,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "lore-sm3_lore-l1/ref/kat0-pk": {
+   "sha256_16": "47b152a4417f75cfa7735b104fc485bb",
+   "len": 610
+  },
+  "lore-sm3_lore-l1/ref/kat0-sk": {
+   "sha256_16": "051df62544d8916202751b8978a412ad",
+   "len": 2108
+  },
+  "lore-sm3_lore-l1/ref/kat0-ct": {
+   "sha256_16": "07890098619330c68fd338cdfd932f99",
+   "len": 706
+  },
+  "lore-sm3_lore-l1/ref/kat0-ss": {
+   "sha256_16": "f7574bf17029237218a20b22d12910db",
+   "len": 32
+  },
+  "lore-sm3_lore-l1/ref/pk": {
+   "sha256_16": "cbcad53782322c08bca8c3acf457aac0",
+   "len": 610
+  },
+  "lore-sm3_lore-l1/ref/sk": {
+   "sha256_16": "e249218380ca2f7aae48c347cfd77363",
+   "len": 2108
+  },
+  "lore-sm3_lore-l1/ref/ct": {
+   "sha256_16": "76d283ee8d0fdcbb9292cecb15471889",
+   "len": 706
+  },
+  "lore-sm3_lore-l1/ref/ss": {
+   "sha256_16": "91972dab726925d3448afa78625ce7f3",
+   "len": 32
+  },
+  "lore-sm3_lore-l1/opt/kat0-pk": {
+   "sha256_16": "47b152a4417f75cfa7735b104fc485bb",
+   "len": 610
+  },
+  "lore-sm3_lore-l1/opt/kat0-sk": {
+   "sha256_16": "051df62544d8916202751b8978a412ad",
+   "len": 2108
+  },
+  "lore-sm3_lore-l1/opt/kat0-ct": {
+   "sha256_16": "07890098619330c68fd338cdfd932f99",
+   "len": 706
+  },
+  "lore-sm3_lore-l1/opt/kat0-ss": {
+   "sha256_16": "f7574bf17029237218a20b22d12910db",
+   "len": 32
+  },
+  "lore-sm3_lore-l1/opt/pk": {
+   "sha256_16": "cbcad53782322c08bca8c3acf457aac0",
+   "len": 610
+  },
+  "lore-sm3_lore-l1/opt/sk": {
+   "sha256_16": "e249218380ca2f7aae48c347cfd77363",
+   "len": 2108
+  },
+  "lore-sm3_lore-l1/opt/ct": {
+   "sha256_16": "76d283ee8d0fdcbb9292cecb15471889",
+   "len": 706
+  },
+  "lore-sm3_lore-l1/opt/ss": {
+   "sha256_16": "91972dab726925d3448afa78625ce7f3",
+   "len": 32
+  }
+ },
+ "checks": {
+  "lore-sm3_lore-l1/ref/kat-roundtrip": "PASS",
+  "lore-sm3_lore-l1/ref/tampered-ct-rejected": "PASS",
+  "lore-sm3_lore-l1/opt/kat-roundtrip": "PASS",
+  "lore-sm3_lore-l1/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "lore-sm3_lore-l1": "kind=KEM pk=610 sk=2108 ct=706 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 243488,
+ "heap_free_min": 170168,
+ "unit": "kem_Lore__Lore-SM3_Lore-L1",
+ "pid": "kem_Lore",
+ "param": "Lore-SM3_Lore-L1",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 136240,
+ "seconds": 2.3,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/Lore-SM3/KAT_KEM_Lore-L1.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "results": {
+  "reference_implementation/ref/kat": {
+   "iters": 1,
+   "avg_us": 844,
+   "min_us": 844,
+   "max_us": 844,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "reference_implementation/ref/keygen": {
+   "iters": 3,
+   "avg_us": 115,
+   "min_us": 111,
+   "max_us": 121,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "reference_implementation/ref/sign": {
+   "iters": 3,
+   "avg_us": 440,
+   "min_us": 436,
+   "max_us": 447,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "reference_implementation/ref/verify": {
+   "iters": 3,
+   "avg_us": 119,
+   "min_us": 118,
+   "max_us": 120,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "reference_implementation/ref/tamper": {
+   "iters": 1,
+   "avg_us": 239,
+   "min_us": 239,
+   "max_us": 239,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "reference_implementation/opt/kat": {
+   "iters": 1,
+   "avg_us": 821,
+   "min_us": 821,
+   "max_us": 821,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "reference_implementation/opt/keygen": {
+   "iters": 3,
+   "avg_us": 109,
+   "min_us": 109,
+   "max_us": 110,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "reference_implementation/opt/sign": {
+   "iters": 3,
+   "avg_us": 537,
+   "min_us": 437,
+   "max_us": 697,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "reference_implementation/opt/verify": {
+   "iters": 3,
+   "avg_us": 118,
+   "min_us": 118,
+   "max_us": 120,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "reference_implementation/opt/tamper": {
+   "iters": 1,
+   "avg_us": 236,
+   "min_us": 236,
+   "max_us": 236,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "reference_implementation/ref/kat0-pk": {
+   "sha256_16": "e13a65ee919187337788e9ead4f99990",
+   "len": 3616
+  },
+  "reference_implementation/ref/kat0-sk": {
+   "sha256_16": "4a2518aa82f732c7dbe5baca1e806bbe",
+   "len": 2144
+  },
+  "reference_implementation/ref/kat0-sig": {
+   "sha256_16": "9e72c66316492283003adf6d31c1e18d",
+   "len": 4080
+  },
+  "reference_implementation/ref/pk": {
+   "sha256_16": "23931d2fc37db7a5e1a7683ef4bb9c98",
+   "len": 3616
+  },
+  "reference_implementation/ref/sk": {
+   "sha256_16": "bea3c83a5ea5c875329557451f87f807",
+   "len": 2144
+  },
+  "reference_implementation/ref/sig": {
+   "sha256_16": "df0df84b69693fd09429c102f41046cc",
+   "len": 4080
+  },
+  "reference_implementation/opt/kat0-pk": {
+   "sha256_16": "e13a65ee919187337788e9ead4f99990",
+   "len": 3616
+  },
+  "reference_implementation/opt/kat0-sk": {
+   "sha256_16": "4a2518aa82f732c7dbe5baca1e806bbe",
+   "len": 2144
+  },
+  "reference_implementation/opt/kat0-sig": {
+   "sha256_16": "9e72c66316492283003adf6d31c1e18d",
+   "len": 4080
+  },
+  "reference_implementation/opt/pk": {
+   "sha256_16": "23931d2fc37db7a5e1a7683ef4bb9c98",
+   "len": 3616
+  },
+  "reference_implementation/opt/sk": {
+   "sha256_16": "bea3c83a5ea5c875329557451f87f807",
+   "len": 2144
+  },
+  "reference_implementation/opt/sig": {
+   "sha256_16": "df0df84b69693fd09429c102f41046cc",
+   "len": 4080
+  }
+ },
+ "checks": {
+  "reference_implementation/ref/kat-roundtrip": "PASS",
+  "reference_implementation/ref/tampered-rejected": "PASS",
+  "reference_implementation/opt/kat-roundtrip": "PASS",
+  "reference_implementation/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "reference_implementation": "kind=SIG pk=3616 sk=2144 sig=4080",
+  "job_stack": "0",
+  "kat0_sig_len": "4080",
+  "sig_len": "4080"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_COMPASS-SIG__Reference_Implementation",
+ "pid": "sig_COMPASS-SIG",
+ "param": "Reference_Implementation",
+ "kind": "SIG",
+ "seconds": 2.1,
+ "kat": {
+  "result": "differs",
+  "detail": "no KAT file starts with this public key"
+ },
+ "verdict": "works",
+ "reason": ""
+}

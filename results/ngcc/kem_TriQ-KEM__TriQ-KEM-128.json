@@ -1,0 +1,202 @@
+{
+ "results": {
+  "triq-kem-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 1430505,
+   "min_us": 1430505,
+   "max_us": 1430505,
+   "stack": 61400,
+   "heap": 3224,
+   "rc": 0
+  },
+  "triq-kem-128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 243383,
+   "min_us": 243381,
+   "max_us": 243386,
+   "stack": 51368,
+   "heap": 3224,
+   "rc": 0
+  },
+  "triq-kem-128/ref/encaps": {
+   "iters": 3,
+   "avg_us": 472957,
+   "min_us": 472957,
+   "max_us": 472957,
+   "stack": 55144,
+   "heap": 3224,
+   "rc": 0
+  },
+  "triq-kem-128/ref/decaps": {
+   "iters": 3,
+   "avg_us": 712345,
+   "min_us": 712345,
+   "max_us": 712346,
+   "stack": 61384,
+   "heap": 3224,
+   "rc": 0
+  },
+  "triq-kem-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 712345,
+   "min_us": 712345,
+   "max_us": 712345,
+   "stack": 61400,
+   "heap": 3224,
+   "rc": 0
+  },
+  "triq-kem-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 1412765,
+   "min_us": 1412765,
+   "max_us": 1412765,
+   "stack": 61400,
+   "heap": 3224,
+   "rc": 0
+  },
+  "triq-kem-128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 237792,
+   "min_us": 237789,
+   "max_us": 237794,
+   "stack": 51368,
+   "heap": 3224,
+   "rc": 0
+  },
+  "triq-kem-128/opt/encaps": {
+   "iters": 3,
+   "avg_us": 467284,
+   "min_us": 467281,
+   "max_us": 467286,
+   "stack": 55144,
+   "heap": 3224,
+   "rc": 0
+  },
+  "triq-kem-128/opt/decaps": {
+   "iters": 3,
+   "avg_us": 705870,
+   "min_us": 705869,
+   "max_us": 705873,
+   "stack": 61384,
+   "heap": 3224,
+   "rc": 0
+  },
+  "triq-kem-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 705874,
+   "min_us": 705874,
+   "max_us": 705874,
+   "stack": 61400,
+   "heap": 3224,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "triq-kem-128/ref/kat0-pk": {
+   "sha256_16": "815367aaaa8df5644ef1a679bd129694",
+   "len": 2054
+  },
+  "triq-kem-128/ref/kat0-sk": {
+   "sha256_16": "db986a0fd8916972508921c5929728be",
+   "len": 2102
+  },
+  "triq-kem-128/ref/kat0-ct": {
+   "sha256_16": "4adb3a5ff3e26980a97df380b7092202",
+   "len": 4086
+  },
+  "triq-kem-128/ref/kat0-ss": {
+   "sha256_16": "2c70e1c2ab56a124ae1b9888e7c367ca",
+   "len": 16
+  },
+  "triq-kem-128/ref/pk": {
+   "sha256_16": "ac8fbc0603cca02f413a926bc93040d7",
+   "len": 2054
+  },
+  "triq-kem-128/ref/sk": {
+   "sha256_16": "c200590b770f275f590acacf744c8be6",
+   "len": 2102
+  },
+  "triq-kem-128/ref/ct": {
+   "sha256_16": "18bf56bfe7fd548c34b6abb64b8db53c",
+   "len": 4086
+  },
+  "triq-kem-128/ref/ss": {
+   "sha256_16": "a2d64076c41f60752e9d4568032d5797",
+   "len": 16
+  },
+  "triq-kem-128/opt/kat0-pk": {
+   "sha256_16": "815367aaaa8df5644ef1a679bd129694",
+   "len": 2054
+  },
+  "triq-kem-128/opt/kat0-sk": {
+   "sha256_16": "db986a0fd8916972508921c5929728be",
+   "len": 2102
+  },
+  "triq-kem-128/opt/kat0-ct": {
+   "sha256_16": "4adb3a5ff3e26980a97df380b7092202",
+   "len": 4086
+  },
+  "triq-kem-128/opt/kat0-ss": {
+   "sha256_16": "2c70e1c2ab56a124ae1b9888e7c367ca",
+   "len": 16
+  },
+  "triq-kem-128/opt/pk": {
+   "sha256_16": "ac8fbc0603cca02f413a926bc93040d7",
+   "len": 2054
+  },
+  "triq-kem-128/opt/sk": {
+   "sha256_16": "c200590b770f275f590acacf744c8be6",
+   "len": 2102
+  },
+  "triq-kem-128/opt/ct": {
+   "sha256_16": "18bf56bfe7fd548c34b6abb64b8db53c",
+   "len": 4086
+  },
+  "triq-kem-128/opt/ss": {
+   "sha256_16": "a2d64076c41f60752e9d4568032d5797",
+   "len": 16
+  }
+ },
+ "checks": {
+  "triq-kem-128/ref/kat-roundtrip": "PASS",
+  "triq-kem-128/ref/tampered-ct-rejected": "PASS",
+  "triq-kem-128/opt/kat-roundtrip": "PASS",
+  "triq-kem-128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "triq-kem-128": "kind=KEM pk=2054 sk=2102 ct=4086 ss=16",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 234800,
+ "heap_free_min": 155908,
+ "unit": "kem_TriQ-KEM__TriQ-KEM-128",
+ "pid": "kem_TriQ-KEM",
+ "param": "TriQ-KEM-128",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 143808,
+ "seconds": 14.7,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_TriQ-KEM-128.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

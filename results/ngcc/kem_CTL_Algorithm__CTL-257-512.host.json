@@ -1,0 +1,20 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "kem_CTL_Algorithm__CTL-257-512",
+ "pid": "kem_CTL_Algorithm",
+ "param": "CTL-257-512",
+ "kind": "KEM",
+ "verdict": "does not build",
+ "reason": "undefined symbols: solve_ntru_3329_2048_clean",
+ "build_errors": [
+  "Undefined symbols for architecture arm64:",
+  "\"_solve_ntru_3329_2048_clean\", referenced from:",
+  "ld: symbol(s) not found for architecture arm64",
+  "cc: error: linker command failed with exit code 1 (use -v to see invocation)"
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "results": {
+  "mamba-viper-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 141,
+   "min_us": 141,
+   "max_us": 141,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 38,
+   "min_us": 36,
+   "max_us": 39,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-128/ref/encaps": {
+   "iters": 3,
+   "avg_us": 81,
+   "min_us": 64,
+   "max_us": 116,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-128/ref/decaps": {
+   "iters": 3,
+   "avg_us": 127,
+   "min_us": 110,
+   "max_us": 159,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 43,
+   "min_us": 43,
+   "max_us": 43,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 104,
+   "min_us": 104,
+   "max_us": 104,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 21,
+   "min_us": 21,
+   "max_us": 23,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-128/opt/encaps": {
+   "iters": 3,
+   "avg_us": 32,
+   "min_us": 32,
+   "max_us": 33,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-128/opt/decaps": {
+   "iters": 3,
+   "avg_us": 38,
+   "min_us": 38,
+   "max_us": 39,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-viper-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 40,
+   "min_us": 40,
+   "max_us": 40,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mamba-viper-128/ref/kat0-pk": {
+   "sha256_16": "6e0a607b6db9df7a1874cc8c5b749f9e",
+   "len": 608
+  },
+  "mamba-viper-128/ref/kat0-sk": {
+   "sha256_16": "a03ccf65ecdc8ba883af24cb4adf1575",
+   "len": 1424
+  },
+  "mamba-viper-128/ref/kat0-ct": {
+   "sha256_16": "8ed88ca4cfcf39f11b50eb147252f1cb",
+   "len": 736
+  },
+  "mamba-viper-128/ref/kat0-ss": {
+   "sha256_16": "d2322df2268a964b8c30f6172b23fb07",
+   "len": 16
+  },
+  "mamba-viper-128/ref/pk": {
+   "sha256_16": "4f726800ed309e9ba744ab089caa9822",
+   "len": 608
+  },
+  "mamba-viper-128/ref/sk": {
+   "sha256_16": "12eb7d92d702d72469178b0d09596541",
+   "len": 1424
+  },
+  "mamba-viper-128/ref/ct": {
+   "sha256_16": "463dc81cbc4423f749f3f2bbb9b9dcb8",
+   "len": 736
+  },
+  "mamba-viper-128/ref/ss": {
+   "sha256_16": "d1ceac934624b24ea4c8f2e92e5e0ac7",
+   "len": 16
+  },
+  "mamba-viper-128/opt/kat0-pk": {
+   "sha256_16": "6e0a607b6db9df7a1874cc8c5b749f9e",
+   "len": 608
+  },
+  "mamba-viper-128/opt/kat0-sk": {
+   "sha256_16": "a03ccf65ecdc8ba883af24cb4adf1575",
+   "len": 1424
+  },
+  "mamba-viper-128/opt/kat0-ct": {
+   "sha256_16": "8ed88ca4cfcf39f11b50eb147252f1cb",
+   "len": 736
+  },
+  "mamba-viper-128/opt/kat0-ss": {
+   "sha256_16": "d2322df2268a964b8c30f6172b23fb07",
+   "len": 16
+  },
+  "mamba-viper-128/opt/pk": {
+   "sha256_16": "4f726800ed309e9ba744ab089caa9822",
+   "len": 608
+  },
+  "mamba-viper-128/opt/sk": {
+   "sha256_16": "12eb7d92d702d72469178b0d09596541",
+   "len": 1424
+  },
+  "mamba-viper-128/opt/ct": {
+   "sha256_16": "463dc81cbc4423f749f3f2bbb9b9dcb8",
+   "len": 736
+  },
+  "mamba-viper-128/opt/ss": {
+   "sha256_16": "d1ceac934624b24ea4c8f2e92e5e0ac7",
+   "len": 16
+  }
+ },
+ "checks": {
+  "mamba-viper-128/ref/kat-roundtrip": "PASS",
+  "mamba-viper-128/ref/tampered-ct-rejected": "PASS",
+  "mamba-viper-128/opt/kat-roundtrip": "PASS",
+  "mamba-viper-128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "mamba-viper-128": "kind=KEM pk=608 sk=1424 ct=736 ss=16",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_MAMBA-Viper__MAMBA-Viper-128",
+ "pid": "kem_MAMBA-Viper",
+ "param": "MAMBA-Viper-128",
+ "kind": "KEM",
+ "seconds": 1.9,
+ "kat": {
+  "result": "match",
+  "file": "API_PKC/API_PKC/Test_Vectors/KAT_KEM_MAMBA-Viper-128.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

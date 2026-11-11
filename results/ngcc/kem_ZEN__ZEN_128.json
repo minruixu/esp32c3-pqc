@@ -1,0 +1,29 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "kem_ZEN__ZEN_128",
+ "pid": "kem_ZEN",
+ "param": "ZEN_128",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "verdict": "does not build",
+ "reason": "needs code that uses 128-bit integers (__int128), which the 32-bit RISC-V compiler does not have (poly.c)",
+ "build_errors": [
+  "kem_ZEN/Implementations/Reference_Implementation/ZEN_128/pke.c:28:(.text.ngc_pke_keygen_derand+0x38): undefined reference to `ngc_poly_generate_f'",
+  "ib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: kem_ZEN/Implementations/Reference_Implementation/ZEN_128/pke.c:36:(.text.ngc_pke_keygen_derand+0x8a): undefined reference to `ngc_check_poly_inv_Z2'",
+  "ib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: kem_ZEN/Implementations/Reference_Implementation/ZEN_128/pke.c:41:(.text.ngc_pke_keygen_derand+0xa0): undefined reference to `ngc_check_poly_inv_Zq'",
+  "../lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: kem_ZEN/Implementations/Reference_Implementation/ZEN_128/pke.c:49:(.text.ngc_pke_keygen_derand+0xc0): undefined reference to `ngc_FastInversion'",
+  "/lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: kem_ZEN/Implementations/Reference_Implementation/ZEN_128/pke.c:55:(.text.ngc_pke_keygen_derand+0xd2): undefined reference to `ngc_poly_generate_g'",
+  "ib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: kem_ZEN/Implementations/Reference_Implementation/ZEN_128/pke.c:59:(.text.ngc_pke_keygen_derand+0xe2): undefined reference to `ngc_check_poly_inv_Zq'",
+  "gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: kem_ZEN/Implementations/Reference_Implementation/ZEN_128/pke.c:68:(.text.ngc_pke_keygen_derand+0x10a): undefined reference to `ngc_poly_publickey_pack'",
+  "gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: kem_ZEN/Implementations/Reference_Implementation/ZEN_128/pke.c:69:(.text.ngc_pke_keygen_derand+0x116): undefined reference to `ngc_poly_secretkey_pack'",
+  "/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: kem_ZEN/Implementations/Reference_Implementation/ZEN_128/pke.c:70:(.text.ngc_pke_keygen_derand+0x128): undefined reference to `ngc_poly_bit2byte_pack'",
+  "lib/gcc/riscv32-esp-elf/14.2.0/../../../../riscv32-esp-elf/bin/ld: kem_ZEN/Implementations/Reference_Implementation/ZEN_128/pke.c:73:(.text.ngc_pke_keygen_derand+0x162): undefined reference to `ngc_poly_generate_f'"
+ ]
+}

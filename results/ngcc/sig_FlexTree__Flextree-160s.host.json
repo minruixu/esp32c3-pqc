@@ -1,0 +1,177 @@
+{
+ "results": {
+  "flextree-160s/ref/kat": {
+   "iters": 1,
+   "avg_us": 1186180,
+   "min_us": 1186180,
+   "max_us": 1186180,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "flextree-160s/ref/keygen": {
+   "iters": 3,
+   "avg_us": 79677,
+   "min_us": 78528,
+   "max_us": 80818,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "flextree-160s/ref/sign": {
+   "iters": 3,
+   "avg_us": 1131562,
+   "min_us": 1115800,
+   "max_us": 1151610,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "flextree-160s/ref/verify": {
+   "iters": 3,
+   "avg_us": 2756,
+   "min_us": 2682,
+   "max_us": 2817,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "flextree-160s/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1096,
+   "min_us": 1096,
+   "max_us": 1096,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "flextree-160s/opt/kat": {
+   "iters": 1,
+   "avg_us": 1207893,
+   "min_us": 1207893,
+   "max_us": 1207893,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "flextree-160s/opt/keygen": {
+   "iters": 3,
+   "avg_us": 79883,
+   "min_us": 79055,
+   "max_us": 80502,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "flextree-160s/opt/sign": {
+   "iters": 3,
+   "avg_us": 1133909,
+   "min_us": 1124839,
+   "max_us": 1139950,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "flextree-160s/opt/verify": {
+   "iters": 3,
+   "avg_us": 2892,
+   "min_us": 2817,
+   "max_us": 2991,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "flextree-160s/opt/tamper": {
+   "iters": 1,
+   "avg_us": 814,
+   "min_us": 814,
+   "max_us": 814,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "flextree-160s/ref/kat0-pk": {
+   "sha256_16": "2527362161bda0d477166fc9f4aa8e95",
+   "len": 40
+  },
+  "flextree-160s/ref/kat0-sk": {
+   "sha256_16": "0ddfa82b9bfb8ead78eab57ab91e837a",
+   "len": 80
+  },
+  "flextree-160s/ref/kat0-sig": {
+   "sha256_16": "18759a0c2220ac5bbc4ebd00a6c2129c",
+   "len": 9580
+  },
+  "flextree-160s/ref/pk": {
+   "sha256_16": "92ca11fe4391e8941c7559e1d7c4d150",
+   "len": 40
+  },
+  "flextree-160s/ref/sk": {
+   "sha256_16": "377ae0696dd9b758b3d85f67b4326dce",
+   "len": 80
+  },
+  "flextree-160s/ref/sig": {
+   "sha256_16": "e853382a0e854a927cad28a97042a147",
+   "len": 9580
+  },
+  "flextree-160s/opt/kat0-pk": {
+   "sha256_16": "2527362161bda0d477166fc9f4aa8e95",
+   "len": 40
+  },
+  "flextree-160s/opt/kat0-sk": {
+   "sha256_16": "0ddfa82b9bfb8ead78eab57ab91e837a",
+   "len": 80
+  },
+  "flextree-160s/opt/kat0-sig": {
+   "sha256_16": "18759a0c2220ac5bbc4ebd00a6c2129c",
+   "len": 9580
+  },
+  "flextree-160s/opt/pk": {
+   "sha256_16": "92ca11fe4391e8941c7559e1d7c4d150",
+   "len": 40
+  },
+  "flextree-160s/opt/sk": {
+   "sha256_16": "377ae0696dd9b758b3d85f67b4326dce",
+   "len": 80
+  },
+  "flextree-160s/opt/sig": {
+   "sha256_16": "e853382a0e854a927cad28a97042a147",
+   "len": 9580
+  }
+ },
+ "checks": {
+  "flextree-160s/ref/kat-roundtrip": "PASS",
+  "flextree-160s/ref/tampered-rejected": "PASS",
+  "flextree-160s/opt/kat-roundtrip": "PASS",
+  "flextree-160s/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "flextree-160s": "kind=SIG pk=40 sk=80 sig=9580",
+  "job_stack": "0",
+  "kat0_sig_len": "9580",
+  "sig_len": "9580"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_FlexTree__Flextree-160s",
+ "pid": "sig_FlexTree",
+ "param": "Flextree-160s",
+ "kind": "SIG",
+ "seconds": 11.8,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_Flextree-160s.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

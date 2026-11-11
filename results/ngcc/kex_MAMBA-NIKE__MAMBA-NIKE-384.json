@@ -1,0 +1,33 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "mamba-nike-384": "kind=KEX passes=1 pk=2848 sk=6944 sta=48 stb=0 ss=48 msgs=3360",
+  "job_stack": "65536"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 233344,
+ "unit": "kex_MAMBA-NIKE__MAMBA-NIKE-384",
+ "pid": "kex_MAMBA-NIKE",
+ "param": "MAMBA-NIKE-384",
+ "kind": "KEX",
+ "iters": 1,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 146240,
+ "seconds": 3.7,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "Guru Meditation Error: Core  0 panic'ed (Stack protection fault).",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

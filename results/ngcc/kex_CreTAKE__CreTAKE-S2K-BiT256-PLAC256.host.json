@@ -1,0 +1,191 @@
+{
+ "results": {
+  "cretake-s2k-bit256-plac256/ref/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": -1
+  },
+  "cretake-s2k-bit256-plac256/ref/init_a": {
+   "iters": 3,
+   "avg_us": 170,
+   "min_us": 52,
+   "max_us": 401,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cretake-s2k-bit256-plac256/ref/init_b": {
+   "iters": 3,
+   "avg_us": 40,
+   "min_us": 22,
+   "max_us": 68,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cretake-s2k-bit256-plac256/ref/full": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": -1
+  },
+  "cretake-s2k-bit256-plac256/opt/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": -1
+  },
+  "cretake-s2k-bit256-plac256/opt/init_a": {
+   "iters": 3,
+   "avg_us": 52,
+   "min_us": 51,
+   "max_us": 55,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cretake-s2k-bit256-plac256/opt/init_b": {
+   "iters": 3,
+   "avg_us": 26,
+   "min_us": 18,
+   "max_us": 37,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cretake-s2k-bit256-plac256/opt/full": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": -1
+  }
+ },
+ "digests": {
+  "cretake-s2k-bit256-plac256/ref/kat0-pka": {
+   "sha256_16": "c57dde0d390862ecf2bee05df2a0bad2",
+   "len": 1048
+  },
+  "cretake-s2k-bit256-plac256/ref/kat0-pkb": {
+   "sha256_16": "f1295de0b38f74aa53653c222bbe181d",
+   "len": 530
+  },
+  "cretake-s2k-bit256-plac256/ref/kat0-m1": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "cretake-s2k-bit256-plac256/ref/kat0-m2": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "cretake-s2k-bit256-plac256/ref/kat0-ss": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "cretake-s2k-bit256-plac256/ref/pka": {
+   "sha256_16": "2f96a4d56ffca815928782454a648236",
+   "len": 1048
+  },
+  "cretake-s2k-bit256-plac256/ref/pkb": {
+   "sha256_16": "aadc26315b6c264365b77116bf3bc19e",
+   "len": 530
+  },
+  "cretake-s2k-bit256-plac256/ref/m1": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "cretake-s2k-bit256-plac256/ref/m2": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "cretake-s2k-bit256-plac256/ref/ss": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "cretake-s2k-bit256-plac256/opt/kat0-pka": {
+   "sha256_16": "c57dde0d390862ecf2bee05df2a0bad2",
+   "len": 1048
+  },
+  "cretake-s2k-bit256-plac256/opt/kat0-pkb": {
+   "sha256_16": "f1295de0b38f74aa53653c222bbe181d",
+   "len": 530
+  },
+  "cretake-s2k-bit256-plac256/opt/kat0-m1": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "cretake-s2k-bit256-plac256/opt/kat0-m2": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "cretake-s2k-bit256-plac256/opt/kat0-ss": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "cretake-s2k-bit256-plac256/opt/pka": {
+   "sha256_16": "2f96a4d56ffca815928782454a648236",
+   "len": 1048
+  },
+  "cretake-s2k-bit256-plac256/opt/pkb": {
+   "sha256_16": "aadc26315b6c264365b77116bf3bc19e",
+   "len": 530
+  },
+  "cretake-s2k-bit256-plac256/opt/m1": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "cretake-s2k-bit256-plac256/opt/m2": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "cretake-s2k-bit256-plac256/opt/ss": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  }
+ },
+ "checks": {
+  "cretake-s2k-bit256-plac256/ref/kat-roundtrip": "FAIL",
+  "cretake-s2k-bit256-plac256/opt/kat-roundtrip": "FAIL"
+ },
+ "info": {
+  "cretake-s2k-bit256-plac256": "kind=KEX passes=2 pk=2144 sk=4160 sta=1376 stb=64 ss=64 msgs=7076",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 6,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kex_CreTAKE__CreTAKE-S2K-BiT256-PLAC256",
+ "pid": "kex_CreTAKE",
+ "param": "CreTAKE-S2K-BiT256-PLAC256",
+ "kind": "KEX",
+ "seconds": 9.1,
+ "kat": {
+  "result": "differs",
+  "file": "Test_Vectors/Reference_Test_Vector/KAT_KEX_CreTAKE-S2K-BiT128-PLAC128.txt",
+  "equal": [
+   "pka",
+   "pkb"
+  ],
+  "different": [
+   "m1",
+   "m2",
+   "ss"
+  ]
+ },
+ "verdict": "self-test fails",
+ "reason": "failed: cretake-s2k-bit256-plac256/opt/full, cretake-s2k-bit256-plac256/opt/kat, cretake-s2k-bit256-plac256/opt/kat-roundtrip, cretake-s2k-bit256-plac256/ref/full, cretake-s2k-bit256-plac256/ref/kat, cretake-"
+}

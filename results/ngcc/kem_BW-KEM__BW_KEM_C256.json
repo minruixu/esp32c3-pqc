@@ -1,0 +1,202 @@
+{
+ "results": {
+  "bw_kem_c256/ref/kat": {
+   "iters": 1,
+   "avg_us": 70191,
+   "min_us": 70191,
+   "max_us": 70191,
+   "stack": 21864,
+   "heap": 1600,
+   "rc": 0
+  },
+  "bw_kem_c256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 20298,
+   "min_us": 20298,
+   "max_us": 20298,
+   "stack": 16760,
+   "heap": 584,
+   "rc": 0
+  },
+  "bw_kem_c256/ref/encaps": {
+   "iters": 3,
+   "avg_us": 22054,
+   "min_us": 22054,
+   "max_us": 22054,
+   "stack": 20424,
+   "heap": 584,
+   "rc": 0
+  },
+  "bw_kem_c256/ref/decaps": {
+   "iters": 3,
+   "avg_us": 26468,
+   "min_us": 26466,
+   "max_us": 26472,
+   "stack": 21848,
+   "heap": 1600,
+   "rc": 0
+  },
+  "bw_kem_c256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 26471,
+   "min_us": 26471,
+   "max_us": 26471,
+   "stack": 21864,
+   "heap": 1600,
+   "rc": 0
+  },
+  "bw_kem_c256/opt/kat": {
+   "iters": 1,
+   "avg_us": 52580,
+   "min_us": 52580,
+   "max_us": 52580,
+   "stack": 21688,
+   "heap": 1600,
+   "rc": 0
+  },
+  "bw_kem_c256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 14671,
+   "min_us": 14670,
+   "max_us": 14675,
+   "stack": 16584,
+   "heap": 584,
+   "rc": 0
+  },
+  "bw_kem_c256/opt/encaps": {
+   "iters": 3,
+   "avg_us": 16282,
+   "min_us": 16281,
+   "max_us": 16286,
+   "stack": 20248,
+   "heap": 584,
+   "rc": 0
+  },
+  "bw_kem_c256/opt/decaps": {
+   "iters": 3,
+   "avg_us": 20256,
+   "min_us": 20256,
+   "max_us": 20257,
+   "stack": 21672,
+   "heap": 1600,
+   "rc": 0
+  },
+  "bw_kem_c256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 20256,
+   "min_us": 20256,
+   "max_us": 20256,
+   "stack": 21688,
+   "heap": 1600,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "bw_kem_c256/ref/kat0-pk": {
+   "sha256_16": "945a0f8c7b511951d820e7485712724e",
+   "len": 1568
+  },
+  "bw_kem_c256/ref/kat0-sk": {
+   "sha256_16": "f8adcc1d51367e66d197b6e1480794be",
+   "len": 3169
+  },
+  "bw_kem_c256/ref/kat0-ct": {
+   "sha256_16": "6efe8201f6603bf16ea7ba75b3bcfbd6",
+   "len": 1440
+  },
+  "bw_kem_c256/ref/kat0-ss": {
+   "sha256_16": "8512076d470f3dbbe5d7f84b3f9c5175",
+   "len": 32
+  },
+  "bw_kem_c256/ref/pk": {
+   "sha256_16": "ec51444409f8c8928ea2ab33b302e12e",
+   "len": 1568
+  },
+  "bw_kem_c256/ref/sk": {
+   "sha256_16": "c69f65f98d37d7cb3ae1561932d43ced",
+   "len": 3169
+  },
+  "bw_kem_c256/ref/ct": {
+   "sha256_16": "b4baf1151c86f2d11814935b6282a66e",
+   "len": 1440
+  },
+  "bw_kem_c256/ref/ss": {
+   "sha256_16": "5ad5a119e57672ab63062eab70f02fbc",
+   "len": 32
+  },
+  "bw_kem_c256/opt/kat0-pk": {
+   "sha256_16": "945a0f8c7b511951d820e7485712724e",
+   "len": 1568
+  },
+  "bw_kem_c256/opt/kat0-sk": {
+   "sha256_16": "f8adcc1d51367e66d197b6e1480794be",
+   "len": 3169
+  },
+  "bw_kem_c256/opt/kat0-ct": {
+   "sha256_16": "6efe8201f6603bf16ea7ba75b3bcfbd6",
+   "len": 1440
+  },
+  "bw_kem_c256/opt/kat0-ss": {
+   "sha256_16": "8512076d470f3dbbe5d7f84b3f9c5175",
+   "len": 32
+  },
+  "bw_kem_c256/opt/pk": {
+   "sha256_16": "ec51444409f8c8928ea2ab33b302e12e",
+   "len": 1568
+  },
+  "bw_kem_c256/opt/sk": {
+   "sha256_16": "c69f65f98d37d7cb3ae1561932d43ced",
+   "len": 3169
+  },
+  "bw_kem_c256/opt/ct": {
+   "sha256_16": "b4baf1151c86f2d11814935b6282a66e",
+   "len": 1440
+  },
+  "bw_kem_c256/opt/ss": {
+   "sha256_16": "5ad5a119e57672ab63062eab70f02fbc",
+   "len": 32
+  }
+ },
+ "checks": {
+  "bw_kem_c256/ref/kat-roundtrip": "PASS",
+  "bw_kem_c256/ref/tampered-ct-rejected": "PASS",
+  "bw_kem_c256/opt/kat-roundtrip": "PASS",
+  "bw_kem_c256/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "bw_kem_c256": "kind=KEM pk=1568 sk=3169 ct=1440 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 235248,
+ "heap_free_min": 160124,
+ "unit": "kem_BW-KEM__BW_KEM_C256",
+ "pid": "kem_BW-KEM",
+ "param": "BW_KEM_C256",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 144128,
+ "seconds": 2.2,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/Reference_Implementation/KAT_KEM_BW_KEM_C256.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

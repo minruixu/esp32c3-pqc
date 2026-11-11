@@ -1,0 +1,8 @@
+{
+ "note": "Uses plain C99 'inline' on functions that have no external definition, in a header and in a source file. Forcing them inline gives the behaviour the authors rely on.",
+ "all": {
+  "defs": [
+   "inline=inline __attribute__((always_inline))"
+  ]
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "results": {
+  "dkem-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 217596,
+   "min_us": 217596,
+   "max_us": 217596,
+   "stack": 41336,
+   "heap": 336,
+   "rc": 0
+  },
+  "dkem-512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 66938,
+   "min_us": 66935,
+   "max_us": 66940,
+   "stack": 31256,
+   "heap": 228,
+   "rc": 0
+  },
+  "dkem-512/ref/encaps": {
+   "iters": 3,
+   "avg_us": 71928,
+   "min_us": 71928,
+   "max_us": 71928,
+   "stack": 37896,
+   "heap": 296,
+   "rc": 0
+  },
+  "dkem-512/ref/decaps": {
+   "iters": 3,
+   "avg_us": 77202,
+   "min_us": 77199,
+   "max_us": 77204,
+   "stack": 41320,
+   "heap": 336,
+   "rc": 0
+  },
+  "dkem-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 77203,
+   "min_us": 77203,
+   "max_us": 77203,
+   "stack": 41336,
+   "heap": 336,
+   "rc": 0
+  },
+  "dkem-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 149609,
+   "min_us": 149609,
+   "max_us": 149609,
+   "stack": 41160,
+   "heap": 336,
+   "rc": 0
+  },
+  "dkem-512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 44790,
+   "min_us": 44787,
+   "max_us": 44792,
+   "stack": 31080,
+   "heap": 228,
+   "rc": 0
+  },
+  "dkem-512/opt/encaps": {
+   "iters": 3,
+   "avg_us": 49106,
+   "min_us": 49104,
+   "max_us": 49108,
+   "stack": 37720,
+   "heap": 296,
+   "rc": 0
+  },
+  "dkem-512/opt/decaps": {
+   "iters": 3,
+   "avg_us": 54181,
+   "min_us": 54179,
+   "max_us": 54184,
+   "stack": 41144,
+   "heap": 336,
+   "rc": 0
+  },
+  "dkem-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 54184,
+   "min_us": 54184,
+   "max_us": 54184,
+   "stack": 41160,
+   "heap": 336,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "dkem-512/ref/kat0-pk": {
+   "sha256_16": "55646999d93b8a210f5ed17a8f109f11",
+   "len": 3392
+  },
+  "dkem-512/ref/kat0-sk": {
+   "sha256_16": "1785e3453857cf48816c0e7b2cacd8a6",
+   "len": 6784
+  },
+  "dkem-512/ref/kat0-ct": {
+   "sha256_16": "305d674c8681f5a696a0baa78ea46629",
+   "len": 3136
+  },
+  "dkem-512/ref/kat0-ss": {
+   "sha256_16": "67b24da2c41acbd8257bc762270cdf2f",
+   "len": 64
+  },
+  "dkem-512/ref/pk": {
+   "sha256_16": "0528f6c55a6cf88344d1dcc1a65f3f16",
+   "len": 3392
+  },
+  "dkem-512/ref/sk": {
+   "sha256_16": "17e4028a42be27b982b3d8a9f6dd00d2",
+   "len": 6784
+  },
+  "dkem-512/ref/ct": {
+   "sha256_16": "d4f836355a9166c06d8b42c70fcb0dc5",
+   "len": 3136
+  },
+  "dkem-512/ref/ss": {
+   "sha256_16": "9758c677b7032d8689eba049c78c7781",
+   "len": 64
+  },
+  "dkem-512/opt/kat0-pk": {
+   "sha256_16": "55646999d93b8a210f5ed17a8f109f11",
+   "len": 3392
+  },
+  "dkem-512/opt/kat0-sk": {
+   "sha256_16": "1785e3453857cf48816c0e7b2cacd8a6",
+   "len": 6784
+  },
+  "dkem-512/opt/kat0-ct": {
+   "sha256_16": "305d674c8681f5a696a0baa78ea46629",
+   "len": 3136
+  },
+  "dkem-512/opt/kat0-ss": {
+   "sha256_16": "67b24da2c41acbd8257bc762270cdf2f",
+   "len": 64
+  },
+  "dkem-512/opt/pk": {
+   "sha256_16": "0528f6c55a6cf88344d1dcc1a65f3f16",
+   "len": 3392
+  },
+  "dkem-512/opt/sk": {
+   "sha256_16": "17e4028a42be27b982b3d8a9f6dd00d2",
+   "len": 6784
+  },
+  "dkem-512/opt/ct": {
+   "sha256_16": "d4f836355a9166c06d8b42c70fcb0dc5",
+   "len": 3136
+  },
+  "dkem-512/opt/ss": {
+   "sha256_16": "9758c677b7032d8689eba049c78c7781",
+   "len": 64
+  }
+ },
+ "checks": {
+  "dkem-512/ref/kat-roundtrip": "PASS",
+  "dkem-512/ref/tampered-ct-rejected": "PASS",
+  "dkem-512/opt/kat-roundtrip": "PASS",
+  "dkem-512/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "dkem-512": "kind=KEM pk=3392 sk=6784 ct=3136 ss=64",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 240576,
+ "heap_free_min": 159356,
+ "unit": "kem_DKEM__Ding_Key_Encapsulation__DKEM-512",
+ "pid": "kem_DKEM__Ding_Key_Encapsulation",
+ "param": "DKEM-512",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 138736,
+ "seconds": 3.4,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_DKEM-512.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

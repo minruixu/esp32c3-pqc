@@ -1,0 +1,189 @@
+{
+ "results": {
+  "triq-kex-256/ref/kat": {
+   "iters": 1,
+   "avg_us": 55064,
+   "min_us": 55064,
+   "max_us": 55064,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-256/ref/init_a": {
+   "iters": 3,
+   "avg_us": 3351,
+   "min_us": 3253,
+   "max_us": 3462,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-256/ref/init_b": {
+   "iters": 3,
+   "avg_us": 4019,
+   "min_us": 3154,
+   "max_us": 5678,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-256/ref/full": {
+   "iters": 3,
+   "avg_us": 130864,
+   "min_us": 61116,
+   "max_us": 254116,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-256/opt/kat": {
+   "iters": 1,
+   "avg_us": 53516,
+   "min_us": 53516,
+   "max_us": 53516,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-256/opt/init_a": {
+   "iters": 3,
+   "avg_us": 3370,
+   "min_us": 3115,
+   "max_us": 3875,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-256/opt/init_b": {
+   "iters": 3,
+   "avg_us": 3329,
+   "min_us": 3121,
+   "max_us": 3590,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-256/opt/full": {
+   "iters": 3,
+   "avg_us": 88113,
+   "min_us": 63730,
+   "max_us": 119022,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "triq-kex-256/ref/kat0-pka": {
+   "sha256_16": "8d085861cb29b5433b955c419ee021c6",
+   "len": 6328
+  },
+  "triq-kex-256/ref/kat0-pkb": {
+   "sha256_16": "644c44a4df28eb01b900fe777d47696b",
+   "len": 6328
+  },
+  "triq-kex-256/ref/kat0-m1": {
+   "sha256_16": "2cd88e0b776b28744626fae57b3b97aa",
+   "len": 18808
+  },
+  "triq-kex-256/ref/kat0-m2": {
+   "sha256_16": "696a7a8eaf9952def17ac3e0119ace4a",
+   "len": 24952
+  },
+  "triq-kex-256/ref/kat0-ss": {
+   "sha256_16": "c02e0eec93e47e141d36a647dc0613dd",
+   "len": 32
+  },
+  "triq-kex-256/ref/pka": {
+   "sha256_16": "5d1b97accab49bb096d0e72fa0509140",
+   "len": 6328
+  },
+  "triq-kex-256/ref/pkb": {
+   "sha256_16": "f20bd84d8def6176a3e2840c30fd6034",
+   "len": 6328
+  },
+  "triq-kex-256/ref/m1": {
+   "sha256_16": "b50daab7e2666e7b3435aafdc63e036b",
+   "len": 18808
+  },
+  "triq-kex-256/ref/m2": {
+   "sha256_16": "cdd2713941d6cefac3233f09aa21f55a",
+   "len": 24952
+  },
+  "triq-kex-256/ref/ss": {
+   "sha256_16": "863b65e8784ebfb2a2b4d19d269ad7fd",
+   "len": 32
+  },
+  "triq-kex-256/opt/kat0-pka": {
+   "sha256_16": "8d085861cb29b5433b955c419ee021c6",
+   "len": 6328
+  },
+  "triq-kex-256/opt/kat0-pkb": {
+   "sha256_16": "644c44a4df28eb01b900fe777d47696b",
+   "len": 6328
+  },
+  "triq-kex-256/opt/kat0-m1": {
+   "sha256_16": "2cd88e0b776b28744626fae57b3b97aa",
+   "len": 18808
+  },
+  "triq-kex-256/opt/kat0-m2": {
+   "sha256_16": "696a7a8eaf9952def17ac3e0119ace4a",
+   "len": 24952
+  },
+  "triq-kex-256/opt/kat0-ss": {
+   "sha256_16": "c02e0eec93e47e141d36a647dc0613dd",
+   "len": 32
+  },
+  "triq-kex-256/opt/pka": {
+   "sha256_16": "5d1b97accab49bb096d0e72fa0509140",
+   "len": 6328
+  },
+  "triq-kex-256/opt/pkb": {
+   "sha256_16": "f20bd84d8def6176a3e2840c30fd6034",
+   "len": 6328
+  },
+  "triq-kex-256/opt/m1": {
+   "sha256_16": "b50daab7e2666e7b3435aafdc63e036b",
+   "len": 18808
+  },
+  "triq-kex-256/opt/m2": {
+   "sha256_16": "cdd2713941d6cefac3233f09aa21f55a",
+   "len": 24952
+  },
+  "triq-kex-256/opt/ss": {
+   "sha256_16": "863b65e8784ebfb2a2b4d19d269ad7fd",
+   "len": 32
+  }
+ },
+ "checks": {
+  "triq-kex-256/ref/kat-roundtrip": "PASS",
+  "triq-kex-256/opt/kat-roundtrip": "PASS"
+ },
+ "info": {
+  "triq-kex-256": "kind=KEX passes=2 pk=6328 sk=6488 sta=25256 stb=25040 ss=32 msgs=43760",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kex_TriQ-KEX__TriQ-KEX-256",
+ "pid": "kex_TriQ-KEX",
+ "param": "TriQ-KEX-256",
+ "kind": "KEX",
+ "seconds": 2.9,
+ "kat": {
+  "result": "match",
+  "file": "TriQ-KEX/Test_Vectors/KAT_KEX_TriQ-KEX-256.txt",
+  "fields": [
+   "m1",
+   "m2",
+   "pka",
+   "pkb",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

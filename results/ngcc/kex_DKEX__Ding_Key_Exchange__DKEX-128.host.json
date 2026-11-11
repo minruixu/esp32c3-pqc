@@ -1,0 +1,182 @@
+{
+ "results": {
+  "dkex-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 552,
+   "min_us": 552,
+   "max_us": 552,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dkex-128/ref/init_a": {
+   "iters": 3,
+   "avg_us": 45,
+   "min_us": 45,
+   "max_us": 47,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dkex-128/ref/init_b": {
+   "iters": 3,
+   "avg_us": 44,
+   "min_us": 44,
+   "max_us": 46,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dkex-128/ref/full": {
+   "iters": 3,
+   "avg_us": 1282,
+   "min_us": 732,
+   "max_us": 2375,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dkex-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 532,
+   "min_us": 532,
+   "max_us": 532,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dkex-128/opt/init_a": {
+   "iters": 3,
+   "avg_us": 45,
+   "min_us": 45,
+   "max_us": 47,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dkex-128/opt/init_b": {
+   "iters": 3,
+   "avg_us": 45,
+   "min_us": 44,
+   "max_us": 47,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dkex-128/opt/full": {
+   "iters": 3,
+   "avg_us": 787,
+   "min_us": 738,
+   "max_us": 866,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "dkex-128/ref/kat0-pka": {
+   "sha256_16": "773090caa6ccc84b48e4b954014c99b3",
+   "len": 1312
+  },
+  "dkex-128/ref/kat0-pkb": {
+   "sha256_16": "82a5fbdf2b35fac9ea612079f9ebab39",
+   "len": 1312
+  },
+  "dkex-128/ref/kat0-m1": {
+   "sha256_16": "a4236b9421a3fe03c8d2aaccb19d779c",
+   "len": 800
+  },
+  "dkex-128/ref/kat0-m2": {
+   "sha256_16": "6cc4ae1aaf8690c160b3f43b82d5de75",
+   "len": 3188
+  },
+  "dkex-128/ref/kat0-ss": {
+   "sha256_16": "3d2a8ac498ff54f374b4f197244cc578",
+   "len": 32
+  },
+  "dkex-128/ref/pka": {
+   "sha256_16": "1a08b2ce2ab7c02aee77ae2339f841e2",
+   "len": 1312
+  },
+  "dkex-128/ref/pkb": {
+   "sha256_16": "6870514b423059fc9f4dd09302c79e35",
+   "len": 1312
+  },
+  "dkex-128/ref/m1": {
+   "sha256_16": "615d0da18709f213b970cada7dc5d000",
+   "len": 800
+  },
+  "dkex-128/ref/m2": {
+   "sha256_16": "2c3651b8ede95d7d8add562b0d58e736",
+   "len": 3188
+  },
+  "dkex-128/ref/ss": {
+   "sha256_16": "24408edb9f5aecdb45696662a30ceca5",
+   "len": 32
+  },
+  "dkex-128/opt/kat0-pka": {
+   "sha256_16": "773090caa6ccc84b48e4b954014c99b3",
+   "len": 1312
+  },
+  "dkex-128/opt/kat0-pkb": {
+   "sha256_16": "82a5fbdf2b35fac9ea612079f9ebab39",
+   "len": 1312
+  },
+  "dkex-128/opt/kat0-m1": {
+   "sha256_16": "a4236b9421a3fe03c8d2aaccb19d779c",
+   "len": 800
+  },
+  "dkex-128/opt/kat0-m2": {
+   "sha256_16": "6cc4ae1aaf8690c160b3f43b82d5de75",
+   "len": 3188
+  },
+  "dkex-128/opt/kat0-ss": {
+   "sha256_16": "3d2a8ac498ff54f374b4f197244cc578",
+   "len": 32
+  },
+  "dkex-128/opt/pka": {
+   "sha256_16": "1a08b2ce2ab7c02aee77ae2339f841e2",
+   "len": 1312
+  },
+  "dkex-128/opt/pkb": {
+   "sha256_16": "6870514b423059fc9f4dd09302c79e35",
+   "len": 1312
+  },
+  "dkex-128/opt/m1": {
+   "sha256_16": "615d0da18709f213b970cada7dc5d000",
+   "len": 800
+  },
+  "dkex-128/opt/m2": {
+   "sha256_16": "2c3651b8ede95d7d8add562b0d58e736",
+   "len": 3188
+  },
+  "dkex-128/opt/ss": {
+   "sha256_16": "24408edb9f5aecdb45696662a30ceca5",
+   "len": 32
+  }
+ },
+ "checks": {
+  "dkex-128/ref/kat-roundtrip": "PASS",
+  "dkex-128/opt/kat-roundtrip": "PASS"
+ },
+ "info": {
+  "dkex-128": "kind=KEX passes=3 pk=1312 sk=2560 sta=2880 stb=1312 ss=32 msgs=6408",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kex_DKEX__Ding_Key_Exchange__DKEX-128",
+ "pid": "kex_DKEX__Ding_Key_Exchange",
+ "param": "DKEX-128",
+ "kind": "KEX",
+ "seconds": 5.1,
+ "kat": {
+  "result": "differs",
+  "detail": "no KAT file starts with this public key"
+ },
+ "verdict": "works",
+ "reason": ""
+}

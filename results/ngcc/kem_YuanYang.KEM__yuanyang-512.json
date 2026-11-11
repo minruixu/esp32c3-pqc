@@ -1,0 +1,195 @@
+{
+ "results": {
+  "yuanyang-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 92559,
+   "min_us": 92559,
+   "max_us": 92559,
+   "stack": 23144,
+   "heap": 2552,
+   "rc": 0
+  },
+  "yuanyang-512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 18386,
+   "min_us": 18383,
+   "max_us": 18388,
+   "stack": 9624,
+   "heap": 2552,
+   "rc": 0
+  },
+  "yuanyang-512/ref/encaps": {
+   "iters": 3,
+   "avg_us": 30386,
+   "min_us": 30386,
+   "max_us": 30386,
+   "stack": 12936,
+   "heap": 1600,
+   "rc": 0
+  },
+  "yuanyang-512/ref/decaps": {
+   "iters": 3,
+   "avg_us": 39516,
+   "min_us": 39513,
+   "max_us": 39518,
+   "stack": 22992,
+   "heap": 1472,
+   "rc": 0
+  },
+  "yuanyang-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 39518,
+   "min_us": 39518,
+   "max_us": 39518,
+   "stack": 23144,
+   "heap": 1472,
+   "rc": 0
+  },
+  "yuanyang-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 89287,
+   "min_us": 89287,
+   "max_us": 89287,
+   "stack": 23008,
+   "heap": 2552,
+   "rc": 0
+  },
+  "yuanyang-512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 17854,
+   "min_us": 17851,
+   "max_us": 17856,
+   "stack": 9624,
+   "heap": 2552,
+   "rc": 0
+  },
+  "yuanyang-512/opt/encaps": {
+   "iters": 3,
+   "avg_us": 28814,
+   "min_us": 28812,
+   "max_us": 28816,
+   "stack": 12800,
+   "heap": 1600,
+   "rc": 0
+  },
+  "yuanyang-512/opt/decaps": {
+   "iters": 3,
+   "avg_us": 38351,
+   "min_us": 38349,
+   "max_us": 38353,
+   "stack": 22992,
+   "heap": 1472,
+   "rc": 0
+  },
+  "yuanyang-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 38353,
+   "min_us": 38353,
+   "max_us": 38353,
+   "stack": 23144,
+   "heap": 1472,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "yuanyang-512/ref/kat0-pk": {
+   "sha256_16": "43653c529924d7e9ea493aa3c1bda365",
+   "len": 736
+  },
+  "yuanyang-512/ref/kat0-sk": {
+   "sha256_16": "23a2c8813d0f69b03ecc39a0f35daa36",
+   "len": 1536
+  },
+  "yuanyang-512/ref/kat0-ct": {
+   "sha256_16": "3e8e7c3e49ffab5b78576c93ffe4f714",
+   "len": 656
+  },
+  "yuanyang-512/ref/kat0-ss": {
+   "sha256_16": "c3bfeeaecb4fcd24a0d815f83ccc50f5",
+   "len": 16
+  },
+  "yuanyang-512/ref/pk": {
+   "sha256_16": "30185272f4895f6ff60ebbb05407ae35",
+   "len": 736
+  },
+  "yuanyang-512/ref/sk": {
+   "sha256_16": "a032caf3368ea3e1af305f48bc71cc40",
+   "len": 1536
+  },
+  "yuanyang-512/ref/ct": {
+   "sha256_16": "cf3abdaefda4edc1f0422d437b37423d",
+   "len": 656
+  },
+  "yuanyang-512/ref/ss": {
+   "sha256_16": "94e34e4b9d05693c6a23249b0bfcfd43",
+   "len": 16
+  },
+  "yuanyang-512/opt/kat0-pk": {
+   "sha256_16": "43653c529924d7e9ea493aa3c1bda365",
+   "len": 736
+  },
+  "yuanyang-512/opt/kat0-sk": {
+   "sha256_16": "23a2c8813d0f69b03ecc39a0f35daa36",
+   "len": 1536
+  },
+  "yuanyang-512/opt/kat0-ct": {
+   "sha256_16": "3e8e7c3e49ffab5b78576c93ffe4f714",
+   "len": 656
+  },
+  "yuanyang-512/opt/kat0-ss": {
+   "sha256_16": "c3bfeeaecb4fcd24a0d815f83ccc50f5",
+   "len": 16
+  },
+  "yuanyang-512/opt/pk": {
+   "sha256_16": "30185272f4895f6ff60ebbb05407ae35",
+   "len": 736
+  },
+  "yuanyang-512/opt/sk": {
+   "sha256_16": "a032caf3368ea3e1af305f48bc71cc40",
+   "len": 1536
+  },
+  "yuanyang-512/opt/ct": {
+   "sha256_16": "cf3abdaefda4edc1f0422d437b37423d",
+   "len": 656
+  },
+  "yuanyang-512/opt/ss": {
+   "sha256_16": "94e34e4b9d05693c6a23249b0bfcfd43",
+   "len": 16
+  }
+ },
+ "checks": {
+  "yuanyang-512/ref/kat-roundtrip": "PASS",
+  "yuanyang-512/ref/tampered-ct-rejected": "PASS",
+  "yuanyang-512/opt/kat-roundtrip": "PASS",
+  "yuanyang-512/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "yuanyang-512": "kind=KEM pk=736 sk=1536 ct=656 ss=16",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 229216,
+ "heap_free_min": 156492,
+ "unit": "kem_YuanYang.KEM__yuanyang-512",
+ "pid": "kem_YuanYang.KEM",
+ "param": "yuanyang-512",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 150480,
+ "seconds": 2.6,
+ "kat": {
+  "result": "no KAT file in the package"
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

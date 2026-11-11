@@ -1,0 +1,19 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "kem_MAMBA-Frost__MAMBA-Frost-128",
+ "pid": "kem_MAMBA-Frost",
+ "param": "MAMBA-Frost-128",
+ "kind": "KEM",
+ "iters": 1,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 136576,
+ "attempts": [],
+ "verdict": "crashes",
+ "reason": "no output for 150 s (the run was stopped; not retried)"
+}

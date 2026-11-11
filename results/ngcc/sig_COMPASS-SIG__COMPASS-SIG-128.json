@@ -1,0 +1,45 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "compass-sig-128": "kind=SIG pk=1664 sk=960 sig=2080",
+  "job_stack": "32768"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 241680,
+ "unit": "sig_COMPASS-SIG__COMPASS-SIG-128",
+ "pid": "sig_COMPASS-SIG",
+ "param": "COMPASS-SIG-128",
+ "kind": "SIG",
+ "iters": 3,
+ "stack_pct": 30,
+ "stack_given": 0,
+ "image_bytes": 137696,
+ "attempts": [
+  {
+   "verdict": "crashes",
+   "reason": "Guru Meditation Error: Core  0 panic'ed (Stack protection fault).",
+   "stack_pct": 60
+  },
+  {
+   "verdict": "crashes",
+   "reason": "Guru Meditation Error: Core  0 panic'ed (Load access fault). Exception was unhandled.",
+   "stack_pct": 85
+  }
+ ],
+ "seconds": 3.6,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "Guru Meditation Error: Core  0 panic'ed (Stack protection fault).",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

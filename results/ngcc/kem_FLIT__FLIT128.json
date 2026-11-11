@@ -1,0 +1,202 @@
+{
+ "results": {
+  "flit128/ref/kat": {
+   "iters": 1,
+   "avg_us": 16633,
+   "min_us": 16633,
+   "max_us": 16633,
+   "stack": 8140,
+   "heap": 328,
+   "rc": 0
+  },
+  "flit128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 3995,
+   "min_us": 3994,
+   "max_us": 3999,
+   "stack": 5964,
+   "heap": 328,
+   "rc": 0
+  },
+  "flit128/ref/encaps": {
+   "iters": 3,
+   "avg_us": 4950,
+   "min_us": 4949,
+   "max_us": 4953,
+   "stack": 7596,
+   "heap": 328,
+   "rc": 0
+  },
+  "flit128/ref/decaps": {
+   "iters": 3,
+   "avg_us": 6612,
+   "min_us": 6610,
+   "max_us": 6614,
+   "stack": 8124,
+   "heap": 328,
+   "rc": 0
+  },
+  "flit128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 6610,
+   "min_us": 6610,
+   "max_us": 6610,
+   "stack": 8140,
+   "heap": 328,
+   "rc": 0
+  },
+  "flit128/opt/kat": {
+   "iters": 1,
+   "avg_us": 14759,
+   "min_us": 14759,
+   "max_us": 14759,
+   "stack": 7976,
+   "heap": 328,
+   "rc": 0
+  },
+  "flit128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 3450,
+   "min_us": 3449,
+   "max_us": 3454,
+   "stack": 5800,
+   "heap": 328,
+   "rc": 0
+  },
+  "flit128/opt/encaps": {
+   "iters": 3,
+   "avg_us": 4130,
+   "min_us": 4128,
+   "max_us": 4134,
+   "stack": 7432,
+   "heap": 328,
+   "rc": 0
+  },
+  "flit128/opt/decaps": {
+   "iters": 3,
+   "avg_us": 5993,
+   "min_us": 5992,
+   "max_us": 5996,
+   "stack": 8088,
+   "heap": 328,
+   "rc": 0
+  },
+  "flit128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 5992,
+   "min_us": 5992,
+   "max_us": 5992,
+   "stack": 7976,
+   "heap": 328,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "flit128/ref/kat0-pk": {
+   "sha256_16": "a3a356f35942cadca6de8208899e27dd",
+   "len": 615
+  },
+  "flit128/ref/kat0-sk": {
+   "sha256_16": "3f931433c47b0ec9e2872d9d042d12f3",
+   "len": 1351
+  },
+  "flit128/ref/kat0-ct": {
+   "sha256_16": "dc3b7d5b96a8230e03439b072441b76a",
+   "len": 512
+  },
+  "flit128/ref/kat0-ss": {
+   "sha256_16": "76931284cf617720c10d8e9f452489c7",
+   "len": 32
+  },
+  "flit128/ref/pk": {
+   "sha256_16": "ebdd92f03f04511c8e4762f4d9c1a51f",
+   "len": 615
+  },
+  "flit128/ref/sk": {
+   "sha256_16": "c5a61a0751b6a381b4de21e0e3e6d0b3",
+   "len": 1351
+  },
+  "flit128/ref/ct": {
+   "sha256_16": "c1b07ef6cce68b436001b3a5bd468ac0",
+   "len": 512
+  },
+  "flit128/ref/ss": {
+   "sha256_16": "319dcef499a1252c422c63a8d894bfef",
+   "len": 32
+  },
+  "flit128/opt/kat0-pk": {
+   "sha256_16": "a3a356f35942cadca6de8208899e27dd",
+   "len": 615
+  },
+  "flit128/opt/kat0-sk": {
+   "sha256_16": "3f931433c47b0ec9e2872d9d042d12f3",
+   "len": 1351
+  },
+  "flit128/opt/kat0-ct": {
+   "sha256_16": "dc3b7d5b96a8230e03439b072441b76a",
+   "len": 512
+  },
+  "flit128/opt/kat0-ss": {
+   "sha256_16": "76931284cf617720c10d8e9f452489c7",
+   "len": 32
+  },
+  "flit128/opt/pk": {
+   "sha256_16": "ebdd92f03f04511c8e4762f4d9c1a51f",
+   "len": 615
+  },
+  "flit128/opt/sk": {
+   "sha256_16": "c5a61a0751b6a381b4de21e0e3e6d0b3",
+   "len": 1351
+  },
+  "flit128/opt/ct": {
+   "sha256_16": "c1b07ef6cce68b436001b3a5bd468ac0",
+   "len": 512
+  },
+  "flit128/opt/ss": {
+   "sha256_16": "319dcef499a1252c422c63a8d894bfef",
+   "len": 32
+  }
+ },
+ "checks": {
+  "flit128/ref/kat-roundtrip": "PASS",
+  "flit128/ref/tampered-ct-rejected": "PASS",
+  "flit128/opt/kat-roundtrip": "PASS",
+  "flit128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "flit128": "kind=KEM pk=615 sk=1351 ct=512 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 237568,
+ "heap_free_min": 167428,
+ "unit": "kem_FLIT__FLIT128",
+ "pid": "kem_FLIT",
+ "param": "FLIT128",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 141712,
+ "seconds": 1.7,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_FLIT128_OPT.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

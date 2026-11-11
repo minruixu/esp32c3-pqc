@@ -1,0 +1,177 @@
+{
+ "results": {
+  "octarine-256/ref/kat": {
+   "iters": 1,
+   "avg_us": 994,
+   "min_us": 994,
+   "max_us": 994,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 193,
+   "min_us": 192,
+   "max_us": 194,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-256/ref/sign": {
+   "iters": 3,
+   "avg_us": 577,
+   "min_us": 552,
+   "max_us": 622,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-256/ref/verify": {
+   "iters": 3,
+   "avg_us": 250,
+   "min_us": 214,
+   "max_us": 308,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 433,
+   "min_us": 433,
+   "max_us": 433,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-256/opt/kat": {
+   "iters": 1,
+   "avg_us": 982,
+   "min_us": 982,
+   "max_us": 982,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 227,
+   "min_us": 195,
+   "max_us": 287,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-256/opt/sign": {
+   "iters": 3,
+   "avg_us": 514,
+   "min_us": 503,
+   "max_us": 535,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-256/opt/verify": {
+   "iters": 3,
+   "avg_us": 270,
+   "min_us": 221,
+   "max_us": 297,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 608,
+   "min_us": 608,
+   "max_us": 608,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "octarine-256/ref/kat0-pk": {
+   "sha256_16": "c30350e5aa2e6b73d3fa5d49d9167331",
+   "len": 2368
+  },
+  "octarine-256/ref/kat0-sk": {
+   "sha256_16": "4500ee44b4159a760ee2014778bcbcb4",
+   "len": 4608
+  },
+  "octarine-256/ref/kat0-sig": {
+   "sha256_16": "28a489d54182e87598855f40655b9f7d",
+   "len": 5449
+  },
+  "octarine-256/ref/pk": {
+   "sha256_16": "a7a2bf5c8873cacb78dfae88ef153ed8",
+   "len": 2368
+  },
+  "octarine-256/ref/sk": {
+   "sha256_16": "201df7570f8cf799dffd2387d928b701",
+   "len": 4608
+  },
+  "octarine-256/ref/sig": {
+   "sha256_16": "6894dfc652c7e9e327e38cadebe2094a",
+   "len": 5449
+  },
+  "octarine-256/opt/kat0-pk": {
+   "sha256_16": "c30350e5aa2e6b73d3fa5d49d9167331",
+   "len": 2368
+  },
+  "octarine-256/opt/kat0-sk": {
+   "sha256_16": "4500ee44b4159a760ee2014778bcbcb4",
+   "len": 4608
+  },
+  "octarine-256/opt/kat0-sig": {
+   "sha256_16": "28a489d54182e87598855f40655b9f7d",
+   "len": 5449
+  },
+  "octarine-256/opt/pk": {
+   "sha256_16": "a7a2bf5c8873cacb78dfae88ef153ed8",
+   "len": 2368
+  },
+  "octarine-256/opt/sk": {
+   "sha256_16": "201df7570f8cf799dffd2387d928b701",
+   "len": 4608
+  },
+  "octarine-256/opt/sig": {
+   "sha256_16": "6894dfc652c7e9e327e38cadebe2094a",
+   "len": 5449
+  }
+ },
+ "checks": {
+  "octarine-256/ref/kat-roundtrip": "PASS",
+  "octarine-256/ref/tampered-rejected": "PASS",
+  "octarine-256/opt/kat-roundtrip": "PASS",
+  "octarine-256/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "octarine-256": "kind=SIG pk=2368 sk=4608 sig=5449",
+  "job_stack": "0",
+  "kat0_sig_len": "5449",
+  "sig_len": "5449"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Octarine__Octarine-256",
+ "pid": "sig_Octarine",
+ "param": "Octarine-256",
+ "kind": "SIG",
+ "seconds": 1.3,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_Octarine-256.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

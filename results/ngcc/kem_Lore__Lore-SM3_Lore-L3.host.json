@@ -1,0 +1,192 @@
+{
+ "results": {
+  "lore-sm3_lore-l3/ref/kat": {
+   "iters": 1,
+   "avg_us": 1718,
+   "min_us": 1718,
+   "max_us": 1718,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-sm3_lore-l3/ref/keygen": {
+   "iters": 3,
+   "avg_us": 254,
+   "min_us": 246,
+   "max_us": 268,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-sm3_lore-l3/ref/encaps": {
+   "iters": 3,
+   "avg_us": 295,
+   "min_us": 270,
+   "max_us": 335,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-sm3_lore-l3/ref/decaps": {
+   "iters": 3,
+   "avg_us": 310,
+   "min_us": 287,
+   "max_us": 325,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-sm3_lore-l3/ref/tamper": {
+   "iters": 1,
+   "avg_us": 320,
+   "min_us": 320,
+   "max_us": 320,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-sm3_lore-l3/opt/kat": {
+   "iters": 1,
+   "avg_us": 866,
+   "min_us": 866,
+   "max_us": 866,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-sm3_lore-l3/opt/keygen": {
+   "iters": 3,
+   "avg_us": 246,
+   "min_us": 235,
+   "max_us": 253,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-sm3_lore-l3/opt/encaps": {
+   "iters": 3,
+   "avg_us": 349,
+   "min_us": 308,
+   "max_us": 407,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-sm3_lore-l3/opt/decaps": {
+   "iters": 3,
+   "avg_us": 379,
+   "min_us": 333,
+   "max_us": 403,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-sm3_lore-l3/opt/tamper": {
+   "iters": 1,
+   "avg_us": 367,
+   "min_us": 367,
+   "max_us": 367,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "lore-sm3_lore-l3/ref/kat0-pk": {
+   "sha256_16": "73f32996cac4d20f6a27d17144aa2dce",
+   "len": 1954
+  },
+  "lore-sm3_lore-l3/ref/kat0-sk": {
+   "sha256_16": "094be08ef8087e1bc62d210f0770f053",
+   "len": 7736
+  },
+  "lore-sm3_lore-l3/ref/kat0-ct": {
+   "sha256_16": "d9a18a28f9ca69cbee34ed129589d2fc",
+   "len": 2114
+  },
+  "lore-sm3_lore-l3/ref/kat0-ss": {
+   "sha256_16": "1e5d0b76426403dd90d97b8a009dc10a",
+   "len": 32
+  },
+  "lore-sm3_lore-l3/ref/pk": {
+   "sha256_16": "134f01be88ab0c0e31351b45281a9ab7",
+   "len": 1954
+  },
+  "lore-sm3_lore-l3/ref/sk": {
+   "sha256_16": "3c4d101d37a4eb0f30e0283e16f8d35a",
+   "len": 7736
+  },
+  "lore-sm3_lore-l3/ref/ct": {
+   "sha256_16": "2ce03dad7ca015e8dbb7d726a289d983",
+   "len": 2114
+  },
+  "lore-sm3_lore-l3/ref/ss": {
+   "sha256_16": "ef96f542facafb551234e0e8bf20e137",
+   "len": 32
+  },
+  "lore-sm3_lore-l3/opt/kat0-pk": {
+   "sha256_16": "73f32996cac4d20f6a27d17144aa2dce",
+   "len": 1954
+  },
+  "lore-sm3_lore-l3/opt/kat0-sk": {
+   "sha256_16": "094be08ef8087e1bc62d210f0770f053",
+   "len": 7736
+  },
+  "lore-sm3_lore-l3/opt/kat0-ct": {
+   "sha256_16": "d9a18a28f9ca69cbee34ed129589d2fc",
+   "len": 2114
+  },
+  "lore-sm3_lore-l3/opt/kat0-ss": {
+   "sha256_16": "1e5d0b76426403dd90d97b8a009dc10a",
+   "len": 32
+  },
+  "lore-sm3_lore-l3/opt/pk": {
+   "sha256_16": "134f01be88ab0c0e31351b45281a9ab7",
+   "len": 1954
+  },
+  "lore-sm3_lore-l3/opt/sk": {
+   "sha256_16": "3c4d101d37a4eb0f30e0283e16f8d35a",
+   "len": 7736
+  },
+  "lore-sm3_lore-l3/opt/ct": {
+   "sha256_16": "2ce03dad7ca015e8dbb7d726a289d983",
+   "len": 2114
+  },
+  "lore-sm3_lore-l3/opt/ss": {
+   "sha256_16": "ef96f542facafb551234e0e8bf20e137",
+   "len": 32
+  }
+ },
+ "checks": {
+  "lore-sm3_lore-l3/ref/kat-roundtrip": "PASS",
+  "lore-sm3_lore-l3/ref/tampered-ct-rejected": "PASS",
+  "lore-sm3_lore-l3/opt/kat-roundtrip": "PASS",
+  "lore-sm3_lore-l3/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "lore-sm3_lore-l3": "kind=KEM pk=1954 sk=7736 ct=2114 ss=32",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_Lore__Lore-SM3_Lore-L3",
+ "pid": "kem_Lore",
+ "param": "Lore-SM3_Lore-L3",
+ "kind": "KEM",
+ "seconds": 2.5,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/Lore-SM3/KAT_KEM_Lore-L3.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

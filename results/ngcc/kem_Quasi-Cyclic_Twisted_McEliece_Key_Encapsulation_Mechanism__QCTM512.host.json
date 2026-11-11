@@ -1,0 +1,28 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "kem_Quasi-Cyclic_Twisted_McEliece_Key_Encapsulation_Mechanism__QCTM512",
+ "pid": "kem_Quasi-Cyclic_Twisted_McEliece_Key_Encapsulation_Mechanism",
+ "param": "QCTM512",
+ "kind": "KEM",
+ "verdict": "does not build",
+ "reason": "undefined symbols: iccs_get_random_number, iccs_init_random_number, kem_dec, kem_enc, kem_get_ct_len_bytes, kem_get_pk_len_bytes, kem_get_sk_len_bytes, kem_get_ss_len_bytes, kem_keygen",
+ "build_errors": [
+  "Undefined symbols for architecture arm64:",
+  "\"_iccs_get_random_number\", referenced from:",
+  "\"_iccs_init_random_number\", referenced from:",
+  "\"_kem_dec\", referenced from:",
+  "\"_kem_enc\", referenced from:",
+  "\"_kem_get_ct_len_bytes\", referenced from:",
+  "\"_kem_get_pk_len_bytes\", referenced from:",
+  "\"_kem_get_sk_len_bytes\", referenced from:",
+  "\"_kem_get_ss_len_bytes\", referenced from:",
+  "\"_kem_keygen\", referenced from:",
+  "ld: symbol(s) not found for architecture arm64",
+  "cc: error: linker command failed with exit code 1 (use -v to see invocation)"
+ ]
+}

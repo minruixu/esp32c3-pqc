@@ -1,0 +1,217 @@
+{
+ "results": {
+  "hqc-128/ref/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 1468,
+   "heap": 23588,
+   "rc": -5
+  },
+  "hqc-128/ref/keygen": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 1160,
+   "heap": 23588,
+   "rc": -5
+  },
+  "hqc-128/ref/encaps": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 1128,
+   "heap": 31140,
+   "rc": -5
+  },
+  "hqc-128/ref/decaps": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 1352,
+   "heap": 36516,
+   "rc": -1
+  },
+  "hqc-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 111770,
+   "min_us": 111770,
+   "max_us": 111770,
+   "stack": 1368,
+   "heap": 36516,
+   "rc": 0
+  },
+  "hqc-128/opt/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 1468,
+   "heap": 23588,
+   "rc": -5
+  },
+  "hqc-128/opt/keygen": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 1160,
+   "heap": 23588,
+   "rc": -5
+  },
+  "hqc-128/opt/encaps": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 1128,
+   "heap": 31140,
+   "rc": -5
+  },
+  "hqc-128/opt/decaps": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 1352,
+   "heap": 36516,
+   "rc": -1
+  },
+  "hqc-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 111770,
+   "min_us": 111770,
+   "max_us": 111770,
+   "stack": 1368,
+   "heap": 36516,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "hqc-128/ref/kat0-pk": {
+   "sha256_16": "f95f19353f532f067207ba6bc27bf6a8",
+   "len": 3713
+  },
+  "hqc-128/ref/kat0-sk": {
+   "sha256_16": "061af484361fc59b0c1c256d3de21c68",
+   "len": 3777
+  },
+  "hqc-128/ref/kat0-ct": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "hqc-128/ref/kat0-ss": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "hqc-128/ref/pk": {
+   "sha256_16": "dd7173e0829a75b2df36736f50b6ad8b",
+   "len": 3713
+  },
+  "hqc-128/ref/sk": {
+   "sha256_16": "dc22f050a45d78e182f2a227930166cf",
+   "len": 3777
+  },
+  "hqc-128/ref/ct": {
+   "sha256_16": "d93cfd79776b1a8f6d8d27d63c19548d",
+   "len": 5185
+  },
+  "hqc-128/ref/ss": {
+   "sha256_16": "66687aadf862bd776c8fc18b8e9f8e20",
+   "len": 32
+  },
+  "hqc-128/opt/kat0-pk": {
+   "sha256_16": "f95f19353f532f067207ba6bc27bf6a8",
+   "len": 3713
+  },
+  "hqc-128/opt/kat0-sk": {
+   "sha256_16": "061af484361fc59b0c1c256d3de21c68",
+   "len": 3777
+  },
+  "hqc-128/opt/kat0-ct": {
+   "sha256_16": "d93cfd79776b1a8f6d8d27d63c19548d",
+   "len": 5185
+  },
+  "hqc-128/opt/kat0-ss": {
+   "sha256_16": "66687aadf862bd776c8fc18b8e9f8e20",
+   "len": 32
+  },
+  "hqc-128/opt/pk": {
+   "sha256_16": "dd7173e0829a75b2df36736f50b6ad8b",
+   "len": 3713
+  },
+  "hqc-128/opt/sk": {
+   "sha256_16": "dc22f050a45d78e182f2a227930166cf",
+   "len": 3777
+  },
+  "hqc-128/opt/ct": {
+   "sha256_16": "d93cfd79776b1a8f6d8d27d63c19548d",
+   "len": 5185
+  },
+  "hqc-128/opt/ss": {
+   "sha256_16": "66687aadf862bd776c8fc18b8e9f8e20",
+   "len": 32
+  }
+ },
+ "checks": {
+  "hqc-128/ref/kat-roundtrip": "FAIL",
+  "hqc-128/ref/tampered-ct-rejected": "PASS",
+  "hqc-128/opt/kat-roundtrip": "FAIL",
+  "hqc-128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "hqc-128": "kind=KEM pk=3713 sk=3777 ct=5185 ss=32",
+  "job_stack": "16384"
+ },
+ "complete": true,
+ "fails": 10,
+ "cpu_mhz": 160,
+ "heap_free_start": 240656,
+ "heap_free_min": 172952,
+ "unit": "kem_NSS-HQC__HQC-128",
+ "pid": "kem_NSS-HQC",
+ "param": "HQC-128",
+ "kind": "KEM",
+ "iters": 1,
+ "stack_pct": 15,
+ "stack_given": 0,
+ "image_bytes": 134256,
+ "attempts": [
+  {
+   "verdict": "self-test fails",
+   "reason": "failed: decaps rc=-1, encaps rc=-5, kat rc=-5, kat-roundtrip, keygen rc=-5",
+   "stack_pct": 60
+  },
+  {
+   "verdict": "self-test fails",
+   "reason": "failed: decaps rc=-1, encaps rc=-5, kat rc=-5, kat-roundtrip, keygen rc=-5",
+   "stack_pct": 30
+  }
+ ],
+ "seconds": 2.5,
+ "kat": {
+  "result": "differs",
+  "detail": "no KAT file starts with this public key"
+ },
+ "verdict": "self-test fails",
+ "reason": "failed: decaps rc=-1, encaps rc=-5, kat rc=-5, kat-roundtrip, keygen rc=-5",
+ "host_check": {
+  "equal": 0,
+  "different": 16,
+  "missing": 0,
+  "different_labels": [
+   "kat0-pk",
+   "kat0-sk",
+   "kat0-ct",
+   "kat0-ss",
+   "pk",
+   "sk",
+   "ct",
+   "ss"
+  ]
+ }
+}

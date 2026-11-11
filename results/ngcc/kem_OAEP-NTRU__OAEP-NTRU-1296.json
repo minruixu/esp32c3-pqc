@@ -1,0 +1,202 @@
+{
+ "results": {
+  "oaep-ntru-1296/ref/kat": {
+   "iters": 1,
+   "avg_us": 33693,
+   "min_us": 33693,
+   "max_us": 33693,
+   "stack": 18620,
+   "heap": 5120,
+   "rc": 0
+  },
+  "oaep-ntru-1296/ref/keygen": {
+   "iters": 3,
+   "avg_us": 8975,
+   "min_us": 8975,
+   "max_us": 8976,
+   "stack": 17512,
+   "heap": 5120,
+   "rc": 0
+  },
+  "oaep-ntru-1296/ref/encaps": {
+   "iters": 3,
+   "avg_us": 11867,
+   "min_us": 11867,
+   "max_us": 11868,
+   "stack": 16040,
+   "heap": 5120,
+   "rc": 0
+  },
+  "oaep-ntru-1296/ref/decaps": {
+   "iters": 3,
+   "avg_us": 10006,
+   "min_us": 10006,
+   "max_us": 10006,
+   "stack": 18744,
+   "heap": 864,
+   "rc": 0
+  },
+  "oaep-ntru-1296/ref/tamper": {
+   "iters": 1,
+   "avg_us": 10006,
+   "min_us": 10006,
+   "max_us": 10006,
+   "stack": 18620,
+   "heap": 864,
+   "rc": 0
+  },
+  "oaep-ntru-1296/opt/kat": {
+   "iters": 1,
+   "avg_us": 26888,
+   "min_us": 26888,
+   "max_us": 26888,
+   "stack": 18456,
+   "heap": 5120,
+   "rc": 0
+  },
+  "oaep-ntru-1296/opt/keygen": {
+   "iters": 3,
+   "avg_us": 7445,
+   "min_us": 7443,
+   "max_us": 7447,
+   "stack": 17208,
+   "heap": 5120,
+   "rc": 0
+  },
+  "oaep-ntru-1296/opt/encaps": {
+   "iters": 3,
+   "avg_us": 8465,
+   "min_us": 8463,
+   "max_us": 8467,
+   "stack": 15736,
+   "heap": 5120,
+   "rc": 0
+  },
+  "oaep-ntru-1296/opt/decaps": {
+   "iters": 3,
+   "avg_us": 8133,
+   "min_us": 8130,
+   "max_us": 8135,
+   "stack": 18440,
+   "heap": 864,
+   "rc": 0
+  },
+  "oaep-ntru-1296/opt/tamper": {
+   "iters": 1,
+   "avg_us": 8134,
+   "min_us": 8134,
+   "max_us": 8134,
+   "stack": 18456,
+   "heap": 864,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "oaep-ntru-1296/ref/kat0-pk": {
+   "sha256_16": "4e82ef709b46ca5a2ce155fa74285855",
+   "len": 2430
+  },
+  "oaep-ntru-1296/ref/kat0-sk": {
+   "sha256_16": "bc808690ece27a87eaddd0442bddc29a",
+   "len": 4924
+  },
+  "oaep-ntru-1296/ref/kat0-ct": {
+   "sha256_16": "5d91a5088856c278a383cde3c9201fd2",
+   "len": 2494
+  },
+  "oaep-ntru-1296/ref/kat0-ss": {
+   "sha256_16": "98c96477480a5f28aa54cf23a2eca963",
+   "len": 32
+  },
+  "oaep-ntru-1296/ref/pk": {
+   "sha256_16": "18bb5e7bb90d1714c2b463522c44ee55",
+   "len": 2430
+  },
+  "oaep-ntru-1296/ref/sk": {
+   "sha256_16": "b09542d80e451d3a44e6fe4f47b037b2",
+   "len": 4924
+  },
+  "oaep-ntru-1296/ref/ct": {
+   "sha256_16": "ea2aa055a7421f52b6797b98462850b0",
+   "len": 2494
+  },
+  "oaep-ntru-1296/ref/ss": {
+   "sha256_16": "fb3e8cf0df90ebffd8a1a342f0308e87",
+   "len": 32
+  },
+  "oaep-ntru-1296/opt/kat0-pk": {
+   "sha256_16": "4e82ef709b46ca5a2ce155fa74285855",
+   "len": 2430
+  },
+  "oaep-ntru-1296/opt/kat0-sk": {
+   "sha256_16": "bc808690ece27a87eaddd0442bddc29a",
+   "len": 4924
+  },
+  "oaep-ntru-1296/opt/kat0-ct": {
+   "sha256_16": "5d91a5088856c278a383cde3c9201fd2",
+   "len": 2494
+  },
+  "oaep-ntru-1296/opt/kat0-ss": {
+   "sha256_16": "98c96477480a5f28aa54cf23a2eca963",
+   "len": 32
+  },
+  "oaep-ntru-1296/opt/pk": {
+   "sha256_16": "18bb5e7bb90d1714c2b463522c44ee55",
+   "len": 2430
+  },
+  "oaep-ntru-1296/opt/sk": {
+   "sha256_16": "b09542d80e451d3a44e6fe4f47b037b2",
+   "len": 4924
+  },
+  "oaep-ntru-1296/opt/ct": {
+   "sha256_16": "ea2aa055a7421f52b6797b98462850b0",
+   "len": 2494
+  },
+  "oaep-ntru-1296/opt/ss": {
+   "sha256_16": "fb3e8cf0df90ebffd8a1a342f0308e87",
+   "len": 32
+  }
+ },
+ "checks": {
+  "oaep-ntru-1296/ref/kat-roundtrip": "PASS",
+  "oaep-ntru-1296/ref/tampered-ct-rejected": "PASS",
+  "oaep-ntru-1296/opt/kat-roundtrip": "PASS",
+  "oaep-ntru-1296/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "oaep-ntru-1296": "kind=KEM pk=2430 sk=4924 ct=2494 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 239824,
+ "heap_free_min": 157340,
+ "unit": "kem_OAEP-NTRU__OAEP-NTRU-1296",
+ "pid": "kem_OAEP-NTRU",
+ "param": "OAEP-NTRU-1296",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 139952,
+ "seconds": 1.9,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_OAEP-NTRU-1296.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

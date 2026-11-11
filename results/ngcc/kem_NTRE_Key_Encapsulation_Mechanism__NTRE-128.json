@@ -1,0 +1,202 @@
+{
+ "results": {
+  "ntre-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 10937,
+   "min_us": 10937,
+   "max_us": 10937,
+   "stack": 9440,
+   "heap": 464,
+   "rc": 0
+  },
+  "ntre-128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 3141,
+   "min_us": 3140,
+   "max_us": 3145,
+   "stack": 6284,
+   "heap": 240,
+   "rc": 0
+  },
+  "ntre-128/ref/encaps": {
+   "iters": 3,
+   "avg_us": 3049,
+   "min_us": 3049,
+   "max_us": 3049,
+   "stack": 5936,
+   "heap": 464,
+   "rc": 0
+  },
+  "ntre-128/ref/decaps": {
+   "iters": 3,
+   "avg_us": 3206,
+   "min_us": 3206,
+   "max_us": 3206,
+   "stack": 9424,
+   "heap": 464,
+   "rc": 0
+  },
+  "ntre-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 3205,
+   "min_us": 3205,
+   "max_us": 3205,
+   "stack": 9440,
+   "heap": 464,
+   "rc": 0
+  },
+  "ntre-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 9259,
+   "min_us": 9259,
+   "max_us": 9259,
+   "stack": 9440,
+   "heap": 464,
+   "rc": 0
+  },
+  "ntre-128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 2630,
+   "min_us": 2629,
+   "max_us": 2633,
+   "stack": 6120,
+   "heap": 240,
+   "rc": 0
+  },
+  "ntre-128/opt/encaps": {
+   "iters": 3,
+   "avg_us": 2320,
+   "min_us": 2320,
+   "max_us": 2321,
+   "stack": 5936,
+   "heap": 464,
+   "rc": 0
+  },
+  "ntre-128/opt/decaps": {
+   "iters": 3,
+   "avg_us": 2772,
+   "min_us": 2772,
+   "max_us": 2773,
+   "stack": 9424,
+   "heap": 464,
+   "rc": 0
+  },
+  "ntre-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 2771,
+   "min_us": 2771,
+   "max_us": 2771,
+   "stack": 9440,
+   "heap": 464,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "ntre-128/ref/kat0-pk": {
+   "sha256_16": "493051388d4c5f4ec68c4956f8bee6ad",
+   "len": 972
+  },
+  "ntre-128/ref/kat0-sk": {
+   "sha256_16": "8eaef01df929fed55c2f5c97e5b67b9e",
+   "len": 1976
+  },
+  "ntre-128/ref/kat0-ct": {
+   "sha256_16": "4f4f96697ad710dd79466a0e8da72058",
+   "len": 972
+  },
+  "ntre-128/ref/kat0-ss": {
+   "sha256_16": "be34c448298c2453684f866732b6ca90",
+   "len": 64
+  },
+  "ntre-128/ref/pk": {
+   "sha256_16": "cd682d8cc1a837e89d2efd38ecc7de37",
+   "len": 972
+  },
+  "ntre-128/ref/sk": {
+   "sha256_16": "a2539519e38c0b285c43370cb6f71a67",
+   "len": 1976
+  },
+  "ntre-128/ref/ct": {
+   "sha256_16": "875cffed0dd33aae44e6e545e963d3dc",
+   "len": 972
+  },
+  "ntre-128/ref/ss": {
+   "sha256_16": "1ddeccd8f4519409ebb5d868cce99740",
+   "len": 64
+  },
+  "ntre-128/opt/kat0-pk": {
+   "sha256_16": "493051388d4c5f4ec68c4956f8bee6ad",
+   "len": 972
+  },
+  "ntre-128/opt/kat0-sk": {
+   "sha256_16": "8eaef01df929fed55c2f5c97e5b67b9e",
+   "len": 1976
+  },
+  "ntre-128/opt/kat0-ct": {
+   "sha256_16": "4f4f96697ad710dd79466a0e8da72058",
+   "len": 972
+  },
+  "ntre-128/opt/kat0-ss": {
+   "sha256_16": "be34c448298c2453684f866732b6ca90",
+   "len": 64
+  },
+  "ntre-128/opt/pk": {
+   "sha256_16": "cd682d8cc1a837e89d2efd38ecc7de37",
+   "len": 972
+  },
+  "ntre-128/opt/sk": {
+   "sha256_16": "a2539519e38c0b285c43370cb6f71a67",
+   "len": 1976
+  },
+  "ntre-128/opt/ct": {
+   "sha256_16": "875cffed0dd33aae44e6e545e963d3dc",
+   "len": 972
+  },
+  "ntre-128/opt/ss": {
+   "sha256_16": "1ddeccd8f4519409ebb5d868cce99740",
+   "len": 64
+  }
+ },
+ "checks": {
+  "ntre-128/ref/kat-roundtrip": "PASS",
+  "ntre-128/ref/tampered-ct-rejected": "PASS",
+  "ntre-128/opt/kat-roundtrip": "PASS",
+  "ntre-128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "ntre-128": "kind=KEM pk=972 sk=1976 ct=972 ss=64",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 245152,
+ "heap_free_min": 173276,
+ "unit": "kem_NTRE_Key_Encapsulation_Mechanism__NTRE-128",
+ "pid": "kem_NTRE_Key_Encapsulation_Mechanism",
+ "param": "NTRE-128",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 134512,
+ "seconds": 1.9,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_NTRE-128.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

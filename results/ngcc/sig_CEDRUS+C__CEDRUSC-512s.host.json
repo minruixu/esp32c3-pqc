@@ -1,0 +1,177 @@
+{
+ "results": {
+  "cedrusc-512s/ref/kat": {
+   "iters": 1,
+   "avg_us": 13578838,
+   "min_us": 13578838,
+   "max_us": 13578838,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusc-512s/ref/keygen": {
+   "iters": 3,
+   "avg_us": 1124890,
+   "min_us": 1043739,
+   "max_us": 1281037,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusc-512s/ref/sign": {
+   "iters": 3,
+   "avg_us": 12646749,
+   "min_us": 12331411,
+   "max_us": 13268458,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusc-512s/ref/verify": {
+   "iters": 3,
+   "avg_us": 16582,
+   "min_us": 15500,
+   "max_us": 17542,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusc-512s/ref/tamper": {
+   "iters": 1,
+   "avg_us": 3417,
+   "min_us": 3417,
+   "max_us": 3417,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusc-512s/opt/kat": {
+   "iters": 1,
+   "avg_us": 12875496,
+   "min_us": 12875496,
+   "max_us": 12875496,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusc-512s/opt/keygen": {
+   "iters": 3,
+   "avg_us": 971409,
+   "min_us": 962740,
+   "max_us": 977412,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusc-512s/opt/sign": {
+   "iters": 3,
+   "avg_us": 12718312,
+   "min_us": 12271212,
+   "max_us": 13038296,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusc-512s/opt/verify": {
+   "iters": 3,
+   "avg_us": 17983,
+   "min_us": 17782,
+   "max_us": 18256,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "cedrusc-512s/opt/tamper": {
+   "iters": 1,
+   "avg_us": 3567,
+   "min_us": 3567,
+   "max_us": 3567,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "cedrusc-512s/ref/kat0-pk": {
+   "sha256_16": "b6492e8a63890266de6e64b23945958e",
+   "len": 128
+  },
+  "cedrusc-512s/ref/kat0-sk": {
+   "sha256_16": "92fa030f7be4b0c25d2ad8bde1952a82",
+   "len": 256
+  },
+  "cedrusc-512s/ref/kat0-sig": {
+   "sha256_16": "065a0a30bc1cfac2cd728d25345d6fd4",
+   "len": 98212
+  },
+  "cedrusc-512s/ref/pk": {
+   "sha256_16": "d13a9b0bbb8921b74b3a73d95c6cddb1",
+   "len": 128
+  },
+  "cedrusc-512s/ref/sk": {
+   "sha256_16": "a13ee240cac6746ba522a62648f7e98e",
+   "len": 256
+  },
+  "cedrusc-512s/ref/sig": {
+   "sha256_16": "aa6417081c732d33774c451963b87135",
+   "len": 98212
+  },
+  "cedrusc-512s/opt/kat0-pk": {
+   "sha256_16": "b6492e8a63890266de6e64b23945958e",
+   "len": 128
+  },
+  "cedrusc-512s/opt/kat0-sk": {
+   "sha256_16": "92fa030f7be4b0c25d2ad8bde1952a82",
+   "len": 256
+  },
+  "cedrusc-512s/opt/kat0-sig": {
+   "sha256_16": "065a0a30bc1cfac2cd728d25345d6fd4",
+   "len": 98212
+  },
+  "cedrusc-512s/opt/pk": {
+   "sha256_16": "d13a9b0bbb8921b74b3a73d95c6cddb1",
+   "len": 128
+  },
+  "cedrusc-512s/opt/sk": {
+   "sha256_16": "a13ee240cac6746ba522a62648f7e98e",
+   "len": 256
+  },
+  "cedrusc-512s/opt/sig": {
+   "sha256_16": "aa6417081c732d33774c451963b87135",
+   "len": 98212
+  }
+ },
+ "checks": {
+  "cedrusc-512s/ref/kat-roundtrip": "PASS",
+  "cedrusc-512s/ref/tampered-rejected": "PASS",
+  "cedrusc-512s/opt/kat-roundtrip": "PASS",
+  "cedrusc-512s/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "cedrusc-512s": "kind=SIG pk=128 sk=256 sig=98212",
+  "job_stack": "0",
+  "kat0_sig_len": "98212",
+  "sig_len": "98212"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_CEDRUS+C__CEDRUSC-512s",
+ "pid": "sig_CEDRUS+C",
+ "param": "CEDRUSC-512s",
+ "kind": "SIG",
+ "seconds": 110.5,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_CEDRUSC-512s.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

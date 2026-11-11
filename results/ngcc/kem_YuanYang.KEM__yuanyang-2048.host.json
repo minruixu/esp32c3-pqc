@@ -1,0 +1,185 @@
+{
+ "results": {
+  "yuanyang-2048/ref/kat": {
+   "iters": 1,
+   "avg_us": 714,
+   "min_us": 714,
+   "max_us": 714,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "yuanyang-2048/ref/keygen": {
+   "iters": 3,
+   "avg_us": 269,
+   "min_us": 260,
+   "max_us": 275,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "yuanyang-2048/ref/encaps": {
+   "iters": 3,
+   "avg_us": 163,
+   "min_us": 123,
+   "max_us": 224,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "yuanyang-2048/ref/decaps": {
+   "iters": 3,
+   "avg_us": 226,
+   "min_us": 216,
+   "max_us": 244,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "yuanyang-2048/ref/tamper": {
+   "iters": 1,
+   "avg_us": 224,
+   "min_us": 224,
+   "max_us": 224,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "yuanyang-2048/opt/kat": {
+   "iters": 1,
+   "avg_us": 750,
+   "min_us": 750,
+   "max_us": 750,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "yuanyang-2048/opt/keygen": {
+   "iters": 3,
+   "avg_us": 222,
+   "min_us": 215,
+   "max_us": 233,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "yuanyang-2048/opt/encaps": {
+   "iters": 3,
+   "avg_us": 116,
+   "min_us": 108,
+   "max_us": 126,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "yuanyang-2048/opt/decaps": {
+   "iters": 3,
+   "avg_us": 168,
+   "min_us": 167,
+   "max_us": 170,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "yuanyang-2048/opt/tamper": {
+   "iters": 1,
+   "avg_us": 167,
+   "min_us": 167,
+   "max_us": 167,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "yuanyang-2048/ref/kat0-pk": {
+   "sha256_16": "9583963eea4340a09d6392b5d197c94b",
+   "len": 3328
+  },
+  "yuanyang-2048/ref/kat0-sk": {
+   "sha256_16": "56adf983e0a9256f6c9e7c4c68680612",
+   "len": 6528
+  },
+  "yuanyang-2048/ref/kat0-ct": {
+   "sha256_16": "3a336fd304677263bc18a20258dd6d06",
+   "len": 2880
+  },
+  "yuanyang-2048/ref/kat0-ss": {
+   "sha256_16": "02be2d5cbb9a50009d52434730714e9b",
+   "len": 64
+  },
+  "yuanyang-2048/ref/pk": {
+   "sha256_16": "64f81290aaf7c4f2b7da9576d67f7b63",
+   "len": 3328
+  },
+  "yuanyang-2048/ref/sk": {
+   "sha256_16": "97e8ca64181551f37cef62e584ffb1e4",
+   "len": 6528
+  },
+  "yuanyang-2048/ref/ct": {
+   "sha256_16": "5d4826d1e70df6bfeb91420a2bfc67c6",
+   "len": 2880
+  },
+  "yuanyang-2048/ref/ss": {
+   "sha256_16": "8c9a89865a94290653b381154c4e71dc",
+   "len": 64
+  },
+  "yuanyang-2048/opt/kat0-pk": {
+   "sha256_16": "9583963eea4340a09d6392b5d197c94b",
+   "len": 3328
+  },
+  "yuanyang-2048/opt/kat0-sk": {
+   "sha256_16": "56adf983e0a9256f6c9e7c4c68680612",
+   "len": 6528
+  },
+  "yuanyang-2048/opt/kat0-ct": {
+   "sha256_16": "3a336fd304677263bc18a20258dd6d06",
+   "len": 2880
+  },
+  "yuanyang-2048/opt/kat0-ss": {
+   "sha256_16": "02be2d5cbb9a50009d52434730714e9b",
+   "len": 64
+  },
+  "yuanyang-2048/opt/pk": {
+   "sha256_16": "64f81290aaf7c4f2b7da9576d67f7b63",
+   "len": 3328
+  },
+  "yuanyang-2048/opt/sk": {
+   "sha256_16": "97e8ca64181551f37cef62e584ffb1e4",
+   "len": 6528
+  },
+  "yuanyang-2048/opt/ct": {
+   "sha256_16": "5d4826d1e70df6bfeb91420a2bfc67c6",
+   "len": 2880
+  },
+  "yuanyang-2048/opt/ss": {
+   "sha256_16": "8c9a89865a94290653b381154c4e71dc",
+   "len": 64
+  }
+ },
+ "checks": {
+  "yuanyang-2048/ref/kat-roundtrip": "PASS",
+  "yuanyang-2048/ref/tampered-ct-rejected": "PASS",
+  "yuanyang-2048/opt/kat-roundtrip": "PASS",
+  "yuanyang-2048/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "yuanyang-2048": "kind=KEM pk=3328 sk=6528 ct=2880 ss=64",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_YuanYang.KEM__yuanyang-2048",
+ "pid": "kem_YuanYang.KEM",
+ "param": "yuanyang-2048",
+ "kind": "KEM",
+ "seconds": 3.0,
+ "kat": {
+  "result": "no KAT file in the package"
+ },
+ "verdict": "works",
+ "reason": ""
+}

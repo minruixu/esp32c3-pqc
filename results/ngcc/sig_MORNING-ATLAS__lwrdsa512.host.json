@@ -1,0 +1,28 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "sig_MORNING-ATLAS__lwrdsa512",
+ "pid": "sig_MORNING-ATLAS",
+ "param": "lwrdsa512",
+ "kind": "SIG",
+ "verdict": "does not build",
+ "reason": "undefined symbols: pol_mul, poly_add, poly_chknorm, poly_freeze, poly_neg, poly_shiftl, poly_sub, poly_uniform_eta, poly_uniform_gamma1m1, polyeta_pack, polyeta_unpack, polyt0_pack",
+ "build_errors": [
+  "Undefined symbols for architecture arm64:",
+  "\"_pol_mul\", referenced from:",
+  "\"_poly_add\", referenced from:",
+  "\"_poly_chknorm\", referenced from:",
+  "\"_poly_freeze\", referenced from:",
+  "\"_poly_neg\", referenced from:",
+  "\"_poly_shiftl\", referenced from:",
+  "\"_poly_sub\", referenced from:",
+  "\"_poly_uniform_eta\", referenced from:",
+  "\"_poly_uniform_gamma1m1\", referenced from:",
+  "\"_polyeta_pack\", referenced from:",
+  "\"_polyeta_unpack\", referenced from:"
+ ]
+}

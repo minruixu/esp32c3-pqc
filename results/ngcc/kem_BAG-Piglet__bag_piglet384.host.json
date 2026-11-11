@@ -1,0 +1,28 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "kem_BAG-Piglet__bag_piglet384",
+ "pid": "kem_BAG-Piglet",
+ "param": "bag_piglet384",
+ "kind": "KEM",
+ "verdict": "does not build",
+ "reason": "kem_BAG-Piglet/Implementations/Reference_Implementation/bag_piglet384/src/common/gabidulin.c:237:5: error: passing 'int' to parameter of incompatible type 'ffi_elt' (aka 'struct ffi_elt')",
+ "build_errors": [
+  "kem_BAG-Piglet/Implementations/Reference_Implementation/bag_piglet384/src/common/gabidulin.c:237:5: error: passing 'int' to parameter of incompatible type 'ffi_elt' (aka 'struct ffi_elt')",
+  "kem_BAG-Piglet/Implementations/Reference_Implementation/bag_piglet384/src/common/gabidulin.c:238:5: error: passing 'int' to parameter of incompatible type 'ffi_elt' (aka 'struct ffi_elt')",
+  "kem_BAG-Piglet/Implementations/Reference_Implementation/bag_piglet384/src/common/gabidulin.c:242:5: error: passing 'int' to parameter of incompatible type 'ffi_elt' (aka 'struct ffi_elt')",
+  "kem_BAG-Piglet/Implementations/Reference_Implementation/bag_piglet384/src/common/gabidulin.c:243:5: error: passing 'int' to parameter of incompatible type 'ffi_elt' (aka 'struct ffi_elt')",
+  "kem_BAG-Piglet/Implementations/Reference_Implementation/bag_piglet384/src/common/gabidulin.c:273:11: error: passing 'int' to parameter of incompatible type 'ffi_elt' (aka 'struct ffi_elt')",
+  "kem_BAG-Piglet/Implementations/Reference_Implementation/bag_piglet384/src/common/gabidulin.c:274:11: error: passing 'int' to parameter of incompatible type 'ffi_elt' (aka 'struct ffi_elt')",
+  "kem_BAG-Piglet/Implementations/Reference_Implementation/bag_piglet384/src/common/gabidulin.c:282:9: error: passing 'int' to parameter of incompatible type 'ffi_elt' (aka 'struct ffi_elt')",
+  "kem_BAG-Piglet/Implementations/Reference_Implementation/bag_piglet384/src/common/gabidulin.c:283:9: error: passing 'int' to parameter of incompatible type 'ffi_elt' (aka 'struct ffi_elt')",
+  "kem_BAG-Piglet/Implementations/Reference_Implementation/bag_piglet384/src/common/gabidulin.c:286:9: error: passing 'int' to parameter of incompatible type 'ffi_elt' (aka 'struct ffi_elt')",
+  "kem_BAG-Piglet/Implementations/Reference_Implementation/bag_piglet384/src/common/gabidulin.c:287:9: error: passing 'int' to parameter of incompatible type 'ffi_elt' (aka 'struct ffi_elt')",
+  "kem_BAG-Piglet/Implementations/Reference_Implementation/bag_piglet384/src/common/gabidulin.c:299:8: error: passing 'int' to parameter of incompatible type 'ffi_elt' (aka 'struct ffi_elt')",
+  "kem_BAG-Piglet/Implementations/Reference_Implementation/bag_piglet384/src/common/gabidulin.c:309:7: error: passing 'int' to parameter of incompatible type 'ffi_elt' (aka 'struct ffi_elt')"
+ ]
+}

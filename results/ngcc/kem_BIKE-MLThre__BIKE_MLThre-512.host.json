@@ -1,0 +1,20 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "kem_BIKE-MLThre__BIKE_MLThre-512",
+ "pid": "kem_BIKE-MLThre",
+ "param": "BIKE_MLThre-512",
+ "kind": "KEM",
+ "verdict": "does not build",
+ "reason": "undefined symbols: randombytes_init_with_seed_len",
+ "build_errors": [
+  "Undefined symbols for architecture arm64:",
+  "\"_randombytes_init_with_seed_len\", referenced from:",
+  "ld: symbol(s) not found for architecture arm64",
+  "cc: error: linker command failed with exit code 1 (use -v to see invocation)"
+ ]
+}

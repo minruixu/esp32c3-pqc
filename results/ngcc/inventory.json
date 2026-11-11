@@ -1,0 +1,4955 @@
+{
+ "source": "https://www.niccs.org.cn/niccs/Proposal/pc/list.html",
+ "candidates": [
+  {
+   "id": "kem_Aigis-Enc+",
+   "name": "Aigis-Enc+",
+   "type": "KEM",
+   "family": "Lattice (Module-LWE)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Aigis-Enc%2B.zip",
+   "package_bytes": 13910031,
+   "package_sha256": "1c053133175cd189fd9f0e058bde684168f55a6fc3871de2a755404a08990186",
+   "ported_elsewhere": "PQMagic",
+   "parameter_sets": [
+    {
+     "name": "Aigis-Enc+-512",
+     "level": 128,
+     "pk": 656,
+     "sk": 1456,
+     "ct": 896
+    },
+    {
+     "name": "Aigis-Enc+-1024",
+     "level": 256,
+     "pk": 1312,
+     "sk": 2912,
+     "ct": 1664
+    },
+    {
+     "name": "Aigis-Enc+-2048",
+     "level": 512,
+     "pk": 2624,
+     "sk": 5824,
+     "ct": 3584
+    }
+   ],
+   "units_found": [
+    "Aigis-Enc+-I",
+    "Aigis-Enc+-II",
+    "Aigis-Enc+-III"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics"
+   ],
+   "uses_malloc": null,
+   "license": "notices in sources: public domain (12 files)",
+   "ram_estimate": "plausible from the sizes (2.9 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_Amoeba",
+   "name": "Amoeba",
+   "type": "KEM",
+   "family": "Lattice-based (Ring-LWE)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Amoeba.zip",
+   "package_bytes": 4397050,
+   "package_sha256": "719c438a30cccd72c9d83da4b5150fee0c55351f2c13e7a66fd61bf653ca5c24",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Amoeba-576",
+     "level": 128,
+     "pk": 784,
+     "sk": 1712,
+     "ct": 1047
+    },
+    {
+     "name": "Amoeba-864",
+     "level": 192,
+     "pk": 1144,
+     "sk": 2504,
+     "ct": 1581
+    },
+    {
+     "name": "Amoeba-1152",
+     "level": 256,
+     "pk": 1648,
+     "sk": 3440,
+     "ct": 1833
+    },
+    {
+     "name": "Amoeba-1728",
+     "level": 384,
+     "pk": 2440,
+     "sk": 5096,
+     "ct": 2769
+    },
+    {
+     "name": "Amoeba-2304",
+     "level": 512,
+     "pk": 3520,
+     "sk": 7040,
+     "ct": 3914
+    }
+   ],
+   "units_found": [
+    "Amoeba-576",
+    "Amoeba-864",
+    "Amoeba-1152",
+    "Amoeba-1728",
+    "Amoeba-2304"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (3.5 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_BAG-Loong",
+   "name": "BAG-Loong",
+   "type": "KEM",
+   "family": "Code-based (rank metric)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/BAG-Loong.zip",
+   "package_bytes": 16321958,
+   "package_sha256": "2795fd57d3d00791652256362b4a21982116d3aad1fb63633dac923e0e76e05b",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "BAG-Loong-128",
+     "level": 128,
+     "pk": 2500,
+     "sk": 5064,
+     "ct": 3071
+    },
+    {
+     "name": "BAG-Loong-256",
+     "level": 256,
+     "pk": 6597,
+     "sk": 13258,
+     "ct": 8400
+    },
+    {
+     "name": "BAG-Loong-384",
+     "level": 384,
+     "pk": 12152,
+     "sk": 24368,
+     "ct": 15112
+    },
+    {
+     "name": "BAG-Loong-512",
+     "level": 512,
+     "pk": 19043,
+     "sk": 38150,
+     "ct": 21660
+    }
+   ],
+   "units_found": [
+    "Loong-Block-ms-128",
+    "Loong-Block-ms-256",
+    "Loong-Block-ms-384",
+    "Loong-Block-ms-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (10.4 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_BAG-Piglet",
+   "name": "BAG-Piglet",
+   "type": "KEM",
+   "family": "Code-based (rank metric)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/BAG-Piglet.zip",
+   "package_bytes": 10529983,
+   "package_sha256": "31afe1f2f4e97ad77929d7855c7d9011d69755049d155c09be9339bc99b1d405",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "BAG-Piglet-128",
+     "level": 128,
+     "pk": 522,
+     "sk": 16,
+     "ct": 1027
+    },
+    {
+     "name": "BAG-Piglet-256",
+     "level": 256,
+     "pk": 1573,
+     "sk": 32,
+     "ct": 3097
+    },
+    {
+     "name": "BAG-Piglet-384",
+     "level": 384,
+     "pk": 2778,
+     "sk": 48,
+     "ct": 5475
+    },
+    {
+     "name": "BAG-Piglet-512",
+     "level": 512,
+     "pk": 4158,
+     "sk": 64,
+     "ct": 8204
+    }
+   ],
+   "units_found": [
+    "bag_piglet128",
+    "bag_piglet256",
+    "bag_piglet384",
+    "bag_piglet512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics"
+   ],
+   "uses_malloc": true,
+   "license": "notices in sources: MIT (8 files)",
+   "ram_estimate": "plausible from the sizes (1.5 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_BIKE-MLThre",
+   "name": "BIKE-MLThre",
+   "type": "KEM",
+   "family": "Code-based (QC-MDPC)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/BIKE_MLThre.zip",
+   "package_bytes": 38667045,
+   "package_sha256": "3a5d97532003786374b68b39779cff4e4938f593fef9596f171652c6ff593917",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "BIKE_MLThre-128",
+     "level": 128,
+     "pk": 1541,
+     "sk": 3114,
+     "ct": 1573
+    },
+    {
+     "name": "BIKE_MLThre-256",
+     "level": 256,
+     "pk": 5122,
+     "sk": 10276,
+     "ct": 5154
+    },
+    {
+     "name": "BIKE_MLThre-512",
+     "level": 512,
+     "pk": 18751,
+     "sk": 37566,
+     "ct": 18815
+    }
+   ],
+   "units_found": [
+    "BIKE_MLThre-128",
+    "BIKE_MLThre-256",
+    "BIKE_MLThre-512"
+   ],
+   "reference_dir": "Implementations/reference",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "license files: Implementations/optimization/bike_kem_ml/NOTICE, Implementations/optimization/bike_kem_ml/LICENSE; SPDX tags in sources: Apache-2.0\" (49 files), Apache-2.0 (1 files); notices in sources: public domain (2 files)",
+   "ram_estimate": "plausible from the sizes (6.1 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_BRA",
+   "name": "BRA",
+   "type": "KEM",
+   "family": "Code-based (rank metric)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/BRA.zip",
+   "package_bytes": 9361891,
+   "package_sha256": "612a3fe69c7a28fae7ca87a226d29e67a9cffb6ce9e4cbe54ac9de37f7650d7a",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "BRA-128",
+     "level": 128,
+     "pk": 1078,
+     "sk": 1176,
+     "ct": 2092
+    },
+    {
+     "name": "BRA-256",
+     "level": 256,
+     "pk": 1735,
+     "sk": 1841,
+     "ct": 3406
+    },
+    {
+     "name": "BRA-512",
+     "level": 512,
+     "pk": 3573,
+     "sk": 3717,
+     "ct": 7082
+    }
+   ],
+   "units_found": [
+    "BRA-128",
+    "BRA-256",
+    "BRA-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_BRA-128.c",
+   "dependencies": [
+    "x86 intrinsics or assembly in 15 source files",
+    "other headers: libkeccak.a.headers/KeccakP-1600-times4-SnP.h"
+   ],
+   "uses_malloc": false,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (4.2 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_BRQC",
+   "name": "BRQC",
+   "type": "KEM",
+   "family": "Code-based (rank metric)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/BRQC.zip",
+   "package_bytes": 9739992,
+   "package_sha256": "2c76bdd4e4df7829bf22fa4949a3c744b9af692425f6f2e5fae5317d41e366ae",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "BRQC-128",
+     "level": 128,
+     "pk": 1954,
+     "sk": 2066,
+     "ct": 3844
+    },
+    {
+     "name": "BRQC-256",
+     "level": 256,
+     "pk": 3345,
+     "sk": 3471,
+     "ct": 6626
+    },
+    {
+     "name": "BRQC-512",
+     "level": 512,
+     "pk": 6562,
+     "sk": 6712,
+     "ct": 13060
+    }
+   ],
+   "units_found": [
+    "BRQC-128",
+    "BRQC-256",
+    "BRQC-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_BRQC-128.c",
+   "dependencies": [
+    "x86 intrinsics or assembly in 15 source files",
+    "other headers: libkeccak.a.headers/KeccakP-1600-times4-SnP.h"
+   ],
+   "uses_malloc": false,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (7.7 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_BW-KEM",
+   "name": "BW-KEM",
+   "type": "KEM",
+   "family": "Lattice-based KEM",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/BW-KEM.zip",
+   "package_bytes": 13851186,
+   "package_sha256": "a1f8a079df7d55576209f45fcf00afd700fc60c0b18d758d572585ccea594ae3",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "BW_KEM_C128",
+     "level": 128,
+     "pk": 784,
+     "sk": 1585,
+     "ct": 768
+    },
+    {
+     "name": "BW_KEM_C256",
+     "level": 256,
+     "pk": 1568,
+     "sk": 3169,
+     "ct": 1440
+    },
+    {
+     "name": "BW_KEM_C512",
+     "level": 512,
+     "pk": 3136,
+     "sk": 6337,
+     "ct": 2944
+    }
+   ],
+   "units_found": [
+    "BW_KEM_C128",
+    "BW_KEM_C256",
+    "BW_KEM_C512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "license files: Implementations/Additional_Implementation/ARM-reference/common/mps2/LICENSE.txt, Implementations/Additional_Implementation/ARM-reference/libopencm3/COPYING.GPL3, Implementations/Additional_Implementation/ARM-reference/libopencm3/COPYING.LGPL3 ...; SPDX tags in sources: Apache-2.0 or CC0-1.0 (57 files), Apache-2.0 (21 files), BSD-3-Clause (6 files); notices in sources: GPL (2709 files), CC0 (63 files), Apache (21 files)",
+   "ram_estimate": "plausible from the sizes (3.1 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_C-Multi-UR-AG",
+   "name": "C-Multi-UR-AG",
+   "type": "KEM",
+   "family": "Code-based (rank metric)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/C-Multi-UR-AG.zip",
+   "package_bytes": 12265869,
+   "package_sha256": "c41e372a55e1dd4aa0e30c6b53d9d7b4f9cd1d7ae431763535e1e61097445e2c",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Level-128",
+     "level": 128,
+     "pk": 3866,
+     "sk": 3960,
+     "ct": 7332
+    },
+    {
+     "name": "Level-256",
+     "level": 256,
+     "pk": 10780,
+     "sk": 10892,
+     "ct": 15304
+    },
+    {
+     "name": "Level-512",
+     "level": 512,
+     "pk": 28866,
+     "sk": 29021,
+     "ct": 40926
+    }
+   ],
+   "units_found": [
+    "CMultiURAG-128",
+    "CMultiURAG-256",
+    "CMultiURAG-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_CMultiURAG-128.c",
+   "dependencies": [
+    "x86 intrinsics or assembly in 15 source files",
+    "other headers: libkeccak.a.headers/KeccakP-1600-times4-SnP.h"
+   ],
+   "uses_malloc": false,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (14.8 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_CheetahKEM",
+   "name": "CheetahKEM",
+   "type": "KEM",
+   "family": "Lattice (Ring/Module-LWE)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/CheetahKEM.zip",
+   "package_bytes": 8357751,
+   "package_sha256": "fc321e46bac9c387535e2053bed560eac3d3cd88ba9bebc154f5bf68dd47dcd1",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Cheetah128",
+     "level": 128,
+     "pk": 832,
+     "sk": 1936,
+     "ct": 864
+    },
+    {
+     "name": "Cheetah256",
+     "level": 256,
+     "pk": 1648,
+     "sk": 3808,
+     "ct": 1728
+    },
+    {
+     "name": "Cheetah384",
+     "level": 384,
+     "pk": 2704,
+     "sk": 5920,
+     "ct": 2832
+    },
+    {
+     "name": "Cheetah512",
+     "level": 512,
+     "pk": 3600,
+     "sk": 7872,
+     "ct": 4032
+    }
+   ],
+   "units_found": [
+    "Cheetah128",
+    "Cheetah256",
+    "Cheetah384",
+    "Cheetah512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_Cheetah.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (3.5 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_COMPASS-KEM",
+   "name": "COMPASS-KEM",
+   "type": "KEM",
+   "family": "Lattice-based",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/COMPASS-KEM.zip",
+   "package_bytes": 50427183,
+   "package_sha256": "8fc838488ac0849d4c6afd161f8b9742c7a8b9a330bc3b79df70ced7e2d1d5e2",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "COMPASS-KEM-128",
+     "level": 128,
+     "pk": 672,
+     "sk": 1504,
+     "ct": 768
+    },
+    {
+     "name": "COMPASS-KEM-256",
+     "level": 256,
+     "pk": 1312,
+     "sk": 2912,
+     "ct": 1472
+    },
+    {
+     "name": "COMPASS-KEM-384",
+     "level": 384,
+     "pk": 2144,
+     "sk": 4704,
+     "ct": 2432
+    },
+    {
+     "name": "COMPASS-KEM-512",
+     "level": 512,
+     "pk": 2848,
+     "sk": 6240,
+     "ct": 3264
+    }
+   ],
+   "units_found": [
+    "COMPASS-KEM-128",
+    "COMPASS-KEM-256",
+    "COMPASS-KEM-384",
+    "COMPASS-KEM-512"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (2.9 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_CTL_Algorithm",
+   "name": "CTL Algorithm",
+   "type": "KEM",
+   "family": "Lattice-based",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/CTL.zip",
+   "package_bytes": 37952459,
+   "package_sha256": "512caaf5fa04ea5ab51fb5eeee9e81f8c7c7c430b60727130067634bfb674d01",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "CTL-128",
+     "level": 128,
+     "pk": 521,
+     "sk": 2953,
+     "ct": 473
+    },
+    {
+     "name": "CTL-256",
+     "level": 256,
+     "pk": 1230,
+     "sk": 6030,
+     "ct": 1006
+    },
+    {
+     "name": "CTL-512",
+     "level": 512,
+     "pk": 3009,
+     "sk": 15617,
+     "ct": 2353
+    }
+   ],
+   "units_found": [
+    "CTL-257-512",
+    "CTL-769-1024",
+    "CTL-3329-2048"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/KEM-CTL-x86-Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [
+    "128-bit integers (__int128)"
+   ],
+   "uses_malloc": true,
+   "license": "notices in sources: CC0 (12 files)",
+   "ram_estimate": "plausible from the sizes (3.9 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_DKEM__Ding_Key_Encapsulation",
+   "name": "DKEM (Ding Key Encapsulation)",
+   "type": "KEM",
+   "family": "Lattice (Module-LWE)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/DKEM.zip",
+   "package_bytes": 8992809,
+   "package_sha256": "862f40ba424253bae7fadbc9c2f54a568b77e0f97fba4728c5fd1e4e826dddc7",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "DKEM-128",
+     "level": 128,
+     "pk": 800,
+     "sk": 1600,
+     "ct": 800
+    },
+    {
+     "name": "DKEM-256",
+     "level": 256,
+     "pk": 1568,
+     "sk": 3136,
+     "ct": 1600
+    },
+    {
+     "name": "DKEM-512",
+     "level": 512,
+     "pk": 3392,
+     "sk": 6784,
+     "ct": 3136
+    }
+   ],
+   "units_found": [
+    "DKEM-128",
+    "DKEM-256",
+    "DKEM-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics",
+    "NEON intrinsics"
+   ],
+   "uses_malloc": true,
+   "license": "SPDX tags in sources: Apache-2.0 OR ISC OR MIT (12 files); notices in sources: public domain (6 files)",
+   "ram_estimate": "plausible from the sizes (3.1 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_DTRU",
+   "name": "DTRU",
+   "type": "KEM",
+   "family": "Lattice-based (NTRU)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/DTRU.zip",
+   "package_bytes": 20677386,
+   "package_sha256": "ed443d6a9e2e6c50e4956e9b30ce078ae0598a8846962d04b9894cac0816527b",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "DTRU-648",
+     "level": 128,
+     "pk": 954,
+     "sk": 1310,
+     "ct": 729
+    },
+    {
+     "name": "DTRU-Light",
+     "level": 128,
+     "pk": 640,
+     "sk": 864,
+     "ct": 512
+    },
+    {
+     "name": "DTRU-768",
+     "level": 192,
+     "pk": 1130,
+     "sk": 1546,
+     "ct": 960
+    },
+    {
+     "name": "DTRU-1024",
+     "level": 256,
+     "pk": 1506,
+     "sk": 2050,
+     "ct": 1280
+    },
+    {
+     "name": "DTRU-Prime",
+     "level": 256,
+     "pk": 1495,
+     "sk": 1935,
+     "ct": 1359
+    },
+    {
+     "name": "DTRU-1536",
+     "level": 384,
+     "pk": 2259,
+     "sk": 3091,
+     "ct": 1920
+    },
+    {
+     "name": "DTRU-2048",
+     "level": 512,
+     "pk": 3012,
+     "sk": 3844,
+     "ct": 2560
+    }
+   ],
+   "units_found": [
+    "DTRU-648",
+    "DTRU-768",
+    "DTRU-1024",
+    "DTRU-1536",
+    "DTRU-2048",
+    "DTRU-Light",
+    "DTRU-Prime"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "license files: Implementations and Test_Vectors/Implementations/Additional_Implementation/KEM-DTRU-ARM-Reference/libopencm3/COPYING.GPL3, Implementations and Test_Vectors/Implementations/Additional_Implementation/KEM-DTRU-ARM-Optimized/libopencm3/COPYING.GPL3, Implementations and Test_Vectors/Implementations/Additional_Implementation/KEM-DTRU-ARM-Reference/libopencm3/COPYING.LGPL3 ...; SPDX tags in sources: Apache-2.0 or CC0-1.0 (42 files); notices in sources: GPL (2748 files), CC0 (42 files), public domain (10 files)",
+   "ram_estimate": "plausible from the sizes (2.9 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_FLIT",
+   "name": "FLIT",
+   "type": "KEM",
+   "family": "Lattice (NTRU-like KEM)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/FLIT.zip",
+   "package_bytes": 5802560,
+   "package_sha256": "6c560f434b347fbac8334f55b9ba2838cb1cf885d5aa25e95acb66ed6c6de0fe",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "FLIT128",
+     "level": 128,
+     "pk": 615,
+     "sk": 1351,
+     "ct": 512
+    },
+    {
+     "name": "FLIT256",
+     "level": 256,
+     "pk": 1229,
+     "sk": 2605,
+     "ct": 1024
+    },
+    {
+     "name": "FLIT512",
+     "level": 512,
+     "pk": 3072,
+     "sk": 6336,
+     "ct": 2304
+    }
+   ],
+   "units_found": [
+    "FLIT128",
+    "FLIT256",
+    "FLIT512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "notices in sources: public domain (4 files)",
+   "ram_estimate": "plausible from the sizes (2.4 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_HARE",
+   "name": "HARE",
+   "type": "KEM",
+   "family": "Code-based (quasi-cyclic)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/HARE.zip",
+   "package_bytes": 16015701,
+   "package_sha256": "718bb70eee268550fcef2a82e8eb9879c51ecfdbaefd6bfe2157e7639ffc8557",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "HARE-2",
+     "level": 128,
+     "pk": 2629,
+     "sk": 2677,
+     "ct": 4688
+    },
+    {
+     "name": "HARE-5",
+     "level": 256,
+     "pk": 6580,
+     "sk": 6676,
+     "ct": 11790
+    },
+    {
+     "name": "HARE-7",
+     "level": 384,
+     "pk": 13157,
+     "sk": 13301,
+     "ct": 23693
+    },
+    {
+     "name": "HARE-9",
+     "level": 512,
+     "pk": 21812,
+     "sk": 22004,
+     "ct": 39294
+    }
+   ],
+   "units_found": [
+    "HARE-128",
+    "HARE-256",
+    "HARE-384",
+    "HARE-512"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (9.8 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_Hybrid_Equivalent_Punctured_and_Quasi-Cyclic",
+   "name": "Hybrid Equivalent Punctured and Quasi-Cyclic",
+   "type": "KEM",
+   "family": "Code-based (quasi-cyclic)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/HEP-QC.zip",
+   "package_bytes": 789966981,
+   "package_sha256": "3780991127f49b6397b4182d32b35ab7a6359bf825a707e90df0f809beeb3790",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "HEP-QC-1",
+     "level": 128,
+     "pk": 285889,
+     "sk": 285969,
+     "ct": 4433
+    },
+    {
+     "name": "HEP-QC-3",
+     "level": 192,
+     "pk": 866210,
+     "sk": 866298,
+     "ct": 8978
+    },
+    {
+     "name": "HEP-QC-5",
+     "level": 256,
+     "pk": 1852485,
+     "sk": 1852581,
+     "ct": 14421
+    },
+    {
+     "name": "HEP-QC-7",
+     "level": 512,
+     "pk": 12644449,
+     "sk": 12644577,
+     "ct": 49297
+    }
+   ],
+   "units_found": [
+    "ref"
+   ],
+   "reference_dir": "Implementations/Implementations/ref",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_HEP_QC.c",
+   "dependencies": [
+    "x86 intrinsics or assembly in 3 source files"
+   ],
+   "uses_malloc": false,
+   "license": "notices in sources: MIT (2 files)",
+   "ram_estimate": "no: keys and messages of the smallest set alone need 562.8 KB"
+  },
+  {
+   "id": "kem_LoongKEM",
+   "name": "LoongKEM",
+   "type": "KEM",
+   "family": "Lattice (LWE)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/LoongKEM.zip",
+   "package_bytes": 8583603,
+   "package_sha256": "a6e5070647a40e7de1bf6e5b085dc1d6423c003a409864fdb303d87f881cec0b",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Loong128",
+     "level": 128,
+     "pk": 1472,
+     "sk": 1848,
+     "ct": 1512
+    },
+    {
+     "name": "Loong256",
+     "level": 256,
+     "pk": 3248,
+     "sk": 3888,
+     "ct": 3520
+    },
+    {
+     "name": "Loong384",
+     "level": 384,
+     "pk": 6444,
+     "sk": 7340,
+     "ct": 6680
+    },
+    {
+     "name": "Loong512",
+     "level": 512,
+     "pk": 10640,
+     "sk": 11832,
+     "ct": 10848
+    }
+   ],
+   "units_found": [
+    "Loong128",
+    "Loong256",
+    "Loong384",
+    "Loong512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_Loong.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (4.7 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_Lore",
+   "name": "Lore",
+   "type": "KEM",
+   "family": "Lattice (module-LWR)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Lore.zip",
+   "package_bytes": 10424731,
+   "package_sha256": "e33130fb45a3b1e220f8043739d1396a884c0043cb4336104e67e5404c7cc725",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Lore-SHAKE/Lore-L1:Lore-128",
+     "level": 128,
+     "pk": 610,
+     "sk": 2108,
+     "ct": 706
+    },
+    {
+     "name": "Lore-SM3/Lore-L1:Lore-128",
+     "level": 128,
+     "pk": 610,
+     "sk": 2108,
+     "ct": 706
+    },
+    {
+     "name": "Lore-SHAKE/Lore-L2:Lore-256",
+     "level": 256,
+     "pk": 1186,
+     "sk": 4518,
+     "ct": 1282
+    },
+    {
+     "name": "Lore-SM3/Lore-L2:Lore-256",
+     "level": 256,
+     "pk": 1186,
+     "sk": 4518,
+     "ct": 1282
+    },
+    {
+     "name": "Lore-SHAKE/Lore-L3:Lore-384",
+     "level": 384,
+     "pk": 1954,
+     "sk": 7736,
+     "ct": 2114
+    },
+    {
+     "name": "Lore-SM3/Lore-L3:Lore-384",
+     "level": 384,
+     "pk": 1954,
+     "sk": 7736,
+     "ct": 2114
+    },
+    {
+     "name": "Lore-SHAKE/Lore-L4:Lore-512",
+     "level": 512,
+     "pk": 2914,
+     "sk": 11432,
+     "ct": 3170
+    },
+    {
+     "name": "Lore-SM3/Lore-L4:Lore-512",
+     "level": 512,
+     "pk": 2914,
+     "sk": 11432,
+     "ct": 3170
+    }
+   ],
+   "units_found": [
+    "Lore-SHAKE_Lore-L1",
+    "Lore-SHAKE_Lore-L2",
+    "Lore-SHAKE_Lore-L3",
+    "Lore-SHAKE_Lore-L4",
+    "Lore-SM3_Lore-L1",
+    "Lore-SM3_Lore-L2",
+    "Lore-SM3_Lore-L3",
+    "Lore-SM3_Lore-L4"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (3.3 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_MAMBA-Frost",
+   "name": "MAMBA-Frost",
+   "type": "KEM",
+   "family": "Lattice-based (learning with quantization)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/MAMBA-Frost.zip",
+   "package_bytes": 23341608,
+   "package_sha256": "ae363dbefd69d64e99987b64105d60bfa376d97c8b58b055665761559c44c78b",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "MAMBA-Frost-128",
+     "level": 128,
+     "pk": 5152,
+     "sk": 6736,
+     "ct": 5192
+    },
+    {
+     "name": "MAMBA-Frost-CC-128",
+     "level": 128,
+     "pk": 5152,
+     "sk": 6736,
+     "ct": 5192
+    },
+    {
+     "name": "MAMBA-Frost-192",
+     "level": 192,
+     "pk": 9712,
+     "sk": 11528,
+     "ct": 9760
+    },
+    {
+     "name": "MAMBA-Frost-CC-192",
+     "level": 192,
+     "pk": 9712,
+     "sk": 11528,
+     "ct": 9760
+    },
+    {
+     "name": "MAMBA-Frost-256",
+     "level": 256,
+     "pk": 16776,
+     "sk": 19416,
+     "ct": 15552
+    },
+    {
+     "name": "MAMBA-Frost-CC-256",
+     "level": 256,
+     "pk": 16776,
+     "sk": 19416,
+     "ct": 15552
+    },
+    {
+     "name": "MAMBA-Frost-384",
+     "level": 384,
+     "pk": 25096,
+     "sk": 29032,
+     "ct": 37736
+    },
+    {
+     "name": "MAMBA-Frost-CC-384",
+     "level": 384,
+     "pk": 37628,
+     "sk": 43492,
+     "ct": 25204
+    },
+    {
+     "name": "MAMBA-Frost-512",
+     "level": 512,
+     "pk": 36432,
+     "sk": 41728,
+     "ct": 72944
+    },
+    {
+     "name": "MAMBA-Frost-CC-512",
+     "level": 512,
+     "pk": 72832,
+     "sk": 83328,
+     "ct": 36544
+    }
+   ],
+   "units_found": [
+    "MAMBA-Frost-128",
+    "MAMBA-Frost-192",
+    "MAMBA-Frost-256",
+    "MAMBA-Frost-384",
+    "MAMBA-Frost-512",
+    "MAMBA-Frost-CC-128",
+    "MAMBA-Frost-CC-192",
+    "MAMBA-Frost-CC-256",
+    "MAMBA-Frost-CC-384",
+    "MAMBA-Frost-CC-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "notices in sources: public domain (45 files)",
+   "ram_estimate": "plausible from the sizes (16.7 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_MAMBA-Viper",
+   "name": "MAMBA-Viper",
+   "type": "KEM",
+   "family": "Lattice-based (Module-LWQ) KEM",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/MAMBA-Viper.zip",
+   "package_bytes": 11898713,
+   "package_sha256": "cdf52bb77066664f74eb44872d5ab1785c22df194e50c603120432a169c61f4c",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "MAMBA-Viper-128",
+     "level": 128,
+     "pk": 608,
+     "sk": 1424,
+     "ct": 736
+    },
+    {
+     "name": "MAMBA-Viper-192",
+     "level": 192,
+     "pk": 992,
+     "sk": 2200,
+     "ct": 1088
+    },
+    {
+     "name": "MAMBA-Viper-256",
+     "level": 256,
+     "pk": 1312,
+     "sk": 2912,
+     "ct": 1472
+    },
+    {
+     "name": "MAMBA-Viper-384",
+     "level": 384,
+     "pk": 2496,
+     "sk": 5488,
+     "ct": 2656
+    },
+    {
+     "name": "MAMBA-Viper-512",
+     "level": 512,
+     "pk": 3200,
+     "sk": 7040,
+     "ct": 3456
+    }
+   ],
+   "units_found": [
+    "MAMBA-Viper-128",
+    "MAMBA-Viper-192",
+    "MAMBA-Viper-256",
+    "MAMBA-Viper-384",
+    "MAMBA-Viper-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "license files: API_PKC/Native_Implementation/AVX_Implementation_KEM/tches2021_ntt/LICENSE.ntt-polymul, Implementations/Optimized_Implementation/MAMBA-Viper-512/tches2021_ntt/LICENSE.ntt-polymul, Implementations/Optimized_Implementation/MAMBA-Viper-192/tches2021_ntt/LICENSE.ntt-polymul ...; notices in sources: public domain (13 files)",
+   "ram_estimate": "plausible from the sizes (2.7 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_Mithril",
+   "name": "Mithril",
+   "type": "KEM",
+   "family": "Lattice (radical-ring LWR)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Mithril.zip",
+   "package_bytes": 13023595,
+   "package_sha256": "9fed68e7923c6bc9ede072183f7d3983058f88deec5534e779ed2200ee4f7f9f",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Mithril-128",
+     "level": 128,
+     "pk": 944,
+     "sk": 1136,
+     "ct": 928
+    },
+    {
+     "name": "Mithril-256",
+     "level": 256,
+     "pk": 1648,
+     "sk": 2000,
+     "ct": 1680
+    },
+    {
+     "name": "Mithril-512",
+     "level": 512,
+     "pk": 3056,
+     "sk": 3728,
+     "ct": 3504
+    }
+   ],
+   "units_found": [
+    "Mithril-128",
+    "Mithril-256",
+    "Mithril-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in kem.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "notices in sources: public domain (3 files)",
+   "ram_estimate": "plausible from the sizes (2.9 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_Mito",
+   "name": "Mito",
+   "type": "KEM",
+   "family": "Code-based",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Mito.zip",
+   "package_bytes": 20911711,
+   "package_sha256": "ee11788a3e8bf8653d18ade6580c47a331b91e7eac3e31a5a6750a4b4cfb827b",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Mito1",
+     "level": 128,
+     "pk": 3908,
+     "sk": 4052,
+     "ct": 5796
+    },
+    {
+     "name": "Mito1-E",
+     "level": 128,
+     "pk": 3720,
+     "sk": 3864,
+     "ct": 5512
+    },
+    {
+     "name": "Mito2-E",
+     "level": 128,
+     "pk": 5192,
+     "sk": 5336,
+     "ct": 6440
+    }
+   ],
+   "units_found": [
+    "Mito-1-128",
+    "Mito-1-256",
+    "Mito-1-512",
+    "Mito-1-E-128",
+    "Mito-1-E-256",
+    "Mito-1-E-512",
+    "Mito-2-E-128",
+    "Mito-2-E-256",
+    "Mito-2-E-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (13.4 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_MORNING-Scabbard",
+   "name": "MORNING-Scabbard",
+   "type": "KEM",
+   "family": "Lattice (Module-LWR)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/MORNING-Scabbard.zip",
+   "package_bytes": 16810898,
+   "package_sha256": "fdb6749116bddbb8a86074b9ab6f5f55d37540b92e3964906dede0b09c7faf4b",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Scabbard-128",
+     "level": 128,
+     "pk": 736,
+     "sk": 1056,
+     "ct": 760
+    },
+    {
+     "name": "Scabbard-256",
+     "level": 256,
+     "pk": 1616,
+     "sk": 2256,
+     "ct": 1648
+    },
+    {
+     "name": "Scabbard-512",
+     "level": 512,
+     "pk": 2880,
+     "sk": 4032,
+     "ct": 3072
+    }
+   ],
+   "units_found": [
+    "scabbard128",
+    "scabbard256",
+    "scabbard512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_scabbard128.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "SPDX tags in sources: Apache-2.0 (11 files)",
+   "ram_estimate": "plausible from the sizes (2.5 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_NEV",
+   "name": "NEV",
+   "type": "KEM",
+   "family": "Lattice-based (NTRU/RLWE hybrid)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/NEV.zip",
+   "package_bytes": 13284152,
+   "package_sha256": "8105c6241a322661411e870a3087338f48f4f5c477a540387b800c08955cc7fd",
+   "ported_elsewhere": "PQMagic",
+   "parameter_sets": [
+    {
+     "name": "NEV-C1",
+     "level": 128,
+     "pk": 615,
+     "sk": 1246,
+     "ct": 615
+    },
+    {
+     "name": "NEV-C1*",
+     "level": 128,
+     "pk": 615,
+     "sk": 1246,
+     "ct": 512
+    },
+    {
+     "name": "NEV-D1",
+     "level": 128,
+     "pk": 768,
+     "sk": 1552,
+     "ct": 768
+    },
+    {
+     "name": "NEV-R1",
+     "level": 128,
+     "pk": 672,
+     "sk": 1360,
+     "ct": 672
+    },
+    {
+     "name": "NEV-C2",
+     "level": 256,
+     "pk": 1229,
+     "sk": 2490,
+     "ct": 1229
+    },
+    {
+     "name": "NEV-C2*",
+     "level": 256,
+     "pk": 1229,
+     "sk": 2490,
+     "ct": 1024
+    },
+    {
+     "name": "NEV-D2",
+     "level": 256,
+     "pk": 1536,
+     "sk": 3104,
+     "ct": 1536
+    },
+    {
+     "name": "NEV-R2",
+     "level": 256,
+     "pk": 1344,
+     "sk": 2720,
+     "ct": 1344
+    },
+    {
+     "name": "NEV-C3",
+     "level": 512,
+     "pk": 2458,
+     "sk": 4980,
+     "ct": 2458
+    },
+    {
+     "name": "NEV-C3*",
+     "level": 512,
+     "pk": 2458,
+     "sk": 4980,
+     "ct": 2048
+    },
+    {
+     "name": "NEV-D3",
+     "level": 512,
+     "pk": 3072,
+     "sk": 6208,
+     "ct": 3072
+    },
+    {
+     "name": "NEV-R3",
+     "level": 512,
+     "pk": 2688,
+     "sk": 5440,
+     "ct": 2688
+    }
+   ],
+   "units_found": [
+    "NEV-C1",
+    "NEV-C1-c",
+    "NEV-C2",
+    "NEV-C2-c",
+    "NEV-C3",
+    "NEV-C3-c",
+    "NEV-D1",
+    "NEV-D2",
+    "NEV-D3",
+    "NEV-R1",
+    "NEV-R2",
+    "NEV-R3"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics",
+    "other headers: asm-generic/errno.h"
+   ],
+   "uses_malloc": null,
+   "license": "notices in sources: public domain (48 files)",
+   "ram_estimate": "plausible from the sizes (2.4 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_NSS-HQC",
+   "name": "NSS-HQC",
+   "type": "KEM",
+   "family": "Code-based (HQC-type quasi-cyclic codes)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/NSS-HQC.zip",
+   "package_bytes": 7408070,
+   "package_sha256": "033994e27bf0dc824078593a98eb51465f979b1bca0932cabb29be6626447638",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "NSS-HQC-128",
+     "level": 128,
+     "pk": 3713,
+     "sk": 3777,
+     "ct": 5185
+    },
+    {
+     "name": "NSS-HQC-256",
+     "level": 256,
+     "pk": 6844,
+     "sk": 6908,
+     "ct": 9084
+    },
+    {
+     "name": "NSS-HQC-384",
+     "level": 384,
+     "pk": 15371,
+     "sk": 15467,
+     "ct": 18571
+    },
+    {
+     "name": "NSS-HQC-512",
+     "level": 512,
+     "pk": 27302,
+     "sk": 27430,
+     "ct": 31462
+    }
+   ],
+   "units_found": [
+    "HQC-128",
+    "HQC-256",
+    "HQC-384",
+    "HQC-512"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (12.4 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_NTRE_Key_Encapsulation_Mechanism",
+   "name": "NTRE Key Encapsulation Mechanism",
+   "type": "KEM",
+   "family": "Lattice-based (NTRU) KEM",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/NTRE.zip",
+   "package_bytes": 9622416,
+   "package_sha256": "9c0bad4c4846998df1214ba562e1c3b8aece6b69f08234a9bb0d89e3a5a4ea9a",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "NTRE-2593-648",
+     "level": 128,
+     "pk": 972,
+     "sk": 1976,
+     "ct": 972
+    },
+    {
+     "name": "NTRE-2917-1296",
+     "level": 256,
+     "pk": 1944,
+     "sk": 3920,
+     "ct": 1944
+    },
+    {
+     "name": "NTRE-3457-2304",
+     "level": 512,
+     "pk": 3456,
+     "sk": 6944,
+     "ct": 3456
+    }
+   ],
+   "units_found": [
+    "NTRE-128",
+    "NTRE-256",
+    "NTRE-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (3.8 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_OAEP-NTRU",
+   "name": "OAEP-NTRU",
+   "type": "KEM",
+   "family": "Lattice (NTRU)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/OAEP-NTRU.zip",
+   "package_bytes": 6170350,
+   "package_sha256": "aaab8e0692fd19dd2edda5384b5e85bba74661d478823b48cab3cccb53675756",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "OAEP-NTRU-648",
+     "level": 128,
+     "pk": 1053,
+     "sk": 2138,
+     "ct": 1085
+    },
+    {
+     "name": "OAEP-NTRU-1296",
+     "level": 256,
+     "pk": 2430,
+     "sk": 4924,
+     "ct": 2494
+    },
+    {
+     "name": "OAEP-NTRU-2592",
+     "level": 512,
+     "pk": 4860,
+     "sk": 9848,
+     "ct": 4988
+    }
+   ],
+   "units_found": [
+    "OAEP-NTRU-648",
+    "OAEP-NTRU-1296",
+    "OAEP-NTRU-2592"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (4.2 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_Polar-KEM",
+   "name": "Polar-KEM",
+   "type": "KEM",
+   "family": "Lattice (polar-code-defined)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Polar-KEM.zip",
+   "package_bytes": 1081142,
+   "package_sha256": "3ae9d4f1a717fb473e76447014d585cd5d14fe38728f02b1a044cc6a2d03e16d",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "PolarKEM-128",
+     "level": 128,
+     "pk": 1024,
+     "sk": 2048,
+     "ct": 768
+    },
+    {
+     "name": "PolarKEM-256",
+     "level": 192,
+     "pk": 2048,
+     "sk": 4096,
+     "ct": 1280
+    },
+    {
+     "name": "PolarKEM-512",
+     "level": 256,
+     "pk": 4096,
+     "sk": 8192,
+     "ct": 2304
+    }
+   ],
+   "units_found": [
+    "PolarKEM-128",
+    "PolarKEM-256",
+    "PolarKEM-512"
+   ],
+   "reference_dir": "Submission_Package/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (3.8 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_PolarLAC",
+   "name": "PolarLAC",
+   "type": "KEM",
+   "family": "Lattice-based (module-LWE with polar-code decoding)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/PolarLAC.zip",
+   "package_bytes": 13109792,
+   "package_sha256": "906be26ce8d27de335b691ff8490b2344b46d7519d88c799cba0242324e4882c",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "x86/POLARLAC-128",
+     "level": 128,
+     "pk": 530,
+     "sk": 1570,
+     "ct": 640
+    },
+    {
+     "name": "x86/POLARLAC-256",
+     "level": 256,
+     "pk": 1060,
+     "sk": 3140,
+     "ct": 1280
+    },
+    {
+     "name": "PolarLAC-512*",
+     "level": 512,
+     "pk": 2522,
+     "sk": 6682,
+     "ct": 2970
+    },
+    {
+     "name": "x86/POLARLAC-512",
+     "level": 512,
+     "pk": 2116,
+     "sk": 6276,
+     "ct": 2560
+    },
+    {
+     "name": "x86/POLARLAC-Light",
+     "level": 0,
+     "pk": 530,
+     "sk": 1570,
+     "ct": 608
+    }
+   ],
+   "units_found": [
+    "POLARLAC-128",
+    "POLARLAC-256",
+    "POLARLAC-512",
+    "POLARLAC-512-Star",
+    "POLARLAC-Light"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "notices in sources: public domain (20 files)",
+   "ram_estimate": "plausible from the sizes (2.6 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_QIMEN-PIKE",
+   "name": "QIMEN-PIKE",
+   "type": "KEM",
+   "family": "Isogeny-based",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/QIMEN-PIKE.zip",
+   "package_bytes": 35179832,
+   "package_sha256": "eff17fd345bbb44cbaeb822bece3c0b82b8d00f49278e72a89c83e2551c1752a",
+   "ported_elsewhere": "PQMagic",
+   "parameter_sets": [
+    {
+     "name": "NGCC-1",
+     "level": 128,
+     "pk": 389,
+     "sk": 472,
+     "ct": 602
+    },
+    {
+     "name": "NGCC-2",
+     "level": 256,
+     "pk": 592,
+     "sk": 734,
+     "ct": 882
+    },
+    {
+     "name": "NGCC-3",
+     "level": 512,
+     "pk": 1198,
+     "sk": 1497,
+     "ct": 1746
+    }
+   ],
+   "units_found": [
+    "NGCC-1",
+    "NGCC-2",
+    "NGCC-3"
+   ],
+   "reference_dir": ".",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [
+    "GMP",
+    "other headers: aes.h, bench.h, biextension.h, curve_extras.h, ec.h, ec_params.h"
+   ],
+   "uses_malloc": null,
+   "license": "license files: Implementations/Implementations/NOTICE, Implementations/Implementations/LICENSE, Implementations/Implementations/COPYING.LGPL ...; SPDX tags in sources: Apache-2.0 (12 files), MIT (2 files), PD and Apache-2.0 (2 files); notices in sources: MIT (4 files), public domain (2 files)",
+   "ram_estimate": "plausible from the sizes (1.4 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_Quasi-Cyclic_Twisted_McEliece_Key_Encapsulation_Mechanism",
+   "name": "Quasi-Cyclic Twisted McEliece Key Encapsulation Mechanism",
+   "type": "KEM",
+   "family": "Code-based (quasi-cyclic twisted McEliece)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/QCTM.zip",
+   "package_bytes": 87169850,
+   "package_sha256": "24a3986a4fbb852a677267a6443756328eae3642af770e767fe38f8291f294db",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "QCTM128",
+     "level": 128,
+     "pk": 167987,
+     "sk": 192545,
+     "ct": 640
+    },
+    {
+     "name": "QCTM256",
+     "level": 256,
+     "pk": 595662,
+     "sk": 641942,
+     "ct": 1153
+    },
+    {
+     "name": "QCTM512",
+     "level": 512,
+     "pk": 2374727,
+     "sk": 2467243,
+     "ct": 2264
+    }
+   ],
+   "units_found": [
+    "QCTM128",
+    "QCTM256",
+    "QCTM512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "no: keys and messages of the smallest set alone need 352.7 KB"
+  },
+  {
+   "id": "kem_QUBE",
+   "name": "QUBE",
+   "type": "KEM",
+   "family": "Code-based",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/QUBE.zip",
+   "package_bytes": 7113093,
+   "package_sha256": "f5eedd8a4bf786cd5a56a21f2c7ad5cf3307939a1bf0aeca5041920067880396",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "QUBE-128",
+     "level": 128,
+     "pk": 3294,
+     "sk": 3326,
+     "ct": 3287
+    },
+    {
+     "name": "QUBE-192",
+     "level": 192,
+     "pk": 6364,
+     "sk": 6412,
+     "ct": 6362
+    },
+    {
+     "name": "QUBE-256",
+     "level": 256,
+     "pk": 10446,
+     "sk": 10510,
+     "ct": 10423
+    },
+    {
+     "name": "QUBE-384",
+     "level": 384,
+     "pk": 20738,
+     "sk": 20834,
+     "ct": 20633
+    },
+    {
+     "name": "QUBE-512",
+     "level": 512,
+     "pk": 34028,
+     "sk": 34156,
+     "ct": 33846
+    }
+   ],
+   "units_found": [
+    "qube-128",
+    "qube-192",
+    "qube-256",
+    "qube-384",
+    "qube-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in kem_qube.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "notices in sources: public domain (1 files)",
+   "ram_estimate": "plausible from the sizes (9.7 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_Rudraksh2",
+   "name": "Rudraksh2",
+   "type": "KEM",
+   "family": "Lattice-based KEM",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Rudraksh2.zip",
+   "package_bytes": 19766493,
+   "package_sha256": "569d526cf7abe38393f69a4513686fa86a0c3b3033cc225b84cc107b20b17b98",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Rudraksh2-128-I",
+     "level": 128,
+     "pk": 880,
+     "sk": 1776,
+     "ct": 912
+    },
+    {
+     "name": "Rudraksh2-256-I",
+     "level": 256,
+     "pk": 1760,
+     "sk": 3552,
+     "ct": 1728
+    },
+    {
+     "name": "Rudraksh2-512-I",
+     "level": 512,
+     "pk": 3392,
+     "sk": 6848,
+     "ct": 3552
+    }
+   ],
+   "units_found": [
+    "lwekem128",
+    "lwekem256",
+    "lwekem512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_lwekem128.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "license files: Implementations/LICENSE, Implementations/Additional_Implementations/Cortex_M4/lwekem512/libopencm3/COPYING.GPL3, Implementations/Additional_Implementations/Cortex_M4/lwekem128/libopencm3/COPYING.GPL3 ...; SPDX tags in sources: Apache-2.0 (11 files); notices in sources: GPL (2148 files), public domain (9 files), MIT (6 files)",
+   "ram_estimate": "plausible from the sizes (3.5 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_Scloud+",
+   "name": "Scloud+",
+   "type": "KEM",
+   "family": "Lattice-based (unstructured LWE with Barnes–Wall decoding)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Scloud%2B.zip",
+   "package_bytes": 12578761,
+   "package_sha256": "050aad7293ec90fafd9070e82877eedc81caf0aaaca932c995619a3f35429876",
+   "ported_elsewhere": "scloudplus repository",
+   "parameter_sets": [
+    {
+     "name": "Scloud+-128",
+     "level": 128,
+     "pk": 6096,
+     "sk": 7440,
+     "ct": 6160
+    },
+    {
+     "name": "Scloud+-192",
+     "level": 192,
+     "pk": 11456,
+     "sk": 13872,
+     "ct": 12645
+    },
+    {
+     "name": "Scloud+-256",
+     "level": 256,
+     "pk": 16296,
+     "sk": 19680,
+     "ct": 17925
+    },
+    {
+     "name": "Scloud+-384",
+     "level": 384,
+     "pk": 33296,
+     "sk": 40144,
+     "ct": 33600
+    },
+    {
+     "name": "Scloud+-512",
+     "level": 512,
+     "pk": 48016,
+     "sk": 57872,
+     "ct": 48320
+    }
+   ],
+   "units_found": [
+    "Implementations_and_Test_Vectors"
+   ],
+   "reference_dir": ".",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics"
+   ],
+   "uses_malloc": null,
+   "license": "notices in sources: public domain (1 files)",
+   "ram_estimate": "plausible from the sizes (19.2 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_TRIKE",
+   "name": "TRIKE",
+   "type": "KEM",
+   "family": "Code-based",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/TRIKE.zip",
+   "package_bytes": 6460305,
+   "package_sha256": "03956a13fde3d402513bfcf9942f2b04fd23e98b01a3dc52b48938b9c89fe4d6",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "TRIKE-2",
+     "level": 128,
+     "pk": 1980,
+     "sk": 6328,
+     "ct": 3928
+    },
+    {
+     "name": "TRIKE-5",
+     "level": 256,
+     "pk": 4453,
+     "sk": 13988,
+     "ct": 8874
+    },
+    {
+     "name": "TRIKE-7",
+     "level": 384,
+     "pk": 8776,
+     "sk": 27260,
+     "ct": 17488
+    },
+    {
+     "name": "TRIKE-9",
+     "level": 512,
+     "pk": 14320,
+     "sk": 44228,
+     "ct": 28576
+    }
+   ],
+   "units_found": [
+    "TRIKE-2",
+    "TRIKE-5",
+    "TRIKE-7",
+    "TRIKE-9"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (11.9 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_TriQ-KEM",
+   "name": "TriQ-KEM",
+   "type": "KEM",
+   "family": "Code-based",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/TriQ-KEM.zip",
+   "package_bytes": 18591835,
+   "package_sha256": "1e4b96e7a849c95b4a6511c5739be9e0b4adf19b00195c2c0ce14f66be316876",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "TriQ-KEM-128",
+     "level": 128,
+     "pk": 2054,
+     "sk": 2102,
+     "ct": 4086
+    },
+    {
+     "name": "TriQ-KEM-256",
+     "level": 256,
+     "pk": 6328,
+     "sk": 6424,
+     "ct": 12472
+    },
+    {
+     "name": "TriQ-KEM-384",
+     "level": 384,
+     "pk": 12255,
+     "sk": 12399,
+     "ct": 24335
+    },
+    {
+     "name": "TriQ-KEM-512",
+     "level": 512,
+     "pk": 19768,
+     "sk": 19960,
+     "ct": 39320
+    }
+   ],
+   "units_found": [
+    "TriQ-KEM-128",
+    "TriQ-KEM-256",
+    "TriQ-KEM-384",
+    "TriQ-KEM-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (8.0 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_UVW_Key_Encapsulation_Mechanism",
+   "name": "UVW Key Encapsulation Mechanism",
+   "type": "KEM",
+   "family": "Code-based",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/UVW-KEM.zip",
+   "package_bytes": 75587362,
+   "package_sha256": "f9a1b135ea16aca0c974861732e03cd3164f1288f33ff150ff66c98326b75bcb",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "UVW-KEM-128",
+     "level": 128,
+     "pk": 208013,
+     "sk": 35,
+     "ct": 1032
+    },
+    {
+     "name": "UVW-KEM-256",
+     "level": 256,
+     "pk": 911645,
+     "sk": 35,
+     "ct": 2199
+    },
+    {
+     "name": "UVW-KEM-512",
+     "level": 512,
+     "pk": 4001850,
+     "sk": 67,
+     "ct": 4820
+    }
+   ],
+   "units_found": [
+    "UVW-KEM-128",
+    "UVW-KEM-256",
+    "UVW-KEM-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "doubtful: keys and messages of the smallest set need 204.2 KB"
+  },
+  {
+   "id": "kem_Weaver",
+   "name": "Weaver",
+   "type": "KEM",
+   "family": "Lattice (Module-LWR)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Weaver.zip",
+   "package_bytes": 5743165,
+   "package_sha256": "9b0bad96e9bc836b0ff811492a70891066df5634ee47fda4d1518dccd4e09927",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Weaver-640",
+     "level": 128,
+     "pk": 752,
+     "sk": 1776,
+     "ct": 816
+    },
+    {
+     "name": "Weaver-1024",
+     "level": 256,
+     "pk": 1312,
+     "sk": 3072,
+     "ct": 1536
+    },
+    {
+     "name": "Weaver-2048",
+     "level": 512,
+     "pk": 2880,
+     "sk": 6400,
+     "ct": 3392
+    }
+   ],
+   "units_found": [
+    "WeaverKEM-128",
+    "WeaverKEM-256",
+    "WeaverKEM-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_WeaverKEM-128.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "notices in sources: public domain (3 files)",
+   "ram_estimate": "plausible from the sizes (3.3 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_YuanYang.KEM",
+   "name": "YuanYang.KEM",
+   "type": "KEM",
+   "family": "Lattice (NTRU)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/YuanYang.KEM.zip",
+   "package_bytes": 18320042,
+   "package_sha256": "fe1bf3d78272bb79048e7d456819160324c6140206798cb77a22c2babcfdcf4a",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "YuanYang.KEM-512",
+     "level": 128,
+     "pk": 736,
+     "sk": 1536,
+     "ct": 656
+    },
+    {
+     "name": "YuanYang.KEM-1024",
+     "level": 256,
+     "pk": 1568,
+     "sk": 3168,
+     "ct": 1344
+    },
+    {
+     "name": "YuanYang.KEM-2048",
+     "level": 512,
+     "pk": 3328,
+     "sk": 6528,
+     "ct": 2880
+    }
+   ],
+   "units_found": [
+    "yuanyang-512",
+    "yuanyang-1024",
+    "yuanyang-2048"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (2.9 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kem_ZEN",
+   "name": "ZEN",
+   "type": "KEM",
+   "family": "Lattice (NTRU)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/ZEN.zip",
+   "package_bytes": 37391107,
+   "package_sha256": "69eba070320fc6cb365fb6d43d2b74460487732aeb7e607fac2d6c1b3a64a80e",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "ZEN_128",
+     "level": 128,
+     "pk": 615,
+     "sk": 1303,
+     "ct": 512
+    },
+    {
+     "name": "ZEN_256",
+     "level": 256,
+     "pk": 1229,
+     "sk": 2605,
+     "ct": 1024
+    },
+    {
+     "name": "ZEN_512",
+     "level": 512,
+     "pk": 2458,
+     "sk": 5210,
+     "ct": 2048
+    }
+   ],
+   "units_found": [
+    "ZEN_128",
+    "ZEN_256",
+    "ZEN_512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kem_* functions) in KEM_AlgorithmInstance.c",
+   "dependencies": [
+    "128-bit integers (__int128)"
+   ],
+   "uses_malloc": false,
+   "license": "license files: Implementations/Optimized_Implementation/ARM CortexM-4/ZEN_128/common/mps2/LICENSE.txt, Implementations/Optimized_Implementation/ARM CortexM-4/ZEN_128/libopencm3/COPYING.GPL3, Implementations/Optimized_Implementation/ARM CortexM-4/ZEN_256/common/mps2/LICENSE.txt ...; SPDX tags in sources: Apache-2.0 (21 files), Apache-2.0 or CC0-1.0 (6 files), BSD-3-Clause (6 files); notices in sources: GPL (2862 files), Apache (21 files), CC0 (6 files), public domain (3 files)",
+   "ram_estimate": "plausible from the sizes (2.4 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kex_ADKEX__Authenticated_Ding_Key_Exchange",
+   "name": "ADKEX (Authenticated Ding Key Exchange)",
+   "type": "KEX",
+   "family": "Lattice (unilaterally authenticated KEM-based key exchange)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/ADKEX.zip",
+   "package_bytes": 9144467,
+   "package_sha256": "bbadecca0ce9d3f3131129b17c91e0ab89a81e077710e53f7a569a30475a23f2",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "ADKEX-128",
+     "level": 128,
+     "pk": 800,
+     "sk": 1600,
+     "messages": 2400
+    },
+    {
+     "name": "ADKEX-256",
+     "level": 256,
+     "pk": 1568,
+     "sk": 3136,
+     "messages": 4768
+    },
+    {
+     "name": "ADKEX-512",
+     "level": 512,
+     "pk": 3392,
+     "sk": 6784,
+     "messages": 9664
+    }
+   ],
+   "units_found": [
+    "ADKEX-128",
+    "ADKEX-256",
+    "ADKEX-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kex_* functions) in KEX_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics",
+    "NEON intrinsics"
+   ],
+   "uses_malloc": true,
+   "license": "SPDX tags in sources: Apache-2.0 OR ISC OR MIT (12 files); notices in sources: public domain (6 files)",
+   "ram_estimate": "plausible from the sizes (4.7 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kex_AFS-KEX",
+   "name": "AFS-KEX",
+   "type": "KEX",
+   "family": "Lattice (Module-LWE AKE)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/AFS-KEX.zip",
+   "package_bytes": 9752914,
+   "package_sha256": "7d902107b74870e512c84da82c6bfb386633ca864ddc7df2f7b0b183511f983a",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "AFS_KEX_C128",
+     "level": 128,
+     "pk": 1568,
+     "sk": 3170,
+     "messages": 1568
+    },
+    {
+     "name": "AFS_KEX_C256",
+     "level": 256,
+     "pk": 3136,
+     "sk": 6338,
+     "messages": 2944
+    },
+    {
+     "name": "AFS_KEX_C512",
+     "level": 512,
+     "pk": 6272,
+     "sk": 12674,
+     "messages": 6016
+    }
+   ],
+   "units_found": [
+    "AFS_KEX_C128",
+    "AFS_KEX_C256",
+    "AFS_KEX_C512"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kex_* functions) in KEX_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "license files: Implementations and Test_Vectors/Implementations/Additional_Implementation/ARM_Cortex_M4/密钥交换-AFS-KEX-ARM-参考实现版/common/mps2/LICENSE.txt, Implementations and Test_Vectors/Implementations/Additional_Implementation/ARM_Cortex_M4/密钥交换-AFS-KEX-ARM-参考实现版/libopencm3/COPYING.GPL3, Implementations and Test_Vectors/Implementations/Additional_Implementation/ARM_Cortex_M4/密钥交换-AFS-KEX-ARM-参考实现版/libopencm3/COPYING.LGPL3 ...; SPDX tags in sources: Apache-2.0 or CC0-1.0 (19 files), Apache-2.0 (7 files), BSD-3-Clause (2 files); notices in sources: GPL (903 files), CC0 (25 files), Apache (7 files)",
+   "ram_estimate": "plausible from the sizes (6.2 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kex_CreTAKE",
+   "name": "CreTAKE",
+   "type": "KEX",
+   "family": "Lattice (composite AKE: KEM + signature)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/CreTAKE.zip",
+   "package_bytes": 17998433,
+   "package_sha256": "0b356074741bc20fa82132719e1678e001083b9746f5c4c582425b727b511741",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "CreTAKE128/CreTAKE-K2K-PLAC128:K2K-PolarLAC-128",
+     "level": 128,
+     "pk": 530,
+     "sk": 1570,
+     "messages": 2450
+    },
+    {
+     "name": "CreTAKE128/CreTAKE-K2K-ZEN128:K2K-ZEN-128",
+     "level": 128,
+     "pk": 615,
+     "sk": 1303,
+     "messages": 2151
+    },
+    {
+     "name": "CreTAKE128/CreTAKE-K2S-PLAC128-BiT128:K2S-PolarLAC-BiT-128",
+     "level": 128,
+     "pk": 1048,
+     "sk": 1864,
+     "messages": 3314
+    },
+    {
+     "name": "CreTAKE128/CreTAKE-K2S-ZEN128-BiT128:K2S-ZEN-BiT-128",
+     "level": 128,
+     "pk": 1048,
+     "sk": 1864,
+     "messages": 3143
+    },
+    {
+     "name": "CreTAKE128/CreTAKE-S2K-BiT128-PLAC128:S2K-BiT-PolarLAC-128",
+     "level": 128,
+     "pk": 1048,
+     "sk": 1864,
+     "messages": 3314
+    },
+    {
+     "name": "CreTAKE128/CreTAKE-S2K-BiT128-ZEN128:S2K-BiT-ZEN-128",
+     "level": 128,
+     "pk": 1048,
+     "sk": 1864,
+     "messages": 3143
+    },
+    {
+     "name": "CreTAKE128/CreTAKE-S2S-BiT128-ePLAC128:S2S-BiT-ePolarLAC-128",
+     "level": 128,
+     "pk": 1048,
+     "sk": 1864,
+     "messages": 4178
+    },
+    {
+     "name": "CreTAKE128/CreTAKE-S2S-BiT128-eZEN128:S2S-BiT-eZEN-128",
+     "level": 128,
+     "pk": 1048,
+     "sk": 1864,
+     "messages": 4135
+    },
+    {
+     "name": "CreTAKE256/CreTAKE-K2K-PLAC256:K2K-PolarLAC-256",
+     "level": 256,
+     "pk": 1060,
+     "sk": 3140,
+     "messages": 4900
+    },
+    {
+     "name": "CreTAKE256/CreTAKE-K2K-ZEN256:K2K-ZEN-256",
+     "level": 256,
+     "pk": 1229,
+     "sk": 2605,
+     "messages": 4301
+    },
+    {
+     "name": "CreTAKE256/CreTAKE-K2S-PLAC256-BiT256:K2S-PolarLAC-BiT-256",
+     "level": 256,
+     "pk": 2144,
+     "sk": 4160,
+     "messages": 7076
+    },
+    {
+     "name": "CreTAKE256/CreTAKE-K2S-ZEN256-BiT256:K2S-ZEN-BiT-256",
+     "level": 256,
+     "pk": 2144,
+     "sk": 4160,
+     "messages": 6733
+    },
+    {
+     "name": "CreTAKE256/CreTAKE-S2K-BiT256-PLAC256:S2K-BiT-PolarLAC-256",
+     "level": 256,
+     "pk": 2144,
+     "sk": 4160,
+     "messages": 7076
+    },
+    {
+     "name": "CreTAKE256/CreTAKE-S2K-BiT256-ZEN256:S2K-BiT-ZEN-256",
+     "level": 256,
+     "pk": 2144,
+     "sk": 4160,
+     "messages": 6733
+    },
+    {
+     "name": "CreTAKE256/CreTAKE-S2S-BiT256-ePLAC256:S2S-BiT-ePolarLAC-256",
+     "level": 256,
+     "pk": 2144,
+     "sk": 4160,
+     "messages": 9252
+    },
+    {
+     "name": "CreTAKE256/CreTAKE-S2S-BiT256-eZEN256:S2S-BiT-eZEN-256",
+     "level": 256,
+     "pk": 2144,
+     "sk": 4160,
+     "messages": 9165
+    },
+    {
+     "name": "CreTAKE512/CreTAKE-K2K-PLAC512:K2K-PolarLAC-512",
+     "level": 512,
+     "pk": 2116,
+     "sk": 6276,
+     "messages": 9284
+    },
+    {
+     "name": "CreTAKE512/CreTAKE-K2K-PLAC512Star:K2K-PolarLAC-512*",
+     "level": 512,
+     "pk": 2522,
+     "sk": 6682,
+     "messages": 10920
+    },
+    {
+     "name": "CreTAKE512/CreTAKE-K2K-ZEN512:K2K-ZEN-512",
+     "level": 512,
+     "pk": 2458,
+     "sk": 5210,
+     "messages": 8602
+    },
+    {
+     "name": "CreTAKE512/CreTAKE-K2S-PLAC512-BiT512:K2S-PolarLAC-BiT-512",
+     "level": 512,
+     "pk": 5056,
+     "sk": 9024,
+     "messages": 13931
+    },
+    {
+     "name": "CreTAKE512/CreTAKE-K2S-ZEN512-BiT512:K2S-ZEN-BiT-512",
+     "level": 512,
+     "pk": 5056,
+     "sk": 9024,
+     "messages": 13249
+    },
+    {
+     "name": "CreTAKE512/CreTAKE-S2K-BiT512-PLAC512:S2K-BiT-PolarLAC-512",
+     "level": 512,
+     "pk": 5056,
+     "sk": 9024,
+     "messages": 13931
+    },
+    {
+     "name": "CreTAKE512/CreTAKE-S2K-BiT512-ZEN512:S2K-BiT-ZEN-512",
+     "level": 512,
+     "pk": 5056,
+     "sk": 9024,
+     "messages": 13249
+    },
+    {
+     "name": "CreTAKE512/CreTAKE-S2S-BiT512-ePLAC512:S2S-BiT-ePolarLAC-512",
+     "level": 512,
+     "pk": 5056,
+     "sk": 9024,
+     "messages": 18066
+    },
+    {
+     "name": "CreTAKE512/CreTAKE-S2S-BiT512-eZEN512:S2S-BiT-eZEN-512",
+     "level": 512,
+     "pk": 5056,
+     "sk": 9024,
+     "messages": 17896
+    }
+   ],
+   "units_found": [
+    "CreTAKE-K2K-PLAC128",
+    "CreTAKE-K2K-PLAC256",
+    "CreTAKE-K2K-PLAC512",
+    "CreTAKE-K2K-PLAC512Star",
+    "CreTAKE-K2K-ZEN128",
+    "CreTAKE-K2K-ZEN256",
+    "CreTAKE-K2K-ZEN512",
+    "CreTAKE-K2S-PLAC128-BiT128",
+    "CreTAKE-K2S-PLAC256-BiT256",
+    "CreTAKE-K2S-PLAC512-BiT512",
+    "CreTAKE-K2S-ZEN128-BiT128",
+    "CreTAKE-K2S-ZEN256-BiT256",
+    "CreTAKE-K2S-ZEN512-BiT512",
+    "CreTAKE-S2K-BiT128-PLAC128",
+    "CreTAKE-S2K-BiT128-ZEN128",
+    "CreTAKE-S2K-BiT256-PLAC256",
+    "CreTAKE-S2K-BiT256-ZEN256",
+    "CreTAKE-S2K-BiT512-PLAC512",
+    "CreTAKE-S2K-BiT512-ZEN512",
+    "CreTAKE-S2S-BiT128-ePLAC128",
+    "CreTAKE-S2S-BiT128-eZEN128",
+    "CreTAKE-S2S-BiT256-ePLAC256",
+    "CreTAKE-S2S-BiT256-eZEN256",
+    "CreTAKE-S2S-BiT512-ePLAC512",
+    "CreTAKE-S2S-BiT512-eZEN512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kex_* functions) in KEX_AlgorithmInstance.c",
+   "dependencies": [
+    "128-bit integers (__int128)"
+   ],
+   "uses_malloc": true,
+   "license": "SPDX tags in sources: Unlicense (5 files); notices in sources: public domain (19 files)",
+   "ram_estimate": "plausible from the sizes (4.4 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kex_DKEX__Ding_Key_Exchange",
+   "name": "DKEX (Ding Key Exchange)",
+   "type": "KEX",
+   "family": "Lattice (mutually authenticated key exchange)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/DKEX.zip",
+   "package_bytes": 11261599,
+   "package_sha256": "979c22239b4a2fb6732e68029c06659f8a7b582c00ca163e1ec72874b227e117",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "DKEX-128",
+     "level": 128,
+     "pk": 1312,
+     "sk": 2560,
+     "messages": 6408
+    },
+    {
+     "name": "DKEX-256",
+     "level": 256,
+     "pk": 2592,
+     "sk": 4896,
+     "messages": 12390
+    },
+    {
+     "name": "DKEX-512",
+     "level": 512,
+     "pk": 2592,
+     "sk": 4896,
+     "messages": 15718
+    }
+   ],
+   "units_found": [
+    "DKEX-128",
+    "DKEX-256",
+    "DKEX-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kex_* functions) in KEX_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics",
+    "NEON intrinsics"
+   ],
+   "uses_malloc": true,
+   "license": "license files: Implementations/Reference_Implementation/DKEX-512/dilithium/LICENSE, Implementations/Reference_Implementation/DKEX-256/dilithium/LICENSE, Implementations/Reference_Implementation/DKEX-128/dilithium/LICENSE ...; SPDX tags in sources: Apache-2.0 OR ISC OR MIT (12 files); notices in sources: public domain (30 files)",
+   "ram_estimate": "plausible from the sizes (10.0 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kex_Loom",
+   "name": "Loom",
+   "type": "KEX",
+   "family": "Hybrid lattice KEM/signature AKE",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/Loom.zip",
+   "package_bytes": 24191394,
+   "package_sha256": "e9e7ff0fb453a371634797febeaeac7c1f081b5fd2438204787c763667482ec4",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Loom-128",
+     "level": 128,
+     "pk": 1264,
+     "sk": 2288,
+     "messages": 4038
+    },
+    {
+     "name": "Loom-256",
+     "level": 256,
+     "pk": 1952,
+     "sk": 3680,
+     "messages": 7706
+    },
+    {
+     "name": "Loom-512",
+     "level": 512,
+     "pk": 3648,
+     "sk": 7104,
+     "messages": 16170
+    }
+   ],
+   "units_found": [
+    "LoomKEX-128",
+    "LoomKEX-256",
+    "LoomKEX-512"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kex_* functions) in KEX_LoomKEX-128.c",
+   "dependencies": [
+    "128-bit integers (__int128)"
+   ],
+   "uses_malloc": true,
+   "license": "notices in sources: public domain (6 files)",
+   "ram_estimate": "plausible from the sizes (7.4 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kex_MAMBA-NIKE",
+   "name": "MAMBA-NIKE",
+   "type": "KEX",
+   "family": "Lattice-based NIKE",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/MAMBA-NIKE.zip",
+   "package_bytes": 10286525,
+   "package_sha256": "79b53ff726121ccb1ce970003c06b605e973c4e4f452dbe780e70cd4c40ca018",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "MAMBA-NIKE-128",
+     "level": 128,
+     "pk": 1184,
+     "sk": 3232,
+     "messages": 1568
+    },
+    {
+     "name": "MAMBA-NIKE-192",
+     "level": 192,
+     "pk": 1312,
+     "sk": 3360,
+     "messages": 1568
+    },
+    {
+     "name": "MAMBA-NIKE-256",
+     "level": 256,
+     "pk": 1312,
+     "sk": 3360,
+     "messages": 1568
+    },
+    {
+     "name": "MAMBA-NIKE-384",
+     "level": 384,
+     "pk": 2848,
+     "sk": 6944,
+     "messages": 3360
+    },
+    {
+     "name": "MAMBA-NIKE-512",
+     "level": 512,
+     "pk": 2848,
+     "sk": 6944,
+     "messages": 3360
+    }
+   ],
+   "units_found": [
+    "MAMBA-NIKE-128",
+    "MAMBA-NIKE-192",
+    "MAMBA-NIKE-256",
+    "MAMBA-NIKE-384",
+    "MAMBA-NIKE-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kex_* functions) in KEX_AlgorithmInstance.c",
+   "dependencies": [
+    "other headers: ntsecapi.h"
+   ],
+   "uses_malloc": true,
+   "license": "notices in sources: public domain (40 files)",
+   "ram_estimate": "plausible from the sizes (5.8 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kex_NEV-AKE",
+   "name": "NEV-AKE",
+   "type": "KEX",
+   "family": "Lattice (NTRU/Ring-LWE AKE)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/NEV-AKE.zip",
+   "package_bytes": 12680002,
+   "package_sha256": "da75005b4060167f25125cbd1a769ed872c8b6fcb770fe0827a599e44536e8e6",
+   "ported_elsewhere": "PQMagic",
+   "parameter_sets": [
+    {
+     "name": "NEV-AKE-C1",
+     "level": 128,
+     "pk": 615,
+     "sk": 1246,
+     "messages": 2460
+    },
+    {
+     "name": "NEV-AKE-C1*",
+     "level": 128,
+     "pk": 615,
+     "sk": 1246,
+     "messages": 2254
+    },
+    {
+     "name": "NEV-AKE-R1",
+     "level": 128,
+     "pk": 672,
+     "sk": 1360,
+     "messages": 2688
+    },
+    {
+     "name": "NEV-AKE-C2",
+     "level": 256,
+     "pk": 1229,
+     "sk": 2490,
+     "messages": 4916
+    },
+    {
+     "name": "NEV-AKE-C2*",
+     "level": 256,
+     "pk": 1229,
+     "sk": 2490,
+     "messages": 4506
+    },
+    {
+     "name": "NEV-AKE-R2",
+     "level": 256,
+     "pk": 1344,
+     "sk": 2720,
+     "messages": 5376
+    },
+    {
+     "name": "NEV-AKE-C3",
+     "level": 512,
+     "pk": 2458,
+     "sk": 4980,
+     "messages": 9832
+    },
+    {
+     "name": "NEV-AKE-C3*",
+     "level": 512,
+     "pk": 2458,
+     "sk": 4980,
+     "messages": 9012
+    },
+    {
+     "name": "NEV-AKE-R3",
+     "level": 512,
+     "pk": 2688,
+     "sk": 5440,
+     "messages": 10752
+    }
+   ],
+   "units_found": [
+    "NEV-AKE-C1",
+    "NEV-AKE-C1-c",
+    "NEV-AKE-C2",
+    "NEV-AKE-C2-c",
+    "NEV-AKE-C3",
+    "NEV-AKE-C3-c",
+    "NEV-AKE-R1",
+    "NEV-AKE-R2",
+    "NEV-AKE-R3"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kex_* functions) in KEX_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics",
+    "other headers: asm-generic/errno.h"
+   ],
+   "uses_malloc": null,
+   "license": "notices in sources: public domain (18 files)",
+   "ram_estimate": "plausible from the sizes (4.2 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kex_NIIKE",
+   "name": "NIIKE",
+   "type": "KEX",
+   "family": "Isogeny-based non-interactive key exchange",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/NIIKE.zip",
+   "package_bytes": 18829414,
+   "package_sha256": "4f79f9a62aed06db83f2965abcc42ca98ce5cc2128cebd15b50a46cfbb633dbe",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "NGCC-I",
+     "level": 128,
+     "pk": 4030,
+     "sk": 196,
+     "messages": 0
+    },
+    {
+     "name": "NGCC-II",
+     "level": 256,
+     "pk": 8943,
+     "sk": 332,
+     "messages": 0
+    },
+    {
+     "name": "NGCC-III",
+     "level": 512,
+     "pk": 40980,
+     "sk": 3032,
+     "messages": 0
+    }
+   ],
+   "units_found": [
+    "ngccapi"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kex_* functions) in KEX_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": false,
+   "license": "SPDX tags in sources: Apache-2.0 (182 files)",
+   "ram_estimate": "plausible from the sizes (4.1 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "kex_TriQ-KEX",
+   "name": "TriQ-KEX",
+   "type": "KEX",
+   "family": "Code-based authenticated key exchange",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/TriQ-KEX.zip",
+   "package_bytes": 26471558,
+   "package_sha256": "dde9bf3e8d75fc3df53bcbcacaba4faed39272b8ef2f1ac199ae0128d327b505",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "TriQ-KEX-128",
+     "level": 128,
+     "pk": 2054,
+     "sk": 2134,
+     "messages": 14328
+    },
+    {
+     "name": "TriQ-KEX-256",
+     "level": 256,
+     "pk": 6328,
+     "sk": 6488,
+     "messages": 43760
+    },
+    {
+     "name": "TriQ-KEX-384",
+     "level": 384,
+     "pk": 12255,
+     "sk": 12495,
+     "messages": 85276
+    },
+    {
+     "name": "TriQ-KEX-512",
+     "level": 512,
+     "pk": 19768,
+     "sk": 20088,
+     "messages": 137744
+    }
+   ],
+   "units_found": [
+    "TriQ-KEX-128",
+    "TriQ-KEX-256",
+    "TriQ-KEX-384",
+    "TriQ-KEX-512"
+   ],
+   "reference_dir": "TriQ-KEX/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (kex_* functions) in KEX_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (18.1 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_Aigis-Sig+",
+   "name": "Aigis-Sig+",
+   "type": "SIG",
+   "family": "Lattice (Module-LWE/SIS, Fiat-Shamir)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Aigis-Sig%2B.zip",
+   "package_bytes": 17707823,
+   "package_sha256": "88242576a3ae8f9d090b0c9045020f04ee9b5ae828e01b839f25267959e9c7ea",
+   "ported_elsewhere": "PQMagic",
+   "parameter_sets": [
+    {
+     "name": "Aigis-Sig+-I",
+     "level": 128,
+     "pk": 928,
+     "sk": 2800,
+     "sig": 2002
+    },
+    {
+     "name": "Aigis-Sig+-II",
+     "level": 256,
+     "pk": 1824,
+     "sk": 4976,
+     "sig": 4517
+    },
+    {
+     "name": "Aigis-Sig+-III",
+     "level": 512,
+     "pk": 4672,
+     "sk": 8800,
+     "sig": 9123
+    }
+   ],
+   "units_found": [
+    "Aigis-Sig+-I",
+    "Aigis-Sig+-II",
+    "Aigis-Sig+-III"
+   ],
+   "reference_dir": "Implementations/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics",
+    "other headers: linux/random.h, vxWorks.h"
+   ],
+   "uses_malloc": null,
+   "license": "notices in sources: Apache (84 files), public domain (18 files)",
+   "ram_estimate": "plausible from the sizes (5.6 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_BIT__Bimodal_Triangular_distribution_based_lattice_signatures",
+   "name": "BIT: Bimodal Triangular distribution based lattice signatures",
+   "type": "SIG",
+   "family": "Lattice-based",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/BiT.zip",
+   "package_bytes": 46217115,
+   "package_sha256": "698fbe834279a4100a66c20f3e0b634c738e1150936acf74b55efc6db6975e8d",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "BiT-128",
+     "level": 128,
+     "pk": 1048,
+     "sk": 1864,
+     "sig": 1504
+    },
+    {
+     "name": "BiT-256",
+     "level": 256,
+     "pk": 2144,
+     "sk": 4160,
+     "sig": 3456
+    },
+    {
+     "name": "BiT-512",
+     "level": 512,
+     "pk": 5056,
+     "sk": 9024,
+     "sig": 6695
+    }
+   ],
+   "units_found": [
+    "BiT-128",
+    "BiT-256",
+    "BiT-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "notices in sources: public domain (12 files), CC0 (6 files)",
+   "ram_estimate": "plausible from the sizes (4.3 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_CEDRUS+C",
+   "name": "CEDRUS+C",
+   "type": "SIG",
+   "family": "Hash-based (stateless)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/cedrus%2Bc.zip",
+   "package_bytes": 18695378,
+   "package_sha256": "a31de849cf0a0703a4e57decbdf4d97b100d00dc74756feaded2c04a7593e110",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "cedrus+c-160f",
+     "level": 160,
+     "pk": 40,
+     "sk": 80,
+     "sig": 19812
+    },
+    {
+     "name": "cedrus+c-160s",
+     "level": 160,
+     "pk": 40,
+     "sk": 80,
+     "sig": 9460
+    },
+    {
+     "name": "cedrus+c-256f",
+     "level": 256,
+     "pk": 64,
+     "sk": 128,
+     "sig": 43548
+    },
+    {
+     "name": "cedrus+c-256s",
+     "level": 256,
+     "pk": 64,
+     "sk": 128,
+     "sig": 24104
+    },
+    {
+     "name": "cedrus+c-384f",
+     "level": 384,
+     "pk": 96,
+     "sk": 192,
+     "sig": 75988
+    },
+    {
+     "name": "cedrus+c-384s",
+     "level": 384,
+     "pk": 96,
+     "sk": 192,
+     "sig": 61572
+    },
+    {
+     "name": "cedrus+c-512f",
+     "level": 512,
+     "pk": 128,
+     "sk": 256,
+     "sig": 121520
+    },
+    {
+     "name": "cedrus+c-512s",
+     "level": 512,
+     "pk": 128,
+     "sk": 256,
+     "sig": 98212
+    }
+   ],
+   "units_found": [
+    "CEDRUSC-160f",
+    "CEDRUSC-160s",
+    "CEDRUSC-256f",
+    "CEDRUSC-256s",
+    "CEDRUSC-384f",
+    "CEDRUSC-384s",
+    "CEDRUSC-512f",
+    "CEDRUSC-512s"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (19.5 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_CEDRUSɑ",
+   "name": "CEDRUSɑ",
+   "type": "SIG",
+   "family": "Hash-based",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/cedrus-%CE%B1.zip",
+   "package_bytes": 18774773,
+   "package_sha256": "b90559ca94bda0130420f91fa52eeb242063a57188c766037c1b234ec3af563b",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "CEDRUSα-160f",
+     "level": 160,
+     "pk": 40,
+     "sk": 80,
+     "sig": 19420
+    },
+    {
+     "name": "CEDRUSα-160s",
+     "level": 160,
+     "pk": 40,
+     "sk": 80,
+     "sig": 10300
+    },
+    {
+     "name": "CEDRUSα-256f",
+     "level": 256,
+     "pk": 64,
+     "sk": 128,
+     "sig": 43296
+    },
+    {
+     "name": "CEDRUSα-256s",
+     "level": 256,
+     "pk": 64,
+     "sk": 128,
+     "sig": 25568
+    },
+    {
+     "name": "CEDRUSα-384f",
+     "level": 384,
+     "pk": 96,
+     "sk": 192,
+     "sig": 76176
+    },
+    {
+     "name": "CEDRUSα-384s",
+     "level": 384,
+     "pk": 96,
+     "sk": 192,
+     "sig": 60672
+    },
+    {
+     "name": "CEDRUSα-512f",
+     "level": 512,
+     "pk": 128,
+     "sk": 256,
+     "sig": 127488
+    },
+    {
+     "name": "CEDRUSα-512s",
+     "level": 512,
+     "pk": 128,
+     "sk": 256,
+     "sig": 98048
+    }
+   ],
+   "units_found": [
+    "CEDRUSALPHA-160f",
+    "CEDRUSALPHA-160s",
+    "CEDRUSALPHA-256f",
+    "CEDRUSALPHA-256s",
+    "CEDRUSALPHA-384f",
+    "CEDRUSALPHA-384s",
+    "CEDRUSALPHA-512f",
+    "CEDRUSALPHA-512s"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (19.1 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_Chinith",
+   "name": "Chinith",
+   "type": "SIG",
+   "family": "Symmetric-key (VOLE-in-the-head) signature",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Chinith.zip",
+   "package_bytes": 12927882,
+   "package_sha256": "4d31ba3fe8718f59901b7efdf01b4179912ef8e04f58b4b6dbba84186f002283",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "SM4th-d3-128f-lo",
+     "level": 128,
+     "pk": 32,
+     "sk": 32,
+     "sig": 6724
+    },
+    {
+     "name": "SM4th-d3-128f-ti",
+     "level": 128,
+     "pk": 32,
+     "sk": 32,
+     "sig": 11864
+    },
+    {
+     "name": "SM4th-d3-128s-lo",
+     "level": 128,
+     "pk": 32,
+     "sk": 32,
+     "sig": 5056
+    },
+    {
+     "name": "SM4th-d3-128s-ti",
+     "level": 128,
+     "pk": 32,
+     "sk": 32,
+     "sig": 9176
+    },
+    {
+     "name": "SM4th-EM-d2-128f-lo",
+     "level": 128,
+     "pk": 32,
+     "sk": 32,
+     "sig": 4932
+    },
+    {
+     "name": "SM4th-EM-d2-128f-ti",
+     "level": 128,
+     "pk": 32,
+     "sk": 32,
+     "sig": 9450
+    },
+    {
+     "name": "SM4th-EM-d2-128s-lo",
+     "level": 128,
+     "pk": 32,
+     "sk": 32,
+     "sig": 3818
+    },
+    {
+     "name": "SM4th-EM-d2-128s-ti",
+     "level": 128,
+     "pk": 32,
+     "sk": 32,
+     "sig": 7556
+    },
+    {
+     "name": "ublockith_d3_256f",
+     "level": 256,
+     "pk": 64,
+     "sk": 64,
+     "sig": 31556
+    },
+    {
+     "name": "ublockith_d3_256s",
+     "level": 256,
+     "pk": 64,
+     "sk": 64,
+     "sig": 24144
+    },
+    {
+     "name": "ublockith_em_d3_256f",
+     "level": 256,
+     "pk": 64,
+     "sk": 64,
+     "sig": 25028
+    },
+    {
+     "name": "ublockith_em_d3_256s",
+     "level": 256,
+     "pk": 64,
+     "sk": 64,
+     "sig": 19056
+    },
+    {
+     "name": "vistrutith_d3_512f",
+     "level": 512,
+     "pk": 128,
+     "sk": 128,
+     "sig": 106788
+    },
+    {
+     "name": "vistrutith_d3_512s",
+     "level": 512,
+     "pk": 128,
+     "sk": 128,
+     "sig": 83004
+    }
+   ],
+   "units_found": [
+    "sm4th_d3_128f_loose",
+    "sm4th_d3_128f_tight",
+    "sm4th_d3_128s_loose",
+    "sm4th_d3_128s_tight",
+    "sm4th_em_d2_128f_loose",
+    "sm4th_em_d2_128f_tight",
+    "sm4th_em_d2_128s_loose",
+    "sm4th_em_d2_128s_tight",
+    "ublockith_d3_256f",
+    "ublockith_d3_256s",
+    "ublockith_em_d3_256f",
+    "ublockith_em_d3_256s",
+    "vistrutith_d3_512f",
+    "vistrutith_d3_512s"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in sm4th_d3_128f_loose_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "SPDX tags in sources: MIT (76 files), MIT. (16 files)",
+   "ram_estimate": "plausible from the sizes (6.6 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_COMPASS-SIG",
+   "name": "COMPASS-SIG",
+   "type": "SIG",
+   "family": "Lattice-based",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/COMPASS-SIG.zip",
+   "package_bytes": 38075657,
+   "package_sha256": "ce88066506fe9b58c300b3ca51462c7a8350484d88ad5b8a9c9f17b5152ca820",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "COMPASS-SIG-128",
+     "level": 128,
+     "pk": 1664,
+     "sk": 960,
+     "sig": 2080
+    },
+    {
+     "name": "COMPASS-SIG-256",
+     "level": 256,
+     "pk": 3616,
+     "sk": 2144,
+     "sig": 4080
+    },
+    {
+     "name": "COMPASS-SIG-384",
+     "level": 384,
+     "pk": 5792,
+     "sk": 3136,
+     "sig": 7344
+    },
+    {
+     "name": "COMPASS-SIG-512",
+     "level": 512,
+     "pk": 7648,
+     "sk": 4608,
+     "sig": 9024
+    }
+   ],
+   "units_found": [
+    "COMPASS-SIG-128",
+    "COMPASS-SIG-256",
+    "COMPASS-SIG-384",
+    "COMPASS-SIG-512",
+    "Reference_Implementation"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "notices in sources: public domain (2 files)",
+   "ram_estimate": "plausible from the sizes (4.6 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_CS",
+   "name": "CS",
+   "type": "SIG",
+   "family": "Lattice (Module-LWE, Fiat-Shamir)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/CS.zip",
+   "package_bytes": 13640373,
+   "package_sha256": "c790d31cd4a288990f3d692381ed721a06641938a02dfc2e0435b7d323475cef",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "CS-128",
+     "level": 128,
+     "pk": 976,
+     "sk": 1888,
+     "sig": 1548
+    },
+    {
+     "name": "CS-256",
+     "level": 256,
+     "pk": 1760,
+     "sk": 3968,
+     "sig": 3164
+    },
+    {
+     "name": "CS-512",
+     "level": 512,
+     "pk": 4288,
+     "sk": 7808,
+     "sig": 5975
+    }
+   ],
+   "units_found": [
+    "CS-128",
+    "CS-256",
+    "CS-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "notices in sources: public domain (6 files)",
+   "ram_estimate": "plausible from the sizes (4.3 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_DARTS",
+   "name": "DARTS",
+   "type": "SIG",
+   "family": "Lattice-based",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/DARTS.zip",
+   "package_bytes": 13212635,
+   "package_sha256": "1846cfe63f0cef83e2e0ca21f5dcadce3c4b16da33713957be6d156e2a9e6e95",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "DARTS-128",
+     "level": 128,
+     "pk": 1120,
+     "sk": 1536,
+     "sig": 1449
+    },
+    {
+     "name": "DARTS-256",
+     "level": 256,
+     "pk": 2208,
+     "sk": 2880,
+     "sig": 2489
+    },
+    {
+     "name": "DARTS-512",
+     "level": 512,
+     "pk": 4672,
+     "sk": 6016,
+     "sig": 5851
+    }
+   ],
+   "units_found": [
+    "DARTS128",
+    "DARTS256",
+    "DARTS512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "license files: Implementations/Third Party License/license.txt; notices in sources: public domain (24 files)",
+   "ram_estimate": "plausible from the sizes (4.0 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_DOVE",
+   "name": "DOVE",
+   "type": "SIG",
+   "family": "Multivariate (Double Oil-and-Vinegar)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/DOVE.zip",
+   "package_bytes": 594738942,
+   "package_sha256": "19169e545f6a6fd90b844b0deb72db81b5eb73c136873d1dae113c2c39d1c6e0",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "DOVE_classic_128",
+     "level": 128,
+     "pk": 191646,
+     "sk": 192990,
+     "sig": 136
+    },
+    {
+     "name": "DOVE_pkc_skc_128",
+     "level": 128,
+     "pk": 43576,
+     "sk": 24,
+     "sig": 136
+    },
+    {
+     "name": "DOVE_classic_256",
+     "level": 256,
+     "pk": 2050352,
+     "sk": 1925976,
+     "sig": 296
+    },
+    {
+     "name": "DOVE_pkc_skc_256",
+     "level": 256,
+     "pk": 446992,
+     "sk": 40,
+     "sig": 296
+    },
+    {
+     "name": "DOVE_classic_512",
+     "level": 512,
+     "pk": 22833052,
+     "sk": 20181508,
+     "sig": 648
+    },
+    {
+     "name": "DOVE_pkc_skc_512",
+     "level": 512,
+     "pk": 5062192,
+     "sk": 72,
+     "sig": 648
+    }
+   ],
+   "units_found": [
+    "DOVE_classic_ref",
+    "DOVE_pkc_skc_ref"
+   ],
+   "reference_dir": "Implementations/_nested/Digital_Signature-DOVE-x86-reference_implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics or assembly in 2 source files",
+    "other headers: getopt.h"
+   ],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "no: keys and messages of the smallest set alone need 375.8 KB"
+  },
+  {
+   "id": "sig_Facto-DSA",
+   "name": "Facto-DSA",
+   "type": "SIG",
+   "family": "Multivariate (cubic factorisation)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Facto-DSA.zip",
+   "package_bytes": 8545209,
+   "package_sha256": "b3de38fcc2d92ce83290d17cb250dde61f95d3326a49ada36fad3c578f2fc509",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Facto-DSA-128",
+     "level": 128,
+     "pk": 40040,
+     "sk": 3094,
+     "sig": 40
+    },
+    {
+     "name": "Facto-DSA-256",
+     "level": 256,
+     "pk": 456960,
+     "sk": 11662,
+     "sig": 68
+    },
+    {
+     "name": "Facto-DSA-512",
+     "level": 512,
+     "pk": 5674240,
+     "sk": 61922,
+     "sig": 128
+    }
+   ],
+   "units_found": [
+    "Facto-DSA-128",
+    "Facto-DSA-256",
+    "Facto-DSA-512"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "license files: Implementations and Test_Vectors/ngcc_bench/LICENSE",
+   "ram_estimate": "plausible from the sizes (42.2 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_FlexTree",
+   "name": "FlexTree",
+   "type": "SIG",
+   "family": "Hash-based (stateless)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Flextree.zip",
+   "package_bytes": 100597177,
+   "package_sha256": "f31d434ac297ef6a8c454bf9d219f125290749de157df3eb90d29ae3b8a0270a",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Flextree-160f",
+     "level": 160,
+     "pk": 40,
+     "sk": 80,
+     "sig": 18672
+    },
+    {
+     "name": "Flextree-160s",
+     "level": 160,
+     "pk": 40,
+     "sk": 80,
+     "sig": 9580
+    },
+    {
+     "name": "Flextree-256f",
+     "level": 256,
+     "pk": 64,
+     "sk": 128,
+     "sig": 46856
+    },
+    {
+     "name": "Flextree-256s",
+     "level": 256,
+     "pk": 64,
+     "sk": 128,
+     "sig": 25420
+    },
+    {
+     "name": "Flextree-384f",
+     "level": 384,
+     "pk": 96,
+     "sk": 192,
+     "sig": 73396
+    },
+    {
+     "name": "Flextree-384s",
+     "level": 384,
+     "pk": 96,
+     "sk": 192,
+     "sig": 60180
+    },
+    {
+     "name": "Flextree-512f",
+     "level": 512,
+     "pk": 128,
+     "sk": 256,
+     "sig": 117296
+    },
+    {
+     "name": "Flextree-512s",
+     "level": 512,
+     "pk": 128,
+     "sk": 256,
+     "sig": 94948
+    }
+   ],
+   "units_found": [
+    "Flextree-160f",
+    "Flextree-160s",
+    "Flextree-256f",
+    "Flextree-256s",
+    "Flextree-384f",
+    "Flextree-384s",
+    "Flextree-512f",
+    "Flextree-512s"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "128-bit integers (__int128)"
+   ],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (18.4 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_Galas_Signature_Scheme",
+   "name": "Galas Signature Scheme",
+   "type": "SIG",
+   "family": "Symmetric (MPC/VOLE-in-the-Head)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Galas%20Signature.zip",
+   "package_bytes": 41464713,
+   "package_sha256": "98d57af868fa10d74b2c0656e565aa14a42ff902646d6fc440ffb7355b75342c",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Galas-160F",
+     "level": 128,
+     "pk": 40,
+     "sk": 40,
+     "sig": 5964
+    },
+    {
+     "name": "Galas-160S",
+     "level": 128,
+     "pk": 40,
+     "sk": 40,
+     "sig": 4812
+    },
+    {
+     "name": "Galas-256F",
+     "level": 256,
+     "pk": 64,
+     "sk": 64,
+     "sig": 15950
+    },
+    {
+     "name": "Galas-256S",
+     "level": 256,
+     "pk": 64,
+     "sk": 64,
+     "sig": 12114
+    },
+    {
+     "name": "Galas-384F",
+     "level": 384,
+     "pk": 96,
+     "sk": 96,
+     "sig": 33384
+    },
+    {
+     "name": "Galas-384S",
+     "level": 384,
+     "pk": 96,
+     "sk": 96,
+     "sig": 27784
+    },
+    {
+     "name": "Galas-512F",
+     "level": 512,
+     "pk": 128,
+     "sk": 128,
+     "sig": 59416
+    },
+    {
+     "name": "Galas-512S",
+     "level": 512,
+     "pk": 128,
+     "sk": 128,
+     "sig": 49516
+    }
+   ],
+   "units_found": [
+    "Galas-160F",
+    "Galas-160S",
+    "Galas-256F",
+    "Galas-256S",
+    "Galas-384F",
+    "Galas-384S",
+    "Galas-512F",
+    "Galas-512S"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "license files: Implementations/Optimized_Implementation/Galas-160F/LICENSE, Implementations/Optimized_Implementation/Galas-160S/LICENSE, Implementations/Optimized_Implementation/Galas-256S/LICENSE ...; SPDX tags in sources: MIT (24 files)",
+   "ram_estimate": "plausible from the sizes (5.9 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_GreatWall_Signature_Algorithm",
+   "name": "GreatWall Signature Algorithm",
+   "type": "SIG",
+   "family": "Symmetric-key (VOLE-in-the-head) signature",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/GreatWall.zip",
+   "package_bytes": 21571838,
+   "package_sha256": "814cd3b977ddc0cc59828861c145580473b1a62a66da852b078edbaf689f5a8d",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "GreatWall-128",
+     "level": 128,
+     "pk": 36,
+     "sk": 36,
+     "sig": 3396
+    },
+    {
+     "name": "GreatWall-192",
+     "level": 192,
+     "pk": 50,
+     "sk": 50,
+     "sig": 8012
+    },
+    {
+     "name": "GreatWall-256",
+     "level": 256,
+     "pk": 66,
+     "sk": 66,
+     "sig": 14260
+    },
+    {
+     "name": "GreatWall-512",
+     "level": 512,
+     "pk": 132,
+     "sk": 132,
+     "sig": 57812
+    }
+   ],
+   "units_found": [
+    "GreatWall128f",
+    "GreatWall128s",
+    "GreatWall192f",
+    "GreatWall192s",
+    "GreatWall256f",
+    "GreatWall256s",
+    "GreatWall512f",
+    "GreatWall512s"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (3.4 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_Lynxer",
+   "name": "Lynxer",
+   "type": "SIG",
+   "family": "VOLE-in-the-head signature",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Lynxer.zip",
+   "package_bytes": 17106428,
+   "package_sha256": "34d863f7df8979c4a5e27fcfe657ed54e81905115c0afc8ef749f50af432f928",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Lynxer-160f",
+     "level": 160,
+     "pk": 40,
+     "sk": 40,
+     "sig": 5801
+    },
+    {
+     "name": "Lynxer-160s",
+     "level": 160,
+     "pk": 40,
+     "sk": 40,
+     "sig": 4607
+    },
+    {
+     "name": "Lynxer-256f",
+     "level": 256,
+     "pk": 64,
+     "sk": 64,
+     "sig": 15097
+    },
+    {
+     "name": "Lynxer-256s",
+     "level": 256,
+     "pk": 64,
+     "sk": 64,
+     "sig": 12191
+    },
+    {
+     "name": "Lynxer-384f",
+     "level": 384,
+     "pk": 96,
+     "sk": 96,
+     "sig": 34109
+    },
+    {
+     "name": "Lynxer-384s",
+     "level": 384,
+     "pk": 96,
+     "sk": 96,
+     "sig": 27495
+    },
+    {
+     "name": "Lynxer-512f",
+     "level": 512,
+     "pk": 128,
+     "sk": 128,
+     "sig": 61091
+    },
+    {
+     "name": "Lynxer-512s",
+     "level": 512,
+     "pk": 128,
+     "sk": 128,
+     "sig": 48879
+    }
+   ],
+   "units_found": [
+    "Lynxer-160f",
+    "Lynxer-160s",
+    "Lynxer-256f",
+    "Lynxer-256s",
+    "Lynxer-384f",
+    "Lynxer-384s",
+    "Lynxer-512f",
+    "Lynxer-512s"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "OpenSSL",
+    "other headers: libkeccak.a.headers/KeccakP-1600-times4-SnP.h"
+   ],
+   "uses_malloc": true,
+   "license": "SPDX tags in sources: MIT (280 files); notices in sources: public domain (8 files)",
+   "ram_estimate": "plausible from the sizes (5.7 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_MORNING-ATLAS",
+   "name": "MORNING-ATLAS",
+   "type": "SIG",
+   "family": "Lattice (Module-LWR, Fiat-Shamir)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/MORNING-ATLAS.zip",
+   "package_bytes": 12010922,
+   "package_sha256": "c796b106a7d43b2b3d6110ec2be426aa321cc7336f39a2cc027b2d6e8b4cc8c1",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "ATLAS-128",
+     "level": 128,
+     "pk": 1328,
+     "sk": 2128,
+     "sig": 2209
+    },
+    {
+     "name": "ATLAS-192",
+     "level": 192,
+     "pk": 2112,
+     "sk": 3152,
+     "sig": 3493
+    },
+    {
+     "name": "ATLAS-256",
+     "level": 256,
+     "pk": 2848,
+     "sk": 4016,
+     "sig": 4784
+    },
+    {
+     "name": "ATLAS-512",
+     "level": 512,
+     "pk": 6688,
+     "sk": 7920,
+     "sig": 10209
+    }
+   ],
+   "units_found": [
+    "lwrdsa128",
+    "lwrdsa192",
+    "lwrdsa256",
+    "lwrdsa512"
+   ],
+   "reference_dir": "Implementation/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_lwrdsa128.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (5.5 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_Octarine",
+   "name": "Octarine",
+   "type": "SIG",
+   "family": "Lattice-based signature",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Octarine.zip",
+   "package_bytes": 13994983,
+   "package_sha256": "7044d22735d39f902df35dd7d8d77c850cd296c81517e8c19134a2f9d006655a",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Octarine-128",
+     "level": 128,
+     "pk": 1344,
+     "sk": 2432,
+     "sig": 2564
+    },
+    {
+     "name": "Octarine-256",
+     "level": 256,
+     "pk": 2368,
+     "sk": 4608,
+     "sig": 5449
+    },
+    {
+     "name": "Octarine-512",
+     "level": 512,
+     "pk": 5184,
+     "sk": 11776,
+     "sig": 14713
+    }
+   ],
+   "units_found": [
+    "Octarine-128",
+    "Octarine-256",
+    "Octarine-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in sign.c",
+   "dependencies": [
+    "x86 intrinsics or assembly in 1 source files"
+   ],
+   "uses_malloc": false,
+   "license": "notices in sources: public domain (3 files)",
+   "ram_estimate": "plausible from the sizes (6.2 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_OPS_Digital_Signature_Algorithm",
+   "name": "OPS Digital Signature Algorithm",
+   "type": "SIG",
+   "family": "Lattice-based signature",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/OPS%20Digital%20Signature%20Algorithm.zip",
+   "package_bytes": 4746912,
+   "package_sha256": "02322c6792259231ab8eb3cc094be32be02a1b9b6b1d7c86b0029c37b0f04d09",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "OPSsig-128",
+     "level": 128,
+     "pk": 2560,
+     "sk": 3840,
+     "sig": 4349
+    }
+   ],
+   "units_found": [
+    "OPSsig-128",
+    "OPSsig-256",
+    "OPSsig-512"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (10.5 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_Origami",
+   "name": "Origami",
+   "type": "SIG",
+   "family": "Multivariate (layered MQ)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Origami.zip",
+   "package_bytes": 28360686,
+   "package_sha256": "e34f18832e968681dd0c51ce0d4b29d80e01ad29daa83dfb805718b76fdffa80",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Origami-128",
+     "level": 128,
+     "pk": 2996,
+     "sk": 16,
+     "sig": 116
+    },
+    {
+     "name": "Origami-256",
+     "level": 256,
+     "pk": 14968,
+     "sk": 32,
+     "sig": 516
+    },
+    {
+     "name": "Origami-384",
+     "level": 384,
+     "pk": 27940,
+     "sk": 48,
+     "sig": 948
+    },
+    {
+     "name": "Origami-512",
+     "level": 512,
+     "pk": 35924,
+     "sk": 64,
+     "sig": 1220
+    }
+   ],
+   "units_found": [
+    "Origami-128",
+    "Origami-256",
+    "Origami-384",
+    "Origami-512"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics",
+    "OpenSSL"
+   ],
+   "uses_malloc": true,
+   "license": "SPDX tags in sources: MIT (40 files)",
+   "ram_estimate": "plausible from the sizes (3.1 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_Phoenix",
+   "name": "Phoenix",
+   "type": "SIG",
+   "family": "Hash-based signature",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Phoenix.zip",
+   "package_bytes": 23235965,
+   "package_sha256": "ec801791976a10baffa852c479afd12362af3b5fb6420104254fb48814d99918",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Phoenix-128f",
+     "level": 128,
+     "pk": 32,
+     "sk": 64,
+     "sig": 13642
+    },
+    {
+     "name": "Phoenix-128s",
+     "level": 128,
+     "pk": 32,
+     "sk": 64,
+     "sig": 6190
+    },
+    {
+     "name": "Phoenix-192f",
+     "level": 192,
+     "pk": 48,
+     "sk": 96,
+     "sig": 30746
+    },
+    {
+     "name": "Phoenix-192s",
+     "level": 192,
+     "pk": 48,
+     "sk": 96,
+     "sig": 13218
+    },
+    {
+     "name": "Phoenix-256f",
+     "level": 256,
+     "pk": 64,
+     "sk": 128,
+     "sig": 44902
+    },
+    {
+     "name": "Phoenix-256s",
+     "level": 256,
+     "pk": 64,
+     "sk": 128,
+     "sig": 24594
+    },
+    {
+     "name": "Phoenix-384f",
+     "level": 384,
+     "pk": 96,
+     "sk": 192,
+     "sig": 87530
+    },
+    {
+     "name": "Phoenix-384s",
+     "level": 384,
+     "pk": 96,
+     "sk": 192,
+     "sig": 54722
+    },
+    {
+     "name": "Phoenix-512f",
+     "level": 512,
+     "pk": 128,
+     "sk": 256,
+     "sig": 138378
+    },
+    {
+     "name": "Phoenix-512s",
+     "level": 512,
+     "pk": 128,
+     "sk": 256,
+     "sig": 98470
+    }
+   ],
+   "units_found": [
+    "Phoenix-SHAKE-128f",
+    "Phoenix-SHAKE-128s",
+    "Phoenix-SHAKE-192f",
+    "Phoenix-SHAKE-192s",
+    "Phoenix-SHAKE-256f",
+    "Phoenix-SHAKE-256s",
+    "Phoenix-SHAKE-384f",
+    "Phoenix-SHAKE-384s",
+    "Phoenix-SHAKE-512f",
+    "Phoenix-SHAKE-512s",
+    "Phoenix-SM3-128f",
+    "Phoenix-SM3-128s",
+    "Phoenix-SM3-192f",
+    "Phoenix-SM3-192s",
+    "Phoenix-SM3-256f",
+    "Phoenix-SM3-256s",
+    "Phoenix-SM3-384f",
+    "Phoenix-SM3-384s",
+    "Phoenix-SM3-512f",
+    "Phoenix-SM3-512s"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "notices in sources: public domain (50 files)",
+   "ram_estimate": "plausible from the sizes (13.4 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_Qing_Luan",
+   "name": "Qing Luan",
+   "type": "SIG",
+   "family": "Code-based (restricted syndrome decoding, MPC-in-the-head)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/QingLuan.zip",
+   "package_bytes": 28035220,
+   "package_sha256": "2eb8f3ed205eb7c7e8b3108a997b59643d1aa5579035b8093b4ddbe051a48007",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "QingLuan-128",
+     "level": 128,
+     "pk": 77,
+     "sk": 32,
+     "sig": 18720
+    },
+    {
+     "name": "QingLuan-256",
+     "level": 256,
+     "pk": 153,
+     "sk": 64,
+     "sig": 74248
+    },
+    {
+     "name": "QingLuan-384",
+     "level": 384,
+     "pk": 227,
+     "sk": 96,
+     "sig": 164940
+    },
+    {
+     "name": "QingLuan-512",
+     "level": 512,
+     "pk": 302,
+     "sk": 128,
+     "sig": 292816
+    }
+   ],
+   "units_found": [
+    "QingLuan-128",
+    "QingLuan-256",
+    "QingLuan-384",
+    "QingLuan-512"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (18.4 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_ReSolveD-ɑ",
+   "name": "ReSolveD-ɑ",
+   "type": "SIG",
+   "family": "Code-based (regular syndrome decoding, VOLE-in-the-head)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/ReSolveD-alpha.zip",
+   "package_bytes": 11061844,
+   "package_sha256": "499821538d7f79464cc1ee1468254b0e49f750794a591ffe038938c4cfa11914",
+   "ported_elsewhere": "PQMagic",
+   "parameter_sets": [
+    {
+     "name": "ReSolveD-alpha-160f",
+     "level": 160,
+     "pk": 121,
+     "sk": 40,
+     "sig": 6851
+    },
+    {
+     "name": "ReSolveD-alpha-160s",
+     "level": 160,
+     "pk": 121,
+     "sk": 40,
+     "sig": 5307
+    },
+    {
+     "name": "ReSolveD-alpha-256f",
+     "level": 256,
+     "pk": 194,
+     "sk": 64,
+     "sig": 17932
+    },
+    {
+     "name": "ReSolveD-alpha-256s",
+     "level": 256,
+     "pk": 194,
+     "sk": 64,
+     "sig": 13973
+    },
+    {
+     "name": "ReSolveD-alpha-384f",
+     "level": 384,
+     "pk": 288,
+     "sk": 96,
+     "sig": 40469
+    },
+    {
+     "name": "ReSolveD-alpha-384s",
+     "level": 384,
+     "pk": 288,
+     "sk": 96,
+     "sig": 31575
+    },
+    {
+     "name": "ReSolveD-alpha-512f",
+     "level": 512,
+     "pk": 385,
+     "sk": 128,
+     "sig": 72611
+    },
+    {
+     "name": "ReSolveD-alpha-512s",
+     "level": 512,
+     "pk": 385,
+     "sk": 128,
+     "sig": 56239
+    }
+   ],
+   "units_found": [
+    "ReSolveD-alpha-160f",
+    "ReSolveD-alpha-160s",
+    "ReSolveD-alpha-256f",
+    "ReSolveD-alpha-256s",
+    "ReSolveD-alpha-384f",
+    "ReSolveD-alpha-384s",
+    "ReSolveD-alpha-512f",
+    "ReSolveD-alpha-512s"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "OpenSSL",
+    "other headers: Availability.h, features.h, fips202.h, libkeccak.a.headers/KeccakHash.h, libkeccak.a.headers/KeccakP-1600-times4-SnP.h, libkeccak.a.headers/align.h"
+   ],
+   "uses_malloc": null,
+   "license": "SPDX tags in sources: MIT (264 files); notices in sources: public domain (8 files)",
+   "ram_estimate": "plausible from the sizes (6.8 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_Rhyme",
+   "name": "Rhyme",
+   "type": "SIG",
+   "family": "Lattice-based",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Rhyme.zip",
+   "package_bytes": 15133161,
+   "package_sha256": "7b509d21c6674bc23751b8743cb7c2a4a07ee295fafe04e2fa95c0613160bdfd",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Rhyme-128",
+     "level": 128,
+     "pk": 800,
+     "sk": 11072,
+     "sig": 1486
+    },
+    {
+     "name": "Rhyme-256",
+     "level": 256,
+     "pk": 1824,
+     "sk": 22336,
+     "sig": 3259
+    },
+    {
+     "name": "Rhyme-384",
+     "level": 384,
+     "pk": 2720,
+     "sk": 45760,
+     "sig": 4744
+    },
+    {
+     "name": "Rhyme-512",
+     "level": 512,
+     "pk": 3872,
+     "sk": 44864,
+     "sig": 6996
+    }
+   ],
+   "units_found": [
+    "Rhyme-SHAKE-128",
+    "Rhyme-SHAKE-256",
+    "Rhyme-SHAKE-384",
+    "Rhyme-SHAKE-512",
+    "Rhyme-SM3-128",
+    "Rhyme-SM3-256",
+    "Rhyme-SM3-384",
+    "Rhyme-SM3-512"
+   ],
+   "reference_dir": "Implementations and Test_Vectors/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics or assembly in 1 source files",
+    "128-bit integers (__int128)"
+   ],
+   "uses_malloc": true,
+   "license": "notices in sources: public domain (24 files)",
+   "ram_estimate": "plausible from the sizes (13.0 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_Shuttle",
+   "name": "Shuttle",
+   "type": "SIG",
+   "family": "Lattice (Module-LWE/Module-SIS)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/shuttle.zip",
+   "package_bytes": 9327439,
+   "package_sha256": "09253fd33c2215098177991db3375cb94e4e4a73a65b019783edabefa5bd8a62",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "SHUTTLE-128",
+     "level": 128,
+     "pk": 1264,
+     "sk": 2288,
+     "sig": 1183
+    },
+    {
+     "name": "SHUTTLE-256",
+     "level": 256,
+     "pk": 1952,
+     "sk": 3680,
+     "sig": 2417
+    },
+    {
+     "name": "SHUTTLE-512",
+     "level": 512,
+     "pk": 3648,
+     "sk": 7104,
+     "sig": 5001
+    }
+   ],
+   "units_found": [
+    "SHUTTLE-128",
+    "SHUTTLE-256",
+    "SHUTTLE-512"
+   ],
+   "reference_dir": "Implementation codes and test vectors/Shuttle 算法实现源代码及测试向量/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "128-bit integers (__int128)"
+   ],
+   "uses_malloc": false,
+   "license": "notices in sources: public domain (12 files), CC0 (3 files)",
+   "ram_estimate": "plausible from the sizes (4.6 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_Sigurd",
+   "name": "Sigurd",
+   "type": "SIG",
+   "family": "Code-based (regular syndrome decoding)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Sigurd.zip",
+   "package_bytes": 17804763,
+   "package_sha256": "443ab14257658d89a60e14ad0d4b7f4df9fcdd06da4f42fcb29bbbfc75a97153",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Sigurd-128",
+     "level": 128,
+     "pk": 112,
+     "sk": 80,
+     "sig": 25748
+    },
+    {
+     "name": "Sigurd-256",
+     "level": 256,
+     "pk": 212,
+     "sk": 128,
+     "sig": 74436
+    },
+    {
+     "name": "Sigurd-512",
+     "level": 512,
+     "pk": 435,
+     "sk": 256,
+     "sig": 285380
+    }
+   ],
+   "units_found": [
+    "Sigurd-128",
+    "Sigurd-256",
+    "Sigurd-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (25.3 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_SQIsign2D-push1_2",
+   "name": "SQIsign2D-push1/2",
+   "type": "SIG",
+   "family": "Isogeny-based signature",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/SQIsign2D-push12.zip",
+   "package_bytes": 15147408,
+   "package_sha256": "98b7e4ffddfe31b5fb0f448345b49228c8d8a7c87078688ba1656b28631448c5",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Level-1",
+     "level": 128,
+     "pk": 64,
+     "sk": 456,
+     "sig": 150
+    },
+    {
+     "name": "Level-2",
+     "level": 160,
+     "pk": 96,
+     "sk": 676,
+     "sig": 218
+    },
+    {
+     "name": "Level-3",
+     "level": 256,
+     "pk": 128,
+     "sk": 900,
+     "sig": 293
+    },
+    {
+     "name": "Level-4",
+     "level": 512,
+     "pk": 262,
+     "sk": 1838,
+     "sig": 593
+    }
+   ],
+   "units_found": [
+    "Level-1",
+    "Level-2",
+    "Level-3",
+    "Level-4"
+   ],
+   "reference_dir": ".",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "other headers: encoded_sizes.h, fips202.h, fp.h, fp2.h, fp_constants.h, sqisign_xof.h",
+    "128-bit integers (__int128)"
+   ],
+   "uses_malloc": true,
+   "license": "license files: Implementations/sqisign2d_lvl4/NOTICE, Implementations/sqisign2d_lvl3/NOTICE, Implementations/sqisign2d_lvl2/NOTICE ...; SPDX tags in sources: Apache-2.0 (28 files), MIT (4 files), PD and Apache-2.0 (4 files); notices in sources: MIT (8 files), public domain (4 files)",
+   "ram_estimate": "plausible from the sizes (0.7 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_SQIsign2D2",
+   "name": "SQIsign2D2",
+   "type": "SIG",
+   "family": "Isogeny",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/SQIsign2D2.zip",
+   "package_bytes": 19195437,
+   "package_sha256": "cf635de5eebbdeb7b2212e84f349da4ca878889e0a4a59b463d0c8cdfdb8eeab",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Level1-eff",
+     "level": 128,
+     "pk": 64,
+     "sk": 488,
+     "sig": 200
+    },
+    {
+     "name": "Level1-sec",
+     "level": 128,
+     "pk": 68,
+     "sk": 521,
+     "sig": 212
+    },
+    {
+     "name": "Level2-eff",
+     "level": 160,
+     "pk": 80,
+     "sk": 610,
+     "sig": 248
+    },
+    {
+     "name": "Level2-sec",
+     "level": 160,
+     "pk": 84,
+     "sk": 643,
+     "sig": 260
+    },
+    {
+     "name": "Level3-eff",
+     "level": 256,
+     "pk": 128,
+     "sk": 976,
+     "sig": 392
+    },
+    {
+     "name": "Level3-sec",
+     "level": 256,
+     "pk": 132,
+     "sk": 1009,
+     "sig": 404
+    },
+    {
+     "name": "Level5-eff",
+     "level": 512,
+     "pk": 256,
+     "sk": 1952,
+     "sig": 776
+    },
+    {
+     "name": "Level5-sec",
+     "level": 512,
+     "pk": 268,
+     "sk": 2046,
+     "sig": 812
+    }
+   ],
+   "units_found": [
+    "SQISign2Dsquare-Level1-eff",
+    "SQISign2Dsquare-Level1-sec",
+    "SQISign2Dsquare-Level2-eff",
+    "SQISign2Dsquare-Level2-sec",
+    "SQISign2Dsquare-Level3-eff",
+    "SQISign2Dsquare-Level3-sec",
+    "SQISign2Dsquare-Level5-eff",
+    "SQISign2Dsquare-Level5-sec"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "other headers: encoded_sizes.h, fp.h, fp2.h, fp_portable.h"
+   ],
+   "uses_malloc": true,
+   "license": "SPDX tags in sources: Apache-2.0 (48 files); notices in sources: GPL (16 files)",
+   "ram_estimate": "plausible from the sizes (0.7 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_SQIsignTriangle",
+   "name": "SQIsignTriangle",
+   "type": "SIG",
+   "family": "Isogeny/quaternion signature",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/SQIsignTriangle.zip",
+   "package_bytes": 25366064,
+   "package_sha256": "f4afa484e450e2adf4b5f9c867fb199d0d0e22d66a3eafbc8c4738744fb62c58",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "SQIsignTriangle-128",
+     "level": 128,
+     "pk": 65,
+     "sk": 353,
+     "sig": 204
+    },
+    {
+     "name": "SQIsignTriangle-160",
+     "level": 160,
+     "pk": 81,
+     "sk": 437,
+     "sig": 255
+    },
+    {
+     "name": "SQIsignTriangle-256",
+     "level": 256,
+     "pk": 129,
+     "sk": 701,
+     "sig": 408
+    },
+    {
+     "name": "SQIsignTriangle-512",
+     "level": 512,
+     "pk": 257,
+     "sk": 1409,
+     "sig": 816
+    }
+   ],
+   "units_found": [
+    "SQIsignTriangle_lvl1",
+    "SQIsignTriangle_lvl2",
+    "SQIsignTriangle_lvl5",
+    "SQIsignTriangle_lvl6"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics",
+    "other headers: api.h, mem.h, sig.h",
+    "128-bit integers (__int128)"
+   ],
+   "uses_malloc": true,
+   "license": "license files: Implementations/Reference_Implementation/SQIsignTriangle_lvl1/sqisigntriangle/NOTICE, Implementations/Reference_Implementation/SQIsignTriangle_lvl6/sqisigntriangle/NOTICE, Implementations/Reference_Implementation/SQIsignTriangle_lvl5/sqisigntriangle/NOTICE ...; SPDX tags in sources: Apache-2.0 (216 files), Apache-2.0 and Unknown (40 files), Apache-2.0\\n\" (24 files); notices in sources: GPL (24 files), MIT (24 files), Apache (24 files), public domain (8 files)",
+   "ram_estimate": "plausible from the sizes (0.6 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_SYDO",
+   "name": "SYDO",
+   "type": "SIG",
+   "family": "Code-based signature (syndrome decoding, MPC-in-the-head)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/SYDO.zip",
+   "package_bytes": 51062301,
+   "package_sha256": "c4ae5b27a188612cd286a786179ce5461e6aca0b8599ba13b8d77b210a940adb",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "sydo_160f",
+     "level": 160,
+     "pk": 80,
+     "sk": 174,
+     "sig": 6724
+    },
+    {
+     "name": "sydo_160s",
+     "level": 160,
+     "pk": 80,
+     "sk": 174,
+     "sig": 5428
+    },
+    {
+     "name": "sydo_256f",
+     "level": 256,
+     "pk": 128,
+     "sk": 278,
+     "sig": 17604
+    },
+    {
+     "name": "sydo_256s",
+     "level": 256,
+     "pk": 128,
+     "sk": 278,
+     "sig": 14444
+    },
+    {
+     "name": "sydo_512f",
+     "level": 512,
+     "pk": 246,
+     "sk": 534,
+     "sig": 67716
+    },
+    {
+     "name": "sydo_512s",
+     "level": 512,
+     "pk": 246,
+     "sk": 534,
+     "sig": 56672
+    }
+   ],
+   "units_found": [
+    "sydo_160f",
+    "sydo_160s",
+    "sydo_256f",
+    "sydo_256s",
+    "sydo_512f",
+    "sydo_512s"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "OpenSSL",
+    "other headers: config.h"
+   ],
+   "uses_malloc": true,
+   "license": "license files: Implementations/NOTICE; SPDX tags in sources: MIT (258 files); notices in sources: CC0 (90 files)",
+   "ram_estimate": "plausible from the sizes (6.8 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_Tins",
+   "name": "Tins",
+   "type": "SIG",
+   "family": "Multivariate (MPC-in-the-head)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Tins.zip",
+   "package_bytes": 6352110,
+   "package_sha256": "84affc1f7cbdeec48a7cb6df3349b5708644672f2ac12140c529e74f6d57ca21",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Tins-128",
+     "level": 128,
+     "pk": 55,
+     "sk": 40,
+     "sig": 3756
+    },
+    {
+     "name": "Tins-256",
+     "level": 256,
+     "pk": 98,
+     "sk": 64,
+     "sig": 12980
+    },
+    {
+     "name": "Tins-512",
+     "level": 512,
+     "pk": 195,
+     "sk": 128,
+     "sig": 51187
+    }
+   ],
+   "units_found": [
+    "Tins128",
+    "Tins256",
+    "Tins512"
+   ],
+   "reference_dir": "tins/Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_TINS128.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (3.8 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_TRINE",
+   "name": "TRINE",
+   "type": "SIG",
+   "family": "Trilinear-form group-action signature",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/TRINE.zip",
+   "package_bytes": 67794477,
+   "package_sha256": "4b22f54b07509833b08d32402ffe06d7566e4c87622f9931079e791c80f4765d",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "Balanced-TRINE-128",
+     "level": 128,
+     "pk": 16004,
+     "sk": 32,
+     "sig": 3156
+    },
+    {
+     "name": "ShortSig-TRINE-128",
+     "level": 128,
+     "pk": 63920,
+     "sk": 32,
+     "sig": 1652
+    },
+    {
+     "name": "Balanced-TRINE-256",
+     "level": 256,
+     "pk": 96064,
+     "sk": 64,
+     "sig": 11712
+    },
+    {
+     "name": "ShortSig-TRINE-256",
+     "level": 256,
+     "pk": 384064,
+     "sk": 64,
+     "sig": 5968
+    },
+    {
+     "name": "Balanced-TRINE-512",
+     "level": 512,
+     "pk": 797290,
+     "sk": 128,
+     "sig": 46565
+    },
+    {
+     "name": "ShortSig-TRINE-512",
+     "level": 512,
+     "pk": 3188776,
+     "sk": 128,
+     "sig": 23672
+    }
+   ],
+   "units_found": [
+    "TRINE-128-balanced",
+    "TRINE-128-ShortSig",
+    "TRINE-256-balanced",
+    "TRINE-256-ShortSig",
+    "TRINE-512-balanced",
+    "TRINE-512-ShortSig"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "notices in sources: public domain (24 files)",
+   "ram_estimate": "plausible from the sizes (18.7 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_TSUOV",
+   "name": "TSUOV",
+   "type": "SIG",
+   "family": "Multivariate",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/TSUOV.zip",
+   "package_bytes": 4398417,
+   "package_sha256": "7ab1effc5fe911c6ab9483ca44a9d9f6d6d911b03eee9f2873b384d97f9aee1d",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "reference_implementation/tsuov_128",
+     "level": 128,
+     "pk": 779,
+     "sk": 32,
+     "sig": 896
+    },
+    {
+     "name": "reference_implementation/tsuov_256",
+     "level": 256,
+     "pk": 2170,
+     "sk": 64,
+     "sig": 2412
+    },
+    {
+     "name": "reference_implementation/tsuov_512",
+     "level": 512,
+     "pk": 21319,
+     "sk": 128,
+     "sig": 2939
+    }
+   ],
+   "units_found": [
+    "TSUOV_128",
+    "TSUOV_256",
+    "TSUOV_512"
+   ],
+   "reference_dir": "Implementations/Digital_Signature-TSUOV-x86-Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics or assembly in 2 source files",
+    "other headers: getopt.h"
+   ],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "plausible from the sizes (1.7 KB of keys and messages for the smallest set)"
+  },
+  {
+   "id": "sig_UVW_signature",
+   "name": "UVW signature",
+   "type": "SIG",
+   "family": "Code-based (Wave-type, syndrome decoding over F3)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/UVW%20signature.zip",
+   "package_bytes": 1326858513,
+   "package_sha256": "bbfa8dad5ee57083578b50b9937e773e6158f72646e825da3d3265cc00cb1294",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "UVW128",
+     "level": 128,
+     "pk": 5897612,
+     "sk": 40,
+     "sig": 1244
+    },
+    {
+     "name": "UVW256",
+     "level": 256,
+     "pk": 23040012,
+     "sk": 40,
+     "sig": 2444
+    },
+    {
+     "name": "UVW512",
+     "level": 512,
+     "pk": 95160012,
+     "sk": 72,
+     "sig": 4956
+    }
+   ],
+   "units_found": [
+    "UVW-128",
+    "UVW-256",
+    "UVW-512"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics or assembly in 5 source files"
+   ],
+   "uses_malloc": true,
+   "license": "notices in sources: MIT (30 files)",
+   "ram_estimate": "no: keys and messages of the smallest set alone need 5760.6 KB"
+  },
+  {
+   "id": "sig_VDOO__Vinegar-Diagonal-Oil-Oil",
+   "name": "VDOO: Vinegar-Diagonal-Oil-Oil",
+   "type": "SIG",
+   "family": "Multivariate (UOV family)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/VDOO.zip",
+   "package_bytes": 396850232,
+   "package_sha256": "4b7bb0f15388b395b9308ae480f25622105a734f0ab4a6bd16398438c4b9752a",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "vdoo_128",
+     "level": 128,
+     "pk": 330855,
+     "sk": 342790,
+     "sig": 85
+    },
+    {
+     "name": "vdoo_256",
+     "level": 256,
+     "pk": 4289250,
+     "sk": 4388307,
+     "sig": 316
+    },
+    {
+     "name": "vdoo_512",
+     "level": 512,
+     "pk": 20229300,
+     "sk": 20474382,
+     "sig": 471
+    }
+   ],
+   "units_found": [
+    "vdoo_128",
+    "vdoo_256",
+    "vdoo_512"
+   ],
+   "reference_dir": "Implementation/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [],
+   "uses_malloc": true,
+   "license": "none found in the code; the package has intellectual-property statements as PDF",
+   "ram_estimate": "no: keys and messages of the smallest set alone need 657.9 KB"
+  },
+  {
+   "id": "sig_YuanYang.DSA",
+   "name": "YuanYang.DSA",
+   "type": "SIG",
+   "family": "Lattice-based (NTRU hash-and-sign)",
+   "package_url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/YuanYang.DSA.zip",
+   "package_bytes": 19879383,
+   "package_sha256": "1eb45f24ad8f7ff25db923479c6500f273aee8b2470d76339030fed8d96b5b31",
+   "ported_elsewhere": null,
+   "parameter_sets": [
+    {
+     "name": "YuanYang.DSA-512",
+     "level": 128,
+     "pk": 738,
+     "sk": 15584,
+     "sig": 561
+    },
+    {
+     "name": "YuanYang.DSA-1024",
+     "level": 256,
+     "pk": 1570,
+     "sk": 31264,
+     "sig": 1150
+    },
+    {
+     "name": "YuanYang.DSA-2048",
+     "level": 512,
+     "pk": 3330,
+     "sk": 62720,
+     "sig": 2364
+    }
+   ],
+   "units_found": [
+    "yuanyang-512",
+    "yuanyang-1024",
+    "yuanyang-2048"
+   ],
+   "reference_dir": "Implementations/Reference_Implementation",
+   "api": "ICCS uniform interface (sig_* functions) in SIG_AlgorithmInstance.c",
+   "dependencies": [
+    "x86 intrinsics or assembly in 1 source files"
+   ],
+   "uses_malloc": true,
+   "license": "notices in sources: MIT (24 files)",
+   "ram_estimate": "plausible from the sizes (16.5 KB of keys and messages for the smallest set)"
+  }
+ ]
+}

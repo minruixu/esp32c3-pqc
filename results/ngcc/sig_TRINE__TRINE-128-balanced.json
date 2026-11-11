@@ -1,0 +1,201 @@
+{
+ "results": {
+  "trine-128-balanced/ref/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 7952,
+   "heap": 146940,
+   "rc": -5
+  },
+  "trine-128-balanced/ref/keygen": {
+   "iters": 1,
+   "avg_us": 311490,
+   "min_us": 311490,
+   "max_us": 311490,
+   "stack": 7392,
+   "heap": 127108,
+   "rc": 0
+  },
+  "trine-128-balanced/ref/sign": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 3248,
+   "heap": 146940,
+   "rc": -5
+  },
+  "trine-128-balanced/ref/verify": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 3456,
+   "heap": 152464,
+   "rc": -6
+  },
+  "trine-128-balanced/ref/tamper": {
+   "iters": 1,
+   "avg_us": 6123567,
+   "min_us": 6123567,
+   "max_us": 6123567,
+   "stack": 3472,
+   "heap": 152556,
+   "rc": 0
+  },
+  "trine-128-balanced/opt/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 7952,
+   "heap": 146940,
+   "rc": -5
+  },
+  "trine-128-balanced/opt/keygen": {
+   "iters": 1,
+   "avg_us": 233768,
+   "min_us": 233768,
+   "max_us": 233768,
+   "stack": 7392,
+   "heap": 127112,
+   "rc": 0
+  },
+  "trine-128-balanced/opt/sign": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 3248,
+   "heap": 146952,
+   "rc": -5
+  },
+  "trine-128-balanced/opt/verify": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 3456,
+   "heap": 152464,
+   "rc": -6
+  },
+  "trine-128-balanced/opt/tamper": {
+   "iters": 1,
+   "avg_us": 5826845,
+   "min_us": 5826845,
+   "max_us": 5826845,
+   "stack": 3472,
+   "heap": 152544,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "trine-128-balanced/ref/kat0-pk": {
+   "sha256_16": "fe64c6e1e133f5857b1c3f795a669577",
+   "len": 16004
+  },
+  "trine-128-balanced/ref/kat0-sk": {
+   "sha256_16": "38760464059f665d9dc775c49fd39d16",
+   "len": 32
+  },
+  "trine-128-balanced/ref/kat0-sig": {
+   "sha256_16": "0b8d6e40c811171c4562928421709bb8",
+   "len": 3156
+  },
+  "trine-128-balanced/ref/pk": {
+   "sha256_16": "08f20b8c397034eac0f6f7b29f9f4766",
+   "len": 16004
+  },
+  "trine-128-balanced/ref/sk": {
+   "sha256_16": "055cf2c1adc0ad5e0f352a2552923507",
+   "len": 32
+  },
+  "trine-128-balanced/ref/sig": {
+   "sha256_16": "0b8d6e40c811171c4562928421709bb8",
+   "len": 3156
+  },
+  "trine-128-balanced/opt/kat0-pk": {
+   "sha256_16": "fe64c6e1e133f5857b1c3f795a669577",
+   "len": 16004
+  },
+  "trine-128-balanced/opt/kat0-sk": {
+   "sha256_16": "38760464059f665d9dc775c49fd39d16",
+   "len": 32
+  },
+  "trine-128-balanced/opt/kat0-sig": {
+   "sha256_16": "0b8d6e40c811171c4562928421709bb8",
+   "len": 3156
+  },
+  "trine-128-balanced/opt/pk": {
+   "sha256_16": "08f20b8c397034eac0f6f7b29f9f4766",
+   "len": 16004
+  },
+  "trine-128-balanced/opt/sk": {
+   "sha256_16": "055cf2c1adc0ad5e0f352a2552923507",
+   "len": 32
+  },
+  "trine-128-balanced/opt/sig": {
+   "sha256_16": "0b8d6e40c811171c4562928421709bb8",
+   "len": 3156
+  }
+ },
+ "checks": {
+  "trine-128-balanced/ref/kat-roundtrip": "FAIL",
+  "trine-128-balanced/ref/tampered-rejected": "PASS",
+  "trine-128-balanced/opt/kat-roundtrip": "FAIL",
+  "trine-128-balanced/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "trine-128-balanced": "kind=SIG pk=16004 sk=32 sig=3156",
+  "job_stack": "32768",
+  "kat0_sig_len": "3156",
+  "sig_len": "3156"
+ },
+ "complete": true,
+ "fails": 8,
+ "cpu_mhz": 160,
+ "heap_free_start": 234816,
+ "heap_free_min": 14856,
+ "unit": "sig_TRINE__TRINE-128-balanced",
+ "pid": "sig_TRINE",
+ "param": "TRINE-128-balanced",
+ "kind": "SIG",
+ "iters": 1,
+ "stack_pct": 30,
+ "stack_given": 0,
+ "image_bytes": 144736,
+ "attempts": [
+  {
+   "verdict": "self-test fails",
+   "reason": "failed: kat rc=-4, kat-roundtrip, keygen rc=-4, sign rc=-5, verify rc=-6",
+   "stack_pct": 60
+  }
+ ],
+ "seconds": 32.7,
+ "kat": {
+  "result": "differs",
+  "file": "Test_Vectors/KAT_SIG_TRINE-128-Balanced.txt",
+  "equal": [
+   "pk",
+   "sk"
+  ],
+  "different": [
+   "sn"
+  ]
+ },
+ "verdict": "self-test fails",
+ "reason": "failed: kat rc=-5, kat-roundtrip, sign rc=-5, verify rc=-6",
+ "host_check": {
+  "equal": 8,
+  "different": 4,
+  "missing": 0,
+  "different_labels": [
+   "kat0-sig",
+   "sig",
+   "kat0-sig",
+   "sig"
+  ]
+ }
+}

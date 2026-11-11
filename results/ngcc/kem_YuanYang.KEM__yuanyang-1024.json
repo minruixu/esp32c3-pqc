@@ -1,0 +1,195 @@
+{
+ "results": {
+  "yuanyang-1024/ref/kat": {
+   "iters": 1,
+   "avg_us": 129092,
+   "min_us": 129092,
+   "max_us": 129092,
+   "stack": 40208,
+   "heap": 4712,
+   "rc": 0
+  },
+  "yuanyang-1024/ref/keygen": {
+   "iters": 3,
+   "avg_us": 41700,
+   "min_us": 41700,
+   "max_us": 41701,
+   "stack": 17832,
+   "heap": 4712,
+   "rc": 0
+  },
+  "yuanyang-1024/ref/encaps": {
+   "iters": 3,
+   "avg_us": 29195,
+   "min_us": 29191,
+   "max_us": 29197,
+   "stack": 21192,
+   "heap": 3264,
+   "rc": 0
+  },
+  "yuanyang-1024/ref/decaps": {
+   "iters": 3,
+   "avg_us": 48714,
+   "min_us": 48712,
+   "max_us": 48716,
+   "stack": 40328,
+   "heap": 2880,
+   "rc": 0
+  },
+  "yuanyang-1024/ref/tamper": {
+   "iters": 1,
+   "avg_us": 48715,
+   "min_us": 48715,
+   "max_us": 48715,
+   "stack": 40208,
+   "heap": 2880,
+   "rc": 0
+  },
+  "yuanyang-1024/opt/kat": {
+   "iters": 1,
+   "avg_us": 123980,
+   "min_us": 123980,
+   "max_us": 123980,
+   "stack": 40344,
+   "heap": 4712,
+   "rc": 0
+  },
+  "yuanyang-1024/opt/keygen": {
+   "iters": 3,
+   "avg_us": 40689,
+   "min_us": 40689,
+   "max_us": 40689,
+   "stack": 17832,
+   "heap": 4712,
+   "rc": 0
+  },
+  "yuanyang-1024/opt/encaps": {
+   "iters": 3,
+   "avg_us": 26702,
+   "min_us": 26699,
+   "max_us": 26704,
+   "stack": 21192,
+   "heap": 3264,
+   "rc": 0
+  },
+  "yuanyang-1024/opt/decaps": {
+   "iters": 3,
+   "avg_us": 47108,
+   "min_us": 47105,
+   "max_us": 47110,
+   "stack": 40328,
+   "heap": 2880,
+   "rc": 0
+  },
+  "yuanyang-1024/opt/tamper": {
+   "iters": 1,
+   "avg_us": 47108,
+   "min_us": 47108,
+   "max_us": 47108,
+   "stack": 40208,
+   "heap": 2880,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "yuanyang-1024/ref/kat0-pk": {
+   "sha256_16": "bb7bda1cbea957a8c50b3eca87fecea1",
+   "len": 1568
+  },
+  "yuanyang-1024/ref/kat0-sk": {
+   "sha256_16": "1f289888133111fa2c67f47861e2d54b",
+   "len": 3168
+  },
+  "yuanyang-1024/ref/kat0-ct": {
+   "sha256_16": "b8ab95e6f71baaea1e3421e9d181963a",
+   "len": 1344
+  },
+  "yuanyang-1024/ref/kat0-ss": {
+   "sha256_16": "10281cf8a09007389009b578dcbcc1aa",
+   "len": 32
+  },
+  "yuanyang-1024/ref/pk": {
+   "sha256_16": "0549c9850da3fdb5f930d55b0c5bae55",
+   "len": 1568
+  },
+  "yuanyang-1024/ref/sk": {
+   "sha256_16": "538713ef090cb932e30c0768c53592b3",
+   "len": 3168
+  },
+  "yuanyang-1024/ref/ct": {
+   "sha256_16": "cc455ad6be8e8251dfbd13bd3b62a4a3",
+   "len": 1344
+  },
+  "yuanyang-1024/ref/ss": {
+   "sha256_16": "c5b2a83577ef64236bcaa81effd3bd5b",
+   "len": 32
+  },
+  "yuanyang-1024/opt/kat0-pk": {
+   "sha256_16": "bb7bda1cbea957a8c50b3eca87fecea1",
+   "len": 1568
+  },
+  "yuanyang-1024/opt/kat0-sk": {
+   "sha256_16": "1f289888133111fa2c67f47861e2d54b",
+   "len": 3168
+  },
+  "yuanyang-1024/opt/kat0-ct": {
+   "sha256_16": "b8ab95e6f71baaea1e3421e9d181963a",
+   "len": 1344
+  },
+  "yuanyang-1024/opt/kat0-ss": {
+   "sha256_16": "10281cf8a09007389009b578dcbcc1aa",
+   "len": 32
+  },
+  "yuanyang-1024/opt/pk": {
+   "sha256_16": "0549c9850da3fdb5f930d55b0c5bae55",
+   "len": 1568
+  },
+  "yuanyang-1024/opt/sk": {
+   "sha256_16": "538713ef090cb932e30c0768c53592b3",
+   "len": 3168
+  },
+  "yuanyang-1024/opt/ct": {
+   "sha256_16": "cc455ad6be8e8251dfbd13bd3b62a4a3",
+   "len": 1344
+  },
+  "yuanyang-1024/opt/ss": {
+   "sha256_16": "c5b2a83577ef64236bcaa81effd3bd5b",
+   "len": 32
+  }
+ },
+ "checks": {
+  "yuanyang-1024/ref/kat-roundtrip": "PASS",
+  "yuanyang-1024/ref/tampered-ct-rejected": "PASS",
+  "yuanyang-1024/opt/kat-roundtrip": "PASS",
+  "yuanyang-1024/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "yuanyang-1024": "kind=KEM pk=1568 sk=3168 ct=1344 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 224608,
+ "heap_free_min": 146492,
+ "unit": "kem_YuanYang.KEM__yuanyang-1024",
+ "pid": "kem_YuanYang.KEM",
+ "param": "yuanyang-1024",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 155088,
+ "seconds": 3.1,
+ "kat": {
+  "result": "no KAT file in the package"
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

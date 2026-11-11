@@ -111,3 +111,16 @@ All dates 2026-11-11 unless noted.
     negative result worth keeping: routing GmSSL's SM3 through the shared
     primitive made it 6.6% slower, because GmSSL's own unrolled compression is
     faster on this chip than the project's "fast" SM3.
+14. **The NGCC round-1 line delivered** (`reports/F-ngcc-round1.md`). All 84
+    public-key submission packages were fetched from the official site
+    (4.7 GB, kept out of the repository) and driven through one generic suite
+    that selects the C files itself and never runs a package's build scripts.
+    Of the 77 candidates it handled, 36 run on the ESP32-C3 with device
+    fingerprints equal to the host (22 KEMs, 9 signatures, 5 key exchanges),
+    and 33 of those also reproduce the first vector of their own KAT file on
+    the chip. 22 more work on the host only (128-bit integers, images or keys
+    larger than RAM, stack overflows, or errors that appear only on the
+    32-bit target), 16 do not build on the host (x86 intrinsics, GMP,
+    OpenSSL), and 3 fail their self-test. Routing SM3 through the shared
+    primitive speeds up the candidates that hash with the organisers' helper
+    by 1.0x to 1.6x.

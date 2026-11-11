@@ -1,0 +1,199 @@
+{
+ "results": {
+  "darts128/ref/kat": {
+   "iters": 1,
+   "avg_us": 281469,
+   "min_us": 281469,
+   "max_us": 281469,
+   "stack": 94432,
+   "heap": 9288,
+   "rc": 0
+  },
+  "darts128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 20663,
+   "min_us": 20663,
+   "max_us": 20663,
+   "stack": 31404,
+   "heap": 1288,
+   "rc": 0
+  },
+  "darts128/ref/sign": {
+   "iters": 3,
+   "avg_us": 1447489,
+   "min_us": 1447486,
+   "max_us": 1447491,
+   "stack": 94012,
+   "heap": 9288,
+   "rc": 0
+  },
+  "darts128/ref/verify": {
+   "iters": 3,
+   "avg_us": 13570,
+   "min_us": 13569,
+   "max_us": 13574,
+   "stack": 38720,
+   "heap": 3712,
+   "rc": 0
+  },
+  "darts128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 26817,
+   "min_us": 26817,
+   "max_us": 26817,
+   "stack": 38736,
+   "heap": 3712,
+   "rc": 0
+  },
+  "darts128/opt/kat": {
+   "iters": 1,
+   "avg_us": 206355,
+   "min_us": 206355,
+   "max_us": 206355,
+   "stack": 94268,
+   "heap": 9288,
+   "rc": 0
+  },
+  "darts128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 17152,
+   "min_us": 17150,
+   "max_us": 17154,
+   "stack": 31404,
+   "heap": 1288,
+   "rc": 0
+  },
+  "darts128/opt/sign": {
+   "iters": 3,
+   "avg_us": 1025615,
+   "min_us": 1025614,
+   "max_us": 1025618,
+   "stack": 93836,
+   "heap": 9288,
+   "rc": 0
+  },
+  "darts128/opt/verify": {
+   "iters": 3,
+   "avg_us": 10587,
+   "min_us": 10587,
+   "max_us": 10587,
+   "stack": 38556,
+   "heap": 3712,
+   "rc": 0
+  },
+  "darts128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 20853,
+   "min_us": 20853,
+   "max_us": 20853,
+   "stack": 38572,
+   "heap": 3712,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "darts128/ref/kat0-pk": {
+   "sha256_16": "af911a101fa03226d47bf88a72886251",
+   "len": 1120
+  },
+  "darts128/ref/kat0-sk": {
+   "sha256_16": "bf59a8adbf7d74f4b148e58bbf43c20c",
+   "len": 1536
+  },
+  "darts128/ref/kat0-sig": {
+   "sha256_16": "8d52e94da64673402b4588723d40c39c",
+   "len": 1449
+  },
+  "darts128/ref/pk": {
+   "sha256_16": "ce26e9143e8032490c44b8b97459aa5f",
+   "len": 1120
+  },
+  "darts128/ref/sk": {
+   "sha256_16": "6d28cd3f6a613416e0b6b5615b65ab82",
+   "len": 1536
+  },
+  "darts128/ref/sig": {
+   "sha256_16": "14a3fad2e5c448cfd34a3f03b70d72f0",
+   "len": 1449
+  },
+  "darts128/opt/kat0-pk": {
+   "sha256_16": "af911a101fa03226d47bf88a72886251",
+   "len": 1120
+  },
+  "darts128/opt/kat0-sk": {
+   "sha256_16": "bf59a8adbf7d74f4b148e58bbf43c20c",
+   "len": 1536
+  },
+  "darts128/opt/kat0-sig": {
+   "sha256_16": "8d52e94da64673402b4588723d40c39c",
+   "len": 1449
+  },
+  "darts128/opt/pk": {
+   "sha256_16": "ce26e9143e8032490c44b8b97459aa5f",
+   "len": 1120
+  },
+  "darts128/opt/sk": {
+   "sha256_16": "6d28cd3f6a613416e0b6b5615b65ab82",
+   "len": 1536
+  },
+  "darts128/opt/sig": {
+   "sha256_16": "14a3fad2e5c448cfd34a3f03b70d72f0",
+   "len": 1449
+  }
+ },
+ "checks": {
+  "darts128/ref/kat-roundtrip": "PASS",
+  "darts128/ref/tampered-rejected": "PASS",
+  "darts128/opt/kat-roundtrip": "PASS",
+  "darts128/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "darts128": "kind=SIG pk=1120 sk=1536 sig=1449",
+  "job_stack": "102400",
+  "kat0_sig_len": "1449",
+  "sig_len": "1449"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 218064,
+ "heap_free_min": 101084,
+ "unit": "sig_DARTS__DARTS128",
+ "pid": "sig_DARTS",
+ "param": "DARTS128",
+ "kind": "SIG",
+ "iters": 3,
+ "stack_pct": 92,
+ "stack_given": 0,
+ "image_bytes": 161312,
+ "attempts": [
+  {
+   "verdict": "crashes",
+   "reason": "Guru Meditation Error: Core  0 panic'ed (Stack protection fault).",
+   "stack_pct": 60
+  },
+  {
+   "verdict": "crashes",
+   "reason": "Guru Meditation Error: Core  0 panic'ed (Stack protection fault).",
+   "stack_pct": 85
+  }
+ ],
+ "seconds": 10.1,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_DARTS128.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 12,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "kem_C-Multi-UR-AG__CMultiURAG-512",
+ "pid": "kem_C-Multi-UR-AG",
+ "param": "CMultiURAG-512",
+ "kind": "KEM",
+ "verdict": "does not build",
+ "reason": "undefined symbols: kem_dec, kem_enc, kem_get_ct_len_bytes, kem_get_pk_len_bytes, kem_get_sk_len_bytes, kem_get_ss_len_bytes, kem_keygen",
+ "build_errors": [
+  "Undefined symbols for architecture arm64:",
+  "\"_kem_dec\", referenced from:",
+  "\"_kem_enc\", referenced from:",
+  "\"_kem_get_ct_len_bytes\", referenced from:",
+  "\"_kem_get_pk_len_bytes\", referenced from:",
+  "\"_kem_get_sk_len_bytes\", referenced from:",
+  "\"_kem_get_ss_len_bytes\", referenced from:",
+  "\"_kem_keygen\", referenced from:",
+  "ld: symbol(s) not found for architecture arm64",
+  "cc: error: linker command failed with exit code 1 (use -v to see invocation)"
+ ]
+}

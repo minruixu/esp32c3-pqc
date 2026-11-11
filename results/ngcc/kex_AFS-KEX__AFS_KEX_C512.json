@@ -1,0 +1,33 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "afs_kex_c512": "kind=KEX passes=4 pk=6272 sk=12674 sta=256 stb=256 ss=64 msgs=6016",
+  "job_stack": "65536"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 231520,
+ "unit": "kex_AFS-KEX__AFS_KEX_C512",
+ "pid": "kex_AFS-KEX",
+ "param": "AFS_KEX_C512",
+ "kind": "KEX",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 147856,
+ "seconds": 3.7,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "Guru Meditation Error: Core  0 panic'ed (Stack protection fault).",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

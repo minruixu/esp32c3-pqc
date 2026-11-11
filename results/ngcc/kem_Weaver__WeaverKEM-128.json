@@ -1,0 +1,202 @@
+{
+ "results": {
+  "weaverkem-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 61930,
+   "min_us": 61930,
+   "max_us": 61930,
+   "stack": 21544,
+   "heap": 912,
+   "rc": 0
+  },
+  "weaverkem-128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 18231,
+   "min_us": 18228,
+   "max_us": 18233,
+   "stack": 18920,
+   "heap": 408,
+   "rc": 0
+  },
+  "weaverkem-128/ref/encaps": {
+   "iters": 3,
+   "avg_us": 20445,
+   "min_us": 20445,
+   "max_us": 20446,
+   "stack": 20728,
+   "heap": 408,
+   "rc": 0
+  },
+  "weaverkem-128/ref/decaps": {
+   "iters": 3,
+   "avg_us": 21836,
+   "min_us": 21836,
+   "max_us": 21837,
+   "stack": 21528,
+   "heap": 912,
+   "rc": 0
+  },
+  "weaverkem-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 21835,
+   "min_us": 21835,
+   "max_us": 21835,
+   "stack": 21544,
+   "heap": 912,
+   "rc": 0
+  },
+  "weaverkem-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 44575,
+   "min_us": 44575,
+   "max_us": 44575,
+   "stack": 21368,
+   "heap": 912,
+   "rc": 0
+  },
+  "weaverkem-128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 12702,
+   "min_us": 12701,
+   "max_us": 12706,
+   "stack": 18744,
+   "heap": 408,
+   "rc": 0
+  },
+  "weaverkem-128/opt/encaps": {
+   "iters": 3,
+   "avg_us": 14552,
+   "min_us": 14551,
+   "max_us": 14555,
+   "stack": 20552,
+   "heap": 408,
+   "rc": 0
+  },
+  "weaverkem-128/opt/decaps": {
+   "iters": 3,
+   "avg_us": 15906,
+   "min_us": 15905,
+   "max_us": 15909,
+   "stack": 21352,
+   "heap": 912,
+   "rc": 0
+  },
+  "weaverkem-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 15903,
+   "min_us": 15903,
+   "max_us": 15903,
+   "stack": 21368,
+   "heap": 912,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "weaverkem-128/ref/kat0-pk": {
+   "sha256_16": "a4c82d80731289be816c8e8b33a8646f",
+   "len": 752
+  },
+  "weaverkem-128/ref/kat0-sk": {
+   "sha256_16": "05be5f4c15dfa7bd1e2b0605f5da7cbb",
+   "len": 1776
+  },
+  "weaverkem-128/ref/kat0-ct": {
+   "sha256_16": "bc3d2f7f5bfa189a28c40d65c4484097",
+   "len": 816
+  },
+  "weaverkem-128/ref/kat0-ss": {
+   "sha256_16": "fc5970a7431d23a638236056fdd0c4b5",
+   "len": 16
+  },
+  "weaverkem-128/ref/pk": {
+   "sha256_16": "241fe04116cbac41167cf5a6b7ec61e2",
+   "len": 752
+  },
+  "weaverkem-128/ref/sk": {
+   "sha256_16": "469ba3e3e2c4cb9010ac783e3ac1b0de",
+   "len": 1776
+  },
+  "weaverkem-128/ref/ct": {
+   "sha256_16": "afd3e7d4ed848a03dc71cff54b4d9113",
+   "len": 816
+  },
+  "weaverkem-128/ref/ss": {
+   "sha256_16": "6ed69708670bae47bd318a71c5c84b20",
+   "len": 16
+  },
+  "weaverkem-128/opt/kat0-pk": {
+   "sha256_16": "a4c82d80731289be816c8e8b33a8646f",
+   "len": 752
+  },
+  "weaverkem-128/opt/kat0-sk": {
+   "sha256_16": "05be5f4c15dfa7bd1e2b0605f5da7cbb",
+   "len": 1776
+  },
+  "weaverkem-128/opt/kat0-ct": {
+   "sha256_16": "bc3d2f7f5bfa189a28c40d65c4484097",
+   "len": 816
+  },
+  "weaverkem-128/opt/kat0-ss": {
+   "sha256_16": "fc5970a7431d23a638236056fdd0c4b5",
+   "len": 16
+  },
+  "weaverkem-128/opt/pk": {
+   "sha256_16": "241fe04116cbac41167cf5a6b7ec61e2",
+   "len": 752
+  },
+  "weaverkem-128/opt/sk": {
+   "sha256_16": "469ba3e3e2c4cb9010ac783e3ac1b0de",
+   "len": 1776
+  },
+  "weaverkem-128/opt/ct": {
+   "sha256_16": "afd3e7d4ed848a03dc71cff54b4d9113",
+   "len": 816
+  },
+  "weaverkem-128/opt/ss": {
+   "sha256_16": "6ed69708670bae47bd318a71c5c84b20",
+   "len": 16
+  }
+ },
+ "checks": {
+  "weaverkem-128/ref/kat-roundtrip": "PASS",
+  "weaverkem-128/ref/tampered-ct-rejected": "PASS",
+  "weaverkem-128/opt/kat-roundtrip": "PASS",
+  "weaverkem-128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "weaverkem-128": "kind=KEM pk=752 sk=1776 ct=816 ss=16",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 239376,
+ "heap_free_min": 167852,
+ "unit": "kem_Weaver__WeaverKEM-128",
+ "pid": "kem_Weaver",
+ "param": "WeaverKEM-128",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 140224,
+ "seconds": 2.1,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_WeaverKEM-128.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

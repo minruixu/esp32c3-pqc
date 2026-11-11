@@ -1,0 +1,17 @@
+#!/bin/bash
+# Entry point: sets up ESP-IDF (for the RISC-V compiler, CMake and Ninja) and
+# runs tools/ngcc/ngcc.py. See `tools/ngcc/ngcc --help`.
+set -e
+ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+if [ -z "$IDF_PATH" ]; then
+    for d in "$HOME"/esp/esp-idf*; do [ -f "$d/export.sh" ] && IDF_PATH="$d"; done
+fi
+if [ -z "$IDF_PATH" ] || [ ! -f "$IDF_PATH/export.sh" ]; then
+    echo "ESP-IDF not found: set IDF_PATH" >&2
+    exit 2
+fi
+export IDF_PATH
+# shellcheck disable=SC1091
+. "$IDF_PATH/export.sh" >/dev/null 2>&1
+cd "$ROOT"
+exec python "$ROOT/tools/ngcc/ngcc.py" "$@"

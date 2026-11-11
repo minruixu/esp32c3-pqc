@@ -1,0 +1,202 @@
+{
+ "results": {
+  "dtru-768/ref/kat": {
+   "iters": 1,
+   "avg_us": 26861,
+   "min_us": 26861,
+   "max_us": 26861,
+   "stack": 23900,
+   "heap": 2112,
+   "rc": 0
+  },
+  "dtru-768/ref/keygen": {
+   "iters": 3,
+   "avg_us": 4751,
+   "min_us": 4749,
+   "max_us": 4755,
+   "stack": 15896,
+   "heap": 0,
+   "rc": 0
+  },
+  "dtru-768/ref/encaps": {
+   "iters": 3,
+   "avg_us": 6722,
+   "min_us": 6719,
+   "max_us": 6724,
+   "stack": 22780,
+   "heap": 1252,
+   "rc": 0
+  },
+  "dtru-768/ref/decaps": {
+   "iters": 3,
+   "avg_us": 12057,
+   "min_us": 12057,
+   "max_us": 12057,
+   "stack": 23884,
+   "heap": 2112,
+   "rc": 0
+  },
+  "dtru-768/ref/tamper": {
+   "iters": 1,
+   "avg_us": 12055,
+   "min_us": 12055,
+   "max_us": 12055,
+   "stack": 23900,
+   "heap": 2112,
+   "rc": 0
+  },
+  "dtru-768/opt/kat": {
+   "iters": 1,
+   "avg_us": 24554,
+   "min_us": 24554,
+   "max_us": 24554,
+   "stack": 23900,
+   "heap": 2112,
+   "rc": 0
+  },
+  "dtru-768/opt/keygen": {
+   "iters": 3,
+   "avg_us": 4751,
+   "min_us": 4749,
+   "max_us": 4755,
+   "stack": 15896,
+   "heap": 0,
+   "rc": 0
+  },
+  "dtru-768/opt/encaps": {
+   "iters": 3,
+   "avg_us": 5906,
+   "min_us": 5905,
+   "max_us": 5910,
+   "stack": 22780,
+   "heap": 1252,
+   "rc": 0
+  },
+  "dtru-768/opt/decaps": {
+   "iters": 3,
+   "avg_us": 10563,
+   "min_us": 10563,
+   "max_us": 10564,
+   "stack": 23884,
+   "heap": 2112,
+   "rc": 0
+  },
+  "dtru-768/opt/tamper": {
+   "iters": 1,
+   "avg_us": 10562,
+   "min_us": 10562,
+   "max_us": 10562,
+   "stack": 23900,
+   "heap": 2112,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "dtru-768/ref/kat0-pk": {
+   "sha256_16": "36aaf4dc2cc99925be74655a3e32ec3e",
+   "len": 1130
+  },
+  "dtru-768/ref/kat0-sk": {
+   "sha256_16": "d6784135c891cb3f31f404d941735efc",
+   "len": 1546
+  },
+  "dtru-768/ref/kat0-ct": {
+   "sha256_16": "83ae463cb0bb136359aa624ec4dc46ca",
+   "len": 960
+  },
+  "dtru-768/ref/kat0-ss": {
+   "sha256_16": "71fc3b6b6a3f15c0ff7934ead34c5c03",
+   "len": 32
+  },
+  "dtru-768/ref/pk": {
+   "sha256_16": "be026472c61e744d836540bb752b226e",
+   "len": 1130
+  },
+  "dtru-768/ref/sk": {
+   "sha256_16": "32a08f51a28578151196eeac43bbba84",
+   "len": 1546
+  },
+  "dtru-768/ref/ct": {
+   "sha256_16": "16364018833efc6b6abe0cda9f6da4bd",
+   "len": 960
+  },
+  "dtru-768/ref/ss": {
+   "sha256_16": "f55e9e7cfd7c697a3ec49769bea88ff4",
+   "len": 32
+  },
+  "dtru-768/opt/kat0-pk": {
+   "sha256_16": "36aaf4dc2cc99925be74655a3e32ec3e",
+   "len": 1130
+  },
+  "dtru-768/opt/kat0-sk": {
+   "sha256_16": "d6784135c891cb3f31f404d941735efc",
+   "len": 1546
+  },
+  "dtru-768/opt/kat0-ct": {
+   "sha256_16": "83ae463cb0bb136359aa624ec4dc46ca",
+   "len": 960
+  },
+  "dtru-768/opt/kat0-ss": {
+   "sha256_16": "71fc3b6b6a3f15c0ff7934ead34c5c03",
+   "len": 32
+  },
+  "dtru-768/opt/pk": {
+   "sha256_16": "be026472c61e744d836540bb752b226e",
+   "len": 1130
+  },
+  "dtru-768/opt/sk": {
+   "sha256_16": "32a08f51a28578151196eeac43bbba84",
+   "len": 1546
+  },
+  "dtru-768/opt/ct": {
+   "sha256_16": "16364018833efc6b6abe0cda9f6da4bd",
+   "len": 960
+  },
+  "dtru-768/opt/ss": {
+   "sha256_16": "f55e9e7cfd7c697a3ec49769bea88ff4",
+   "len": 32
+  }
+ },
+ "checks": {
+  "dtru-768/ref/kat-roundtrip": "PASS",
+  "dtru-768/ref/tampered-ct-rejected": "PASS",
+  "dtru-768/opt/kat-roundtrip": "PASS",
+  "dtru-768/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "dtru-768": "kind=KEM pk=1130 sk=1546 ct=960 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 239312,
+ "heap_free_min": 166236,
+ "unit": "kem_DTRU__DTRU-768",
+ "pid": "kem_DTRU",
+ "param": "DTRU-768",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 140368,
+ "seconds": 2.0,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors_PACK_PK/KAT_KEM_DTRU-768.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

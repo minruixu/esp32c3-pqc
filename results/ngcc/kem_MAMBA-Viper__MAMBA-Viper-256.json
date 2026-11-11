@@ -1,0 +1,202 @@
+{
+ "results": {
+  "mamba-viper-256/ref/kat": {
+   "iters": 1,
+   "avg_us": 113571,
+   "min_us": 113571,
+   "max_us": 113571,
+   "stack": 31096,
+   "heap": 3136,
+   "rc": 0
+  },
+  "mamba-viper-256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 30249,
+   "min_us": 30249,
+   "max_us": 30249,
+   "stack": 25224,
+   "heap": 2752,
+   "rc": 0
+  },
+  "mamba-viper-256/ref/encaps": {
+   "iters": 3,
+   "avg_us": 38282,
+   "min_us": 38279,
+   "max_us": 38284,
+   "stack": 30680,
+   "heap": 3136,
+   "rc": 0
+  },
+  "mamba-viper-256/ref/decaps": {
+   "iters": 3,
+   "avg_us": 43561,
+   "min_us": 43560,
+   "max_us": 43565,
+   "stack": 31080,
+   "heap": 3136,
+   "rc": 0
+  },
+  "mamba-viper-256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 43537,
+   "min_us": 43537,
+   "max_us": 43537,
+   "stack": 31096,
+   "heap": 3136,
+   "rc": 0
+  },
+  "mamba-viper-256/opt/kat": {
+   "iters": 1,
+   "avg_us": 97360,
+   "min_us": 97360,
+   "max_us": 97360,
+   "stack": 31096,
+   "heap": 3136,
+   "rc": 0
+  },
+  "mamba-viper-256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 25643,
+   "min_us": 25640,
+   "max_us": 25646,
+   "stack": 25224,
+   "heap": 2752,
+   "rc": 0
+  },
+  "mamba-viper-256/opt/encaps": {
+   "iters": 3,
+   "avg_us": 32541,
+   "min_us": 32541,
+   "max_us": 32541,
+   "stack": 30680,
+   "heap": 3136,
+   "rc": 0
+  },
+  "mamba-viper-256/opt/decaps": {
+   "iters": 3,
+   "avg_us": 37700,
+   "min_us": 37697,
+   "max_us": 37702,
+   "stack": 31080,
+   "heap": 3136,
+   "rc": 0
+  },
+  "mamba-viper-256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 37678,
+   "min_us": 37678,
+   "max_us": 37678,
+   "stack": 31096,
+   "heap": 3136,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mamba-viper-256/ref/kat0-pk": {
+   "sha256_16": "99f9baa27afe7bc0440540826eb88e89",
+   "len": 1312
+  },
+  "mamba-viper-256/ref/kat0-sk": {
+   "sha256_16": "7b62809c015607dc64a8760345bbf4e3",
+   "len": 2912
+  },
+  "mamba-viper-256/ref/kat0-ct": {
+   "sha256_16": "742c7ec882f1f6c467136908292df2a8",
+   "len": 1472
+  },
+  "mamba-viper-256/ref/kat0-ss": {
+   "sha256_16": "53285bddc746c6f027e4f6d6c18a8a90",
+   "len": 32
+  },
+  "mamba-viper-256/ref/pk": {
+   "sha256_16": "64b9317151eade2cd1659aa6e0405565",
+   "len": 1312
+  },
+  "mamba-viper-256/ref/sk": {
+   "sha256_16": "614b021ac79e45679ffbe294386340b5",
+   "len": 2912
+  },
+  "mamba-viper-256/ref/ct": {
+   "sha256_16": "20fc954254de3e8aa8e47f381e057a09",
+   "len": 1472
+  },
+  "mamba-viper-256/ref/ss": {
+   "sha256_16": "105e146ac83db6bbeebfbe6ccec9eca3",
+   "len": 32
+  },
+  "mamba-viper-256/opt/kat0-pk": {
+   "sha256_16": "99f9baa27afe7bc0440540826eb88e89",
+   "len": 1312
+  },
+  "mamba-viper-256/opt/kat0-sk": {
+   "sha256_16": "7b62809c015607dc64a8760345bbf4e3",
+   "len": 2912
+  },
+  "mamba-viper-256/opt/kat0-ct": {
+   "sha256_16": "742c7ec882f1f6c467136908292df2a8",
+   "len": 1472
+  },
+  "mamba-viper-256/opt/kat0-ss": {
+   "sha256_16": "53285bddc746c6f027e4f6d6c18a8a90",
+   "len": 32
+  },
+  "mamba-viper-256/opt/pk": {
+   "sha256_16": "64b9317151eade2cd1659aa6e0405565",
+   "len": 1312
+  },
+  "mamba-viper-256/opt/sk": {
+   "sha256_16": "614b021ac79e45679ffbe294386340b5",
+   "len": 2912
+  },
+  "mamba-viper-256/opt/ct": {
+   "sha256_16": "20fc954254de3e8aa8e47f381e057a09",
+   "len": 1472
+  },
+  "mamba-viper-256/opt/ss": {
+   "sha256_16": "105e146ac83db6bbeebfbe6ccec9eca3",
+   "len": 32
+  }
+ },
+ "checks": {
+  "mamba-viper-256/ref/kat-roundtrip": "PASS",
+  "mamba-viper-256/ref/tampered-ct-rejected": "PASS",
+  "mamba-viper-256/opt/kat-roundtrip": "PASS",
+  "mamba-viper-256/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "mamba-viper-256": "kind=KEM pk=1312 sk=2912 ct=1472 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 241408,
+ "heap_free_min": 165256,
+ "unit": "kem_MAMBA-Viper__MAMBA-Viper-256",
+ "pid": "kem_MAMBA-Viper",
+ "param": "MAMBA-Viper-256",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 138064,
+ "seconds": 2.6,
+ "kat": {
+  "result": "match",
+  "file": "API_PKC/API_PKC/Test_Vectors/KAT_KEM_MAMBA-Viper-256.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

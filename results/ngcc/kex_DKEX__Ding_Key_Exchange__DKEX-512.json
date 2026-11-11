@@ -1,0 +1,33 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "dkex-512": "kind=KEX passes=3 pk=2592 sk=4896 sta=9312 stb=2592 ss=64 msgs=15718",
+  "job_stack": "65536"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 224992,
+ "unit": "kex_DKEX__Ding_Key_Exchange__DKEX-512",
+ "pid": "kex_DKEX__Ding_Key_Exchange",
+ "param": "DKEX-512",
+ "kind": "KEX",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 154272,
+ "seconds": 3.7,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "Guru Meditation Error: Core  0 panic'ed (Stack protection fault).",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

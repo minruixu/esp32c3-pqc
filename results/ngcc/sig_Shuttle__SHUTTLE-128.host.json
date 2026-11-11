@@ -1,0 +1,177 @@
+{
+ "results": {
+  "shuttle-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 2266,
+   "min_us": 2266,
+   "max_us": 2266,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 396,
+   "min_us": 378,
+   "max_us": 430,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-128/ref/sign": {
+   "iters": 3,
+   "avg_us": 556,
+   "min_us": 545,
+   "max_us": 577,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-128/ref/verify": {
+   "iters": 3,
+   "avg_us": 140,
+   "min_us": 134,
+   "max_us": 151,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 314,
+   "min_us": 314,
+   "max_us": 314,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 2292,
+   "min_us": 2292,
+   "max_us": 2292,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 441,
+   "min_us": 387,
+   "max_us": 487,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-128/opt/sign": {
+   "iters": 3,
+   "avg_us": 531,
+   "min_us": 526,
+   "max_us": 534,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-128/opt/verify": {
+   "iters": 3,
+   "avg_us": 144,
+   "min_us": 142,
+   "max_us": 148,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "shuttle-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 279,
+   "min_us": 279,
+   "max_us": 279,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "shuttle-128/ref/kat0-pk": {
+   "sha256_16": "5451dbd60e0370e033fda7d9f7204d32",
+   "len": 1264
+  },
+  "shuttle-128/ref/kat0-sk": {
+   "sha256_16": "3ddeb92d30f7a44436a3004d61e8d35b",
+   "len": 2288
+  },
+  "shuttle-128/ref/kat0-sig": {
+   "sha256_16": "4e6c552a7a520b583382f42429e2540d",
+   "len": 1183
+  },
+  "shuttle-128/ref/pk": {
+   "sha256_16": "12a1abdfb6d053a149321e3e0e8907ec",
+   "len": 1264
+  },
+  "shuttle-128/ref/sk": {
+   "sha256_16": "55043ec140befc2d8e736cb38e656d05",
+   "len": 2288
+  },
+  "shuttle-128/ref/sig": {
+   "sha256_16": "23968f140638c99db1c9df9833ebea71",
+   "len": 1183
+  },
+  "shuttle-128/opt/kat0-pk": {
+   "sha256_16": "5451dbd60e0370e033fda7d9f7204d32",
+   "len": 1264
+  },
+  "shuttle-128/opt/kat0-sk": {
+   "sha256_16": "3ddeb92d30f7a44436a3004d61e8d35b",
+   "len": 2288
+  },
+  "shuttle-128/opt/kat0-sig": {
+   "sha256_16": "4e6c552a7a520b583382f42429e2540d",
+   "len": 1183
+  },
+  "shuttle-128/opt/pk": {
+   "sha256_16": "12a1abdfb6d053a149321e3e0e8907ec",
+   "len": 1264
+  },
+  "shuttle-128/opt/sk": {
+   "sha256_16": "55043ec140befc2d8e736cb38e656d05",
+   "len": 2288
+  },
+  "shuttle-128/opt/sig": {
+   "sha256_16": "23968f140638c99db1c9df9833ebea71",
+   "len": 1183
+  }
+ },
+ "checks": {
+  "shuttle-128/ref/kat-roundtrip": "PASS",
+  "shuttle-128/ref/tampered-rejected": "PASS",
+  "shuttle-128/opt/kat-roundtrip": "PASS",
+  "shuttle-128/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "shuttle-128": "kind=SIG pk=1264 sk=2288 sig=1183",
+  "job_stack": "0",
+  "kat0_sig_len": "1183",
+  "sig_len": "1183"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Shuttle__SHUTTLE-128",
+ "pid": "sig_Shuttle",
+ "param": "SHUTTLE-128",
+ "kind": "SIG",
+ "seconds": 1.6,
+ "kat": {
+  "result": "match",
+  "file": "Implementation codes and test vectors/Shuttle \u7b97\u6cd5\u5b9e\u73b0\u6e90\u4ee3\u7801\u53ca\u6d4b\u8bd5\u5411\u91cf/Test_Vectors/KAT_SIG_SHUTTLE-128.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

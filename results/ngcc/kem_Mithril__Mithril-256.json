@@ -1,0 +1,202 @@
+{
+ "results": {
+  "mithril-256/ref/kat": {
+   "iters": 1,
+   "avg_us": 121249,
+   "min_us": 121249,
+   "max_us": 121249,
+   "stack": 19784,
+   "heap": 1856,
+   "rc": 0
+  },
+  "mithril-256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 33845,
+   "min_us": 33843,
+   "max_us": 33848,
+   "stack": 11832,
+   "heap": 1792,
+   "rc": 0
+  },
+  "mithril-256/ref/encaps": {
+   "iters": 3,
+   "avg_us": 39849,
+   "min_us": 39846,
+   "max_us": 39851,
+   "stack": 16216,
+   "heap": 1792,
+   "rc": 0
+  },
+  "mithril-256/ref/decaps": {
+   "iters": 3,
+   "avg_us": 45824,
+   "min_us": 45823,
+   "max_us": 45828,
+   "stack": 19768,
+   "heap": 1856,
+   "rc": 0
+  },
+  "mithril-256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 45824,
+   "min_us": 45824,
+   "max_us": 45824,
+   "stack": 19784,
+   "heap": 1856,
+   "rc": 0
+  },
+  "mithril-256/opt/kat": {
+   "iters": 1,
+   "avg_us": 111703,
+   "min_us": 111703,
+   "max_us": 111703,
+   "stack": 19784,
+   "heap": 1856,
+   "rc": 0
+  },
+  "mithril-256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 30741,
+   "min_us": 30741,
+   "max_us": 30742,
+   "stack": 11832,
+   "heap": 1792,
+   "rc": 0
+  },
+  "mithril-256/opt/encaps": {
+   "iters": 3,
+   "avg_us": 36638,
+   "min_us": 36635,
+   "max_us": 36640,
+   "stack": 16216,
+   "heap": 1792,
+   "rc": 0
+  },
+  "mithril-256/opt/decaps": {
+   "iters": 3,
+   "avg_us": 42594,
+   "min_us": 42594,
+   "max_us": 42595,
+   "stack": 19768,
+   "heap": 1856,
+   "rc": 0
+  },
+  "mithril-256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 42594,
+   "min_us": 42594,
+   "max_us": 42594,
+   "stack": 19784,
+   "heap": 1856,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mithril-256/ref/kat0-pk": {
+   "sha256_16": "42d29a5c5949db23fc47d795bea64ec9",
+   "len": 1648
+  },
+  "mithril-256/ref/kat0-sk": {
+   "sha256_16": "d97c37937c5745a332483890ece0bed9",
+   "len": 2000
+  },
+  "mithril-256/ref/kat0-ct": {
+   "sha256_16": "81d755920313c469de180c778336e53b",
+   "len": 1680
+  },
+  "mithril-256/ref/kat0-ss": {
+   "sha256_16": "ef059da1bce00fa0131f1c68561bb326",
+   "len": 32
+  },
+  "mithril-256/ref/pk": {
+   "sha256_16": "25ba7501a410529d9eca86c5349c0cd6",
+   "len": 1648
+  },
+  "mithril-256/ref/sk": {
+   "sha256_16": "2493f9439fd7e0bb53e56ee3ad876431",
+   "len": 2000
+  },
+  "mithril-256/ref/ct": {
+   "sha256_16": "ef62c66c4d3f57e0b391b486506f6e8e",
+   "len": 1680
+  },
+  "mithril-256/ref/ss": {
+   "sha256_16": "11346f40f68fb094e50824b7c1556577",
+   "len": 32
+  },
+  "mithril-256/opt/kat0-pk": {
+   "sha256_16": "42d29a5c5949db23fc47d795bea64ec9",
+   "len": 1648
+  },
+  "mithril-256/opt/kat0-sk": {
+   "sha256_16": "d97c37937c5745a332483890ece0bed9",
+   "len": 2000
+  },
+  "mithril-256/opt/kat0-ct": {
+   "sha256_16": "81d755920313c469de180c778336e53b",
+   "len": 1680
+  },
+  "mithril-256/opt/kat0-ss": {
+   "sha256_16": "ef059da1bce00fa0131f1c68561bb326",
+   "len": 32
+  },
+  "mithril-256/opt/pk": {
+   "sha256_16": "25ba7501a410529d9eca86c5349c0cd6",
+   "len": 1648
+  },
+  "mithril-256/opt/sk": {
+   "sha256_16": "2493f9439fd7e0bb53e56ee3ad876431",
+   "len": 2000
+  },
+  "mithril-256/opt/ct": {
+   "sha256_16": "ef62c66c4d3f57e0b391b486506f6e8e",
+   "len": 1680
+  },
+  "mithril-256/opt/ss": {
+   "sha256_16": "11346f40f68fb094e50824b7c1556577",
+   "len": 32
+  }
+ },
+ "checks": {
+  "mithril-256/ref/kat-roundtrip": "PASS",
+  "mithril-256/ref/tampered-ct-rejected": "PASS",
+  "mithril-256/opt/kat-roundtrip": "PASS",
+  "mithril-256/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "mithril-256": "kind=KEM pk=1648 sk=2000 ct=1680 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 244336,
+ "heap_free_min": 169788,
+ "unit": "kem_Mithril__Mithril-256",
+ "pid": "kem_Mithril",
+ "param": "Mithril-256",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 135152,
+ "seconds": 2.8,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_Mithril-256.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

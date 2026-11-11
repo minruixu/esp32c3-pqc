@@ -1,0 +1,187 @@
+{
+ "results": {
+  "origami-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 2675556,
+   "min_us": 2675556,
+   "max_us": 2675556,
+   "stack": 12800,
+   "heap": 15404,
+   "rc": 0
+  },
+  "origami-128/ref/keygen": {
+   "iters": 1,
+   "avg_us": 89820,
+   "min_us": 89820,
+   "max_us": 89820,
+   "stack": 3312,
+   "heap": 15404,
+   "rc": 0
+  },
+  "origami-128/ref/sign": {
+   "iters": 1,
+   "avg_us": 1338076,
+   "min_us": 1338076,
+   "max_us": 1338076,
+   "stack": 12240,
+   "heap": 15404,
+   "rc": 0
+  },
+  "origami-128/ref/verify": {
+   "iters": 1,
+   "avg_us": 1241887,
+   "min_us": 1241887,
+   "max_us": 1241887,
+   "stack": 7632,
+   "heap": 14636,
+   "rc": 0
+  },
+  "origami-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 2483758,
+   "min_us": 2483758,
+   "max_us": 2483758,
+   "stack": 7648,
+   "heap": 14636,
+   "rc": 0
+  },
+  "origami-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 2084969,
+   "min_us": 2084969,
+   "max_us": 2084969,
+   "stack": 12624,
+   "heap": 15404,
+   "rc": 0
+  },
+  "origami-128/opt/keygen": {
+   "iters": 1,
+   "avg_us": 59373,
+   "min_us": 59373,
+   "max_us": 59373,
+   "stack": 3136,
+   "heap": 15404,
+   "rc": 0
+  },
+  "origami-128/opt/sign": {
+   "iters": 1,
+   "avg_us": 1044473,
+   "min_us": 1044473,
+   "max_us": 1044473,
+   "stack": 12064,
+   "heap": 15404,
+   "rc": 0
+  },
+  "origami-128/opt/verify": {
+   "iters": 1,
+   "avg_us": 975336,
+   "min_us": 975336,
+   "max_us": 975336,
+   "stack": 7456,
+   "heap": 14636,
+   "rc": 0
+  },
+  "origami-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1950661,
+   "min_us": 1950661,
+   "max_us": 1950661,
+   "stack": 7472,
+   "heap": 14636,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "origami-128/ref/kat0-pk": {
+   "sha256_16": "039380de98a08a23a8fa9e7b19754d12",
+   "len": 2996
+  },
+  "origami-128/ref/kat0-sk": {
+   "sha256_16": "3cdd96d5d6e1166fbcd5caffb57535e1",
+   "len": 16
+  },
+  "origami-128/ref/kat0-sig": {
+   "sha256_16": "0b31a939456da0d4646f3c6b8e7596ee",
+   "len": 116
+  },
+  "origami-128/ref/pk": {
+   "sha256_16": "81aaaf5a1c811f29606027113daddced",
+   "len": 2996
+  },
+  "origami-128/ref/sk": {
+   "sha256_16": "9ec9fee968609855caa99a1c90483ffb",
+   "len": 16
+  },
+  "origami-128/ref/sig": {
+   "sha256_16": "b4c426599cd0349cd34af54fc1c78191",
+   "len": 116
+  },
+  "origami-128/opt/kat0-pk": {
+   "sha256_16": "039380de98a08a23a8fa9e7b19754d12",
+   "len": 2996
+  },
+  "origami-128/opt/kat0-sk": {
+   "sha256_16": "3cdd96d5d6e1166fbcd5caffb57535e1",
+   "len": 16
+  },
+  "origami-128/opt/kat0-sig": {
+   "sha256_16": "0b31a939456da0d4646f3c6b8e7596ee",
+   "len": 116
+  },
+  "origami-128/opt/pk": {
+   "sha256_16": "81aaaf5a1c811f29606027113daddced",
+   "len": 2996
+  },
+  "origami-128/opt/sk": {
+   "sha256_16": "9ec9fee968609855caa99a1c90483ffb",
+   "len": 16
+  },
+  "origami-128/opt/sig": {
+   "sha256_16": "b4c426599cd0349cd34af54fc1c78191",
+   "len": 116
+  }
+ },
+ "checks": {
+  "origami-128/ref/kat-roundtrip": "PASS",
+  "origami-128/ref/tampered-rejected": "PASS",
+  "origami-128/opt/kat-roundtrip": "PASS",
+  "origami-128/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "origami-128": "kind=SIG pk=2996 sk=16 sig=116",
+  "job_stack": "65536",
+  "kat0_sig_len": "116",
+  "sig_len": "116"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 235984,
+ "heap_free_min": 150684,
+ "unit": "sig_Origami__Origami-128",
+ "pid": "sig_Origami",
+ "param": "Origami-128",
+ "kind": "SIG",
+ "iters": 1,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 142496,
+ "seconds": 15.6,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/KAT_SIG_Origami-128.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 12,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

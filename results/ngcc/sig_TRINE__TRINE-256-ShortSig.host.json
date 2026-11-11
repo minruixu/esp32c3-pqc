@@ -1,0 +1,55 @@
+{
+ "results": {
+  "trine-256-shortsig/ref/kat": {
+   "iters": 1,
+   "avg_us": 51651379,
+   "min_us": 51651379,
+   "max_us": 51651379,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "trine-256-shortsig/ref/kat0-pk": {
+   "sha256_16": "9bf3ac062d00bb4f88eef361f98bab18",
+   "len": 384064
+  },
+  "trine-256-shortsig/ref/kat0-sk": {
+   "sha256_16": "c67129edee16eae8551a1288c38174a9",
+   "len": 64
+  },
+  "trine-256-shortsig/ref/kat0-sig": {
+   "sha256_16": "00e2c4fb7a77b9e59dbba5646e4c6c3d",
+   "len": 5968
+  }
+ },
+ "checks": {
+  "trine-256-shortsig/ref/kat-roundtrip": "PASS"
+ },
+ "info": {
+  "trine-256-shortsig": "kind=SIG pk=384064 sk=64 sig=5968",
+  "job_stack": "0",
+  "kat0_sig_len": "5968"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "unit": "sig_TRINE__TRINE-256-ShortSig",
+ "pid": "sig_TRINE",
+ "param": "TRINE-256-ShortSig",
+ "kind": "SIG",
+ "seconds": 150.8,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_TRINE-256-ShortSig.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "crashes",
+ "reason": "host run exceeded 150 s"
+}

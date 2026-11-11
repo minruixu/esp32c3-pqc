@@ -1,0 +1,202 @@
+{
+ "results": {
+  "lwekem128/ref/kat": {
+   "iters": 1,
+   "avg_us": 316723,
+   "min_us": 316723,
+   "max_us": 316723,
+   "stack": 20168,
+   "heap": 1008,
+   "rc": 0
+  },
+  "lwekem128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 104416,
+   "min_us": 104414,
+   "max_us": 104420,
+   "stack": 16696,
+   "heap": 944,
+   "rc": 0
+  },
+  "lwekem128/ref/encaps": {
+   "iters": 3,
+   "avg_us": 104671,
+   "min_us": 104669,
+   "max_us": 104675,
+   "stack": 18296,
+   "heap": 944,
+   "rc": 0
+  },
+  "lwekem128/ref/decaps": {
+   "iters": 3,
+   "avg_us": 106143,
+   "min_us": 106142,
+   "max_us": 106147,
+   "stack": 20152,
+   "heap": 1008,
+   "rc": 0
+  },
+  "lwekem128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 106142,
+   "min_us": 106142,
+   "max_us": 106142,
+   "stack": 20168,
+   "heap": 1008,
+   "rc": 0
+  },
+  "lwekem128/opt/kat": {
+   "iters": 1,
+   "avg_us": 209370,
+   "min_us": 209370,
+   "max_us": 209370,
+   "stack": 19992,
+   "heap": 1008,
+   "rc": 0
+  },
+  "lwekem128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 68648,
+   "min_us": 68645,
+   "max_us": 68650,
+   "stack": 16520,
+   "heap": 944,
+   "rc": 0
+  },
+  "lwekem128/opt/encaps": {
+   "iters": 3,
+   "avg_us": 68885,
+   "min_us": 68882,
+   "max_us": 68887,
+   "stack": 18120,
+   "heap": 944,
+   "rc": 0
+  },
+  "lwekem128/opt/decaps": {
+   "iters": 3,
+   "avg_us": 70340,
+   "min_us": 70340,
+   "max_us": 70341,
+   "stack": 19976,
+   "heap": 1008,
+   "rc": 0
+  },
+  "lwekem128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 70341,
+   "min_us": 70341,
+   "max_us": 70341,
+   "stack": 19992,
+   "heap": 1008,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "lwekem128/ref/kat0-pk": {
+   "sha256_16": "aa284ea4821a1efa2a4607b96cea01c2",
+   "len": 880
+  },
+  "lwekem128/ref/kat0-sk": {
+   "sha256_16": "849305deaa68e3c6cb895c6c690ec0e8",
+   "len": 1776
+  },
+  "lwekem128/ref/kat0-ct": {
+   "sha256_16": "4ed7af10fdc0bfadb665afc2852d7ad0",
+   "len": 912
+  },
+  "lwekem128/ref/kat0-ss": {
+   "sha256_16": "769611b67c2dd2aafa0b13df76c153ed",
+   "len": 16
+  },
+  "lwekem128/ref/pk": {
+   "sha256_16": "e4b2e04a1eeea428ec9407038ccb00ef",
+   "len": 880
+  },
+  "lwekem128/ref/sk": {
+   "sha256_16": "f6743aa3b711d94203bd164be847f300",
+   "len": 1776
+  },
+  "lwekem128/ref/ct": {
+   "sha256_16": "2e686f4d3a525c3ded98d00af9f832d1",
+   "len": 912
+  },
+  "lwekem128/ref/ss": {
+   "sha256_16": "63b630b93452b0e6bfcc3197b6d6f84e",
+   "len": 16
+  },
+  "lwekem128/opt/kat0-pk": {
+   "sha256_16": "aa284ea4821a1efa2a4607b96cea01c2",
+   "len": 880
+  },
+  "lwekem128/opt/kat0-sk": {
+   "sha256_16": "849305deaa68e3c6cb895c6c690ec0e8",
+   "len": 1776
+  },
+  "lwekem128/opt/kat0-ct": {
+   "sha256_16": "4ed7af10fdc0bfadb665afc2852d7ad0",
+   "len": 912
+  },
+  "lwekem128/opt/kat0-ss": {
+   "sha256_16": "769611b67c2dd2aafa0b13df76c153ed",
+   "len": 16
+  },
+  "lwekem128/opt/pk": {
+   "sha256_16": "e4b2e04a1eeea428ec9407038ccb00ef",
+   "len": 880
+  },
+  "lwekem128/opt/sk": {
+   "sha256_16": "f6743aa3b711d94203bd164be847f300",
+   "len": 1776
+  },
+  "lwekem128/opt/ct": {
+   "sha256_16": "2e686f4d3a525c3ded98d00af9f832d1",
+   "len": 912
+  },
+  "lwekem128/opt/ss": {
+   "sha256_16": "63b630b93452b0e6bfcc3197b6d6f84e",
+   "len": 16
+  }
+ },
+ "checks": {
+  "lwekem128/ref/kat-roundtrip": "PASS",
+  "lwekem128/ref/tampered-ct-rejected": "PASS",
+  "lwekem128/opt/kat-roundtrip": "PASS",
+  "lwekem128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "lwekem128": "kind=KEM pk=880 sk=1776 ct=912 ss=16",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 247088,
+ "heap_free_min": 175212,
+ "unit": "kem_Rudraksh2__lwekem128",
+ "pid": "kem_Rudraksh2",
+ "param": "lwekem128",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 132672,
+ "seconds": 3.9,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_lwekem128.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

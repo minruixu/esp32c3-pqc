@@ -1,0 +1,845 @@
+{
+ "source": "https://www.niccs.org.cn/niccs/Proposal/pc/list.html",
+ "packages": [
+  {
+   "id": "kem_Aigis-Enc+",
+   "name": "Aigis-Enc+",
+   "type": "KEM",
+   "published": "2026-09-20 11:42",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Aigis-Enc%2B.zip",
+   "file": "Aigis-Enc+.zip",
+   "size": 13910031,
+   "sha256": "1c053133175cd189fd9f0e058bde684168f55a6fc3871de2a755404a08990186"
+  },
+  {
+   "id": "kem_Amoeba",
+   "name": "Amoeba",
+   "type": "KEM",
+   "published": "2026-09-20 11:41",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Amoeba.zip",
+   "file": "Amoeba.zip",
+   "size": 4397050,
+   "sha256": "719c438a30cccd72c9d83da4b5150fee0c55351f2c13e7a66fd61bf653ca5c24"
+  },
+  {
+   "id": "kem_BAG-Loong",
+   "name": "BAG-Loong",
+   "type": "KEM",
+   "published": "2026-09-20 11:40",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/BAG-Loong.zip",
+   "file": "BAG-Loong.zip",
+   "size": 16321958,
+   "sha256": "2795fd57d3d00791652256362b4a21982116d3aad1fb63633dac923e0e76e05b"
+  },
+  {
+   "id": "kem_BAG-Piglet",
+   "name": "BAG-Piglet",
+   "type": "KEM",
+   "published": "2026-09-20 11:29",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/BAG-Piglet.zip",
+   "file": "BAG-Piglet.zip",
+   "size": 10529983,
+   "sha256": "31afe1f2f4e97ad77929d7855c7d9011d69755049d155c09be9339bc99b1d405"
+  },
+  {
+   "id": "kem_BIKE-MLThre",
+   "name": "BIKE-MLThre",
+   "type": "KEM",
+   "published": "2026-09-20 11:28",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/BIKE_MLThre.zip",
+   "file": "BIKE_MLThre.zip",
+   "size": 38667045,
+   "sha256": "3a5d97532003786374b68b39779cff4e4938f593fef9596f171652c6ff593917"
+  },
+  {
+   "id": "kem_BRA",
+   "name": "BRA",
+   "type": "KEM",
+   "published": "2026-09-20 11:27",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/BRA.zip",
+   "file": "BRA.zip",
+   "size": 9361891,
+   "sha256": "612a3fe69c7a28fae7ca87a226d29e67a9cffb6ce9e4cbe54ac9de37f7650d7a"
+  },
+  {
+   "id": "kem_BRQC",
+   "name": "BRQC",
+   "type": "KEM",
+   "published": "2026-09-20 11:26",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/BRQC.zip",
+   "file": "BRQC.zip",
+   "size": 9739992,
+   "sha256": "2c76bdd4e4df7829bf22fa4949a3c744b9af692425f6f2e5fae5317d41e366ae"
+  },
+  {
+   "id": "kem_BW-KEM",
+   "name": "BW-KEM",
+   "type": "KEM",
+   "published": "2026-09-20 11:25",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/BW-KEM.zip",
+   "file": "BW-KEM.zip",
+   "size": 13851186,
+   "sha256": "a1f8a079df7d55576209f45fcf00afd700fc60c0b18d758d572585ccea594ae3"
+  },
+  {
+   "id": "kem_C-Multi-UR-AG",
+   "name": "C-Multi-UR-AG",
+   "type": "KEM",
+   "published": "2026-09-20 11:23",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/C-Multi-UR-AG.zip",
+   "file": "C-Multi-UR-AG.zip",
+   "size": 12265869,
+   "sha256": "c41e372a55e1dd4aa0e30c6b53d9d7b4f9cd1d7ae431763535e1e61097445e2c"
+  },
+  {
+   "id": "kem_CheetahKEM",
+   "name": "CheetahKEM",
+   "type": "KEM",
+   "published": "2026-09-20 11:24",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/CheetahKEM.zip",
+   "file": "CheetahKEM.zip",
+   "size": 8357751,
+   "sha256": "fc321e46bac9c387535e2053bed560eac3d3cd88ba9bebc154f5bf68dd47dcd1"
+  },
+  {
+   "id": "kem_COMPASS-KEM",
+   "name": "COMPASS-KEM",
+   "type": "KEM",
+   "published": "2026-09-20 11:22",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/COMPASS-KEM.zip",
+   "file": "COMPASS-KEM.zip",
+   "size": 50427183,
+   "sha256": "8fc838488ac0849d4c6afd161f8b9742c7a8b9a330bc3b79df70ced7e2d1d5e2"
+  },
+  {
+   "id": "kem_CTL_Algorithm",
+   "name": "CTL Algorithm",
+   "type": "KEM",
+   "published": "2026-09-20 11:21",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/CTL.zip",
+   "file": "CTL.zip",
+   "size": 37952459,
+   "sha256": "512caaf5fa04ea5ab51fb5eeee9e81f8c7c7c430b60727130067634bfb674d01"
+  },
+  {
+   "id": "kem_DKEM__Ding_Key_Encapsulation",
+   "name": "DKEM (Ding Key Encapsulation)",
+   "type": "KEM",
+   "published": "2026-09-20 11:20",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/DKEM.zip",
+   "file": "DKEM.zip",
+   "size": 8992809,
+   "sha256": "862f40ba424253bae7fadbc9c2f54a568b77e0f97fba4728c5fd1e4e826dddc7"
+  },
+  {
+   "id": "kem_DTRU",
+   "name": "DTRU",
+   "type": "KEM",
+   "published": "2026-09-20 11:19",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/DTRU.zip",
+   "file": "DTRU.zip",
+   "size": 20677386,
+   "sha256": "ed443d6a9e2e6c50e4956e9b30ce078ae0598a8846962d04b9894cac0816527b"
+  },
+  {
+   "id": "kem_FLIT",
+   "name": "FLIT",
+   "type": "KEM",
+   "published": "2026-09-20 11:18",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/FLIT.zip",
+   "file": "FLIT.zip",
+   "size": 5802560,
+   "sha256": "6c560f434b347fbac8334f55b9ba2838cb1cf885d5aa25e95acb66ed6c6de0fe"
+  },
+  {
+   "id": "kem_HARE",
+   "name": "HARE",
+   "type": "KEM",
+   "published": "2026-09-20 11:17",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/HARE.zip",
+   "file": "HARE.zip",
+   "size": 16015701,
+   "sha256": "718bb70eee268550fcef2a82e8eb9879c51ecfdbaefd6bfe2157e7639ffc8557"
+  },
+  {
+   "id": "kem_Hybrid_Equivalent_Punctured_and_Quasi-Cyclic",
+   "name": "Hybrid Equivalent Punctured and Quasi-Cyclic",
+   "type": "KEM",
+   "published": "2026-09-20 11:16",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/HEP-QC.zip",
+   "file": "HEP-QC.zip",
+   "size": 789966981,
+   "sha256": "3780991127f49b6397b4182d32b35ab7a6359bf825a707e90df0f809beeb3790"
+  },
+  {
+   "id": "kem_LoongKEM",
+   "name": "LoongKEM",
+   "type": "KEM",
+   "published": "2026-09-20 11:15",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/LoongKEM.zip",
+   "file": "LoongKEM.zip",
+   "size": 8583603,
+   "sha256": "a6e5070647a40e7de1bf6e5b085dc1d6423c003a409864fdb303d87f881cec0b"
+  },
+  {
+   "id": "kem_Lore",
+   "name": "Lore",
+   "type": "KEM",
+   "published": "2026-09-20 11:14",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Lore.zip",
+   "file": "Lore.zip",
+   "size": 10424731,
+   "sha256": "e33130fb45a3b1e220f8043739d1396a884c0043cb4336104e67e5404c7cc725"
+  },
+  {
+   "id": "kem_MAMBA-Frost",
+   "name": "MAMBA-Frost",
+   "type": "KEM",
+   "published": "2026-09-20 11:13",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/MAMBA-Frost.zip",
+   "file": "MAMBA-Frost.zip",
+   "size": 23341608,
+   "sha256": "ae363dbefd69d64e99987b64105d60bfa376d97c8b58b055665761559c44c78b"
+  },
+  {
+   "id": "kem_MAMBA-Viper",
+   "name": "MAMBA-Viper",
+   "type": "KEM",
+   "published": "2026-09-20 10:50",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/MAMBA-Viper.zip",
+   "file": "MAMBA-Viper.zip",
+   "size": 11898713,
+   "sha256": "cdf52bb77066664f74eb44872d5ab1785c22df194e50c603120432a169c61f4c"
+  },
+  {
+   "id": "kem_Mithril",
+   "name": "Mithril",
+   "type": "KEM",
+   "published": "2026-09-20 10:48",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Mithril.zip",
+   "file": "Mithril.zip",
+   "size": 13023595,
+   "sha256": "9fed68e7923c6bc9ede072183f7d3983058f88deec5534e779ed2200ee4f7f9f"
+  },
+  {
+   "id": "kem_Mito",
+   "name": "Mito",
+   "type": "KEM",
+   "published": "2026-09-20 10:47",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Mito.zip",
+   "file": "Mito.zip",
+   "size": 20911711,
+   "sha256": "ee11788a3e8bf8653d18ade6580c47a331b91e7eac3e31a5a6750a4b4cfb827b"
+  },
+  {
+   "id": "kem_MORNING-Scabbard",
+   "name": "MORNING-Scabbard",
+   "type": "KEM",
+   "published": "2026-09-20 10:46",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/MORNING-Scabbard.zip",
+   "file": "MORNING-Scabbard.zip",
+   "size": 16810898,
+   "sha256": "fdb6749116bddbb8a86074b9ab6f5f55d37540b92e3964906dede0b09c7faf4b"
+  },
+  {
+   "id": "kem_NEV",
+   "name": "NEV",
+   "type": "KEM",
+   "published": "2026-09-20 10:45",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/NEV.zip",
+   "file": "NEV.zip",
+   "size": 13284152,
+   "sha256": "8105c6241a322661411e870a3087338f48f4f5c477a540387b800c08955cc7fd"
+  },
+  {
+   "id": "kem_NSS-HQC",
+   "name": "NSS-HQC",
+   "type": "KEM",
+   "published": "2026-09-20 10:43",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/NSS-HQC.zip",
+   "file": "NSS-HQC.zip",
+   "size": 7408070,
+   "sha256": "033994e27bf0dc824078593a98eb51465f979b1bca0932cabb29be6626447638"
+  },
+  {
+   "id": "kem_NTRE_Key_Encapsulation_Mechanism",
+   "name": "NTRE Key Encapsulation Mechanism",
+   "type": "KEM",
+   "published": "2026-09-20 10:42",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/NTRE.zip",
+   "file": "NTRE.zip",
+   "size": 9622416,
+   "sha256": "9c0bad4c4846998df1214ba562e1c3b8aece6b69f08234a9bb0d89e3a5a4ea9a"
+  },
+  {
+   "id": "kem_OAEP-NTRU",
+   "name": "OAEP-NTRU",
+   "type": "KEM",
+   "published": "2026-09-20 10:41",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/OAEP-NTRU.zip",
+   "file": "OAEP-NTRU.zip",
+   "size": 6170350,
+   "sha256": "aaab8e0692fd19dd2edda5384b5e85bba74661d478823b48cab3cccb53675756"
+  },
+  {
+   "id": "kem_Polar-KEM",
+   "name": "Polar-KEM",
+   "type": "KEM",
+   "published": "2026-09-20 10:38",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Polar-KEM.zip",
+   "file": "Polar-KEM.zip",
+   "size": 1081142,
+   "sha256": "3ae9d4f1a717fb473e76447014d585cd5d14fe38728f02b1a044cc6a2d03e16d"
+  },
+  {
+   "id": "kem_PolarLAC",
+   "name": "PolarLAC",
+   "type": "KEM",
+   "published": "2026-09-20 10:35",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/PolarLAC.zip",
+   "file": "PolarLAC.zip",
+   "size": 13109792,
+   "sha256": "906be26ce8d27de335b691ff8490b2344b46d7519d88c799cba0242324e4882c"
+  },
+  {
+   "id": "kem_QIMEN-PIKE",
+   "name": "QIMEN-PIKE",
+   "type": "KEM",
+   "published": "2026-09-20 10:34",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/QIMEN-PIKE.zip",
+   "file": "QIMEN-PIKE.zip",
+   "size": 35179832,
+   "sha256": "eff17fd345bbb44cbaeb822bece3c0b82b8d00f49278e72a89c83e2551c1752a"
+  },
+  {
+   "id": "kem_Quasi-Cyclic_Twisted_McEliece_Key_Encapsulation_Mechanism",
+   "name": "Quasi-Cyclic Twisted McEliece Key Encapsulation Mechanism",
+   "type": "KEM",
+   "published": "2026-09-20 10:33",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/QCTM.zip",
+   "file": "QCTM.zip",
+   "size": 87169850,
+   "sha256": "24a3986a4fbb852a677267a6443756328eae3642af770e767fe38f8291f294db"
+  },
+  {
+   "id": "kem_QUBE",
+   "name": "QUBE",
+   "type": "KEM",
+   "published": "2026-09-20 10:33",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/QUBE.zip",
+   "file": "QUBE.zip",
+   "size": 7113093,
+   "sha256": "f5eedd8a4bf786cd5a56a21f2c7ad5cf3307939a1bf0aeca5041920067880396"
+  },
+  {
+   "id": "kem_Rudraksh2",
+   "name": "Rudraksh2",
+   "type": "KEM",
+   "published": "2026-09-20 10:32",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Rudraksh2.zip",
+   "file": "Rudraksh2.zip",
+   "size": 19766493,
+   "sha256": "569d526cf7abe38393f69a4513686fa86a0c3b3033cc225b84cc107b20b17b98"
+  },
+  {
+   "id": "kem_Scloud+",
+   "name": "Scloud+",
+   "type": "KEM",
+   "published": "2026-09-20 10:31",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Scloud%2B.zip",
+   "file": "Scloud+.zip",
+   "size": 12578761,
+   "sha256": "050aad7293ec90fafd9070e82877eedc81caf0aaaca932c995619a3f35429876"
+  },
+  {
+   "id": "kem_TRIKE",
+   "name": "TRIKE",
+   "type": "KEM",
+   "published": "2026-09-20 10:30",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/TRIKE.zip",
+   "file": "TRIKE.zip",
+   "size": 6460305,
+   "sha256": "03956a13fde3d402513bfcf9942f2b04fd23e98b01a3dc52b48938b9c89fe4d6"
+  },
+  {
+   "id": "kem_TriQ-KEM",
+   "name": "TriQ-KEM",
+   "type": "KEM",
+   "published": "2026-09-20 10:29",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/TriQ-KEM.zip",
+   "file": "TriQ-KEM.zip",
+   "size": 18591835,
+   "sha256": "1e4b96e7a849c95b4a6511c5739be9e0b4adf19b00195c2c0ce14f66be316876"
+  },
+  {
+   "id": "kem_UVW_Key_Encapsulation_Mechanism",
+   "name": "UVW Key Encapsulation Mechanism",
+   "type": "KEM",
+   "published": "2026-09-20 10:28",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/UVW-KEM.zip",
+   "file": "UVW-KEM.zip",
+   "size": 75587362,
+   "sha256": "f9a1b135ea16aca0c974861732e03cd3164f1288f33ff150ff66c98326b75bcb"
+  },
+  {
+   "id": "kem_Weaver",
+   "name": "Weaver",
+   "type": "KEM",
+   "published": "2026-09-20 10:28",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/Weaver.zip",
+   "file": "Weaver.zip",
+   "size": 5743165,
+   "sha256": "9b0bad96e9bc836b0ff811492a70891066df5634ee47fda4d1518dccd4e09927"
+  },
+  {
+   "id": "kem_YuanYang.KEM",
+   "name": "YuanYang.KEM",
+   "type": "KEM",
+   "published": "2026-09-20 10:27",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/YuanYang.KEM.zip",
+   "file": "YuanYang.KEM.zip",
+   "size": 18320042,
+   "sha256": "fe1bf3d78272bb79048e7d456819160324c6140206798cb77a22c2babcfdcf4a"
+  },
+  {
+   "id": "kem_ZEN",
+   "name": "ZEN",
+   "type": "KEM",
+   "published": "2026-09-20 10:25",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Encapsulation/ZEN.zip",
+   "file": "ZEN.zip",
+   "size": 37391107,
+   "sha256": "69eba070320fc6cb365fb6d43d2b74460487732aeb7e607fac2d6c1b3a64a80e"
+  },
+  {
+   "id": "kex_ADKEX__Authenticated_Ding_Key_Exchange",
+   "name": "ADKEX (Authenticated Ding Key Exchange)",
+   "type": "KEX",
+   "published": "2026-09-20 10:18",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/ADKEX.zip",
+   "file": "ADKEX.zip",
+   "size": 9144467,
+   "sha256": "bbadecca0ce9d3f3131129b17c91e0ab89a81e077710e53f7a569a30475a23f2"
+  },
+  {
+   "id": "kex_AFS-KEX",
+   "name": "AFS-KEX",
+   "type": "KEX",
+   "published": "2026-09-20 10:17",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/AFS-KEX.zip",
+   "file": "AFS-KEX.zip",
+   "size": 9752914,
+   "sha256": "7d902107b74870e512c84da82c6bfb386633ca864ddc7df2f7b0b183511f983a"
+  },
+  {
+   "id": "kex_CreTAKE",
+   "name": "CreTAKE",
+   "type": "KEX",
+   "published": "2026-09-20 10:15",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/CreTAKE.zip",
+   "file": "CreTAKE.zip",
+   "size": 17998433,
+   "sha256": "0b356074741bc20fa82132719e1678e001083b9746f5c4c582425b727b511741"
+  },
+  {
+   "id": "kex_DKEX__Ding_Key_Exchange",
+   "name": "DKEX (Ding Key Exchange)",
+   "type": "KEX",
+   "published": "2026-09-20 09:43",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/DKEX.zip",
+   "file": "DKEX.zip",
+   "size": 11261599,
+   "sha256": "979c22239b4a2fb6732e68029c06659f8a7b582c00ca163e1ec72874b227e117"
+  },
+  {
+   "id": "kex_Loom",
+   "name": "Loom",
+   "type": "KEX",
+   "published": "2026-09-20 09:42",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/Loom.zip",
+   "file": "Loom.zip",
+   "size": 24191394,
+   "sha256": "e9e7ff0fb453a371634797febeaeac7c1f081b5fd2438204787c763667482ec4"
+  },
+  {
+   "id": "kex_MAMBA-NIKE",
+   "name": "MAMBA-NIKE",
+   "type": "KEX",
+   "published": "2026-09-20 09:41",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/MAMBA-NIKE.zip",
+   "file": "MAMBA-NIKE.zip",
+   "size": 10286525,
+   "sha256": "79b53ff726121ccb1ce970003c06b605e973c4e4f452dbe780e70cd4c40ca018"
+  },
+  {
+   "id": "kex_NEV-AKE",
+   "name": "NEV-AKE",
+   "type": "KEX",
+   "published": "2026-09-20 09:40",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/NEV-AKE.zip",
+   "file": "NEV-AKE.zip",
+   "size": 12680002,
+   "sha256": "da75005b4060167f25125cbd1a769ed872c8b6fcb770fe0827a599e44536e8e6"
+  },
+  {
+   "id": "kex_NIIKE",
+   "name": "NIIKE",
+   "type": "KEX",
+   "published": "2026-09-20 09:39",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/NIIKE.zip",
+   "file": "NIIKE.zip",
+   "size": 18829414,
+   "sha256": "4f79f9a62aed06db83f2965abcc42ca98ce5cc2128cebd15b50a46cfbb633dbe"
+  },
+  {
+   "id": "kex_TriQ-KEX",
+   "name": "TriQ-KEX",
+   "type": "KEX",
+   "published": "2026-09-20 09:39",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Key%20Exchange/TriQ-KEX.zip",
+   "file": "TriQ-KEX.zip",
+   "size": 26471558,
+   "sha256": "dde9bf3e8d75fc3df53bcbcacaba4faed39272b8ef2f1ac199ae0128d327b505"
+  },
+  {
+   "id": "sig_Aigis-Sig+",
+   "name": "Aigis-Sig+",
+   "type": "SIG",
+   "published": "2026-09-20 14:25",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Aigis-Sig%2B.zip",
+   "file": "Aigis-Sig+.zip",
+   "size": 17707823,
+   "sha256": "88242576a3ae8f9d090b0c9045020f04ee9b5ae828e01b839f25267959e9c7ea"
+  },
+  {
+   "id": "sig_BIT__Bimodal_Triangular_distribution_based_lattice_signatures",
+   "name": "BIT: Bimodal Triangular distribution based lattice signatures",
+   "type": "SIG",
+   "published": "2026-09-20 14:24",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/BiT.zip",
+   "file": "BiT.zip",
+   "size": 46217115,
+   "sha256": "698fbe834279a4100a66c20f3e0b634c738e1150936acf74b55efc6db6975e8d"
+  },
+  {
+   "id": "sig_CEDRUS+C",
+   "name": "CEDRUS+C",
+   "type": "SIG",
+   "published": "2026-09-20 14:23",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/cedrus%2Bc.zip",
+   "file": "cedrus+c.zip",
+   "size": 18695378,
+   "sha256": "a31de849cf0a0703a4e57decbdf4d97b100d00dc74756feaded2c04a7593e110"
+  },
+  {
+   "id": "sig_CEDRUSɑ",
+   "name": "CEDRUSɑ",
+   "type": "SIG",
+   "published": "2026-09-20 14:22",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/cedrus-%CE%B1.zip",
+   "file": "cedrus-α.zip",
+   "size": 18774773,
+   "sha256": "b90559ca94bda0130420f91fa52eeb242063a57188c766037c1b234ec3af563b"
+  },
+  {
+   "id": "sig_Chinith",
+   "name": "Chinith",
+   "type": "SIG",
+   "published": "2026-09-20 14:21",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Chinith.zip",
+   "file": "Chinith.zip",
+   "size": 12927882,
+   "sha256": "4d31ba3fe8718f59901b7efdf01b4179912ef8e04f58b4b6dbba84186f002283"
+  },
+  {
+   "id": "sig_COMPASS-SIG",
+   "name": "COMPASS-SIG",
+   "type": "SIG",
+   "published": "2026-09-20 14:20",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/COMPASS-SIG.zip",
+   "file": "COMPASS-SIG.zip",
+   "size": 38075657,
+   "sha256": "ce88066506fe9b58c300b3ca51462c7a8350484d88ad5b8a9c9f17b5152ca820"
+  },
+  {
+   "id": "sig_CS",
+   "name": "CS",
+   "type": "SIG",
+   "published": "2026-09-20 14:19",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/CS.zip",
+   "file": "CS.zip",
+   "size": 13640373,
+   "sha256": "c790d31cd4a288990f3d692381ed721a06641938a02dfc2e0435b7d323475cef"
+  },
+  {
+   "id": "sig_DARTS",
+   "name": "DARTS",
+   "type": "SIG",
+   "published": "2026-09-20 14:18",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/DARTS.zip",
+   "file": "DARTS.zip",
+   "size": 13212635,
+   "sha256": "1846cfe63f0cef83e2e0ca21f5dcadce3c4b16da33713957be6d156e2a9e6e95"
+  },
+  {
+   "id": "sig_DOVE",
+   "name": "DOVE",
+   "type": "SIG",
+   "published": "2026-09-20 14:17",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/DOVE.zip",
+   "file": "DOVE.zip",
+   "size": 594738942,
+   "sha256": "19169e545f6a6fd90b844b0deb72db81b5eb73c136873d1dae113c2c39d1c6e0"
+  },
+  {
+   "id": "sig_Facto-DSA",
+   "name": "Facto-DSA",
+   "type": "SIG",
+   "published": "2026-09-20 14:16",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Facto-DSA.zip",
+   "file": "Facto-DSA.zip",
+   "size": 8545209,
+   "sha256": "b3de38fcc2d92ce83290d17cb250dde61f95d3326a49ada36fad3c578f2fc509"
+  },
+  {
+   "id": "sig_FlexTree",
+   "name": "FlexTree",
+   "type": "SIG",
+   "published": "2026-09-20 14:16",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Flextree.zip",
+   "file": "Flextree.zip",
+   "size": 100597177,
+   "sha256": "f31d434ac297ef6a8c454bf9d219f125290749de157df3eb90d29ae3b8a0270a"
+  },
+  {
+   "id": "sig_Galas_Signature_Scheme",
+   "name": "Galas Signature Scheme",
+   "type": "SIG",
+   "published": "2026-09-20 14:14",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Galas%20Signature.zip",
+   "file": "Galas Signature.zip",
+   "size": 41464713,
+   "sha256": "98d57af868fa10d74b2c0656e565aa14a42ff902646d6fc440ffb7355b75342c"
+  },
+  {
+   "id": "sig_GreatWall_Signature_Algorithm",
+   "name": "GreatWall Signature Algorithm",
+   "type": "SIG",
+   "published": "2026-09-20 14:14",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/GreatWall.zip",
+   "file": "GreatWall.zip",
+   "size": 21571838,
+   "sha256": "814cd3b977ddc0cc59828861c145580473b1a62a66da852b078edbaf689f5a8d"
+  },
+  {
+   "id": "sig_Lynxer",
+   "name": "Lynxer",
+   "type": "SIG",
+   "published": "2026-09-20 14:13",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Lynxer.zip",
+   "file": "Lynxer.zip",
+   "size": 17106428,
+   "sha256": "34d863f7df8979c4a5e27fcfe657ed54e81905115c0afc8ef749f50af432f928"
+  },
+  {
+   "id": "sig_MORNING-ATLAS",
+   "name": "MORNING-ATLAS",
+   "type": "SIG",
+   "published": "2026-09-20 14:12",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/MORNING-ATLAS.zip",
+   "file": "MORNING-ATLAS.zip",
+   "size": 12010922,
+   "sha256": "c796b106a7d43b2b3d6110ec2be426aa321cc7336f39a2cc027b2d6e8b4cc8c1"
+  },
+  {
+   "id": "sig_Octarine",
+   "name": "Octarine",
+   "type": "SIG",
+   "published": "2026-09-20 14:11",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Octarine.zip",
+   "file": "Octarine.zip",
+   "size": 13994983,
+   "sha256": "7044d22735d39f902df35dd7d8d77c850cd296c81517e8c19134a2f9d006655a"
+  },
+  {
+   "id": "sig_OPS_Digital_Signature_Algorithm",
+   "name": "OPS Digital Signature Algorithm",
+   "type": "SIG",
+   "published": "2026-09-20 14:10",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/OPS%20Digital%20Signature%20Algorithm.zip",
+   "file": "OPS Digital Signature Algorithm.zip",
+   "size": 4746912,
+   "sha256": "02322c6792259231ab8eb3cc094be32be02a1b9b6b1d7c86b0029c37b0f04d09"
+  },
+  {
+   "id": "sig_Origami",
+   "name": "Origami",
+   "type": "SIG",
+   "published": "2026-09-20 14:09",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Origami.zip",
+   "file": "Origami.zip",
+   "size": 28360686,
+   "sha256": "e34f18832e968681dd0c51ce0d4b29d80e01ad29daa83dfb805718b76fdffa80"
+  },
+  {
+   "id": "sig_Phoenix",
+   "name": "Phoenix",
+   "type": "SIG",
+   "published": "2026-09-20 14:08",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Phoenix.zip",
+   "file": "Phoenix.zip",
+   "size": 23235965,
+   "sha256": "ec801791976a10baffa852c479afd12362af3b5fb6420104254fb48814d99918"
+  },
+  {
+   "id": "sig_Qing_Luan",
+   "name": "Qing Luan",
+   "type": "SIG",
+   "published": "2026-09-20 14:08",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/QingLuan.zip",
+   "file": "QingLuan.zip",
+   "size": 28035220,
+   "sha256": "2eb8f3ed205eb7c7e8b3108a997b59643d1aa5579035b8093b4ddbe051a48007"
+  },
+  {
+   "id": "sig_ReSolveD-ɑ",
+   "name": "ReSolveD-ɑ",
+   "type": "SIG",
+   "published": "2026-09-20 14:07",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/ReSolveD-alpha.zip",
+   "file": "ReSolveD-alpha.zip",
+   "size": 11061844,
+   "sha256": "499821538d7f79464cc1ee1468254b0e49f750794a591ffe038938c4cfa11914"
+  },
+  {
+   "id": "sig_Rhyme",
+   "name": "Rhyme",
+   "type": "SIG",
+   "published": "2026-09-20 14:06",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Rhyme.zip",
+   "file": "Rhyme.zip",
+   "size": 15133161,
+   "sha256": "7b509d21c6674bc23751b8743cb7c2a4a07ee295fafe04e2fa95c0613160bdfd"
+  },
+  {
+   "id": "sig_Shuttle",
+   "name": "Shuttle",
+   "type": "SIG",
+   "published": "2026-09-20 14:05",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/shuttle.zip",
+   "file": "shuttle.zip",
+   "size": 9327439,
+   "sha256": "09253fd33c2215098177991db3375cb94e4e4a73a65b019783edabefa5bd8a62"
+  },
+  {
+   "id": "sig_Sigurd",
+   "name": "Sigurd",
+   "type": "SIG",
+   "published": "2026-09-20 14:05",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Sigurd.zip",
+   "file": "Sigurd.zip",
+   "size": 17804763,
+   "sha256": "443ab14257658d89a60e14ad0d4b7f4df9fcdd06da4f42fcb29bbbfc75a97153"
+  },
+  {
+   "id": "sig_SQIsign2D-push1_2",
+   "name": "SQIsign2D-push1/2",
+   "type": "SIG",
+   "published": "2026-09-20 14:03",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/SQIsign2D-push12.zip",
+   "file": "SQIsign2D-push12.zip",
+   "size": 15147408,
+   "sha256": "98b7e4ffddfe31b5fb0f448345b49228c8d8a7c87078688ba1656b28631448c5"
+  },
+  {
+   "id": "sig_SQIsign2D2",
+   "name": "SQIsign2D2",
+   "type": "SIG",
+   "published": "2026-09-20 14:04",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/SQIsign2D2.zip",
+   "file": "SQIsign2D2.zip",
+   "size": 19195437,
+   "sha256": "cf635de5eebbdeb7b2212e84f349da4ca878889e0a4a59b463d0c8cdfdb8eeab"
+  },
+  {
+   "id": "sig_SQIsignTriangle",
+   "name": "SQIsignTriangle",
+   "type": "SIG",
+   "published": "2026-09-20 14:02",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/SQIsignTriangle.zip",
+   "file": "SQIsignTriangle.zip",
+   "size": 25366064,
+   "sha256": "f4afa484e450e2adf4b5f9c867fb199d0d0e22d66a3eafbc8c4738744fb62c58"
+  },
+  {
+   "id": "sig_SYDO",
+   "name": "SYDO",
+   "type": "SIG",
+   "published": "2026-09-20 14:01",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/SYDO.zip",
+   "file": "SYDO.zip",
+   "size": 51062301,
+   "sha256": "c4ae5b27a188612cd286a786179ce5461e6aca0b8599ba13b8d77b210a940adb"
+  },
+  {
+   "id": "sig_Tins",
+   "name": "Tins",
+   "type": "SIG",
+   "published": "2026-09-20 14:01",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/Tins.zip",
+   "file": "Tins.zip",
+   "size": 6352110,
+   "sha256": "84affc1f7cbdeec48a7cb6df3349b5708644672f2ac12140c529e74f6d57ca21"
+  },
+  {
+   "id": "sig_TRINE",
+   "name": "TRINE",
+   "type": "SIG",
+   "published": "2026-09-20 14:00",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/TRINE.zip",
+   "file": "TRINE.zip",
+   "size": 67794477,
+   "sha256": "4b22f54b07509833b08d32402ffe06d7566e4c87622f9931079e791c80f4765d"
+  },
+  {
+   "id": "sig_TSUOV",
+   "name": "TSUOV",
+   "type": "SIG",
+   "published": "2026-09-20 13:59",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/TSUOV.zip",
+   "file": "TSUOV.zip",
+   "size": 4398417,
+   "sha256": "7ab1effc5fe911c6ab9483ca44a9d9f6d6d911b03eee9f2873b384d97f9aee1d"
+  },
+  {
+   "id": "sig_UVW_signature",
+   "name": "UVW signature",
+   "type": "SIG",
+   "published": "2026-09-20 13:58",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/UVW%20signature.zip",
+   "file": "UVW signature.zip",
+   "size": 1326858513,
+   "sha256": "bbfa8dad5ee57083578b50b9937e773e6158f72646e825da3d3265cc00cb1294"
+  },
+  {
+   "id": "sig_VDOO__Vinegar-Diagonal-Oil-Oil",
+   "name": "VDOO: Vinegar-Diagonal-Oil-Oil",
+   "type": "SIG",
+   "published": "2026-09-20 13:54",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/VDOO.zip",
+   "file": "VDOO.zip",
+   "size": 396850232,
+   "sha256": "4b7bb0f15388b395b9308ae480f25622105a734f0ab4a6bd16398438c4b9752a"
+  },
+  {
+   "id": "sig_YuanYang.DSA",
+   "name": "YuanYang.DSA",
+   "type": "SIG",
+   "published": "2026-09-20 13:43",
+   "url": "https://www.niccs.org.cn/niccs/Proposal/Public-Key%20Cryptographic%20Algorithms/Round%201%20candidates/Digital%20Signature/YuanYang.DSA.zip",
+   "file": "YuanYang.DSA.zip",
+   "size": 19879383,
+   "sha256": "1eb45f24ad8f7ff25db923479c6500f273aee8b2470d76339030fed8d96b5b31"
+  }
+ ]
+}

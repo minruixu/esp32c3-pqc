@@ -1,0 +1,192 @@
+{
+ "results": {
+  "mamba-frost-384/ref/kat": {
+   "iters": 1,
+   "avg_us": 158704,
+   "min_us": 158704,
+   "max_us": 158704,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-384/ref/keygen": {
+   "iters": 3,
+   "avg_us": 41630,
+   "min_us": 40199,
+   "max_us": 43052,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-384/ref/encaps": {
+   "iters": 3,
+   "avg_us": 66158,
+   "min_us": 56894,
+   "max_us": 73199,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-384/ref/decaps": {
+   "iters": 3,
+   "avg_us": 64881,
+   "min_us": 61099,
+   "max_us": 68769,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-384/ref/tamper": {
+   "iters": 1,
+   "avg_us": 59557,
+   "min_us": 59557,
+   "max_us": 59557,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-384/opt/kat": {
+   "iters": 1,
+   "avg_us": 180001,
+   "min_us": 180001,
+   "max_us": 180001,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-384/opt/keygen": {
+   "iters": 3,
+   "avg_us": 48309,
+   "min_us": 44276,
+   "max_us": 50796,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-384/opt/encaps": {
+   "iters": 3,
+   "avg_us": 71437,
+   "min_us": 56925,
+   "max_us": 87974,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-384/opt/decaps": {
+   "iters": 3,
+   "avg_us": 69059,
+   "min_us": 61374,
+   "max_us": 79635,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-384/opt/tamper": {
+   "iters": 1,
+   "avg_us": 67877,
+   "min_us": 67877,
+   "max_us": 67877,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mamba-frost-384/ref/kat0-pk": {
+   "sha256_16": "c2e8d937cac8ab5d0d3b7a8140cfae5e",
+   "len": 25096
+  },
+  "mamba-frost-384/ref/kat0-sk": {
+   "sha256_16": "4e78f665733c26801687d4c332ac9ee3",
+   "len": 29032
+  },
+  "mamba-frost-384/ref/kat0-ct": {
+   "sha256_16": "5f0e42c68660ed5366023fa78cada71a",
+   "len": 37736
+  },
+  "mamba-frost-384/ref/kat0-ss": {
+   "sha256_16": "605867ac2f89380346c0527b4509a613",
+   "len": 48
+  },
+  "mamba-frost-384/ref/pk": {
+   "sha256_16": "86e9d111e7cdb536fa78b99a8c9a0473",
+   "len": 25096
+  },
+  "mamba-frost-384/ref/sk": {
+   "sha256_16": "50107f2e08984bae593c658567182f4c",
+   "len": 29032
+  },
+  "mamba-frost-384/ref/ct": {
+   "sha256_16": "64772222f4c4096c979a34849d408bdb",
+   "len": 37736
+  },
+  "mamba-frost-384/ref/ss": {
+   "sha256_16": "7a8a97dd451a5c935461fde2286c2f31",
+   "len": 48
+  },
+  "mamba-frost-384/opt/kat0-pk": {
+   "sha256_16": "c2e8d937cac8ab5d0d3b7a8140cfae5e",
+   "len": 25096
+  },
+  "mamba-frost-384/opt/kat0-sk": {
+   "sha256_16": "4e78f665733c26801687d4c332ac9ee3",
+   "len": 29032
+  },
+  "mamba-frost-384/opt/kat0-ct": {
+   "sha256_16": "5f0e42c68660ed5366023fa78cada71a",
+   "len": 37736
+  },
+  "mamba-frost-384/opt/kat0-ss": {
+   "sha256_16": "605867ac2f89380346c0527b4509a613",
+   "len": 48
+  },
+  "mamba-frost-384/opt/pk": {
+   "sha256_16": "86e9d111e7cdb536fa78b99a8c9a0473",
+   "len": 25096
+  },
+  "mamba-frost-384/opt/sk": {
+   "sha256_16": "50107f2e08984bae593c658567182f4c",
+   "len": 29032
+  },
+  "mamba-frost-384/opt/ct": {
+   "sha256_16": "64772222f4c4096c979a34849d408bdb",
+   "len": 37736
+  },
+  "mamba-frost-384/opt/ss": {
+   "sha256_16": "7a8a97dd451a5c935461fde2286c2f31",
+   "len": 48
+  }
+ },
+ "checks": {
+  "mamba-frost-384/ref/kat-roundtrip": "PASS",
+  "mamba-frost-384/ref/tampered-ct-rejected": "PASS",
+  "mamba-frost-384/opt/kat-roundtrip": "PASS",
+  "mamba-frost-384/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "mamba-frost-384": "kind=KEM pk=25096 sk=29032 ct=37736 ss=48",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_MAMBA-Frost__MAMBA-Frost-384",
+ "pid": "kem_MAMBA-Frost",
+ "param": "MAMBA-Frost-384",
+ "kind": "KEM",
+ "seconds": 3.9,
+ "kat": {
+  "result": "match",
+  "file": "API_PKC/API_PKC/Test_Vectors/KAT_KEM_MAMBA-Frost-384.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

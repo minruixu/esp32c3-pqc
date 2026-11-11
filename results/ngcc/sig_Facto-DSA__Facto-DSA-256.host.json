@@ -1,0 +1,172 @@
+{
+ "results": {
+  "facto-dsa-256/ref/kat": {
+   "iters": 1,
+   "avg_us": 13127,
+   "min_us": 13127,
+   "max_us": 13127,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "facto-dsa-256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 12219,
+   "min_us": 11310,
+   "max_us": 13787,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "facto-dsa-256/ref/sign": {
+   "iters": 3,
+   "avg_us": 656,
+   "min_us": 652,
+   "max_us": 662,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "facto-dsa-256/ref/verify": {
+   "iters": 3,
+   "avg_us": 1683,
+   "min_us": 1657,
+   "max_us": 1699,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "facto-dsa-256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 3350,
+   "min_us": 3350,
+   "max_us": 3350,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "facto-dsa-256/opt/kat": {
+   "iters": 1,
+   "avg_us": 14567,
+   "min_us": 14567,
+   "max_us": 14567,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "facto-dsa-256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 11391,
+   "min_us": 10904,
+   "max_us": 12083,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "facto-dsa-256/opt/sign": {
+   "iters": 3,
+   "avg_us": 616,
+   "min_us": 577,
+   "max_us": 648,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "facto-dsa-256/opt/verify": {
+   "iters": 3,
+   "avg_us": 1490,
+   "min_us": 1450,
+   "max_us": 1557,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "facto-dsa-256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 3534,
+   "min_us": 3534,
+   "max_us": 3534,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "facto-dsa-256/ref/kat0-pk": {
+   "sha256_16": "11c92ffb788ca00792c067e5eaf4f848",
+   "len": 456960
+  },
+  "facto-dsa-256/ref/kat0-sk": {
+   "sha256_16": "59241b97748deffa2eeeebd8aa9b5cc2",
+   "len": 11662
+  },
+  "facto-dsa-256/ref/kat0-sig": {
+   "sha256_16": "fbc8448a4bf5bd6954cf3695e93fc6cf",
+   "len": 68
+  },
+  "facto-dsa-256/ref/pk": {
+   "sha256_16": "073cb66ec77a6ce5d332cc4979d9d462",
+   "len": 456960
+  },
+  "facto-dsa-256/ref/sk": {
+   "sha256_16": "d5d55e2fbd7a6e020e4423590bacac41",
+   "len": 11662
+  },
+  "facto-dsa-256/ref/sig": {
+   "sha256_16": "6db25c2236b0d17a4110e51a127bbca5",
+   "len": 68
+  },
+  "facto-dsa-256/opt/kat0-pk": {
+   "sha256_16": "c35d0871e271bedadbe9dd6f9dcfc333",
+   "len": 456960
+  },
+  "facto-dsa-256/opt/kat0-sk": {
+   "sha256_16": "3337cfd9dadb1b8556923c1079eadef3",
+   "len": 11662
+  },
+  "facto-dsa-256/opt/kat0-sig": {
+   "sha256_16": "b4b4720d8350675d749bc3b8ccf5eb41",
+   "len": 68
+  },
+  "facto-dsa-256/opt/pk": {
+   "sha256_16": "073cb66ec77a6ce5d332cc4979d9d462",
+   "len": 456960
+  },
+  "facto-dsa-256/opt/sk": {
+   "sha256_16": "d5d55e2fbd7a6e020e4423590bacac41",
+   "len": 11662
+  },
+  "facto-dsa-256/opt/sig": {
+   "sha256_16": "6db25c2236b0d17a4110e51a127bbca5",
+   "len": 68
+  }
+ },
+ "checks": {
+  "facto-dsa-256/ref/kat-roundtrip": "PASS",
+  "facto-dsa-256/ref/tampered-rejected": "PASS",
+  "facto-dsa-256/opt/kat-roundtrip": "PASS",
+  "facto-dsa-256/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "facto-dsa-256": "kind=SIG pk=456960 sk=11662 sig=68",
+  "job_stack": "0",
+  "kat0_sig_len": "68",
+  "sig_len": "68"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Facto-DSA__Facto-DSA-256",
+ "pid": "sig_Facto-DSA",
+ "param": "Facto-DSA-256",
+ "kind": "SIG",
+ "seconds": 1.2,
+ "kat": {
+  "result": "differs",
+  "detail": "no KAT file starts with this public key"
+ },
+ "verdict": "works",
+ "reason": ""
+}

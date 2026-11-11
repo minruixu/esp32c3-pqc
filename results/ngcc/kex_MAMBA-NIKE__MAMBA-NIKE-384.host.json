@@ -1,0 +1,188 @@
+{
+ "results": {
+  "mamba-nike-384/ref/kat": {
+   "iters": 1,
+   "avg_us": 5872,
+   "min_us": 5872,
+   "max_us": 5872,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-nike-384/ref/init_a": {
+   "iters": 3,
+   "avg_us": 735,
+   "min_us": 689,
+   "max_us": 819,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-nike-384/ref/init_b": {
+   "iters": 3,
+   "avg_us": 773,
+   "min_us": 696,
+   "max_us": 890,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-nike-384/ref/full": {
+   "iters": 3,
+   "avg_us": 13221,
+   "min_us": 3510,
+   "max_us": 32640,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-nike-384/opt/kat": {
+   "iters": 1,
+   "avg_us": 4214,
+   "min_us": 4214,
+   "max_us": 4214,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-nike-384/opt/init_a": {
+   "iters": 3,
+   "avg_us": 701,
+   "min_us": 697,
+   "max_us": 706,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-nike-384/opt/init_b": {
+   "iters": 3,
+   "avg_us": 725,
+   "min_us": 696,
+   "max_us": 782,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-nike-384/opt/full": {
+   "iters": 3,
+   "avg_us": 13744,
+   "min_us": 3514,
+   "max_us": 34189,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mamba-nike-384/ref/kat0-pka": {
+   "sha256_16": "92276d9c4eb4075b98a8cd729c7641a5",
+   "len": 2848
+  },
+  "mamba-nike-384/ref/kat0-pkb": {
+   "sha256_16": "ae1709da5b21f0cdb3e151c1aa23a5c2",
+   "len": 2848
+  },
+  "mamba-nike-384/ref/kat0-m1": {
+   "sha256_16": "bf01b8b3966dba302769a2ec7cb295c0",
+   "len": 3360
+  },
+  "mamba-nike-384/ref/kat0-m2": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "mamba-nike-384/ref/kat0-ss": {
+   "sha256_16": "0e73fb770781bb82447bbda330d4b72c",
+   "len": 48
+  },
+  "mamba-nike-384/ref/pka": {
+   "sha256_16": "52f06b2e49aaf2bd9f3ae29fb9f23f3f",
+   "len": 2848
+  },
+  "mamba-nike-384/ref/pkb": {
+   "sha256_16": "e26baa9c3cf731710a6080a70c0fabe7",
+   "len": 2848
+  },
+  "mamba-nike-384/ref/m1": {
+   "sha256_16": "5329b092b0cbec119f454a36fd1f1ca1",
+   "len": 3360
+  },
+  "mamba-nike-384/ref/m2": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "mamba-nike-384/ref/ss": {
+   "sha256_16": "d5b839c940105da6123dfe7350f02f7c",
+   "len": 48
+  },
+  "mamba-nike-384/opt/kat0-pka": {
+   "sha256_16": "92276d9c4eb4075b98a8cd729c7641a5",
+   "len": 2848
+  },
+  "mamba-nike-384/opt/kat0-pkb": {
+   "sha256_16": "ae1709da5b21f0cdb3e151c1aa23a5c2",
+   "len": 2848
+  },
+  "mamba-nike-384/opt/kat0-m1": {
+   "sha256_16": "bf01b8b3966dba302769a2ec7cb295c0",
+   "len": 3360
+  },
+  "mamba-nike-384/opt/kat0-m2": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "mamba-nike-384/opt/kat0-ss": {
+   "sha256_16": "0e73fb770781bb82447bbda330d4b72c",
+   "len": 48
+  },
+  "mamba-nike-384/opt/pka": {
+   "sha256_16": "52f06b2e49aaf2bd9f3ae29fb9f23f3f",
+   "len": 2848
+  },
+  "mamba-nike-384/opt/pkb": {
+   "sha256_16": "e26baa9c3cf731710a6080a70c0fabe7",
+   "len": 2848
+  },
+  "mamba-nike-384/opt/m1": {
+   "sha256_16": "5329b092b0cbec119f454a36fd1f1ca1",
+   "len": 3360
+  },
+  "mamba-nike-384/opt/m2": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "mamba-nike-384/opt/ss": {
+   "sha256_16": "d5b839c940105da6123dfe7350f02f7c",
+   "len": 48
+  }
+ },
+ "checks": {
+  "mamba-nike-384/ref/kat-roundtrip": "PASS",
+  "mamba-nike-384/opt/kat-roundtrip": "PASS"
+ },
+ "info": {
+  "mamba-nike-384": "kind=KEX passes=1 pk=2848 sk=6944 sta=48 stb=0 ss=48 msgs=3360",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kex_MAMBA-NIKE__MAMBA-NIKE-384",
+ "pid": "kex_MAMBA-NIKE",
+ "param": "MAMBA-NIKE-384",
+ "kind": "KEX",
+ "seconds": 2.7,
+ "kat": {
+  "result": "match",
+  "file": "API_PKC/API_PKC/Test_Vectors/KAT_KEX_MAMBA-NIKE-384.txt",
+  "fields": [
+   "m1",
+   "pka",
+   "pkb",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

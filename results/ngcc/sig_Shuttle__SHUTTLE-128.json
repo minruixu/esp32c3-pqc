@@ -1,0 +1,29 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "sig_Shuttle__SHUTTLE-128",
+ "pid": "sig_Shuttle",
+ "param": "SHUTTLE-128",
+ "kind": "SIG",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "verdict": "does not build",
+ "reason": "needs 128-bit integers (__int128), which the 32-bit RISC-V compiler does not have",
+ "build_errors": [
+  "sig_Shuttle/Implementation codes and test vectors/Shuttle \u7b97\u6cd5\u5b9e\u73b0\u6e90\u4ee3\u7801\u53ca\u6d4b\u8bd5\u5411\u91cf/Implementations/Reference_Implementation/SHUTTLE-128/approx_exp_poly.h:48:21: error: expected ';' before 'kShuttleExpPolyCoeff'",
+  "sig_Shuttle/Implementation codes and test vectors/Shuttle \u7b97\u6cd5\u5b9e\u73b0\u6e90\u4ee3\u7801\u53ca\u6d4b\u8bd5\u5411\u91cf/Implementations/Reference_Implementation/SHUTTLE-128/approx_exp_poly.h:50:12: error: expected expression before '__int128'",
+  "sig_Shuttle/Implementation codes and test vectors/Shuttle \u7b97\u6cd5\u5b9e\u73b0\u6e90\u4ee3\u7801\u53ca\u6d4b\u8bd5\u5411\u91cf/Implementations/Reference_Implementation/SHUTTLE-128/approx_exp_poly.h:50:21: error: expected ';' before 'kShuttleExpPolyCoeff'",
+  "sig_Shuttle/Implementation codes and test vectors/Shuttle \u7b97\u6cd5\u5b9e\u73b0\u6e90\u4ee3\u7801\u53ca\u6d4b\u8bd5\u5411\u91cf/Implementations/Reference_Implementation/SHUTTLE-128/approx_exp_poly.h:52:12: error: expected expression before '__int128'",
+  "sig_Shuttle/Implementation codes and test vectors/Shuttle \u7b97\u6cd5\u5b9e\u73b0\u6e90\u4ee3\u7801\u53ca\u6d4b\u8bd5\u5411\u91cf/Implementations/Reference_Implementation/SHUTTLE-128/approx_exp_poly.h:52:21: error: expected ';' before 'kShuttleExpPolyCoeff'",
+  "sig_Shuttle/Implementation codes and test vectors/Shuttle \u7b97\u6cd5\u5b9e\u73b0\u6e90\u4ee3\u7801\u53ca\u6d4b\u8bd5\u5411\u91cf/Implementations/Reference_Implementation/SHUTTLE-128/approx_exp_poly.h:54:12: error: expected expression before '__int128'",
+  "sig_Shuttle/Implementation codes and test vectors/Shuttle \u7b97\u6cd5\u5b9e\u73b0\u6e90\u4ee3\u7801\u53ca\u6d4b\u8bd5\u5411\u91cf/Implementations/Reference_Implementation/SHUTTLE-128/approx_exp_poly.h:54:21: error: expected ';' before 'kShuttleExpPolyCoeff'",
+  "sig_Shuttle/Implementation codes and test vectors/Shuttle \u7b97\u6cd5\u5b9e\u73b0\u6e90\u4ee3\u7801\u53ca\u6d4b\u8bd5\u5411\u91cf/Implementations/Reference_Implementation/SHUTTLE-128/approx_exp_poly.h:56:12: error: expected expression before '__int128'",
+  "sig_Shuttle/Implementation codes and test vectors/Shuttle \u7b97\u6cd5\u5b9e\u73b0\u6e90\u4ee3\u7801\u53ca\u6d4b\u8bd5\u5411\u91cf/Implementations/Reference_Implementation/SHUTTLE-128/approx_exp_poly.h:56:21: error: expected ';' before 'kShuttleExpPolyCoeff'",
+  "sig_Shuttle/Implementation codes and test vectors/Shuttle \u7b97\u6cd5\u5b9e\u73b0\u6e90\u4ee3\u7801\u53ca\u6d4b\u8bd5\u5411\u91cf/Implementations/Reference_Implementation/SHUTTLE-128/approx_exp_poly.h:58:13: error: expected expression before '__int128'"
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "results": {
+  "rhyme-shake-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 42140,
+   "min_us": 42140,
+   "max_us": 42140,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 46244,
+   "min_us": 45361,
+   "max_us": 46976,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-128/ref/sign": {
+   "iters": 3,
+   "avg_us": 174,
+   "min_us": 164,
+   "max_us": 189,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-128/ref/verify": {
+   "iters": 3,
+   "avg_us": 49,
+   "min_us": 35,
+   "max_us": 76,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 48,
+   "min_us": 48,
+   "max_us": 48,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 41767,
+   "min_us": 41767,
+   "max_us": 41767,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 48508,
+   "min_us": 47475,
+   "max_us": 49559,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-128/opt/sign": {
+   "iters": 3,
+   "avg_us": 171,
+   "min_us": 164,
+   "max_us": 180,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-128/opt/verify": {
+   "iters": 3,
+   "avg_us": 49,
+   "min_us": 35,
+   "max_us": 78,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 46,
+   "min_us": 46,
+   "max_us": 46,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "rhyme-shake-128/ref/kat0-pk": {
+   "sha256_16": "7f8b9530d77b91594c7d6979a1f431af",
+   "len": 800
+  },
+  "rhyme-shake-128/ref/kat0-sk": {
+   "sha256_16": "7b335cd7b9a4f38bbe59c0e6c20b723f",
+   "len": 11072
+  },
+  "rhyme-shake-128/ref/kat0-sig": {
+   "sha256_16": "61d07b7b3ffbc82a3e0f5b2884e52276",
+   "len": 1480
+  },
+  "rhyme-shake-128/ref/pk": {
+   "sha256_16": "998728558b323a9d165b7cee38fb2c5c",
+   "len": 800
+  },
+  "rhyme-shake-128/ref/sk": {
+   "sha256_16": "e56311b615bb588492ca723d91a9136f",
+   "len": 11072
+  },
+  "rhyme-shake-128/ref/sig": {
+   "sha256_16": "f703caf7728913016d957c5ea30b7346",
+   "len": 1489
+  },
+  "rhyme-shake-128/opt/kat0-pk": {
+   "sha256_16": "7f8b9530d77b91594c7d6979a1f431af",
+   "len": 800
+  },
+  "rhyme-shake-128/opt/kat0-sk": {
+   "sha256_16": "7b335cd7b9a4f38bbe59c0e6c20b723f",
+   "len": 11072
+  },
+  "rhyme-shake-128/opt/kat0-sig": {
+   "sha256_16": "61d07b7b3ffbc82a3e0f5b2884e52276",
+   "len": 1480
+  },
+  "rhyme-shake-128/opt/pk": {
+   "sha256_16": "998728558b323a9d165b7cee38fb2c5c",
+   "len": 800
+  },
+  "rhyme-shake-128/opt/sk": {
+   "sha256_16": "e56311b615bb588492ca723d91a9136f",
+   "len": 11072
+  },
+  "rhyme-shake-128/opt/sig": {
+   "sha256_16": "f703caf7728913016d957c5ea30b7346",
+   "len": 1489
+  }
+ },
+ "checks": {
+  "rhyme-shake-128/ref/kat-roundtrip": "PASS",
+  "rhyme-shake-128/ref/tampered-rejected": "PASS",
+  "rhyme-shake-128/opt/kat-roundtrip": "PASS",
+  "rhyme-shake-128/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "rhyme-shake-128": "kind=SIG pk=800 sk=11072 sig=5156",
+  "job_stack": "0",
+  "kat0_sig_len": "1480",
+  "sig_len": "1489"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Rhyme__Rhyme-SHAKE-128",
+ "pid": "sig_Rhyme",
+ "param": "Rhyme-SHAKE-128",
+ "kind": "SIG",
+ "seconds": 1.8,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/Rhyme-SHAKE/KAT_SIG_Rhyme-SHAKE-128.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

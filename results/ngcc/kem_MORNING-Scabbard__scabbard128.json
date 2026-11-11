@@ -1,0 +1,202 @@
+{
+ "results": {
+  "scabbard128/ref/kat": {
+   "iters": 1,
+   "avg_us": 89909,
+   "min_us": 89909,
+   "max_us": 89909,
+   "stack": 19304,
+   "heap": 800,
+   "rc": 0
+  },
+  "scabbard128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 27988,
+   "min_us": 27985,
+   "max_us": 27990,
+   "stack": 17032,
+   "heap": 800,
+   "rc": 0
+  },
+  "scabbard128/ref/encaps": {
+   "iters": 3,
+   "avg_us": 29788,
+   "min_us": 29785,
+   "max_us": 29790,
+   "stack": 18504,
+   "heap": 800,
+   "rc": 0
+  },
+  "scabbard128/ref/decaps": {
+   "iters": 3,
+   "avg_us": 30485,
+   "min_us": 30485,
+   "max_us": 30486,
+   "stack": 19288,
+   "heap": 800,
+   "rc": 0
+  },
+  "scabbard128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 30486,
+   "min_us": 30486,
+   "max_us": 30486,
+   "stack": 19304,
+   "heap": 800,
+   "rc": 0
+  },
+  "scabbard128/opt/kat": {
+   "iters": 1,
+   "avg_us": 70809,
+   "min_us": 70809,
+   "max_us": 70809,
+   "stack": 19304,
+   "heap": 800,
+   "rc": 0
+  },
+  "scabbard128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 21725,
+   "min_us": 21725,
+   "max_us": 21725,
+   "stack": 17032,
+   "heap": 800,
+   "rc": 0
+  },
+  "scabbard128/opt/encaps": {
+   "iters": 3,
+   "avg_us": 23252,
+   "min_us": 23251,
+   "max_us": 23255,
+   "stack": 18504,
+   "heap": 800,
+   "rc": 0
+  },
+  "scabbard128/opt/decaps": {
+   "iters": 3,
+   "avg_us": 24186,
+   "min_us": 24184,
+   "max_us": 24190,
+   "stack": 19288,
+   "heap": 800,
+   "rc": 0
+  },
+  "scabbard128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 24185,
+   "min_us": 24185,
+   "max_us": 24185,
+   "stack": 19304,
+   "heap": 800,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "scabbard128/ref/kat0-pk": {
+   "sha256_16": "9c4f1792bcccde737e55753bafaefe80",
+   "len": 736
+  },
+  "scabbard128/ref/kat0-sk": {
+   "sha256_16": "1215fa520fde39bc47be49548a3fe67f",
+   "len": 1056
+  },
+  "scabbard128/ref/kat0-ct": {
+   "sha256_16": "31af0631eea7e4015dba29a32fd1e596",
+   "len": 760
+  },
+  "scabbard128/ref/kat0-ss": {
+   "sha256_16": "27db9d8a589819ed79ae03c5098a61a7",
+   "len": 16
+  },
+  "scabbard128/ref/pk": {
+   "sha256_16": "5bed9cbe3f7da5b515722ac3b13e68ca",
+   "len": 736
+  },
+  "scabbard128/ref/sk": {
+   "sha256_16": "71f3a889e022541fbb75a35bd59dff08",
+   "len": 1056
+  },
+  "scabbard128/ref/ct": {
+   "sha256_16": "cb158d8d4c499faff19c16efc8462af8",
+   "len": 760
+  },
+  "scabbard128/ref/ss": {
+   "sha256_16": "9ff8a8ff421487fab72c34ce64cadc74",
+   "len": 16
+  },
+  "scabbard128/opt/kat0-pk": {
+   "sha256_16": "9c4f1792bcccde737e55753bafaefe80",
+   "len": 736
+  },
+  "scabbard128/opt/kat0-sk": {
+   "sha256_16": "1215fa520fde39bc47be49548a3fe67f",
+   "len": 1056
+  },
+  "scabbard128/opt/kat0-ct": {
+   "sha256_16": "31af0631eea7e4015dba29a32fd1e596",
+   "len": 760
+  },
+  "scabbard128/opt/kat0-ss": {
+   "sha256_16": "27db9d8a589819ed79ae03c5098a61a7",
+   "len": 16
+  },
+  "scabbard128/opt/pk": {
+   "sha256_16": "5bed9cbe3f7da5b515722ac3b13e68ca",
+   "len": 736
+  },
+  "scabbard128/opt/sk": {
+   "sha256_16": "71f3a889e022541fbb75a35bd59dff08",
+   "len": 1056
+  },
+  "scabbard128/opt/ct": {
+   "sha256_16": "cb158d8d4c499faff19c16efc8462af8",
+   "len": 760
+  },
+  "scabbard128/opt/ss": {
+   "sha256_16": "9ff8a8ff421487fab72c34ce64cadc74",
+   "len": 16
+  }
+ },
+ "checks": {
+  "scabbard128/ref/kat-roundtrip": "PASS",
+  "scabbard128/ref/tampered-ct-rejected": "PASS",
+  "scabbard128/opt/kat-roundtrip": "PASS",
+  "scabbard128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "scabbard128": "kind=KEM pk=736 sk=1056 ct=760 ss=16",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 246880,
+ "heap_free_min": 176268,
+ "unit": "kem_MORNING-Scabbard__scabbard128",
+ "pid": "kem_MORNING-Scabbard",
+ "param": "scabbard128",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 132624,
+ "seconds": 2.3,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_scabbard128.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}
