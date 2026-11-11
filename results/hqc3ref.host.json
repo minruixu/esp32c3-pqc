@@ -2,45 +2,45 @@
  "results": {
   "hqc3/ref/kat": {
    "iters": 1,
-   "avg_us": 1338676,
-   "min_us": 1338676,
-   "max_us": 1338676,
+   "avg_us": 1253592,
+   "min_us": 1253592,
+   "max_us": 1253592,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "hqc3/ref/keygen": {
    "iters": 3,
-   "avg_us": 1875,
-   "min_us": 1810,
-   "max_us": 1937,
+   "avg_us": 1798,
+   "min_us": 1779,
+   "max_us": 1812,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "hqc3/ref/encaps": {
    "iters": 3,
-   "avg_us": 3768,
-   "min_us": 3677,
-   "max_us": 3905,
+   "avg_us": 3508,
+   "min_us": 3450,
+   "max_us": 3552,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "hqc3/ref/decaps": {
    "iters": 3,
-   "avg_us": 7845,
-   "min_us": 7619,
-   "max_us": 8166,
+   "avg_us": 7063,
+   "min_us": 7058,
+   "max_us": 7071,
    "stack": 0,
    "heap": 0,
    "rc": 0
   },
   "hqc3/ref/reject": {
    "iters": 3,
-   "avg_us": 7689,
-   "min_us": 7512,
-   "max_us": 7807,
+   "avg_us": 7071,
+   "min_us": 7026,
+   "max_us": 7099,
    "stack": 0,
    "heap": 0,
    "rc": 0

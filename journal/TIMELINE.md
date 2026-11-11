@@ -62,3 +62,12 @@ All dates 2026-11-11 unless noted.
      re-encryption check and never replaces it.
    - The LAC BCH decoder touches one element past an array.
    - The SCloud+ SM3 helper returns wrong hashes when `malloc` fails.
+10. **Correction to entry 7 (2026-11-12).** When the HQC suites were committed
+    as "verified by an independent rerun", that rerun had not finished: it was
+    still queued behind the device lock, and the results committed then were
+    the HQC line's own. The rerun has now completed with the assembly Keccak
+    in the image: official known-answer vectors pass, 20 fingerprints equal the
+    host build (5 more for the HQC-3 reference image), and HQC-1
+    decapsulation is 22.3 ms instead of 27.9 ms. Lesson: read a run's own
+    summary line before recording it as done, not the files it is expected
+    to have written.

@@ -2,45 +2,45 @@
  "results": {
   "hqc3/ref/kat": {
    "iters": 1,
-   "avg_us": 9235344,
-   "min_us": 9235344,
-   "max_us": 9235344,
+   "avg_us": 9358577,
+   "min_us": 9358577,
+   "max_us": 9358577,
    "stack": 132372,
    "heap": 0,
    "rc": 0
   },
   "hqc3/ref/keygen": {
    "iters": 3,
-   "avg_us": 837372,
-   "min_us": 837367,
-   "max_us": 837377,
+   "avg_us": 848527,
+   "min_us": 848522,
+   "max_us": 848532,
    "stack": 105412,
    "heap": 0,
    "rc": 0
   },
   "hqc3/ref/encaps": {
    "iters": 3,
-   "avg_us": 1672479,
-   "min_us": 1672479,
-   "max_us": 1672480,
+   "avg_us": 1694805,
+   "min_us": 1694803,
+   "max_us": 1694808,
    "stack": 118436,
    "heap": 0,
    "rc": 0
   },
   "hqc3/ref/decaps": {
    "iters": 3,
-   "avg_us": 3360162,
-   "min_us": 3360162,
-   "max_us": 3360162,
+   "avg_us": 3405041,
+   "min_us": 3405040,
+   "max_us": 3405044,
    "stack": 132260,
    "heap": 0,
    "rc": 0
   },
   "hqc3/ref/reject": {
    "iters": 3,
-   "avg_us": 3360162,
-   "min_us": 3360162,
-   "max_us": 3360163,
+   "avg_us": 3405040,
+   "min_us": 3405039,
+   "max_us": 3405044,
    "stack": 132260,
    "heap": 0,
    "rc": 0
@@ -72,12 +72,12 @@
   "hqc3/ref/kat": "PASS"
  },
  "info": {
-  "heap": "free=103420 largest_block=81920",
+  "heap": "free=88892 largest_block=69632",
   "hqc3": "pk=4514 sk=32 ct=8978 ss=32"
  },
  "complete": true,
  "fails": 0,
  "cpu_mhz": 160,
- "heap_free_start": 103420,
- "heap_free_min": 103404
+ "heap_free_start": 88892,
+ "heap_free_min": 88876
 }
