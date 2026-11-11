@@ -46,3 +46,19 @@ All dates 2026-11-11 unless noted.
    build. They have not been rerun independently, and there is no
    `experiments/*.jsonl` for them; the prose record is in each suite's
    `NOTES.md`.
+9. **The PQMagic, SCloud+ and LAC line delivered** (report in
+   `reports/E-china-open-source.md`). Ported and matching the host on the
+   device: Aigis-enc, Aigis-sig, the SM3 instantiations of ML-KEM, ML-DSA and
+   SLH-DSA, SPHINCS-alpha 128f, Aigis-Enc+, Aigis-Sig+ set I, NEV, NEV-AKE,
+   SCloud+ 128/192/256 and LAC. Not feasible in RAM: SCloud+ 384/512,
+   SPHINCS-alpha above 128f, ReSolveD-alpha. Skipped: QIMEN-PIKE (needs GMP).
+   Open: SCloud+-256 with SM3 fails on the device because the submission's
+   SM3 helper cannot allocate its buffers. Problems found in upstream code:
+   - Aigis-Sig+ signing writes 2 KB past a vector (a stray unpack call), and
+     reads an `int` through an `int32_t *`, which this toolchain treats as a
+     different type; with strict aliasing the compiler dropped a store and the
+     code crashed. All PQMagic suites are built with `-fno-strict-aliasing`.
+   - Aigis-Enc+ decapsulation outputs the shared secret before the
+     re-encryption check and never replaces it.
+   - The LAC BCH decoder touches one element past an array.
+   - The SCloud+ SM3 helper returns wrong hashes when `malloc` fails.
