@@ -1,0 +1,223 @@
+{
+ "results": {
+  "fndsa512/ref/kat": {
+   "iters": 1,
+   "avg_us": 1559445,
+   "min_us": 1559445,
+   "max_us": 1559445,
+   "stack": 2760,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/ref/keygen": {
+   "iters": 4,
+   "avg_us": 534586,
+   "min_us": 431874,
+   "max_us": 667443,
+   "stack": 984,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/ref/sign": {
+   "iters": 10,
+   "avg_us": 288644,
+   "min_us": 287139,
+   "max_us": 290619,
+   "stack": 2280,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/ref/verify": {
+   "iters": 10,
+   "avg_us": 4104,
+   "min_us": 4103,
+   "max_us": 4108,
+   "stack": 1112,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/ref/kat": {
+   "iters": 1,
+   "avg_us": 4032956,
+   "min_us": 4032956,
+   "max_us": 4032956,
+   "stack": 2856,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/ref/keygen": {
+   "iters": 2,
+   "avg_us": 1716111,
+   "min_us": 1288572,
+   "max_us": 2143651,
+   "stack": 984,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/ref/sign": {
+   "iters": 10,
+   "avg_us": 623476,
+   "min_us": 620894,
+   "max_us": 625875,
+   "stack": 2376,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/ref/verify": {
+   "iters": 10,
+   "avg_us": 8227,
+   "min_us": 8224,
+   "max_us": 8229,
+   "stack": 1000,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa/opt/fpr-selftest": {
+   "iters": 1,
+   "avg_us": 153921,
+   "min_us": 153921,
+   "max_us": 153921,
+   "stack": 376,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/opt/kat": {
+   "iters": 1,
+   "avg_us": 1388514,
+   "min_us": 1388514,
+   "max_us": 1388514,
+   "stack": 2712,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/opt/keygen": {
+   "iters": 4,
+   "avg_us": 521990,
+   "min_us": 423912,
+   "max_us": 647734,
+   "stack": 984,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/opt/sign": {
+   "iters": 10,
+   "avg_us": 219469,
+   "min_us": 218299,
+   "max_us": 220988,
+   "stack": 2232,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa512/opt/verify": {
+   "iters": 10,
+   "avg_us": 3213,
+   "min_us": 3212,
+   "max_us": 3217,
+   "stack": 936,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/opt/kat": {
+   "iters": 1,
+   "avg_us": 3687157,
+   "min_us": 3687157,
+   "max_us": 3687157,
+   "stack": 2808,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/opt/keygen": {
+   "iters": 2,
+   "avg_us": 1689720,
+   "min_us": 1279385,
+   "max_us": 2100055,
+   "stack": 984,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/opt/sign": {
+   "iters": 10,
+   "avg_us": 472822,
+   "min_us": 470810,
+   "max_us": 474674,
+   "stack": 2328,
+   "heap": 0,
+   "rc": 0
+  },
+  "fndsa1024/opt/verify": {
+   "iters": 10,
+   "avg_us": 6501,
+   "min_us": 6499,
+   "max_us": 6504,
+   "stack": 936,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "fndsa512/ref/sk": {
+   "sha256_16": "aafc9473c7c827b88b992b13785599d9",
+   "len": 1345
+  },
+  "fndsa512/ref/vk": {
+   "sha256_16": "e842cb3ab4a6ccfdc48ac0cedfaa45c0",
+   "len": 897
+  },
+  "fndsa512/ref/sig": {
+   "sha256_16": "3ae2d7b8646e8bca33170e6a8cce814f",
+   "len": 666
+  },
+  "fndsa1024/ref/sk": {
+   "sha256_16": "0136e77eb42454493e32ae833e1d738b",
+   "len": 2369
+  },
+  "fndsa1024/ref/vk": {
+   "sha256_16": "21e030bbb2951e0b204323762df9f353",
+   "len": 1793
+  },
+  "fndsa1024/ref/sig": {
+   "sha256_16": "4cb1f90d8e6175b9df3f007284501f12",
+   "len": 1280
+  },
+  "fndsa512/opt/sk": {
+   "sha256_16": "aafc9473c7c827b88b992b13785599d9",
+   "len": 1345
+  },
+  "fndsa512/opt/vk": {
+   "sha256_16": "e842cb3ab4a6ccfdc48ac0cedfaa45c0",
+   "len": 897
+  },
+  "fndsa512/opt/sig": {
+   "sha256_16": "3ae2d7b8646e8bca33170e6a8cce814f",
+   "len": 666
+  },
+  "fndsa1024/opt/sk": {
+   "sha256_16": "0136e77eb42454493e32ae833e1d738b",
+   "len": 2369
+  },
+  "fndsa1024/opt/vk": {
+   "sha256_16": "21e030bbb2951e0b204323762df9f353",
+   "len": 1793
+  },
+  "fndsa1024/opt/sig": {
+   "sha256_16": "4cb1f90d8e6175b9df3f007284501f12",
+   "len": 1280
+  }
+ },
+ "checks": {
+  "fndsa512/ref/kat": "PASS",
+  "fndsa1024/ref/kat": "PASS",
+  "fndsa/opt/fpr-selftest": "PASS",
+  "fndsa512/opt/kat": "PASS",
+  "fndsa1024/opt/kat": "PASS"
+ },
+ "info": {
+  "fndsa512": "sk=1345 vk=897 sig=666 tmp_keygen=11295 tmp_sign=30239 tmp_verify=2079",
+  "fndsa1024": "sk=2369 vk=1793 sig=1280 tmp_keygen=22559 tmp_sign=60447 tmp_verify=4127"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 68176,
+ "heap_free_min": 55528
+}
