@@ -2,6 +2,8 @@
 #ifndef MLKEM_ALL_H
 #define MLKEM_ALL_H
 
+#define MLK_CONFIG_NAMESPACE_PREFIX mlkem
+
 #define MLK_CONFIG_PARAMETER_SET 512
 #include <mlkem_native.h>
 #undef MLK_CONFIG_PARAMETER_SET

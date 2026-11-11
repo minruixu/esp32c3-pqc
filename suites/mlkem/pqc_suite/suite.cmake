@@ -5,8 +5,17 @@ set(TP ${SUITE_DIR}/../../../third_party)
 
 set(SUITE_SRCS
     ${SUITE_DIR}/suite.c
-    ${SUITE_DIR}/mlkem_all.c)
+    ${SUITE_DIR}/mlkem_ref.c      # variant "ref": upstream C
+    ${SUITE_DIR}/mlkem_opt.c      # variant "opt": with the ESP32-C3 backends
+    ${SUITE_DIR}/c3_sponge.c      # word-oriented Keccak sponge used by "opt"
+    ${SUITE_DIR}/c3_prof.c)       # sampling profiler, only with -D PQC_PROFILE=1
 set(SUITE_INCS ${SUITE_DIR} ${TP}/mlkem-native)
-set(SUITE_DEFS MLK_CONFIG_NAMESPACE_PREFIX=mlkem MLK_CONFIG_MULTILEVEL_BUILD)
-set(SUITE_COPTS)          # extra compiler options
-set(SUITE_DEVICE_SRCS)    # device-only sources (assembly, hardware drivers)
+set(SUITE_DEFS MLK_CONFIG_MULTILEVEL_BUILD)
+if(PQC_PROFILE)
+    list(APPEND SUITE_DEFS PQC_PROFILE)
+endif()
+set(SUITE_COPTS)
+if(PQC_COPT)        # experiment: extra compiler options, e.g. -D PQC_COPT=-O3
+    list(APPEND SUITE_COPTS ${PQC_COPT})
+endif()
+set(SUITE_DEVICE_SRCS ${SUITE_DIR}/mlkem_arith_rv32imc.S)

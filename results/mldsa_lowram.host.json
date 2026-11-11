@@ -1,0 +1,174 @@
+{
+ "results": {
+  "mldsa44/lowram/kat": {
+   "iters": 1,
+   "avg_us": 503,
+   "min_us": 503,
+   "max_us": 503,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa44/lowram/keygen": {
+   "iters": 5,
+   "avg_us": 63,
+   "min_us": 63,
+   "max_us": 65,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa44/lowram/sign": {
+   "iters": 20,
+   "avg_us": 306,
+   "min_us": 48,
+   "max_us": 1322,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa44/lowram/verify": {
+   "iters": 5,
+   "avg_us": 29,
+   "min_us": 28,
+   "max_us": 32,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa65/lowram/kat": {
+   "iters": 1,
+   "avg_us": 614,
+   "min_us": 614,
+   "max_us": 614,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa65/lowram/keygen": {
+   "iters": 5,
+   "avg_us": 55,
+   "min_us": 52,
+   "max_us": 65,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa65/lowram/sign": {
+   "iters": 20,
+   "avg_us": 270,
+   "min_us": 72,
+   "max_us": 807,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa65/lowram/verify": {
+   "iters": 5,
+   "avg_us": 49,
+   "min_us": 45,
+   "max_us": 55,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87/lowram/kat": {
+   "iters": 1,
+   "avg_us": 493,
+   "min_us": 493,
+   "max_us": 493,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87/lowram/keygen": {
+   "iters": 5,
+   "avg_us": 73,
+   "min_us": 73,
+   "max_us": 76,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87/lowram/sign": {
+   "iters": 20,
+   "avg_us": 362,
+   "min_us": 111,
+   "max_us": 1028,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mldsa87/lowram/verify": {
+   "iters": 5,
+   "avg_us": 77,
+   "min_us": 75,
+   "max_us": 80,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mldsa44/lowram/pk": {
+   "sha256_16": "ed3c46b37f5b90f66d1c9efbed62bb72",
+   "len": 1312
+  },
+  "mldsa44/lowram/sk": {
+   "sha256_16": "607ae7ab05f4f81c86d2da0e21646a88",
+   "len": 2560
+  },
+  "mldsa44/lowram/sig": {
+   "sha256_16": "c10df74c376fbff16aafc946be67ed23",
+   "len": 2420
+  },
+  "mldsa65/lowram/pk": {
+   "sha256_16": "3ec071eb7751d8e6c403f0d43b753a62",
+   "len": 1952
+  },
+  "mldsa65/lowram/sk": {
+   "sha256_16": "95b12c3c92f0006cbf657f99c4666d87",
+   "len": 4032
+  },
+  "mldsa65/lowram/sig": {
+   "sha256_16": "71670826988045c84b42558a8d244258",
+   "len": 3309
+  },
+  "mldsa87/lowram/pk": {
+   "sha256_16": "8439b62cb776684b663cfc2ae125e05c",
+   "len": 2592
+  },
+  "mldsa87/lowram/sk": {
+   "sha256_16": "c4d3a4e4a677e9250f69a3dddfd16821",
+   "len": 4896
+  },
+  "mldsa87/lowram/sig": {
+   "sha256_16": "c52e2f8110264d64d078c0a7997a8594",
+   "len": 4627
+  }
+ },
+ "checks": {
+  "mldsa44/lowram/kat": "PASS",
+  "mldsa65/lowram/kat": "PASS",
+  "mldsa87/lowram/kat": "PASS"
+ },
+ "info": {
+  "mldsa44": "pk=1312 sk=2560 sig=2420",
+  "mldsa44/perms/keygen": "103 Keccak permutations",
+  "mldsa44/perms/sign": "591 Keccak permutations",
+  "mldsa44/perms/verify": "99 Keccak permutations",
+  "mldsa65": "pk=1952 sk=4032 sig=3309",
+  "mldsa65/perms/keygen": "188 Keccak permutations",
+  "mldsa65/perms/sign": "927 Keccak permutations",
+  "mldsa65/perms/verify": "174 Keccak permutations",
+  "mldsa87": "pk=2592 sk=4896 sig=4627",
+  "mldsa87/perms/keygen": "325 Keccak permutations",
+  "mldsa87/perms/sign": "1345 Keccak permutations",
+  "mldsa87/perms/verify": "311 Keccak permutations"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}
