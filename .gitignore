@@ -1,4 +1,6 @@
-build*/
+build/
+downloads/
+results/logs/
 sdkconfig
 sdkconfig.old
 *.log

@@ -1,0 +1,16 @@
+#!/bin/bash
+# Entry point: sets up ESP-IDF and runs tools/pqc.py. See `tools/pqc --help`.
+set -e
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+if [ -z "$IDF_PATH" ]; then
+    for d in "$HOME"/esp/esp-idf*; do [ -f "$d/export.sh" ] && IDF_PATH="$d"; done
+fi
+if [ -z "$IDF_PATH" ] || [ ! -f "$IDF_PATH/export.sh" ]; then
+    echo "ESP-IDF not found: set IDF_PATH" >&2
+    exit 2
+fi
+export IDF_PATH
+# shellcheck disable=SC1091
+. "$IDF_PATH/export.sh" >/dev/null 2>&1
+cd "$ROOT"
+exec python "$ROOT/tools/pqc.py" "$@"
