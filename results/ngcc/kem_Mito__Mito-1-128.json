@@ -1,0 +1,209 @@
+{
+ "results": {
+  "mito-1-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 4037607,
+   "min_us": 4037607,
+   "max_us": 4037607,
+   "stack": 80572,
+   "heap": 12288,
+   "rc": 0
+  },
+  "mito-1-128/ref/keygen": {
+   "iters": 1,
+   "avg_us": 807365,
+   "min_us": 807365,
+   "max_us": 807365,
+   "stack": 63356,
+   "heap": 1432,
+   "rc": 0
+  },
+  "mito-1-128/ref/encaps": {
+   "iters": 1,
+   "avg_us": 1341188,
+   "min_us": 1341188,
+   "max_us": 1341188,
+   "stack": 70668,
+   "heap": 8064,
+   "rc": 0
+  },
+  "mito-1-128/ref/decaps": {
+   "iters": 1,
+   "avg_us": 1887527,
+   "min_us": 1887527,
+   "max_us": 1887527,
+   "stack": 80556,
+   "heap": 12288,
+   "rc": 0
+  },
+  "mito-1-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1887531,
+   "min_us": 1887531,
+   "max_us": 1887531,
+   "stack": 80572,
+   "heap": 12288,
+   "rc": 0
+  },
+  "mito-1-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 4027969,
+   "min_us": 4027969,
+   "max_us": 4027969,
+   "stack": 80572,
+   "heap": 12288,
+   "rc": 0
+  },
+  "mito-1-128/opt/keygen": {
+   "iters": 1,
+   "avg_us": 806912,
+   "min_us": 806912,
+   "max_us": 806912,
+   "stack": 63356,
+   "heap": 1432,
+   "rc": 0
+  },
+  "mito-1-128/opt/encaps": {
+   "iters": 1,
+   "avg_us": 1338354,
+   "min_us": 1338354,
+   "max_us": 1338354,
+   "stack": 70668,
+   "heap": 8064,
+   "rc": 0
+  },
+  "mito-1-128/opt/decaps": {
+   "iters": 1,
+   "avg_us": 1881176,
+   "min_us": 1881176,
+   "max_us": 1881176,
+   "stack": 80556,
+   "heap": 12288,
+   "rc": 0
+  },
+  "mito-1-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1881175,
+   "min_us": 1881175,
+   "max_us": 1881175,
+   "stack": 80572,
+   "heap": 12288,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mito-1-128/ref/kat0-pk": {
+   "sha256_16": "ac9f5eb1fca64614d85093ce6a09889a",
+   "len": 3908
+  },
+  "mito-1-128/ref/kat0-sk": {
+   "sha256_16": "2ad6d43f6da6c5d3ec8d443510f98761",
+   "len": 4052
+  },
+  "mito-1-128/ref/kat0-ct": {
+   "sha256_16": "bc22866aca9a8b00aff15b9f72e5ac62",
+   "len": 5796
+  },
+  "mito-1-128/ref/kat0-ss": {
+   "sha256_16": "a5213c7eb67c451bb6c5a32079299ad2",
+   "len": 64
+  },
+  "mito-1-128/ref/pk": {
+   "sha256_16": "2d61fd12406905a0375dd615cc58dc34",
+   "len": 3908
+  },
+  "mito-1-128/ref/sk": {
+   "sha256_16": "46d4161594511ba2fe048f80c4e028f3",
+   "len": 4052
+  },
+  "mito-1-128/ref/ct": {
+   "sha256_16": "6c83df9e6e652906fadb28cfef804b86",
+   "len": 5796
+  },
+  "mito-1-128/ref/ss": {
+   "sha256_16": "ed35505aa2eb53d1a2a75dbe363e5e0b",
+   "len": 64
+  },
+  "mito-1-128/opt/kat0-pk": {
+   "sha256_16": "ac9f5eb1fca64614d85093ce6a09889a",
+   "len": 3908
+  },
+  "mito-1-128/opt/kat0-sk": {
+   "sha256_16": "2ad6d43f6da6c5d3ec8d443510f98761",
+   "len": 4052
+  },
+  "mito-1-128/opt/kat0-ct": {
+   "sha256_16": "bc22866aca9a8b00aff15b9f72e5ac62",
+   "len": 5796
+  },
+  "mito-1-128/opt/kat0-ss": {
+   "sha256_16": "a5213c7eb67c451bb6c5a32079299ad2",
+   "len": 64
+  },
+  "mito-1-128/opt/pk": {
+   "sha256_16": "2d61fd12406905a0375dd615cc58dc34",
+   "len": 3908
+  },
+  "mito-1-128/opt/sk": {
+   "sha256_16": "46d4161594511ba2fe048f80c4e028f3",
+   "len": 4052
+  },
+  "mito-1-128/opt/ct": {
+   "sha256_16": "6c83df9e6e652906fadb28cfef804b86",
+   "len": 5796
+  },
+  "mito-1-128/opt/ss": {
+   "sha256_16": "ed35505aa2eb53d1a2a75dbe363e5e0b",
+   "len": 64
+  }
+ },
+ "checks": {
+  "mito-1-128/ref/kat-roundtrip": "PASS",
+  "mito-1-128/ref/tampered-ct-rejected": "PASS",
+  "mito-1-128/opt/kat-roundtrip": "PASS",
+  "mito-1-128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "mito-1-128": "kind=KEM pk=3908 sk=4052 ct=5796 ss=64",
+  "job_stack": "94208"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 219024,
+ "heap_free_min": 96668,
+ "unit": "kem_Mito__Mito-1-128",
+ "pid": "kem_Mito",
+ "param": "Mito-1-128",
+ "kind": "KEM",
+ "iters": 1,
+ "stack_pct": 85,
+ "stack_given": 0,
+ "image_bytes": 160416,
+ "attempts": [
+  {
+   "verdict": "crashes",
+   "reason": "Guru Meditation Error: Core  0 panic'ed (Stack protection fault).",
+   "stack_pct": 60
+  }
+ ],
+ "seconds": 22.0,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vector/KAT_KEM_MITO_1_128.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

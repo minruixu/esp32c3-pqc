@@ -1,0 +1,177 @@
+{
+ "results": {
+  "darts256/ref/kat": {
+   "iters": 1,
+   "avg_us": 4324,
+   "min_us": 4324,
+   "max_us": 4324,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 206,
+   "min_us": 200,
+   "max_us": 212,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts256/ref/sign": {
+   "iters": 3,
+   "avg_us": 4024,
+   "min_us": 3828,
+   "max_us": 4323,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts256/ref/verify": {
+   "iters": 3,
+   "avg_us": 140,
+   "min_us": 120,
+   "max_us": 156,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 234,
+   "min_us": 234,
+   "max_us": 234,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts256/opt/kat": {
+   "iters": 1,
+   "avg_us": 4476,
+   "min_us": 4476,
+   "max_us": 4476,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 220,
+   "min_us": 206,
+   "max_us": 231,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts256/opt/sign": {
+   "iters": 3,
+   "avg_us": 3985,
+   "min_us": 3828,
+   "max_us": 4096,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts256/opt/verify": {
+   "iters": 3,
+   "avg_us": 114,
+   "min_us": 113,
+   "max_us": 117,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 227,
+   "min_us": 227,
+   "max_us": 227,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "darts256/ref/kat0-pk": {
+   "sha256_16": "9a973e580fd2460b8a9b971e866d2df0",
+   "len": 2208
+  },
+  "darts256/ref/kat0-sk": {
+   "sha256_16": "6731a105ec6a96ae46ca17623db72ef9",
+   "len": 2880
+  },
+  "darts256/ref/kat0-sig": {
+   "sha256_16": "2e5b6c0bd079f8da05b08b9ff2e06540",
+   "len": 2489
+  },
+  "darts256/ref/pk": {
+   "sha256_16": "a8495fd535a98114ac4a16545bcde645",
+   "len": 2208
+  },
+  "darts256/ref/sk": {
+   "sha256_16": "ab96a01f5a5bf9b0e74abd6d59125e58",
+   "len": 2880
+  },
+  "darts256/ref/sig": {
+   "sha256_16": "e1806f8fb7dfdb215726d9e7a0e928e7",
+   "len": 2489
+  },
+  "darts256/opt/kat0-pk": {
+   "sha256_16": "9a973e580fd2460b8a9b971e866d2df0",
+   "len": 2208
+  },
+  "darts256/opt/kat0-sk": {
+   "sha256_16": "6731a105ec6a96ae46ca17623db72ef9",
+   "len": 2880
+  },
+  "darts256/opt/kat0-sig": {
+   "sha256_16": "2e5b6c0bd079f8da05b08b9ff2e06540",
+   "len": 2489
+  },
+  "darts256/opt/pk": {
+   "sha256_16": "a8495fd535a98114ac4a16545bcde645",
+   "len": 2208
+  },
+  "darts256/opt/sk": {
+   "sha256_16": "ab96a01f5a5bf9b0e74abd6d59125e58",
+   "len": 2880
+  },
+  "darts256/opt/sig": {
+   "sha256_16": "e1806f8fb7dfdb215726d9e7a0e928e7",
+   "len": 2489
+  }
+ },
+ "checks": {
+  "darts256/ref/kat-roundtrip": "PASS",
+  "darts256/ref/tampered-rejected": "PASS",
+  "darts256/opt/kat-roundtrip": "PASS",
+  "darts256/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "darts256": "kind=SIG pk=2208 sk=2880 sig=2489",
+  "job_stack": "0",
+  "kat0_sig_len": "2489",
+  "sig_len": "2489"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_DARTS__DARTS256",
+ "pid": "sig_DARTS",
+ "param": "DARTS256",
+ "kind": "SIG",
+ "seconds": 1.8,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_DARTS256.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

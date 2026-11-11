@@ -1,0 +1,192 @@
+{
+ "results": {
+  "loong-block-ms-384/ref/kat": {
+   "iters": 1,
+   "avg_us": 447153,
+   "min_us": 447153,
+   "max_us": 447153,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "loong-block-ms-384/ref/keygen": {
+   "iters": 3,
+   "avg_us": 57346,
+   "min_us": 55611,
+   "max_us": 59260,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "loong-block-ms-384/ref/encaps": {
+   "iters": 3,
+   "avg_us": 80497,
+   "min_us": 38655,
+   "max_us": 153797,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "loong-block-ms-384/ref/decaps": {
+   "iters": 3,
+   "avg_us": 129678,
+   "min_us": 75530,
+   "max_us": 225113,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "loong-block-ms-384/ref/tamper": {
+   "iters": 1,
+   "avg_us": 178530,
+   "min_us": 178530,
+   "max_us": 178530,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "loong-block-ms-384/opt/kat": {
+   "iters": 1,
+   "avg_us": 307501,
+   "min_us": 307501,
+   "max_us": 307501,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "loong-block-ms-384/opt/keygen": {
+   "iters": 3,
+   "avg_us": 63285,
+   "min_us": 56230,
+   "max_us": 75733,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "loong-block-ms-384/opt/encaps": {
+   "iters": 3,
+   "avg_us": 41153,
+   "min_us": 37542,
+   "max_us": 47791,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "loong-block-ms-384/opt/decaps": {
+   "iters": 3,
+   "avg_us": 76230,
+   "min_us": 74237,
+   "max_us": 78242,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "loong-block-ms-384/opt/tamper": {
+   "iters": 1,
+   "avg_us": 80316,
+   "min_us": 80316,
+   "max_us": 80316,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "loong-block-ms-384/ref/kat0-pk": {
+   "sha256_16": "3738165ed3a7dccdcc753a5155bb85cd",
+   "len": 12152
+  },
+  "loong-block-ms-384/ref/kat0-sk": {
+   "sha256_16": "5f480bceee2767b0a07cacdcbdc1023c",
+   "len": 24368
+  },
+  "loong-block-ms-384/ref/kat0-ct": {
+   "sha256_16": "2b746fac5b2c2d5578ec2229f2f5473a",
+   "len": 15112
+  },
+  "loong-block-ms-384/ref/kat0-ss": {
+   "sha256_16": "3892823e08927c69d591b7dabfa966bb",
+   "len": 48
+  },
+  "loong-block-ms-384/ref/pk": {
+   "sha256_16": "0ea27805cbf34440343d71a0e0391d59",
+   "len": 12152
+  },
+  "loong-block-ms-384/ref/sk": {
+   "sha256_16": "125836ee01c8f60f0d41aa380e7924f3",
+   "len": 24368
+  },
+  "loong-block-ms-384/ref/ct": {
+   "sha256_16": "b911dca64fac8720716a652830886bca",
+   "len": 15112
+  },
+  "loong-block-ms-384/ref/ss": {
+   "sha256_16": "85914c7d2f7482d279a7fcc96bcf2419",
+   "len": 48
+  },
+  "loong-block-ms-384/opt/kat0-pk": {
+   "sha256_16": "3738165ed3a7dccdcc753a5155bb85cd",
+   "len": 12152
+  },
+  "loong-block-ms-384/opt/kat0-sk": {
+   "sha256_16": "5f480bceee2767b0a07cacdcbdc1023c",
+   "len": 24368
+  },
+  "loong-block-ms-384/opt/kat0-ct": {
+   "sha256_16": "2b746fac5b2c2d5578ec2229f2f5473a",
+   "len": 15112
+  },
+  "loong-block-ms-384/opt/kat0-ss": {
+   "sha256_16": "3892823e08927c69d591b7dabfa966bb",
+   "len": 48
+  },
+  "loong-block-ms-384/opt/pk": {
+   "sha256_16": "0ea27805cbf34440343d71a0e0391d59",
+   "len": 12152
+  },
+  "loong-block-ms-384/opt/sk": {
+   "sha256_16": "125836ee01c8f60f0d41aa380e7924f3",
+   "len": 24368
+  },
+  "loong-block-ms-384/opt/ct": {
+   "sha256_16": "b911dca64fac8720716a652830886bca",
+   "len": 15112
+  },
+  "loong-block-ms-384/opt/ss": {
+   "sha256_16": "85914c7d2f7482d279a7fcc96bcf2419",
+   "len": 48
+  }
+ },
+ "checks": {
+  "loong-block-ms-384/ref/kat-roundtrip": "PASS",
+  "loong-block-ms-384/ref/tampered-ct-rejected": "PASS",
+  "loong-block-ms-384/opt/kat-roundtrip": "PASS",
+  "loong-block-ms-384/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "loong-block-ms-384": "kind=KEM pk=12152 sk=24368 ct=15112 ss=48",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_BAG-Loong__Loong-Block-ms-384",
+ "pid": "kem_BAG-Loong",
+ "param": "Loong-Block-ms-384",
+ "kind": "KEM",
+ "seconds": 5.5,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_BAG-Loong-384.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

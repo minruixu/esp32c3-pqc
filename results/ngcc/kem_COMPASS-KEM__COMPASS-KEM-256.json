@@ -1,0 +1,202 @@
+{
+ "results": {
+  "compass-kem-256/ref/kat": {
+   "iters": 1,
+   "avg_us": 617666,
+   "min_us": 617666,
+   "max_us": 617666,
+   "stack": 27000,
+   "heap": 8744,
+   "rc": 0
+  },
+  "compass-kem-256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 203375,
+   "min_us": 203374,
+   "max_us": 203379,
+   "stack": 22408,
+   "heap": 8744,
+   "rc": 0
+  },
+  "compass-kem-256/ref/encaps": {
+   "iters": 3,
+   "avg_us": 205331,
+   "min_us": 205330,
+   "max_us": 205335,
+   "stack": 25544,
+   "heap": 8744,
+   "rc": 0
+  },
+  "compass-kem-256/ref/decaps": {
+   "iters": 3,
+   "avg_us": 207588,
+   "min_us": 207585,
+   "max_us": 207590,
+   "stack": 26984,
+   "heap": 8744,
+   "rc": 0
+  },
+  "compass-kem-256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 207589,
+   "min_us": 207589,
+   "max_us": 207589,
+   "stack": 27000,
+   "heap": 8744,
+   "rc": 0
+  },
+  "compass-kem-256/opt/kat": {
+   "iters": 1,
+   "avg_us": 392846,
+   "min_us": 392846,
+   "max_us": 392846,
+   "stack": 26824,
+   "heap": 8744,
+   "rc": 0
+  },
+  "compass-kem-256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 128477,
+   "min_us": 128474,
+   "max_us": 128479,
+   "stack": 22232,
+   "heap": 8744,
+   "rc": 0
+  },
+  "compass-kem-256/opt/encaps": {
+   "iters": 3,
+   "avg_us": 130397,
+   "min_us": 130397,
+   "max_us": 130398,
+   "stack": 25368,
+   "heap": 8744,
+   "rc": 0
+  },
+  "compass-kem-256/opt/decaps": {
+   "iters": 3,
+   "avg_us": 132597,
+   "min_us": 132597,
+   "max_us": 132598,
+   "stack": 26808,
+   "heap": 8744,
+   "rc": 0
+  },
+  "compass-kem-256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 132597,
+   "min_us": 132597,
+   "max_us": 132597,
+   "stack": 26824,
+   "heap": 8744,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "compass-kem-256/ref/kat0-pk": {
+   "sha256_16": "9207cb2b1d1ac8ce2a0414bb2f111d7d",
+   "len": 1312
+  },
+  "compass-kem-256/ref/kat0-sk": {
+   "sha256_16": "87fa5b63ae5577ccb5de7269e7af8252",
+   "len": 2912
+  },
+  "compass-kem-256/ref/kat0-ct": {
+   "sha256_16": "7a933e4d6dd8c6705af109dfc5b302ff",
+   "len": 1472
+  },
+  "compass-kem-256/ref/kat0-ss": {
+   "sha256_16": "bdef682d2fd5f30740ac1f68685d2add",
+   "len": 32
+  },
+  "compass-kem-256/ref/pk": {
+   "sha256_16": "496b116015ce732fcadec956f8c3d495",
+   "len": 1312
+  },
+  "compass-kem-256/ref/sk": {
+   "sha256_16": "e53fd42b203359a9b14cadf63a07bd96",
+   "len": 2912
+  },
+  "compass-kem-256/ref/ct": {
+   "sha256_16": "63c61ad1e38f025d0fda6540dffee8f5",
+   "len": 1472
+  },
+  "compass-kem-256/ref/ss": {
+   "sha256_16": "fc64facdec526b4bba6ef6408ccdc41f",
+   "len": 32
+  },
+  "compass-kem-256/opt/kat0-pk": {
+   "sha256_16": "9207cb2b1d1ac8ce2a0414bb2f111d7d",
+   "len": 1312
+  },
+  "compass-kem-256/opt/kat0-sk": {
+   "sha256_16": "87fa5b63ae5577ccb5de7269e7af8252",
+   "len": 2912
+  },
+  "compass-kem-256/opt/kat0-ct": {
+   "sha256_16": "7a933e4d6dd8c6705af109dfc5b302ff",
+   "len": 1472
+  },
+  "compass-kem-256/opt/kat0-ss": {
+   "sha256_16": "bdef682d2fd5f30740ac1f68685d2add",
+   "len": 32
+  },
+  "compass-kem-256/opt/pk": {
+   "sha256_16": "496b116015ce732fcadec956f8c3d495",
+   "len": 1312
+  },
+  "compass-kem-256/opt/sk": {
+   "sha256_16": "e53fd42b203359a9b14cadf63a07bd96",
+   "len": 2912
+  },
+  "compass-kem-256/opt/ct": {
+   "sha256_16": "63c61ad1e38f025d0fda6540dffee8f5",
+   "len": 1472
+  },
+  "compass-kem-256/opt/ss": {
+   "sha256_16": "fc64facdec526b4bba6ef6408ccdc41f",
+   "len": 32
+  }
+ },
+ "checks": {
+  "compass-kem-256/ref/kat-roundtrip": "PASS",
+  "compass-kem-256/ref/tampered-ct-rejected": "PASS",
+  "compass-kem-256/opt/kat-roundtrip": "PASS",
+  "compass-kem-256/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "compass-kem-256": "kind=KEM pk=1312 sk=2912 ct=1472 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 242864,
+ "heap_free_min": 161108,
+ "unit": "kem_COMPASS-KEM__COMPASS-KEM-256",
+ "pid": "kem_COMPASS-KEM",
+ "param": "COMPASS-KEM-256",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 136768,
+ "seconds": 5.8,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vector/KAT_KEM_COMPASS-KEM-256.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

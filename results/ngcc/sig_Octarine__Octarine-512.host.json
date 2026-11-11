@@ -1,0 +1,177 @@
+{
+ "results": {
+  "octarine-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 2673,
+   "min_us": 2673,
+   "max_us": 2673,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 513,
+   "min_us": 493,
+   "max_us": 537,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-512/ref/sign": {
+   "iters": 3,
+   "avg_us": 3635,
+   "min_us": 3449,
+   "max_us": 3767,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-512/ref/verify": {
+   "iters": 3,
+   "avg_us": 675,
+   "min_us": 616,
+   "max_us": 781,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1731,
+   "min_us": 1731,
+   "max_us": 1731,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 3225,
+   "min_us": 3225,
+   "max_us": 3225,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 657,
+   "min_us": 634,
+   "max_us": 698,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-512/opt/sign": {
+   "iters": 3,
+   "avg_us": 4039,
+   "min_us": 3749,
+   "max_us": 4561,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-512/opt/verify": {
+   "iters": 3,
+   "avg_us": 594,
+   "min_us": 583,
+   "max_us": 601,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "octarine-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1168,
+   "min_us": 1168,
+   "max_us": 1168,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "octarine-512/ref/kat0-pk": {
+   "sha256_16": "ec796b8e341a42e6ac97cdc5781f45bd",
+   "len": 5184
+  },
+  "octarine-512/ref/kat0-sk": {
+   "sha256_16": "910b7b1448a37852746542d1528dc567",
+   "len": 11776
+  },
+  "octarine-512/ref/kat0-sig": {
+   "sha256_16": "02f28d45be63a7dbb1cb00a4a4d4ff51",
+   "len": 14713
+  },
+  "octarine-512/ref/pk": {
+   "sha256_16": "b895176e3b9b1ee412de2580c4b02e4b",
+   "len": 5184
+  },
+  "octarine-512/ref/sk": {
+   "sha256_16": "ded9922770a958b52d0353bd51f93cab",
+   "len": 11776
+  },
+  "octarine-512/ref/sig": {
+   "sha256_16": "9ec6d7a9241c8aec7afb8d326d5c6c00",
+   "len": 14713
+  },
+  "octarine-512/opt/kat0-pk": {
+   "sha256_16": "ec796b8e341a42e6ac97cdc5781f45bd",
+   "len": 5184
+  },
+  "octarine-512/opt/kat0-sk": {
+   "sha256_16": "910b7b1448a37852746542d1528dc567",
+   "len": 11776
+  },
+  "octarine-512/opt/kat0-sig": {
+   "sha256_16": "02f28d45be63a7dbb1cb00a4a4d4ff51",
+   "len": 14713
+  },
+  "octarine-512/opt/pk": {
+   "sha256_16": "b895176e3b9b1ee412de2580c4b02e4b",
+   "len": 5184
+  },
+  "octarine-512/opt/sk": {
+   "sha256_16": "ded9922770a958b52d0353bd51f93cab",
+   "len": 11776
+  },
+  "octarine-512/opt/sig": {
+   "sha256_16": "9ec6d7a9241c8aec7afb8d326d5c6c00",
+   "len": 14713
+  }
+ },
+ "checks": {
+  "octarine-512/ref/kat-roundtrip": "PASS",
+  "octarine-512/ref/tampered-rejected": "PASS",
+  "octarine-512/opt/kat-roundtrip": "PASS",
+  "octarine-512/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "octarine-512": "kind=SIG pk=5184 sk=11776 sig=14713",
+  "job_stack": "0",
+  "kat0_sig_len": "14713",
+  "sig_len": "14713"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Octarine__Octarine-512",
+ "pid": "sig_Octarine",
+ "param": "Octarine-512",
+ "kind": "SIG",
+ "seconds": 1.4,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_Octarine-512.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

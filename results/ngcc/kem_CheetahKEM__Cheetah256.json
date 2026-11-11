@@ -1,0 +1,202 @@
+{
+ "results": {
+  "cheetah256/ref/kat": {
+   "iters": 1,
+   "avg_us": 97387,
+   "min_us": 97387,
+   "max_us": 97387,
+   "stack": 54984,
+   "heap": 7988,
+   "rc": 0
+  },
+  "cheetah256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 26105,
+   "min_us": 26102,
+   "max_us": 26107,
+   "stack": 32808,
+   "heap": 7988,
+   "rc": 0
+  },
+  "cheetah256/ref/encaps": {
+   "iters": 3,
+   "avg_us": 32317,
+   "min_us": 32317,
+   "max_us": 32318,
+   "stack": 42940,
+   "heap": 7988,
+   "rc": 0
+  },
+  "cheetah256/ref/decaps": {
+   "iters": 3,
+   "avg_us": 37240,
+   "min_us": 37238,
+   "max_us": 37242,
+   "stack": 54968,
+   "heap": 7988,
+   "rc": 0
+  },
+  "cheetah256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 37242,
+   "min_us": 37242,
+   "max_us": 37242,
+   "stack": 54844,
+   "heap": 7988,
+   "rc": 0
+  },
+  "cheetah256/opt/kat": {
+   "iters": 1,
+   "avg_us": 77389,
+   "min_us": 77389,
+   "max_us": 77389,
+   "stack": 54844,
+   "heap": 7988,
+   "rc": 0
+  },
+  "cheetah256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 19836,
+   "min_us": 19836,
+   "max_us": 19837,
+   "stack": 32684,
+   "heap": 7988,
+   "rc": 0
+  },
+  "cheetah256/opt/encaps": {
+   "iters": 3,
+   "avg_us": 25470,
+   "min_us": 25469,
+   "max_us": 25474,
+   "stack": 43080,
+   "heap": 7988,
+   "rc": 0
+  },
+  "cheetah256/opt/decaps": {
+   "iters": 3,
+   "avg_us": 30357,
+   "min_us": 30357,
+   "max_us": 30357,
+   "stack": 54828,
+   "heap": 7988,
+   "rc": 0
+  },
+  "cheetah256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 30357,
+   "min_us": 30357,
+   "max_us": 30357,
+   "stack": 54844,
+   "heap": 7988,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "cheetah256/ref/kat0-pk": {
+   "sha256_16": "3aad49c4613bb9cac7ccd632349991b5",
+   "len": 1648
+  },
+  "cheetah256/ref/kat0-sk": {
+   "sha256_16": "d499b7f71e33032c472286262ced2505",
+   "len": 3808
+  },
+  "cheetah256/ref/kat0-ct": {
+   "sha256_16": "e1cd671c67b7c7fb8293ca93a59834f6",
+   "len": 1728
+  },
+  "cheetah256/ref/kat0-ss": {
+   "sha256_16": "be30f756836dc284ca2faf1a01a105a5",
+   "len": 32
+  },
+  "cheetah256/ref/pk": {
+   "sha256_16": "83c45436ea0f4f04692d8f56192ed380",
+   "len": 1648
+  },
+  "cheetah256/ref/sk": {
+   "sha256_16": "8098e598d6a61ca0763f4643c6baacd9",
+   "len": 3808
+  },
+  "cheetah256/ref/ct": {
+   "sha256_16": "2e73da49004ee4b7a53805a2f6eaee6e",
+   "len": 1728
+  },
+  "cheetah256/ref/ss": {
+   "sha256_16": "bd3e6cf497941dcaa3b2b6d633696797",
+   "len": 32
+  },
+  "cheetah256/opt/kat0-pk": {
+   "sha256_16": "3aad49c4613bb9cac7ccd632349991b5",
+   "len": 1648
+  },
+  "cheetah256/opt/kat0-sk": {
+   "sha256_16": "d499b7f71e33032c472286262ced2505",
+   "len": 3808
+  },
+  "cheetah256/opt/kat0-ct": {
+   "sha256_16": "e1cd671c67b7c7fb8293ca93a59834f6",
+   "len": 1728
+  },
+  "cheetah256/opt/kat0-ss": {
+   "sha256_16": "be30f756836dc284ca2faf1a01a105a5",
+   "len": 32
+  },
+  "cheetah256/opt/pk": {
+   "sha256_16": "83c45436ea0f4f04692d8f56192ed380",
+   "len": 1648
+  },
+  "cheetah256/opt/sk": {
+   "sha256_16": "8098e598d6a61ca0763f4643c6baacd9",
+   "len": 3808
+  },
+  "cheetah256/opt/ct": {
+   "sha256_16": "2e73da49004ee4b7a53805a2f6eaee6e",
+   "len": 1728
+  },
+  "cheetah256/opt/ss": {
+   "sha256_16": "bd3e6cf497941dcaa3b2b6d633696797",
+   "len": 32
+  }
+ },
+ "checks": {
+  "cheetah256/ref/kat-roundtrip": "PASS",
+  "cheetah256/ref/tampered-ct-rejected": "PASS",
+  "cheetah256/opt/kat-roundtrip": "PASS",
+  "cheetah256/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "cheetah256": "kind=KEM pk=1648 sk=3808 ct=1728 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 238672,
+ "heap_free_min": 156200,
+ "unit": "kem_CheetahKEM__Cheetah256",
+ "pid": "kem_CheetahKEM",
+ "param": "Cheetah256",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 140848,
+ "seconds": 2.3,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_Cheetah256.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

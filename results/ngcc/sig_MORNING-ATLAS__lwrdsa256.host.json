@@ -1,0 +1,23 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "sig_MORNING-ATLAS__lwrdsa256",
+ "pid": "sig_MORNING-ATLAS",
+ "param": "lwrdsa256",
+ "kind": "SIG",
+ "verdict": "does not build",
+ "reason": "undefined symbols: decompose_keygen, decompose_sign, make_hint, use_hint",
+ "build_errors": [
+  "Undefined symbols for architecture arm64:",
+  "\"_decompose_keygen\", referenced from:",
+  "\"_decompose_sign\", referenced from:",
+  "\"_make_hint\", referenced from:",
+  "\"_use_hint\", referenced from:",
+  "ld: symbol(s) not found for architecture arm64",
+  "cc: error: linker command failed with exit code 1 (use -v to see invocation)"
+ ]
+}

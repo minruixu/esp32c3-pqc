@@ -1,0 +1,20 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "kex_CreTAKE__CreTAKE-S2K-BiT128-ZEN128",
+ "pid": "kex_CreTAKE",
+ "param": "CreTAKE-S2K-BiT128-ZEN128",
+ "kind": "KEX",
+ "verdict": "does not build",
+ "reason": "duplicate symbol '_ngc_poly_decompress' in:",
+ "build_errors": [
+  "duplicate symbol '_ngc_poly_decompress' in:",
+  "duplicate symbol '_ngc_poly_compress' in:",
+  "ld: 2 duplicate symbols",
+  "cc: error: linker command failed with exit code 1 (use -v to see invocation)"
+ ]
+}

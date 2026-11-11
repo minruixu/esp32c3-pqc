@@ -1,0 +1,101 @@
+{
+ "results": {
+  "phoenix-shake-192f/ref/kat": {
+   "iters": 1,
+   "avg_us": 57019,
+   "min_us": 57019,
+   "max_us": 57019,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "phoenix-shake-192f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 2489,
+   "min_us": 2303,
+   "max_us": 2614,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "phoenix-shake-192f/ref/sign": {
+   "iters": 3,
+   "avg_us": 49643,
+   "min_us": 47658,
+   "max_us": 52071,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "phoenix-shake-192f/ref/verify": {
+   "iters": 3,
+   "avg_us": 1304,
+   "min_us": 1144,
+   "max_us": 1526,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "phoenix-shake-192f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 933,
+   "min_us": 933,
+   "max_us": 933,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "phoenix-shake-192f/ref/kat0-pk": {
+   "sha256_16": "0532384eea3ea31f241ef54b340ae536",
+   "len": 48
+  },
+  "phoenix-shake-192f/ref/kat0-sk": {
+   "sha256_16": "de559f30e72d5f978eeae0d3669923ed",
+   "len": 96
+  },
+  "phoenix-shake-192f/ref/kat0-sig": {
+   "sha256_16": "dfb37b4e26233bafa324a2ce605ae22a",
+   "len": 30674
+  },
+  "phoenix-shake-192f/ref/pk": {
+   "sha256_16": "8d15453b695f140ba8c56f74855b9d93",
+   "len": 48
+  },
+  "phoenix-shake-192f/ref/sk": {
+   "sha256_16": "24f320adb3d123410bb25e27cc7f08d2",
+   "len": 96
+  },
+  "phoenix-shake-192f/ref/sig": {
+   "sha256_16": "befe12a125bcc32859056d6f52c058c3",
+   "len": 30746
+  }
+ },
+ "checks": {
+  "phoenix-shake-192f/ref/kat-roundtrip": "PASS",
+  "phoenix-shake-192f/ref/tampered-rejected": "PASS"
+ },
+ "info": {
+  "phoenix-shake-192f": "kind=SIG pk=48 sk=96 sig=30766",
+  "job_stack": "0",
+  "kat0_sig_len": "30674",
+  "sig_len": "30746"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Phoenix__Phoenix-SHAKE-192f",
+ "pid": "sig_Phoenix",
+ "param": "Phoenix-SHAKE-192f",
+ "kind": "SIG",
+ "seconds": 1.6,
+ "kat": {
+  "result": "differs",
+  "detail": "no KAT file starts with this public key"
+ },
+ "verdict": "works",
+ "reason": ""
+}

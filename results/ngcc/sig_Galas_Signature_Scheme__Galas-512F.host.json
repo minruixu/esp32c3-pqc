@@ -1,0 +1,122 @@
+{
+ "results": {
+  "galas-512f/ref/kat": {
+   "iters": 1,
+   "avg_us": 35067382,
+   "min_us": 35067382,
+   "max_us": 35067382,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-512f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 43312,
+   "min_us": 43086,
+   "max_us": 43436,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-512f/ref/sign": {
+   "iters": 3,
+   "avg_us": 12295598,
+   "min_us": 11932988,
+   "max_us": 12850135,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-512f/ref/verify": {
+   "iters": 3,
+   "avg_us": 7136767,
+   "min_us": 6982775,
+   "max_us": 7270878,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-512f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 13905897,
+   "min_us": 13905897,
+   "max_us": 13905897,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-512f/opt/kat": {
+   "iters": 1,
+   "avg_us": 18759542,
+   "min_us": 18759542,
+   "max_us": 18759542,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "galas-512f/ref/kat0-pk": {
+   "sha256_16": "1c37bbe4f8ce9a0ed473ad136842033e",
+   "len": 128
+  },
+  "galas-512f/ref/kat0-sk": {
+   "sha256_16": "325a6de201a0cebe4bd5eddd65fdf98d",
+   "len": 128
+  },
+  "galas-512f/ref/kat0-sig": {
+   "sha256_16": "607a98a66e2067ef7172a70ec43629b9",
+   "len": 59416
+  },
+  "galas-512f/ref/pk": {
+   "sha256_16": "1c37bbe4f8ce9a0ed473ad136842033e",
+   "len": 128
+  },
+  "galas-512f/ref/sk": {
+   "sha256_16": "325a6de201a0cebe4bd5eddd65fdf98d",
+   "len": 128
+  },
+  "galas-512f/ref/sig": {
+   "sha256_16": "f1819a7cabdcb0d93c858c6d829bc879",
+   "len": 59416
+  },
+  "galas-512f/opt/kat0-pk": {
+   "sha256_16": "1c37bbe4f8ce9a0ed473ad136842033e",
+   "len": 128
+  },
+  "galas-512f/opt/kat0-sk": {
+   "sha256_16": "325a6de201a0cebe4bd5eddd65fdf98d",
+   "len": 128
+  },
+  "galas-512f/opt/kat0-sig": {
+   "sha256_16": "607a98a66e2067ef7172a70ec43629b9",
+   "len": 59416
+  }
+ },
+ "checks": {
+  "galas-512f/ref/kat-roundtrip": "PASS",
+  "galas-512f/ref/tampered-rejected": "PASS",
+  "galas-512f/opt/kat-roundtrip": "PASS"
+ },
+ "info": {
+  "galas-512f": "kind=SIG pk=128 sk=128 sig=59416",
+  "job_stack": "0",
+  "kat0_sig_len": "59416",
+  "sig_len": "59416"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "unit": "sig_Galas_Signature_Scheme__Galas-512F",
+ "pid": "sig_Galas_Signature_Scheme",
+ "param": "Galas-512F",
+ "kind": "SIG",
+ "seconds": 151.4,
+ "kat": {
+  "result": "differs",
+  "detail": "no KAT file starts with this public key"
+ },
+ "verdict": "crashes",
+ "reason": "host run exceeded 150 s"
+}

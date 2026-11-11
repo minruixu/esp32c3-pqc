@@ -1,0 +1,198 @@
+{
+ "results": {
+  "mamba-nike-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 952101,
+   "min_us": 952101,
+   "max_us": 952101,
+   "stack": 56004,
+   "heap": 136,
+   "rc": 0
+  },
+  "mamba-nike-128/ref/init_a": {
+   "iters": 3,
+   "avg_us": 188512,
+   "min_us": 188509,
+   "max_us": 188514,
+   "stack": 43540,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-nike-128/ref/init_b": {
+   "iters": 3,
+   "avg_us": 188510,
+   "min_us": 188508,
+   "max_us": 188512,
+   "stack": 43540,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-nike-128/ref/full": {
+   "iters": 3,
+   "avg_us": 950177,
+   "min_us": 950177,
+   "max_us": 950178,
+   "stack": 55988,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-nike-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 952101,
+   "min_us": 952101,
+   "max_us": 952101,
+   "stack": 56004,
+   "heap": 136,
+   "rc": 0
+  },
+  "mamba-nike-128/opt/init_a": {
+   "iters": 3,
+   "avg_us": 188512,
+   "min_us": 188509,
+   "max_us": 188514,
+   "stack": 43540,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-nike-128/opt/init_b": {
+   "iters": 3,
+   "avg_us": 188510,
+   "min_us": 188507,
+   "max_us": 188513,
+   "stack": 43540,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-nike-128/opt/full": {
+   "iters": 3,
+   "avg_us": 950177,
+   "min_us": 950177,
+   "max_us": 950178,
+   "stack": 55988,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mamba-nike-128/ref/kat0-pka": {
+   "sha256_16": "7ffea6f85810162c1711f4f29c3a4b1f",
+   "len": 1184
+  },
+  "mamba-nike-128/ref/kat0-pkb": {
+   "sha256_16": "8a447285673bb40c506300ad9ecbdfe9",
+   "len": 1184
+  },
+  "mamba-nike-128/ref/kat0-m1": {
+   "sha256_16": "df5961fb1e4ab538cc078fc0d706a39c",
+   "len": 1568
+  },
+  "mamba-nike-128/ref/kat0-m2": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "mamba-nike-128/ref/kat0-ss": {
+   "sha256_16": "b17b4e9e3c4c2ad428e110b69d4453ae",
+   "len": 32
+  },
+  "mamba-nike-128/ref/pka": {
+   "sha256_16": "b3f95463cc9045b59636a9a7e7d72280",
+   "len": 1184
+  },
+  "mamba-nike-128/ref/pkb": {
+   "sha256_16": "36a3dad7c928f6aa394817beccaff9c2",
+   "len": 1184
+  },
+  "mamba-nike-128/ref/m1": {
+   "sha256_16": "02048add1eed279d58f21bdd745f88f8",
+   "len": 1568
+  },
+  "mamba-nike-128/ref/m2": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "mamba-nike-128/ref/ss": {
+   "sha256_16": "e84fdd4304a948969673a6c6eb803692",
+   "len": 32
+  },
+  "mamba-nike-128/opt/kat0-pka": {
+   "sha256_16": "7ffea6f85810162c1711f4f29c3a4b1f",
+   "len": 1184
+  },
+  "mamba-nike-128/opt/kat0-pkb": {
+   "sha256_16": "8a447285673bb40c506300ad9ecbdfe9",
+   "len": 1184
+  },
+  "mamba-nike-128/opt/kat0-m1": {
+   "sha256_16": "df5961fb1e4ab538cc078fc0d706a39c",
+   "len": 1568
+  },
+  "mamba-nike-128/opt/kat0-m2": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "mamba-nike-128/opt/kat0-ss": {
+   "sha256_16": "b17b4e9e3c4c2ad428e110b69d4453ae",
+   "len": 32
+  },
+  "mamba-nike-128/opt/pka": {
+   "sha256_16": "b3f95463cc9045b59636a9a7e7d72280",
+   "len": 1184
+  },
+  "mamba-nike-128/opt/pkb": {
+   "sha256_16": "36a3dad7c928f6aa394817beccaff9c2",
+   "len": 1184
+  },
+  "mamba-nike-128/opt/m1": {
+   "sha256_16": "02048add1eed279d58f21bdd745f88f8",
+   "len": 1568
+  },
+  "mamba-nike-128/opt/m2": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "mamba-nike-128/opt/ss": {
+   "sha256_16": "e84fdd4304a948969673a6c6eb803692",
+   "len": 32
+  }
+ },
+ "checks": {
+  "mamba-nike-128/ref/kat-roundtrip": "PASS",
+  "mamba-nike-128/opt/kat-roundtrip": "PASS"
+ },
+ "info": {
+  "mamba-nike-128": "kind=KEX passes=1 pk=1184 sk=3232 sta=32 stb=0 ss=32 msgs=1568",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 232832,
+ "heap_free_min": 151564,
+ "unit": "kex_MAMBA-NIKE__MAMBA-NIKE-128",
+ "pid": "kex_MAMBA-NIKE",
+ "param": "MAMBA-NIKE-128",
+ "kind": "KEX",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 146448,
+ "seconds": 11.5,
+ "kat": {
+  "result": "match",
+  "file": "API_PKC/API_PKC/Test_Vectors/KAT_KEX_MAMBA-NIKE-128.txt",
+  "fields": [
+   "m1",
+   "pka",
+   "pkb",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 20,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

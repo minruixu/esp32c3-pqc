@@ -1,0 +1,192 @@
+{
+ "results": {
+  "amoeba-2304/ref/kat": {
+   "iters": 1,
+   "avg_us": 756,
+   "min_us": 756,
+   "max_us": 756,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "amoeba-2304/ref/keygen": {
+   "iters": 3,
+   "avg_us": 172,
+   "min_us": 170,
+   "max_us": 175,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "amoeba-2304/ref/encaps": {
+   "iters": 3,
+   "avg_us": 240,
+   "min_us": 238,
+   "max_us": 243,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "amoeba-2304/ref/decaps": {
+   "iters": 3,
+   "avg_us": 287,
+   "min_us": 286,
+   "max_us": 289,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "amoeba-2304/ref/tamper": {
+   "iters": 1,
+   "avg_us": 282,
+   "min_us": 282,
+   "max_us": 282,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "amoeba-2304/opt/kat": {
+   "iters": 1,
+   "avg_us": 725,
+   "min_us": 725,
+   "max_us": 725,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "amoeba-2304/opt/keygen": {
+   "iters": 3,
+   "avg_us": 177,
+   "min_us": 175,
+   "max_us": 179,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "amoeba-2304/opt/encaps": {
+   "iters": 3,
+   "avg_us": 245,
+   "min_us": 245,
+   "max_us": 247,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "amoeba-2304/opt/decaps": {
+   "iters": 3,
+   "avg_us": 290,
+   "min_us": 288,
+   "max_us": 294,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "amoeba-2304/opt/tamper": {
+   "iters": 1,
+   "avg_us": 291,
+   "min_us": 291,
+   "max_us": 291,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "amoeba-2304/ref/kat0-pk": {
+   "sha256_16": "cc454119aee21417eeadfff26df02f7e",
+   "len": 3520
+  },
+  "amoeba-2304/ref/kat0-sk": {
+   "sha256_16": "4421963974cf553820fb7f64043730ba",
+   "len": 7040
+  },
+  "amoeba-2304/ref/kat0-ct": {
+   "sha256_16": "cae94dda12a3a740254f205066cff750",
+   "len": 3914
+  },
+  "amoeba-2304/ref/kat0-ss": {
+   "sha256_16": "aad5bb0cd616f296df1d186ac102fa1d",
+   "len": 64
+  },
+  "amoeba-2304/ref/pk": {
+   "sha256_16": "2041e1f734df7510f8e73fb11502b299",
+   "len": 3520
+  },
+  "amoeba-2304/ref/sk": {
+   "sha256_16": "a77be7cca52644d111ac3482bf35946a",
+   "len": 7040
+  },
+  "amoeba-2304/ref/ct": {
+   "sha256_16": "296bf65da4e6f376cdac9fd0c4395883",
+   "len": 3914
+  },
+  "amoeba-2304/ref/ss": {
+   "sha256_16": "ed5f144f9b015fa5d179ef9f9306d0eb",
+   "len": 64
+  },
+  "amoeba-2304/opt/kat0-pk": {
+   "sha256_16": "cc454119aee21417eeadfff26df02f7e",
+   "len": 3520
+  },
+  "amoeba-2304/opt/kat0-sk": {
+   "sha256_16": "4421963974cf553820fb7f64043730ba",
+   "len": 7040
+  },
+  "amoeba-2304/opt/kat0-ct": {
+   "sha256_16": "cae94dda12a3a740254f205066cff750",
+   "len": 3914
+  },
+  "amoeba-2304/opt/kat0-ss": {
+   "sha256_16": "aad5bb0cd616f296df1d186ac102fa1d",
+   "len": 64
+  },
+  "amoeba-2304/opt/pk": {
+   "sha256_16": "2041e1f734df7510f8e73fb11502b299",
+   "len": 3520
+  },
+  "amoeba-2304/opt/sk": {
+   "sha256_16": "a77be7cca52644d111ac3482bf35946a",
+   "len": 7040
+  },
+  "amoeba-2304/opt/ct": {
+   "sha256_16": "296bf65da4e6f376cdac9fd0c4395883",
+   "len": 3914
+  },
+  "amoeba-2304/opt/ss": {
+   "sha256_16": "ed5f144f9b015fa5d179ef9f9306d0eb",
+   "len": 64
+  }
+ },
+ "checks": {
+  "amoeba-2304/ref/kat-roundtrip": "PASS",
+  "amoeba-2304/ref/tampered-ct-rejected": "PASS",
+  "amoeba-2304/opt/kat-roundtrip": "PASS",
+  "amoeba-2304/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "amoeba-2304": "kind=KEM pk=3520 sk=7040 ct=3914 ss=64",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_Amoeba__Amoeba-2304",
+ "pid": "kem_Amoeba",
+ "param": "Amoeba-2304",
+ "kind": "KEM",
+ "seconds": 4.4,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_Amoeba512.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

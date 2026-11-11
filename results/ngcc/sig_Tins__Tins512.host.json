@@ -1,0 +1,23 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "tins512": "kind=SIG pk=195 sk=128 sig=51187",
+  "job_stack": "0"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "unit": "sig_Tins__Tins512",
+ "pid": "sig_Tins",
+ "param": "Tins512",
+ "kind": "SIG",
+ "seconds": 6.4,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "exit status -6"
+}

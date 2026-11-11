@@ -1,0 +1,100 @@
+{
+ "results": {
+  "galas-512s/ref/kat": {
+   "iters": 1,
+   "avg_us": 40503882,
+   "min_us": 40503882,
+   "max_us": 40503882,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-512s/ref/keygen": {
+   "iters": 3,
+   "avg_us": 42418,
+   "min_us": 41955,
+   "max_us": 42675,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-512s/ref/sign": {
+   "iters": 3,
+   "avg_us": 14563402,
+   "min_us": 14320491,
+   "max_us": 14740527,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-512s/ref/verify": {
+   "iters": 3,
+   "avg_us": 9282749,
+   "min_us": 9258983,
+   "max_us": 9322521,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-512s/ref/tamper": {
+   "iters": 1,
+   "avg_us": 18682474,
+   "min_us": 18682474,
+   "max_us": 18682474,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "galas-512s/ref/kat0-pk": {
+   "sha256_16": "1c37bbe4f8ce9a0ed473ad136842033e",
+   "len": 128
+  },
+  "galas-512s/ref/kat0-sk": {
+   "sha256_16": "325a6de201a0cebe4bd5eddd65fdf98d",
+   "len": 128
+  },
+  "galas-512s/ref/kat0-sig": {
+   "sha256_16": "173039e6b66cba5d7d54593b2f2c566d",
+   "len": 49516
+  },
+  "galas-512s/ref/pk": {
+   "sha256_16": "1c37bbe4f8ce9a0ed473ad136842033e",
+   "len": 128
+  },
+  "galas-512s/ref/sk": {
+   "sha256_16": "325a6de201a0cebe4bd5eddd65fdf98d",
+   "len": 128
+  },
+  "galas-512s/ref/sig": {
+   "sha256_16": "7ec4c09eb0034b3e8ed41df5f9326244",
+   "len": 49516
+  }
+ },
+ "checks": {
+  "galas-512s/ref/kat-roundtrip": "PASS",
+  "galas-512s/ref/tampered-rejected": "PASS"
+ },
+ "info": {
+  "galas-512s": "kind=SIG pk=128 sk=128 sig=49516",
+  "job_stack": "0",
+  "kat0_sig_len": "49516",
+  "sig_len": "49516"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "unit": "sig_Galas_Signature_Scheme__Galas-512S",
+ "pid": "sig_Galas_Signature_Scheme",
+ "param": "Galas-512S",
+ "kind": "SIG",
+ "seconds": 150.9,
+ "kat": {
+  "result": "differs",
+  "detail": "no KAT file starts with this public key"
+ },
+ "verdict": "crashes",
+ "reason": "host run exceeded 150 s"
+}

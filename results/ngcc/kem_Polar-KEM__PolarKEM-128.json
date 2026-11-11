@@ -1,0 +1,202 @@
+{
+ "results": {
+  "polarkem-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 60033,
+   "min_us": 60033,
+   "max_us": 60033,
+   "stack": 10808,
+   "heap": 4408,
+   "rc": 0
+  },
+  "polarkem-128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 5152,
+   "min_us": 5150,
+   "max_us": 5155,
+   "stack": 1256,
+   "heap": 1112,
+   "rc": 0
+  },
+  "polarkem-128/ref/encaps": {
+   "iters": 3,
+   "avg_us": 17685,
+   "min_us": 17683,
+   "max_us": 17687,
+   "stack": 9976,
+   "heap": 4408,
+   "rc": 0
+  },
+  "polarkem-128/ref/decaps": {
+   "iters": 3,
+   "avg_us": 35699,
+   "min_us": 35697,
+   "max_us": 35702,
+   "stack": 10792,
+   "heap": 4408,
+   "rc": 0
+  },
+  "polarkem-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 35697,
+   "min_us": 35697,
+   "max_us": 35697,
+   "stack": 10808,
+   "heap": 4408,
+   "rc": 0
+  },
+  "polarkem-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 39175,
+   "min_us": 39175,
+   "max_us": 39175,
+   "stack": 10632,
+   "heap": 4408,
+   "rc": 0
+  },
+  "polarkem-128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 3157,
+   "min_us": 3156,
+   "max_us": 3161,
+   "stack": 1112,
+   "heap": 1112,
+   "rc": 0
+  },
+  "polarkem-128/opt/encaps": {
+   "iters": 3,
+   "avg_us": 11446,
+   "min_us": 11446,
+   "max_us": 11447,
+   "stack": 9800,
+   "heap": 4408,
+   "rc": 0
+  },
+  "polarkem-128/opt/decaps": {
+   "iters": 3,
+   "avg_us": 23080,
+   "min_us": 23080,
+   "max_us": 23081,
+   "stack": 10616,
+   "heap": 4408,
+   "rc": 0
+  },
+  "polarkem-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 23080,
+   "min_us": 23080,
+   "max_us": 23080,
+   "stack": 10632,
+   "heap": 4408,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "polarkem-128/ref/kat0-pk": {
+   "sha256_16": "b8a2c3761e215f1adb4b9441aab61e1c",
+   "len": 1024
+  },
+  "polarkem-128/ref/kat0-sk": {
+   "sha256_16": "e8a9a7388200321e29cbf1f59bbcc6ce",
+   "len": 2048
+  },
+  "polarkem-128/ref/kat0-ct": {
+   "sha256_16": "eb64cd6aff9c6888f1053b0d158132fe",
+   "len": 768
+  },
+  "polarkem-128/ref/kat0-ss": {
+   "sha256_16": "8db297a8ef5f09fc7df3fd58e4e339c9",
+   "len": 16
+  },
+  "polarkem-128/ref/pk": {
+   "sha256_16": "26bea3fd6028840f609988a44d3d2376",
+   "len": 1024
+  },
+  "polarkem-128/ref/sk": {
+   "sha256_16": "94e87fec60d322e361a07ccaebc8160b",
+   "len": 2048
+  },
+  "polarkem-128/ref/ct": {
+   "sha256_16": "94cfaea5a850aa9c5c7e6b4782654fe1",
+   "len": 768
+  },
+  "polarkem-128/ref/ss": {
+   "sha256_16": "711b16f4ebf78af2643d0c389e9e90db",
+   "len": 16
+  },
+  "polarkem-128/opt/kat0-pk": {
+   "sha256_16": "b8a2c3761e215f1adb4b9441aab61e1c",
+   "len": 1024
+  },
+  "polarkem-128/opt/kat0-sk": {
+   "sha256_16": "e8a9a7388200321e29cbf1f59bbcc6ce",
+   "len": 2048
+  },
+  "polarkem-128/opt/kat0-ct": {
+   "sha256_16": "eb64cd6aff9c6888f1053b0d158132fe",
+   "len": 768
+  },
+  "polarkem-128/opt/kat0-ss": {
+   "sha256_16": "8db297a8ef5f09fc7df3fd58e4e339c9",
+   "len": 16
+  },
+  "polarkem-128/opt/pk": {
+   "sha256_16": "26bea3fd6028840f609988a44d3d2376",
+   "len": 1024
+  },
+  "polarkem-128/opt/sk": {
+   "sha256_16": "94e87fec60d322e361a07ccaebc8160b",
+   "len": 2048
+  },
+  "polarkem-128/opt/ct": {
+   "sha256_16": "94cfaea5a850aa9c5c7e6b4782654fe1",
+   "len": 768
+  },
+  "polarkem-128/opt/ss": {
+   "sha256_16": "711b16f4ebf78af2643d0c389e9e90db",
+   "len": 16
+  }
+ },
+ "checks": {
+  "polarkem-128/ref/kat-roundtrip": "PASS",
+  "polarkem-128/ref/tampered-ct-rejected": "PASS",
+  "polarkem-128/opt/kat-roundtrip": "PASS",
+  "polarkem-128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "polarkem-128": "kind=KEM pk=1024 sk=2048 ct=768 ss=16",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 245392,
+ "heap_free_min": 169924,
+ "unit": "kem_Polar-KEM__PolarKEM-128",
+ "pid": "kem_Polar-KEM",
+ "param": "PolarKEM-128",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 134384,
+ "seconds": 2.1,
+ "kat": {
+  "result": "match",
+  "file": "Submission_Package/Test_Vectors/KAT_KEM_PolarKEM-128.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

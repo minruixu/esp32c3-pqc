@@ -1,0 +1,33 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "lore-sm3_lore-l2": "kind=KEM pk=1186 sk=4518 ct=1282 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 235808,
+ "unit": "kem_Lore__Lore-SM3_Lore-L2",
+ "pid": "kem_Lore",
+ "param": "Lore-SM3_Lore-L2",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 143456,
+ "seconds": 61.6,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "no output for 60 s",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

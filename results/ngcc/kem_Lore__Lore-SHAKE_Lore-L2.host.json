@@ -1,0 +1,113 @@
+{
+ "results": {
+  "lore-shake_lore-l2/ref/kat": {
+   "iters": 1,
+   "avg_us": 2294,
+   "min_us": 2294,
+   "max_us": 2294,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-shake_lore-l2/ref/keygen": {
+   "iters": 3,
+   "avg_us": 50,
+   "min_us": 49,
+   "max_us": 52,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-shake_lore-l2/ref/encaps": {
+   "iters": 3,
+   "avg_us": 74,
+   "min_us": 73,
+   "max_us": 75,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-shake_lore-l2/ref/decaps": {
+   "iters": 3,
+   "avg_us": 98,
+   "min_us": 97,
+   "max_us": 99,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-shake_lore-l2/ref/tamper": {
+   "iters": 1,
+   "avg_us": 151,
+   "min_us": 151,
+   "max_us": 151,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "lore-shake_lore-l2/ref/kat0-pk": {
+   "sha256_16": "0d3d304c3843bba6b176fbddc92b27bd",
+   "len": 1186
+  },
+  "lore-shake_lore-l2/ref/kat0-sk": {
+   "sha256_16": "df3b1c8723fb917f11563fb7dc2dedea",
+   "len": 4518
+  },
+  "lore-shake_lore-l2/ref/kat0-ct": {
+   "sha256_16": "5063d41eabfc9e710570e85192c07b13",
+   "len": 1282
+  },
+  "lore-shake_lore-l2/ref/kat0-ss": {
+   "sha256_16": "4b9adf2519647fb0ddc968c1b497d563",
+   "len": 32
+  },
+  "lore-shake_lore-l2/ref/pk": {
+   "sha256_16": "3e7fb5f13cfa50a0b8266e451bc4ba27",
+   "len": 1186
+  },
+  "lore-shake_lore-l2/ref/sk": {
+   "sha256_16": "3d1a78636f2eef245f850b9e68a404e1",
+   "len": 4518
+  },
+  "lore-shake_lore-l2/ref/ct": {
+   "sha256_16": "8513391ef0561290df07414591f900f2",
+   "len": 1282
+  },
+  "lore-shake_lore-l2/ref/ss": {
+   "sha256_16": "622b6dfe95d0e847c589ff59457bf5c8",
+   "len": 32
+  }
+ },
+ "checks": {
+  "lore-shake_lore-l2/ref/kat-roundtrip": "PASS",
+  "lore-shake_lore-l2/ref/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "lore-shake_lore-l2": "kind=KEM pk=1186 sk=4518 ct=1282 ss=32",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_Lore__Lore-SHAKE_Lore-L2",
+ "pid": "kem_Lore",
+ "param": "Lore-SHAKE_Lore-L2",
+ "kind": "KEM",
+ "seconds": 3.8,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/Lore-SHAKE/KAT_KEM_Lore-L2.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

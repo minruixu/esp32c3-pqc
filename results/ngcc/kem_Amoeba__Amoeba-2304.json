@@ -1,0 +1,87 @@
+{
+ "results": {
+  "amoeba-2304/ref/kat": {
+   "iters": 1,
+   "avg_us": 175784,
+   "min_us": 175784,
+   "max_us": 175784,
+   "stack": 65500,
+   "heap": 4608,
+   "rc": 0
+  },
+  "amoeba-2304/ref/keygen": {
+   "iters": 3,
+   "avg_us": 41724,
+   "min_us": 41723,
+   "max_us": 41727,
+   "stack": 33560,
+   "heap": 4608,
+   "rc": 0
+  },
+  "amoeba-2304/ref/encaps": {
+   "iters": 3,
+   "avg_us": 60311,
+   "min_us": 60311,
+   "max_us": 60312,
+   "stack": 61688,
+   "heap": 4608,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "amoeba-2304/ref/kat0-pk": {
+   "sha256_16": "cc454119aee21417eeadfff26df02f7e",
+   "len": 3520
+  },
+  "amoeba-2304/ref/kat0-sk": {
+   "sha256_16": "4421963974cf553820fb7f64043730ba",
+   "len": 7040
+  },
+  "amoeba-2304/ref/kat0-ct": {
+   "sha256_16": "cae94dda12a3a740254f205066cff750",
+   "len": 3914
+  },
+  "amoeba-2304/ref/kat0-ss": {
+   "sha256_16": "aad5bb0cd616f296df1d186ac102fa1d",
+   "len": 64
+  }
+ },
+ "checks": {
+  "amoeba-2304/ref/kat-roundtrip": "PASS"
+ },
+ "info": {
+  "amoeba-2304": "kind=KEM pk=3520 sk=7040 ct=3914 ss=64",
+  "job_stack": "65536"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 224672,
+ "unit": "kem_Amoeba__Amoeba-2304",
+ "pid": "kem_Amoeba",
+ "param": "Amoeba-2304",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 155024,
+ "seconds": 3.9,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_Amoeba512.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "crashes",
+ "reason": "Guru Meditation Error: Core  0 panic'ed (Stack protection fault).",
+ "host_check": {
+  "equal": 4,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

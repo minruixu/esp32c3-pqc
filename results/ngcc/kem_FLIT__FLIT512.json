@@ -1,0 +1,202 @@
+{
+ "results": {
+  "flit512/ref/kat": {
+   "iters": 1,
+   "avg_us": 116221,
+   "min_us": 116221,
+   "max_us": 116221,
+   "stack": 29308,
+   "heap": 6400,
+   "rc": 0
+  },
+  "flit512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 40172,
+   "min_us": 40172,
+   "max_us": 40172,
+   "stack": 19596,
+   "heap": 6400,
+   "rc": 0
+  },
+  "flit512/ref/encaps": {
+   "iters": 3,
+   "avg_us": 31662,
+   "min_us": 31662,
+   "max_us": 31662,
+   "stack": 27096,
+   "heap": 6400,
+   "rc": 0
+  },
+  "flit512/ref/decaps": {
+   "iters": 3,
+   "avg_us": 42743,
+   "min_us": 42743,
+   "max_us": 42744,
+   "stack": 29432,
+   "heap": 4864,
+   "rc": 0
+  },
+  "flit512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 42743,
+   "min_us": 42743,
+   "max_us": 42743,
+   "stack": 29308,
+   "heap": 4864,
+   "rc": 0
+  },
+  "flit512/opt/kat": {
+   "iters": 1,
+   "avg_us": 101205,
+   "min_us": 101205,
+   "max_us": 101205,
+   "stack": 29144,
+   "heap": 6400,
+   "rc": 0
+  },
+  "flit512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 35957,
+   "min_us": 35954,
+   "max_us": 35959,
+   "stack": 19432,
+   "heap": 6400,
+   "rc": 0
+  },
+  "flit512/opt/encaps": {
+   "iters": 3,
+   "avg_us": 25230,
+   "min_us": 25228,
+   "max_us": 25233,
+   "stack": 26792,
+   "heap": 6400,
+   "rc": 0
+  },
+  "flit512/opt/decaps": {
+   "iters": 3,
+   "avg_us": 38373,
+   "min_us": 38370,
+   "max_us": 38375,
+   "stack": 29256,
+   "heap": 4864,
+   "rc": 0
+  },
+  "flit512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 38374,
+   "min_us": 38374,
+   "max_us": 38374,
+   "stack": 29144,
+   "heap": 4864,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "flit512/ref/kat0-pk": {
+   "sha256_16": "d0d9461e3bf4f4f040d376baa8b3c308",
+   "len": 3072
+  },
+  "flit512/ref/kat0-sk": {
+   "sha256_16": "3d2015d6dfb3e4239525dbf81398c680",
+   "len": 6336
+  },
+  "flit512/ref/kat0-ct": {
+   "sha256_16": "a4a18b84e2fb93dd46375a3fa081d0b5",
+   "len": 2304
+  },
+  "flit512/ref/kat0-ss": {
+   "sha256_16": "7c09f9c5974839a1e7830ce9fbe1aa37",
+   "len": 64
+  },
+  "flit512/ref/pk": {
+   "sha256_16": "da3c3c4fbf03bf14ecc45c6761de4e67",
+   "len": 3072
+  },
+  "flit512/ref/sk": {
+   "sha256_16": "12dce4b8a8aae1a21edc640ccec04fea",
+   "len": 6336
+  },
+  "flit512/ref/ct": {
+   "sha256_16": "5262ce2a9e2d03e29c879dab5cf65b11",
+   "len": 2304
+  },
+  "flit512/ref/ss": {
+   "sha256_16": "9aac81ee5115a30f77ef47ac216dfbcc",
+   "len": 64
+  },
+  "flit512/opt/kat0-pk": {
+   "sha256_16": "d0d9461e3bf4f4f040d376baa8b3c308",
+   "len": 3072
+  },
+  "flit512/opt/kat0-sk": {
+   "sha256_16": "3d2015d6dfb3e4239525dbf81398c680",
+   "len": 6336
+  },
+  "flit512/opt/kat0-ct": {
+   "sha256_16": "a4a18b84e2fb93dd46375a3fa081d0b5",
+   "len": 2304
+  },
+  "flit512/opt/kat0-ss": {
+   "sha256_16": "7c09f9c5974839a1e7830ce9fbe1aa37",
+   "len": 64
+  },
+  "flit512/opt/pk": {
+   "sha256_16": "da3c3c4fbf03bf14ecc45c6761de4e67",
+   "len": 3072
+  },
+  "flit512/opt/sk": {
+   "sha256_16": "12dce4b8a8aae1a21edc640ccec04fea",
+   "len": 6336
+  },
+  "flit512/opt/ct": {
+   "sha256_16": "5262ce2a9e2d03e29c879dab5cf65b11",
+   "len": 2304
+  },
+  "flit512/opt/ss": {
+   "sha256_16": "9aac81ee5115a30f77ef47ac216dfbcc",
+   "len": 64
+  }
+ },
+ "checks": {
+  "flit512/ref/kat-roundtrip": "PASS",
+  "flit512/ref/tampered-ct-rejected": "PASS",
+  "flit512/opt/kat-roundtrip": "PASS",
+  "flit512/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "flit512": "kind=KEM pk=3072 sk=6336 ct=2304 ss=64",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 238592,
+ "heap_free_min": 153100,
+ "unit": "kem_FLIT__FLIT512",
+ "pid": "kem_FLIT",
+ "param": "FLIT512",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 140720,
+ "seconds": 2.8,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_FLIT512_REF.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "results": {
+  "trike-2/ref/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 3336,
+   "heap": 16016,
+   "rc": 99
+  },
+  "trike-2/ref/keygen": {
+   "iters": 1,
+   "avg_us": 6374773,
+   "min_us": 6374773,
+   "max_us": 6374773,
+   "stack": 2168,
+   "heap": 16016,
+   "rc": 0
+  },
+  "trike-2/ref/encaps": {
+   "iters": 1,
+   "avg_us": 569340,
+   "min_us": 569340,
+   "max_us": 569340,
+   "stack": 2840,
+   "heap": 12288,
+   "rc": 0
+  },
+  "trike-2/ref/decaps": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 3320,
+   "heap": 12288,
+   "rc": 99
+  },
+  "trike-2/ref/tamper": {
+   "iters": 1,
+   "avg_us": 319719,
+   "min_us": 319719,
+   "max_us": 319719,
+   "stack": 3336,
+   "heap": 12288,
+   "rc": 0
+  },
+  "trike-2/opt/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 3336,
+   "heap": 16016,
+   "rc": 99
+  },
+  "trike-2/opt/keygen": {
+   "iters": 1,
+   "avg_us": 6374773,
+   "min_us": 6374773,
+   "max_us": 6374773,
+   "stack": 2168,
+   "heap": 16016,
+   "rc": 0
+  },
+  "trike-2/opt/encaps": {
+   "iters": 1,
+   "avg_us": 563384,
+   "min_us": 563384,
+   "max_us": 563384,
+   "stack": 2840,
+   "heap": 12288,
+   "rc": 0
+  },
+  "trike-2/opt/decaps": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 3320,
+   "heap": 12288,
+   "rc": 99
+  },
+  "trike-2/opt/tamper": {
+   "iters": 1,
+   "avg_us": 313746,
+   "min_us": 313746,
+   "max_us": 313746,
+   "stack": 3336,
+   "heap": 12288,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "trike-2/ref/kat0-pk": {
+   "sha256_16": "a6f8d2a640cdfcf8414f0dec266bdf87",
+   "len": 1980
+  },
+  "trike-2/ref/kat0-sk": {
+   "sha256_16": "0d2dea7dc1677005cd5dd985b39dd8d9",
+   "len": 6328
+  },
+  "trike-2/ref/kat0-ct": {
+   "sha256_16": "268d7b6fb69be41890c57cc4025111a1",
+   "len": 3928
+  },
+  "trike-2/ref/kat0-ss": {
+   "sha256_16": "9331b773467cc9849f6466ca4e5b41c5",
+   "len": 32
+  },
+  "trike-2/ref/pk": {
+   "sha256_16": "f5f23a2198ffd3f68f02f5397ac35544",
+   "len": 1980
+  },
+  "trike-2/ref/sk": {
+   "sha256_16": "4e1d7aa97b9d511bbec4fd287345c164",
+   "len": 6328
+  },
+  "trike-2/ref/ct": {
+   "sha256_16": "05a131a359c1e58d974622494c063776",
+   "len": 3928
+  },
+  "trike-2/ref/ss": {
+   "sha256_16": "cb158faf48fca6960fd726280fdde832",
+   "len": 32
+  },
+  "trike-2/opt/kat0-pk": {
+   "sha256_16": "a6f8d2a640cdfcf8414f0dec266bdf87",
+   "len": 1980
+  },
+  "trike-2/opt/kat0-sk": {
+   "sha256_16": "0d2dea7dc1677005cd5dd985b39dd8d9",
+   "len": 6328
+  },
+  "trike-2/opt/kat0-ct": {
+   "sha256_16": "268d7b6fb69be41890c57cc4025111a1",
+   "len": 3928
+  },
+  "trike-2/opt/kat0-ss": {
+   "sha256_16": "9331b773467cc9849f6466ca4e5b41c5",
+   "len": 32
+  },
+  "trike-2/opt/pk": {
+   "sha256_16": "f5f23a2198ffd3f68f02f5397ac35544",
+   "len": 1980
+  },
+  "trike-2/opt/sk": {
+   "sha256_16": "4e1d7aa97b9d511bbec4fd287345c164",
+   "len": 6328
+  },
+  "trike-2/opt/ct": {
+   "sha256_16": "05a131a359c1e58d974622494c063776",
+   "len": 3928
+  },
+  "trike-2/opt/ss": {
+   "sha256_16": "cb158faf48fca6960fd726280fdde832",
+   "len": 32
+  }
+ },
+ "checks": {
+  "trike-2/ref/kat-roundtrip": "FAIL",
+  "trike-2/ref/tampered-ct-rejected": "PASS",
+  "trike-2/opt/kat-roundtrip": "FAIL",
+  "trike-2/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "trike-2": "kind=KEM pk=1980 sk=6328 ct=3928 ss=32",
+  "job_stack": "32768"
+ },
+ "complete": true,
+ "fails": 6,
+ "cpu_mhz": 160,
+ "heap_free_start": 238224,
+ "heap_free_min": 113812,
+ "unit": "kem_TRIKE__TRIKE-2",
+ "pid": "kem_TRIKE",
+ "param": "TRIKE-2",
+ "kind": "KEM",
+ "iters": 1,
+ "stack_pct": 30,
+ "stack_given": 0,
+ "image_bytes": 141408,
+ "attempts": [
+  {
+   "verdict": "self-test fails",
+   "reason": "failed: decaps rc=99, kat rc=99, kat-roundtrip",
+   "stack_pct": 60
+  }
+ ],
+ "seconds": 31.2,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/KAT_KEM_TRIKE-2.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "self-test fails",
+ "reason": "failed: decaps rc=99, kat rc=99, kat-roundtrip",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

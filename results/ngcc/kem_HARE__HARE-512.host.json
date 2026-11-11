@@ -1,0 +1,192 @@
+{
+ "results": {
+  "hare-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 177600,
+   "min_us": 177600,
+   "max_us": 177600,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hare-512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 28590,
+   "min_us": 27330,
+   "max_us": 30086,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hare-512/ref/encaps": {
+   "iters": 3,
+   "avg_us": 57820,
+   "min_us": 54594,
+   "max_us": 61081,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hare-512/ref/decaps": {
+   "iters": 3,
+   "avg_us": 75500,
+   "min_us": 70274,
+   "max_us": 85947,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hare-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 75121,
+   "min_us": 75121,
+   "max_us": 75121,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hare-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 173332,
+   "min_us": 173332,
+   "max_us": 173332,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hare-512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 30358,
+   "min_us": 29822,
+   "max_us": 30655,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hare-512/opt/encaps": {
+   "iters": 3,
+   "avg_us": 60407,
+   "min_us": 59591,
+   "max_us": 61552,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hare-512/opt/decaps": {
+   "iters": 3,
+   "avg_us": 91938,
+   "min_us": 88753,
+   "max_us": 93587,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hare-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 92378,
+   "min_us": 92378,
+   "max_us": 92378,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "hare-512/ref/kat0-pk": {
+   "sha256_16": "b402fdb03536104f13cb1fb3672f4776",
+   "len": 21812
+  },
+  "hare-512/ref/kat0-sk": {
+   "sha256_16": "fce1434969b9ebf409387da262308d28",
+   "len": 22004
+  },
+  "hare-512/ref/kat0-ct": {
+   "sha256_16": "8f10aca6161bdb0b5ff5b167eca54040",
+   "len": 39294
+  },
+  "hare-512/ref/kat0-ss": {
+   "sha256_16": "25c90408ba7912091c3bffd3d0b5d72e",
+   "len": 64
+  },
+  "hare-512/ref/pk": {
+   "sha256_16": "f8a371b84eed1ed5c2a42f61ec503404",
+   "len": 21812
+  },
+  "hare-512/ref/sk": {
+   "sha256_16": "6dbded1318b16c24a2086f840644fc8e",
+   "len": 22004
+  },
+  "hare-512/ref/ct": {
+   "sha256_16": "ca7ee241bcf369659a634d706f0d3bff",
+   "len": 39294
+  },
+  "hare-512/ref/ss": {
+   "sha256_16": "38d91c72c89bf7b694f22e622731bde9",
+   "len": 64
+  },
+  "hare-512/opt/kat0-pk": {
+   "sha256_16": "b402fdb03536104f13cb1fb3672f4776",
+   "len": 21812
+  },
+  "hare-512/opt/kat0-sk": {
+   "sha256_16": "fce1434969b9ebf409387da262308d28",
+   "len": 22004
+  },
+  "hare-512/opt/kat0-ct": {
+   "sha256_16": "8f10aca6161bdb0b5ff5b167eca54040",
+   "len": 39294
+  },
+  "hare-512/opt/kat0-ss": {
+   "sha256_16": "25c90408ba7912091c3bffd3d0b5d72e",
+   "len": 64
+  },
+  "hare-512/opt/pk": {
+   "sha256_16": "f8a371b84eed1ed5c2a42f61ec503404",
+   "len": 21812
+  },
+  "hare-512/opt/sk": {
+   "sha256_16": "6dbded1318b16c24a2086f840644fc8e",
+   "len": 22004
+  },
+  "hare-512/opt/ct": {
+   "sha256_16": "ca7ee241bcf369659a634d706f0d3bff",
+   "len": 39294
+  },
+  "hare-512/opt/ss": {
+   "sha256_16": "38d91c72c89bf7b694f22e622731bde9",
+   "len": 64
+  }
+ },
+ "checks": {
+  "hare-512/ref/kat-roundtrip": "PASS",
+  "hare-512/ref/tampered-ct-rejected": "PASS",
+  "hare-512/opt/kat-roundtrip": "PASS",
+  "hare-512/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "hare-512": "kind=KEM pk=21812 sk=22004 ct=39294 ss=64",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_HARE__HARE-512",
+ "pid": "kem_HARE",
+ "param": "HARE-512",
+ "kind": "KEM",
+ "seconds": 4.5,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/KAT_KEM_HARE-512-kr.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

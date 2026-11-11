@@ -1,0 +1,106 @@
+{
+ "results": {
+  "greatwall512f/ref/kat": {
+   "iters": 1,
+   "avg_us": 1152100,
+   "min_us": 1152100,
+   "max_us": 1152100,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "greatwall512f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 8064,
+   "min_us": 7994,
+   "max_us": 8202,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "greatwall512f/ref/sign": {
+   "iters": 3,
+   "avg_us": 726990,
+   "min_us": 671778,
+   "max_us": 760019,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "greatwall512f/ref/verify": {
+   "iters": 3,
+   "avg_us": 446816,
+   "min_us": 433132,
+   "max_us": 454770,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "greatwall512f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 907787,
+   "min_us": 907787,
+   "max_us": 907787,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "greatwall512f/ref/kat0-pk": {
+   "sha256_16": "76cd9e1d8c640febec6328828cd80c91",
+   "len": 132
+  },
+  "greatwall512f/ref/kat0-sk": {
+   "sha256_16": "93dde3192ce501714d902619d565dd56",
+   "len": 132
+  },
+  "greatwall512f/ref/kat0-sig": {
+   "sha256_16": "135ece0da7e45285f7e65ac9ce32e872",
+   "len": 57812
+  },
+  "greatwall512f/ref/pk": {
+   "sha256_16": "41b72e7023230aaa7603041962a21904",
+   "len": 132
+  },
+  "greatwall512f/ref/sk": {
+   "sha256_16": "fdd9857aca532a26b97cdb56b76543a4",
+   "len": 132
+  },
+  "greatwall512f/ref/sig": {
+   "sha256_16": "da19a47130d9877d516ba637c2bd3239",
+   "len": 57812
+  }
+ },
+ "checks": {
+  "greatwall512f/ref/kat-roundtrip": "PASS",
+  "greatwall512f/ref/tampered-rejected": "PASS"
+ },
+ "info": {
+  "greatwall512f": "kind=SIG pk=132 sk=132 sig=57812",
+  "job_stack": "0",
+  "kat0_sig_len": "57812",
+  "sig_len": "57812"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_GreatWall_Signature_Algorithm__GreatWall512f",
+ "pid": "sig_GreatWall_Signature_Algorithm",
+ "param": "GreatWall512f",
+ "kind": "SIG",
+ "seconds": 7.8,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_GreatWall512f.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

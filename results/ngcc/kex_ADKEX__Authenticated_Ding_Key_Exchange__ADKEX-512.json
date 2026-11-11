@@ -1,0 +1,199 @@
+{
+ "results": {
+  "adkex-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 470724,
+   "min_us": 470724,
+   "max_us": 470724,
+   "stack": 41676,
+   "heap": 13408,
+   "rc": 0
+  },
+  "adkex-512/ref/init_a": {
+   "iters": 3,
+   "avg_us": 1,
+   "min_us": 1,
+   "max_us": 2,
+   "stack": 172,
+   "heap": 0,
+   "rc": 0
+  },
+  "adkex-512/ref/init_b": {
+   "iters": 3,
+   "avg_us": 66937,
+   "min_us": 66934,
+   "max_us": 66939,
+   "stack": 31276,
+   "heap": 228,
+   "rc": 0
+  },
+  "adkex-512/ref/full": {
+   "iters": 3,
+   "avg_us": 468832,
+   "min_us": 468830,
+   "max_us": 468834,
+   "stack": 41660,
+   "heap": 13408,
+   "rc": 0
+  },
+  "adkex-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 318592,
+   "min_us": 318592,
+   "max_us": 318592,
+   "stack": 41500,
+   "heap": 13408,
+   "rc": 0
+  },
+  "adkex-512/opt/init_a": {
+   "iters": 3,
+   "avg_us": 1,
+   "min_us": 1,
+   "max_us": 2,
+   "stack": 172,
+   "heap": 0,
+   "rc": 0
+  },
+  "adkex-512/opt/init_b": {
+   "iters": 3,
+   "avg_us": 44680,
+   "min_us": 44679,
+   "max_us": 44683,
+   "stack": 31100,
+   "heap": 228,
+   "rc": 0
+  },
+  "adkex-512/opt/full": {
+   "iters": 3,
+   "avg_us": 316701,
+   "min_us": 316698,
+   "max_us": 316703,
+   "stack": 41484,
+   "heap": 13408,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "adkex-512/ref/kat0-pka": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "adkex-512/ref/kat0-pkb": {
+   "sha256_16": "55646999d93b8a210f5ed17a8f109f11",
+   "len": 3392
+  },
+  "adkex-512/ref/kat0-m1": {
+   "sha256_16": "4d51eb985cb1a9702f3a3c5f20b4ff57",
+   "len": 6528
+  },
+  "adkex-512/ref/kat0-m2": {
+   "sha256_16": "826dc900b928068f2c38923588256d12",
+   "len": 3136
+  },
+  "adkex-512/ref/kat0-ss": {
+   "sha256_16": "6166119a31fd9a8fbd5c4512028bc462",
+   "len": 64
+  },
+  "adkex-512/ref/pka": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "adkex-512/ref/pkb": {
+   "sha256_16": "163cf1bd3201d9431943d3b1490de5fc",
+   "len": 3392
+  },
+  "adkex-512/ref/m1": {
+   "sha256_16": "980da2974d018cde8a964ac3ab6d6912",
+   "len": 6528
+  },
+  "adkex-512/ref/m2": {
+   "sha256_16": "4146294a49a83d063e5f9ce75bfed8ab",
+   "len": 3136
+  },
+  "adkex-512/ref/ss": {
+   "sha256_16": "2af259fc0fcc6f51415e8946ab84994e",
+   "len": 64
+  },
+  "adkex-512/opt/kat0-pka": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "adkex-512/opt/kat0-pkb": {
+   "sha256_16": "55646999d93b8a210f5ed17a8f109f11",
+   "len": 3392
+  },
+  "adkex-512/opt/kat0-m1": {
+   "sha256_16": "4d51eb985cb1a9702f3a3c5f20b4ff57",
+   "len": 6528
+  },
+  "adkex-512/opt/kat0-m2": {
+   "sha256_16": "826dc900b928068f2c38923588256d12",
+   "len": 3136
+  },
+  "adkex-512/opt/kat0-ss": {
+   "sha256_16": "6166119a31fd9a8fbd5c4512028bc462",
+   "len": 64
+  },
+  "adkex-512/opt/pka": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "adkex-512/opt/pkb": {
+   "sha256_16": "163cf1bd3201d9431943d3b1490de5fc",
+   "len": 3392
+  },
+  "adkex-512/opt/m1": {
+   "sha256_16": "980da2974d018cde8a964ac3ab6d6912",
+   "len": 6528
+  },
+  "adkex-512/opt/m2": {
+   "sha256_16": "4146294a49a83d063e5f9ce75bfed8ab",
+   "len": 3136
+  },
+  "adkex-512/opt/ss": {
+   "sha256_16": "2af259fc0fcc6f51415e8946ab84994e",
+   "len": 64
+  }
+ },
+ "checks": {
+  "adkex-512/ref/kat-roundtrip": "PASS",
+  "adkex-512/opt/kat-roundtrip": "PASS"
+ },
+ "info": {
+  "adkex-512": "kind=KEX passes=2 pk=3392 sk=6784 sta=13376 stb=192 ss=64 msgs=9664",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 238896,
+ "heap_free_min": 102148,
+ "unit": "kex_ADKEX__Authenticated_Ding_Key_Exchange__ADKEX-512",
+ "pid": "kex_ADKEX__Authenticated_Ding_Key_Exchange",
+ "param": "ADKEX-512",
+ "kind": "KEX",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 140544,
+ "seconds": 5.3,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEX_ADKEX-512.txt",
+  "fields": [
+   "m1",
+   "m2",
+   "pka",
+   "pkb",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 20,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

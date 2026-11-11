@@ -1,0 +1,179 @@
+{
+ "results": {
+  "tins128/ref/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": 1
+  },
+  "tins128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 300,
+   "min_us": 298,
+   "max_us": 304,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "tins128/ref/sign": {
+   "iters": 3,
+   "avg_us": 267291,
+   "min_us": 260671,
+   "max_us": 276639,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "tins128/ref/verify": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": 1
+  },
+  "tins128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 462564,
+   "min_us": 462564,
+   "max_us": 462564,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "tins128/opt/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": 1
+  },
+  "tins128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 297,
+   "min_us": 294,
+   "max_us": 301,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "tins128/opt/sign": {
+   "iters": 3,
+   "avg_us": 235737,
+   "min_us": 232807,
+   "max_us": 239596,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "tins128/opt/verify": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": 1
+  },
+  "tins128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 461516,
+   "min_us": 461516,
+   "max_us": 461516,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "tins128/ref/kat0-pk": {
+   "sha256_16": "c955edcccef607693d96fa9a67a09b0c",
+   "len": 55
+  },
+  "tins128/ref/kat0-sk": {
+   "sha256_16": "a2ec73eceb06291d29a51c2a76df143a",
+   "len": 40
+  },
+  "tins128/ref/kat0-sig": {
+   "sha256_16": "3996eb8691f92142ec1ff99c7056a476",
+   "len": 3876
+  },
+  "tins128/ref/pk": {
+   "sha256_16": "3dbdb4cb787b231fdd143e01dd11023f",
+   "len": 55
+  },
+  "tins128/ref/sk": {
+   "sha256_16": "fd3ec0f4fd9beb543aa1e1e5e47e6067",
+   "len": 40
+  },
+  "tins128/ref/sig": {
+   "sha256_16": "fddb430a27eabd419a3770979f57d8cd",
+   "len": 3876
+  },
+  "tins128/opt/kat0-pk": {
+   "sha256_16": "c955edcccef607693d96fa9a67a09b0c",
+   "len": 55
+  },
+  "tins128/opt/kat0-sk": {
+   "sha256_16": "a2ec73eceb06291d29a51c2a76df143a",
+   "len": 40
+  },
+  "tins128/opt/kat0-sig": {
+   "sha256_16": "933b3584fd48fe3c77e50a8cb4574e90",
+   "len": 3856
+  },
+  "tins128/opt/pk": {
+   "sha256_16": "3dbdb4cb787b231fdd143e01dd11023f",
+   "len": 55
+  },
+  "tins128/opt/sk": {
+   "sha256_16": "fd3ec0f4fd9beb543aa1e1e5e47e6067",
+   "len": 40
+  },
+  "tins128/opt/sig": {
+   "sha256_16": "19799a1315e64bba807e9b082d10de71",
+   "len": 3876
+  }
+ },
+ "checks": {
+  "tins128/ref/kat-roundtrip": "FAIL",
+  "tins128/ref/tampered-rejected": "PASS",
+  "tins128/opt/kat-roundtrip": "FAIL",
+  "tins128/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "tins128": "kind=SIG pk=55 sk=40 sig=3896",
+  "job_stack": "0",
+  "kat0_sig_len": "3856",
+  "sig_len": "3876"
+ },
+ "complete": true,
+ "fails": 6,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Tins__Tins128",
+ "pid": "sig_Tins",
+ "param": "Tins128",
+ "kind": "SIG",
+ "seconds": 4.9,
+ "kat": {
+  "result": "differs",
+  "file": "tins/Test_Vectors/KAT_SIG_Tins128.txt",
+  "equal": [
+   "pk",
+   "sk"
+  ],
+  "different": [
+   "sn"
+  ]
+ },
+ "verdict": "self-test fails",
+ "reason": "failed: tins128/opt/kat, tins128/opt/kat-roundtrip, tins128/opt/verify, tins128/ref/kat, tins128/ref/kat-roundtrip, tins128/ref/verify"
+}

@@ -1,0 +1,37 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {
+  "dove_classic_ref/ref/buffers": "FAIL",
+  "dove_classic_ref/opt/buffers": "FAIL"
+ },
+ "info": {
+  "dove_classic_ref": "kind=SIG pk=191646 sk=192990 sig=136",
+  "error": "cannot allocate a 192990 byte buffer"
+ },
+ "complete": true,
+ "fails": 2,
+ "cpu_mhz": 160,
+ "heap_free_start": 242064,
+ "heap_free_min": 241660,
+ "unit": "sig_DOVE__DOVE_classic_ref",
+ "pid": "sig_DOVE",
+ "param": "DOVE_classic_ref",
+ "kind": "SIG",
+ "iters": 1,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 137168,
+ "seconds": 1.5,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "self-test fails",
+ "reason": "failed: buffers",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

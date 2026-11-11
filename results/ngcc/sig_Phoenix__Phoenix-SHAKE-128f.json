@@ -1,0 +1,111 @@
+{
+ "results": {
+  "phoenix-shake-128f/ref/kat": {
+   "iters": 1,
+   "avg_us": 22103594,
+   "min_us": 22103594,
+   "max_us": 22103594,
+   "stack": 6688,
+   "heap": 136,
+   "rc": 0
+  },
+  "phoenix-shake-128f/ref/keygen": {
+   "iters": 1,
+   "avg_us": 1083446,
+   "min_us": 1083446,
+   "max_us": 1083446,
+   "stack": 4272,
+   "heap": 0,
+   "rc": 0
+  },
+  "phoenix-shake-128f/ref/sign": {
+   "iters": 1,
+   "avg_us": 20391188,
+   "min_us": 20391188,
+   "max_us": 20391188,
+   "stack": 5056,
+   "heap": 60,
+   "rc": 0
+  },
+  "phoenix-shake-128f/ref/verify": {
+   "iters": 1,
+   "avg_us": 562982,
+   "min_us": 562982,
+   "max_us": 562982,
+   "stack": 6144,
+   "heap": 60,
+   "rc": 0
+  },
+  "phoenix-shake-128f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 323101,
+   "min_us": 323101,
+   "max_us": 323101,
+   "stack": 6144,
+   "heap": 60,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "phoenix-shake-128f/ref/kat0-pk": {
+   "sha256_16": "00d693d1b79e5d930345e4391c7291d4",
+   "len": 32
+  },
+  "phoenix-shake-128f/ref/kat0-sk": {
+   "sha256_16": "ab72295403c9b363461354a2d3d29450",
+   "len": 64
+  },
+  "phoenix-shake-128f/ref/kat0-sig": {
+   "sha256_16": "bd1340b2086198698f326b8c008551fb",
+   "len": 13658
+  },
+  "phoenix-shake-128f/ref/pk": {
+   "sha256_16": "cb43590b7d27201efeffb3f966956f67",
+   "len": 32
+  },
+  "phoenix-shake-128f/ref/sk": {
+   "sha256_16": "e880ee2ea4194810e88d7e00a23ecc8b",
+   "len": 64
+  },
+  "phoenix-shake-128f/ref/sig": {
+   "sha256_16": "444fc34229b351415449162efcf781c4",
+   "len": 13658
+  }
+ },
+ "checks": {
+  "phoenix-shake-128f/ref/kat-roundtrip": "PASS",
+  "phoenix-shake-128f/ref/tampered-rejected": "PASS"
+ },
+ "info": {
+  "phoenix-shake-128f": "kind=SIG pk=32 sk=64 sig=13670",
+  "job_stack": "65536",
+  "kat0_sig_len": "13658",
+  "sig_len": "13658"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 240496,
+ "heap_free_min": 159516,
+ "unit": "sig_Phoenix__Phoenix-SHAKE-128f",
+ "pid": "sig_Phoenix",
+ "param": "Phoenix-SHAKE-128f",
+ "kind": "SIG",
+ "iters": 1,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 138896,
+ "seconds": 46.4,
+ "kat": {
+  "result": "differs",
+  "detail": "no KAT file starts with this public key"
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 6,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

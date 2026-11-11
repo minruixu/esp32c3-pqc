@@ -1,0 +1,20 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "sig_Chinith__sm4th_d3_128f_loose",
+ "pid": "sig_Chinith",
+ "param": "sm4th_d3_128f_loose",
+ "kind": "SIG",
+ "iters": 1,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "verdict": "does not build",
+ "reason": "sig_Chinith/Implementations/Reference_Implementation/sm4th_d3_128f_loose/sm4_witness.c:271:12: error: 'w_out' undeclared (first use in this function)",
+ "build_errors": [
+  "sig_Chinith/Implementations/Reference_Implementation/sm4th_d3_128f_loose/sm4_witness.c:271:12: error: 'w_out' undeclared (first use in this function)"
+ ]
+}

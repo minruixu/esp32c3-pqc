@@ -1,0 +1,33 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "qube-384": "kind=KEM pk=20738 sk=20834 ct=20633 ss=48",
+  "job_stack": "65536"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 232928,
+ "unit": "kem_QUBE__qube-384",
+ "pid": "kem_QUBE",
+ "param": "qube-384",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 146544,
+ "seconds": 3.6,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "Guru Meditation Error: Core  0 panic'ed (Stack protection fault).",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

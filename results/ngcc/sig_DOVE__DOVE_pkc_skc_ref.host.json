@@ -1,0 +1,177 @@
+{
+ "results": {
+  "dove_pkc_skc_ref/ref/kat": {
+   "iters": 1,
+   "avg_us": 3393755,
+   "min_us": 3393755,
+   "max_us": 3393755,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dove_pkc_skc_ref/ref/keygen": {
+   "iters": 3,
+   "avg_us": 2707644,
+   "min_us": 2683351,
+   "max_us": 2734900,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dove_pkc_skc_ref/ref/sign": {
+   "iters": 3,
+   "avg_us": 382184,
+   "min_us": 381245,
+   "max_us": 383319,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dove_pkc_skc_ref/ref/verify": {
+   "iters": 3,
+   "avg_us": 121421,
+   "min_us": 120270,
+   "max_us": 123074,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dove_pkc_skc_ref/ref/tamper": {
+   "iters": 1,
+   "avg_us": 246462,
+   "min_us": 246462,
+   "max_us": 246462,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dove_pkc_skc_ref/opt/kat": {
+   "iters": 1,
+   "avg_us": 3207218,
+   "min_us": 3207218,
+   "max_us": 3207218,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dove_pkc_skc_ref/opt/keygen": {
+   "iters": 3,
+   "avg_us": 2629062,
+   "min_us": 2588204,
+   "max_us": 2688666,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dove_pkc_skc_ref/opt/sign": {
+   "iters": 3,
+   "avg_us": 421952,
+   "min_us": 395234,
+   "max_us": 451020,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dove_pkc_skc_ref/opt/verify": {
+   "iters": 3,
+   "avg_us": 126817,
+   "min_us": 125235,
+   "max_us": 129480,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "dove_pkc_skc_ref/opt/tamper": {
+   "iters": 1,
+   "avg_us": 248497,
+   "min_us": 248497,
+   "max_us": 248497,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "dove_pkc_skc_ref/ref/kat0-pk": {
+   "sha256_16": "001d01c685e6ea406730c90671fa84ac",
+   "len": 5062192
+  },
+  "dove_pkc_skc_ref/ref/kat0-sk": {
+   "sha256_16": "9110f673ab40fa498153c56264457e41",
+   "len": 72
+  },
+  "dove_pkc_skc_ref/ref/kat0-sig": {
+   "sha256_16": "2b8af1751287cc1c24c856e582704090",
+   "len": 648
+  },
+  "dove_pkc_skc_ref/ref/pk": {
+   "sha256_16": "e70999a04b9e5c314b17a4dfbdf6f5b5",
+   "len": 5062192
+  },
+  "dove_pkc_skc_ref/ref/sk": {
+   "sha256_16": "83d6080ec18717e53c4925d6b7c8cc94",
+   "len": 72
+  },
+  "dove_pkc_skc_ref/ref/sig": {
+   "sha256_16": "c292b03ba85e862ec14388ae7e2e3f40",
+   "len": 648
+  },
+  "dove_pkc_skc_ref/opt/kat0-pk": {
+   "sha256_16": "001d01c685e6ea406730c90671fa84ac",
+   "len": 5062192
+  },
+  "dove_pkc_skc_ref/opt/kat0-sk": {
+   "sha256_16": "9110f673ab40fa498153c56264457e41",
+   "len": 72
+  },
+  "dove_pkc_skc_ref/opt/kat0-sig": {
+   "sha256_16": "2b8af1751287cc1c24c856e582704090",
+   "len": 648
+  },
+  "dove_pkc_skc_ref/opt/pk": {
+   "sha256_16": "e70999a04b9e5c314b17a4dfbdf6f5b5",
+   "len": 5062192
+  },
+  "dove_pkc_skc_ref/opt/sk": {
+   "sha256_16": "83d6080ec18717e53c4925d6b7c8cc94",
+   "len": 72
+  },
+  "dove_pkc_skc_ref/opt/sig": {
+   "sha256_16": "c292b03ba85e862ec14388ae7e2e3f40",
+   "len": 648
+  }
+ },
+ "checks": {
+  "dove_pkc_skc_ref/ref/kat-roundtrip": "PASS",
+  "dove_pkc_skc_ref/ref/tampered-rejected": "PASS",
+  "dove_pkc_skc_ref/opt/kat-roundtrip": "PASS",
+  "dove_pkc_skc_ref/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "dove_pkc_skc_ref": "kind=SIG pk=5062192 sk=72 sig=648",
+  "job_stack": "0",
+  "kat0_sig_len": "648",
+  "sig_len": "648"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_DOVE__DOVE_pkc_skc_ref",
+ "pid": "sig_DOVE",
+ "param": "DOVE_pkc_skc_ref",
+ "kind": "SIG",
+ "seconds": 27.8,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_dove_pkc_skc_512.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

@@ -1,0 +1,177 @@
+{
+ "results": {
+  "rhyme-shake-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 393467,
+   "min_us": 393467,
+   "max_us": 393467,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 1553469,
+   "min_us": 1524444,
+   "max_us": 1572083,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-512/ref/sign": {
+   "iters": 3,
+   "avg_us": 568,
+   "min_us": 543,
+   "max_us": 591,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-512/ref/verify": {
+   "iters": 3,
+   "avg_us": 134,
+   "min_us": 109,
+   "max_us": 166,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 232,
+   "min_us": 232,
+   "max_us": 232,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 371381,
+   "min_us": 371381,
+   "max_us": 371381,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 1519197,
+   "min_us": 1404057,
+   "max_us": 1683205,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-512/opt/sign": {
+   "iters": 3,
+   "avg_us": 577,
+   "min_us": 525,
+   "max_us": 653,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-512/opt/verify": {
+   "iters": 3,
+   "avg_us": 165,
+   "min_us": 115,
+   "max_us": 199,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-shake-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 474,
+   "min_us": 474,
+   "max_us": 474,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "rhyme-shake-512/ref/kat0-pk": {
+   "sha256_16": "1c72ad59b0809088b3de1a556560a927",
+   "len": 3872
+  },
+  "rhyme-shake-512/ref/kat0-sk": {
+   "sha256_16": "5782b70d49e255b987c9d892db47d2d0",
+   "len": 44864
+  },
+  "rhyme-shake-512/ref/kat0-sig": {
+   "sha256_16": "c9a4caf8322440b0117e4770f22c9cf9",
+   "len": 7022
+  },
+  "rhyme-shake-512/ref/pk": {
+   "sha256_16": "cf6ad4782cf929b87d88a1ea6e55ca75",
+   "len": 3872
+  },
+  "rhyme-shake-512/ref/sk": {
+   "sha256_16": "7b8b1a0360e440f9f25f7952dc8f37a8",
+   "len": 44864
+  },
+  "rhyme-shake-512/ref/sig": {
+   "sha256_16": "a17fd21e0c8b4153b122cb7e1f4404d8",
+   "len": 7016
+  },
+  "rhyme-shake-512/opt/kat0-pk": {
+   "sha256_16": "1c72ad59b0809088b3de1a556560a927",
+   "len": 3872
+  },
+  "rhyme-shake-512/opt/kat0-sk": {
+   "sha256_16": "5782b70d49e255b987c9d892db47d2d0",
+   "len": 44864
+  },
+  "rhyme-shake-512/opt/kat0-sig": {
+   "sha256_16": "c9a4caf8322440b0117e4770f22c9cf9",
+   "len": 7022
+  },
+  "rhyme-shake-512/opt/pk": {
+   "sha256_16": "cf6ad4782cf929b87d88a1ea6e55ca75",
+   "len": 3872
+  },
+  "rhyme-shake-512/opt/sk": {
+   "sha256_16": "7b8b1a0360e440f9f25f7952dc8f37a8",
+   "len": 44864
+  },
+  "rhyme-shake-512/opt/sig": {
+   "sha256_16": "a17fd21e0c8b4153b122cb7e1f4404d8",
+   "len": 7016
+  }
+ },
+ "checks": {
+  "rhyme-shake-512/ref/kat-roundtrip": "PASS",
+  "rhyme-shake-512/ref/tampered-rejected": "PASS",
+  "rhyme-shake-512/opt/kat-roundtrip": "PASS",
+  "rhyme-shake-512/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "rhyme-shake-512": "kind=SIG pk=3872 sk=44864 sig=20612",
+  "job_stack": "0",
+  "kat0_sig_len": "7022",
+  "sig_len": "7016"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Rhyme__Rhyme-SHAKE-512",
+ "pid": "sig_Rhyme",
+ "param": "Rhyme-SHAKE-512",
+ "kind": "SIG",
+ "seconds": 11.5,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/Rhyme-SHAKE/KAT_SIG_Rhyme-SHAKE-512.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

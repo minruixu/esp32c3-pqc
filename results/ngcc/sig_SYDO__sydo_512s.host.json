@@ -1,0 +1,177 @@
+{
+ "results": {
+  "sydo_512s/ref/kat": {
+   "iters": 1,
+   "avg_us": 1129245,
+   "min_us": 1129245,
+   "max_us": 1129245,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512s/ref/keygen": {
+   "iters": 3,
+   "avg_us": 88,
+   "min_us": 84,
+   "max_us": 95,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512s/ref/sign": {
+   "iters": 3,
+   "avg_us": 651280,
+   "min_us": 648944,
+   "max_us": 654288,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512s/ref/verify": {
+   "iters": 3,
+   "avg_us": 536146,
+   "min_us": 512582,
+   "max_us": 581879,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512s/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1202380,
+   "min_us": 1202380,
+   "max_us": 1202380,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512s/opt/kat": {
+   "iters": 1,
+   "avg_us": 1103334,
+   "min_us": 1103334,
+   "max_us": 1103334,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512s/opt/keygen": {
+   "iters": 3,
+   "avg_us": 78,
+   "min_us": 75,
+   "max_us": 84,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512s/opt/sign": {
+   "iters": 3,
+   "avg_us": 676949,
+   "min_us": 653402,
+   "max_us": 710093,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512s/opt/verify": {
+   "iters": 3,
+   "avg_us": 513502,
+   "min_us": 508982,
+   "max_us": 516008,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512s/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1029711,
+   "min_us": 1029711,
+   "max_us": 1029711,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "sydo_512s/ref/kat0-pk": {
+   "sha256_16": "ace9bf224e9214e36c086e383e08c5db",
+   "len": 246
+  },
+  "sydo_512s/ref/kat0-sk": {
+   "sha256_16": "3e5bbf92246d288f2886e58f2f6de262",
+   "len": 534
+  },
+  "sydo_512s/ref/kat0-sig": {
+   "sha256_16": "749bcc3ff929b527ded0996f030b8fcd",
+   "len": 56672
+  },
+  "sydo_512s/ref/pk": {
+   "sha256_16": "6f6f42f465efc2d025824074bd9f7457",
+   "len": 246
+  },
+  "sydo_512s/ref/sk": {
+   "sha256_16": "98db30b5d7d4461f8376ba163b39732e",
+   "len": 534
+  },
+  "sydo_512s/ref/sig": {
+   "sha256_16": "d4df8d93715b6d9470e5797ee4600eaf",
+   "len": 56672
+  },
+  "sydo_512s/opt/kat0-pk": {
+   "sha256_16": "ace9bf224e9214e36c086e383e08c5db",
+   "len": 246
+  },
+  "sydo_512s/opt/kat0-sk": {
+   "sha256_16": "3e5bbf92246d288f2886e58f2f6de262",
+   "len": 534
+  },
+  "sydo_512s/opt/kat0-sig": {
+   "sha256_16": "749bcc3ff929b527ded0996f030b8fcd",
+   "len": 56672
+  },
+  "sydo_512s/opt/pk": {
+   "sha256_16": "6f6f42f465efc2d025824074bd9f7457",
+   "len": 246
+  },
+  "sydo_512s/opt/sk": {
+   "sha256_16": "98db30b5d7d4461f8376ba163b39732e",
+   "len": 534
+  },
+  "sydo_512s/opt/sig": {
+   "sha256_16": "d4df8d93715b6d9470e5797ee4600eaf",
+   "len": 56672
+  }
+ },
+ "checks": {
+  "sydo_512s/ref/kat-roundtrip": "PASS",
+  "sydo_512s/ref/tampered-rejected": "PASS",
+  "sydo_512s/opt/kat-roundtrip": "PASS",
+  "sydo_512s/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "sydo_512s": "kind=SIG pk=246 sk=534 sig=56672",
+  "job_stack": "0",
+  "kat0_sig_len": "56672",
+  "sig_len": "56672"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_SYDO__sydo_512s",
+ "pid": "sig_SYDO",
+ "param": "sydo_512s",
+ "kind": "SIG",
+ "seconds": 13.4,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_sydo_512s.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

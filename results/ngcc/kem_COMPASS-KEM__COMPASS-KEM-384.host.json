@@ -1,0 +1,192 @@
+{
+ "results": {
+  "compass-kem-384/ref/kat": {
+   "iters": 1,
+   "avg_us": 1721,
+   "min_us": 1721,
+   "max_us": 1721,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-kem-384/ref/keygen": {
+   "iters": 3,
+   "avg_us": 579,
+   "min_us": 537,
+   "max_us": 612,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-kem-384/ref/encaps": {
+   "iters": 3,
+   "avg_us": 568,
+   "min_us": 562,
+   "max_us": 579,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-kem-384/ref/decaps": {
+   "iters": 3,
+   "avg_us": 782,
+   "min_us": 710,
+   "max_us": 866,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-kem-384/ref/tamper": {
+   "iters": 1,
+   "avg_us": 550,
+   "min_us": 550,
+   "max_us": 550,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-kem-384/opt/kat": {
+   "iters": 1,
+   "avg_us": 1626,
+   "min_us": 1626,
+   "max_us": 1626,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-kem-384/opt/keygen": {
+   "iters": 3,
+   "avg_us": 547,
+   "min_us": 472,
+   "max_us": 694,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-kem-384/opt/encaps": {
+   "iters": 3,
+   "avg_us": 655,
+   "min_us": 607,
+   "max_us": 727,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-kem-384/opt/decaps": {
+   "iters": 3,
+   "avg_us": 612,
+   "min_us": 610,
+   "max_us": 615,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-kem-384/opt/tamper": {
+   "iters": 1,
+   "avg_us": 610,
+   "min_us": 610,
+   "max_us": 610,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "compass-kem-384/ref/kat0-pk": {
+   "sha256_16": "8684b461b6203e3896cc5cbaa4bac96a",
+   "len": 2144
+  },
+  "compass-kem-384/ref/kat0-sk": {
+   "sha256_16": "36121012fc68b0d16b75db8260b1ebe6",
+   "len": 4704
+  },
+  "compass-kem-384/ref/kat0-ct": {
+   "sha256_16": "5b86ece433595ad758ff9283effc7d22",
+   "len": 2432
+  },
+  "compass-kem-384/ref/kat0-ss": {
+   "sha256_16": "a251cd1e7a607a7000d91fbf3bf18cc1",
+   "len": 32
+  },
+  "compass-kem-384/ref/pk": {
+   "sha256_16": "2f9fae2c4663d36a2fc4311ed23bc712",
+   "len": 2144
+  },
+  "compass-kem-384/ref/sk": {
+   "sha256_16": "c89242dccf89c8788d9e9fd51ef0b05e",
+   "len": 4704
+  },
+  "compass-kem-384/ref/ct": {
+   "sha256_16": "608e00a125df114969661e66ef192e3a",
+   "len": 2432
+  },
+  "compass-kem-384/ref/ss": {
+   "sha256_16": "91e9a738164726c8b2f0143fcddd8c44",
+   "len": 32
+  },
+  "compass-kem-384/opt/kat0-pk": {
+   "sha256_16": "8684b461b6203e3896cc5cbaa4bac96a",
+   "len": 2144
+  },
+  "compass-kem-384/opt/kat0-sk": {
+   "sha256_16": "36121012fc68b0d16b75db8260b1ebe6",
+   "len": 4704
+  },
+  "compass-kem-384/opt/kat0-ct": {
+   "sha256_16": "5b86ece433595ad758ff9283effc7d22",
+   "len": 2432
+  },
+  "compass-kem-384/opt/kat0-ss": {
+   "sha256_16": "a251cd1e7a607a7000d91fbf3bf18cc1",
+   "len": 32
+  },
+  "compass-kem-384/opt/pk": {
+   "sha256_16": "2f9fae2c4663d36a2fc4311ed23bc712",
+   "len": 2144
+  },
+  "compass-kem-384/opt/sk": {
+   "sha256_16": "c89242dccf89c8788d9e9fd51ef0b05e",
+   "len": 4704
+  },
+  "compass-kem-384/opt/ct": {
+   "sha256_16": "608e00a125df114969661e66ef192e3a",
+   "len": 2432
+  },
+  "compass-kem-384/opt/ss": {
+   "sha256_16": "91e9a738164726c8b2f0143fcddd8c44",
+   "len": 32
+  }
+ },
+ "checks": {
+  "compass-kem-384/ref/kat-roundtrip": "PASS",
+  "compass-kem-384/ref/tampered-ct-rejected": "PASS",
+  "compass-kem-384/opt/kat-roundtrip": "PASS",
+  "compass-kem-384/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "compass-kem-384": "kind=KEM pk=2144 sk=4704 ct=2432 ss=32",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_COMPASS-KEM__COMPASS-KEM-384",
+ "pid": "kem_COMPASS-KEM",
+ "param": "COMPASS-KEM-384",
+ "kind": "KEM",
+ "seconds": 1.6,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vector/KAT_KEM_COMPASS-KEM-384.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

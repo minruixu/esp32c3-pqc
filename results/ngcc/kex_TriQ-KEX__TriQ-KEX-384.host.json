@@ -1,0 +1,189 @@
+{
+ "results": {
+  "triq-kex-384/ref/kat": {
+   "iters": 1,
+   "avg_us": 167895,
+   "min_us": 167895,
+   "max_us": 167895,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-384/ref/init_a": {
+   "iters": 3,
+   "avg_us": 8339,
+   "min_us": 8207,
+   "max_us": 8465,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-384/ref/init_b": {
+   "iters": 3,
+   "avg_us": 8686,
+   "min_us": 8286,
+   "max_us": 9312,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-384/ref/full": {
+   "iters": 3,
+   "avg_us": 170344,
+   "min_us": 132710,
+   "max_us": 227579,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-384/opt/kat": {
+   "iters": 1,
+   "avg_us": 154001,
+   "min_us": 154001,
+   "max_us": 154001,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-384/opt/init_a": {
+   "iters": 3,
+   "avg_us": 8352,
+   "min_us": 8208,
+   "max_us": 8454,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-384/opt/init_b": {
+   "iters": 3,
+   "avg_us": 8493,
+   "min_us": 8356,
+   "max_us": 8613,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-384/opt/full": {
+   "iters": 3,
+   "avg_us": 175020,
+   "min_us": 140873,
+   "max_us": 216149,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "triq-kex-384/ref/kat0-pka": {
+   "sha256_16": "eb89d562d1b926f94f54313233d33db0",
+   "len": 12255
+  },
+  "triq-kex-384/ref/kat0-pkb": {
+   "sha256_16": "cbd9792e63ae236cf0aaad746c764d33",
+   "len": 12255
+  },
+  "triq-kex-384/ref/kat0-m1": {
+   "sha256_16": "72d4fc538194aa4842c451a0fb71947c",
+   "len": 36598
+  },
+  "triq-kex-384/ref/kat0-m2": {
+   "sha256_16": "61f0262a84865bc841e2724e564ee613",
+   "len": 48678
+  },
+  "triq-kex-384/ref/kat0-ss": {
+   "sha256_16": "0383c06052d91f8e823f8ea2684cc782",
+   "len": 48
+  },
+  "triq-kex-384/ref/pka": {
+   "sha256_16": "a537de1ebbb11830ea2fda17a3a89730",
+   "len": 12255
+  },
+  "triq-kex-384/ref/pkb": {
+   "sha256_16": "a9abb3c9b4a7c11fca5e171498c852a9",
+   "len": 12255
+  },
+  "triq-kex-384/ref/m1": {
+   "sha256_16": "b21d8ffa5da304742d5c1714deb6c97f",
+   "len": 36598
+  },
+  "triq-kex-384/ref/m2": {
+   "sha256_16": "acb924bca421423b1061b6a28f079477",
+   "len": 48678
+  },
+  "triq-kex-384/ref/ss": {
+   "sha256_16": "647d3c4805970aa4b404f2b454138faf",
+   "len": 48
+  },
+  "triq-kex-384/opt/kat0-pka": {
+   "sha256_16": "eb89d562d1b926f94f54313233d33db0",
+   "len": 12255
+  },
+  "triq-kex-384/opt/kat0-pkb": {
+   "sha256_16": "cbd9792e63ae236cf0aaad746c764d33",
+   "len": 12255
+  },
+  "triq-kex-384/opt/kat0-m1": {
+   "sha256_16": "72d4fc538194aa4842c451a0fb71947c",
+   "len": 36598
+  },
+  "triq-kex-384/opt/kat0-m2": {
+   "sha256_16": "61f0262a84865bc841e2724e564ee613",
+   "len": 48678
+  },
+  "triq-kex-384/opt/kat0-ss": {
+   "sha256_16": "0383c06052d91f8e823f8ea2684cc782",
+   "len": 48
+  },
+  "triq-kex-384/opt/pka": {
+   "sha256_16": "a537de1ebbb11830ea2fda17a3a89730",
+   "len": 12255
+  },
+  "triq-kex-384/opt/pkb": {
+   "sha256_16": "a9abb3c9b4a7c11fca5e171498c852a9",
+   "len": 12255
+  },
+  "triq-kex-384/opt/m1": {
+   "sha256_16": "b21d8ffa5da304742d5c1714deb6c97f",
+   "len": 36598
+  },
+  "triq-kex-384/opt/m2": {
+   "sha256_16": "acb924bca421423b1061b6a28f079477",
+   "len": 48678
+  },
+  "triq-kex-384/opt/ss": {
+   "sha256_16": "647d3c4805970aa4b404f2b454138faf",
+   "len": 48
+  }
+ },
+ "checks": {
+  "triq-kex-384/ref/kat-roundtrip": "PASS",
+  "triq-kex-384/opt/kat-roundtrip": "PASS"
+ },
+ "info": {
+  "triq-kex-384": "kind=KEX passes=2 pk=12255 sk=12495 sta=49037 stb=48814 ss=48 msgs=85276",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kex_TriQ-KEX__TriQ-KEX-384",
+ "pid": "kex_TriQ-KEX",
+ "param": "TriQ-KEX-384",
+ "kind": "KEX",
+ "seconds": 4.0,
+ "kat": {
+  "result": "match",
+  "file": "TriQ-KEX/Test_Vectors/KAT_KEX_TriQ-KEX-384.txt",
+  "fields": [
+   "m1",
+   "m2",
+   "pka",
+   "pkb",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

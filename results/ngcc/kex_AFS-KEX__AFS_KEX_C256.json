@@ -1,0 +1,199 @@
+{
+ "results": {
+  "afs_kex_c256/ref/kat": {
+   "iters": 1,
+   "avg_us": 203788,
+   "min_us": 203788,
+   "max_us": 203788,
+   "stack": 41776,
+   "heap": 1600,
+   "rc": 0
+  },
+  "afs_kex_c256/ref/init_a": {
+   "iters": 3,
+   "avg_us": 41458,
+   "min_us": 41458,
+   "max_us": 41459,
+   "stack": 41760,
+   "heap": 584,
+   "rc": 0
+  },
+  "afs_kex_c256/ref/init_b": {
+   "iters": 3,
+   "avg_us": 41445,
+   "min_us": 41445,
+   "max_us": 41445,
+   "stack": 41760,
+   "heap": 584,
+   "rc": 0
+  },
+  "afs_kex_c256/ref/full": {
+   "iters": 3,
+   "avg_us": 201766,
+   "min_us": 201766,
+   "max_us": 201766,
+   "stack": 41776,
+   "heap": 1600,
+   "rc": 0
+  },
+  "afs_kex_c256/opt/kat": {
+   "iters": 1,
+   "avg_us": 151602,
+   "min_us": 151602,
+   "max_us": 151602,
+   "stack": 41600,
+   "heap": 1600,
+   "rc": 0
+  },
+  "afs_kex_c256/opt/init_a": {
+   "iters": 3,
+   "avg_us": 30280,
+   "min_us": 30280,
+   "max_us": 30280,
+   "stack": 41584,
+   "heap": 584,
+   "rc": 0
+  },
+  "afs_kex_c256/opt/init_b": {
+   "iters": 3,
+   "avg_us": 30266,
+   "min_us": 30266,
+   "max_us": 30267,
+   "stack": 41536,
+   "heap": 584,
+   "rc": 0
+  },
+  "afs_kex_c256/opt/full": {
+   "iters": 3,
+   "avg_us": 149579,
+   "min_us": 149577,
+   "max_us": 149581,
+   "stack": 41600,
+   "heap": 1600,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "afs_kex_c256/ref/kat0-pka": {
+   "sha256_16": "6bf14b74fac6cc5720fd5b43e47bb56e",
+   "len": 3136
+  },
+  "afs_kex_c256/ref/kat0-pkb": {
+   "sha256_16": "e6da52791a8199b197ab9dc559fffffe",
+   "len": 3136
+  },
+  "afs_kex_c256/ref/kat0-m1": {
+   "sha256_16": "9b6aba2b94a190cb590939a9c2c264ac",
+   "len": 1440
+  },
+  "afs_kex_c256/ref/kat0-m2": {
+   "sha256_16": "a1e18dcf1d4e736935681b944171c903",
+   "len": 1472
+  },
+  "afs_kex_c256/ref/kat0-ss": {
+   "sha256_16": "37cfd69c8204c400f2ed4207ce5a9af2",
+   "len": 32
+  },
+  "afs_kex_c256/ref/pka": {
+   "sha256_16": "1bd7a70104e093afca238da34cd0e41a",
+   "len": 3136
+  },
+  "afs_kex_c256/ref/pkb": {
+   "sha256_16": "c90fd4bd1d397ae7ff2fadd9d311e404",
+   "len": 3136
+  },
+  "afs_kex_c256/ref/m1": {
+   "sha256_16": "84f198f447ea5d9d0e95acf116d2de16",
+   "len": 1440
+  },
+  "afs_kex_c256/ref/m2": {
+   "sha256_16": "beb544b8fbaaa6aa36f1d24374ee9221",
+   "len": 1472
+  },
+  "afs_kex_c256/ref/ss": {
+   "sha256_16": "d47897d75fcad7343f8f79b8c9218ac3",
+   "len": 32
+  },
+  "afs_kex_c256/opt/kat0-pka": {
+   "sha256_16": "6bf14b74fac6cc5720fd5b43e47bb56e",
+   "len": 3136
+  },
+  "afs_kex_c256/opt/kat0-pkb": {
+   "sha256_16": "e6da52791a8199b197ab9dc559fffffe",
+   "len": 3136
+  },
+  "afs_kex_c256/opt/kat0-m1": {
+   "sha256_16": "9b6aba2b94a190cb590939a9c2c264ac",
+   "len": 1440
+  },
+  "afs_kex_c256/opt/kat0-m2": {
+   "sha256_16": "a1e18dcf1d4e736935681b944171c903",
+   "len": 1472
+  },
+  "afs_kex_c256/opt/kat0-ss": {
+   "sha256_16": "37cfd69c8204c400f2ed4207ce5a9af2",
+   "len": 32
+  },
+  "afs_kex_c256/opt/pka": {
+   "sha256_16": "1bd7a70104e093afca238da34cd0e41a",
+   "len": 3136
+  },
+  "afs_kex_c256/opt/pkb": {
+   "sha256_16": "c90fd4bd1d397ae7ff2fadd9d311e404",
+   "len": 3136
+  },
+  "afs_kex_c256/opt/m1": {
+   "sha256_16": "84f198f447ea5d9d0e95acf116d2de16",
+   "len": 1440
+  },
+  "afs_kex_c256/opt/m2": {
+   "sha256_16": "beb544b8fbaaa6aa36f1d24374ee9221",
+   "len": 1472
+  },
+  "afs_kex_c256/opt/ss": {
+   "sha256_16": "d47897d75fcad7343f8f79b8c9218ac3",
+   "len": 32
+  }
+ },
+ "checks": {
+  "afs_kex_c256/ref/kat-roundtrip": "PASS",
+  "afs_kex_c256/opt/kat-roundtrip": "PASS"
+ },
+ "info": {
+  "afs_kex_c256": "kind=KEX passes=4 pk=3136 sk=6338 sta=128 stb=128 ss=32 msgs=2944",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 232544,
+ "heap_free_min": 133844,
+ "unit": "kex_AFS-KEX__AFS_KEX_C256",
+ "pid": "kex_AFS-KEX",
+ "param": "AFS_KEX_C256",
+ "kind": "KEX",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 146944,
+ "seconds": 3.4,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vector/KAT_KEX_AFS_KEX_C256.txt",
+  "fields": [
+   "m1",
+   "m2",
+   "pka",
+   "pkb",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 20,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

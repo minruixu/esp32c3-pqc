@@ -1,0 +1,189 @@
+{
+ "results": {
+  "triq-kex-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 12309,
+   "min_us": 12309,
+   "max_us": 12309,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-128/ref/init_a": {
+   "iters": 3,
+   "avg_us": 613,
+   "min_us": 495,
+   "max_us": 798,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-128/ref/init_b": {
+   "iters": 3,
+   "avg_us": 543,
+   "min_us": 526,
+   "max_us": 556,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-128/ref/full": {
+   "iters": 3,
+   "avg_us": 17111,
+   "min_us": 8872,
+   "max_us": 30832,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 11505,
+   "min_us": 11505,
+   "max_us": 11505,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-128/opt/init_a": {
+   "iters": 3,
+   "avg_us": 534,
+   "min_us": 529,
+   "max_us": 542,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-128/opt/init_b": {
+   "iters": 3,
+   "avg_us": 534,
+   "min_us": 533,
+   "max_us": 535,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "triq-kex-128/opt/full": {
+   "iters": 3,
+   "avg_us": 53569,
+   "min_us": 8915,
+   "max_us": 142855,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "triq-kex-128/ref/kat0-pka": {
+   "sha256_16": "ddd4d70cd26c4da2f8ca8d875c7624bc",
+   "len": 2054
+  },
+  "triq-kex-128/ref/kat0-pkb": {
+   "sha256_16": "7b05161214fb17434df26f1eacb4b5f5",
+   "len": 2054
+  },
+  "triq-kex-128/ref/kat0-m1": {
+   "sha256_16": "c9120e6fcba9cd60cc546ed21537da66",
+   "len": 6148
+  },
+  "triq-kex-128/ref/kat0-m2": {
+   "sha256_16": "3980d78e3056876a7a10868dd23c3257",
+   "len": 8180
+  },
+  "triq-kex-128/ref/kat0-ss": {
+   "sha256_16": "868d0aef7ca3998352412a00d19a4bb7",
+   "len": 16
+  },
+  "triq-kex-128/ref/pka": {
+   "sha256_16": "41b75a0686f260b023e3d2f0bff1a8ed",
+   "len": 2054
+  },
+  "triq-kex-128/ref/pkb": {
+   "sha256_16": "ced96400c984242854e710c9e07aa8e0",
+   "len": 2054
+  },
+  "triq-kex-128/ref/m1": {
+   "sha256_16": "00c66f88c4db370787d49e540f24b875",
+   "len": 6148
+  },
+  "triq-kex-128/ref/m2": {
+   "sha256_16": "3e43b280b220f4e353c6cb7499140edb",
+   "len": 8180
+  },
+  "triq-kex-128/ref/ss": {
+   "sha256_16": "db5a2ddad430b61ae6b9d156286d3527",
+   "len": 16
+  },
+  "triq-kex-128/opt/kat0-pka": {
+   "sha256_16": "ddd4d70cd26c4da2f8ca8d875c7624bc",
+   "len": 2054
+  },
+  "triq-kex-128/opt/kat0-pkb": {
+   "sha256_16": "7b05161214fb17434df26f1eacb4b5f5",
+   "len": 2054
+  },
+  "triq-kex-128/opt/kat0-m1": {
+   "sha256_16": "c9120e6fcba9cd60cc546ed21537da66",
+   "len": 6148
+  },
+  "triq-kex-128/opt/kat0-m2": {
+   "sha256_16": "3980d78e3056876a7a10868dd23c3257",
+   "len": 8180
+  },
+  "triq-kex-128/opt/kat0-ss": {
+   "sha256_16": "868d0aef7ca3998352412a00d19a4bb7",
+   "len": 16
+  },
+  "triq-kex-128/opt/pka": {
+   "sha256_16": "41b75a0686f260b023e3d2f0bff1a8ed",
+   "len": 2054
+  },
+  "triq-kex-128/opt/pkb": {
+   "sha256_16": "ced96400c984242854e710c9e07aa8e0",
+   "len": 2054
+  },
+  "triq-kex-128/opt/m1": {
+   "sha256_16": "00c66f88c4db370787d49e540f24b875",
+   "len": 6148
+  },
+  "triq-kex-128/opt/m2": {
+   "sha256_16": "3e43b280b220f4e353c6cb7499140edb",
+   "len": 8180
+  },
+  "triq-kex-128/opt/ss": {
+   "sha256_16": "db5a2ddad430b61ae6b9d156286d3527",
+   "len": 16
+  }
+ },
+ "checks": {
+  "triq-kex-128/ref/kat-roundtrip": "PASS",
+  "triq-kex-128/opt/kat-roundtrip": "PASS"
+ },
+ "info": {
+  "triq-kex-128": "kind=KEX passes=2 pk=2054 sk=2134 sta=8258 stb=8220 ss=16 msgs=14328",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kex_TriQ-KEX__TriQ-KEX-128",
+ "pid": "kex_TriQ-KEX",
+ "param": "TriQ-KEX-128",
+ "kind": "KEX",
+ "seconds": 2.3,
+ "kat": {
+  "result": "match",
+  "file": "TriQ-KEX/Test_Vectors/KAT_KEX_TriQ-KEX-128.txt",
+  "fields": [
+   "m1",
+   "m2",
+   "pka",
+   "pkb",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

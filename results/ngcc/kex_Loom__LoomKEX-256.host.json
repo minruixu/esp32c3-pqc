@@ -1,0 +1,191 @@
+{
+ "results": {
+  "loomkex-256/ref/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": -1
+  },
+  "loomkex-256/ref/init_a": {
+   "iters": 3,
+   "avg_us": 670,
+   "min_us": 608,
+   "max_us": 713,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "loomkex-256/ref/init_b": {
+   "iters": 3,
+   "avg_us": 633,
+   "min_us": 599,
+   "max_us": 657,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "loomkex-256/ref/full": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": -1
+  },
+  "loomkex-256/opt/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": -1
+  },
+  "loomkex-256/opt/init_a": {
+   "iters": 3,
+   "avg_us": 664,
+   "min_us": 663,
+   "max_us": 668,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "loomkex-256/opt/init_b": {
+   "iters": 3,
+   "avg_us": 619,
+   "min_us": 589,
+   "max_us": 650,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "loomkex-256/opt/full": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": -1
+  }
+ },
+ "digests": {
+  "loomkex-256/ref/kat0-pka": {
+   "sha256_16": "66744dc6c6698859c686899a83807cd4",
+   "len": 1952
+  },
+  "loomkex-256/ref/kat0-pkb": {
+   "sha256_16": "5c6b13c1f0e43737f4f206b5869e1e0c",
+   "len": 1952
+  },
+  "loomkex-256/ref/kat0-m1": {
+   "sha256_16": "a16fa933207d91b13a39db96b66b49f8",
+   "len": 1352
+  },
+  "loomkex-256/ref/kat0-m2": {
+   "sha256_16": "7c7598594f3bee5ffc3d34f26730b296",
+   "len": 1384
+  },
+  "loomkex-256/ref/kat0-ss": {
+   "sha256_16": "66687aadf862bd776c8fc18b8e9f8e20",
+   "len": 32
+  },
+  "loomkex-256/ref/pka": {
+   "sha256_16": "f27c68a44b9b87dac25bdd18d6538101",
+   "len": 1952
+  },
+  "loomkex-256/ref/pkb": {
+   "sha256_16": "5c81359341c5868d4b4b40e28c8b5da9",
+   "len": 1952
+  },
+  "loomkex-256/ref/m1": {
+   "sha256_16": "ec20d5362caa06e7d411e523424ea25a",
+   "len": 1352
+  },
+  "loomkex-256/ref/m2": {
+   "sha256_16": "271d93cb216eeafffbb6cf7233b02a3b",
+   "len": 1384
+  },
+  "loomkex-256/ref/ss": {
+   "sha256_16": "66687aadf862bd776c8fc18b8e9f8e20",
+   "len": 32
+  },
+  "loomkex-256/opt/kat0-pka": {
+   "sha256_16": "66744dc6c6698859c686899a83807cd4",
+   "len": 1952
+  },
+  "loomkex-256/opt/kat0-pkb": {
+   "sha256_16": "5c6b13c1f0e43737f4f206b5869e1e0c",
+   "len": 1952
+  },
+  "loomkex-256/opt/kat0-m1": {
+   "sha256_16": "a16fa933207d91b13a39db96b66b49f8",
+   "len": 1352
+  },
+  "loomkex-256/opt/kat0-m2": {
+   "sha256_16": "7c7598594f3bee5ffc3d34f26730b296",
+   "len": 1384
+  },
+  "loomkex-256/opt/kat0-ss": {
+   "sha256_16": "66687aadf862bd776c8fc18b8e9f8e20",
+   "len": 32
+  },
+  "loomkex-256/opt/pka": {
+   "sha256_16": "f27c68a44b9b87dac25bdd18d6538101",
+   "len": 1952
+  },
+  "loomkex-256/opt/pkb": {
+   "sha256_16": "5c81359341c5868d4b4b40e28c8b5da9",
+   "len": 1952
+  },
+  "loomkex-256/opt/m1": {
+   "sha256_16": "ec20d5362caa06e7d411e523424ea25a",
+   "len": 1352
+  },
+  "loomkex-256/opt/m2": {
+   "sha256_16": "271d93cb216eeafffbb6cf7233b02a3b",
+   "len": 1384
+  },
+  "loomkex-256/opt/ss": {
+   "sha256_16": "66687aadf862bd776c8fc18b8e9f8e20",
+   "len": 32
+  }
+ },
+ "checks": {
+  "loomkex-256/ref/kat-roundtrip": "FAIL",
+  "loomkex-256/opt/kat-roundtrip": "FAIL"
+ },
+ "info": {
+  "loomkex-256": "kind=KEX passes=4 pk=1952 sk=3680 sta=4609 stb=4609 ss=32 msgs=7706",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 6,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kex_Loom__LoomKEX-256",
+ "pid": "kex_Loom",
+ "param": "LoomKEX-256",
+ "kind": "KEX",
+ "seconds": 2.6,
+ "kat": {
+  "result": "differs",
+  "file": "Implementations and Test_Vectors/Test_Vectors/KAT_KEX_LoomKEX-256.txt",
+  "equal": [
+   "m1",
+   "m2",
+   "pka",
+   "pkb"
+  ],
+  "different": [
+   "ss"
+  ]
+ },
+ "verdict": "self-test fails",
+ "reason": "failed: loomkex-256/opt/full, loomkex-256/opt/kat, loomkex-256/opt/kat-roundtrip, loomkex-256/ref/full, loomkex-256/ref/kat, loomkex-256/ref/kat-roundtrip"
+}

@@ -1,0 +1,15 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "kex_ADKEX__Authenticated_Ding_Key_Exchange__ADKEX-256",
+ "pid": "kex_ADKEX__Authenticated_Ding_Key_Exchange",
+ "param": "ADKEX-256",
+ "kind": "KEX",
+ "verdict": "does not build",
+ "reason": "build failed",
+ "build_errors": []
+}

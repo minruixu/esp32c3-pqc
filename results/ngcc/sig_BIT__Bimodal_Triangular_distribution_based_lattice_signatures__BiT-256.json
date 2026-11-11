@@ -1,0 +1,33 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "bit-256": "kind=SIG pk=2144 sk=4160 sig=3456",
+  "job_stack": "65536"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 232208,
+ "unit": "sig_BIT__Bimodal_Triangular_distribution_based_lattice_signatures__BiT-256",
+ "pid": "sig_BIT__Bimodal_Triangular_distribution_based_lattice_signatures",
+ "param": "BiT-256",
+ "kind": "SIG",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 147424,
+ "seconds": 61.6,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "no output for 60 s",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "results": {
+  "scabbard256/ref/kat": {
+   "iters": 1,
+   "avg_us": 218648,
+   "min_us": 218648,
+   "max_us": 218648,
+   "stack": 38440,
+   "heap": 1696,
+   "rc": 0
+  },
+  "scabbard256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 67577,
+   "min_us": 67574,
+   "max_us": 67579,
+   "stack": 33960,
+   "heap": 1696,
+   "rc": 0
+  },
+  "scabbard256/ref/encaps": {
+   "iters": 3,
+   "avg_us": 73078,
+   "min_us": 73078,
+   "max_us": 73079,
+   "stack": 36760,
+   "heap": 1696,
+   "rc": 0
+  },
+  "scabbard256/ref/decaps": {
+   "iters": 3,
+   "avg_us": 76355,
+   "min_us": 76354,
+   "max_us": 76359,
+   "stack": 38424,
+   "heap": 1696,
+   "rc": 0
+  },
+  "scabbard256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 76353,
+   "min_us": 76353,
+   "max_us": 76353,
+   "stack": 38440,
+   "heap": 1696,
+   "rc": 0
+  },
+  "scabbard256/opt/kat": {
+   "iters": 1,
+   "avg_us": 184732,
+   "min_us": 184732,
+   "max_us": 184732,
+   "stack": 38440,
+   "heap": 1696,
+   "rc": 0
+  },
+  "scabbard256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 56498,
+   "min_us": 56495,
+   "max_us": 56500,
+   "stack": 33832,
+   "heap": 1696,
+   "rc": 0
+  },
+  "scabbard256/opt/encaps": {
+   "iters": 3,
+   "avg_us": 61411,
+   "min_us": 61411,
+   "max_us": 61412,
+   "stack": 36760,
+   "heap": 1696,
+   "rc": 0
+  },
+  "scabbard256/opt/decaps": {
+   "iters": 3,
+   "avg_us": 65185,
+   "min_us": 65184,
+   "max_us": 65189,
+   "stack": 38424,
+   "heap": 1696,
+   "rc": 0
+  },
+  "scabbard256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 65184,
+   "min_us": 65184,
+   "max_us": 65184,
+   "stack": 38440,
+   "heap": 1696,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "scabbard256/ref/kat0-pk": {
+   "sha256_16": "d1f1b018154987cca3b0ccc6335dd800",
+   "len": 1616
+  },
+  "scabbard256/ref/kat0-sk": {
+   "sha256_16": "d8520687f085ef9cb4656204ad84b180",
+   "len": 2256
+  },
+  "scabbard256/ref/kat0-ct": {
+   "sha256_16": "0809102029328d9dbba45534b3171cde",
+   "len": 1648
+  },
+  "scabbard256/ref/kat0-ss": {
+   "sha256_16": "fbea2fb745784d4123953f4b2acc2ef8",
+   "len": 32
+  },
+  "scabbard256/ref/pk": {
+   "sha256_16": "f873514c4e7003db039f7d3bf4478c7c",
+   "len": 1616
+  },
+  "scabbard256/ref/sk": {
+   "sha256_16": "3d46afe4c2bfd3ecdcbcbea0caff6c95",
+   "len": 2256
+  },
+  "scabbard256/ref/ct": {
+   "sha256_16": "a73b8932912b80204169324e65b8c921",
+   "len": 1648
+  },
+  "scabbard256/ref/ss": {
+   "sha256_16": "fbe11f4bca570caee2e58e25e41e7a88",
+   "len": 32
+  },
+  "scabbard256/opt/kat0-pk": {
+   "sha256_16": "d1f1b018154987cca3b0ccc6335dd800",
+   "len": 1616
+  },
+  "scabbard256/opt/kat0-sk": {
+   "sha256_16": "d8520687f085ef9cb4656204ad84b180",
+   "len": 2256
+  },
+  "scabbard256/opt/kat0-ct": {
+   "sha256_16": "0809102029328d9dbba45534b3171cde",
+   "len": 1648
+  },
+  "scabbard256/opt/kat0-ss": {
+   "sha256_16": "fbea2fb745784d4123953f4b2acc2ef8",
+   "len": 32
+  },
+  "scabbard256/opt/pk": {
+   "sha256_16": "f873514c4e7003db039f7d3bf4478c7c",
+   "len": 1616
+  },
+  "scabbard256/opt/sk": {
+   "sha256_16": "3d46afe4c2bfd3ecdcbcbea0caff6c95",
+   "len": 2256
+  },
+  "scabbard256/opt/ct": {
+   "sha256_16": "a73b8932912b80204169324e65b8c921",
+   "len": 1648
+  },
+  "scabbard256/opt/ss": {
+   "sha256_16": "fbe11f4bca570caee2e58e25e41e7a88",
+   "len": 32
+  }
+ },
+ "checks": {
+  "scabbard256/ref/kat-roundtrip": "PASS",
+  "scabbard256/ref/tampered-ct-rejected": "PASS",
+  "scabbard256/opt/kat-roundtrip": "PASS",
+  "scabbard256/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "scabbard256": "kind=KEM pk=1616 sk=2256 ct=1648 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 246880,
+ "heap_free_min": 172300,
+ "unit": "kem_MORNING-Scabbard__scabbard256",
+ "pid": "kem_MORNING-Scabbard",
+ "param": "scabbard256",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 132752,
+ "seconds": 3.6,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_scabbard256.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "results": {
+  "galas-384s/ref/kat": {
+   "iters": 1,
+   "avg_us": 11493862,
+   "min_us": 11493862,
+   "max_us": 11493862,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-384s/ref/keygen": {
+   "iters": 3,
+   "avg_us": 23136,
+   "min_us": 22827,
+   "max_us": 23620,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-384s/ref/sign": {
+   "iters": 3,
+   "avg_us": 6214055,
+   "min_us": 6131368,
+   "max_us": 6267680,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-384s/ref/verify": {
+   "iters": 3,
+   "avg_us": 4437200,
+   "min_us": 4300786,
+   "max_us": 4644815,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-384s/ref/tamper": {
+   "iters": 1,
+   "avg_us": 8676607,
+   "min_us": 8676607,
+   "max_us": 8676607,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-384s/opt/kat": {
+   "iters": 1,
+   "avg_us": 10581966,
+   "min_us": 10581966,
+   "max_us": 10581966,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-384s/opt/keygen": {
+   "iters": 3,
+   "avg_us": 24786,
+   "min_us": 22653,
+   "max_us": 27701,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-384s/opt/sign": {
+   "iters": 3,
+   "avg_us": 6108218,
+   "min_us": 5969415,
+   "max_us": 6229863,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-384s/opt/verify": {
+   "iters": 3,
+   "avg_us": 4500623,
+   "min_us": 4229832,
+   "max_us": 4733178,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "galas-384s/opt/tamper": {
+   "iters": 1,
+   "avg_us": 9534357,
+   "min_us": 9534357,
+   "max_us": 9534357,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "galas-384s/ref/kat0-pk": {
+   "sha256_16": "6150e03d0ebe7ce9bfdc49eec6a0746c",
+   "len": 96
+  },
+  "galas-384s/ref/kat0-sk": {
+   "sha256_16": "1e8dba85ba487de89703ea8c89fd4f5e",
+   "len": 96
+  },
+  "galas-384s/ref/kat0-sig": {
+   "sha256_16": "8269d17a6f5ca9f0354672b1a07e96a7",
+   "len": 27784
+  },
+  "galas-384s/ref/pk": {
+   "sha256_16": "6150e03d0ebe7ce9bfdc49eec6a0746c",
+   "len": 96
+  },
+  "galas-384s/ref/sk": {
+   "sha256_16": "1e8dba85ba487de89703ea8c89fd4f5e",
+   "len": 96
+  },
+  "galas-384s/ref/sig": {
+   "sha256_16": "40058f47af13350052aa7085925c885c",
+   "len": 27784
+  },
+  "galas-384s/opt/kat0-pk": {
+   "sha256_16": "6150e03d0ebe7ce9bfdc49eec6a0746c",
+   "len": 96
+  },
+  "galas-384s/opt/kat0-sk": {
+   "sha256_16": "1e8dba85ba487de89703ea8c89fd4f5e",
+   "len": 96
+  },
+  "galas-384s/opt/kat0-sig": {
+   "sha256_16": "8269d17a6f5ca9f0354672b1a07e96a7",
+   "len": 27784
+  },
+  "galas-384s/opt/pk": {
+   "sha256_16": "6150e03d0ebe7ce9bfdc49eec6a0746c",
+   "len": 96
+  },
+  "galas-384s/opt/sk": {
+   "sha256_16": "1e8dba85ba487de89703ea8c89fd4f5e",
+   "len": 96
+  },
+  "galas-384s/opt/sig": {
+   "sha256_16": "40058f47af13350052aa7085925c885c",
+   "len": 27784
+  }
+ },
+ "checks": {
+  "galas-384s/ref/kat-roundtrip": "PASS",
+  "galas-384s/ref/tampered-rejected": "PASS",
+  "galas-384s/opt/kat-roundtrip": "PASS",
+  "galas-384s/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "galas-384s": "kind=SIG pk=96 sk=96 sig=27784",
+  "job_stack": "0",
+  "kat0_sig_len": "27784",
+  "sig_len": "27784"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Galas_Signature_Scheme__Galas-384S",
+ "pid": "sig_Galas_Signature_Scheme",
+ "param": "Galas-384S",
+ "kind": "SIG",
+ "seconds": 105.5,
+ "kat": {
+  "result": "differs",
+  "detail": "no KAT file starts with this public key"
+ },
+ "verdict": "works",
+ "reason": ""
+}

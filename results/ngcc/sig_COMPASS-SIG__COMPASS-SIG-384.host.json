@@ -1,0 +1,177 @@
+{
+ "results": {
+  "compass-sig-384/ref/kat": {
+   "iters": 1,
+   "avg_us": 2112,
+   "min_us": 2112,
+   "max_us": 2112,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-sig-384/ref/keygen": {
+   "iters": 3,
+   "avg_us": 539,
+   "min_us": 486,
+   "max_us": 644,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-sig-384/ref/sign": {
+   "iters": 3,
+   "avg_us": 761,
+   "min_us": 724,
+   "max_us": 812,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-sig-384/ref/verify": {
+   "iters": 3,
+   "avg_us": 439,
+   "min_us": 432,
+   "max_us": 450,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-sig-384/ref/tamper": {
+   "iters": 1,
+   "avg_us": 900,
+   "min_us": 900,
+   "max_us": 900,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-sig-384/opt/kat": {
+   "iters": 1,
+   "avg_us": 1859,
+   "min_us": 1859,
+   "max_us": 1859,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-sig-384/opt/keygen": {
+   "iters": 3,
+   "avg_us": 608,
+   "min_us": 603,
+   "max_us": 616,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-sig-384/opt/sign": {
+   "iters": 3,
+   "avg_us": 770,
+   "min_us": 762,
+   "max_us": 786,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-sig-384/opt/verify": {
+   "iters": 3,
+   "avg_us": 522,
+   "min_us": 483,
+   "max_us": 545,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "compass-sig-384/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1081,
+   "min_us": 1081,
+   "max_us": 1081,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "compass-sig-384/ref/kat0-pk": {
+   "sha256_16": "e33b6458dbcbf314c2955266383d9a06",
+   "len": 5792
+  },
+  "compass-sig-384/ref/kat0-sk": {
+   "sha256_16": "ca182bb74fab6ff40b19ae2e2f244c2e",
+   "len": 3136
+  },
+  "compass-sig-384/ref/kat0-sig": {
+   "sha256_16": "8c5b1d4d4880c4dfa5fb54050bec661f",
+   "len": 7344
+  },
+  "compass-sig-384/ref/pk": {
+   "sha256_16": "a904ac5e48afd03e090c9e105e919d74",
+   "len": 5792
+  },
+  "compass-sig-384/ref/sk": {
+   "sha256_16": "bddd39e0242acc6f5ca70671dd0f6709",
+   "len": 3136
+  },
+  "compass-sig-384/ref/sig": {
+   "sha256_16": "66fb1c61beb00e9c76867de1ec7dc445",
+   "len": 7344
+  },
+  "compass-sig-384/opt/kat0-pk": {
+   "sha256_16": "e33b6458dbcbf314c2955266383d9a06",
+   "len": 5792
+  },
+  "compass-sig-384/opt/kat0-sk": {
+   "sha256_16": "ca182bb74fab6ff40b19ae2e2f244c2e",
+   "len": 3136
+  },
+  "compass-sig-384/opt/kat0-sig": {
+   "sha256_16": "8c5b1d4d4880c4dfa5fb54050bec661f",
+   "len": 7344
+  },
+  "compass-sig-384/opt/pk": {
+   "sha256_16": "a904ac5e48afd03e090c9e105e919d74",
+   "len": 5792
+  },
+  "compass-sig-384/opt/sk": {
+   "sha256_16": "bddd39e0242acc6f5ca70671dd0f6709",
+   "len": 3136
+  },
+  "compass-sig-384/opt/sig": {
+   "sha256_16": "66fb1c61beb00e9c76867de1ec7dc445",
+   "len": 7344
+  }
+ },
+ "checks": {
+  "compass-sig-384/ref/kat-roundtrip": "PASS",
+  "compass-sig-384/ref/tampered-rejected": "PASS",
+  "compass-sig-384/opt/kat-roundtrip": "PASS",
+  "compass-sig-384/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "compass-sig-384": "kind=SIG pk=5792 sk=3136 sig=7344",
+  "job_stack": "0",
+  "kat0_sig_len": "7344",
+  "sig_len": "7344"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_COMPASS-SIG__COMPASS-SIG-384",
+ "pid": "sig_COMPASS-SIG",
+ "param": "COMPASS-SIG-384",
+ "kind": "SIG",
+ "seconds": 1.5,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_COMPASS-SIG-384.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

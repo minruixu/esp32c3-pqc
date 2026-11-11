@@ -1,0 +1,202 @@
+{
+ "results": {
+  "polarlac-512-star/ref/kat": {
+   "iters": 1,
+   "avg_us": 173046,
+   "min_us": 173046,
+   "max_us": 173046,
+   "stack": 55404,
+   "heap": 3168,
+   "rc": 0
+  },
+  "polarlac-512-star/ref/keygen": {
+   "iters": 3,
+   "avg_us": 41371,
+   "min_us": 41369,
+   "max_us": 41374,
+   "stack": 43100,
+   "heap": 1484,
+   "rc": 0
+  },
+  "polarlac-512-star/ref/encaps": {
+   "iters": 3,
+   "avg_us": 57424,
+   "min_us": 57421,
+   "max_us": 57426,
+   "stack": 52188,
+   "heap": 2848,
+   "rc": 0
+  },
+  "polarlac-512-star/ref/decaps": {
+   "iters": 3,
+   "avg_us": 72605,
+   "min_us": 72605,
+   "max_us": 72605,
+   "stack": 55388,
+   "heap": 3168,
+   "rc": 0
+  },
+  "polarlac-512-star/ref/tamper": {
+   "iters": 1,
+   "avg_us": 72607,
+   "min_us": 72607,
+   "max_us": 72607,
+   "stack": 55404,
+   "heap": 3168,
+   "rc": 0
+  },
+  "polarlac-512-star/opt/kat": {
+   "iters": 1,
+   "avg_us": 137864,
+   "min_us": 137864,
+   "max_us": 137864,
+   "stack": 55100,
+   "heap": 3168,
+   "rc": 0
+  },
+  "polarlac-512-star/opt/keygen": {
+   "iters": 3,
+   "avg_us": 32539,
+   "min_us": 32538,
+   "max_us": 32543,
+   "stack": 42924,
+   "heap": 1484,
+   "rc": 0
+  },
+  "polarlac-512-star/opt/encaps": {
+   "iters": 3,
+   "avg_us": 45134,
+   "min_us": 45132,
+   "max_us": 45137,
+   "stack": 52012,
+   "heap": 2848,
+   "rc": 0
+  },
+  "polarlac-512-star/opt/decaps": {
+   "iters": 3,
+   "avg_us": 58545,
+   "min_us": 58542,
+   "max_us": 58547,
+   "stack": 55212,
+   "heap": 3168,
+   "rc": 0
+  },
+  "polarlac-512-star/opt/tamper": {
+   "iters": 1,
+   "avg_us": 58549,
+   "min_us": 58549,
+   "max_us": 58549,
+   "stack": 55100,
+   "heap": 3168,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "polarlac-512-star/ref/kat0-pk": {
+   "sha256_16": "8c1bb26e6d53cd74c3e1d0c6fb6725df",
+   "len": 2522
+  },
+  "polarlac-512-star/ref/kat0-sk": {
+   "sha256_16": "9a6517077fc9ec1e2bb4c9678b975b5c",
+   "len": 6682
+  },
+  "polarlac-512-star/ref/kat0-ct": {
+   "sha256_16": "0eeffb58482090bcd17a54f08915d0de",
+   "len": 2970
+  },
+  "polarlac-512-star/ref/kat0-ss": {
+   "sha256_16": "490cdf96a55853379d94652029b96193",
+   "len": 64
+  },
+  "polarlac-512-star/ref/pk": {
+   "sha256_16": "dd47d0a1d32be29c23d810078530d6e8",
+   "len": 2522
+  },
+  "polarlac-512-star/ref/sk": {
+   "sha256_16": "1ef9283648a65dbe74008136e1696c3f",
+   "len": 6682
+  },
+  "polarlac-512-star/ref/ct": {
+   "sha256_16": "9616e331de1a1f3483923e927b8d561e",
+   "len": 2970
+  },
+  "polarlac-512-star/ref/ss": {
+   "sha256_16": "a8cf97c550745c312b91d83a76521550",
+   "len": 64
+  },
+  "polarlac-512-star/opt/kat0-pk": {
+   "sha256_16": "8c1bb26e6d53cd74c3e1d0c6fb6725df",
+   "len": 2522
+  },
+  "polarlac-512-star/opt/kat0-sk": {
+   "sha256_16": "9a6517077fc9ec1e2bb4c9678b975b5c",
+   "len": 6682
+  },
+  "polarlac-512-star/opt/kat0-ct": {
+   "sha256_16": "0eeffb58482090bcd17a54f08915d0de",
+   "len": 2970
+  },
+  "polarlac-512-star/opt/kat0-ss": {
+   "sha256_16": "490cdf96a55853379d94652029b96193",
+   "len": 64
+  },
+  "polarlac-512-star/opt/pk": {
+   "sha256_16": "dd47d0a1d32be29c23d810078530d6e8",
+   "len": 2522
+  },
+  "polarlac-512-star/opt/sk": {
+   "sha256_16": "1ef9283648a65dbe74008136e1696c3f",
+   "len": 6682
+  },
+  "polarlac-512-star/opt/ct": {
+   "sha256_16": "9616e331de1a1f3483923e927b8d561e",
+   "len": 2970
+  },
+  "polarlac-512-star/opt/ss": {
+   "sha256_16": "a8cf97c550745c312b91d83a76521550",
+   "len": 64
+  }
+ },
+ "checks": {
+  "polarlac-512-star/ref/kat-roundtrip": "PASS",
+  "polarlac-512-star/ref/tampered-ct-rejected": "PASS",
+  "polarlac-512-star/opt/kat-roundtrip": "PASS",
+  "polarlac-512-star/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "polarlac-512-star": "kind=KEM pk=2522 sk=6682 ct=2970 ss=64",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 208560,
+ "heap_free_min": 125532,
+ "unit": "kem_PolarLAC__POLARLAC-512-Star",
+ "pid": "kem_PolarLAC",
+ "param": "POLARLAC-512-Star",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 170832,
+ "seconds": 3.4,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/Reference_Implementation/x86/KAT_KEM_POLARLAC-512-Star.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

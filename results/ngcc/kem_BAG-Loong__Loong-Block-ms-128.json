@@ -1,0 +1,217 @@
+{
+ "results": {
+  "loong-block-ms-128/ref/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 1468,
+   "heap": 33328,
+   "rc": -6
+  },
+  "loong-block-ms-128/ref/keygen": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 620,
+   "heap": 33328,
+   "rc": -6
+  },
+  "loong-block-ms-128/ref/encaps": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 1964,
+   "heap": 34556,
+   "rc": -6
+  },
+  "loong-block-ms-128/ref/decaps": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 2140,
+   "heap": 34556,
+   "rc": -6
+  },
+  "loong-block-ms-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 2924,
+   "min_us": 2924,
+   "max_us": 2924,
+   "stack": 2156,
+   "heap": 34556,
+   "rc": 0
+  },
+  "loong-block-ms-128/opt/kat": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 1468,
+   "heap": 33328,
+   "rc": -6
+  },
+  "loong-block-ms-128/opt/keygen": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 620,
+   "heap": 33328,
+   "rc": -6
+  },
+  "loong-block-ms-128/opt/encaps": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 1800,
+   "heap": 34556,
+   "rc": -6
+  },
+  "loong-block-ms-128/opt/decaps": {
+   "iters": 0,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 1976,
+   "heap": 34556,
+   "rc": -6
+  },
+  "loong-block-ms-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 2020,
+   "min_us": 2020,
+   "max_us": 2020,
+   "stack": 1992,
+   "heap": 34556,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "loong-block-ms-128/ref/kat0-pk": {
+   "sha256_16": "3debe114d12fa2726ed5d9e4668db379",
+   "len": 2500
+  },
+  "loong-block-ms-128/ref/kat0-sk": {
+   "sha256_16": "2d1662897324ded7a68264b714992c71",
+   "len": 5064
+  },
+  "loong-block-ms-128/ref/kat0-ct": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "loong-block-ms-128/ref/kat0-ss": {
+   "sha256_16": "e3b0c44298fc1c149afbf4c8996fb924",
+   "len": 0
+  },
+  "loong-block-ms-128/ref/pk": {
+   "sha256_16": "3debe114d12fa2726ed5d9e4668db379",
+   "len": 2500
+  },
+  "loong-block-ms-128/ref/sk": {
+   "sha256_16": "2d1662897324ded7a68264b714992c71",
+   "len": 5064
+  },
+  "loong-block-ms-128/ref/ct": {
+   "sha256_16": "95abe79d5d690ce5b3afaef50f6b004b",
+   "len": 3071
+  },
+  "loong-block-ms-128/ref/ss": {
+   "sha256_16": "374708fff7719dd5979ec875d56cd228",
+   "len": 16
+  },
+  "loong-block-ms-128/opt/kat0-pk": {
+   "sha256_16": "3debe114d12fa2726ed5d9e4668db379",
+   "len": 2500
+  },
+  "loong-block-ms-128/opt/kat0-sk": {
+   "sha256_16": "2d1662897324ded7a68264b714992c71",
+   "len": 5064
+  },
+  "loong-block-ms-128/opt/kat0-ct": {
+   "sha256_16": "95abe79d5d690ce5b3afaef50f6b004b",
+   "len": 3071
+  },
+  "loong-block-ms-128/opt/kat0-ss": {
+   "sha256_16": "374708fff7719dd5979ec875d56cd228",
+   "len": 16
+  },
+  "loong-block-ms-128/opt/pk": {
+   "sha256_16": "3debe114d12fa2726ed5d9e4668db379",
+   "len": 2500
+  },
+  "loong-block-ms-128/opt/sk": {
+   "sha256_16": "2d1662897324ded7a68264b714992c71",
+   "len": 5064
+  },
+  "loong-block-ms-128/opt/ct": {
+   "sha256_16": "95abe79d5d690ce5b3afaef50f6b004b",
+   "len": 3071
+  },
+  "loong-block-ms-128/opt/ss": {
+   "sha256_16": "374708fff7719dd5979ec875d56cd228",
+   "len": 16
+  }
+ },
+ "checks": {
+  "loong-block-ms-128/ref/kat-roundtrip": "FAIL",
+  "loong-block-ms-128/ref/tampered-ct-rejected": "PASS",
+  "loong-block-ms-128/opt/kat-roundtrip": "FAIL",
+  "loong-block-ms-128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "loong-block-ms-128": "kind=KEM pk=2500 sk=5064 ct=3071 ss=16",
+  "job_stack": "16384"
+ },
+ "complete": true,
+ "fails": 10,
+ "cpu_mhz": 160,
+ "heap_free_start": 230224,
+ "heap_free_min": 166800,
+ "unit": "kem_BAG-Loong__Loong-Block-ms-128",
+ "pid": "kem_BAG-Loong",
+ "param": "Loong-Block-ms-128",
+ "kind": "KEM",
+ "iters": 1,
+ "stack_pct": 15,
+ "stack_given": 0,
+ "image_bytes": 149344,
+ "attempts": [
+  {
+   "verdict": "self-test fails",
+   "reason": "failed: decaps rc=-6, encaps rc=-6, kat rc=-6, kat-roundtrip, keygen rc=-6",
+   "stack_pct": 60
+  },
+  {
+   "verdict": "self-test fails",
+   "reason": "failed: decaps rc=-6, encaps rc=-6, kat rc=-6, kat-roundtrip, keygen rc=-6",
+   "stack_pct": 30
+  }
+ ],
+ "seconds": 2.0,
+ "kat": {
+  "result": "differs",
+  "detail": "no KAT file starts with this public key"
+ },
+ "verdict": "self-test fails",
+ "reason": "failed: decaps rc=-6, encaps rc=-6, kat rc=-6, kat-roundtrip, keygen rc=-6",
+ "host_check": {
+  "equal": 0,
+  "different": 16,
+  "missing": 0,
+  "different_labels": [
+   "kat0-pk",
+   "kat0-sk",
+   "kat0-ct",
+   "kat0-ss",
+   "pk",
+   "sk",
+   "ct",
+   "ss"
+  ]
+ }
+}

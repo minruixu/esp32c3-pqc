@@ -1,0 +1,187 @@
+{
+ "results": {
+  "tsuov_128/ref/kat": {
+   "iters": 1,
+   "avg_us": 1853261,
+   "min_us": 1853261,
+   "max_us": 1853261,
+   "stack": 63568,
+   "heap": 2736,
+   "rc": 0
+  },
+  "tsuov_128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 426507,
+   "min_us": 426504,
+   "max_us": 426509,
+   "stack": 16240,
+   "heap": 2736,
+   "rc": 0
+  },
+  "tsuov_128/ref/sign": {
+   "iters": 3,
+   "avg_us": 746108,
+   "min_us": 746107,
+   "max_us": 746111,
+   "stack": 63008,
+   "heap": 2736,
+   "rc": 0
+  },
+  "tsuov_128/ref/verify": {
+   "iters": 3,
+   "avg_us": 655455,
+   "min_us": 655454,
+   "max_us": 655458,
+   "stack": 22592,
+   "heap": 2736,
+   "rc": 0
+  },
+  "tsuov_128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1310902,
+   "min_us": 1310902,
+   "max_us": 1310902,
+   "stack": 22608,
+   "heap": 2736,
+   "rc": 0
+  },
+  "tsuov_128/opt/kat": {
+   "iters": 1,
+   "avg_us": 1552302,
+   "min_us": 1552302,
+   "max_us": 1552302,
+   "stack": 63568,
+   "heap": 2736,
+   "rc": 0
+  },
+  "tsuov_128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 326496,
+   "min_us": 326493,
+   "max_us": 326498,
+   "stack": 16240,
+   "heap": 2736,
+   "rc": 0
+  },
+  "tsuov_128/opt/sign": {
+   "iters": 3,
+   "avg_us": 645279,
+   "min_us": 645278,
+   "max_us": 645283,
+   "stack": 63008,
+   "heap": 2736,
+   "rc": 0
+  },
+  "tsuov_128/opt/verify": {
+   "iters": 3,
+   "avg_us": 555390,
+   "min_us": 555388,
+   "max_us": 555393,
+   "stack": 22592,
+   "heap": 2736,
+   "rc": 0
+  },
+  "tsuov_128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1110771,
+   "min_us": 1110771,
+   "max_us": 1110771,
+   "stack": 22608,
+   "heap": 2736,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "tsuov_128/ref/kat0-pk": {
+   "sha256_16": "308f6daf625d23a4a1db156a26d52469",
+   "len": 779
+  },
+  "tsuov_128/ref/kat0-sk": {
+   "sha256_16": "89a89853b5f89e041bf177a26df30e90",
+   "len": 32
+  },
+  "tsuov_128/ref/kat0-sig": {
+   "sha256_16": "413a8d16067fa5795deb2be023304ff2",
+   "len": 896
+  },
+  "tsuov_128/ref/pk": {
+   "sha256_16": "9b9eae0066f540a00cbab8eb46b6d1d5",
+   "len": 779
+  },
+  "tsuov_128/ref/sk": {
+   "sha256_16": "055cf2c1adc0ad5e0f352a2552923507",
+   "len": 32
+  },
+  "tsuov_128/ref/sig": {
+   "sha256_16": "99364766e6bf78a72309e2b2b6bc66fb",
+   "len": 896
+  },
+  "tsuov_128/opt/kat0-pk": {
+   "sha256_16": "308f6daf625d23a4a1db156a26d52469",
+   "len": 779
+  },
+  "tsuov_128/opt/kat0-sk": {
+   "sha256_16": "89a89853b5f89e041bf177a26df30e90",
+   "len": 32
+  },
+  "tsuov_128/opt/kat0-sig": {
+   "sha256_16": "413a8d16067fa5795deb2be023304ff2",
+   "len": 896
+  },
+  "tsuov_128/opt/pk": {
+   "sha256_16": "9b9eae0066f540a00cbab8eb46b6d1d5",
+   "len": 779
+  },
+  "tsuov_128/opt/sk": {
+   "sha256_16": "055cf2c1adc0ad5e0f352a2552923507",
+   "len": 32
+  },
+  "tsuov_128/opt/sig": {
+   "sha256_16": "99364766e6bf78a72309e2b2b6bc66fb",
+   "len": 896
+  }
+ },
+ "checks": {
+  "tsuov_128/ref/kat-roundtrip": "PASS",
+  "tsuov_128/ref/tampered-rejected": "PASS",
+  "tsuov_128/opt/kat-roundtrip": "PASS",
+  "tsuov_128/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "tsuov_128": "kind=SIG pk=779 sk=32 sig=896",
+  "job_stack": "65536",
+  "kat0_sig_len": "896",
+  "sig_len": "896"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 232736,
+ "heap_free_min": 161564,
+ "unit": "sig_TSUOV__TSUOV_128",
+ "pid": "sig_TSUOV",
+ "param": "TSUOV_128",
+ "kind": "SIG",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 142720,
+ "seconds": 17.6,
+ "kat": {
+  "result": "match",
+  "file": "Implementations/Digital_Signature-TSUOV-x86-Reference_Implementation/API_PKC/Test_Vector/KAT_SIG_TSUOV_128.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 12,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

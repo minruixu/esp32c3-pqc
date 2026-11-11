@@ -1,0 +1,209 @@
+{
+ "results": {
+  "hare-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 2474882,
+   "min_us": 2474882,
+   "max_us": 2474882,
+   "stack": 83132,
+   "heap": 9776,
+   "rc": 0
+  },
+  "hare-128/ref/keygen": {
+   "iters": 1,
+   "avg_us": 386276,
+   "min_us": 386276,
+   "max_us": 386276,
+   "stack": 61148,
+   "heap": 5420,
+   "rc": 0
+  },
+  "hare-128/ref/encaps": {
+   "iters": 1,
+   "avg_us": 837992,
+   "min_us": 837992,
+   "max_us": 837992,
+   "stack": 71020,
+   "heap": 5424,
+   "rc": 0
+  },
+  "hare-128/ref/decaps": {
+   "iters": 1,
+   "avg_us": 1247211,
+   "min_us": 1247211,
+   "max_us": 1247211,
+   "stack": 83116,
+   "heap": 9776,
+   "rc": 0
+  },
+  "hare-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1247216,
+   "min_us": 1247216,
+   "max_us": 1247216,
+   "stack": 83132,
+   "heap": 9776,
+   "rc": 0
+  },
+  "hare-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 2463427,
+   "min_us": 2463427,
+   "max_us": 2463427,
+   "stack": 83132,
+   "heap": 9776,
+   "rc": 0
+  },
+  "hare-128/opt/keygen": {
+   "iters": 1,
+   "avg_us": 384318,
+   "min_us": 384318,
+   "max_us": 384318,
+   "stack": 61148,
+   "heap": 5420,
+   "rc": 0
+  },
+  "hare-128/opt/encaps": {
+   "iters": 1,
+   "avg_us": 834342,
+   "min_us": 834342,
+   "max_us": 834342,
+   "stack": 71020,
+   "heap": 5424,
+   "rc": 0
+  },
+  "hare-128/opt/decaps": {
+   "iters": 1,
+   "avg_us": 1242051,
+   "min_us": 1242051,
+   "max_us": 1242051,
+   "stack": 83116,
+   "heap": 9776,
+   "rc": 0
+  },
+  "hare-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1242051,
+   "min_us": 1242051,
+   "max_us": 1242051,
+   "stack": 83132,
+   "heap": 9776,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "hare-128/ref/kat0-pk": {
+   "sha256_16": "33ccead0799ae6a55c7d760924e6d3d8",
+   "len": 2629
+  },
+  "hare-128/ref/kat0-sk": {
+   "sha256_16": "62c93b6f27a16b2302fec8553b233ed5",
+   "len": 2677
+  },
+  "hare-128/ref/kat0-ct": {
+   "sha256_16": "55ad29a47674b95e7c694d378000ce85",
+   "len": 4688
+  },
+  "hare-128/ref/kat0-ss": {
+   "sha256_16": "a956cf99b1cf336ea2bef04fac764035",
+   "len": 16
+  },
+  "hare-128/ref/pk": {
+   "sha256_16": "93baf31dc597596602fbc6e2eeb7472d",
+   "len": 2629
+  },
+  "hare-128/ref/sk": {
+   "sha256_16": "6c2bf983e271fe6bfe6afdb3685bedc7",
+   "len": 2677
+  },
+  "hare-128/ref/ct": {
+   "sha256_16": "eea37eda4587922dd558e478ed821ac9",
+   "len": 4688
+  },
+  "hare-128/ref/ss": {
+   "sha256_16": "fe1830f910b551c40f6c654264ce8797",
+   "len": 16
+  },
+  "hare-128/opt/kat0-pk": {
+   "sha256_16": "33ccead0799ae6a55c7d760924e6d3d8",
+   "len": 2629
+  },
+  "hare-128/opt/kat0-sk": {
+   "sha256_16": "62c93b6f27a16b2302fec8553b233ed5",
+   "len": 2677
+  },
+  "hare-128/opt/kat0-ct": {
+   "sha256_16": "55ad29a47674b95e7c694d378000ce85",
+   "len": 4688
+  },
+  "hare-128/opt/kat0-ss": {
+   "sha256_16": "a956cf99b1cf336ea2bef04fac764035",
+   "len": 16
+  },
+  "hare-128/opt/pk": {
+   "sha256_16": "93baf31dc597596602fbc6e2eeb7472d",
+   "len": 2629
+  },
+  "hare-128/opt/sk": {
+   "sha256_16": "6c2bf983e271fe6bfe6afdb3685bedc7",
+   "len": 2677
+  },
+  "hare-128/opt/ct": {
+   "sha256_16": "eea37eda4587922dd558e478ed821ac9",
+   "len": 4688
+  },
+  "hare-128/opt/ss": {
+   "sha256_16": "fe1830f910b551c40f6c654264ce8797",
+   "len": 16
+  }
+ },
+ "checks": {
+  "hare-128/ref/kat-roundtrip": "PASS",
+  "hare-128/ref/tampered-ct-rejected": "PASS",
+  "hare-128/opt/kat-roundtrip": "PASS",
+  "hare-128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "hare-128": "kind=KEM pk=2629 sk=2677 ct=4688 ss=16",
+  "job_stack": "94208"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 230944,
+ "heap_free_min": 115032,
+ "unit": "kem_HARE__HARE-128",
+ "pid": "kem_HARE",
+ "param": "HARE-128",
+ "kind": "KEM",
+ "iters": 1,
+ "stack_pct": 85,
+ "stack_given": 0,
+ "image_bytes": 148640,
+ "attempts": [
+  {
+   "verdict": "crashes",
+   "reason": "Guru Meditation Error: Core  0 panic'ed (Stack protection fault).",
+   "stack_pct": 60
+  }
+ ],
+ "seconds": 14.2,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/KAT_KEM_HARE-128-kr.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

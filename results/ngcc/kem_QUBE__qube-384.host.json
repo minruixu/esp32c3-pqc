@@ -1,0 +1,192 @@
+{
+ "results": {
+  "qube-384/ref/kat": {
+   "iters": 1,
+   "avg_us": 3977,
+   "min_us": 3977,
+   "max_us": 3977,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "qube-384/ref/keygen": {
+   "iters": 3,
+   "avg_us": 1201,
+   "min_us": 1074,
+   "max_us": 1271,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "qube-384/ref/encaps": {
+   "iters": 3,
+   "avg_us": 1041,
+   "min_us": 1007,
+   "max_us": 1108,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "qube-384/ref/decaps": {
+   "iters": 3,
+   "avg_us": 1766,
+   "min_us": 1707,
+   "max_us": 1875,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "qube-384/ref/tamper": {
+   "iters": 1,
+   "avg_us": 1810,
+   "min_us": 1810,
+   "max_us": 1810,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "qube-384/opt/kat": {
+   "iters": 1,
+   "avg_us": 4382,
+   "min_us": 4382,
+   "max_us": 4382,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "qube-384/opt/keygen": {
+   "iters": 3,
+   "avg_us": 1002,
+   "min_us": 965,
+   "max_us": 1066,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "qube-384/opt/encaps": {
+   "iters": 3,
+   "avg_us": 1081,
+   "min_us": 1036,
+   "max_us": 1107,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "qube-384/opt/decaps": {
+   "iters": 3,
+   "avg_us": 1827,
+   "min_us": 1734,
+   "max_us": 1987,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "qube-384/opt/tamper": {
+   "iters": 1,
+   "avg_us": 2171,
+   "min_us": 2171,
+   "max_us": 2171,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "qube-384/ref/kat0-pk": {
+   "sha256_16": "9b97394219c62b2562f84529d3416d02",
+   "len": 20738
+  },
+  "qube-384/ref/kat0-sk": {
+   "sha256_16": "22d977866a3bc92240dc40f6f6f5acec",
+   "len": 20834
+  },
+  "qube-384/ref/kat0-ct": {
+   "sha256_16": "a6a39ca1247abe63ce2085c7c335c607",
+   "len": 20633
+  },
+  "qube-384/ref/kat0-ss": {
+   "sha256_16": "5d46e2e609dd1e19078478b4abb3b7a4",
+   "len": 48
+  },
+  "qube-384/ref/pk": {
+   "sha256_16": "d897d44679d0163e032394a819192ba2",
+   "len": 20738
+  },
+  "qube-384/ref/sk": {
+   "sha256_16": "2bae180f23baa55d8c8dc5891a1e14fa",
+   "len": 20834
+  },
+  "qube-384/ref/ct": {
+   "sha256_16": "ec94d47bf1777d0c8ac56d4ccbbcc6b7",
+   "len": 20633
+  },
+  "qube-384/ref/ss": {
+   "sha256_16": "cc5a42083cc2ad2045cb190b2042b63b",
+   "len": 48
+  },
+  "qube-384/opt/kat0-pk": {
+   "sha256_16": "9b97394219c62b2562f84529d3416d02",
+   "len": 20738
+  },
+  "qube-384/opt/kat0-sk": {
+   "sha256_16": "22d977866a3bc92240dc40f6f6f5acec",
+   "len": 20834
+  },
+  "qube-384/opt/kat0-ct": {
+   "sha256_16": "a6a39ca1247abe63ce2085c7c335c607",
+   "len": 20633
+  },
+  "qube-384/opt/kat0-ss": {
+   "sha256_16": "5d46e2e609dd1e19078478b4abb3b7a4",
+   "len": 48
+  },
+  "qube-384/opt/pk": {
+   "sha256_16": "d897d44679d0163e032394a819192ba2",
+   "len": 20738
+  },
+  "qube-384/opt/sk": {
+   "sha256_16": "2bae180f23baa55d8c8dc5891a1e14fa",
+   "len": 20834
+  },
+  "qube-384/opt/ct": {
+   "sha256_16": "ec94d47bf1777d0c8ac56d4ccbbcc6b7",
+   "len": 20633
+  },
+  "qube-384/opt/ss": {
+   "sha256_16": "cc5a42083cc2ad2045cb190b2042b63b",
+   "len": 48
+  }
+ },
+ "checks": {
+  "qube-384/ref/kat-roundtrip": "PASS",
+  "qube-384/ref/tampered-ct-rejected": "PASS",
+  "qube-384/opt/kat-roundtrip": "PASS",
+  "qube-384/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "qube-384": "kind=KEM pk=20738 sk=20834 ct=20633 ss=48",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_QUBE__qube-384",
+ "pid": "kem_QUBE",
+ "param": "qube-384",
+ "kind": "KEM",
+ "seconds": 2.6,
+ "kat": {
+  "result": "match",
+  "file": "Implementations/Reference_Implementation/qube-384/KAT/KAT_KEM_qube_384.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

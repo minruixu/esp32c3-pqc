@@ -1,0 +1,192 @@
+{
+ "results": {
+  "hqc-384/ref/kat": {
+   "iters": 1,
+   "avg_us": 453160,
+   "min_us": 453160,
+   "max_us": 453160,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc-384/ref/keygen": {
+   "iters": 3,
+   "avg_us": 75418,
+   "min_us": 73747,
+   "max_us": 77337,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc-384/ref/encaps": {
+   "iters": 3,
+   "avg_us": 134962,
+   "min_us": 132269,
+   "max_us": 136485,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc-384/ref/decaps": {
+   "iters": 3,
+   "avg_us": 240452,
+   "min_us": 236827,
+   "max_us": 243325,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc-384/ref/tamper": {
+   "iters": 1,
+   "avg_us": 235377,
+   "min_us": 235377,
+   "max_us": 235377,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc-384/opt/kat": {
+   "iters": 1,
+   "avg_us": 464894,
+   "min_us": 464894,
+   "max_us": 464894,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc-384/opt/keygen": {
+   "iters": 3,
+   "avg_us": 76330,
+   "min_us": 73087,
+   "max_us": 82065,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc-384/opt/encaps": {
+   "iters": 3,
+   "avg_us": 158642,
+   "min_us": 135954,
+   "max_us": 202356,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc-384/opt/decaps": {
+   "iters": 3,
+   "avg_us": 279270,
+   "min_us": 235776,
+   "max_us": 332305,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc-384/opt/tamper": {
+   "iters": 1,
+   "avg_us": 313706,
+   "min_us": 313706,
+   "max_us": 313706,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "hqc-384/ref/kat0-pk": {
+   "sha256_16": "f6885c7efb846e2b412b40d4e966aee1",
+   "len": 15371
+  },
+  "hqc-384/ref/kat0-sk": {
+   "sha256_16": "f6e7cc18ecfe54c08a47b405e69d4a76",
+   "len": 15467
+  },
+  "hqc-384/ref/kat0-ct": {
+   "sha256_16": "22bd62de0f1296a667038bcbfdf6856c",
+   "len": 18571
+  },
+  "hqc-384/ref/kat0-ss": {
+   "sha256_16": "c3524304daa82616e6e7ed24688b61f3",
+   "len": 48
+  },
+  "hqc-384/ref/pk": {
+   "sha256_16": "f8b3d3b041e5cd1d14c27680b748b25c",
+   "len": 15371
+  },
+  "hqc-384/ref/sk": {
+   "sha256_16": "98c8873b681a13b361710702aff238ce",
+   "len": 15467
+  },
+  "hqc-384/ref/ct": {
+   "sha256_16": "f126bc6f4dc8f4151fb0efbd7418cc0f",
+   "len": 18571
+  },
+  "hqc-384/ref/ss": {
+   "sha256_16": "6392d826d55c17a9c5a0158b9524b9ec",
+   "len": 48
+  },
+  "hqc-384/opt/kat0-pk": {
+   "sha256_16": "f6885c7efb846e2b412b40d4e966aee1",
+   "len": 15371
+  },
+  "hqc-384/opt/kat0-sk": {
+   "sha256_16": "f6e7cc18ecfe54c08a47b405e69d4a76",
+   "len": 15467
+  },
+  "hqc-384/opt/kat0-ct": {
+   "sha256_16": "22bd62de0f1296a667038bcbfdf6856c",
+   "len": 18571
+  },
+  "hqc-384/opt/kat0-ss": {
+   "sha256_16": "c3524304daa82616e6e7ed24688b61f3",
+   "len": 48
+  },
+  "hqc-384/opt/pk": {
+   "sha256_16": "f8b3d3b041e5cd1d14c27680b748b25c",
+   "len": 15371
+  },
+  "hqc-384/opt/sk": {
+   "sha256_16": "98c8873b681a13b361710702aff238ce",
+   "len": 15467
+  },
+  "hqc-384/opt/ct": {
+   "sha256_16": "f126bc6f4dc8f4151fb0efbd7418cc0f",
+   "len": 18571
+  },
+  "hqc-384/opt/ss": {
+   "sha256_16": "6392d826d55c17a9c5a0158b9524b9ec",
+   "len": 48
+  }
+ },
+ "checks": {
+  "hqc-384/ref/kat-roundtrip": "PASS",
+  "hqc-384/ref/tampered-ct-rejected": "PASS",
+  "hqc-384/opt/kat-roundtrip": "PASS",
+  "hqc-384/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "hqc-384": "kind=KEM pk=15371 sk=15467 ct=18571 ss=48",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_NSS-HQC__HQC-384",
+ "pid": "kem_NSS-HQC",
+ "param": "HQC-384",
+ "kind": "KEM",
+ "seconds": 6.7,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/KAT_KEM_HQC-384.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

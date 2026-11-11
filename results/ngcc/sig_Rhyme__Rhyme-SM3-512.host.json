@@ -1,0 +1,177 @@
+{
+ "results": {
+  "rhyme-sm3-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 372404,
+   "min_us": 372404,
+   "max_us": 372404,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 339638,
+   "min_us": 334634,
+   "max_us": 347096,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-512/ref/sign": {
+   "iters": 3,
+   "avg_us": 11064,
+   "min_us": 10619,
+   "max_us": 11902,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-512/ref/verify": {
+   "iters": 3,
+   "avg_us": 277,
+   "min_us": 232,
+   "max_us": 302,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 621,
+   "min_us": 621,
+   "max_us": 621,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 350300,
+   "min_us": 350300,
+   "max_us": 350300,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 364026,
+   "min_us": 336722,
+   "max_us": 411356,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-512/opt/sign": {
+   "iters": 3,
+   "avg_us": 12383,
+   "min_us": 11684,
+   "max_us": 12831,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-512/opt/verify": {
+   "iters": 3,
+   "avg_us": 300,
+   "min_us": 287,
+   "max_us": 309,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 491,
+   "min_us": 491,
+   "max_us": 491,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "rhyme-sm3-512/ref/kat0-pk": {
+   "sha256_16": "27ecd1e6f18a5bd02a8031cd36bfaa04",
+   "len": 3872
+  },
+  "rhyme-sm3-512/ref/kat0-sk": {
+   "sha256_16": "cd5a04e11dedff732cf8360457b371fe",
+   "len": 44864
+  },
+  "rhyme-sm3-512/ref/kat0-sig": {
+   "sha256_16": "a03c8c6c9b99543616e814f81879f658",
+   "len": 6994
+  },
+  "rhyme-sm3-512/ref/pk": {
+   "sha256_16": "1fe0a1eaa8a48ada07514b6b0df990f5",
+   "len": 3872
+  },
+  "rhyme-sm3-512/ref/sk": {
+   "sha256_16": "955a4386f5357556cedd4c677a777a2c",
+   "len": 44864
+  },
+  "rhyme-sm3-512/ref/sig": {
+   "sha256_16": "65d57db90675a37f1b2520cc017e488d",
+   "len": 7011
+  },
+  "rhyme-sm3-512/opt/kat0-pk": {
+   "sha256_16": "27ecd1e6f18a5bd02a8031cd36bfaa04",
+   "len": 3872
+  },
+  "rhyme-sm3-512/opt/kat0-sk": {
+   "sha256_16": "cd5a04e11dedff732cf8360457b371fe",
+   "len": 44864
+  },
+  "rhyme-sm3-512/opt/kat0-sig": {
+   "sha256_16": "a03c8c6c9b99543616e814f81879f658",
+   "len": 6994
+  },
+  "rhyme-sm3-512/opt/pk": {
+   "sha256_16": "1fe0a1eaa8a48ada07514b6b0df990f5",
+   "len": 3872
+  },
+  "rhyme-sm3-512/opt/sk": {
+   "sha256_16": "955a4386f5357556cedd4c677a777a2c",
+   "len": 44864
+  },
+  "rhyme-sm3-512/opt/sig": {
+   "sha256_16": "65d57db90675a37f1b2520cc017e488d",
+   "len": 7011
+  }
+ },
+ "checks": {
+  "rhyme-sm3-512/ref/kat-roundtrip": "PASS",
+  "rhyme-sm3-512/ref/tampered-rejected": "PASS",
+  "rhyme-sm3-512/opt/kat-roundtrip": "PASS",
+  "rhyme-sm3-512/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "rhyme-sm3-512": "kind=SIG pk=3872 sk=44864 sig=20612",
+  "job_stack": "0",
+  "kat0_sig_len": "6994",
+  "sig_len": "7011"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Rhyme__Rhyme-SM3-512",
+ "pid": "sig_Rhyme",
+ "param": "Rhyme-SM3-512",
+ "kind": "SIG",
+ "seconds": 4.9,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/Rhyme-SM3/KAT_SIG_Rhyme-SM3-512.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

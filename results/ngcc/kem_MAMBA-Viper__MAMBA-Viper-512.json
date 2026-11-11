@@ -1,0 +1,33 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "mamba-viper-512": "kind=KEM pk=3200 sk=7040 ct=3456 ss=64",
+  "job_stack": "65536"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 239872,
+ "unit": "kem_MAMBA-Viper__MAMBA-Viper-512",
+ "pid": "kem_MAMBA-Viper",
+ "param": "MAMBA-Viper-512",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 139472,
+ "seconds": 3.4,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "Guru Meditation Error: Core  0 panic'ed (Stack protection fault).",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

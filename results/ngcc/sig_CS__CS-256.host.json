@@ -1,0 +1,28 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "sig_CS__CS-256",
+ "pid": "sig_CS",
+ "param": "CS-256",
+ "kind": "SIG",
+ "verdict": "does not build",
+ "reason": "undefined symbols: AddPoly, AddVector, AddorSubPoly, ExchangeModulus, HalfCenterModVector, INTT, LazyReductionVector, MatrixVectorNTT, MultiplyPoly, NTT, ScalarMulVector, ScalarVector",
+ "build_errors": [
+  "Undefined symbols for architecture arm64:",
+  "\"_AddPoly\", referenced from:",
+  "\"_AddVector\", referenced from:",
+  "\"_AddorSubPoly\", referenced from:",
+  "\"_ExchangeModulus\", referenced from:",
+  "\"_HalfCenterModVector\", referenced from:",
+  "\"_INTT\", referenced from:",
+  "\"_LazyReductionVector\", referenced from:",
+  "\"_MatrixVectorNTT\", referenced from:",
+  "\"_MultiplyPoly\", referenced from:",
+  "\"_NTT\", referenced from:",
+  "\"_ScalarMulVector\", referenced from:"
+ ]
+}

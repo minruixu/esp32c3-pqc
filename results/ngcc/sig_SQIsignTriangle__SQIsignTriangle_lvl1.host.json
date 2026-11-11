@@ -1,0 +1,22 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "sig_SQIsignTriangle__SQIsignTriangle_lvl1",
+ "pid": "sig_SQIsignTriangle",
+ "param": "SQIsignTriangle_lvl1",
+ "kind": "SIG",
+ "verdict": "does not build",
+ "reason": "undefined symbols: crypto_sign, crypto_sign_keypair, sqisign_open",
+ "build_errors": [
+  "Undefined symbols for architecture arm64:",
+  "\"_crypto_sign\", referenced from:",
+  "\"_crypto_sign_keypair\", referenced from:",
+  "\"_sqisign_open\", referenced from:",
+  "ld: symbol(s) not found for architecture arm64",
+  "cc: error: linker command failed with exit code 1 (use -v to see invocation)"
+ ]
+}

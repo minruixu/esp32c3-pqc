@@ -1,0 +1,33 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "lore-shake_lore-l2": "kind=KEM pk=1186 sk=4518 ct=1282 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 237696,
+ "unit": "kem_Lore__Lore-SHAKE_Lore-L2",
+ "pid": "kem_Lore",
+ "param": "Lore-SHAKE_Lore-L2",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 141952,
+ "seconds": 61.7,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "no output for 60 s",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

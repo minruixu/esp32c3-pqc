@@ -1,0 +1,29 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "sig_Rhyme__Rhyme-SHAKE-128",
+ "pid": "sig_Rhyme",
+ "param": "Rhyme-SHAKE-128",
+ "kind": "SIG",
+ "iters": 1,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "verdict": "does not build",
+ "reason": "needs 128-bit integers (__int128), which the 32-bit RISC-V compiler does not have",
+ "build_errors": [
+  "sig_Rhyme/Implementations and Test_Vectors/Implementations/Reference_Implementation/Rhyme-SHAKE/Rhyme-SHAKE-128/src/zpntt.c:38:42: error: '__int128' is not supported on this target",
+  "sig_Rhyme/Implementations and Test_Vectors/Implementations/Reference_Implementation/Rhyme-SHAKE/Rhyme-SHAKE-128/src/sampler.c:263:14: error: '__int128' is not supported on this target",
+  "sig_Rhyme/Implementations and Test_Vectors/Implementations/Reference_Implementation/Rhyme-SHAKE/Rhyme-SHAKE-128/src/sampler.c:263:37: error: '__int128' is not supported on this target",
+  "sig_Rhyme/Implementations and Test_Vectors/Implementations/Reference_Implementation/Rhyme-SHAKE/Rhyme-SHAKE-128/src/sampler.c:314:14: error: '__int128' is not supported on this target",
+  "sig_Rhyme/Implementations and Test_Vectors/Implementations/Reference_Implementation/Rhyme-SHAKE/Rhyme-SHAKE-128/src/sampler.c:314:38: error: '__int128' is not supported on this target",
+  "sig_Rhyme/Implementations and Test_Vectors/Implementations/Reference_Implementation/Rhyme-SHAKE/Rhyme-SHAKE-128/src/sampler.c:316:47: error: '__int128' is not supported on this target",
+  "sig_Rhyme/Implementations and Test_Vectors/Implementations/Reference_Implementation/Rhyme-SHAKE/Rhyme-SHAKE-128/src/keygen/kg_zint.h:32:35: error: expected declaration specifiers or '...' before '__int128'",
+  "sig_Rhyme/Implementations and Test_Vectors/Implementations/Reference_Implementation/Rhyme-SHAKE/Rhyme-SHAKE-128/src/keygen/kg_zint.c:186:42: error: expected declaration specifiers or '...' before '__int128'",
+  "sig_Rhyme/Implementations and Test_Vectors/Implementations/Reference_Implementation/Rhyme-SHAKE/Rhyme-SHAKE-128/src/keygen/kg_zint.c:208:35: error: expected declaration specifiers or '...' before '__int128'",
+  "sig_Rhyme/Implementations and Test_Vectors/Implementations/Reference_Implementation/Rhyme-SHAKE/Rhyme-SHAKE-128/src/keygen/kg_zint.c:290:14: error: '__int128' is not supported on this target"
+ ]
+}

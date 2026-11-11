@@ -1,0 +1,22 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "sig_FlexTree__Flextree-160f",
+ "pid": "sig_FlexTree",
+ "param": "Flextree-160f",
+ "kind": "SIG",
+ "iters": 1,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "verdict": "does not build",
+ "reason": "needs code that uses 128-bit integers (__int128), which the 32-bit RISC-V compiler does not have (pors_fp.c)",
+ "build_errors": [
+  "sig_FlexTree/Implementations/Reference_Implementation/Flextree-160f/sign.c:137:(.text.ngc_crypto_sign_signature+0xec): undefined reference to `ngc_pors_fp_sign'",
+  "sig_FlexTree/Implementations/Reference_Implementation/Flextree-160f/sign.c:219:(.text.ngc_crypto_sign_verify+0xe6): undefined reference to `ngc_pors_fp_pk_from_sig'",
+  "collect2: error: ld returned 1 exit status"
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "results": {
+  "mamba-frost-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 255950,
+   "min_us": 255950,
+   "max_us": 255950,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 82543,
+   "min_us": 81213,
+   "max_us": 84348,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-512/ref/encaps": {
+   "iters": 3,
+   "avg_us": 91116,
+   "min_us": 87827,
+   "max_us": 94636,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-512/ref/decaps": {
+   "iters": 3,
+   "avg_us": 92021,
+   "min_us": 82081,
+   "max_us": 104515,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 99679,
+   "min_us": 99679,
+   "max_us": 99679,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 349679,
+   "min_us": 349679,
+   "max_us": 349679,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 100221,
+   "min_us": 85635,
+   "max_us": 122258,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-512/opt/encaps": {
+   "iters": 3,
+   "avg_us": 95681,
+   "min_us": 89521,
+   "max_us": 101313,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-512/opt/decaps": {
+   "iters": 3,
+   "avg_us": 96995,
+   "min_us": 85265,
+   "max_us": 104047,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mamba-frost-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 97636,
+   "min_us": 97636,
+   "max_us": 97636,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mamba-frost-512/ref/kat0-pk": {
+   "sha256_16": "447b3e54b4a655b0c18fc6e927d92966",
+   "len": 36432
+  },
+  "mamba-frost-512/ref/kat0-sk": {
+   "sha256_16": "3515e8d8fe0b7440ce6b93792c7e6e82",
+   "len": 41728
+  },
+  "mamba-frost-512/ref/kat0-ct": {
+   "sha256_16": "5c21de61f09a8b77d51efafe67ad42db",
+   "len": 72944
+  },
+  "mamba-frost-512/ref/kat0-ss": {
+   "sha256_16": "3d02a30072eb89e08a7dc0047b80943f",
+   "len": 64
+  },
+  "mamba-frost-512/ref/pk": {
+   "sha256_16": "d8256f735a646ef422a76c5edbae3746",
+   "len": 36432
+  },
+  "mamba-frost-512/ref/sk": {
+   "sha256_16": "5a3455079f59c9a39157c06be5adb086",
+   "len": 41728
+  },
+  "mamba-frost-512/ref/ct": {
+   "sha256_16": "9e7b627591ee46c669c65f32295433b6",
+   "len": 72944
+  },
+  "mamba-frost-512/ref/ss": {
+   "sha256_16": "e111704d5646226fa74ad6555191f4cc",
+   "len": 64
+  },
+  "mamba-frost-512/opt/kat0-pk": {
+   "sha256_16": "447b3e54b4a655b0c18fc6e927d92966",
+   "len": 36432
+  },
+  "mamba-frost-512/opt/kat0-sk": {
+   "sha256_16": "3515e8d8fe0b7440ce6b93792c7e6e82",
+   "len": 41728
+  },
+  "mamba-frost-512/opt/kat0-ct": {
+   "sha256_16": "5c21de61f09a8b77d51efafe67ad42db",
+   "len": 72944
+  },
+  "mamba-frost-512/opt/kat0-ss": {
+   "sha256_16": "3d02a30072eb89e08a7dc0047b80943f",
+   "len": 64
+  },
+  "mamba-frost-512/opt/pk": {
+   "sha256_16": "d8256f735a646ef422a76c5edbae3746",
+   "len": 36432
+  },
+  "mamba-frost-512/opt/sk": {
+   "sha256_16": "5a3455079f59c9a39157c06be5adb086",
+   "len": 41728
+  },
+  "mamba-frost-512/opt/ct": {
+   "sha256_16": "9e7b627591ee46c669c65f32295433b6",
+   "len": 72944
+  },
+  "mamba-frost-512/opt/ss": {
+   "sha256_16": "e111704d5646226fa74ad6555191f4cc",
+   "len": 64
+  }
+ },
+ "checks": {
+  "mamba-frost-512/ref/kat-roundtrip": "PASS",
+  "mamba-frost-512/ref/tampered-ct-rejected": "PASS",
+  "mamba-frost-512/opt/kat-roundtrip": "PASS",
+  "mamba-frost-512/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "mamba-frost-512": "kind=KEM pk=36432 sk=41728 ct=72944 ss=64",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_MAMBA-Frost__MAMBA-Frost-512",
+ "pid": "kem_MAMBA-Frost",
+ "param": "MAMBA-Frost-512",
+ "kind": "KEM",
+ "seconds": 4.9,
+ "kat": {
+  "result": "match",
+  "file": "API_PKC/API_PKC/Test_Vectors/KAT_KEM_MAMBA-Frost-512.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

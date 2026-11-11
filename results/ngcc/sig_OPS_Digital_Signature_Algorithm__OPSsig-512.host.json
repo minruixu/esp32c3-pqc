@@ -1,0 +1,177 @@
+{
+ "results": {
+  "opssig-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 4240,
+   "min_us": 4240,
+   "max_us": 4240,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "opssig-512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 1107,
+   "min_us": 1100,
+   "max_us": 1119,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "opssig-512/ref/sign": {
+   "iters": 3,
+   "avg_us": 1644,
+   "min_us": 1638,
+   "max_us": 1654,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "opssig-512/ref/verify": {
+   "iters": 3,
+   "avg_us": 1062,
+   "min_us": 1061,
+   "max_us": 1064,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "opssig-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 2121,
+   "min_us": 2121,
+   "max_us": 2121,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "opssig-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 7898,
+   "min_us": 7898,
+   "max_us": 7898,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "opssig-512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 1253,
+   "min_us": 951,
+   "max_us": 1624,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "opssig-512/opt/sign": {
+   "iters": 3,
+   "avg_us": 2699,
+   "min_us": 1671,
+   "max_us": 4450,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "opssig-512/opt/verify": {
+   "iters": 3,
+   "avg_us": 1304,
+   "min_us": 1151,
+   "max_us": 1518,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "opssig-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 1968,
+   "min_us": 1968,
+   "max_us": 1968,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "opssig-512/ref/kat0-pk": {
+   "sha256_16": "f3e413f8c4d030c666ef845f40ba5cf2",
+   "len": 6720
+  },
+  "opssig-512/ref/kat0-sk": {
+   "sha256_16": "86e2f381d7290202633ab0c61b2f1b07",
+   "len": 9920
+  },
+  "opssig-512/ref/kat0-sig": {
+   "sha256_16": "35697a9ecc9979dd9561c27209be10a6",
+   "len": 12021
+  },
+  "opssig-512/ref/pk": {
+   "sha256_16": "93b6ab6a7aa0921f4d960ac91d507082",
+   "len": 6720
+  },
+  "opssig-512/ref/sk": {
+   "sha256_16": "f81e2fb6db5a7c86d87d978225f1eacf",
+   "len": 9920
+  },
+  "opssig-512/ref/sig": {
+   "sha256_16": "170e5ace0c9a8b218d205895c0aa1f39",
+   "len": 12021
+  },
+  "opssig-512/opt/kat0-pk": {
+   "sha256_16": "f3e413f8c4d030c666ef845f40ba5cf2",
+   "len": 6720
+  },
+  "opssig-512/opt/kat0-sk": {
+   "sha256_16": "86e2f381d7290202633ab0c61b2f1b07",
+   "len": 9920
+  },
+  "opssig-512/opt/kat0-sig": {
+   "sha256_16": "35697a9ecc9979dd9561c27209be10a6",
+   "len": 12021
+  },
+  "opssig-512/opt/pk": {
+   "sha256_16": "93b6ab6a7aa0921f4d960ac91d507082",
+   "len": 6720
+  },
+  "opssig-512/opt/sk": {
+   "sha256_16": "f81e2fb6db5a7c86d87d978225f1eacf",
+   "len": 9920
+  },
+  "opssig-512/opt/sig": {
+   "sha256_16": "170e5ace0c9a8b218d205895c0aa1f39",
+   "len": 12021
+  }
+ },
+ "checks": {
+  "opssig-512/ref/kat-roundtrip": "PASS",
+  "opssig-512/ref/tampered-rejected": "PASS",
+  "opssig-512/opt/kat-roundtrip": "PASS",
+  "opssig-512/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "opssig-512": "kind=SIG pk=6720 sk=9920 sig=12021",
+  "job_stack": "0",
+  "kat0_sig_len": "12021",
+  "sig_len": "12021"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_OPS_Digital_Signature_Algorithm__OPSsig-512",
+ "pid": "sig_OPS_Digital_Signature_Algorithm",
+ "param": "OPSsig-512",
+ "kind": "SIG",
+ "seconds": 1.4,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/avx2/OPSsig-512/KAT_SIG_OPSsig-512-avx2.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

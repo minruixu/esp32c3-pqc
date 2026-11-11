@@ -1,0 +1,177 @@
+{
+ "results": {
+  "rhyme-sm3-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 185377,
+   "min_us": 185377,
+   "max_us": 185377,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 188272,
+   "min_us": 187015,
+   "max_us": 190585,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-128/ref/sign": {
+   "iters": 3,
+   "avg_us": 1449,
+   "min_us": 1130,
+   "max_us": 1844,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-128/ref/verify": {
+   "iters": 3,
+   "avg_us": 55,
+   "min_us": 40,
+   "max_us": 86,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 54,
+   "min_us": 54,
+   "max_us": 54,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 214193,
+   "min_us": 214193,
+   "max_us": 214193,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 187579,
+   "min_us": 185883,
+   "max_us": 190667,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-128/opt/sign": {
+   "iters": 3,
+   "avg_us": 1145,
+   "min_us": 1140,
+   "max_us": 1155,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-128/opt/verify": {
+   "iters": 3,
+   "avg_us": 72,
+   "min_us": 56,
+   "max_us": 100,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "rhyme-sm3-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 67,
+   "min_us": 67,
+   "max_us": 67,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "rhyme-sm3-128/ref/kat0-pk": {
+   "sha256_16": "518ecbb9b5a99743c232d447f0858beb",
+   "len": 800
+  },
+  "rhyme-sm3-128/ref/kat0-sk": {
+   "sha256_16": "db625de80fd4d0be46dab4c179f1f6f9",
+   "len": 11072
+  },
+  "rhyme-sm3-128/ref/kat0-sig": {
+   "sha256_16": "4c63c61243328bc82d23a1ff770ef2e5",
+   "len": 1481
+  },
+  "rhyme-sm3-128/ref/pk": {
+   "sha256_16": "4841647334472f814bf0affff9a72759",
+   "len": 800
+  },
+  "rhyme-sm3-128/ref/sk": {
+   "sha256_16": "d3fa1c86d4e20920ba6f3495d0cab8f0",
+   "len": 11072
+  },
+  "rhyme-sm3-128/ref/sig": {
+   "sha256_16": "9764c2d0e385adc3886adb428727f4df",
+   "len": 1483
+  },
+  "rhyme-sm3-128/opt/kat0-pk": {
+   "sha256_16": "518ecbb9b5a99743c232d447f0858beb",
+   "len": 800
+  },
+  "rhyme-sm3-128/opt/kat0-sk": {
+   "sha256_16": "db625de80fd4d0be46dab4c179f1f6f9",
+   "len": 11072
+  },
+  "rhyme-sm3-128/opt/kat0-sig": {
+   "sha256_16": "4c63c61243328bc82d23a1ff770ef2e5",
+   "len": 1481
+  },
+  "rhyme-sm3-128/opt/pk": {
+   "sha256_16": "4841647334472f814bf0affff9a72759",
+   "len": 800
+  },
+  "rhyme-sm3-128/opt/sk": {
+   "sha256_16": "d3fa1c86d4e20920ba6f3495d0cab8f0",
+   "len": 11072
+  },
+  "rhyme-sm3-128/opt/sig": {
+   "sha256_16": "9764c2d0e385adc3886adb428727f4df",
+   "len": 1483
+  }
+ },
+ "checks": {
+  "rhyme-sm3-128/ref/kat-roundtrip": "PASS",
+  "rhyme-sm3-128/ref/tampered-rejected": "PASS",
+  "rhyme-sm3-128/opt/kat-roundtrip": "PASS",
+  "rhyme-sm3-128/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "rhyme-sm3-128": "kind=SIG pk=800 sk=11072 sig=5156",
+  "job_stack": "0",
+  "kat0_sig_len": "1481",
+  "sig_len": "1483"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Rhyme__Rhyme-SM3-128",
+ "pid": "sig_Rhyme",
+ "param": "Rhyme-SM3-128",
+ "kind": "SIG",
+ "seconds": 3.0,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/Rhyme-SM3/KAT_SIG_Rhyme-SM3-128.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

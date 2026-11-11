@@ -1,0 +1,177 @@
+{
+ "results": {
+  "lynxer-256s/ref/kat": {
+   "iters": 1,
+   "avg_us": 3037177,
+   "min_us": 3037177,
+   "max_us": 3037177,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lynxer-256s/ref/keygen": {
+   "iters": 3,
+   "avg_us": 21873,
+   "min_us": 21185,
+   "max_us": 22571,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lynxer-256s/ref/sign": {
+   "iters": 3,
+   "avg_us": 1336293,
+   "min_us": 1333177,
+   "max_us": 1341528,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lynxer-256s/ref/verify": {
+   "iters": 3,
+   "avg_us": 1309018,
+   "min_us": 1287367,
+   "max_us": 1351294,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lynxer-256s/ref/tamper": {
+   "iters": 1,
+   "avg_us": 2592771,
+   "min_us": 2592771,
+   "max_us": 2592771,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lynxer-256s/opt/kat": {
+   "iters": 1,
+   "avg_us": 2896930,
+   "min_us": 2896930,
+   "max_us": 2896930,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lynxer-256s/opt/keygen": {
+   "iters": 3,
+   "avg_us": 24572,
+   "min_us": 24451,
+   "max_us": 24730,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lynxer-256s/opt/sign": {
+   "iters": 3,
+   "avg_us": 1370734,
+   "min_us": 1332096,
+   "max_us": 1446255,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lynxer-256s/opt/verify": {
+   "iters": 3,
+   "avg_us": 1423492,
+   "min_us": 1276231,
+   "max_us": 1507393,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lynxer-256s/opt/tamper": {
+   "iters": 1,
+   "avg_us": 3043788,
+   "min_us": 3043788,
+   "max_us": 3043788,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "lynxer-256s/ref/kat0-pk": {
+   "sha256_16": "7b8a9b86931a2d31afb1ed442f575adc",
+   "len": 64
+  },
+  "lynxer-256s/ref/kat0-sk": {
+   "sha256_16": "51cbcd9c3860f3d52a128cc7c690ac65",
+   "len": 64
+  },
+  "lynxer-256s/ref/kat0-sig": {
+   "sha256_16": "3a74acfd1a94906bbbfde4baa9512336",
+   "len": 12191
+  },
+  "lynxer-256s/ref/pk": {
+   "sha256_16": "7f49260cc8f3bfca91a57645b9a936b3",
+   "len": 64
+  },
+  "lynxer-256s/ref/sk": {
+   "sha256_16": "c57574ed38b1595b950633adcb1a7c10",
+   "len": 64
+  },
+  "lynxer-256s/ref/sig": {
+   "sha256_16": "025efe9cbbd172cb364490f76a5fb886",
+   "len": 12191
+  },
+  "lynxer-256s/opt/kat0-pk": {
+   "sha256_16": "7b8a9b86931a2d31afb1ed442f575adc",
+   "len": 64
+  },
+  "lynxer-256s/opt/kat0-sk": {
+   "sha256_16": "51cbcd9c3860f3d52a128cc7c690ac65",
+   "len": 64
+  },
+  "lynxer-256s/opt/kat0-sig": {
+   "sha256_16": "3a74acfd1a94906bbbfde4baa9512336",
+   "len": 12191
+  },
+  "lynxer-256s/opt/pk": {
+   "sha256_16": "7f49260cc8f3bfca91a57645b9a936b3",
+   "len": 64
+  },
+  "lynxer-256s/opt/sk": {
+   "sha256_16": "c57574ed38b1595b950633adcb1a7c10",
+   "len": 64
+  },
+  "lynxer-256s/opt/sig": {
+   "sha256_16": "025efe9cbbd172cb364490f76a5fb886",
+   "len": 12191
+  }
+ },
+ "checks": {
+  "lynxer-256s/ref/kat-roundtrip": "PASS",
+  "lynxer-256s/ref/tampered-rejected": "PASS",
+  "lynxer-256s/opt/kat-roundtrip": "PASS",
+  "lynxer-256s/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "lynxer-256s": "kind=SIG pk=64 sk=64 sig=12191",
+  "job_stack": "0",
+  "kat0_sig_len": "12191",
+  "sig_len": "12191"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Lynxer__Lynxer-256s",
+ "pid": "sig_Lynxer",
+ "param": "Lynxer-256s",
+ "kind": "SIG",
+ "seconds": 31.0,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_Lynxer-256s.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

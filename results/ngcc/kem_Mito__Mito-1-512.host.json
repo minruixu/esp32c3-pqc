@@ -1,0 +1,192 @@
+{
+ "results": {
+  "mito-1-512/ref/kat": {
+   "iters": 1,
+   "avg_us": 196937,
+   "min_us": 196937,
+   "max_us": 196937,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mito-1-512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 45781,
+   "min_us": 34916,
+   "max_us": 53920,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mito-1-512/ref/encaps": {
+   "iters": 3,
+   "avg_us": 63783,
+   "min_us": 59380,
+   "max_us": 67270,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mito-1-512/ref/decaps": {
+   "iters": 3,
+   "avg_us": 105698,
+   "min_us": 87101,
+   "max_us": 137686,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mito-1-512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 92828,
+   "min_us": 92828,
+   "max_us": 92828,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mito-1-512/opt/kat": {
+   "iters": 1,
+   "avg_us": 190368,
+   "min_us": 190368,
+   "max_us": 190368,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mito-1-512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 36927,
+   "min_us": 33647,
+   "max_us": 40810,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mito-1-512/opt/encaps": {
+   "iters": 3,
+   "avg_us": 77831,
+   "min_us": 59627,
+   "max_us": 87522,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mito-1-512/opt/decaps": {
+   "iters": 3,
+   "avg_us": 96924,
+   "min_us": 88387,
+   "max_us": 111971,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "mito-1-512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 94802,
+   "min_us": 94802,
+   "max_us": 94802,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "mito-1-512/ref/kat0-pk": {
+   "sha256_16": "4aaee39d8e0f77f30657f87cdac8397f",
+   "len": 26630
+  },
+  "mito-1-512/ref/kat0-sk": {
+   "sha256_16": "6bba51037d85f563c3110b1e9c3b66aa",
+   "len": 26822
+  },
+  "mito-1-512/ref/kat0-ct": {
+   "sha256_16": "23e5523dc160921a9c0a4f617772f4c1",
+   "len": 39878
+  },
+  "mito-1-512/ref/kat0-ss": {
+   "sha256_16": "9b85dae18e7a03eec783f3b28dc84351",
+   "len": 64
+  },
+  "mito-1-512/ref/pk": {
+   "sha256_16": "1c7b776e97f30f8ca1e559da272ddf0c",
+   "len": 26630
+  },
+  "mito-1-512/ref/sk": {
+   "sha256_16": "7997fa080c535e4d5a09ee9ddca69273",
+   "len": 26822
+  },
+  "mito-1-512/ref/ct": {
+   "sha256_16": "afd1fcd1a0b553c39fc1be5cf012826d",
+   "len": 39878
+  },
+  "mito-1-512/ref/ss": {
+   "sha256_16": "d35384d17690fe96fc59621fa7d1c2b0",
+   "len": 64
+  },
+  "mito-1-512/opt/kat0-pk": {
+   "sha256_16": "4aaee39d8e0f77f30657f87cdac8397f",
+   "len": 26630
+  },
+  "mito-1-512/opt/kat0-sk": {
+   "sha256_16": "6bba51037d85f563c3110b1e9c3b66aa",
+   "len": 26822
+  },
+  "mito-1-512/opt/kat0-ct": {
+   "sha256_16": "23e5523dc160921a9c0a4f617772f4c1",
+   "len": 39878
+  },
+  "mito-1-512/opt/kat0-ss": {
+   "sha256_16": "9b85dae18e7a03eec783f3b28dc84351",
+   "len": 64
+  },
+  "mito-1-512/opt/pk": {
+   "sha256_16": "1c7b776e97f30f8ca1e559da272ddf0c",
+   "len": 26630
+  },
+  "mito-1-512/opt/sk": {
+   "sha256_16": "7997fa080c535e4d5a09ee9ddca69273",
+   "len": 26822
+  },
+  "mito-1-512/opt/ct": {
+   "sha256_16": "afd1fcd1a0b553c39fc1be5cf012826d",
+   "len": 39878
+  },
+  "mito-1-512/opt/ss": {
+   "sha256_16": "d35384d17690fe96fc59621fa7d1c2b0",
+   "len": 64
+  }
+ },
+ "checks": {
+  "mito-1-512/ref/kat-roundtrip": "PASS",
+  "mito-1-512/ref/tampered-ct-rejected": "PASS",
+  "mito-1-512/opt/kat-roundtrip": "PASS",
+  "mito-1-512/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "mito-1-512": "kind=KEM pk=26630 sk=26822 ct=39878 ss=64",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_Mito__Mito-1-512",
+ "pid": "kem_Mito",
+ "param": "Mito-1-512",
+ "kind": "KEM",
+ "seconds": 3.9,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vector/KAT_KEM_MITO_1_512.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

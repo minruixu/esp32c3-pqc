@@ -1,0 +1,123 @@
+{
+ "results": {
+  "lore-shake_lore-l1/ref/kat": {
+   "iters": 1,
+   "avg_us": 73531,
+   "min_us": 73531,
+   "max_us": 73531,
+   "stack": 18216,
+   "heap": 136,
+   "rc": 0
+  },
+  "lore-shake_lore-l1/ref/keygen": {
+   "iters": 3,
+   "avg_us": 13280,
+   "min_us": 13278,
+   "max_us": 13283,
+   "stack": 13032,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-shake_lore-l1/ref/encaps": {
+   "iters": 3,
+   "avg_us": 26404,
+   "min_us": 26403,
+   "max_us": 26408,
+   "stack": 17384,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-shake_lore-l1/ref/decaps": {
+   "iters": 3,
+   "avg_us": 32455,
+   "min_us": 32455,
+   "max_us": 32456,
+   "stack": 18200,
+   "heap": 0,
+   "rc": 0
+  },
+  "lore-shake_lore-l1/ref/tamper": {
+   "iters": 1,
+   "avg_us": 32455,
+   "min_us": 32455,
+   "max_us": 32455,
+   "stack": 18216,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "lore-shake_lore-l1/ref/kat0-pk": {
+   "sha256_16": "fef83f2c2f8d0ec75ba44d9f275240ca",
+   "len": 610
+  },
+  "lore-shake_lore-l1/ref/kat0-sk": {
+   "sha256_16": "6a5f3c04121adbfafc8d5324ccdcd25e",
+   "len": 2108
+  },
+  "lore-shake_lore-l1/ref/kat0-ct": {
+   "sha256_16": "512f9066dd272224d11565cceacfd5a0",
+   "len": 706
+  },
+  "lore-shake_lore-l1/ref/kat0-ss": {
+   "sha256_16": "22d7f564947e75a79e6900b5bda83843",
+   "len": 32
+  },
+  "lore-shake_lore-l1/ref/pk": {
+   "sha256_16": "5387fcc6a4bf1f2aec98b022928ce38d",
+   "len": 610
+  },
+  "lore-shake_lore-l1/ref/sk": {
+   "sha256_16": "bc6fd3ce56a32cb77a91b921a038e9cb",
+   "len": 2108
+  },
+  "lore-shake_lore-l1/ref/ct": {
+   "sha256_16": "7a1b1f02b6771cfc4f41365c5658a0b9",
+   "len": 706
+  },
+  "lore-shake_lore-l1/ref/ss": {
+   "sha256_16": "c59921cd993eee3e09a0f846f5e675f7",
+   "len": 32
+  }
+ },
+ "checks": {
+  "lore-shake_lore-l1/ref/kat-roundtrip": "PASS",
+  "lore-shake_lore-l1/ref/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "lore-shake_lore-l1": "kind=KEM pk=610 sk=2108 ct=706 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 244864,
+ "heap_free_min": 173924,
+ "unit": "kem_Lore__Lore-SHAKE_Lore-L1",
+ "pid": "kem_Lore",
+ "param": "Lore-SHAKE_Lore-L1",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 134688,
+ "seconds": 1.9,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/Lore-SHAKE/KAT_KEM_Lore-L1.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 8,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

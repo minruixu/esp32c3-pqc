@@ -1,0 +1,45 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "greatwall128f": "kind=SIG pk=36 sk=36 sig=3396",
+  "job_stack": "16384"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 174948,
+ "unit": "sig_GreatWall_Signature_Algorithm__GreatWall128f",
+ "pid": "sig_GreatWall_Signature_Algorithm",
+ "param": "GreatWall128f",
+ "kind": "SIG",
+ "iters": 1,
+ "stack_pct": 15,
+ "stack_given": 0,
+ "image_bytes": 204544,
+ "attempts": [
+  {
+   "verdict": "crashes",
+   "reason": "Guru Meditation Error: Core  0 panic'ed (Store access fault). Exception was unhandled.",
+   "stack_pct": 60
+  },
+  {
+   "verdict": "crashes",
+   "reason": "Guru Meditation Error: Core  0 panic'ed (Store access fault). Exception was unhandled.",
+   "stack_pct": 30
+  }
+ ],
+ "seconds": 4.3,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "Guru Meditation Error: Core  0 panic'ed (Store access fault). Exception was unhandled.",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

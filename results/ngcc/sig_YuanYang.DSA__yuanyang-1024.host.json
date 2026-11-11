@@ -1,0 +1,28 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {},
+ "complete": false,
+ "fails": null,
+ "unit": "sig_YuanYang.DSA__yuanyang-1024",
+ "pid": "sig_YuanYang.DSA",
+ "param": "yuanyang-1024",
+ "kind": "SIG",
+ "verdict": "does not build",
+ "reason": "undefined symbols: bigint_add, bigint_copy, bigint_div_pow2, bigint_fast_normalize, bigint_fast_normalize_signed, bigint_mul_karatsuba, bigint_mul_scalar, bigint_reciprocal, bigint_sub, bigint_zero",
+ "build_errors": [
+  "Undefined symbols for architecture arm64:",
+  "\"_bigint_add\", referenced from:",
+  "\"_bigint_copy\", referenced from:",
+  "\"_bigint_div_pow2\", referenced from:",
+  "\"_bigint_fast_normalize\", referenced from:",
+  "\"_bigint_fast_normalize_signed\", referenced from:",
+  "\"_bigint_mul_karatsuba\", referenced from:",
+  "\"_bigint_mul_scalar\", referenced from:",
+  "\"_bigint_reciprocal\", referenced from:",
+  "\"_bigint_sub\", referenced from:",
+  "\"_bigint_zero\", referenced from:",
+  "ld: symbol(s) not found for architecture arm64"
+ ]
+}

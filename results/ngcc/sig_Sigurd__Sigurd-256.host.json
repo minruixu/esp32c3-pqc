@@ -1,0 +1,177 @@
+{
+ "results": {
+  "sigurd-256/ref/kat": {
+   "iters": 1,
+   "avg_us": 113321,
+   "min_us": 113321,
+   "max_us": 113321,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sigurd-256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 18863,
+   "min_us": 18821,
+   "max_us": 18893,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sigurd-256/ref/sign": {
+   "iters": 3,
+   "avg_us": 58425,
+   "min_us": 53919,
+   "max_us": 61334,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sigurd-256/ref/verify": {
+   "iters": 3,
+   "avg_us": 25022,
+   "min_us": 23627,
+   "max_us": 26006,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sigurd-256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 37069,
+   "min_us": 37069,
+   "max_us": 37069,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sigurd-256/opt/kat": {
+   "iters": 1,
+   "avg_us": 111560,
+   "min_us": 111560,
+   "max_us": 111560,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sigurd-256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 20369,
+   "min_us": 19416,
+   "max_us": 20928,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sigurd-256/opt/sign": {
+   "iters": 3,
+   "avg_us": 91131,
+   "min_us": 69515,
+   "max_us": 111104,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sigurd-256/opt/verify": {
+   "iters": 3,
+   "avg_us": 39345,
+   "min_us": 25194,
+   "max_us": 52037,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sigurd-256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 37885,
+   "min_us": 37885,
+   "max_us": 37885,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "sigurd-256/ref/kat0-pk": {
+   "sha256_16": "c6205a8d2760ec5c684dab443879d96b",
+   "len": 212
+  },
+  "sigurd-256/ref/kat0-sk": {
+   "sha256_16": "b539237a37fdb27ce040866799f61127",
+   "len": 128
+  },
+  "sigurd-256/ref/kat0-sig": {
+   "sha256_16": "86b21cfbc27c75c26cb5ba18df4973d3",
+   "len": 73988
+  },
+  "sigurd-256/ref/pk": {
+   "sha256_16": "74e3c3d2898e9eb7d36f34d592841a2f",
+   "len": 212
+  },
+  "sigurd-256/ref/sk": {
+   "sha256_16": "e9021181a139dbab888db88825021865",
+   "len": 128
+  },
+  "sigurd-256/ref/sig": {
+   "sha256_16": "91fab9351f0569db7800800893a7c558",
+   "len": 74372
+  },
+  "sigurd-256/opt/kat0-pk": {
+   "sha256_16": "c6205a8d2760ec5c684dab443879d96b",
+   "len": 212
+  },
+  "sigurd-256/opt/kat0-sk": {
+   "sha256_16": "b539237a37fdb27ce040866799f61127",
+   "len": 128
+  },
+  "sigurd-256/opt/kat0-sig": {
+   "sha256_16": "86b21cfbc27c75c26cb5ba18df4973d3",
+   "len": 73988
+  },
+  "sigurd-256/opt/pk": {
+   "sha256_16": "74e3c3d2898e9eb7d36f34d592841a2f",
+   "len": 212
+  },
+  "sigurd-256/opt/sk": {
+   "sha256_16": "e9021181a139dbab888db88825021865",
+   "len": 128
+  },
+  "sigurd-256/opt/sig": {
+   "sha256_16": "91fab9351f0569db7800800893a7c558",
+   "len": 74372
+  }
+ },
+ "checks": {
+  "sigurd-256/ref/kat-roundtrip": "PASS",
+  "sigurd-256/ref/tampered-rejected": "PASS",
+  "sigurd-256/opt/kat-roundtrip": "PASS",
+  "sigurd-256/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "sigurd-256": "kind=SIG pk=212 sk=128 sig=137412",
+  "job_stack": "0",
+  "kat0_sig_len": "73988",
+  "sig_len": "74372"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Sigurd__Sigurd-256",
+ "pid": "sig_Sigurd",
+ "param": "Sigurd-256",
+ "kind": "SIG",
+ "seconds": 2.7,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_Sigurd256_OPT.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

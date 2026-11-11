@@ -1,0 +1,202 @@
+{
+ "results": {
+  "flit256/ref/kat": {
+   "iters": 1,
+   "avg_us": 35252,
+   "min_us": 35252,
+   "max_us": 35252,
+   "stack": 15320,
+   "heap": 712,
+   "rc": 0
+  },
+  "flit256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 11779,
+   "min_us": 11779,
+   "max_us": 11780,
+   "stack": 10600,
+   "heap": 712,
+   "rc": 0
+  },
+  "flit256/ref/encaps": {
+   "iters": 3,
+   "avg_us": 10272,
+   "min_us": 10272,
+   "max_us": 10273,
+   "stack": 14124,
+   "heap": 712,
+   "rc": 0
+  },
+  "flit256/ref/decaps": {
+   "iters": 3,
+   "avg_us": 14246,
+   "min_us": 14245,
+   "max_us": 14250,
+   "stack": 15164,
+   "heap": 712,
+   "rc": 0
+  },
+  "flit256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 14245,
+   "min_us": 14245,
+   "max_us": 14245,
+   "stack": 15180,
+   "heap": 712,
+   "rc": 0
+  },
+  "flit256/opt/kat": {
+   "iters": 1,
+   "avg_us": 31955,
+   "min_us": 31955,
+   "max_us": 31955,
+   "stack": 15016,
+   "heap": 712,
+   "rc": 0
+  },
+  "flit256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 10181,
+   "min_us": 10181,
+   "max_us": 10182,
+   "stack": 10424,
+   "heap": 712,
+   "rc": 0
+  },
+  "flit256/opt/encaps": {
+   "iters": 3,
+   "avg_us": 8866,
+   "min_us": 8863,
+   "max_us": 8868,
+   "stack": 13960,
+   "heap": 712,
+   "rc": 0
+  },
+  "flit256/opt/decaps": {
+   "iters": 3,
+   "avg_us": 13228,
+   "min_us": 13226,
+   "max_us": 13231,
+   "stack": 15000,
+   "heap": 712,
+   "rc": 0
+  },
+  "flit256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 13227,
+   "min_us": 13227,
+   "max_us": 13227,
+   "stack": 15016,
+   "heap": 712,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "flit256/ref/kat0-pk": {
+   "sha256_16": "f1909a55a5b18643521f079db67153e3",
+   "len": 1229
+  },
+  "flit256/ref/kat0-sk": {
+   "sha256_16": "fd0c2898dc4ea7e69c54bb47f4190bbc",
+   "len": 2605
+  },
+  "flit256/ref/kat0-ct": {
+   "sha256_16": "0c4e7137c89a243dd4383c32517795fc",
+   "len": 1024
+  },
+  "flit256/ref/kat0-ss": {
+   "sha256_16": "552112f808ca8913aa6a8014e22d2421",
+   "len": 32
+  },
+  "flit256/ref/pk": {
+   "sha256_16": "705f7848fc9a5d9294469fa3296b2463",
+   "len": 1229
+  },
+  "flit256/ref/sk": {
+   "sha256_16": "75cd933524735a9425a6207e31865aef",
+   "len": 2605
+  },
+  "flit256/ref/ct": {
+   "sha256_16": "775b7dd6da9be1629c6775388da1808e",
+   "len": 1024
+  },
+  "flit256/ref/ss": {
+   "sha256_16": "55a4855c1241c3c365fe6058fda1d247",
+   "len": 32
+  },
+  "flit256/opt/kat0-pk": {
+   "sha256_16": "f1909a55a5b18643521f079db67153e3",
+   "len": 1229
+  },
+  "flit256/opt/kat0-sk": {
+   "sha256_16": "fd0c2898dc4ea7e69c54bb47f4190bbc",
+   "len": 2605
+  },
+  "flit256/opt/kat0-ct": {
+   "sha256_16": "0c4e7137c89a243dd4383c32517795fc",
+   "len": 1024
+  },
+  "flit256/opt/kat0-ss": {
+   "sha256_16": "552112f808ca8913aa6a8014e22d2421",
+   "len": 32
+  },
+  "flit256/opt/pk": {
+   "sha256_16": "705f7848fc9a5d9294469fa3296b2463",
+   "len": 1229
+  },
+  "flit256/opt/sk": {
+   "sha256_16": "75cd933524735a9425a6207e31865aef",
+   "len": 2605
+  },
+  "flit256/opt/ct": {
+   "sha256_16": "775b7dd6da9be1629c6775388da1808e",
+   "len": 1024
+  },
+  "flit256/opt/ss": {
+   "sha256_16": "55a4855c1241c3c365fe6058fda1d247",
+   "len": 32
+  }
+ },
+ "checks": {
+  "flit256/ref/kat-roundtrip": "PASS",
+  "flit256/ref/tampered-ct-rejected": "PASS",
+  "flit256/opt/kat-roundtrip": "PASS",
+  "flit256/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "flit256": "kind=KEM pk=1229 sk=2605 ct=1024 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 237568,
+ "heap_free_min": 164612,
+ "unit": "kem_FLIT__FLIT256",
+ "pid": "kem_FLIT",
+ "param": "FLIT256",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 142032,
+ "seconds": 2.2,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_FLIT256_OPT.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

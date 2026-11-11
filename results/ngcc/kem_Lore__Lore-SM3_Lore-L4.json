@@ -1,0 +1,33 @@
+{
+ "results": {},
+ "digests": {},
+ "checks": {},
+ "info": {
+  "lore-sm3_lore-l4": "kind=KEM pk=2914 sk=11432 ct=3170 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": false,
+ "fails": null,
+ "cpu_mhz": 160,
+ "heap_free_start": 234784,
+ "unit": "kem_Lore__Lore-SM3_Lore-L4",
+ "pid": "kem_Lore",
+ "param": "Lore-SM3_Lore-L4",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 144704,
+ "seconds": 3.5,
+ "kat": {
+  "result": "no output"
+ },
+ "verdict": "crashes",
+ "reason": "Guru Meditation Error: Core  0 panic'ed (Stack protection fault).",
+ "host_check": {
+  "equal": 0,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

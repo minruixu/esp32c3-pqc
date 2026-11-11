@@ -1,0 +1,177 @@
+{
+ "results": {
+  "origami-384/ref/kat": {
+   "iters": 1,
+   "avg_us": 2252220,
+   "min_us": 2252220,
+   "max_us": 2252220,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "origami-384/ref/keygen": {
+   "iters": 3,
+   "avg_us": 44616,
+   "min_us": 43588,
+   "max_us": 45163,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "origami-384/ref/sign": {
+   "iters": 3,
+   "avg_us": 1387505,
+   "min_us": 1382271,
+   "max_us": 1395437,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "origami-384/ref/verify": {
+   "iters": 3,
+   "avg_us": 1034306,
+   "min_us": 1009887,
+   "max_us": 1056490,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "origami-384/ref/tamper": {
+   "iters": 1,
+   "avg_us": 2139559,
+   "min_us": 2139559,
+   "max_us": 2139559,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "origami-384/opt/kat": {
+   "iters": 1,
+   "avg_us": 2348284,
+   "min_us": 2348284,
+   "max_us": 2348284,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "origami-384/opt/keygen": {
+   "iters": 3,
+   "avg_us": 45368,
+   "min_us": 44709,
+   "max_us": 46244,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "origami-384/opt/sign": {
+   "iters": 3,
+   "avg_us": 1460580,
+   "min_us": 1414208,
+   "max_us": 1516159,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "origami-384/opt/verify": {
+   "iters": 3,
+   "avg_us": 1034470,
+   "min_us": 992391,
+   "max_us": 1096472,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "origami-384/opt/tamper": {
+   "iters": 1,
+   "avg_us": 2127820,
+   "min_us": 2127820,
+   "max_us": 2127820,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "origami-384/ref/kat0-pk": {
+   "sha256_16": "beb50e2d6ec404783c11073bd2d65add",
+   "len": 27940
+  },
+  "origami-384/ref/kat0-sk": {
+   "sha256_16": "b8e376483bf455ec60ed4ec5de7eee5e",
+   "len": 48
+  },
+  "origami-384/ref/kat0-sig": {
+   "sha256_16": "8dc7192e8626cf0f568dbc3f8014ed1a",
+   "len": 948
+  },
+  "origami-384/ref/pk": {
+   "sha256_16": "c1f4aa003db2d97f2f2c2a9bea8f540e",
+   "len": 27940
+  },
+  "origami-384/ref/sk": {
+   "sha256_16": "882b94f1a065646094c39f83043b8389",
+   "len": 48
+  },
+  "origami-384/ref/sig": {
+   "sha256_16": "8e1f4e03eec6795f7eeaae3828740059",
+   "len": 948
+  },
+  "origami-384/opt/kat0-pk": {
+   "sha256_16": "beb50e2d6ec404783c11073bd2d65add",
+   "len": 27940
+  },
+  "origami-384/opt/kat0-sk": {
+   "sha256_16": "b8e376483bf455ec60ed4ec5de7eee5e",
+   "len": 48
+  },
+  "origami-384/opt/kat0-sig": {
+   "sha256_16": "8dc7192e8626cf0f568dbc3f8014ed1a",
+   "len": 948
+  },
+  "origami-384/opt/pk": {
+   "sha256_16": "c1f4aa003db2d97f2f2c2a9bea8f540e",
+   "len": 27940
+  },
+  "origami-384/opt/sk": {
+   "sha256_16": "882b94f1a065646094c39f83043b8389",
+   "len": 48
+  },
+  "origami-384/opt/sig": {
+   "sha256_16": "8e1f4e03eec6795f7eeaae3828740059",
+   "len": 948
+  }
+ },
+ "checks": {
+  "origami-384/ref/kat-roundtrip": "PASS",
+  "origami-384/ref/tampered-rejected": "PASS",
+  "origami-384/opt/kat-roundtrip": "PASS",
+  "origami-384/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "origami-384": "kind=SIG pk=27940 sk=48 sig=948",
+  "job_stack": "0",
+  "kat0_sig_len": "948",
+  "sig_len": "948"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_Origami__Origami-384",
+ "pid": "sig_Origami",
+ "param": "Origami-384",
+ "kind": "SIG",
+ "seconds": 25.1,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/KAT_SIG_Origami-384.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

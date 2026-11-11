@@ -1,0 +1,187 @@
+{
+ "results": {
+  "bit-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 59666,
+   "min_us": 59666,
+   "max_us": 59666,
+   "stack": 41364,
+   "heap": 760,
+   "rc": 0
+  },
+  "bit-128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 14158,
+   "min_us": 14157,
+   "max_us": 14162,
+   "stack": 16416,
+   "heap": 732,
+   "rc": 0
+  },
+  "bit-128/ref/sign": {
+   "iters": 3,
+   "avg_us": 226520,
+   "min_us": 226519,
+   "max_us": 226523,
+   "stack": 40804,
+   "heap": 760,
+   "rc": 0
+  },
+  "bit-128/ref/verify": {
+   "iters": 3,
+   "avg_us": 14875,
+   "min_us": 14874,
+   "max_us": 14878,
+   "stack": 24308,
+   "heap": 732,
+   "rc": 0
+  },
+  "bit-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 29751,
+   "min_us": 29751,
+   "max_us": 29751,
+   "stack": 24324,
+   "heap": 732,
+   "rc": 0
+  },
+  "bit-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 44705,
+   "min_us": 44705,
+   "max_us": 44705,
+   "stack": 41200,
+   "heap": 760,
+   "rc": 0
+  },
+  "bit-128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 9973,
+   "min_us": 9973,
+   "max_us": 9973,
+   "stack": 16288,
+   "heap": 732,
+   "rc": 0
+  },
+  "bit-128/opt/sign": {
+   "iters": 3,
+   "avg_us": 182310,
+   "min_us": 182310,
+   "max_us": 182310,
+   "stack": 40640,
+   "heap": 760,
+   "rc": 0
+  },
+  "bit-128/opt/verify": {
+   "iters": 3,
+   "avg_us": 10886,
+   "min_us": 10886,
+   "max_us": 10887,
+   "stack": 24144,
+   "heap": 732,
+   "rc": 0
+  },
+  "bit-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 21772,
+   "min_us": 21772,
+   "max_us": 21772,
+   "stack": 24160,
+   "heap": 732,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "bit-128/ref/kat0-pk": {
+   "sha256_16": "c57dde0d390862ecf2bee05df2a0bad2",
+   "len": 1048
+  },
+  "bit-128/ref/kat0-sk": {
+   "sha256_16": "596326d082f62f2fd142f346e133a483",
+   "len": 1864
+  },
+  "bit-128/ref/kat0-sig": {
+   "sha256_16": "70ba11e64e1c5306456b1075cb8abf4b",
+   "len": 1504
+  },
+  "bit-128/ref/pk": {
+   "sha256_16": "2f96a4d56ffca815928782454a648236",
+   "len": 1048
+  },
+  "bit-128/ref/sk": {
+   "sha256_16": "1f3bff37ee514f7308d170ab916d10ba",
+   "len": 1864
+  },
+  "bit-128/ref/sig": {
+   "sha256_16": "200dd5446272d509074f78059e88fb31",
+   "len": 1504
+  },
+  "bit-128/opt/kat0-pk": {
+   "sha256_16": "c57dde0d390862ecf2bee05df2a0bad2",
+   "len": 1048
+  },
+  "bit-128/opt/kat0-sk": {
+   "sha256_16": "596326d082f62f2fd142f346e133a483",
+   "len": 1864
+  },
+  "bit-128/opt/kat0-sig": {
+   "sha256_16": "70ba11e64e1c5306456b1075cb8abf4b",
+   "len": 1504
+  },
+  "bit-128/opt/pk": {
+   "sha256_16": "2f96a4d56ffca815928782454a648236",
+   "len": 1048
+  },
+  "bit-128/opt/sk": {
+   "sha256_16": "1f3bff37ee514f7308d170ab916d10ba",
+   "len": 1864
+  },
+  "bit-128/opt/sig": {
+   "sha256_16": "200dd5446272d509074f78059e88fb31",
+   "len": 1504
+  }
+ },
+ "checks": {
+  "bit-128/ref/kat-roundtrip": "PASS",
+  "bit-128/ref/tampered-rejected": "PASS",
+  "bit-128/opt/kat-roundtrip": "PASS",
+  "bit-128/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "bit-128": "kind=SIG pk=1048 sk=1864 sig=1504",
+  "job_stack": "65536",
+  "kat0_sig_len": "1504",
+  "sig_len": "1504"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 234880,
+ "heap_free_min": 162908,
+ "unit": "sig_BIT__Bimodal_Triangular_distribution_based_lattice_signatures__BiT-128",
+ "pid": "sig_BIT__Bimodal_Triangular_distribution_based_lattice_signatures",
+ "param": "BiT-128",
+ "kind": "SIG",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 144352,
+ "seconds": 3.2,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_BiT-128.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 12,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

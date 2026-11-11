@@ -1,0 +1,202 @@
+{
+ "results": {
+  "oaep-ntru-2592/ref/kat": {
+   "iters": 1,
+   "avg_us": 86465,
+   "min_us": 86465,
+   "max_us": 86465,
+   "stack": 36188,
+   "heap": 9984,
+   "rc": 0
+  },
+  "oaep-ntru-2592/ref/keygen": {
+   "iters": 3,
+   "avg_us": 20604,
+   "min_us": 20603,
+   "max_us": 20607,
+   "stack": 33404,
+   "heap": 9984,
+   "rc": 0
+  },
+  "oaep-ntru-2592/ref/encaps": {
+   "iters": 3,
+   "avg_us": 32896,
+   "min_us": 32896,
+   "max_us": 32897,
+   "stack": 30616,
+   "heap": 9984,
+   "rc": 0
+  },
+  "oaep-ntru-2592/ref/decaps": {
+   "iters": 3,
+   "avg_us": 28775,
+   "min_us": 28773,
+   "max_us": 28777,
+   "stack": 36172,
+   "heap": 1696,
+   "rc": 0
+  },
+  "oaep-ntru-2592/ref/tamper": {
+   "iters": 1,
+   "avg_us": 28776,
+   "min_us": 28776,
+   "max_us": 28776,
+   "stack": 36188,
+   "heap": 1696,
+   "rc": 0
+  },
+  "oaep-ntru-2592/opt/kat": {
+   "iters": 1,
+   "avg_us": 66441,
+   "min_us": 66441,
+   "max_us": 66441,
+   "stack": 36024,
+   "heap": 9984,
+   "rc": 0
+  },
+  "oaep-ntru-2592/opt/keygen": {
+   "iters": 3,
+   "avg_us": 17383,
+   "min_us": 17383,
+   "max_us": 17384,
+   "stack": 33368,
+   "heap": 9984,
+   "rc": 0
+  },
+  "oaep-ntru-2592/opt/encaps": {
+   "iters": 3,
+   "avg_us": 22884,
+   "min_us": 22884,
+   "max_us": 22884,
+   "stack": 30440,
+   "heap": 9984,
+   "rc": 0
+  },
+  "oaep-ntru-2592/opt/decaps": {
+   "iters": 3,
+   "avg_us": 21983,
+   "min_us": 21983,
+   "max_us": 21984,
+   "stack": 36136,
+   "heap": 1696,
+   "rc": 0
+  },
+  "oaep-ntru-2592/opt/tamper": {
+   "iters": 1,
+   "avg_us": 21987,
+   "min_us": 21987,
+   "max_us": 21987,
+   "stack": 36152,
+   "heap": 1696,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "oaep-ntru-2592/ref/kat0-pk": {
+   "sha256_16": "e258ce9194606417322a73b5e1b0f2e9",
+   "len": 4860
+  },
+  "oaep-ntru-2592/ref/kat0-sk": {
+   "sha256_16": "fe2f674160acd1b57ad8cbf5a7d64e6e",
+   "len": 9848
+  },
+  "oaep-ntru-2592/ref/kat0-ct": {
+   "sha256_16": "192b288f63f1d5b990581ce29f3dbf09",
+   "len": 4988
+  },
+  "oaep-ntru-2592/ref/kat0-ss": {
+   "sha256_16": "b3c50f9dc1d81906b8f06803fcac34c0",
+   "len": 64
+  },
+  "oaep-ntru-2592/ref/pk": {
+   "sha256_16": "ede300acffc218fc4f3eccc9f5624e9a",
+   "len": 4860
+  },
+  "oaep-ntru-2592/ref/sk": {
+   "sha256_16": "b09af1a8fa17aaaa5217b48635c2819d",
+   "len": 9848
+  },
+  "oaep-ntru-2592/ref/ct": {
+   "sha256_16": "a069806efb0571f48b8e7540c9be0427",
+   "len": 4988
+  },
+  "oaep-ntru-2592/ref/ss": {
+   "sha256_16": "1b546770c345eaa1fbc39ae3ee32fd59",
+   "len": 64
+  },
+  "oaep-ntru-2592/opt/kat0-pk": {
+   "sha256_16": "e258ce9194606417322a73b5e1b0f2e9",
+   "len": 4860
+  },
+  "oaep-ntru-2592/opt/kat0-sk": {
+   "sha256_16": "fe2f674160acd1b57ad8cbf5a7d64e6e",
+   "len": 9848
+  },
+  "oaep-ntru-2592/opt/kat0-ct": {
+   "sha256_16": "192b288f63f1d5b990581ce29f3dbf09",
+   "len": 4988
+  },
+  "oaep-ntru-2592/opt/kat0-ss": {
+   "sha256_16": "b3c50f9dc1d81906b8f06803fcac34c0",
+   "len": 64
+  },
+  "oaep-ntru-2592/opt/pk": {
+   "sha256_16": "ede300acffc218fc4f3eccc9f5624e9a",
+   "len": 4860
+  },
+  "oaep-ntru-2592/opt/sk": {
+   "sha256_16": "b09af1a8fa17aaaa5217b48635c2819d",
+   "len": 9848
+  },
+  "oaep-ntru-2592/opt/ct": {
+   "sha256_16": "a069806efb0571f48b8e7540c9be0427",
+   "len": 4988
+  },
+  "oaep-ntru-2592/opt/ss": {
+   "sha256_16": "1b546770c345eaa1fbc39ae3ee32fd59",
+   "len": 64
+  }
+ },
+ "checks": {
+  "oaep-ntru-2592/ref/kat-roundtrip": "PASS",
+  "oaep-ntru-2592/ref/tampered-ct-rejected": "PASS",
+  "oaep-ntru-2592/opt/kat-roundtrip": "PASS",
+  "oaep-ntru-2592/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "oaep-ntru-2592": "kind=KEM pk=4860 sk=9848 ct=4988 ss=64",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 237856,
+ "heap_free_min": 140588,
+ "unit": "kem_OAEP-NTRU__OAEP-NTRU-2592",
+ "pid": "kem_OAEP-NTRU",
+ "param": "OAEP-NTRU-2592",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 141728,
+ "seconds": 2.3,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_OAEP-NTRU-2592.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "results": {
+  "dtru-648/ref/kat": {
+   "iters": 1,
+   "avg_us": 25378,
+   "min_us": 25378,
+   "max_us": 25378,
+   "stack": 20236,
+   "heap": 1600,
+   "rc": 0
+  },
+  "dtru-648/ref/keygen": {
+   "iters": 3,
+   "avg_us": 5695,
+   "min_us": 5694,
+   "max_us": 5698,
+   "stack": 14312,
+   "heap": 0,
+   "rc": 0
+  },
+  "dtru-648/ref/encaps": {
+   "iters": 3,
+   "avg_us": 5452,
+   "min_us": 5451,
+   "max_us": 5455,
+   "stack": 19356,
+   "heap": 740,
+   "rc": 0
+  },
+  "dtru-648/ref/decaps": {
+   "iters": 3,
+   "avg_us": 10263,
+   "min_us": 10263,
+   "max_us": 10263,
+   "stack": 20220,
+   "heap": 1600,
+   "rc": 0
+  },
+  "dtru-648/ref/tamper": {
+   "iters": 1,
+   "avg_us": 10262,
+   "min_us": 10262,
+   "max_us": 10262,
+   "stack": 20236,
+   "heap": 1600,
+   "rc": 0
+  },
+  "dtru-648/opt/kat": {
+   "iters": 1,
+   "avg_us": 23797,
+   "min_us": 23797,
+   "max_us": 23797,
+   "stack": 20236,
+   "heap": 1600,
+   "rc": 0
+  },
+  "dtru-648/opt/keygen": {
+   "iters": 3,
+   "avg_us": 5695,
+   "min_us": 5694,
+   "max_us": 5698,
+   "stack": 14312,
+   "heap": 0,
+   "rc": 0
+  },
+  "dtru-648/opt/encaps": {
+   "iters": 3,
+   "avg_us": 4946,
+   "min_us": 4945,
+   "max_us": 4949,
+   "stack": 19356,
+   "heap": 740,
+   "rc": 0
+  },
+  "dtru-648/opt/decaps": {
+   "iters": 3,
+   "avg_us": 9187,
+   "min_us": 9184,
+   "max_us": 9189,
+   "stack": 20220,
+   "heap": 1600,
+   "rc": 0
+  },
+  "dtru-648/opt/tamper": {
+   "iters": 1,
+   "avg_us": 9187,
+   "min_us": 9187,
+   "max_us": 9187,
+   "stack": 20236,
+   "heap": 1600,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "dtru-648/ref/kat0-pk": {
+   "sha256_16": "0eb9255eb1e274b09cfdc5d2a40a893e",
+   "len": 954
+  },
+  "dtru-648/ref/kat0-sk": {
+   "sha256_16": "ba40ba338f6ca3304c7188df281373db",
+   "len": 1310
+  },
+  "dtru-648/ref/kat0-ct": {
+   "sha256_16": "e60d44bba06341991b51c1df4db64fc5",
+   "len": 729
+  },
+  "dtru-648/ref/kat0-ss": {
+   "sha256_16": "aa9f049d7621afd7265a9c936548f5db",
+   "len": 32
+  },
+  "dtru-648/ref/pk": {
+   "sha256_16": "4e07356eb40252a423e00ec4be651267",
+   "len": 954
+  },
+  "dtru-648/ref/sk": {
+   "sha256_16": "ca0ec9bdf7bd1d105a7da12d40618c98",
+   "len": 1310
+  },
+  "dtru-648/ref/ct": {
+   "sha256_16": "246880aa68db9414bf1e49da599a3aa7",
+   "len": 729
+  },
+  "dtru-648/ref/ss": {
+   "sha256_16": "5e23eeddbc704bd661a68e92a37247f2",
+   "len": 32
+  },
+  "dtru-648/opt/kat0-pk": {
+   "sha256_16": "0eb9255eb1e274b09cfdc5d2a40a893e",
+   "len": 954
+  },
+  "dtru-648/opt/kat0-sk": {
+   "sha256_16": "ba40ba338f6ca3304c7188df281373db",
+   "len": 1310
+  },
+  "dtru-648/opt/kat0-ct": {
+   "sha256_16": "e60d44bba06341991b51c1df4db64fc5",
+   "len": 729
+  },
+  "dtru-648/opt/kat0-ss": {
+   "sha256_16": "aa9f049d7621afd7265a9c936548f5db",
+   "len": 32
+  },
+  "dtru-648/opt/pk": {
+   "sha256_16": "4e07356eb40252a423e00ec4be651267",
+   "len": 954
+  },
+  "dtru-648/opt/sk": {
+   "sha256_16": "ca0ec9bdf7bd1d105a7da12d40618c98",
+   "len": 1310
+  },
+  "dtru-648/opt/ct": {
+   "sha256_16": "246880aa68db9414bf1e49da599a3aa7",
+   "len": 729
+  },
+  "dtru-648/opt/ss": {
+   "sha256_16": "5e23eeddbc704bd661a68e92a37247f2",
+   "len": 32
+  }
+ },
+ "checks": {
+  "dtru-648/ref/kat-roundtrip": "PASS",
+  "dtru-648/ref/tampered-ct-rejected": "PASS",
+  "dtru-648/opt/kat-roundtrip": "PASS",
+  "dtru-648/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "dtru-648": "kind=KEM pk=954 sk=1310 ct=729 ss=32",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 238576,
+ "heap_free_min": 166684,
+ "unit": "kem_DTRU__DTRU-648",
+ "pid": "kem_DTRU",
+ "param": "DTRU-648",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 140896,
+ "seconds": 1.7,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors_PACK_PK/KAT_KEM_DTRU-648.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "results": {
+  "ntre-256/ref/kat": {
+   "iters": 1,
+   "avg_us": 19776,
+   "min_us": 19776,
+   "max_us": 19776,
+   "stack": 18712,
+   "heap": 792,
+   "rc": 0
+  },
+  "ntre-256/ref/keygen": {
+   "iters": 3,
+   "avg_us": 5926,
+   "min_us": 5924,
+   "max_us": 5928,
+   "stack": 11468,
+   "heap": 408,
+   "rc": 0
+  },
+  "ntre-256/ref/encaps": {
+   "iters": 3,
+   "avg_us": 5927,
+   "min_us": 5926,
+   "max_us": 5931,
+   "stack": 11704,
+   "heap": 792,
+   "rc": 0
+  },
+  "ntre-256/ref/decaps": {
+   "iters": 3,
+   "avg_us": 6335,
+   "min_us": 6333,
+   "max_us": 6338,
+   "stack": 18624,
+   "heap": 792,
+   "rc": 0
+  },
+  "ntre-256/ref/tamper": {
+   "iters": 1,
+   "avg_us": 6336,
+   "min_us": 6336,
+   "max_us": 6336,
+   "stack": 18776,
+   "heap": 792,
+   "rc": 0
+  },
+  "ntre-256/opt/kat": {
+   "iters": 1,
+   "avg_us": 16566,
+   "min_us": 16566,
+   "max_us": 16566,
+   "stack": 18640,
+   "heap": 792,
+   "rc": 0
+  },
+  "ntre-256/opt/keygen": {
+   "iters": 3,
+   "avg_us": 4956,
+   "min_us": 4955,
+   "max_us": 4960,
+   "stack": 11304,
+   "heap": 408,
+   "rc": 0
+  },
+  "ntre-256/opt/encaps": {
+   "iters": 3,
+   "avg_us": 4524,
+   "min_us": 4522,
+   "max_us": 4528,
+   "stack": 11568,
+   "heap": 792,
+   "rc": 0
+  },
+  "ntre-256/opt/decaps": {
+   "iters": 3,
+   "avg_us": 5503,
+   "min_us": 5501,
+   "max_us": 5506,
+   "stack": 18760,
+   "heap": 792,
+   "rc": 0
+  },
+  "ntre-256/opt/tamper": {
+   "iters": 1,
+   "avg_us": 5500,
+   "min_us": 5500,
+   "max_us": 5500,
+   "stack": 18640,
+   "heap": 792,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "ntre-256/ref/kat0-pk": {
+   "sha256_16": "538b79df0e29fa58933b185c60bf9025",
+   "len": 1944
+  },
+  "ntre-256/ref/kat0-sk": {
+   "sha256_16": "74b667a8ed108500282527eefcf262d8",
+   "len": 3920
+  },
+  "ntre-256/ref/kat0-ct": {
+   "sha256_16": "e1406460d26a181456a74709d8096f6e",
+   "len": 1944
+  },
+  "ntre-256/ref/kat0-ss": {
+   "sha256_16": "858d55784f1d15b481b977c41c24534d",
+   "len": 64
+  },
+  "ntre-256/ref/pk": {
+   "sha256_16": "87a989f346e84d61fbdb26fc1db84927",
+   "len": 1944
+  },
+  "ntre-256/ref/sk": {
+   "sha256_16": "3400280b6428da4ba262dd6fc4e69acf",
+   "len": 3920
+  },
+  "ntre-256/ref/ct": {
+   "sha256_16": "85e3a53a47879061d3ee574d5a10d4e9",
+   "len": 1944
+  },
+  "ntre-256/ref/ss": {
+   "sha256_16": "89969069f5c41449e5f2d90f8b69d4bd",
+   "len": 64
+  },
+  "ntre-256/opt/kat0-pk": {
+   "sha256_16": "538b79df0e29fa58933b185c60bf9025",
+   "len": 1944
+  },
+  "ntre-256/opt/kat0-sk": {
+   "sha256_16": "74b667a8ed108500282527eefcf262d8",
+   "len": 3920
+  },
+  "ntre-256/opt/kat0-ct": {
+   "sha256_16": "e1406460d26a181456a74709d8096f6e",
+   "len": 1944
+  },
+  "ntre-256/opt/kat0-ss": {
+   "sha256_16": "858d55784f1d15b481b977c41c24534d",
+   "len": 64
+  },
+  "ntre-256/opt/pk": {
+   "sha256_16": "87a989f346e84d61fbdb26fc1db84927",
+   "len": 1944
+  },
+  "ntre-256/opt/sk": {
+   "sha256_16": "3400280b6428da4ba262dd6fc4e69acf",
+   "len": 3920
+  },
+  "ntre-256/opt/ct": {
+   "sha256_16": "85e3a53a47879061d3ee574d5a10d4e9",
+   "len": 1944
+  },
+  "ntre-256/opt/ss": {
+   "sha256_16": "89969069f5c41449e5f2d90f8b69d4bd",
+   "len": 64
+  }
+ },
+ "checks": {
+  "ntre-256/ref/kat-roundtrip": "PASS",
+  "ntre-256/ref/tampered-ct-rejected": "PASS",
+  "ntre-256/opt/kat-roundtrip": "PASS",
+  "ntre-256/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "ntre-256": "kind=KEM pk=1944 sk=3920 ct=1944 ss=64",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 244320,
+ "heap_free_min": 168020,
+ "unit": "kem_NTRE_Key_Encapsulation_Mechanism__NTRE-256",
+ "pid": "kem_NTRE_Key_Encapsulation_Mechanism",
+ "param": "NTRE-256",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 135104,
+ "seconds": 2.0,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_NTRE-256.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

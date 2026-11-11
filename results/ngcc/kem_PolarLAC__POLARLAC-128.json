@@ -1,0 +1,202 @@
+{
+ "results": {
+  "polarlac-128/ref/kat": {
+   "iters": 1,
+   "avg_us": 24117,
+   "min_us": 24117,
+   "max_us": 24117,
+   "stack": 13692,
+   "heap": 720,
+   "rc": 0
+  },
+  "polarlac-128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 5510,
+   "min_us": 5508,
+   "max_us": 5513,
+   "stack": 11820,
+   "heap": 316,
+   "rc": 0
+  },
+  "polarlac-128/ref/encaps": {
+   "iters": 3,
+   "avg_us": 7509,
+   "min_us": 7506,
+   "max_us": 7511,
+   "stack": 12956,
+   "heap": 688,
+   "rc": 0
+  },
+  "polarlac-128/ref/decaps": {
+   "iters": 3,
+   "avg_us": 9559,
+   "min_us": 9556,
+   "max_us": 9561,
+   "stack": 13676,
+   "heap": 720,
+   "rc": 0
+  },
+  "polarlac-128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 9561,
+   "min_us": 9561,
+   "max_us": 9561,
+   "stack": 13692,
+   "heap": 720,
+   "rc": 0
+  },
+  "polarlac-128/opt/kat": {
+   "iters": 1,
+   "avg_us": 19048,
+   "min_us": 19048,
+   "max_us": 19048,
+   "stack": 13528,
+   "heap": 720,
+   "rc": 0
+  },
+  "polarlac-128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 4243,
+   "min_us": 4242,
+   "max_us": 4247,
+   "stack": 11656,
+   "heap": 316,
+   "rc": 0
+  },
+  "polarlac-128/opt/encaps": {
+   "iters": 3,
+   "avg_us": 5709,
+   "min_us": 5708,
+   "max_us": 5713,
+   "stack": 12792,
+   "heap": 688,
+   "rc": 0
+  },
+  "polarlac-128/opt/decaps": {
+   "iters": 3,
+   "avg_us": 7558,
+   "min_us": 7556,
+   "max_us": 7560,
+   "stack": 13512,
+   "heap": 720,
+   "rc": 0
+  },
+  "polarlac-128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 7561,
+   "min_us": 7561,
+   "max_us": 7561,
+   "stack": 13528,
+   "heap": 720,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "polarlac-128/ref/kat0-pk": {
+   "sha256_16": "aeb63f55e3d726944ae3c6324d69502f",
+   "len": 530
+  },
+  "polarlac-128/ref/kat0-sk": {
+   "sha256_16": "b873c8f0c065540168156a4fecc059ef",
+   "len": 1570
+  },
+  "polarlac-128/ref/kat0-ct": {
+   "sha256_16": "ca00d2917fcf18da01ea67e4047a32b3",
+   "len": 640
+  },
+  "polarlac-128/ref/kat0-ss": {
+   "sha256_16": "73af2df897e9e3a0f2ab04a1eec959f3",
+   "len": 16
+  },
+  "polarlac-128/ref/pk": {
+   "sha256_16": "b83ae9197626556c075a431a26fa1af1",
+   "len": 530
+  },
+  "polarlac-128/ref/sk": {
+   "sha256_16": "69dab0a07fe52243e7137febb7842d86",
+   "len": 1570
+  },
+  "polarlac-128/ref/ct": {
+   "sha256_16": "90a76e8502586dadc20514574f590e82",
+   "len": 640
+  },
+  "polarlac-128/ref/ss": {
+   "sha256_16": "e623089bad14757a96e6bdb82be8f997",
+   "len": 16
+  },
+  "polarlac-128/opt/kat0-pk": {
+   "sha256_16": "aeb63f55e3d726944ae3c6324d69502f",
+   "len": 530
+  },
+  "polarlac-128/opt/kat0-sk": {
+   "sha256_16": "b873c8f0c065540168156a4fecc059ef",
+   "len": 1570
+  },
+  "polarlac-128/opt/kat0-ct": {
+   "sha256_16": "ca00d2917fcf18da01ea67e4047a32b3",
+   "len": 640
+  },
+  "polarlac-128/opt/kat0-ss": {
+   "sha256_16": "73af2df897e9e3a0f2ab04a1eec959f3",
+   "len": 16
+  },
+  "polarlac-128/opt/pk": {
+   "sha256_16": "b83ae9197626556c075a431a26fa1af1",
+   "len": 530
+  },
+  "polarlac-128/opt/sk": {
+   "sha256_16": "69dab0a07fe52243e7137febb7842d86",
+   "len": 1570
+  },
+  "polarlac-128/opt/ct": {
+   "sha256_16": "90a76e8502586dadc20514574f590e82",
+   "len": 640
+  },
+  "polarlac-128/opt/ss": {
+   "sha256_16": "e623089bad14757a96e6bdb82be8f997",
+   "len": 16
+  }
+ },
+ "checks": {
+  "polarlac-128/ref/kat-roundtrip": "PASS",
+  "polarlac-128/ref/tampered-ct-rejected": "PASS",
+  "polarlac-128/opt/kat-roundtrip": "PASS",
+  "polarlac-128/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "polarlac-128": "kind=KEM pk=530 sk=1570 ct=640 ss=16",
+  "job_stack": "65536"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 232000,
+ "heap_free_min": 161276,
+ "unit": "kem_PolarLAC__POLARLAC-128",
+ "pid": "kem_PolarLAC",
+ "param": "POLARLAC-128",
+ "kind": "KEM",
+ "iters": 3,
+ "stack_pct": 60,
+ "stack_given": 0,
+ "image_bytes": 147776,
+ "seconds": 1.8,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/Reference_Implementation/x86/KAT_KEM_POLARLAC-128.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": "",
+ "host_check": {
+  "equal": 16,
+  "different": 0,
+  "missing": 0,
+  "different_labels": []
+ }
+}

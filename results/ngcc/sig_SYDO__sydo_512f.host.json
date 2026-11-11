@@ -1,0 +1,177 @@
+{
+ "results": {
+  "sydo_512f/ref/kat": {
+   "iters": 1,
+   "avg_us": 577641,
+   "min_us": 577641,
+   "max_us": 577641,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512f/ref/keygen": {
+   "iters": 3,
+   "avg_us": 97,
+   "min_us": 76,
+   "max_us": 118,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512f/ref/sign": {
+   "iters": 3,
+   "avg_us": 283902,
+   "min_us": 276118,
+   "max_us": 292494,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512f/ref/verify": {
+   "iters": 3,
+   "avg_us": 273264,
+   "min_us": 259333,
+   "max_us": 295821,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512f/ref/tamper": {
+   "iters": 1,
+   "avg_us": 508970,
+   "min_us": 508970,
+   "max_us": 508970,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512f/opt/kat": {
+   "iters": 1,
+   "avg_us": 543540,
+   "min_us": 543540,
+   "max_us": 543540,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512f/opt/keygen": {
+   "iters": 3,
+   "avg_us": 79,
+   "min_us": 72,
+   "max_us": 85,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512f/opt/sign": {
+   "iters": 3,
+   "avg_us": 289266,
+   "min_us": 285719,
+   "max_us": 293285,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512f/opt/verify": {
+   "iters": 3,
+   "avg_us": 252082,
+   "min_us": 251172,
+   "max_us": 253143,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "sydo_512f/opt/tamper": {
+   "iters": 1,
+   "avg_us": 503985,
+   "min_us": 503985,
+   "max_us": 503985,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "sydo_512f/ref/kat0-pk": {
+   "sha256_16": "ace9bf224e9214e36c086e383e08c5db",
+   "len": 246
+  },
+  "sydo_512f/ref/kat0-sk": {
+   "sha256_16": "3e5bbf92246d288f2886e58f2f6de262",
+   "len": 534
+  },
+  "sydo_512f/ref/kat0-sig": {
+   "sha256_16": "c1186463c74ff3ba8affca121fed06d9",
+   "len": 67716
+  },
+  "sydo_512f/ref/pk": {
+   "sha256_16": "6f6f42f465efc2d025824074bd9f7457",
+   "len": 246
+  },
+  "sydo_512f/ref/sk": {
+   "sha256_16": "98db30b5d7d4461f8376ba163b39732e",
+   "len": 534
+  },
+  "sydo_512f/ref/sig": {
+   "sha256_16": "0ac9262a6d6d504692c1e29ee6d38709",
+   "len": 67716
+  },
+  "sydo_512f/opt/kat0-pk": {
+   "sha256_16": "ace9bf224e9214e36c086e383e08c5db",
+   "len": 246
+  },
+  "sydo_512f/opt/kat0-sk": {
+   "sha256_16": "3e5bbf92246d288f2886e58f2f6de262",
+   "len": 534
+  },
+  "sydo_512f/opt/kat0-sig": {
+   "sha256_16": "c1186463c74ff3ba8affca121fed06d9",
+   "len": 67716
+  },
+  "sydo_512f/opt/pk": {
+   "sha256_16": "6f6f42f465efc2d025824074bd9f7457",
+   "len": 246
+  },
+  "sydo_512f/opt/sk": {
+   "sha256_16": "98db30b5d7d4461f8376ba163b39732e",
+   "len": 534
+  },
+  "sydo_512f/opt/sig": {
+   "sha256_16": "0ac9262a6d6d504692c1e29ee6d38709",
+   "len": 67716
+  }
+ },
+ "checks": {
+  "sydo_512f/ref/kat-roundtrip": "PASS",
+  "sydo_512f/ref/tampered-rejected": "PASS",
+  "sydo_512f/opt/kat-roundtrip": "PASS",
+  "sydo_512f/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "sydo_512f": "kind=SIG pk=246 sk=534 sig=67716",
+  "job_stack": "0",
+  "kat0_sig_len": "67716",
+  "sig_len": "67716"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_SYDO__sydo_512f",
+ "pid": "sig_SYDO",
+ "param": "sydo_512f",
+ "kind": "SIG",
+ "seconds": 7.1,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_sydo_512f.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

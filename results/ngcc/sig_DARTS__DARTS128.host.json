@@ -1,0 +1,177 @@
+{
+ "results": {
+  "darts128/ref/kat": {
+   "iters": 1,
+   "avg_us": 974,
+   "min_us": 974,
+   "max_us": 974,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts128/ref/keygen": {
+   "iters": 3,
+   "avg_us": 78,
+   "min_us": 76,
+   "max_us": 81,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts128/ref/sign": {
+   "iters": 3,
+   "avg_us": 4918,
+   "min_us": 4820,
+   "max_us": 5034,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts128/ref/verify": {
+   "iters": 3,
+   "avg_us": 51,
+   "min_us": 49,
+   "max_us": 54,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts128/ref/tamper": {
+   "iters": 1,
+   "avg_us": 97,
+   "min_us": 97,
+   "max_us": 97,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts128/opt/kat": {
+   "iters": 1,
+   "avg_us": 989,
+   "min_us": 989,
+   "max_us": 989,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts128/opt/keygen": {
+   "iters": 3,
+   "avg_us": 78,
+   "min_us": 78,
+   "max_us": 79,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts128/opt/sign": {
+   "iters": 3,
+   "avg_us": 5177,
+   "min_us": 5114,
+   "max_us": 5275,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts128/opt/verify": {
+   "iters": 3,
+   "avg_us": 53,
+   "min_us": 52,
+   "max_us": 56,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "darts128/opt/tamper": {
+   "iters": 1,
+   "avg_us": 96,
+   "min_us": 96,
+   "max_us": 96,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "darts128/ref/kat0-pk": {
+   "sha256_16": "af911a101fa03226d47bf88a72886251",
+   "len": 1120
+  },
+  "darts128/ref/kat0-sk": {
+   "sha256_16": "bf59a8adbf7d74f4b148e58bbf43c20c",
+   "len": 1536
+  },
+  "darts128/ref/kat0-sig": {
+   "sha256_16": "8d52e94da64673402b4588723d40c39c",
+   "len": 1449
+  },
+  "darts128/ref/pk": {
+   "sha256_16": "ce26e9143e8032490c44b8b97459aa5f",
+   "len": 1120
+  },
+  "darts128/ref/sk": {
+   "sha256_16": "6d28cd3f6a613416e0b6b5615b65ab82",
+   "len": 1536
+  },
+  "darts128/ref/sig": {
+   "sha256_16": "14a3fad2e5c448cfd34a3f03b70d72f0",
+   "len": 1449
+  },
+  "darts128/opt/kat0-pk": {
+   "sha256_16": "af911a101fa03226d47bf88a72886251",
+   "len": 1120
+  },
+  "darts128/opt/kat0-sk": {
+   "sha256_16": "bf59a8adbf7d74f4b148e58bbf43c20c",
+   "len": 1536
+  },
+  "darts128/opt/kat0-sig": {
+   "sha256_16": "8d52e94da64673402b4588723d40c39c",
+   "len": 1449
+  },
+  "darts128/opt/pk": {
+   "sha256_16": "ce26e9143e8032490c44b8b97459aa5f",
+   "len": 1120
+  },
+  "darts128/opt/sk": {
+   "sha256_16": "6d28cd3f6a613416e0b6b5615b65ab82",
+   "len": 1536
+  },
+  "darts128/opt/sig": {
+   "sha256_16": "14a3fad2e5c448cfd34a3f03b70d72f0",
+   "len": 1449
+  }
+ },
+ "checks": {
+  "darts128/ref/kat-roundtrip": "PASS",
+  "darts128/ref/tampered-rejected": "PASS",
+  "darts128/opt/kat-roundtrip": "PASS",
+  "darts128/opt/tampered-rejected": "PASS"
+ },
+ "info": {
+  "darts128": "kind=SIG pk=1120 sk=1536 sig=1449",
+  "job_stack": "0",
+  "kat0_sig_len": "1449",
+  "sig_len": "1449"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "sig_DARTS__DARTS128",
+ "pid": "sig_DARTS",
+ "param": "DARTS128",
+ "kind": "SIG",
+ "seconds": 1.6,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_SIG_DARTS128.txt",
+  "fields": [
+   "pk",
+   "sk",
+   "sn"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

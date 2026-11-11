@@ -1,0 +1,192 @@
+{
+ "results": {
+  "oaep-ntru-2592/ref/kat": {
+   "iters": 1,
+   "avg_us": 385,
+   "min_us": 385,
+   "max_us": 385,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "oaep-ntru-2592/ref/keygen": {
+   "iters": 3,
+   "avg_us": 148,
+   "min_us": 147,
+   "max_us": 149,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "oaep-ntru-2592/ref/encaps": {
+   "iters": 3,
+   "avg_us": 119,
+   "min_us": 118,
+   "max_us": 123,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "oaep-ntru-2592/ref/decaps": {
+   "iters": 3,
+   "avg_us": 103,
+   "min_us": 103,
+   "max_us": 103,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "oaep-ntru-2592/ref/tamper": {
+   "iters": 1,
+   "avg_us": 95,
+   "min_us": 95,
+   "max_us": 95,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "oaep-ntru-2592/opt/kat": {
+   "iters": 1,
+   "avg_us": 406,
+   "min_us": 406,
+   "max_us": 406,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "oaep-ntru-2592/opt/keygen": {
+   "iters": 3,
+   "avg_us": 155,
+   "min_us": 155,
+   "max_us": 155,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "oaep-ntru-2592/opt/encaps": {
+   "iters": 3,
+   "avg_us": 121,
+   "min_us": 121,
+   "max_us": 121,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "oaep-ntru-2592/opt/decaps": {
+   "iters": 3,
+   "avg_us": 97,
+   "min_us": 97,
+   "max_us": 97,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "oaep-ntru-2592/opt/tamper": {
+   "iters": 1,
+   "avg_us": 104,
+   "min_us": 104,
+   "max_us": 104,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "oaep-ntru-2592/ref/kat0-pk": {
+   "sha256_16": "e258ce9194606417322a73b5e1b0f2e9",
+   "len": 4860
+  },
+  "oaep-ntru-2592/ref/kat0-sk": {
+   "sha256_16": "fe2f674160acd1b57ad8cbf5a7d64e6e",
+   "len": 9848
+  },
+  "oaep-ntru-2592/ref/kat0-ct": {
+   "sha256_16": "192b288f63f1d5b990581ce29f3dbf09",
+   "len": 4988
+  },
+  "oaep-ntru-2592/ref/kat0-ss": {
+   "sha256_16": "b3c50f9dc1d81906b8f06803fcac34c0",
+   "len": 64
+  },
+  "oaep-ntru-2592/ref/pk": {
+   "sha256_16": "ede300acffc218fc4f3eccc9f5624e9a",
+   "len": 4860
+  },
+  "oaep-ntru-2592/ref/sk": {
+   "sha256_16": "b09af1a8fa17aaaa5217b48635c2819d",
+   "len": 9848
+  },
+  "oaep-ntru-2592/ref/ct": {
+   "sha256_16": "a069806efb0571f48b8e7540c9be0427",
+   "len": 4988
+  },
+  "oaep-ntru-2592/ref/ss": {
+   "sha256_16": "1b546770c345eaa1fbc39ae3ee32fd59",
+   "len": 64
+  },
+  "oaep-ntru-2592/opt/kat0-pk": {
+   "sha256_16": "e258ce9194606417322a73b5e1b0f2e9",
+   "len": 4860
+  },
+  "oaep-ntru-2592/opt/kat0-sk": {
+   "sha256_16": "fe2f674160acd1b57ad8cbf5a7d64e6e",
+   "len": 9848
+  },
+  "oaep-ntru-2592/opt/kat0-ct": {
+   "sha256_16": "192b288f63f1d5b990581ce29f3dbf09",
+   "len": 4988
+  },
+  "oaep-ntru-2592/opt/kat0-ss": {
+   "sha256_16": "b3c50f9dc1d81906b8f06803fcac34c0",
+   "len": 64
+  },
+  "oaep-ntru-2592/opt/pk": {
+   "sha256_16": "ede300acffc218fc4f3eccc9f5624e9a",
+   "len": 4860
+  },
+  "oaep-ntru-2592/opt/sk": {
+   "sha256_16": "b09af1a8fa17aaaa5217b48635c2819d",
+   "len": 9848
+  },
+  "oaep-ntru-2592/opt/ct": {
+   "sha256_16": "a069806efb0571f48b8e7540c9be0427",
+   "len": 4988
+  },
+  "oaep-ntru-2592/opt/ss": {
+   "sha256_16": "1b546770c345eaa1fbc39ae3ee32fd59",
+   "len": 64
+  }
+ },
+ "checks": {
+  "oaep-ntru-2592/ref/kat-roundtrip": "PASS",
+  "oaep-ntru-2592/ref/tampered-ct-rejected": "PASS",
+  "oaep-ntru-2592/opt/kat-roundtrip": "PASS",
+  "oaep-ntru-2592/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "oaep-ntru-2592": "kind=KEM pk=4860 sk=9848 ct=4988 ss=64",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_OAEP-NTRU__OAEP-NTRU-2592",
+ "pid": "kem_OAEP-NTRU",
+ "param": "OAEP-NTRU-2592",
+ "kind": "KEM",
+ "seconds": 1.9,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_OAEP-NTRU-2592.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

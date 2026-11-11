@@ -1,0 +1,192 @@
+{
+ "results": {
+  "trike-9/ref/kat": {
+   "iters": 1,
+   "avg_us": 690674,
+   "min_us": 690674,
+   "max_us": 690674,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "trike-9/ref/keygen": {
+   "iters": 3,
+   "avg_us": 448207,
+   "min_us": 353208,
+   "max_us": 587548,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "trike-9/ref/encaps": {
+   "iters": 3,
+   "avg_us": 29367,
+   "min_us": 22626,
+   "max_us": 35535,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "trike-9/ref/decaps": {
+   "iters": 3,
+   "avg_us": 346039,
+   "min_us": 311212,
+   "max_us": 413129,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "trike-9/ref/tamper": {
+   "iters": 1,
+   "avg_us": 316837,
+   "min_us": 316837,
+   "max_us": 316837,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "trike-9/opt/kat": {
+   "iters": 1,
+   "avg_us": 765006,
+   "min_us": 765006,
+   "max_us": 765006,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "trike-9/opt/keygen": {
+   "iters": 3,
+   "avg_us": 381079,
+   "min_us": 296071,
+   "max_us": 484976,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "trike-9/opt/encaps": {
+   "iters": 3,
+   "avg_us": 22186,
+   "min_us": 20242,
+   "max_us": 25743,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "trike-9/opt/decaps": {
+   "iters": 3,
+   "avg_us": 213036,
+   "min_us": 204784,
+   "max_us": 223895,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "trike-9/opt/tamper": {
+   "iters": 1,
+   "avg_us": 227846,
+   "min_us": 227846,
+   "max_us": 227846,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "trike-9/ref/kat0-pk": {
+   "sha256_16": "89309afb82d28ccba9413eecebaef132",
+   "len": 14320
+  },
+  "trike-9/ref/kat0-sk": {
+   "sha256_16": "076d346328fef4ad6d93bc507aa9c134",
+   "len": 44228
+  },
+  "trike-9/ref/kat0-ct": {
+   "sha256_16": "55c64c6a6b4cff765934e2a33ebf0dae",
+   "len": 28576
+  },
+  "trike-9/ref/kat0-ss": {
+   "sha256_16": "e207936bfe9deb9ddc302b5316df3c28",
+   "len": 64
+  },
+  "trike-9/ref/pk": {
+   "sha256_16": "54360f5d39ee18fc524999232811b2b8",
+   "len": 14320
+  },
+  "trike-9/ref/sk": {
+   "sha256_16": "4c462bf2eadd051b76147336f9594c5c",
+   "len": 44228
+  },
+  "trike-9/ref/ct": {
+   "sha256_16": "1b6f7717e144acc3375cdcb02485cf5f",
+   "len": 28576
+  },
+  "trike-9/ref/ss": {
+   "sha256_16": "8d58b7a9e57f70da10c43da80176a44e",
+   "len": 64
+  },
+  "trike-9/opt/kat0-pk": {
+   "sha256_16": "89309afb82d28ccba9413eecebaef132",
+   "len": 14320
+  },
+  "trike-9/opt/kat0-sk": {
+   "sha256_16": "076d346328fef4ad6d93bc507aa9c134",
+   "len": 44228
+  },
+  "trike-9/opt/kat0-ct": {
+   "sha256_16": "55c64c6a6b4cff765934e2a33ebf0dae",
+   "len": 28576
+  },
+  "trike-9/opt/kat0-ss": {
+   "sha256_16": "e207936bfe9deb9ddc302b5316df3c28",
+   "len": 64
+  },
+  "trike-9/opt/pk": {
+   "sha256_16": "54360f5d39ee18fc524999232811b2b8",
+   "len": 14320
+  },
+  "trike-9/opt/sk": {
+   "sha256_16": "4c462bf2eadd051b76147336f9594c5c",
+   "len": 44228
+  },
+  "trike-9/opt/ct": {
+   "sha256_16": "1b6f7717e144acc3375cdcb02485cf5f",
+   "len": 28576
+  },
+  "trike-9/opt/ss": {
+   "sha256_16": "8d58b7a9e57f70da10c43da80176a44e",
+   "len": 64
+  }
+ },
+ "checks": {
+  "trike-9/ref/kat-roundtrip": "PASS",
+  "trike-9/ref/tampered-ct-rejected": "PASS",
+  "trike-9/opt/kat-roundtrip": "PASS",
+  "trike-9/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "trike-9": "kind=KEM pk=14320 sk=44228 ct=28576 ss=64",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_TRIKE__TRIKE-9",
+ "pid": "kem_TRIKE",
+ "param": "TRIKE-9",
+ "kind": "KEM",
+ "seconds": 8.4,
+ "kat": {
+  "result": "match",
+  "file": "Implementations and Test_Vectors/Test_Vectors/KAT_KEM_TRIKE-9.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}

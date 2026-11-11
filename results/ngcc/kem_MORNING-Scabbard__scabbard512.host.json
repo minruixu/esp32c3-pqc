@@ -1,0 +1,192 @@
+{
+ "results": {
+  "scabbard512/ref/kat": {
+   "iters": 1,
+   "avg_us": 1777,
+   "min_us": 1777,
+   "max_us": 1777,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scabbard512/ref/keygen": {
+   "iters": 3,
+   "avg_us": 568,
+   "min_us": 530,
+   "max_us": 595,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scabbard512/ref/encaps": {
+   "iters": 3,
+   "avg_us": 595,
+   "min_us": 574,
+   "max_us": 630,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scabbard512/ref/decaps": {
+   "iters": 3,
+   "avg_us": 540,
+   "min_us": 529,
+   "max_us": 548,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scabbard512/ref/tamper": {
+   "iters": 1,
+   "avg_us": 538,
+   "min_us": 538,
+   "max_us": 538,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scabbard512/opt/kat": {
+   "iters": 1,
+   "avg_us": 1784,
+   "min_us": 1784,
+   "max_us": 1784,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scabbard512/opt/keygen": {
+   "iters": 3,
+   "avg_us": 573,
+   "min_us": 517,
+   "max_us": 655,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scabbard512/opt/encaps": {
+   "iters": 3,
+   "avg_us": 577,
+   "min_us": 559,
+   "max_us": 590,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scabbard512/opt/decaps": {
+   "iters": 3,
+   "avg_us": 579,
+   "min_us": 534,
+   "max_us": 608,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "scabbard512/opt/tamper": {
+   "iters": 1,
+   "avg_us": 518,
+   "min_us": 518,
+   "max_us": 518,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "scabbard512/ref/kat0-pk": {
+   "sha256_16": "396172add603494e350dfde13ec6d837",
+   "len": 2880
+  },
+  "scabbard512/ref/kat0-sk": {
+   "sha256_16": "be062d25af502b8fa0cb3c0d73fa9776",
+   "len": 4032
+  },
+  "scabbard512/ref/kat0-ct": {
+   "sha256_16": "32d31ca26e407400c3dc19d76f28d2f9",
+   "len": 3072
+  },
+  "scabbard512/ref/kat0-ss": {
+   "sha256_16": "8d6b36385a2deee8a76bb6d76d4a6c08",
+   "len": 64
+  },
+  "scabbard512/ref/pk": {
+   "sha256_16": "535ed04876dc68b19465f2defdc61da5",
+   "len": 2880
+  },
+  "scabbard512/ref/sk": {
+   "sha256_16": "e92b496d749e363996c2284e05498826",
+   "len": 4032
+  },
+  "scabbard512/ref/ct": {
+   "sha256_16": "896ccd44e4846cc11a9e780cf504e342",
+   "len": 3072
+  },
+  "scabbard512/ref/ss": {
+   "sha256_16": "40605dda8d45e793b4f4d5e161a1a20b",
+   "len": 64
+  },
+  "scabbard512/opt/kat0-pk": {
+   "sha256_16": "396172add603494e350dfde13ec6d837",
+   "len": 2880
+  },
+  "scabbard512/opt/kat0-sk": {
+   "sha256_16": "be062d25af502b8fa0cb3c0d73fa9776",
+   "len": 4032
+  },
+  "scabbard512/opt/kat0-ct": {
+   "sha256_16": "32d31ca26e407400c3dc19d76f28d2f9",
+   "len": 3072
+  },
+  "scabbard512/opt/kat0-ss": {
+   "sha256_16": "8d6b36385a2deee8a76bb6d76d4a6c08",
+   "len": 64
+  },
+  "scabbard512/opt/pk": {
+   "sha256_16": "535ed04876dc68b19465f2defdc61da5",
+   "len": 2880
+  },
+  "scabbard512/opt/sk": {
+   "sha256_16": "e92b496d749e363996c2284e05498826",
+   "len": 4032
+  },
+  "scabbard512/opt/ct": {
+   "sha256_16": "896ccd44e4846cc11a9e780cf504e342",
+   "len": 3072
+  },
+  "scabbard512/opt/ss": {
+   "sha256_16": "40605dda8d45e793b4f4d5e161a1a20b",
+   "len": 64
+  }
+ },
+ "checks": {
+  "scabbard512/ref/kat-roundtrip": "PASS",
+  "scabbard512/ref/tampered-ct-rejected": "PASS",
+  "scabbard512/opt/kat-roundtrip": "PASS",
+  "scabbard512/opt/tampered-ct-rejected": "PASS"
+ },
+ "info": {
+  "scabbard512": "kind=KEM pk=2880 sk=4032 ct=3072 ss=64",
+  "job_stack": "0"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0,
+ "unit": "kem_MORNING-Scabbard__scabbard512",
+ "pid": "kem_MORNING-Scabbard",
+ "param": "scabbard512",
+ "kind": "KEM",
+ "seconds": 2.1,
+ "kat": {
+  "result": "match",
+  "file": "Test_Vectors/KAT_KEM_scabbard512.txt",
+  "fields": [
+   "ct",
+   "pk",
+   "sk",
+   "ss"
+  ]
+ },
+ "verdict": "works",
+ "reason": ""
+}
