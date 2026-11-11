@@ -1,0 +1,345 @@
+{
+ "results": {
+  "hqc1/ref/kat": {
+   "iters": 1,
+   "avg_us": 3068181,
+   "min_us": 3068181,
+   "max_us": 3068181,
+   "stack": 66220,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc1/ref/keygen": {
+   "iters": 3,
+   "avg_us": 276923,
+   "min_us": 276919,
+   "max_us": 276929,
+   "stack": 52924,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc1/ref/encaps": {
+   "iters": 3,
+   "avg_us": 553302,
+   "min_us": 553300,
+   "max_us": 553306,
+   "stack": 59100,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc1/ref/decaps": {
+   "iters": 3,
+   "avg_us": 1117684,
+   "min_us": 1117681,
+   "max_us": 1117686,
+   "stack": 66108,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc1/ref/reject": {
+   "iters": 3,
+   "avg_us": 1117684,
+   "min_us": 1117681,
+   "max_us": 1117686,
+   "stack": 66108,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc/opt/selftest-gf": {
+   "iters": 1,
+   "avg_us": 161877,
+   "min_us": 161877,
+   "max_us": 161877,
+   "stack": 284,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc/opt/selftest-code": {
+   "iters": 1,
+   "avg_us": 664454,
+   "min_us": 664454,
+   "max_us": 664454,
+   "stack": 1724,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc1/opt/kat": {
+   "iters": 1,
+   "avg_us": 170125,
+   "min_us": 170125,
+   "max_us": 170125,
+   "stack": 20428,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc1/opt/keygen": {
+   "iters": 10,
+   "avg_us": 5517,
+   "min_us": 5514,
+   "max_us": 5524,
+   "stack": 10828,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc1/opt/encaps": {
+   "iters": 10,
+   "avg_us": 11459,
+   "min_us": 11458,
+   "max_us": 11463,
+   "stack": 13308,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc1/opt/decaps": {
+   "iters": 10,
+   "avg_us": 27854,
+   "min_us": 27850,
+   "max_us": 27856,
+   "stack": 20444,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc1/opt/reject": {
+   "iters": 10,
+   "avg_us": 27853,
+   "min_us": 27850,
+   "max_us": 27856,
+   "stack": 20444,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc1/opt/probe": {
+   "iters": 1,
+   "avg_us": 91408,
+   "min_us": 91408,
+   "max_us": 91408,
+   "stack": 22828,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc3/opt/kat": {
+   "iters": 1,
+   "avg_us": 379740,
+   "min_us": 379740,
+   "max_us": 379740,
+   "stack": 39244,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc3/opt/keygen": {
+   "iters": 10,
+   "avg_us": 12612,
+   "min_us": 12609,
+   "max_us": 12616,
+   "stack": 20188,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc3/opt/encaps": {
+   "iters": 10,
+   "avg_us": 27129,
+   "min_us": 27126,
+   "max_us": 27132,
+   "stack": 25436,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc3/opt/decaps": {
+   "iters": 10,
+   "avg_us": 61268,
+   "min_us": 61267,
+   "max_us": 61272,
+   "stack": 39260,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc3/opt/reject": {
+   "iters": 10,
+   "avg_us": 61267,
+   "min_us": 61267,
+   "max_us": 61272,
+   "stack": 39260,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc3/opt/probe": {
+   "iters": 1,
+   "avg_us": 241157,
+   "min_us": 241157,
+   "max_us": 241157,
+   "stack": 44060,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc5/opt/kat": {
+   "iters": 1,
+   "avg_us": 692364,
+   "min_us": 692364,
+   "max_us": 692364,
+   "stack": 61628,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc5/opt/keygen": {
+   "iters": 10,
+   "avg_us": 22850,
+   "min_us": 22848,
+   "max_us": 22857,
+   "stack": 31324,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc5/opt/encaps": {
+   "iters": 10,
+   "avg_us": 50189,
+   "min_us": 50189,
+   "max_us": 50190,
+   "stack": 39644,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc5/opt/decaps": {
+   "iters": 10,
+   "avg_us": 112113,
+   "min_us": 112112,
+   "max_us": 112117,
+   "stack": 61644,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc5/opt/reject": {
+   "iters": 10,
+   "avg_us": 112113,
+   "min_us": 112112,
+   "max_us": 112117,
+   "stack": 61644,
+   "heap": 0,
+   "rc": 0
+  },
+  "hqc5/opt/probe": {
+   "iters": 1,
+   "avg_us": 486543,
+   "min_us": 486543,
+   "max_us": 486543,
+   "stack": 69452,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "hqc1/ref/ss_reject": {
+   "sha256_16": "c4ea140efe7b1d137f732db592f3c010",
+   "len": 32
+  },
+  "hqc1/ref/pk": {
+   "sha256_16": "62c9a773d76a9ca3d1cdebc675af0c6e",
+   "len": 2241
+  },
+  "hqc1/ref/sk": {
+   "sha256_16": "d5ad731fa597c72e311bea11ba64c378",
+   "len": 32
+  },
+  "hqc1/ref/ct": {
+   "sha256_16": "fba19853c279bb90f596a3713d7d61f9",
+   "len": 4433
+  },
+  "hqc1/ref/ss": {
+   "sha256_16": "217ef900d18a7327832957ac000ff189",
+   "len": 32
+  },
+  "hqc1/opt/ss_reject": {
+   "sha256_16": "649cb9d2c46a93ff7628518443681cd1",
+   "len": 32
+  },
+  "hqc1/opt/pk": {
+   "sha256_16": "9ebff2f4d751929c9eb9c1b43320a343",
+   "len": 2241
+  },
+  "hqc1/opt/sk": {
+   "sha256_16": "1bb4db8b5373c4cb732729ca72aca147",
+   "len": 32
+  },
+  "hqc1/opt/ct": {
+   "sha256_16": "9ffbb29f5c3acd58ca0321655ada57f9",
+   "len": 4433
+  },
+  "hqc1/opt/ss": {
+   "sha256_16": "c11d057d4ec96eabaf75cd173cd13481",
+   "len": 32
+  },
+  "hqc3/opt/ss_reject": {
+   "sha256_16": "280b6d4d1f019584414659a7da9b14f2",
+   "len": 32
+  },
+  "hqc3/opt/pk": {
+   "sha256_16": "ee0c82a93548376297214a0b9a8f68d1",
+   "len": 4514
+  },
+  "hqc3/opt/sk": {
+   "sha256_16": "1bb4db8b5373c4cb732729ca72aca147",
+   "len": 32
+  },
+  "hqc3/opt/ct": {
+   "sha256_16": "f8315096f4cdcf6835a20f3933c9dcf5",
+   "len": 8978
+  },
+  "hqc3/opt/ss": {
+   "sha256_16": "0a2ba8a8c4eb3a58284475e9e9a0425a",
+   "len": 32
+  },
+  "hqc5/opt/ss_reject": {
+   "sha256_16": "4ca0a3184bb59f002cf56e2a037f2d40",
+   "len": 32
+  },
+  "hqc5/opt/pk": {
+   "sha256_16": "d674a368d07c696195cec61e979204e7",
+   "len": 7237
+  },
+  "hqc5/opt/sk": {
+   "sha256_16": "1bb4db8b5373c4cb732729ca72aca147",
+   "len": 32
+  },
+  "hqc5/opt/ct": {
+   "sha256_16": "05cc91b962560f0e1fae0fc34eb617af",
+   "len": 14421
+  },
+  "hqc5/opt/ss": {
+   "sha256_16": "f0f66da9c9e015ba9b8ae1b73f6576a7",
+   "len": 32
+  }
+ },
+ "checks": {
+  "hqc1/ref/kat": "PASS",
+  "hqc/opt/selftest-gf": "PASS",
+  "hqc/opt/selftest-code": "PASS",
+  "hqc1/opt/kat": "PASS",
+  "hqc1/opt/probe": "PASS",
+  "hqc3/opt/kat": "PASS",
+  "hqc3/opt/probe": "PASS",
+  "hqc5/opt/kat": "PASS",
+  "hqc5/opt/probe": "PASS"
+ },
+ "info": {
+  "heap": "free=140664 largest_block=114688",
+  "hqc1": "pk=2241 sk=32 ct=4433 ss=32",
+  "hqc1/opt/ct-mul": "weight=76 trials=24 cycles_min=375346 cycles_max=375346",
+  "hqc1/opt/profile-1": "cycles: mul=375346 expand_h=369113 hash_h=372072 hash_j=737089",
+  "hqc1/opt/profile-2": "cycles: pke_keygen=857318 pke_encrypt=1418656 pke_decrypt=960126",
+  "hqc1/opt/profile-3": "cycles: code_encode=33140 rm_decode=340250 rs_decode=205556",
+  "hqc3": "pk=4514 sk=32 ct=8978 ss=32",
+  "hqc3/opt/ct-mul": "weight=114 trials=24 cycles_min=1126986 cycles_max=1126986",
+  "hqc3/opt/profile-1": "cycles: mul=1126986 expand_h=716217 hash_h=744480 hash_j=1496310",
+  "hqc3/opt/profile-2": "cycles: pke_keygen=1989302 pke_encrypt=3512564 pke_decrypt=1857674",
+  "hqc3/opt/profile-3": "cycles: code_encode=57279 rm_decode=443106 rs_decode=268291",
+  "hqc5": "pk=7237 sk=32 ct=14421 ss=32",
+  "hqc5/opt/ct-mul": "weight=150 trials=24 cycles_min=2370894 cycles_max=2370894",
+  "hqc5/opt/profile-1": "cycles: mul=2370894 expand_h=1150076 hash_h=1181844 hash_j=2389175",
+  "hqc5/opt/profile-2": "cycles: pke_keygen=3625917 pke_encrypt=6740895 pke_decrypt=3720461",
+  "hqc5/opt/profile-3": "cycles: code_encode=126141 rm_decode=706642 rs_decode=725912"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 160,
+ "heap_free_start": 140664,
+ "heap_free_min": 54300
+}
