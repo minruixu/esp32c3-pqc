@@ -1,0 +1,130 @@
+{
+ "checks": {
+  "gmssl-xmssmt-sm3-20_4/opt/reject": "PASS",
+  "gmssl-xmssmt-sm3-20_4/opt/verify": "PASS",
+  "gmssl-xmssmt-sm3-20_4/ref/reject": "PASS",
+  "gmssl-xmssmt-sm3-20_4/ref/verify": "PASS",
+  "gmssl-xmsstest/opt/quick": "PASS",
+  "gmssl-xmsstest/ref/quick": "PASS"
+ },
+ "complete": true,
+ "cpu_mhz": 160,
+ "digests": {
+  "gmssl-xmssmt-sm3-20_4/opt/pk": {
+   "len": 68,
+   "sha256_16": "c0eed2ae5cc700cd944a7d028042b4aa"
+  },
+  "gmssl-xmssmt-sm3-20_4/opt/sig": {
+   "len": 9251,
+   "sha256_16": "b801798c98ae4da0c77923bce8e797fc"
+  },
+  "gmssl-xmssmt-sm3-20_4/ref/pk": {
+   "len": 68,
+   "sha256_16": "c0eed2ae5cc700cd944a7d028042b4aa"
+  },
+  "gmssl-xmssmt-sm3-20_4/ref/sig": {
+   "len": 9251,
+   "sha256_16": "b801798c98ae4da0c77923bce8e797fc"
+  }
+ },
+ "fails": 0,
+ "heap_free_min": 88460,
+ "heap_free_start": 154344,
+ "info": {
+  "gmssl-sm3-compress/opt": "256 blocks: prims backend 6514 us, GmSSL 6167 us; fast mode uses GmSSL",
+  "gmssl-xmss-sm3-10": "pk=0 sig=0",
+  "gmssl-xmssmt-sm3-20_4": "pk=68 sig=9251"
+ },
+ "results": {
+  "gmssl-xmssmt-sm3-20_4/opt/keygen": {
+   "avg_us": 24906305,
+   "heap": 0,
+   "iters": 1,
+   "max_us": 24906305,
+   "min_us": 24906305,
+   "rc": 0,
+   "stack": 8076
+  },
+  "gmssl-xmssmt-sm3-20_4/opt/reject": {
+   "avg_us": 410623,
+   "heap": 0,
+   "iters": 1,
+   "max_us": 410623,
+   "min_us": 410623,
+   "rc": 0,
+   "stack": 5644
+  },
+  "gmssl-xmssmt-sm3-20_4/opt/sign": {
+   "avg_us": 89373,
+   "heap": 0,
+   "iters": 8,
+   "max_us": 99081,
+   "min_us": 76537,
+   "rc": 0,
+   "stack": 29228
+  },
+  "gmssl-xmssmt-sm3-20_4/opt/verify": {
+   "avg_us": 387857,
+   "heap": 0,
+   "iters": 3,
+   "max_us": 387859,
+   "min_us": 387854,
+   "rc": 0,
+   "stack": 5628
+  },
+  "gmssl-xmssmt-sm3-20_4/ref/keygen": {
+   "avg_us": 24856473,
+   "heap": 8192,
+   "iters": 1,
+   "max_us": 24856473,
+   "min_us": 24856473,
+   "rc": 0,
+   "stack": 8076
+  },
+  "gmssl-xmssmt-sm3-20_4/ref/reject": {
+   "avg_us": 409804,
+   "heap": 0,
+   "iters": 1,
+   "max_us": 409804,
+   "min_us": 409804,
+   "rc": 0,
+   "stack": 5644
+  },
+  "gmssl-xmssmt-sm3-20_4/ref/sign": {
+   "avg_us": 89195,
+   "heap": 0,
+   "iters": 8,
+   "max_us": 98879,
+   "min_us": 76386,
+   "rc": 0,
+   "stack": 29228
+  },
+  "gmssl-xmssmt-sm3-20_4/ref/verify": {
+   "avg_us": 387084,
+   "heap": 0,
+   "iters": 3,
+   "max_us": 387086,
+   "min_us": 387081,
+   "rc": 0,
+   "stack": 5628
+  },
+  "gmssl-xmsstest/opt/quick": {
+   "avg_us": 3059445,
+   "heap": 0,
+   "iters": 1,
+   "max_us": 3059445,
+   "min_us": 3059445,
+   "rc": 0,
+   "stack": 6876
+  },
+  "gmssl-xmsstest/ref/quick": {
+   "avg_us": 3053349,
+   "heap": 0,
+   "iters": 1,
+   "max_us": 3053349,
+   "min_us": 3053349,
+   "rc": 0,
+   "stack": 6876
+  }
+ }
+}

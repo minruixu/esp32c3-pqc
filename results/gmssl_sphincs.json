@@ -1,0 +1,51 @@
+{
+ "checks": {
+  "gmssl-sphincstest/opt/quick": "PASS",
+  "gmssl-sphincstest/ref/quick": "PASS"
+ },
+ "complete": true,
+ "cpu_mhz": 160,
+ "digests": {
+  "gmssl-sphincs-sm3-128s/opt/pk": {
+   "len": 32,
+   "sha256_16": "12a63a60107da8408b667a4fe830dcc7"
+  }
+ },
+ "fails": 0,
+ "heap_free_min": 175164,
+ "heap_free_start": 208672,
+ "info": {
+  "gmssl-sm3-compress/opt": "256 blocks: prims backend 6514 us, GmSSL 6167 us; fast mode uses GmSSL",
+  "gmssl-sphincs-sm3-128s": "pk=0 sig=0",
+  "gmssl-sphincs-sm3-128s/opt/skipped": "run with -f gmssl-sphincs-sm3-128s/opt"
+ },
+ "results": {
+  "gmssl-sphincs-sm3-128s/opt/keygen": {
+   "avg_us": 16046868,
+   "heap": 0,
+   "iters": 1,
+   "max_us": 16046868,
+   "min_us": 16046868,
+   "rc": 0,
+   "stack": 312
+  },
+  "gmssl-sphincstest/opt/quick": {
+   "avg_us": 123399,
+   "heap": 16,
+   "iters": 1,
+   "max_us": 123399,
+   "min_us": 123399,
+   "rc": 0,
+   "stack": 3684
+  },
+  "gmssl-sphincstest/ref/quick": {
+   "avg_us": 121851,
+   "heap": 16,
+   "iters": 1,
+   "max_us": 121851,
+   "min_us": 121851,
+   "rc": 0,
+   "stack": 3684
+  }
+ }
+}

@@ -99,3 +99,15 @@ All dates 2026-11-11 unless noted.
     - A run started with `--no-build` loaded whatever binary was in the build
       directory when it got the board, so a rebuild during the wait could hand
       it a half-written image. `tools/pqc` now loads a private copy.
+13. **The LMS, XMSS and GmSSL line delivered** (`reports/D-lms-xmss-gmssl.md`).
+    LMS/HSS is an implementation written for this project (no heap, 10.7 KB
+    per key); XMSS and XMSS^MT are the reference code with its OpenSSL hashing
+    replaced; GmSSL contributes Kyber-768 and the SM3-based LMS, HSS and
+    XMSS^MT. With the hash chains running on the SHA-256 accelerator's
+    registers, LMS-SHA256 H5/W8 key generation went from 10.9 s to 0.47 s and
+    XMSS-SHA2_10_256 key generation from 236 s to 13 s. Not feasible as GmSSL
+    implements them: SPHINCS+-SM3 signing (131 KB of trees in local
+    variables) and XMSS-SM3 with height 10 (one 65 KB allocation). One
+    negative result worth keeping: routing GmSSL's SM3 through the shared
+    primitive made it 6.6% slower, because GmSSL's own unrolled compression is
+    faster on this chip than the project's "fast" SM3.

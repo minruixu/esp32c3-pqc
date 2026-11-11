@@ -1,0 +1,243 @@
+{
+ "results": {
+  "gmssl-lmstest/ref/quick": {
+   "iters": 1,
+   "avg_us": 6156,
+   "min_us": 6156,
+   "max_us": 6156,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lmstest/ref/hostfull": {
+   "iters": 1,
+   "avg_us": 1596319,
+   "min_us": 1596319,
+   "max_us": 1596319,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/ref/keygen": {
+   "iters": 1,
+   "avg_us": 39228,
+   "min_us": 39228,
+   "max_us": 39228,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/ref/sign": {
+   "iters": 16,
+   "avg_us": 608,
+   "min_us": 544,
+   "max_us": 652,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/ref/verify": {
+   "iters": 3,
+   "avg_us": 654,
+   "min_us": 644,
+   "max_us": 671,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/ref/reject": {
+   "iters": 1,
+   "avg_us": 659,
+   "min_us": 659,
+   "max_us": 659,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/ref/keygen": {
+   "iters": 1,
+   "avg_us": 79461,
+   "min_us": 79461,
+   "max_us": 79461,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/ref/sign": {
+   "iters": 16,
+   "avg_us": 596,
+   "min_us": 488,
+   "max_us": 679,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/ref/verify": {
+   "iters": 3,
+   "avg_us": 1284,
+   "min_us": 1280,
+   "max_us": 1290,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/ref/reject": {
+   "iters": 1,
+   "avg_us": 590,
+   "min_us": 590,
+   "max_us": 590,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lmstest/opt/quick": {
+   "iters": 1,
+   "avg_us": 4901,
+   "min_us": 4901,
+   "max_us": 4901,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lmstest/opt/hostfull": {
+   "iters": 1,
+   "avg_us": 2152133,
+   "min_us": 2152133,
+   "max_us": 2152133,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/opt/keygen": {
+   "iters": 1,
+   "avg_us": 54150,
+   "min_us": 54150,
+   "max_us": 54150,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/opt/sign": {
+   "iters": 16,
+   "avg_us": 846,
+   "min_us": 746,
+   "max_us": 953,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/opt/verify": {
+   "iters": 3,
+   "avg_us": 941,
+   "min_us": 932,
+   "max_us": 958,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-lms-sm3-h5/opt/reject": {
+   "iters": 1,
+   "avg_us": 845,
+   "min_us": 845,
+   "max_us": 845,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/opt/keygen": {
+   "iters": 1,
+   "avg_us": 109863,
+   "min_us": 109863,
+   "max_us": 109863,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/opt/sign": {
+   "iters": 16,
+   "avg_us": 780,
+   "min_us": 613,
+   "max_us": 893,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/opt/verify": {
+   "iters": 3,
+   "avg_us": 1749,
+   "min_us": 1647,
+   "max_us": 1833,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "gmssl-hss-sm3-h5-h5/opt/reject": {
+   "iters": 1,
+   "avg_us": 750,
+   "min_us": 750,
+   "max_us": 750,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "gmssl-lms-sm3-h5/ref/pk": {
+   "sha256_16": "577044a012005382ea102e71511b6a67",
+   "len": 56
+  },
+  "gmssl-lms-sm3-h5/ref/sig": {
+   "sha256_16": "16bd3d0d43947e709caf49634fbbad9e",
+   "len": 1292
+  },
+  "gmssl-hss-sm3-h5-h5/ref/pk": {
+   "sha256_16": "08990a0b4b140d302a1b9708e5c4f0fb",
+   "len": 60
+  },
+  "gmssl-hss-sm3-h5-h5/ref/sig": {
+   "sha256_16": "8666c9968bbfc891a28f04b455295655",
+   "len": 2644
+  },
+  "gmssl-lms-sm3-h5/opt/pk": {
+   "sha256_16": "577044a012005382ea102e71511b6a67",
+   "len": 56
+  },
+  "gmssl-lms-sm3-h5/opt/sig": {
+   "sha256_16": "16bd3d0d43947e709caf49634fbbad9e",
+   "len": 1292
+  },
+  "gmssl-hss-sm3-h5-h5/opt/pk": {
+   "sha256_16": "08990a0b4b140d302a1b9708e5c4f0fb",
+   "len": 60
+  },
+  "gmssl-hss-sm3-h5-h5/opt/sig": {
+   "sha256_16": "8666c9968bbfc891a28f04b455295655",
+   "len": 2644
+  }
+ },
+ "checks": {
+  "gmssl-lmstest/ref/quick": "PASS",
+  "gmssl-lmstest/ref/hostfull": "PASS",
+  "gmssl-lms-sm3-h5/ref/verify": "PASS",
+  "gmssl-lms-sm3-h5/ref/reject": "PASS",
+  "gmssl-hss-sm3-h5-h5/ref/verify": "PASS",
+  "gmssl-hss-sm3-h5-h5/ref/reject": "PASS",
+  "gmssl-lmstest/opt/quick": "PASS",
+  "gmssl-lmstest/opt/hostfull": "PASS",
+  "gmssl-lms-sm3-h5/opt/verify": "PASS",
+  "gmssl-lms-sm3-h5/opt/reject": "PASS",
+  "gmssl-hss-sm3-h5-h5/opt/verify": "PASS",
+  "gmssl-hss-sm3-h5-h5/opt/reject": "PASS"
+ },
+ "info": {
+  "gmssl-lms-sm3-h5": "pk=56 sig=1292",
+  "gmssl-hss-sm3-h5-h5": "pk=60 sig=2644",
+  "gmssl-lms-sm3-h10/ref/skipped": "run with -f gmssl-lms-sm3-h10/ref",
+  "gmssl-lms-sm3-h10/opt/skipped": "run with -f gmssl-lms-sm3-h10/opt"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}

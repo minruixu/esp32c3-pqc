@@ -1,0 +1,1172 @@
+{
+ "results": {
+  "kat-rfc8554_tc1/ref/verify": {
+   "iters": 1,
+   "avg_us": 6268,
+   "min_us": 6268,
+   "max_us": 6268,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc8554_tc2/ref/verify": {
+   "iters": 1,
+   "avg_us": 1930,
+   "min_us": 1930,
+   "max_us": 1930,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc8554_tc2/ref/keygen+sign": {
+   "iters": 1,
+   "avg_us": 204266,
+   "min_us": 204266,
+   "max_us": 204266,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc1/ref/verify": {
+   "iters": 1,
+   "avg_us": 1327,
+   "min_us": 1327,
+   "max_us": 1327,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc1/ref/keygen+sign": {
+   "iters": 1,
+   "avg_us": 30036,
+   "min_us": 30036,
+   "max_us": 30036,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc2/ref/verify": {
+   "iters": 1,
+   "avg_us": 1522,
+   "min_us": 1522,
+   "max_us": 1522,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc3/ref/verify": {
+   "iters": 1,
+   "avg_us": 2698,
+   "min_us": 2698,
+   "max_us": 2698,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc4/ref/verify": {
+   "iters": 1,
+   "avg_us": 193,
+   "min_us": 193,
+   "max_us": 193,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc4/ref/keygen+sign": {
+   "iters": 1,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-gmssl_sm3_hss/ref/verify": {
+   "iters": 1,
+   "avg_us": 2622,
+   "min_us": 2622,
+   "max_us": 2622,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 37566,
+   "min_us": 37566,
+   "max_us": 37566,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w8/ref/sign": {
+   "iters": 32,
+   "avg_us": 556,
+   "min_us": 441,
+   "max_us": 647,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w8/ref/verify": {
+   "iters": 10,
+   "avg_us": 722,
+   "min_us": 706,
+   "max_us": 765,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/ref/keygen": {
+   "iters": 1,
+   "avg_us": 4741,
+   "min_us": 4741,
+   "max_us": 4741,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/ref/sign": {
+   "iters": 32,
+   "avg_us": 73,
+   "min_us": 60,
+   "max_us": 85,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/ref/verify": {
+   "iters": 10,
+   "avg_us": 89,
+   "min_us": 78,
+   "max_us": 181,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/ref/selftest": {
+   "iters": 1,
+   "avg_us": 17333,
+   "min_us": 17333,
+   "max_us": 17333,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w2/ref/keygen": {
+   "iters": 1,
+   "avg_us": 2601,
+   "min_us": 2601,
+   "max_us": 2601,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w2/ref/sign": {
+   "iters": 32,
+   "avg_us": 44,
+   "min_us": 40,
+   "max_us": 53,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w2/ref/verify": {
+   "iters": 10,
+   "avg_us": 38,
+   "min_us": 38,
+   "max_us": 40,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w1/ref/keygen": {
+   "iters": 1,
+   "avg_us": 2729,
+   "min_us": 2729,
+   "max_us": 2729,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w1/ref/sign": {
+   "iters": 32,
+   "avg_us": 60,
+   "min_us": 50,
+   "max_us": 145,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w1/ref/verify": {
+   "iters": 10,
+   "avg_us": 37,
+   "min_us": 37,
+   "max_us": 39,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/ref/keygen": {
+   "iters": 1,
+   "avg_us": 161979,
+   "min_us": 161979,
+   "max_us": 161979,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/ref/sign": {
+   "iters": 70,
+   "avg_us": 190,
+   "min_us": 65,
+   "max_us": 518,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/ref/verify": {
+   "iters": 10,
+   "avg_us": 72,
+   "min_us": 71,
+   "max_us": 79,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h5-w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 29514,
+   "min_us": 29514,
+   "max_us": 29514,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h5-w8/ref/sign": {
+   "iters": 32,
+   "avg_us": 468,
+   "min_us": 344,
+   "max_us": 629,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h5-w8/ref/verify": {
+   "iters": 10,
+   "avg_us": 483,
+   "min_us": 465,
+   "max_us": 561,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h10-w4/ref/keygen": {
+   "iters": 1,
+   "avg_us": 123589,
+   "min_us": 123589,
+   "max_us": 123589,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h10-w4/ref/sign": {
+   "iters": 70,
+   "avg_us": 158,
+   "min_us": 47,
+   "max_us": 453,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h10-w4/ref/verify": {
+   "iters": 10,
+   "avg_us": 77,
+   "min_us": 73,
+   "max_us": 88,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m32-h5-w4/ref/keygen": {
+   "iters": 1,
+   "avg_us": 8079,
+   "min_us": 8079,
+   "max_us": 8079,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m32-h5-w4/ref/sign": {
+   "iters": 32,
+   "avg_us": 130,
+   "min_us": 108,
+   "max_us": 265,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m32-h5-w4/ref/verify": {
+   "iters": 10,
+   "avg_us": 117,
+   "min_us": 115,
+   "max_us": 120,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m24-h5-w4/ref/keygen": {
+   "iters": 1,
+   "avg_us": 5812,
+   "min_us": 5812,
+   "max_us": 5812,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m24-h5-w4/ref/sign": {
+   "iters": 32,
+   "avg_us": 95,
+   "min_us": 83,
+   "max_us": 117,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m24-h5-w4/ref/verify": {
+   "iters": 10,
+   "avg_us": 83,
+   "min_us": 82,
+   "max_us": 85,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 56220,
+   "min_us": 56220,
+   "max_us": 56220,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/ref/sign": {
+   "iters": 32,
+   "avg_us": 788,
+   "min_us": 642,
+   "max_us": 1019,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/ref/verify": {
+   "iters": 10,
+   "avg_us": 855,
+   "min_us": 822,
+   "max_us": 906,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hss-sha256-h5w8-h5w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 74340,
+   "min_us": 74340,
+   "max_us": 74340,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hss-sha256-h5w8-h5w8/ref/sign": {
+   "iters": 40,
+   "avg_us": 1505,
+   "min_us": 440,
+   "max_us": 38094,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hss-sha256-h5w8-h5w8/ref/verify": {
+   "iters": 5,
+   "avg_us": 1290,
+   "min_us": 1277,
+   "max_us": 1311,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc8554_tc1/opt/verify": {
+   "iters": 1,
+   "avg_us": 2894,
+   "min_us": 2894,
+   "max_us": 2894,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc8554_tc2/opt/verify": {
+   "iters": 1,
+   "avg_us": 1155,
+   "min_us": 1155,
+   "max_us": 1155,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc8554_tc2/opt/keygen+sign": {
+   "iters": 1,
+   "avg_us": 156595,
+   "min_us": 156595,
+   "max_us": 156595,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc1/opt/verify": {
+   "iters": 1,
+   "avg_us": 1073,
+   "min_us": 1073,
+   "max_us": 1073,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc1/opt/keygen+sign": {
+   "iters": 1,
+   "avg_us": 23897,
+   "min_us": 23897,
+   "max_us": 23897,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc2/opt/verify": {
+   "iters": 1,
+   "avg_us": 1477,
+   "min_us": 1477,
+   "max_us": 1477,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc2/opt/keygen+sign": {
+   "iters": 1,
+   "avg_us": 31354,
+   "min_us": 31354,
+   "max_us": 31354,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc3/opt/verify": {
+   "iters": 1,
+   "avg_us": 1996,
+   "min_us": 1996,
+   "max_us": 1996,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc3/opt/keygen+sign": {
+   "iters": 1,
+   "avg_us": 41091,
+   "min_us": 41091,
+   "max_us": 41091,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc4/opt/verify": {
+   "iters": 1,
+   "avg_us": 166,
+   "min_us": 166,
+   "max_us": 166,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-rfc9858_tc4/opt/keygen+sign": {
+   "iters": 1,
+   "avg_us": 0,
+   "min_us": 0,
+   "max_us": 0,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "kat-gmssl_sm3_hss/opt/verify": {
+   "iters": 1,
+   "avg_us": 2571,
+   "min_us": 2571,
+   "max_us": 2571,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w8/opt/keygen": {
+   "iters": 1,
+   "avg_us": 30184,
+   "min_us": 30184,
+   "max_us": 30184,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w8/opt/sign": {
+   "iters": 32,
+   "avg_us": 445,
+   "min_us": 354,
+   "max_us": 497,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w8/opt/verify": {
+   "iters": 10,
+   "avg_us": 581,
+   "min_us": 572,
+   "max_us": 589,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/opt/keygen": {
+   "iters": 1,
+   "avg_us": 3831,
+   "min_us": 3831,
+   "max_us": 3831,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/opt/sign": {
+   "iters": 32,
+   "avg_us": 60,
+   "min_us": 49,
+   "max_us": 80,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/opt/verify": {
+   "iters": 10,
+   "avg_us": 65,
+   "min_us": 64,
+   "max_us": 69,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w4/opt/selftest": {
+   "iters": 1,
+   "avg_us": 13814,
+   "min_us": 13814,
+   "max_us": 13814,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w2/opt/keygen": {
+   "iters": 1,
+   "avg_us": 2145,
+   "min_us": 2145,
+   "max_us": 2145,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w2/opt/sign": {
+   "iters": 32,
+   "avg_us": 37,
+   "min_us": 33,
+   "max_us": 43,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w2/opt/verify": {
+   "iters": 10,
+   "avg_us": 34,
+   "min_us": 32,
+   "max_us": 44,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w1/opt/keygen": {
+   "iters": 1,
+   "avg_us": 2416,
+   "min_us": 2416,
+   "max_us": 2416,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w1/opt/sign": {
+   "iters": 32,
+   "avg_us": 46,
+   "min_us": 43,
+   "max_us": 50,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h5-w1/opt/verify": {
+   "iters": 10,
+   "avg_us": 35,
+   "min_us": 34,
+   "max_us": 39,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/opt/keygen": {
+   "iters": 1,
+   "avg_us": 123350,
+   "min_us": 123350,
+   "max_us": 123350,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/opt/sign": {
+   "iters": 70,
+   "avg_us": 129,
+   "min_us": 50,
+   "max_us": 200,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/opt/verify": {
+   "iters": 10,
+   "avg_us": 62,
+   "min_us": 58,
+   "max_us": 80,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w4/opt/selftest": {
+   "iters": 1,
+   "avg_us": 134236,
+   "min_us": 134236,
+   "max_us": 134236,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/opt/keygen": {
+   "iters": 1,
+   "avg_us": 959843,
+   "min_us": 959843,
+   "max_us": 959843,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/opt/sign": {
+   "iters": 40,
+   "avg_us": 631,
+   "min_us": 354,
+   "max_us": 1463,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m32-h10-w8/opt/verify": {
+   "iters": 10,
+   "avg_us": 518,
+   "min_us": 499,
+   "max_us": 539,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h5-w8/opt/keygen": {
+   "iters": 1,
+   "avg_us": 23030,
+   "min_us": 23030,
+   "max_us": 23030,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h5-w8/opt/sign": {
+   "iters": 32,
+   "avg_us": 349,
+   "min_us": 276,
+   "max_us": 424,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h5-w8/opt/verify": {
+   "iters": 10,
+   "avg_us": 393,
+   "min_us": 385,
+   "max_us": 405,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h10-w4/opt/keygen": {
+   "iters": 1,
+   "avg_us": 92885,
+   "min_us": 92885,
+   "max_us": 92885,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h10-w4/opt/sign": {
+   "iters": 70,
+   "avg_us": 95,
+   "min_us": 38,
+   "max_us": 156,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sha256-m24-h10-w4/opt/verify": {
+   "iters": 10,
+   "avg_us": 45,
+   "min_us": 43,
+   "max_us": 50,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m32-h5-w4/opt/keygen": {
+   "iters": 1,
+   "avg_us": 5119,
+   "min_us": 5119,
+   "max_us": 5119,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m32-h5-w4/opt/sign": {
+   "iters": 32,
+   "avg_us": 83,
+   "min_us": 70,
+   "max_us": 91,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m32-h5-w4/opt/verify": {
+   "iters": 10,
+   "avg_us": 78,
+   "min_us": 75,
+   "max_us": 94,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m24-h5-w4/opt/keygen": {
+   "iters": 1,
+   "avg_us": 3833,
+   "min_us": 3833,
+   "max_us": 3833,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m24-h5-w4/opt/sign": {
+   "iters": 32,
+   "avg_us": 63,
+   "min_us": 54,
+   "max_us": 81,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-shake-m24-h5-w4/opt/verify": {
+   "iters": 10,
+   "avg_us": 54,
+   "min_us": 52,
+   "max_us": 55,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/opt/keygen": {
+   "iters": 1,
+   "avg_us": 49815,
+   "min_us": 49815,
+   "max_us": 49815,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/opt/sign": {
+   "iters": 32,
+   "avg_us": 762,
+   "min_us": 588,
+   "max_us": 914,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h5-w8/opt/verify": {
+   "iters": 10,
+   "avg_us": 915,
+   "min_us": 894,
+   "max_us": 954,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hss-sha256-h5w8-h5w8/opt/keygen": {
+   "iters": 1,
+   "avg_us": 60249,
+   "min_us": 60249,
+   "max_us": 60249,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hss-sha256-h5w8-h5w8/opt/sign": {
+   "iters": 40,
+   "avg_us": 1219,
+   "min_us": 349,
+   "max_us": 30922,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "hss-sha256-h5w8-h5w8/opt/verify": {
+   "iters": 5,
+   "avg_us": 1043,
+   "min_us": 1036,
+   "max_us": 1053,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/ref/keygen": {
+   "iters": 1,
+   "avg_us": 1615626,
+   "min_us": 1615626,
+   "max_us": 1615626,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/ref/sign": {
+   "iters": 40,
+   "avg_us": 1087,
+   "min_us": 589,
+   "max_us": 2391,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/ref/verify": {
+   "iters": 10,
+   "avg_us": 919,
+   "min_us": 881,
+   "max_us": 971,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/opt/keygen": {
+   "iters": 1,
+   "avg_us": 1614345,
+   "min_us": 1614345,
+   "max_us": 1614345,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/opt/sign": {
+   "iters": 40,
+   "avg_us": 1111,
+   "min_us": 630,
+   "max_us": 2366,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  },
+  "lms-sm3-m32-h10-w8/opt/verify": {
+   "iters": 10,
+   "avg_us": 948,
+   "min_us": 917,
+   "max_us": 1003,
+   "stack": 0,
+   "heap": 0,
+   "rc": 0
+  }
+ },
+ "digests": {
+  "lms-sha256-m32-h5-w8/ref/pk": {
+   "sha256_16": "1484a3c811ff9990c7cf5e160de8497a",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w8/ref/sig": {
+   "sha256_16": "c7cde4b7d4af6593393c5f11c04f1535",
+   "len": 1292
+  },
+  "lms-sha256-m32-h5-w4/ref/pk": {
+   "sha256_16": "89cc51b9bf97d5c98f10734e39ef6006",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w4/ref/sig": {
+   "sha256_16": "4216f55e084fff3add503407558925cd",
+   "len": 2348
+  },
+  "lms-sha256-m32-h5-w2/ref/pk": {
+   "sha256_16": "347617828398869c7214c0090f88328a",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w2/ref/sig": {
+   "sha256_16": "184b110860464d99e8bc90ce49c8682d",
+   "len": 4460
+  },
+  "lms-sha256-m32-h5-w1/ref/pk": {
+   "sha256_16": "48c6117c935c6a6d149592922b4e8288",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w1/ref/sig": {
+   "sha256_16": "2ec970029cfedb5602696ed5165f28ac",
+   "len": 8684
+  },
+  "lms-sha256-m32-h10-w4/ref/pk": {
+   "sha256_16": "479ef3b581325ddea846d175b4234f91",
+   "len": 56
+  },
+  "lms-sha256-m32-h10-w4/ref/sig": {
+   "sha256_16": "0d94f6326bbf67916062636867825572",
+   "len": 2508
+  },
+  "lms-sha256-m24-h5-w8/ref/pk": {
+   "sha256_16": "b7428e0d3acc26b8fc9f3eb2821ddf18",
+   "len": 48
+  },
+  "lms-sha256-m24-h5-w8/ref/sig": {
+   "sha256_16": "b388e50cdeb5bfb7ba0844360935a173",
+   "len": 780
+  },
+  "lms-sha256-m24-h10-w4/ref/pk": {
+   "sha256_16": "ee064eb94505f736815e5c942b551942",
+   "len": 48
+  },
+  "lms-sha256-m24-h10-w4/ref/sig": {
+   "sha256_16": "7366ef8fd533bc8a6ea169456defa75e",
+   "len": 1500
+  },
+  "lms-shake-m32-h5-w4/ref/pk": {
+   "sha256_16": "a7d59e7ad63043932b82e7770f139bba",
+   "len": 56
+  },
+  "lms-shake-m32-h5-w4/ref/sig": {
+   "sha256_16": "b4eec274653453e26f1f89c232ff8f6d",
+   "len": 2348
+  },
+  "lms-shake-m24-h5-w4/ref/pk": {
+   "sha256_16": "2ecb2585f4ddba2cce48d13e97686c69",
+   "len": 48
+  },
+  "lms-shake-m24-h5-w4/ref/sig": {
+   "sha256_16": "03b03127e1c049a93973db69ab191cd4",
+   "len": 1380
+  },
+  "lms-sm3-m32-h5-w8/ref/pk": {
+   "sha256_16": "577044a012005382ea102e71511b6a67",
+   "len": 56
+  },
+  "lms-sm3-m32-h5-w8/ref/sig": {
+   "sha256_16": "8e00ddb96f4791ca5a406621b995ca62",
+   "len": 1292
+  },
+  "hss-sha256-h5w8-h5w8/ref/pk": {
+   "sha256_16": "a90f0f9cc0d778603db4d70604d3a14d",
+   "len": 60
+  },
+  "hss-sha256-h5w8-h5w8/ref/sig": {
+   "sha256_16": "f7c23cb52a5f174672c33eb79fd4dddf",
+   "len": 2644
+  },
+  "lms-sha256-m32-h5-w8/opt/pk": {
+   "sha256_16": "1484a3c811ff9990c7cf5e160de8497a",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w8/opt/sig": {
+   "sha256_16": "c7cde4b7d4af6593393c5f11c04f1535",
+   "len": 1292
+  },
+  "lms-sha256-m32-h5-w4/opt/pk": {
+   "sha256_16": "89cc51b9bf97d5c98f10734e39ef6006",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w4/opt/sig": {
+   "sha256_16": "4216f55e084fff3add503407558925cd",
+   "len": 2348
+  },
+  "lms-sha256-m32-h5-w2/opt/pk": {
+   "sha256_16": "347617828398869c7214c0090f88328a",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w2/opt/sig": {
+   "sha256_16": "184b110860464d99e8bc90ce49c8682d",
+   "len": 4460
+  },
+  "lms-sha256-m32-h5-w1/opt/pk": {
+   "sha256_16": "48c6117c935c6a6d149592922b4e8288",
+   "len": 56
+  },
+  "lms-sha256-m32-h5-w1/opt/sig": {
+   "sha256_16": "2ec970029cfedb5602696ed5165f28ac",
+   "len": 8684
+  },
+  "lms-sha256-m32-h10-w4/opt/pk": {
+   "sha256_16": "479ef3b581325ddea846d175b4234f91",
+   "len": 56
+  },
+  "lms-sha256-m32-h10-w4/opt/sig": {
+   "sha256_16": "0d94f6326bbf67916062636867825572",
+   "len": 2508
+  },
+  "lms-sha256-m32-h10-w4/opt/sig100": {
+   "sha256_16": "aac3663d5195df41dc2a401d3702e3a9",
+   "len": 2508
+  },
+  "lms-sha256-m32-h10-w8/opt/pk": {
+   "sha256_16": "457790dd462c8b89bda43164e30585d0",
+   "len": 56
+  },
+  "lms-sha256-m32-h10-w8/opt/sig": {
+   "sha256_16": "3d30aefaca444236c532f638243d9190",
+   "len": 1452
+  },
+  "lms-sha256-m24-h5-w8/opt/pk": {
+   "sha256_16": "b7428e0d3acc26b8fc9f3eb2821ddf18",
+   "len": 48
+  },
+  "lms-sha256-m24-h5-w8/opt/sig": {
+   "sha256_16": "b388e50cdeb5bfb7ba0844360935a173",
+   "len": 780
+  },
+  "lms-sha256-m24-h10-w4/opt/pk": {
+   "sha256_16": "ee064eb94505f736815e5c942b551942",
+   "len": 48
+  },
+  "lms-sha256-m24-h10-w4/opt/sig": {
+   "sha256_16": "7366ef8fd533bc8a6ea169456defa75e",
+   "len": 1500
+  },
+  "lms-shake-m32-h5-w4/opt/pk": {
+   "sha256_16": "a7d59e7ad63043932b82e7770f139bba",
+   "len": 56
+  },
+  "lms-shake-m32-h5-w4/opt/sig": {
+   "sha256_16": "b4eec274653453e26f1f89c232ff8f6d",
+   "len": 2348
+  },
+  "lms-shake-m24-h5-w4/opt/pk": {
+   "sha256_16": "2ecb2585f4ddba2cce48d13e97686c69",
+   "len": 48
+  },
+  "lms-shake-m24-h5-w4/opt/sig": {
+   "sha256_16": "03b03127e1c049a93973db69ab191cd4",
+   "len": 1380
+  },
+  "lms-sm3-m32-h5-w8/opt/pk": {
+   "sha256_16": "577044a012005382ea102e71511b6a67",
+   "len": 56
+  },
+  "lms-sm3-m32-h5-w8/opt/sig": {
+   "sha256_16": "8e00ddb96f4791ca5a406621b995ca62",
+   "len": 1292
+  },
+  "hss-sha256-h5w8-h5w8/opt/pk": {
+   "sha256_16": "a90f0f9cc0d778603db4d70604d3a14d",
+   "len": 60
+  },
+  "hss-sha256-h5w8-h5w8/opt/sig": {
+   "sha256_16": "f7c23cb52a5f174672c33eb79fd4dddf",
+   "len": 2644
+  },
+  "lms-sm3-m32-h10-w8/ref/pk": {
+   "sha256_16": "9cc46cd714007b3629f0bfa855c03721",
+   "len": 56
+  },
+  "lms-sm3-m32-h10-w8/ref/sig": {
+   "sha256_16": "4ba7725423de0d17a6d29667ed76b02d",
+   "len": 1452
+  },
+  "lms-sm3-m32-h10-w8/opt/pk": {
+   "sha256_16": "9cc46cd714007b3629f0bfa855c03721",
+   "len": 56
+  },
+  "lms-sm3-m32-h10-w8/opt/sig": {
+   "sha256_16": "4ba7725423de0d17a6d29667ed76b02d",
+   "len": 1452
+  }
+ },
+ "checks": {
+  "kat-rfc8554_tc1/ref/verify": "PASS",
+  "kat-rfc8554_tc2/ref/verify": "PASS",
+  "kat-rfc8554_tc2/ref/keygen+sign": "PASS",
+  "kat-rfc9858_tc1/ref/verify": "PASS",
+  "kat-rfc9858_tc1/ref/keygen+sign": "PASS",
+  "kat-rfc9858_tc2/ref/verify": "PASS",
+  "kat-rfc9858_tc3/ref/verify": "PASS",
+  "kat-rfc9858_tc4/ref/verify": "PASS",
+  "kat-rfc9858_tc4/ref/keygen+sign": "PASS",
+  "kat-gmssl_sm3_hss/ref/verify": "PASS",
+  "lms-sha256-m32-h5-w4/ref/selftest": "PASS",
+  "hss-sha256-h5w8-h5w8/ref/verify": "PASS",
+  "kat-rfc8554_tc1/opt/verify": "PASS",
+  "kat-rfc8554_tc2/opt/verify": "PASS",
+  "kat-rfc8554_tc2/opt/keygen+sign": "PASS",
+  "kat-rfc9858_tc1/opt/verify": "PASS",
+  "kat-rfc9858_tc1/opt/keygen+sign": "PASS",
+  "kat-rfc9858_tc2/opt/verify": "PASS",
+  "kat-rfc9858_tc2/opt/keygen+sign": "PASS",
+  "kat-rfc9858_tc3/opt/verify": "PASS",
+  "kat-rfc9858_tc3/opt/keygen+sign": "PASS",
+  "kat-rfc9858_tc4/opt/verify": "PASS",
+  "kat-rfc9858_tc4/opt/keygen+sign": "PASS",
+  "kat-gmssl_sm3_hss/opt/verify": "PASS",
+  "lms-sha256-m32-h5-w4/opt/selftest": "PASS",
+  "lms-sha256-m32-h10-w4/opt/selftest": "PASS",
+  "hss-sha256-h5w8-h5w8/opt/verify": "PASS"
+ },
+ "info": {
+  "kat-rfc8554_tc2/ref/steps": "3",
+  "kat-rfc9858_tc1/ref/steps": "2",
+  "kat-rfc9858_tc2/ref/keygen+sign": "only run in the opt variant",
+  "kat-rfc9858_tc3/ref/keygen+sign": "only run in the opt variant",
+  "kat-rfc9858_tc4/ref/steps": "0",
+  "lms-sha256-m32-h5-w8": "pk=56 sig=1292 signatures=32 n=32 w=8 p=34",
+  "lms-sha256-m32-h5-w4": "pk=56 sig=2348 signatures=32 n=32 w=4 p=67",
+  "lms-sha256-m32-h5-w2": "pk=56 sig=4460 signatures=32 n=32 w=2 p=133",
+  "lms-sha256-m32-h5-w1": "pk=56 sig=8684 signatures=32 n=32 w=1 p=265",
+  "lms-sha256-m32-h10-w4": "pk=56 sig=2508 signatures=1024 n=32 w=4 p=67",
+  "lms-sha256-m32-h10-w8/ref/skipped": "run with -f lms-sha256-m32-h10-w8/ref",
+  "lms-sha256-m24-h5-w8": "pk=48 sig=780 signatures=32 n=24 w=8 p=26",
+  "lms-sha256-m24-h10-w4": "pk=48 sig=1500 signatures=1024 n=24 w=4 p=51",
+  "lms-shake-m32-h5-w4": "pk=56 sig=2348 signatures=32 n=32 w=4 p=67",
+  "lms-shake-m24-h5-w4": "pk=48 sig=1380 signatures=32 n=24 w=4 p=51",
+  "lms-sm3-m32-h5-w8": "pk=56 sig=1292 signatures=32 n=32 w=8 p=34",
+  "lms-sm3-m32-h10-w8/ref/skipped": "run with -f lms-sm3-m32-h10-w8/ref",
+  "hss-sha256-h5w8-h5w8": "pk=60 sig=2644 signatures=1024",
+  "kat-rfc8554_tc2/opt/steps": "3",
+  "kat-rfc9858_tc1/opt/steps": "2",
+  "kat-rfc9858_tc2/opt/steps": "2",
+  "kat-rfc9858_tc3/opt/steps": "2",
+  "kat-rfc9858_tc4/opt/steps": "0",
+  "lms-sha256-m32-h10-w8": "pk=56 sig=1452 signatures=1024 n=32 w=8 p=34",
+  "lms-sm3-m32-h10-w8/opt/skipped": "run with -f lms-sm3-m32-h10-w8/opt",
+  "lms-sm3-m32-h10-w8": "pk=56 sig=1452 signatures=1024 n=32 w=8 p=34"
+ },
+ "complete": true,
+ "fails": 0,
+ "cpu_mhz": 0,
+ "heap_free_start": 0,
+ "heap_free_min": 0
+}
