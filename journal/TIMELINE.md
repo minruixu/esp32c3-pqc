@@ -161,3 +161,14 @@ All dates 2026-11-11 unless noted.
     self-test checks, 1004 fingerprints; no failed job, no failed check, and
     every fingerprint equals the host build. The NGCC generic port is counted
     separately: its per-candidate outcomes are in `docs/ngcc/status.md`.
+17. **`main` assembled (2026-11-12).** `main` is the tree of this branch at
+    entry 16 without `journal/`, `tools/journal.py` and the compiler-flag and
+    profiling result files, committed in nine steps by algorithm family and
+    then merged back here so that `main` is an ancestor of this branch. As an
+    end-to-end check, a clean checkout of `main` was built, loaded and run on
+    the board for one suite (`fndsa`): 17 jobs pass, 12 fingerprints equal
+    the host, and the average times are within one microsecond of the
+    recorded ones.
+    The checksum of the board's whole flash, read after the last run, is the
+    same as the one read before the project's first run: nothing was written
+    to the board.

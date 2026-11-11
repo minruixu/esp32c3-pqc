@@ -91,7 +91,7 @@ def git(*args):
 
 def progress():
     commits = [l.split("|", 2) for l in
-               git("log", "--reverse", "--format=%h|%ad|%s", "--date=short", "--", "results").splitlines()]
+               git("log", "--first-parent", "--reverse", "--format=%h|%ad|%s", "--date=short", "--", "results").splitlines()]
     series = {}   # (suite, job) -> list of (commit, date, avg_us)
     for h, date, _subject in commits:
         files = git("ls-tree", "-r", "--name-only", h, "results").splitlines()

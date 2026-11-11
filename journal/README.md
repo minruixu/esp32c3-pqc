@@ -15,6 +15,10 @@ This branch (`optimization-journal`) is the working record of the project.
 The commit history of this branch is part of the record: work-in-progress
 snapshots are committed as they were, including states that were later
 replaced. `results/*.json` at each commit are the measurements of that state.
+`main` is an ancestor of this branch. The only files here that `main` does
+not have are `journal/`, `tools/journal.py` and five result files of
+compiler-flag and profiling runs (`results/mlkem_O3`, `mlkem_Os`,
+`mlkem_prof`, `mldsa_O3`, `mldsa_prof`).
 
 ## Format of an experiment line
 
