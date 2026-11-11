@@ -8,4 +8,8 @@ set(PRIMS_SRCS
     ${PRIMS_DIR}/sm3.c)
 set(PRIMS_INCS ${PRIMS_DIR}/include)
 # Optimized backends, device only: every .c and .S file in opt/ is built.
-file(GLOB PRIMS_DEVICE_SRCS CONFIGURE_DEPENDS ${PRIMS_DIR}/opt/*.c ${PRIMS_DIR}/opt/*.S)
+if(CMAKE_SCRIPT_MODE_FILE)
+    file(GLOB PRIMS_DEVICE_SRCS ${PRIMS_DIR}/opt/*.c ${PRIMS_DIR}/opt/*.S)
+else()
+    file(GLOB PRIMS_DEVICE_SRCS CONFIGURE_DEPENDS ${PRIMS_DIR}/opt/*.c ${PRIMS_DIR}/opt/*.S)
+endif()

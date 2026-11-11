@@ -228,7 +228,7 @@
    "avg_us": 7133,
    "heap": 0,
    "iters": 10,
-   "max_us": 7135,
+   "max_us": 7136,
    "min_us": 7131,
    "rc": 0,
    "stack": 13140
@@ -237,7 +237,7 @@
    "avg_us": 5700,
    "heap": 0,
    "iters": 10,
-   "max_us": 5704,
+   "max_us": 5703,
    "min_us": 5698,
    "rc": 0,
    "stack": 12404
@@ -252,11 +252,11 @@
    "stack": 13220
   },
   "mlkem512/ref/keygen": {
-   "avg_us": 4911,
+   "avg_us": 4910,
    "heap": 0,
    "iters": 10,
    "max_us": 4915,
-   "min_us": 4908,
+   "min_us": 4907,
    "rc": 0,
    "stack": 9764
   },
