@@ -133,6 +133,97 @@ def suite_section(name, dev, host):
     return out
 
 
+# ---------------------------------------------------------------------------
+# One row per algorithm, for the README and docs/SUMMARY.md.
+
+SECTIONS = [
+    ("NIST standards and selections", [
+        ("ML-KEM (FIPS 203)", ["mlkem"]),
+        ("ML-DSA (FIPS 204)", ["mldsa", "mldsa87"]),
+        ("ML-DSA, low-RAM build of mldsa-native", ["mldsa_lowram"]),
+        ("SLH-DSA (FIPS 205)", ["slhdsa"]),
+        ("FN-DSA / Falcon (FIPS 206 draft)", ["fndsa"]),
+        ("HQC (selected 2025, reference v5.1.0)", ["hqc", "hqc3ref"]),
+        ("LMS and HSS (SP 800-208)", ["lms"]),
+        ("XMSS and XMSS^MT (SP 800-208)", ["xmss"]),
+    ]),
+    ("Chinese algorithms and SM3 instantiations", [
+        ("Aigis-enc (PQMagic)", ["aigis_enc"]),
+        ("Aigis-sig (PQMagic)", ["aigis_sig"]),
+        ("Aigis-sig, low-stack build", ["aigis_sig_lowram"]),
+        ("ML-KEM with SM3 (PQMagic)", ["pqmagic_mlkem"]),
+        ("ML-DSA with SM3 (PQMagic)", ["pqmagic_mldsa", "pqmagic_mldsa87"]),
+        ("SLH-DSA with SM3 (PQMagic)", ["pqmagic_slhdsa_sm3"]),
+        ("SPHINCS-alpha (PQMagic)", ["pqmagic_sphincsa"]),
+        ("GmSSL: Kyber and SM3-based hash signatures", ["gmssl_kyber", "gmssl_lms", "gmssl_xmss", "gmssl_sphincs"]),
+        ("LAC", ["lac"]),
+    ]),
+    ("NGCC round-1 candidates with open implementations", [
+        ("Aigis-Enc+ (PQMagic)", ["pqmagic_aigis_enc_plus"]),
+        ("Aigis-Sig+ (PQMagic)", ["pqmagic_aigis_sig_plus"]),
+        ("NEV (PQMagic)", ["pqmagic_nev", "pqmagic_nev_sm3"]),
+        ("NEV-AKE (PQMagic)", ["pqmagic_nev_ake"]),
+        ("SCloud+", ["scloudplus", "scloudplus_256"]),
+    ]),
+]
+COLS = [("Key generation", ["keygen"]),
+        ("Encapsulation / signing", ["encaps", "sign", "init"]),
+        ("Decapsulation / verification", ["decaps", "verify", "response"])]
+
+
+def cell(table, alg, ops):
+    for o in ops:
+        ref, opt = table.get((alg, "ref", o)), table.get((alg, "opt", o))
+        ref = ref if ref and ref["rc"] == 0 else None
+        opt = opt if opt and opt["rc"] == 0 else None
+        if ref and opt:
+            x = ref["avg_us"] / opt["avg_us"] if opt["avg_us"] else 0
+            if 0.98 < x < 1.02:
+                return fmt_time(opt["avg_us"])
+            return "%s → %s (%.1f×)" % (fmt_time(ref["avg_us"]), fmt_time(opt["avg_us"]), x)
+        only = opt or ref
+        if only:
+            return fmt_time(only["avg_us"]) + ("" if opt else " (ref only)")
+        other = [r for (a, v, oo), r in table.items() if a == alg and oo == o and r["rc"] == 0]
+        if other:
+            return fmt_time(other[0]["avg_us"])
+    return ""
+
+
+def summary():
+    out = []
+    for title, groups in SECTIONS:
+        out += ["### %s" % title, ""]
+        for gtitle, suites in groups:
+            table, algs = {}, []
+            for s in suites:
+                path = os.path.join(RESULTS, s + ".json")
+                if not os.path.exists(path):
+                    continue
+                for job, r in json.load(open(path)).get("results", {}).items():
+                    a, v, o = split(job)
+                    table.setdefault((a, v, o), r)
+                    if a not in algs:
+                        algs.append(a)
+            main_ops = [o for _c, ops in COLS for o in ops]
+            algs = [a for a in algs if any((a2 == a and o in main_ops) for (a2, _v, o) in table)]
+            if not algs:
+                continue
+            algs.sort(key=natural)
+            out += ["**%s**" % gtitle, "",
+                    "| Algorithm | " + " | ".join(c for c, _ in COLS) + " | Peak stack + heap |",
+                    "|---|---:|---:|---:|---:|"]
+            for a in algs:
+                cells = [cell(table, a, ops) for _c, ops in COLS]
+                pref = [r for (a2, v, o), r in table.items() if a2 == a and o in main_ops and r["rc"] == 0
+                        and v in ("opt", "lowram")]
+                anyv = pref or [r for (a2, v, o), r in table.items() if a2 == a and o in main_ops and r["rc"] == 0]
+                stack = max([r["stack"] + r.get("heap", 0) for r in anyv] or [0])
+                out.append("| %s | %s | %s | %s | %s |" % (a, cells[0], cells[1], cells[2], fmt_kb(stack)))
+            out.append("")
+    return out
+
+
 def main():
     files = sorted(f for f in glob.glob(os.path.join(RESULTS, "*.json")) if not f.endswith(".host.json"))
     out = ["# Results", "",
@@ -147,9 +238,18 @@ def main():
         host = json.load(open(hp)) if os.path.exists(hp) else None
         out += suite_section(name, dev, host)
     text = "\n".join(out) + "\n"
-    if "--stdout" in sys.argv:
+    stext = "\n".join(["# Summary", "",
+                       "One row per algorithm: `reference → optimized (speedup)`, or a single time where the two",
+                       "do not differ. ESP32-C3 at 160 MHz, images loaded into RAM. The last column is the largest",
+                       "stack plus heap any of the three operations needs in the optimized variant; keys, ciphertexts",
+                       "and signatures held by the caller come on top. Full tables: [RESULTS.md](RESULTS.md).", ""] + summary()) + "\n"
+    if "--summary" in sys.argv:
+        sys.stdout.write(stext)
+    elif "--stdout" in sys.argv:
         sys.stdout.write(text)
     else:
+        with open(os.path.join(ROOT, "docs", "SUMMARY.md"), "w") as fh:
+            fh.write(stext)
         with open(os.path.join(ROOT, "docs", "RESULTS.md"), "w") as fh:
             fh.write(text)
         print("wrote docs/RESULTS.md (%d suites)" % len(files))
