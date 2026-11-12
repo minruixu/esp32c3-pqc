@@ -81,6 +81,8 @@ tools/pqc size <suite>           flash and RAM footprint per library
 tools/pqc md5                    checksum of the whole flash, to confirm nothing wrote to it
 tools/pqc reset                  reset the board back into its own firmware
 python3 tools/runall.py a b c    run several suites with --check and write a summary
+python3 tools/report.py          regenerate docs/RESULTS.md, docs/SUMMARY.md and the README tables
+python3 tools/figures.py         regenerate the README figures in docs/assets from the results
 ```
 
 Jobs that take minutes (reference key generation of the tall hash-based

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 322" width="960" height="322" role="img" aria-label="How every number is checked" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif">
+<rect x="0.5" y="0.5" width="959" height="321" rx="12" fill="#0d1117" stroke="#3d444d"/>
+<text x="28.0" y="40.0" font-size="17" fill="#f0f6fc" font-weight="650">How every number is checked</text>
+<text x="216.0" y="88.0" font-size="10.5" fill="#7d8590" font-weight="650" letter-spacing="0.08em">ON THE CHIP</text>
+<text x="216.0" y="194.0" font-size="10.5" fill="#7d8590" font-weight="650" letter-spacing="0.08em">ON THE BUILD MACHINE</text>
+<rect x="28.0" y="98.0" width="152.0" height="164.0" rx="8" fill="#151b23" stroke="#3d444d"/>
+<text x="104.0" y="177.0" font-size="13" fill="#f0f6fc" font-weight="650" text-anchor="middle">One suite</text>
+<text x="104.0" y="194.0" font-size="11" fill="#9198a1" text-anchor="middle">reference + optimized</text>
+<rect x="780.0" y="98.0" width="152.0" height="164.0" rx="8" fill="#151b23" stroke="#3987e5"/>
+<text x="856.0" y="177.0" font-size="13" fill="#f0f6fc" font-weight="650" text-anchor="middle">Equal?</text>
+<text x="856.0" y="194.0" font-size="11" fill="#9198a1" text-anchor="middle">compared label by label</text>
+<rect x="216.0" y="98.0" width="152.0" height="58.0" rx="8" fill="#151b23" stroke="#3d444d"/>
+<text x="292.0" y="124.0" font-size="13" fill="#f0f6fc" font-weight="650" text-anchor="middle">RAM-only image</text>
+<text x="292.0" y="141.0" font-size="11" fill="#9198a1" text-anchor="middle">flash is never written</text>
+<rect x="404.0" y="98.0" width="152.0" height="58.0" rx="8" fill="#151b23" stroke="#3d444d"/>
+<text x="480.0" y="124.0" font-size="13" fill="#f0f6fc" font-weight="650" text-anchor="middle">Run on the ESP32-C3</text>
+<text x="480.0" y="141.0" font-size="11" fill="#9198a1" text-anchor="middle">time, stack, heap, KATs</text>
+<rect x="592.0" y="98.0" width="152.0" height="58.0" rx="8" fill="#151b23" stroke="#3d444d"/>
+<text x="668.0" y="124.0" font-size="13" fill="#f0f6fc" font-weight="650" text-anchor="middle">Fingerprints</text>
+<text x="668.0" y="141.0" font-size="11" fill="#9198a1" text-anchor="middle">of every output</text>
+<line x1="180.0" y1="127.0" x2="214.0" y2="127.0" stroke="#7d8590" stroke-width="1.5"/>
+<path d="M216.0 127.0 L209.1 131.1 L209.1 122.9 Z" fill="#7d8590"/>
+<line x1="368.0" y1="127.0" x2="402.0" y2="127.0" stroke="#7d8590" stroke-width="1.5"/>
+<path d="M404.0 127.0 L397.1 131.1 L397.1 122.9 Z" fill="#7d8590"/>
+<line x1="556.0" y1="127.0" x2="590.0" y2="127.0" stroke="#7d8590" stroke-width="1.5"/>
+<path d="M592.0 127.0 L585.1 131.1 L585.1 122.9 Z" fill="#7d8590"/>
+<line x1="744.0" y1="127.0" x2="778.0" y2="127.0" stroke="#7d8590" stroke-width="1.5"/>
+<path d="M780.0 127.0 L773.1 131.1 L773.1 122.9 Z" fill="#7d8590"/>
+<rect x="216.0" y="204.0" width="152.0" height="58.0" rx="8" fill="#151b23" stroke="#3d444d"/>
+<text x="292.0" y="230.0" font-size="13" fill="#f0f6fc" font-weight="650" text-anchor="middle">Host build</text>
+<text x="292.0" y="247.0" font-size="11" fill="#9198a1" text-anchor="middle">reference code only</text>
+<rect x="404.0" y="204.0" width="152.0" height="58.0" rx="8" fill="#151b23" stroke="#3d444d"/>
+<text x="480.0" y="230.0" font-size="13" fill="#f0f6fc" font-weight="650" text-anchor="middle">Run on the host</text>
+<text x="480.0" y="247.0" font-size="11" fill="#9198a1" text-anchor="middle">same seeds</text>
+<rect x="592.0" y="204.0" width="152.0" height="58.0" rx="8" fill="#151b23" stroke="#3d444d"/>
+<text x="668.0" y="230.0" font-size="13" fill="#f0f6fc" font-weight="650" text-anchor="middle">Fingerprints</text>
+<text x="668.0" y="247.0" font-size="11" fill="#9198a1" text-anchor="middle">of the same outputs</text>
+<line x1="180.0" y1="233.0" x2="214.0" y2="233.0" stroke="#7d8590" stroke-width="1.5"/>
+<path d="M216.0 233.0 L209.1 237.1 L209.1 228.9 Z" fill="#7d8590"/>
+<line x1="368.0" y1="233.0" x2="402.0" y2="233.0" stroke="#7d8590" stroke-width="1.5"/>
+<path d="M404.0 233.0 L397.1 237.1 L397.1 228.9 Z" fill="#7d8590"/>
+<line x1="556.0" y1="233.0" x2="590.0" y2="233.0" stroke="#7d8590" stroke-width="1.5"/>
+<path d="M592.0 233.0 L585.1 237.1 L585.1 228.9 Z" fill="#7d8590"/>
+<line x1="744.0" y1="233.0" x2="778.0" y2="233.0" stroke="#7d8590" stroke-width="1.5"/>
+<path d="M780.0 233.0 L773.1 237.1 L773.1 228.9 Z" fill="#7d8590"/>
+<text x="28.0" y="296.0" font-size="12.5" fill="#9198a1">A wrong optimization shows up as a mismatch, not as a faster number.</text>
+</svg>
