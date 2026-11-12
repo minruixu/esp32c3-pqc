@@ -10,12 +10,12 @@
 </p>
 
 <p align="center">
-  <a href="docs/SUMMARY.md">Results by algorithm</a> &nbsp;·&nbsp;
+  <a href="docs/SUMMARY.md">Results</a> &nbsp;·&nbsp;
   <a href="docs/RESULTS.md">Every measured job</a> &nbsp;·&nbsp;
-  <a href="docs/ALGORITHMS.md">What is covered</a> &nbsp;·&nbsp;
+  <a href="docs/ALGORITHMS.md">Coverage</a> &nbsp;·&nbsp;
   <a href="docs/FINDINGS.md">Findings</a> &nbsp;·&nbsp;
   <a href="docs/PORTING.md">Add an algorithm</a> &nbsp;·&nbsp;
-  <a href="../../tree/optimization-journal/journal">Optimization journal</a>
+  <a href="../../tree/optimization-journal/journal">Journal</a>
 </p>
 
 This repository ports the post-quantum algorithms that NIST has standardized

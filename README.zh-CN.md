@@ -18,10 +18,7 @@
   <a href="../../tree/optimization-journal/journal">优化过程记录</a>
 </p>
 
-这个仓库把 NIST 已标准化或已选定的后量子算法，以及中国已有公开实现的后量子算法，
-移植到一块 ESP32-C3 上：160 MHz 的 RV32IMC 内核，约 385 KB 内存，没有浮点单元。
-每个算法都在芯片上用已知答案校验正确性并实测，再针对这颗内核做性能优化。放不进
-这块芯片的算法也逐一列出原因。
+这个仓库把 NIST 已标准化或已选定的后量子算法，以及中国已有公开实现的后量子算法，移植到一块 ESP32-C3 上：160 MHz 的 RV32IMC 内核，约 385 KB 内存，没有浮点单元。每个算法都在芯片上用已知答案校验正确性并实测，再针对这颗内核做性能优化。放不进这块芯片的算法也逐一列出原因。
 
 ## 结果
 
@@ -32,12 +29,9 @@
   </picture>
 </p>
 
-- **哈希签名提速最多。** 哈希链直接跑在芯片的 SHA-256 硬件加速器上，中间状态
-  留在外设里：SLH-DSA-SHA2-128f 签名从 3 秒降到 143 毫秒，XMSS-SHA2_10_256
-  生成密钥从 236 秒降到 13 秒。
+- **哈希签名提速最多。** 哈希链直接跑在芯片的 SHA-256 硬件加速器上，中间状态留在外设里：SLH-DSA-SHA2-128f 签名从 3 秒降到 143 毫秒，XMSS-SHA2_10_256 生成密钥从 236 秒降到 13 秒。
 - **HQC 快了 51 到 82 倍。** 换用适合稀疏操作数的乘法，栈占用只有原来的三分之一。
-- **格密码都在毫秒级。** 一次完整的 ML-KEM-768 密钥交换（密钥生成、封装、解封装）
-  共 15 毫秒；ML-DSA-65 签名 45 毫秒。
+- **格密码都在毫秒级。** 一次完整的 ML-KEM-768 密钥交换（密钥生成、封装、解封装）共 15 毫秒；ML-DSA-65 签名 45 毫秒。
 
 <details>
 <summary><b>图中的具体数字</b> — 参考实现 → 优化后（提速倍数），每个算法族一组代表参数</summary>
@@ -66,9 +60,7 @@
 
 </details>
 
-全部参数组见 [docs/SUMMARY.md](docs/SUMMARY.md)，每一项测量及其栈、堆占用见
-[docs/RESULTS.md](docs/RESULTS.md)。“参考实现”是上游的可移植 C 代码，“优化后”
-加上了本项目为 ESP32-C3 写的部分。
+全部参数组见 [docs/SUMMARY.md](docs/SUMMARY.md)，每一项测量及其栈、堆占用见[docs/RESULTS.md](docs/RESULTS.md)。“参考实现”是上游的可移植 C 代码，“优化后”加上了本项目为 ESP32-C3 写的部分。
 
 ## 覆盖范围
 
@@ -96,9 +88,7 @@
 | SCloud+ | LWE 密钥封装，征集候选 | 128、192、256，SM3、SHAKE、AES 三个版本 |
 | NEV、NEV-AKE、Aigis-Enc+、Aigis-Sig+ | 征集候选 | 12 + 9 + 3 + 1 组参数 |
 
-新一代商用密码算法征集第一轮（2026 年 9 月公布）共有 84 个公钥候选。其中 7 个
-改用开源实现单独处理：5 个就是上表里有自己套件的，ReSolveD-alpha 和 QIMEN-PIKE
-放不进这块芯片。其余 77 个由一个通用套件直接从官方提交包编译：
+新一代商用密码算法征集第一轮（2026 年 9 月公布）共有 84 个公钥候选。其中 7 个改用开源实现单独处理：5 个就是上表里有自己套件的，ReSolveD-alpha 和 QIMEN-PIKE 放不进这块芯片。其余 77 个由一个通用套件直接从官方提交包编译：
 
 <p align="center">
   <picture>
@@ -107,9 +97,7 @@
   </picture>
 </p>
 
-每个候选的名称、耗时、内存，以及没能上芯片的原因，见
-[docs/ngcc/status.md](docs/ngcc/status.md)。完整的覆盖清单（含许可和放不下的
-部分）见 [docs/ALGORITHMS.md](docs/ALGORITHMS.md)。
+每个候选的名称、耗时、内存，以及没能上芯片的原因，见[docs/ngcc/status.md](docs/ngcc/status.md)。完整的覆盖清单（含许可和放不下的部分）见 [docs/ALGORITHMS.md](docs/ALGORITHMS.md)。
 
 ## 速度是从哪里来的
 
@@ -124,8 +112,7 @@
 | **紧凑编码表** | 278 KB → 50 KB | SPHINCS-alpha 因此才放得进内存 |
 | **省内存版本** | ML-DSA-65 从 68.5 KB 降到 13.5 KB | ML-DSA、Aigis-sig |
 
-每项优化是怎么找到的、哪些尝试被放弃、这块芯片的限制，以及在 32 位平台上发现的
-上游代码缺陷，见 [docs/FINDINGS.md](docs/FINDINGS.md)。
+每项优化是怎么找到的、哪些尝试被放弃、这块芯片的限制，以及在 32 位平台上发现的上游代码缺陷，见 [docs/FINDINGS.md](docs/FINDINGS.md)。
 
 ## 怎么校验
 
@@ -136,9 +123,7 @@
   </picture>
 </p>
 
-每个套件都在芯片上运行上游自带的已知答案测试。此外，芯片上产生的每一个密钥、
-密文、签名和共享密钥都会取指纹，与编译机上另行编译的参考实现逐项比对。优化版
-必须和参考版输出完全相同的字节。
+每个套件都在芯片上运行上游自带的已知答案测试。此外，芯片上产生的每一个密钥、密文、签名和共享密钥都会取指纹，与编译机上另行编译的参考实现逐项比对。优化版必须和参考版输出完全相同的字节。
 
 ## 怎么运行
 
@@ -153,13 +138,9 @@ python3 tools/figures.py                  # 重新生成本页的配图
 ```
 
 > [!NOTE]
-> 整个项目不写开发板的 Flash。每个套件编译成只在内存中运行的镜像，用
-> `esptool load_ram` 加载；复位之后，开发板仍然运行它原来的固件。
+> 整个项目不写开发板的 Flash。每个套件编译成只在内存中运行的镜像，用`esptool load_ram` 加载；复位之后，开发板仍然运行它原来的固件。
 
-`suites/` 下每个目录是一个套件。SCloud+、LAC 和商用密码征集的提交包没有再分发
-许可，需要先下载源码：`tools/fetch/scloudplus.sh`、`tools/fetch/lac.sh`，征集
-候选见 [docs/ngcc/README.md](docs/ngcc/README.md)。新增算法的方法见
-[docs/PORTING.md](docs/PORTING.md)。
+`suites/` 下每个目录是一个套件。SCloud+、LAC 和商用密码征集的提交包没有再分发许可，需要先下载源码：`tools/fetch/scloudplus.sh`、`tools/fetch/lac.sh`，征集候选见 [docs/ngcc/README.md](docs/ngcc/README.md)。新增算法的方法见[docs/PORTING.md](docs/PORTING.md)。
 
 ## 使用前请注意
 
@@ -193,6 +174,4 @@ docs/                 SUMMARY、RESULTS、ALGORITHMS、FINDINGS、PORTING、ngcc
 
 ## 许可
 
-`third_party/` 下的代码沿用各自的许可，每个目录里有许可全文和记录来源与本地
-改动的 `SOURCE.md`。SLH-DSA 套件使用的 NIST ACVP 样例向量旁附有 NIST 的声明。
-本项目自己编写的代码尚未选定许可。
+`third_party/` 下的代码沿用各自的许可，每个目录里有许可全文和记录来源与本地改动的 `SOURCE.md`。SLH-DSA 套件使用的 NIST ACVP 样例向量旁附有 NIST 的声明。本项目自己编写的代码尚未选定许可。
